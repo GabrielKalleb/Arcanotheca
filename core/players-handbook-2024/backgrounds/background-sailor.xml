@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Marinheiro</name>
@@ -9,22 +9,22 @@
 		</update>
 	</info>
 
-	<element name="Marinheiro" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_SAILOR">
+	<element name="Marinheiro" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_SAILOR">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> ForÃ§a, Destreza, Sabedoria</li>
-				<li><strong>Talento:</strong> BrigÃ£o de Taverna</li>
-				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> Acrobacia e PercepÃ§Ã£o</li>
-				<li><strong>ProficiÃªncia em Ferramenta:</strong> Ferramentas de Navegador</li>
+				<li><strong>Valores de Habilidade:</strong> Força, Destreza, Sabedoria</li>
+				<li><strong>Talento:</strong> Brigão de Taverna</li>
+				<li><strong>Proficiências em Perícias:</strong> Acrobacia e Percepção</li>
+				<li><strong>Proficiência em Ferramenta:</strong> Ferramentas de Navegador</li>
 				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Adaga, Ferramentas de Navegador, Corda, Roupas de Viajante, 20 PO; ou (B) 50 PO</li>
 			</ul>
-			<p>VocÃª viveu como um marinheiro, com o vento nas costas e o convÃ©s balanÃ§ando sob seus pÃ©s. VocÃª sentou-se em bancos de bar em mais portos de escala do que consegue se lembrar, enfrentou tempestades poderosas e trocou histÃ³rias com o povo que vive sob as ondas.</p>
+			<p>Você viveu como um marinheiro, com o vento nas costas e o convés balançando sob seus pés. Você sentou-se em bancos de bar em mais portos de escala do que consegue se lembrar, enfrentou tempestades poderosas e trocou histórias com o povo que vive sob as ondas.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_TAVERN_BRAWLER" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">ForÃ§a, Destreza, Sabedoria, Talento BrigÃ£o de Taverna, PerÃ­cias Acrobacia e PercepÃ§Ã£o, Ferramentas de Navegador</set>
+			<set name="short">Força, Destreza, Sabedoria, Talento Brigão de Taverna, Perícias Acrobacia e Percepção, Ferramentas de Navegador</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_WIS" />

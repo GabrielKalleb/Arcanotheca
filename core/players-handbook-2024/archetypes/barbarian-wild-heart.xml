@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Caminho do CoraÃ§Ã£o Selvagem</name>
-		<description>A subclasse Caminho do CoraÃ§Ã£o Selvagem do Livro do Jogador de 2024.</description>
+		<name>Caminho do Coração Selvagem</name>
+		<description>A subclasse Caminho do Coração Selvagem do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="barbarian-wild-heart.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/barbarian-wild-heart.xml" />
 		</update>
 	</info>
 
-	<element name="Caminho do CoraÃ§Ã£o Selvagem" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARBARIAN_WILD_HEART">
+	<element name="Caminho do Coração Selvagem" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARBARIAN_WILD_HEART">
 		<supports>Barbarian Subclass</supports>
 		<description>
 			<p class="flavor">Caminhe em Comunidade com o Mundo Animal</p>
-			<p>BÃ¡rbaros que seguem o Caminho do CoraÃ§Ã£o Selvagem se veem como parentes dos animais. Estes BÃ¡rbaros aprendem meios mÃ¡gicos para se comunicar com animais, e a FÃºria deles intensifica a sua conexÃ£o com os animais enquanto os enche com poder sobrenatural.</p>
+			<p>Bárbaros que seguem o Caminho do Coração Selvagem se veem como parentes dos animais. Estes Bárbaros aprendem meios mágicos para se comunicar com animais, e a Fúria deles intensifica a sua conexão com os animais enquanto os enche com poder sobrenatural.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS" />
@@ -31,49 +31,49 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Falante dos Animais" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER">
+	<element name="Nível 3: Falante dos Animais" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER||ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ANIMAL_AND_NATURE_SPEAKER)</requirements>
 		<description>
-			<p>VocÃª pode conjurar as magias <i>Sentido Feral</i> e <i>Falar com Animais</i>, mas apenas como Rituais. Sabedoria Ã© a sua habilidade de conjuraÃ§Ã£o para elas.</p>
+			<p>Você pode conjurar as magias <i>Sentido Feral</i> e <i>Falar com Animais</i>, mas apenas como Rituais. Sabedoria é a sua habilidade de conjuração para elas.</p>
 		</description>
 		<sheet alt="Falante dos Animais">
-			<description>VocÃª pode conjurar Sentido Feral e Falar com Animais como Rituais. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para elas.</description>
+			<description>Você pode conjurar Sentido Feral e Falar com Animais como Rituais. Sabedoria é sua habilidade de conjuração para elas.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 3: FÃºria dos Ermos" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS">
+	<element name="Nível 3: Fúria dos Ermos" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS</requirements>
 		<description>
-			<p>Sua FÃºria acessa o poder primitivo dos animais. Sempre que vocÃª ativar sua FÃºria, vocÃª ganha uma das seguintes opÃ§Ãµes Ã  sua escolha.</p>
-			<p class="indent"><em><strong>Urso.</strong></em> Enquanto sua FÃºria estiver ativa, vocÃª tem ResistÃªncia a todos os tipos de dano, exceto Energia, NecrÃ³tico, PsÃ­quico e Radiante.</p>
-			<p class="indent"><em><strong>Ãguia.</strong></em> Quando vocÃª ativa sua FÃºria, pode realizar as aÃ§Ãµes Desengajar e Disparada como parte dessa AÃ§Ã£o BÃ´nus. Enquanto sua FÃºria estiver ativa, vocÃª pode usar uma AÃ§Ã£o BÃ´nus para realizar ambas as aÃ§Ãµes.</p>
-			<p class="indent"><em><strong>Lobo.</strong></em> Enquanto sua FÃºria estiver ativa, seus aliados tÃªm Vantagem nas jogadas de ataque contra qualquer inimigo seu que esteja a atÃ© 1,5 metro (5 pÃ©s) de vocÃª.</p>
+			<p>Sua Fúria acessa o poder primitivo dos animais. Sempre que você ativar sua Fúria, você ganha uma das seguintes opções à sua escolha.</p>
+			<p class="indent"><em><strong>Urso.</strong></em> Enquanto sua Fúria estiver ativa, você tem Resistência a todos os tipos de dano, exceto Energia, Necrótico, Psíquico e Radiante.</p>
+			<p class="indent"><em><strong>Águia.</strong></em> Quando você ativa sua Fúria, pode realizar as ações Desengajar e Disparada como parte dessa Ação Bônus. Enquanto sua Fúria estiver ativa, você pode usar uma Ação Bônus para realizar ambas as ações.</p>
+			<p class="indent"><em><strong>Lobo.</strong></em> Enquanto sua Fúria estiver ativa, seus aliados têm Vantagem nas jogadas de ataque contra qualquer inimigo seu que esteja a até 1,5 metro (5 pés) de você.</p>
 		</description>
-		<sheet alt="FÃºria dos Ermos">
-			<description>Sempre que vocÃª ativar sua FÃºria, pode escolher um dos seguintes efeitos: &#13;
-			â€¢ Urso. Enquanto a FÃºria estiver ativa, vocÃª tem ResistÃªncia a todos os tipos de dano, exceto Energia, NecrÃ³tico, PsÃ­quico e Radiante. &#13;
-			â€¢ Ãguia. VocÃª pode usar as aÃ§Ãµes Desengajar e Disparada como parte de entrar em FÃºria. Enquanto a FÃºria estiver ativa, pode usar uma AÃ§Ã£o BÃ´nus para realizar ambas as aÃ§Ãµes. &#13;
-			â€¢ Lobo. Enquanto a FÃºria estiver ativa, seus aliados tÃªm Vantagem nos ataques contra qualquer inimigo seu a atÃ© 1,5m de vocÃª.</description>
+		<sheet alt="Fúria dos Ermos">
+			<description>Sempre que você ativar sua Fúria, pode escolher um dos seguintes efeitos: &#13;
+			• Urso. Enquanto a Fúria estiver ativa, você tem Resistência a todos os tipos de dano, exceto Energia, Necrótico, Psíquico e Radiante. &#13;
+			• Águia. Você pode usar as ações Desengajar e Disparada como parte de entrar em Fúria. Enquanto a Fúria estiver ativa, pode usar uma Ação Bônus para realizar ambas as ações. &#13;
+			• Lobo. Enquanto a Fúria estiver ativa, seus aliados têm Vantagem nos ataques contra qualquer inimigo seu a até 1,5m de você.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 6: Aspecto dos Ermos" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS">
+	<element name="Nível 6: Aspecto dos Ermos" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS</requirements>
 		<description>
-			<p>VocÃª ganha uma das seguintes opÃ§Ãµes Ã  sua escolha. Sempre que terminar um Descanso Longo, vocÃª pode mudar a sua escolha.</p>
-			<p class="indent"><em><strong>Coruja.</strong></em> VocÃª tem VisÃ£o no Escuro com um alcance de 18 metros (60 pÃ©s). Se jÃ¡ possuir VisÃ£o no Escuro, seu alcance aumenta em 18 metros (60 pÃ©s).</p>
-			<p class="indent"><em><strong>Pantera.</strong></em> VocÃª tem um Deslocamento de Escalada igual ao seu Deslocamento.</p>
-			<p class="indent"><em><strong>SalmÃ£o.</strong></em> VocÃª tem um Deslocamento de NataÃ§Ã£o igual ao seu Deslocamento.</p>
+			<p>Você ganha uma das seguintes opções à sua escolha. Sempre que terminar um Descanso Longo, você pode mudar a sua escolha.</p>
+			<p class="indent"><em><strong>Coruja.</strong></em> Você tem Visão no Escuro com um alcance de 18 metros (60 pés). Se já possuir Visão no Escuro, seu alcance aumenta em 18 metros (60 pés).</p>
+			<p class="indent"><em><strong>Pantera.</strong></em> Você tem um Deslocamento de Escalada igual ao seu Deslocamento.</p>
+			<p class="indent"><em><strong>Salmão.</strong></em> Você tem um Deslocamento de Natação igual ao seu Deslocamento.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Archetype Feature" name="Aspect of the Wilds" supports="Aspect of the Wilds" />
 		</rules>
 	</element>
-	<element name="Coruja" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_OWL">
+	<element name="Coruja" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_OWL">
 		<supports>Aspect of the Wilds</supports>
 		<description>
-			<p>VocÃª tem VisÃ£o no Escuro com um alcance de 18 metros (60 pÃ©s). Se jÃ¡ possuir VisÃ£o no Escuro, seu alcance aumenta em 18 metros (60 pÃ©s).</p>
+			<p>Você tem Visão no Escuro com um alcance de 18 metros (60 pés). Se já possuir Visão no Escuro, seu alcance aumenta em 18 metros (60 pés).</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -81,20 +81,20 @@
 			<stat name="darkvision:range" value="60" bonus="aspect of the wilds" />
 		</rules>
 	</element>
-	<element name="Pantera" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_PANTHER">
+	<element name="Pantera" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_PANTHER">
 		<supports>Aspect of the Wilds</supports>
 		<description>
-			<p>VocÃª tem um Deslocamento de Escalada igual ao seu Deslocamento.</p>
+			<p>Você tem um Deslocamento de Escalada igual ao seu Deslocamento.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<stat name="innate speed:climb" value="innate speed" bonus="base" />
 		</rules>
 	</element>
-	<element name="SalmÃ£o" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_SALMON">
+	<element name="Salmão" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_SALMON">
 		<supports>Aspect of the Wilds</supports>
 		<description>
-			<p>VocÃª tem um Deslocamento de NataÃ§Ã£o igual ao seu Deslocamento.</p>
+			<p>Você tem um Deslocamento de Natação igual ao seu Deslocamento.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -102,40 +102,40 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 10: Falante da Natureza" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_NATURE_SPEAKER">
+	<element name="Nível 10: Falante da Natureza" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_NATURE_SPEAKER">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_NATURE_SPEAKER||ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ANIMAL_AND_NATURE_SPEAKER)</requirements>
 		<description>
-			<p>VocÃª pode conjurar a magia <i>ComunhÃ£o com a Natureza</i>, mas apenas como um Ritual. Sabedoria Ã© a sua habilidade de conjuraÃ§Ã£o para ela.</p>
+			<p>Você pode conjurar a magia <i>Comunhão com a Natureza</i>, mas apenas como um Ritual. Sabedoria é a sua habilidade de conjuração para ela.</p>
 		</description>
 		<sheet alt="Falante da Natureza">
-			<description>VocÃª pode conjurar ComunhÃ£o com a Natureza como Ritual. Sabedoria Ã© a sua habilidade de conjuraÃ§Ã£o para ela.</description>
+			<description>Você pode conjurar Comunhão com a Natureza como Ritual. Sabedoria é a sua habilidade de conjuração para ela.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 10: Falante dos Animais e da Natureza" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ANIMAL_AND_NATURE_SPEAKER">
+	<element name="Nível 10: Falante dos Animais e da Natureza" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ANIMAL_AND_NATURE_SPEAKER">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_NATURE_SPEAKER)</requirements>
 		<compendium display="false" />
 		<description>
-			<p>VocÃª pode conjurar as magias <i>Sentido Feral</i>, <i>Falar com Animais</i> e <i>ComunhÃ£o com a Natureza</i>, mas apenas como Rituais. Sabedoria Ã© a sua habilidade de conjuraÃ§Ã£o para estas magias.</p>
+			<p>Você pode conjurar as magias <i>Sentido Feral</i>, <i>Falar com Animais</i> e <i>Comunhão com a Natureza</i>, mas apenas como Rituais. Sabedoria é a sua habilidade de conjuração para estas magias.</p>
 		</description>
 		<sheet alt="Falante dos Animais e da Natureza">
-			<description>VocÃª pode conjurar as magias Sentido Feral, Falar com Animais e ComunhÃ£o com a Natureza, mas apenas como Rituais. Sabedoria Ã© a sua habilidade de conjuraÃ§Ã£o para estas magias.</description>
+			<description>Você pode conjurar as magias Sentido Feral, Falar com Animais e Comunhão com a Natureza, mas apenas como Rituais. Sabedoria é a sua habilidade de conjuração para estas magias.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 14: Poder dos Ermos" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS">
+	<element name="Nível 14: Poder dos Ermos" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS</requirements>
 		<description>
-			<p>Sempre que vocÃª ativar sua FÃºria, vocÃª ganha uma das seguintes opÃ§Ãµes Ã  sua escolha.</p>
-			<p class="indent"><em><strong>FalcÃ£o.</strong></em> Enquanto sua FÃºria estiver ativa, vocÃª tem um Deslocamento de Voo igual ao seu Deslocamento se vocÃª nÃ£o estiver usando nenhuma armadura.</p>
-			<p class="indent"><em><strong>LeÃ£o.</strong></em> Enquanto sua FÃºria estiver ativa, qualquer um dos seus inimigos a atÃ© 1,5 metro (5 pÃ©s) de vocÃª tem Desvantagem em jogadas de ataque contra alvos alÃ©m de vocÃª ou outro BÃ¡rbaro que tenha esta opÃ§Ã£o ativa.</p>
-			<p class="indent"><em><strong>Carneiro.</strong></em> Enquanto sua FÃºria estiver ativa, vocÃª pode fazer com que uma criatura Grande ou menor fique com a condiÃ§Ã£o CaÃ­do quando vocÃª a atinge com um ataque corpo a corpo.</p>
+			<p>Sempre que você ativar sua Fúria, você ganha uma das seguintes opções à sua escolha.</p>
+			<p class="indent"><em><strong>Falcão.</strong></em> Enquanto sua Fúria estiver ativa, você tem um Deslocamento de Voo igual ao seu Deslocamento se você não estiver usando nenhuma armadura.</p>
+			<p class="indent"><em><strong>Leão.</strong></em> Enquanto sua Fúria estiver ativa, qualquer um dos seus inimigos a até 1,5 metro (5 pés) de você tem Desvantagem em jogadas de ataque contra alvos além de você ou outro Bárbaro que tenha esta opção ativa.</p>
+			<p class="indent"><em><strong>Carneiro.</strong></em> Enquanto sua Fúria estiver ativa, você pode fazer com que uma criatura Grande ou menor fique com a condição Caído quando você a atinge com um ataque corpo a corpo.</p>
 		</description>
 		<sheet alt="Poder dos Ermos">
-			<description>Sempre que vocÃª ativar sua FÃºria, pode escolher um dos seguintes efeitos: &#13;
-			â€¢ FalcÃ£o. Enquanto a FÃºria estiver ativa, vocÃª tem um Deslocamento de Voo igual a {{speed}} se nÃ£o estiver usando nenhuma armadura. &#13;
-			â€¢ LeÃ£o. Enquanto a FÃºria estiver ativa, seus inimigos a atÃ© 1,5m de vocÃª tÃªm Desvantagem nos ataques contra alvos alÃ©m de BÃ¡rbaros que tambÃ©m tenham essa opÃ§Ã£o ativa. &#13;
-			â€¢ Carneiro. Enquanto a FÃºria estiver ativa, vocÃª pode fazer uma criatura Grande ou menor cair no chÃ£o ao ser atingida por seu ataque corpo a corpo.</description>
+			<description>Sempre que você ativar sua Fúria, pode escolher um dos seguintes efeitos: &#13;
+			• Falcão. Enquanto a Fúria estiver ativa, você tem um Deslocamento de Voo igual a {{speed}} se não estiver usando nenhuma armadura. &#13;
+			• Leão. Enquanto a Fúria estiver ativa, seus inimigos a até 1,5m de você têm Desvantagem nos ataques contra alvos além de Bárbaros que também tenham essa opção ativa. &#13;
+			• Carneiro. Enquanto a Fúria estiver ativa, você pode fazer uma criatura Grande ou menor cair no chão ao ser atingida por seu ataque corpo a corpo.</description>
 		</sheet>
 	</element>
 

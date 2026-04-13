@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.3">
@@ -7,7 +7,7 @@
 	</info>	
 	<element name="House Agent" type="Background" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT">
 		<description>
-			<p>You have sworn fealty to a dragonmarked house. If you have a dragonmark, youâ€™re likely a member of one of the houseâ€™s influential families; otherwise youâ€™re an outsider who hopes to make your fortune through the house. Your main task is to serve as the eyes of your house, but you could be called on at any time to act as its hand. Such missions can be perilous but lucrative.</p>
+			<p>You have sworn fealty to a dragonmarked house. If you have a dragonmark, you’re likely a member of one of the house’s influential families; otherwise you’re an outsider who hopes to make your fortune through the house. Your main task is to serve as the eyes of your house, but you could be called on at any time to act as its hand. Such missions can be perilous but lucrative.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Investigation, Persuasion</li>
 				<li><strong>Tool Proficiencies:</strong> Two proficiencies from the House Tool Proficiencies table</li>
@@ -19,18 +19,18 @@
 				<thead>
 					<tr><td>Your House</td><td>Proficiencies</td></tr>
 				</thead>
-				<tr><td>Cannith</td><td>Alchemistâ€™s supplies and tinkerâ€™s tools</td></tr>
+				<tr><td>Cannith</td><td>Alchemist’s supplies and tinker’s tools</td></tr>
 				<tr><td>Deneith</td><td>One gaming set and vehicles (land)</td></tr>
-				<tr><td>Ghallanda</td><td>Brewerâ€™s supplies and cookâ€™s utensils</td></tr>
-				<tr><td>Jorasco</td><td>Alchemistâ€™s supplies and herbalism kit</td></tr>
-				<tr><td>Kundarak</td><td>Thievesâ€™ tools and tinkerâ€™s tools</td></tr>
-				<tr><td>Lyrandar</td><td>Navigatorâ€™s tools and vehicles (air and sea)</td></tr>
-				<tr><td>Medani</td><td>Disguise kit and thievesâ€™ tools</td></tr>
+				<tr><td>Ghallanda</td><td>Brewer’s supplies and cook’s utensils</td></tr>
+				<tr><td>Jorasco</td><td>Alchemist’s supplies and herbalism kit</td></tr>
+				<tr><td>Kundarak</td><td>Thieves’ tools and tinker’s tools</td></tr>
+				<tr><td>Lyrandar</td><td>Navigator’s tools and vehicles (air and sea)</td></tr>
+				<tr><td>Medani</td><td>Disguise kit and thieves’ tools</td></tr>
 				<tr><td>Orien</td><td>One gaming set and vehicles (land)</td></tr>
 				<tr><td>Phiarlan</td><td>Disguise kit and one musical instrument</td></tr>
-				<tr><td>Sivis</td><td>Calligrapherâ€™s tools and forgery kit</td></tr>
-				<tr><td>Tharashk</td><td>One gaming set and thievesâ€™ tools</td></tr>
-				<tr><td>Thuranni</td><td>One musical instrument and poisonerâ€™s kit</td></tr>
+				<tr><td>Sivis</td><td>Calligrapher’s tools and forgery kit</td></tr>
+				<tr><td>Tharashk</td><td>One gaming set and thieves’ tools</td></tr>
+				<tr><td>Thuranni</td><td>One musical instrument and poisoner’s kit</td></tr>
 				<tr><td>Vadalis</td><td>Herbalism kit and vehicles (land)</td></tr>
 			</table>
 			<h4>ROLE</h4>
@@ -73,12 +73,12 @@
 				<item id="8">Covert Operations</item>
 			</select>
 			<select type="List" name="Personality Trait" number="2">
-				<item id="1">Iâ€™m always looking to improve efficiency.</item>
-				<item id="2">I love to share trivia about my houseâ€™s business.</item>
+				<item id="1">I’m always looking to improve efficiency.</item>
+				<item id="2">I love to share trivia about my house’s business.</item>
 				<item id="3">I never forget an insult against me or my house.</item>
-				<item id="4">Iâ€™m enthusiastic about everything my house does.</item>
+				<item id="4">I’m enthusiastic about everything my house does.</item>
 				<item id="5">I represent my house and take pride in my looks.</item>
-				<item id="6">Iâ€™m critical of monarchies and limits on the houses.</item>
+				<item id="6">I’m critical of monarchies and limits on the houses.</item>
 			</select>
 			<select type="List" name="Ideal">
 				<item id="1">Common Good. My house serves a vital function, and its prosperity will help everyone. (Good)</item>
@@ -92,17 +92,17 @@
 				<item id="1">My house is my family. I would do anything for it.</item>
 				<item id="2">I love someone from another house, but the relationship is forbidden.</item>
 				<item id="3">Someone I love was killed by a rival faction within my house, and I will have revenge.</item>
-				<item id="4">I donâ€™t care about the house as a whole, but I would do anything for my old mentor.</item>
-				<item id="5">My house must evolve, and Iâ€™ll lead the evolution.</item>
-				<item id="6">Iâ€™m determined to impress the leaders of my house, and to become a leader myself.</item>
+				<item id="4">I don’t care about the house as a whole, but I would do anything for my old mentor.</item>
+				<item id="5">My house must evolve, and I’ll lead the evolution.</item>
+				<item id="6">I’m determined to impress the leaders of my house, and to become a leader myself.</item>
 			</select>
 			<select type="List" name="Flaw">
-				<item id="1">Iâ€™m fixated on following official protocols.</item>
-				<item id="2">Iâ€™m obsessed with conspiracy theories and worried about secret societies and hidden demons.</item>
+				<item id="1">I’m fixated on following official protocols.</item>
+				<item id="2">I’m obsessed with conspiracy theories and worried about secret societies and hidden demons.</item>
 				<item id="3">My house and blood line make me the best!</item>
 				<item id="4">My secret could get me expelled from my house.</item>
-				<item id="5">My religious beliefs arenâ€™t widespread in my house.</item>
-				<item id="6">Iâ€™m working for a hidden faction in my house that gives me secret assignments.</item>
+				<item id="5">My religious beliefs aren’t widespread in my house.</item>
+				<item id="6">I’m working for a hidden faction in my house that gives me secret assignments.</item>
 			</select>
 		</rules>
 	</element>
@@ -120,7 +120,7 @@
 		<supports>House Agent Tool Proficiency</supports>
 		<requirements>ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT</requirements>
 		<description>
-			<p>You gain proficiency with alchemistâ€™s supplies and tinkerâ€™s tools.</p>
+			<p>You gain proficiency with alchemist’s supplies and tinker’s tools.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -144,7 +144,7 @@
 		<supports>House Agent Tool Proficiency</supports>
 		<requirements>ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT</requirements>
 		<description>
-			<p>You gain proficiency with brewerâ€™s supplies and cookâ€™s utensils.</p>
+			<p>You gain proficiency with brewer’s supplies and cook’s utensils.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -156,7 +156,7 @@
 		<supports>House Agent Tool Proficiency</supports>
 		<requirements>ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT</requirements>
 		<description>
-			<p>You gain proficiency with alchemistâ€™s supplies and herbalism kit.</p>
+			<p>You gain proficiency with alchemist’s supplies and herbalism kit.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -168,7 +168,7 @@
 		<supports>House Agent Tool Proficiency</supports>
 		<requirements>ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT</requirements>
 		<description>
-			<p>You gain proficiency with thievesâ€™ tools and tinkerâ€™s tools.</p>
+			<p>You gain proficiency with thieves’ tools and tinker’s tools.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -180,7 +180,7 @@
 		<supports>House Agent Tool Proficiency</supports>
 		<requirements>ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT</requirements>
 		<description>
-			<p>You gain proficiency with navigatorâ€™s tools and vehicles (air and sea).</p>
+			<p>You gain proficiency with navigator’s tools and vehicles (air and sea).</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -193,7 +193,7 @@
 		<supports>House Agent Tool Proficiency</supports>
 		<requirements>ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT</requirements>
 		<description>
-			<p>You gain proficiency with disguise kit and thievesâ€™ tools.</p>
+			<p>You gain proficiency with disguise kit and thieves’ tools.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -229,7 +229,7 @@
 		<supports>House Agent Tool Proficiency</supports>
 		<requirements>ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT</requirements>
 		<description>
-			<p>You gain proficiency with calligrapherâ€™s tools and forgery kit.</p>
+			<p>You gain proficiency with calligrapher’s tools and forgery kit.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -241,7 +241,7 @@
 		<supports>House Agent Tool Proficiency</supports>
 		<requirements>ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT</requirements>
 		<description>
-			<p>You gain proficiency with one gaming set and thievesâ€™ tools.</p>
+			<p>You gain proficiency with one gaming set and thieves’ tools.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -253,7 +253,7 @@
 		<supports>House Agent Tool Proficiency</supports>
 		<requirements>ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT</requirements>
 		<description>
-			<p>You gain proficiency with one musical instrument and poisonerâ€™s kit.</p>
+			<p>You gain proficiency with one musical instrument and poisoner’s kit.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>

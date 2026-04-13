@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Outlander</name>
@@ -9,17 +9,17 @@
 		</update>
 	</info>
 
-	<element name="Outlander" type="Background" source="Playerâ€™s Handbook" id="ID_BACKGROUND_OUTLANDER">
+	<element name="Outlander" type="Background" source="Player’s Handbook" id="ID_BACKGROUND_OUTLANDER">
 		<description>
-			<p>You grew up in the wilds, far from civilization and the comforts of town and technology. Youâ€™ve witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you donâ€™t know the specific features of the terrain, you know the ways of the wild.</p>
+			<p>You grew up in the wilds, far from civilization and the comforts of town and technology. You’ve witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don’t know the specific features of the terrain, you know the ways of the wild.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Athletics, Survival</li>
 				<li><strong>Tool Proficiencies:</strong> One type of musical instrument</li>
 				<li><strong>Languages:</strong> One of your choice</li>
-				<li><strong>Equipment:</strong> A staff, a hunting trap, a trophy from an animal you killed, a set of travelerâ€™s clothes, and a belt pouch containing 10 gp</li>
+				<li><strong>Equipment:</strong> A staff, a hunting trap, a trophy from an animal you killed, a set of traveler’s clothes, and a belt pouch containing 10 gp</li>
 			</ul>
 			<h5>Origin</h5>
-			<p>Youâ€™ve been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character.</p>
+			<p>You’ve been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character.</p>
 			<table>
 				<thead>
 					<tr><td class="col-10">d10</td><td>Origin</td></tr>
@@ -62,18 +62,18 @@
 				<item id="10">Tribal marauder</item>
 			</select>
 			<select name="Personality Trait" type="List" number="2">
-				<item id="1">Iâ€™m driven by a wanderlust that led me away from home.</item>
+				<item id="1">I’m driven by a wanderlust that led me away from home.</item>
 				<item id="2">I watch over my friends as if they were a litter of newborn pups.</item>
-				<item id="3">I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. Iâ€™d do it again if I had to.</item>
+				<item id="3">I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I’d do it again if I had to.</item>
 				<item id="4">I have a lesson for every situation, drawn from observing nature.</item>
-				<item id="5">I place no stock in wealthy or well-mannered folk. Money and manners wonâ€™t save you from a hungry owlbear.</item>
-				<item id="6">Iâ€™m always picking things up, absently fiddling with them, and sometimes accidentally breaking them.</item>
+				<item id="5">I place no stock in wealthy or well-mannered folk. Money and manners won’t save you from a hungry owlbear.</item>
+				<item id="6">I’m always picking things up, absently fiddling with them, and sometimes accidentally breaking them.</item>
 				<item id="7">I feel far more comfortable around animals than people.</item>
 				<item id="8">I was, in fact, raised by wolves.</item>
 			</select>
 			<select name="Ideal" type="List">
 				<item id="1">Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)</item>
-				<item id="2">Greater Good. It is each personâ€™s responsibility to make the most happiness for the whole tribe. (Good)</item>
+				<item id="2">Greater Good. It is each person’s responsibility to make the most happiness for the whole tribe. (Good)</item>
 				<item id="3">Honor. If I dishonor myself, I dishonor my whole clan. (Lawful)</item>
 				<item id="4">Might. The strongest are meant to rule. (Evil)</item>
 				<item id="5">Nature. The natural world is more important than all the constructs of civilization. (Neutral)</item>
@@ -89,16 +89,16 @@
 			</select>
 			<select name="Flaw" type="List">
 				<item id="1">I am too enamored of ale, wine, and other intoxicants.</item>
-				<item id="2">Thereâ€™s no room for caution in a life lived to the fullest.</item>
-				<item id="3">I remember every insult Iâ€™ve received and nurse a silent resentment toward anyone whoâ€™s ever wronged me.</item>
+				<item id="2">There’s no room for caution in a life lived to the fullest.</item>
+				<item id="3">I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.</item>
 				<item id="4">I am slow to trust members of other races, tribes, and societies.</item>
 				<item id="5">Violence is my answer to almost any challenge.</item>
-				<item id="6">Donâ€™t expect me to save those who canâ€™t save themselves. It is natureâ€™s way that the strong thrive and the weak perish.</item>
+				<item id="6">Don’t expect me to save those who can’t save themselves. It is nature’s way that the strong thrive and the weak perish.</item>
 			</select>
 		</rules>
 	</element>
 
-	<element name="Feature: Wanderer" type="Background Feature" source="Playerâ€™s Handbook" id="ID_BACKGROUND_FEATURE_WANDERER">
+	<element name="Feature: Wanderer" type="Background Feature" source="Player’s Handbook" id="ID_BACKGROUND_FEATURE_WANDERER">
 		<supports>Background Feature</supports>
 		<description>
 			<p>You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.</p>

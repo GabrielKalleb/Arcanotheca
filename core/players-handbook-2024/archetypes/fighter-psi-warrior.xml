@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Guerreiro PsiÃ´nico</name>
-		<description>A subclasse Guerreiro PsiÃ´nico do Livro do Jogador 2024.</description>
+		<name>Guerreiro Psiônico</name>
+		<description>A subclasse Guerreiro Psiônico do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="fighter-psi-warrior.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/fighter-psi-warrior.xml" />
 		</update>
 	</info>
 
-	<element name="Guerreiro PsiÃ´nico" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_PSI_WARRIOR">
+	<element name="Guerreiro Psiônico" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_PSI_WARRIOR">
 		<supports>Fighter Subclass</supports>
 		<description>
-			<p class="flavor">Aumente o Poder FÃ­sico com Poder PsiÃ´nico</p>
-			<p>Guerreiros PsiÃ´nicos despertam o poder de suas mentes para ampliar sua forÃ§a fÃ­sica. Eles canalizam esse poder psiÃ´nico para infundir seus golpes com armas, desferir ataques com energia telecinÃ©tica e criar barreiras de forÃ§a mental.</p>
+			<p class="flavor">Aumente o Poder Físico com Poder Psiônico</p>
+			<p>Guerreiros Psiônicos despertam o poder de suas mentes para ampliar sua força física. Eles canalizam esse poder psiônico para infundir seus golpes com armas, desferir ataques com energia telecinética e criar barreiras de força mental.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_GUARDED_MIND"/>
@@ -30,14 +30,14 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Poder PsiÃ´nico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER">
+	<element name="Nível 3: Poder Psiônico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_PSI_WARRIOR_PSIONIC_POWER</requirements>
 		<description>
-			<p>VocÃª abriga um poÃ§o de energia psiÃ´nica dentro de si. Ela Ã© representada pelos seus Dados de Energia PsiÃ´nica, que abastecem os poderes desta subclasse. A tabela Dados de Energia do Guerreiro PsiÃ´nico mostra o tamanho do dado e o nÃºmero de dados que vocÃª tem ao atingir certos nÃ­veis de Guerreiro.</p>
-			<h5>Dados de Energia do Guerreiro PsiÃ´nico</h5>
+			<p>Você abriga um poço de energia psiônica dentro de si. Ela é representada pelos seus Dados de Energia Psiônica, que abastecem os poderes desta subclasse. A tabela Dados de Energia do Guerreiro Psiônico mostra o tamanho do dado e o número de dados que você tem ao atingir certos níveis de Guerreiro.</p>
+			<h5>Dados de Energia do Guerreiro Psiônico</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td>NÃ­vel de Guerreiro</td><td>Tamanho do Dado</td><td>Quantidade</td></tr>
+					<tr><td>Nível de Guerreiro</td><td>Tamanho do Dado</td><td>Quantidade</td></tr>
 				</thead>
 				<tr><td>3</td><td>D6</td><td>4</td></tr>
 				<tr><td>5</td><td>D8</td><td>6</td></tr>
@@ -46,15 +46,15 @@
 				<tr><td>13</td><td>D10</td><td>10</td></tr>
 				<tr><td>17</td><td>D12</td><td>12</td></tr>
 			</table>
-			<p>Quaisquer caracterÃ­sticas desta subclasse que usem um Dado de Energia PsiÃ´nica utilizam apenas os dados desta subclasse. Alguns de seus poderes gastam o Dado de Energia PsiÃ´nica, conforme especificado na descriÃ§Ã£o do poder, e vocÃª nÃ£o pode usar um poder se ele exigir que gaste um dado quando todos os seus Dados de Energia PsiÃ´nica jÃ¡ tiverem sido gastos.</p>
-			<p class="indent">VocÃª recupera um dos seus Dados de Energia PsiÃ´nica gastos quando termina um Descanso Curto, e recupera todos eles quando termina um Descanso Longo.</p>
-			<p class="indent"><em><strong>Campo Protetor.</strong></em> Quando vocÃª ou outra criatura que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) de vocÃª sofre dano, vocÃª pode usar uma ReaÃ§Ã£o para gastar um Dado de Energia PsiÃ´nica, rolÃª-lo e reduzir o dano sofrido pelo nÃºmero rolado mais seu modificador de InteligÃªncia (reduÃ§Ã£o mÃ­nima de 1), ao criar um escudo momentÃ¢neo de forÃ§a telecinÃ©tica.</p>
-			<p class="indent"><em><strong>Ataque PsiÃ´nico.</strong></em> VocÃª pode impulsionar suas armas com forÃ§a psiÃ´nica. Uma vez em cada um de seus turnos, imediatamente apÃ³s atingir um alvo a atÃ© 9 metros (30 pÃ©s) de vocÃª com um ataque e causar dano a ele com uma arma, vocÃª pode gastar um Dado de Energia PsiÃ´nica, rolando-o e causando dano de ForÃ§a ao alvo igual ao nÃºmero rolado mais seu modificador de InteligÃªncia.</p>
-			<p class="indent"><em><strong>Movimento TelecinÃ©tico.</strong></em> VocÃª pode mover um objeto ou uma criatura com a sua mente. Como uma AÃ§Ã£o MÃ¡gica, escolha um alvo que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) de vocÃª; o alvo deve ser um objeto solto Grande ou menor ou uma criatura disposta alÃ©m de vocÃª. VocÃª transporta o alvo atÃ© 9 metros (30 pÃ©s) para um espaÃ§o desocupado que possa ver. Alternativamente, se o alvo for um objeto MiÃºdo, vocÃª pode transportÃ¡-lo para ou de sua mÃ£o.</p>
-			<p class="indent">Depois de realizar esta aÃ§Ã£o, vocÃª nÃ£o pode fazÃª-lo novamente atÃ© terminar um Descanso Curto ou Longo, a menos que gaste um Dado de Energia PsiÃ´nica (nÃ£o requer aÃ§Ã£o) para restaurar o seu uso.</p>
+			<p>Quaisquer características desta subclasse que usem um Dado de Energia Psiônica utilizam apenas os dados desta subclasse. Alguns de seus poderes gastam o Dado de Energia Psiônica, conforme especificado na descrição do poder, e você não pode usar um poder se ele exigir que gaste um dado quando todos os seus Dados de Energia Psiônica já tiverem sido gastos.</p>
+			<p class="indent">Você recupera um dos seus Dados de Energia Psiônica gastos quando termina um Descanso Curto, e recupera todos eles quando termina um Descanso Longo.</p>
+			<p class="indent"><em><strong>Campo Protetor.</strong></em> Quando você ou outra criatura que você possa ver a até 9 metros (30 pés) de você sofre dano, você pode usar uma Reação para gastar um Dado de Energia Psiônica, rolê-lo e reduzir o dano sofrido pelo número rolado mais seu modificador de Inteligência (redução mínima de 1), ao criar um escudo momentâneo de força telecinética.</p>
+			<p class="indent"><em><strong>Ataque Psiônico.</strong></em> Você pode impulsionar suas armas com força psiônica. Uma vez em cada um de seus turnos, imediatamente após atingir um alvo a até 9 metros (30 pés) de você com um ataque e causar dano a ele com uma arma, você pode gastar um Dado de Energia Psiônica, rolando-o e causando dano de Força ao alvo igual ao número rolado mais seu modificador de Inteligência.</p>
+			<p class="indent"><em><strong>Movimento Telecinético.</strong></em> Você pode mover um objeto ou uma criatura com a sua mente. Como uma Ação Mágica, escolha um alvo que você possa ver a até 9 metros (30 pés) de você; o alvo deve ser um objeto solto Grande ou menor ou uma criatura disposta além de você. Você transporta o alvo até 9 metros (30 pés) para um espaço desocupado que possa ver. Alternativamente, se o alvo for um objeto Miúdo, você pode transportá-lo para ou de sua mão.</p>
+			<p class="indent">Depois de realizar esta ação, você não pode fazê-lo novamente até terminar um Descanso Curto ou Longo, a menos que gaste um Dado de Energia Psiônica (não requer ação) para restaurar o seu uso.</p>
 		</description>
-		<sheet alt="Poder PsiÃ´nico" usage="{{fighter:psionic power:dice amount}}d{{fighter:psionic power:dice size}}/Descanso Longo">
-			<description>VocÃª recupera 1 dado gasto quando termina um Descanso Curto.</description>
+		<sheet alt="Poder Psiônico" usage="{{fighter:psionic power:dice amount}}d{{fighter:psionic power:dice size}}/Descanso Longo">
+			<description>Você recupera 1 dado gasto quando termina um Descanso Curto.</description>
 		</sheet>
 		<rules>
 			<stat name="fighter:psionic power:dice size" value="6" bonus="base" />
@@ -76,58 +76,58 @@
 			<select type="Archetype Feature" name="Psi-Powered Leap" supports="PHB24 Psi-Powered Leap" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_PSI_POWERED_LEAP" level="7" requirements="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_PSI_POWERED_LEAP" />
 		</rules>
 	</element>
-	<element name="Campo Protetor" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PROTECTIVE_FIELD">
+	<element name="Campo Protetor" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PROTECTIVE_FIELD">
 		<supports>PHB24 Protective Field</supports>
 		<compendium display="false" />
 		<description>
-			<p>Quando vocÃª ou outra criatura que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) de vocÃª sofre dano, vocÃª pode usar uma ReaÃ§Ã£o para gastar um Dado de Energia PsiÃ´nica, rolÃª-lo e reduzir o dano sofrido pelo nÃºmero rolado mais seu modificador de InteligÃªncia (reduÃ§Ã£o mÃ­nima de 1), ao criar um escudo momentÃ¢neo de forÃ§a telecinÃ©tica.</p>
+			<p>Quando você ou outra criatura que você possa ver a até 9 metros (30 pés) de você sofre dano, você pode usar uma Reação para gastar um Dado de Energia Psiônica, rolê-lo e reduzir o dano sofrido pelo número rolado mais seu modificador de Inteligência (redução mínima de 1), ao criar um escudo momentâneo de força telecinética.</p>
 		</description>
-		<sheet action="ReaÃ§Ã£o" usage="Dado de Energia PsiÃ´nica">
-			<description>Quando vocÃª ou outra criatura a atÃ© 9 metros de vocÃª sofre dano, vocÃª pode reduzir o dano sofrido em 1d{{fighter:psionic power:dice size}}+{{intelligence:modifier}} (reduÃ§Ã£o mÃ­nima de 1).</description>
+		<sheet action="Reação" usage="Dado de Energia Psiônica">
+			<description>Quando você ou outra criatura a até 9 metros de você sofre dano, você pode reduzir o dano sofrido em 1d{{fighter:psionic power:dice size}}+{{intelligence:modifier}} (redução mínima de 1).</description>
 		</sheet>
 	</element>
-	<element name="Ataque PsiÃ´nico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PSIONIC_STRIKE">
+	<element name="Ataque Psiônico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PSIONIC_STRIKE">
 		<supports>PHB24 Psionic Strike</supports>
 		<compendium display="false" />
 		<description>
-			<p>VocÃª pode impulsionar suas armas com forÃ§a psiÃ´nica. Uma vez em cada um de seus turnos, imediatamente apÃ³s atingir um alvo a atÃ© 9 metros (30 pÃ©s) de vocÃª com um ataque e causar dano a ele com uma arma, vocÃª pode gastar um Dado de Energia PsiÃ´nica, rolando-o e causando dano de ForÃ§a ao alvo igual ao nÃºmero rolado mais seu modificador de InteligÃªncia.</p>
+			<p>Você pode impulsionar suas armas com força psiônica. Uma vez em cada um de seus turnos, imediatamente após atingir um alvo a até 9 metros (30 pés) de você com um ataque e causar dano a ele com uma arma, você pode gastar um Dado de Energia Psiônica, rolando-o e causando dano de Força ao alvo igual ao número rolado mais seu modificador de Inteligência.</p>
 		</description>
-		<sheet usage="1/Turno â€” Dado de Energia PsiÃ´nica">
-			<description>Imediatamente apÃ³s atingir com uma arma e causar dano a um alvo a atÃ© 9 metros de vocÃª, vocÃª pode adicionar 1d{{fighter:psionic power:dice size}}+{{intelligence:modifier}} de dano de ForÃ§a a ele.</description>
-			<description level="7">Imediatamente apÃ³s atingir com uma arma e causar dano a um alvo a atÃ© 9 metros de vocÃª, vocÃª pode adicionar 1d{{fighter:psionic power:dice size}}+{{intelligence:modifier}} de dano de ForÃ§a a ele e forÃ§ar o alvo a fazer um teste de resistÃªncia de ForÃ§a CD {{fighter:psionic power:dc}}. Em caso de falha, vocÃª pode aplicar a condiÃ§Ã£o CaÃ­do ao alvo ou transportÃ¡-lo atÃ© 3 metros (10 pÃ©s) horizontalmente.</description>
+		<sheet usage="1/Turno — Dado de Energia Psiônica">
+			<description>Imediatamente após atingir com uma arma e causar dano a um alvo a até 9 metros de você, você pode adicionar 1d{{fighter:psionic power:dice size}}+{{intelligence:modifier}} de dano de Força a ele.</description>
+			<description level="7">Imediatamente após atingir com uma arma e causar dano a um alvo a até 9 metros de você, você pode adicionar 1d{{fighter:psionic power:dice size}}+{{intelligence:modifier}} de dano de Força a ele e forçar o alvo a fazer um teste de resistência de Força CD {{fighter:psionic power:dc}}. Em caso de falha, você pode aplicar a condição Caído ao alvo ou transportá-lo até 3 metros (10 pés) horizontalmente.</description>
 		</sheet>
 	</element>
-	<element name="Movimento TelecinÃ©tico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_TELEKINETIC_MOVEMENT">
+	<element name="Movimento Telecinético" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_TELEKINETIC_MOVEMENT">
 		<supports>PHB24 Telekinetic Movement</supports>
 		<compendium display="false" />
 		<description>
-			<p>VocÃª pode mover um objeto ou uma criatura com a sua mente. Como uma AÃ§Ã£o MÃ¡gica, escolha um alvo que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) de vocÃª; o alvo deve ser um objeto solto Grande ou menor ou uma criatura disposta alÃ©m de vocÃª. VocÃª transporta o alvo atÃ© 9 metros (30 pÃ©s) para um espaÃ§o desocupado que possa ver. Alternativamente, se o alvo for um objeto MiÃºdo, vocÃª pode transportÃ¡-lo para ou de sua mÃ£o.</p>
-			<p class="indent">Depois de realizar esta aÃ§Ã£o, vocÃª nÃ£o pode fazÃª-lo novamente atÃ© terminar um Descanso Curto ou Longo, a menos que gaste um Dado de Energia PsiÃ´nica (nÃ£o requer aÃ§Ã£o) para restaurar o seu uso.</p>
+			<p>Você pode mover um objeto ou uma criatura com a sua mente. Como uma Ação Mágica, escolha um alvo que você possa ver a até 9 metros (30 pés) de você; o alvo deve ser um objeto solto Grande ou menor ou uma criatura disposta além de você. Você transporta o alvo até 9 metros (30 pés) para um espaço desocupado que possa ver. Alternativamente, se o alvo for um objeto Miúdo, você pode transportá-lo para ou de sua mão.</p>
+			<p class="indent">Depois de realizar esta ação, você não pode fazê-lo novamente até terminar um Descanso Curto ou Longo, a menos que gaste um Dado de Energia Psiônica (não requer ação) para restaurar o seu uso.</p>
 		</description>
-		<sheet action="AÃ§Ã£o" usage="1/Descanso Curto">
-			<description>VocÃª escolhe um objeto solto Grande ou menor ou uma criatura disposta alÃ©m de vocÃª mesmo. Se vocÃª puder ver o alvo e ele estiver a atÃ© 9 metros de vocÃª, vocÃª pode movÃª-lo magicamente atÃ© 9 metros para um espaÃ§o desocupado que possa ver. Alternativamente, se for um objeto MiÃºdo, vocÃª pode movÃª-lo para ou de sua mÃ£o. &#13;
-			VocÃª pode gastar um Dado de Energia PsiÃ´nica para restaurar um uso desta caracterÃ­stica.</description>
+		<sheet action="Ação" usage="1/Descanso Curto">
+			<description>Você escolhe um objeto solto Grande ou menor ou uma criatura disposta além de você mesmo. Se você puder ver o alvo e ele estiver a até 9 metros de você, você pode movê-lo magicamente até 9 metros para um espaço desocupado que possa ver. Alternativamente, se for um objeto Miúdo, você pode movê-lo para ou de sua mão. &#13;
+			Você pode gastar um Dado de Energia Psiônica para restaurar um uso desta característica.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 7: Adepto TelecinÃ©tico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT">
+	<element name="Nível 7: Adepto Telecinético" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT</requirements>
 		<description>
-			<p>VocÃª dominou novas maneiras de usar suas habilidades telecinÃ©ticas, detalhadas abaixo.</p>
-			<p class="indent"><em><strong>Salto PsiÃ´nico.</strong></em> Como uma AÃ§Ã£o BÃ´nus, vocÃª ganha um Deslocamento de Voo igual ao dobro do seu Deslocamento atÃ© o fim do turno atual. Depois de realizar esta AÃ§Ã£o BÃ´nus, vocÃª nÃ£o pode fazÃª-lo novamente atÃ© terminar um Descanso Curto ou Longo, a menos que gaste um Dado de Energia PsiÃ´nica (nÃ£o requer aÃ§Ã£o) para restaurar o seu uso.</p>
-			<p class="indent"><em><strong>EmpurrÃ£o TelecinÃ©tico.</strong></em> Quando vocÃª causa dano a um alvo com seu Ataque PsiÃ´nico, vocÃª pode forÃ§ar o alvo a fazer um teste de resistÃªncia de ForÃ§a (CD 8 mais seu modificador de InteligÃªncia e BÃ´nus de ProficiÃªncia). Em caso de falha, vocÃª pode aplicar a condiÃ§Ã£o CaÃ­do ao alvo ou transportÃ¡-lo atÃ© 3 metros (10 pÃ©s) horizontalmente.</p>
+			<p>Você dominou novas maneiras de usar suas habilidades telecinéticas, detalhadas abaixo.</p>
+			<p class="indent"><em><strong>Salto Psiônico.</strong></em> Como uma Ação Bônus, você ganha um Deslocamento de Voo igual ao dobro do seu Deslocamento até o fim do turno atual. Depois de realizar esta Ação Bônus, você não pode fazê-lo novamente até terminar um Descanso Curto ou Longo, a menos que gaste um Dado de Energia Psiônica (não requer ação) para restaurar o seu uso.</p>
+			<p class="indent"><em><strong>Empurrão Telecinético.</strong></em> Quando você causa dano a um alvo com seu Ataque Psiônico, você pode forçar o alvo a fazer um teste de resistência de Força (CD 8 mais seu modificador de Inteligência e Bônus de Proficiência). Em caso de falha, você pode aplicar a condição Caído ao alvo ou transportá-lo até 3 metros (10 pés) horizontalmente.</p>
 		</description>
 		<sheet display="false"/>
 	</element>
-	<element name="Salto PsiÃ´nico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_PSI_POWERED_LEAP">
+	<element name="Salto Psiônico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_PSI_POWERED_LEAP">
 		<supports>PHB24 Psi-Powered Leap</supports>
 		<compendium display="false" />
 		<description>
-			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª ganha um Deslocamento de Voo igual ao dobro do seu Deslocamento atÃ© o fim do turno atual. Depois de realizar esta AÃ§Ã£o BÃ´nus, vocÃª nÃ£o pode fazÃª-lo novamente atÃ© terminar um Descanso Curto ou Longo, a menos que gaste um Dado de Energia PsiÃ´nica (nÃ£o requer aÃ§Ã£o) para restaurar o seu uso.</p>
+			<p>Como uma Ação Bônus, você ganha um Deslocamento de Voo igual ao dobro do seu Deslocamento até o fim do turno atual. Depois de realizar esta Ação Bônus, você não pode fazê-lo novamente até terminar um Descanso Curto ou Longo, a menos que gaste um Dado de Energia Psiônica (não requer ação) para restaurar o seu uso.</p>
 		</description>
-		<sheet action="AÃ§Ã£o BÃ´nus" usage="1/Descanso Curto">
-			<description>VocÃª ganha um Deslocamento de Voo de {{psi-powered leap:speed}} atÃ© o fim do turno atual. &#13;
-			VocÃª pode gastar um Dado de Energia PsiÃ´nica para restaurar um uso desta caracterÃ­stica.</description>
+		<sheet action="Ação Bônus" usage="1/Descanso Curto">
+			<description>Você ganha um Deslocamento de Voo de {{psi-powered leap:speed}} até o fim do turno atual. &#13;
+			Você pode gastar um Dado de Energia Psiônica para restaurar um uso desta característica.</description>
 		</sheet>
 		<rules>
 			<stat name="psi-powered leap:speed" value="speed" />
@@ -135,28 +135,28 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 10: Mente Protegida" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_GUARDED_MIND">
+	<element name="Nível 10: Mente Protegida" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_GUARDED_MIND">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_PSI_WARRIOR_GUARDED_MIND</requirements>
 		<description>
-			<p>VocÃª tem ResistÃªncia a dano PsÃ­quico. AlÃ©m disso, se vocÃª iniciar seu turno com a condiÃ§Ã£o EnfeitiÃ§ado ou Amedrontado, vocÃª pode gastar um Dado de Energia PsiÃ´nica (nÃ£o requer aÃ§Ã£o) e terminar todo efeito em vocÃª mesmo que esteja lhe causando essas condiÃ§Ãµes.</p>
+			<p>Você tem Resistência a dano Psíquico. Além disso, se você iniciar seu turno com a condição Enfeitiçado ou Amedrontado, você pode gastar um Dado de Energia Psiônica (não requer ação) e terminar todo efeito em você mesmo que esteja lhe causando essas condições.</p>
 		</description>
-		<sheet alt="Mente Protegida" usage="Dado de Energia PsiÃ´nica">
-			<description>Se vocÃª iniciar seu turno com a condiÃ§Ã£o EnfeitiÃ§ado ou Amedrontado, vocÃª pode encerrar todos os efeitos em vocÃª mesmo que estejam lhe causando essas condiÃ§Ãµes.</description>
+		<sheet alt="Mente Protegida" usage="Dado de Energia Psiônica">
+			<description>Se você iniciar seu turno com a condição Enfeitiçado ou Amedrontado, você pode encerrar todos os efeitos em você mesmo que estejam lhe causando essas condições.</description>
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 15: Baluarte de ForÃ§a" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_BULWARK_OF_FORCE">
+	<element name="Nível 15: Baluarte de Força" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_BULWARK_OF_FORCE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_PSI_WARRIOR_BULWARK_OF_FORCE</requirements>
 		<description>
-			<p>VocÃª pode proteger a si mesmo e aos outros com forÃ§a telecinÃ©tica. Como uma AÃ§Ã£o BÃ´nus, vocÃª pode escolher criaturas, incluindo vocÃª mesmo, a atÃ© 9 metros (30 pÃ©s) de vocÃª, atÃ© um nÃºmero de criaturas igual ao seu modificador de InteligÃªncia (mÃ­nimo de uma criatura). Cada uma das criaturas escolhidas tem Meia Cobertura por 1 minuto ou atÃ© vocÃª ter a condiÃ§Ã£o Incapacitado.</p>
-			<p class="indent">Depois de usar esta caracterÃ­stica, vocÃª nÃ£o pode fazÃª-lo novamente atÃ© terminar um Descanso Longo, a menos que gaste um Dado de Energia PsiÃ´nica (nÃ£o requer aÃ§Ã£o) para restaurar o seu uso.</p>
+			<p>Você pode proteger a si mesmo e aos outros com força telecinética. Como uma Ação Bônus, você pode escolher criaturas, incluindo você mesmo, a até 9 metros (30 pés) de você, até um número de criaturas igual ao seu modificador de Inteligência (mínimo de uma criatura). Cada uma das criaturas escolhidas tem Meia Cobertura por 1 minuto ou até você ter a condição Incapacitado.</p>
+			<p class="indent">Depois de usar esta característica, você não pode fazê-lo novamente até terminar um Descanso Longo, a menos que gaste um Dado de Energia Psiônica (não requer ação) para restaurar o seu uso.</p>
 		</description>
-		<sheet alt="Baluarte de ForÃ§a" action="AÃ§Ã£o BÃ´nus" usage="1/Descanso Longo">
-			<description>Escolha atÃ© {{bulwark of force:count}} criaturas a atÃ© 9 metros de vocÃª. Cada uma das criaturas escolhidas tem Meia Cobertura por 1 minuto ou atÃ© vocÃª ter a condiÃ§Ã£o Incapacitado. &#13;
-			VocÃª pode gastar um Dado de Energia PsiÃ´nica para restaurar um uso desta caracterÃ­stica.</description>
+		<sheet alt="Baluarte de Força" action="Ação Bônus" usage="1/Descanso Longo">
+			<description>Escolha até {{bulwark of force:count}} criaturas a até 9 metros de você. Cada uma das criaturas escolhidas tem Meia Cobertura por 1 minuto ou até você ter a condição Incapacitado. &#13;
+			Você pode gastar um Dado de Energia Psiônica para restaurar um uso desta característica.</description>
 		</sheet>
 		<rules>
 			<stat name="bulwark of force:count" value="1" bonus="base" />
@@ -164,15 +164,15 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 18: Mestre TelecinÃ©tico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_MASTER">
+	<element name="Nível 18: Mestre Telecinético" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_MASTER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_PSI_WARRIOR_TELEKINETIC_MASTER</requirements>
 		<description>
-			<p>VocÃª sempre tem a magia <em>TelecinÃ©sia</em> preparada. Com esta caracterÃ­stica, vocÃª pode conjurÃ¡-la sem usar espaÃ§o de magia ou componentes, e sua habilidade de conjuraÃ§Ã£o para ela Ã© InteligÃªncia. Em cada um de seus turnos em que mantiver a ConcentraÃ§Ã£o nela, incluindo o turno em que a conjura, vocÃª pode fazer um ataque com uma arma como uma AÃ§Ã£o BÃ´nus.</p>
-			<p class="indent">Depois de conjurar a magia com esta caracterÃ­stica, vocÃª nÃ£o pode fazÃª-lo dessa forma novamente atÃ© terminar um Descanso Longo, a menos que gaste um Dado de Energia PsiÃ´nica (nÃ£o requer aÃ§Ã£o) para restaurar o seu uso.</p>
+			<p>Você sempre tem a magia <em>Telecinésia</em> preparada. Com esta característica, você pode conjurá-la sem usar espaço de magia ou componentes, e sua habilidade de conjuração para ela é Inteligência. Em cada um de seus turnos em que mantiver a Concentração nela, incluindo o turno em que a conjura, você pode fazer um ataque com uma arma como uma Ação Bônus.</p>
+			<p class="indent">Depois de conjurar a magia com esta característica, você não pode fazê-lo dessa forma novamente até terminar um Descanso Longo, a menos que gaste um Dado de Energia Psiônica (não requer ação) para restaurar o seu uso.</p>
 		</description>
-		<sheet alt="Mestre TelecinÃ©tico" action="AÃ§Ã£o" usage="1/Descanso Longo" >
-			<description>VocÃª conjura a magia TelecinÃ©sia sem componentes, usando InteligÃªncia como sua habilidade de conjuraÃ§Ã£o. Em cada um de seus turnos em que mantiver a ConcentraÃ§Ã£o nela, vocÃª pode fazer um ataque com uma arma como uma AÃ§Ã£o BÃ´nus. &#13;
-			VocÃª pode gastar um Dado de Energia PsiÃ´nica para restaurar um uso desta caracterÃ­stica.</description>
+		<sheet alt="Mestre Telecinético" action="Ação" usage="1/Descanso Longo" >
+			<description>Você conjura a magia Telecinésia sem componentes, usando Inteligência como sua habilidade de conjuração. Em cada um de seus turnos em que mantiver a Concentração nela, você pode fazer um ataque com uma arma como uma Ação Bônus. &#13;
+			Você pode gastar um Dado de Energia Psiônica para restaurar um uso desta característica.</description>
 		</sheet>
 	</element>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
         <name>Unearthed Arcana: Artificer</name>
@@ -55,7 +55,7 @@
                 <br />
                 <span class="emphasis">Weapons:</span>Simple weapons
                 <br />
-                <span class="emphasis">Tools:</span>Thievesâ€™ tools, two other tools of your choice
+                <span class="emphasis">Tools:</span>Thieves’ tools, two other tools of your choice
             </p>
             <p>
                 <span class="emphasis">Saving Throws:</span>Constitution, Intelligence

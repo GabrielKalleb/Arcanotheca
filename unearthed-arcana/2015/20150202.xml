@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Unearthed Arcana: Eberron</name>
-		<description>The Eberron campaign setting was created by Keith Baker and first published for D&amp;D in 2004. It combines pulp adventure and intrigue in a world where magic-driven technology has produced airships, trains, and similar advancements comparable to early 20th-century Europe. The continent of Khorvaire, the center of Eberronâ€™s focus, has recently emerged from the Last War, a terrible conflict that saw the kingdom of Cyre transformed into a lifeless gray wasteland called the Mournland. That catastrophe shocked the remaining kingdoms into an uneasy peace that has held so far.</description>
+		<description>The Eberron campaign setting was created by Keith Baker and first published for D&amp;D in 2004. It combines pulp adventure and intrigue in a world where magic-driven technology has produced airships, trains, and similar advancements comparable to early 20th-century Europe. The continent of Khorvaire, the center of Eberron’s focus, has recently emerged from the Last War, a terrible conflict that saw the kingdom of Cyre transformed into a lifeless gray wasteland called the Mournland. That catastrophe shocked the remaining kingdoms into an uneasy peace that has held so far.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/unearthed-arcana-eberron">Wizards of the Coast</author>
 		<update version="0.2.8">
 			<file name="20150202.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2015/20150202.xml" />
@@ -11,7 +11,7 @@
 	
 	<element name="Unearthed Arcana: Eberron" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20150202">
 		<description>
-			<p>The Eberron campaign setting was created by Keith Baker and first published for D&amp;D in 2004. It combines pulp adventure and intrigue in a world where magic-driven technology has produced airships, trains, and similar advancements comparable to early 20th-century Europe. The continent of Khorvaire, the center of Eberronâ€™s focus, has recently emerged from the Last War, a terrible conflict that saw the kingdom of Cyre transformed into a lifeless gray wasteland called the Mournland. That catastrophe shocked the remaining kingdoms into an uneasy peace that has held so far.</p>
+			<p>The Eberron campaign setting was created by Keith Baker and first published for D&amp;D in 2004. It combines pulp adventure and intrigue in a world where magic-driven technology has produced airships, trains, and similar advancements comparable to early 20th-century Europe. The continent of Khorvaire, the center of Eberron’s focus, has recently emerged from the Last War, a terrible conflict that saw the kingdom of Cyre transformed into a lifeless gray wasteland called the Mournland. That catastrophe shocked the remaining kingdoms into an uneasy peace that has held so far.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">UA20150202</set>
@@ -26,7 +26,7 @@
 	<!-- Changeling -->
 	<element name="Changeling" type="Race" source="Unearthed Arcana: Eberron" id="ID_WOTC_UA_RACE_CHANGELING">
 		<description>
-			<p class="flavor">Changelings are subtle shapeshifters capable of disguising their appearance. Their ability to adopt other creaturesâ€™ guises makes them consummate spies and criminals.</p>
+			<p class="flavor">Changelings are subtle shapeshifters capable of disguising their appearance. Their ability to adopt other creatures’ guises makes them consummate spies and criminals.</p>
 			<p>As a changeling, you have the following racial traits.</p>
 			<p>
 				<span class="feature">Ability Score Increase.</span>Your Dexterity and Charisma scores increase by 1.<br/>
@@ -88,7 +88,7 @@
 				<span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 1.<br/>
 				<span class="feature">Size.</span>Shifters are about the same size as humans. Your size is Medium.<br/>
 				<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
-				<span class="feature">Darkvision.</span>Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You canâ€™t discern color in darkness, only shades of gray.<br/>
+				<span class="feature">Darkvision.</span>Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.<br/>
 				<span class="feature">Shifting.</span>On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.<br/>While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). You also gain a feature that depends on your shifter subrace, described below.<br/>You must finish a short or long rest before you can shift again.<br/>
 				<span class="feature">Languages.</span>You can speak, read, and write Common and Sylvan.<br/>
 				<span class="feature">Subrace.</span>Several subraces of shifter exist, each with its own animalistic features. Choose one of the options below.<br/>
@@ -315,7 +315,7 @@
 			<ul>
 				<li>When you first take this feat, you gain the least dragonmark. You learn the spells listed under the Least column.</li>
 				<li>At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You also learn the spell listed under the Lesser column.</li>
-				<li>At 9th level and higher, your markâ€™s power increases again, becoming a greater dragonmark. You also learn the spell listed under the Greater column.</li>
+				<li>At 9th level and higher, your mark’s power increases again, becoming a greater dragonmark. You also learn the spell listed under the Greater column.</li>
 			</ul>
 			<h5>Dragonmark Benefits</h5>
 			<table>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
         <name>Unearthed Arcana: Ranger &amp; Rogue</name>
@@ -50,7 +50,7 @@
         
     <element name="Primeval Guardian Magic" type="Archetype Feature" source="Unearthed Arcana: Ranger &amp; Rogue" id="ID_WOTC_UA_ARCHETYPE_FEATURE_PRIMEVAL_GUARDIAN_MAGIC">
         <description>
-            <p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Primeval Guardian Spells table. The spell counts as a ranger spell for you, but it doesnâ€™t count against the number of ranger spells you know.</p>
+            <p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Primeval Guardian Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.</p>
             <h5>PRIMEVAL GUARDIAN SPELLS</h5>
               <table>
                 <thead>

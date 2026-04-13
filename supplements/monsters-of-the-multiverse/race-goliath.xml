@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Goliath from Monsters of the Multiverse</name>
@@ -9,7 +9,7 @@
 
 	<element name="Goliath" type="Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_GOLIATH">
 		<description>
-			<p>The first goliaths lived on the highest mountain peaksâ€”far above the tree line, where the air is thin and frigid winds howl. Distantly related to giants and infused with the supernatural essence of their ancestors' mountainous home, goliaths stand between 7 and 8 feet tall and have a wide array of skin tones resembling different types of stone.</p>
+			<p>The first goliaths lived on the highest mountain peaks—far above the tree line, where the air is thin and frigid winds howl. Distantly related to giants and infused with the supernatural essence of their ancestors' mountainous home, goliaths stand between 7 and 8 feet tall and have a wide array of skin tones resembling different types of stone.</p>
 			<h4>GOLIATH TRAITS</h4>
 			<p>As a goliath, you have the following racial traits.</p>
 			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Comerciante</name>
@@ -9,22 +9,22 @@
 		</update>
 	</info>
 
-	<element name="Comerciante" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_MERCHANT">
+	<element name="Comerciante" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_MERCHANT">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> ConstituiÃ§Ã£o, InteligÃªncia, Carisma</li>
+				<li><strong>Valores de Habilidade:</strong> Constituição, Inteligência, Carisma</li>
 				<li><strong>Talento:</strong> Sortudo</li>
-				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> Adestrar Animais e PersuasÃ£o</li>
-				<li><strong>ProficiÃªncia em Ferramenta:</strong> Ferramentas de Navegador</li>
+				<li><strong>Proficiências em Perícias:</strong> Adestrar Animais e Persuasão</li>
+				<li><strong>Proficiência em Ferramenta:</strong> Ferramentas de Navegador</li>
 				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Ferramentas de Navegador, 2 Algibeiras, Roupas de Viajante, 22 PO; ou (B) 50 PO</li>
 			</ul>
-			<p>VocÃª foi aprendiz de um mercador, mestre de caravana ou lojista, aprendendo os fundamentos do comÃ©rcio. VocÃª viajou amplamente e ganhou a vida comprando e vendendo as matÃ©rias-primas que os artesÃ£os precisam para praticar seu ofÃ­cio, ou trabalhos finalizados por esses mesmos artesÃ£os. VocÃª pode ter transportado mercadorias de um lugar para outro (por navio, carroÃ§a ou caravana) ou comprado de comerciantes viajantes e vendido em sua prÃ³pria loja.</p>
+			<p>Você foi aprendiz de um mercador, mestre de caravana ou lojista, aprendendo os fundamentos do comércio. Você viajou amplamente e ganhou a vida comprando e vendendo as matérias-primas que os artesãos precisam para praticar seu ofício, ou trabalhos finalizados por esses mesmos artesãos. Você pode ter transportado mercadorias de um lugar para outro (por navio, carroça ou caravana) ou comprado de comerciantes viajantes e vendido em sua própria loja.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_LUCKY" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">ConstituiÃ§Ã£o, InteligÃªncia, Carisma, Talento Sortudo, PerÃ­cias Adestrar Animais e PersuasÃ£o, Ferramentas de Navegador</set>
+			<set name="short">Constituição, Inteligência, Carisma, Talento Sortudo, Perícias Adestrar Animais e Persuasão, Ferramentas de Navegador</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_CHA" />

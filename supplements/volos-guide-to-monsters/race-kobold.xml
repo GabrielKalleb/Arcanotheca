@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Kobold</name>
-		<description>The monstrous-adventurers from Voloâ€™s Guide to Monsters.</description>
+		<description>The monstrous-adventurers from Volo’s Guide to Monsters.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters">Wizards of the Coast</author>
 		<update version="0.0.4">
 			<file name="race-kobold.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/volos-guide-to-monsters/race-kobold.xml" />
 		</update>
 	</info>
-	<element name="Kobold" type="Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACE_KOBOLD">
+	<element name="Kobold" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_KOBOLD">
 		<description>
 			<p class="flavor">In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. This section is aimed at those who wish to expand the race selections for their campaigns beyond the typical folk of D&amp;D.</p>
 			<h4>KOBOLD TRAITS</h4>
@@ -48,7 +48,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KOBOLD_SUNLIGHT_SENSITIVITY" />
 		</rules>
 	</element>
-	<element name="Grovel, Cower, and Beg" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KOBOLD_GROVEL_COWER_AND_BEG">
+	<element name="Grovel, Cower, and Beg" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KOBOLD_GROVEL_COWER_AND_BEG">
 		<description>
 			<p>As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.</p>
 		</description>
@@ -56,7 +56,7 @@
 			<description>As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.</description>
 		</sheet>
 	</element>
-	<element name="Pack Tactics" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KOBOLD_PAC_TACTICS">
+	<element name="Pack Tactics" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KOBOLD_PAC_TACTICS">
 		<description>
 			<p>You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.</p>
 		</description>
@@ -64,7 +64,7 @@
 			<description>You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.</description>
 		</sheet>
 	</element>
-	<element name="Sunlight Sensitivity" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KOBOLD_SUNLIGHT_SENSITIVITY">
+	<element name="Sunlight Sensitivity" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KOBOLD_SUNLIGHT_SENSITIVITY">
 		<description>
 			<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
 		</description>

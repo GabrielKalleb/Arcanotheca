@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Unearthed Arcana: Wonders of the Multiverse</name>
@@ -9,7 +9,7 @@
 
 	<element name="Unearthed Arcana: Wonders of the Multiverse" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_FATE_20220718">
 		<description>
-			<p>In todayâ€™s <i>Unearthed Arcana</i>, we explore D&amp;D character options from across the multiverse. This playtest document presents the glitchling race; the Fate Domain cleric subclass; and the gate warden, giant foundling, planar philosopher, and rune carver backgrounds. Additionally, a collection of new feats provide links to giants and other primordial forces of the planes, while a selection of new spells highlight the power of fate and chance.</p>
+			<p>In today’s <i>Unearthed Arcana</i>, we explore D&amp;D character options from across the multiverse. This playtest document presents the glitchling race; the Fate Domain cleric subclass; and the gate warden, giant foundling, planar philosopher, and rune carver backgrounds. Additionally, a collection of new feats provide links to giants and other primordial forces of the planes, while a selection of new spells highlight the power of fate and chance.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">UA20220718</set>
@@ -32,20 +32,20 @@
 					<tr><td>d6</td><td>Quirk</td></tr>
 				</thead>
 				<tr><td>1</td><td>I collect things, whether a specific kind of object or things made of a particular material.</td></tr>
-				<tr><td>2</td><td>We think of ourselves as being a part of the collective, lawful forces of the multiverse and donâ€™t refer to ourselves as a singular being.</td></tr>
+				<tr><td>2</td><td>We think of ourselves as being a part of the collective, lawful forces of the multiverse and don’t refer to ourselves as a singular being.</td></tr>
 				<tr><td>3</td><td>I seek out new experiences so I can better understand the freedom of my existence.</td></tr>
-				<tr><td>4</td><td>I preface things I say with a short description, such as: â€œobservation,â€ â€œinterjection,â€ or â€œquery.â€</td></tr>
-				<tr><td>5</td><td>I plan elaborate responses to every contingency, ready to execute at an instantâ€™s notice.</td></tr>
-				<tr><td>6</td><td>I investigate peopleâ€™s intentions behind their actions, trying to solve the equation that guides them.</td></tr>
+				<tr><td>4</td><td>I preface things I say with a short description, such as: “observation,” “interjection,” or “query.”</td></tr>
+				<tr><td>5</td><td>I plan elaborate responses to every contingency, ready to execute at an instant’s notice.</td></tr>
+				<tr><td>6</td><td>I investigate people’s intentions behind their actions, trying to solve the equation that guides them.</td></tr>
 			</table>
 			<h4>Glitchling Traits</h4>
 			<p>As a glitchling, you have the following racial traits.</p>
 			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Construct.</p>
 			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Armored Plating.</em></strong> Your metal skin is reinforced with armor plates. While you arenâ€™t wearing armor, your base Armor Class is 14 + your Dexterity modifier.</p>
+			<p class="indent"><strong><em>Armored Plating.</em></strong> Your metal skin is reinforced with armor plates. While you aren’t wearing armor, your base Armor Class is 14 + your Dexterity modifier.</p>
 			<p class="indent"><strong><em>Balance Chaos.</em></strong> When you make an attack roll or a saving throw and roll a 9 or lower on the d20, you can balance chaos and treat the roll as a 10. You can balance chaos in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
-			<p class="indent"><strong><em>Living Construct.</em></strong> You were created to benefit from several spells that preserve life but that normally donâ€™t affect Constructs: <i>cure wounds</i>, <i>healing word</i>, <i>mass cure wounds</i>, <i>mass healing word</i>, and <i>spare the dying</i>.</p>
+			<p class="indent"><strong><em>Living Construct.</em></strong> You were created to benefit from several spells that preserve life but that normally don’t affect Constructs: <i>cure wounds</i>, <i>healing word</i>, <i>mass cure wounds</i>, <i>mass healing word</i>, and <i>spare the dying</i>.</p>
 			<p class="indent"><strong><em>Ordered Mind.</em></strong> You have advantage on Wisdom (Insight) checks and on saving throws made to avoid or end the charmed condition on yourself.</p>
 			<p class="indent"><strong><em>Vestigial Wings.</em></strong> You have vestigial wings that allow limited flight. When you move, you can engage your wings to gain a flying speed equal to your walking speed until the end of the current turn. If you are still aloft at the end of the turn with nothing else supporting you, you fall. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
@@ -69,7 +69,7 @@
 
 	<element name="Armored Plating" type="Racial Trait" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_RACE_GLITCHLING_ARMORED_PLATING">
 		<description>
-			<p>Your metal skin is reinforced with armor plates. While you arenâ€™t wearing armor, your base Armor Class is 14 + your Dexterity modifier.</p>
+			<p>Your metal skin is reinforced with armor plates. While you aren’t wearing armor, your base Armor Class is 14 + your Dexterity modifier.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -90,7 +90,7 @@
 
 	<element name="Living Construct" type="Racial Trait" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_RACE_GLITCHLING_LIVING_CONSTRUCT">
 		<description>
-			<p>You were created to benefit from several spells that preserve life but that normally donâ€™t affect Constructs: <i>cure wounds</i>, <i>healing word</i>, <i>mass cure wounds</i>, <i>mass healing word</i>, and <i>spare the dying</i>.</p>
+			<p>You were created to benefit from several spells that preserve life but that normally don’t affect Constructs: <i>cure wounds</i>, <i>healing word</i>, <i>mass cure wounds</i>, <i>mass healing word</i>, and <i>spare the dying</i>.</p>
 		</description>
 		<sheet>
 			<description>You can benefit from following spells: <i>cure wounds</i>, <i>healing word</i>, <i>mass cure wounds</i>, <i>mass healing word</i>, and <i>spare the dying</i>.</description>
@@ -189,23 +189,23 @@
 		<description>
 			<p><em>1st-level Fate Domain feature</em></p>
 			<p>You can perceive signs of the future in everyday objects and events, such as flights of birds or ripples made in water by a thrown stone. You can cast the <i>augury</i> spell without expending a spell slot and, when you cast the spell in this way, the spell has no verbal, somatic, or material components. Once you cast the spell in this way, you cannot do so again until you finish a long rest.</p>
-			<p class="indent">In addition, until you finish a long rest, when you cast a divination spell that includes a chance the DM gives you no answer or a random readingâ€”such as <i>augury</i>, <i>commune</i>, or <i>divination</i>â€”reduce that chance by 25 percent.</p>
+			<p class="indent">In addition, until you finish a long rest, when you cast a divination spell that includes a chance the DM gives you no answer or a random reading—such as <i>augury</i>, <i>commune</i>, or <i>divination</i>—reduce that chance by 25 percent.</p>
 		</description>
 		<sheet>
 			<description>You can cast the augury spell once without expending a spell slot and without verbal, somatic, or material components. Once you cast the spell in this way, you cannot do so again until you finish a long rest. &#13;
-			In addition, until you finish a long rest, when you cast a divination spell that includes a chance the DM gives you no answer or a random readingâ€”such as augury, commune, or divinationâ€”reduce that chance by 25 percent.</description>
+			In addition, until you finish a long rest, when you cast a divination spell that includes a chance the DM gives you no answer or a random reading—such as augury, commune, or divination—reduce that chance by 25 percent.</description>
 		</sheet>
 	</element>
 
 	<element name="Ties That Bind" type="Archetype Feature" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_ARCHETYPE_CLERIC_FEATURE_FATE_DOMAIN_TIES_THAT_BIND">
 		<description>
 			<p><em>1st-level Fate Domain feature</em></p>
-			<p>You can temporarily tie your fate to others. As an action, you can touch one object or creature and magically tie a strand of fate from yourself to it for 1 hour or until you use this feature again. An unwilling creature must succeed on a Wisdom saving throw against your spell save DC to resist this effect. While the target is bound to you and on the same plane of existence as you, you can sense the direction to the targetâ€™s location, and you know the direction of its movement if it is in motion.</p>
+			<p>You can temporarily tie your fate to others. As an action, you can touch one object or creature and magically tie a strand of fate from yourself to it for 1 hour or until you use this feature again. An unwilling creature must succeed on a Wisdom saving throw against your spell save DC to resist this effect. While the target is bound to you and on the same plane of existence as you, you can sense the direction to the target’s location, and you know the direction of its movement if it is in motion.</p>
 			<p class="indent">In addition, once per turn when you cast a spell using a spell slot to deal damage or restore hit points to the target, roll a d6, and the target receives extra damage or healing, respectively, equal to the number rolled.</p>
-			<p class="indent">You can use this featureâ€™s action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent">You can use this feature’s action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet action="Action" usage="{{proficiency}}/Long Rest">
-			<description>You can touch one object or creature and magically tie a strand of fate from yourself to it for 1 hour or until you use this feature again. An unwilling creature must succeed on a Wisdom saving throw DC{{spellcasting:dc:wis}} to resist this effect. While the target is bound to you and on the same plane of existence as you, you can sense the direction to the targetâ€™s location, and you know the direction of its movement if it is in motion. In addition, once per turn when you cast a spell using a spell slot to deal damage or restore hit points to the target, roll a d6, and the target receives extra damage or healing, respectively, equal to the number rolled.</description>
+			<description>You can touch one object or creature and magically tie a strand of fate from yourself to it for 1 hour or until you use this feature again. An unwilling creature must succeed on a Wisdom saving throw DC{{spellcasting:dc:wis}} to resist this effect. While the target is bound to you and on the same plane of existence as you, you can sense the direction to the target’s location, and you know the direction of its movement if it is in motion. In addition, once per turn when you cast a spell using a spell slot to deal damage or restore hit points to the target, roll a d6, and the target receives extra damage or healing, respectively, equal to the number rolled.</description>
 		</sheet>
 	</element>
 
@@ -222,7 +222,7 @@
 	<element name="Insightful Striking" type="Archetype Feature" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_ARCHETYPE_CLERIC_FEATURE_FATE_DOMAIN_INSIGHTFUL_STRIKING">
 		<description>
 			<p><em>6th-level Fate Domain feature</em></p>
-			<p>As a bonus action, you can choose one creature you can see within 30 feet of yourself. Your magic grants you a brief vision of the targetâ€™s defenses. Until the end of your next turn, you gain one of the following effects of your choice:</p>
+			<p>As a bonus action, you can choose one creature you can see within 30 feet of yourself. Your magic grants you a brief vision of the target’s defenses. Until the end of your next turn, you gain one of the following effects of your choice:</p>
 			<ul>
 				<li>The next time you make an attack roll against the target, roll a d6 and add the number rolled to the total.</li>
 				<li>The next time the target must make a saving throw against a spell you cast, the target must roll a d6 and subtract the number rolled from the saving throw.</li>
@@ -230,9 +230,9 @@
 			<p>You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
-			<description>You can choose one creature you can see within 30 feet of yourself. Your magic grants you a brief vision of the targetâ€™s defenses. Until the end of your next turn, you gain one of the following effects of your choice: &#13;
-			â€¢ The next time you make an attack roll against the target, roll a d6 and add the number rolled to the total. &#13;
-			â€¢ The next time the target must make a saving throw against a spell you cast, the target must roll a d6 and subtract the number rolled from the saving throw.</description>
+			<description>You can choose one creature you can see within 30 feet of yourself. Your magic grants you a brief vision of the target’s defenses. Until the end of your next turn, you gain one of the following effects of your choice: &#13;
+			• The next time you make an attack roll against the target, roll a d6 and add the number rolled to the total. &#13;
+			• The next time the target must make a saving throw against a spell you cast, the target must roll a d6 and subtract the number rolled from the saving throw.</description>
 		</sheet>
 	</element>
 
@@ -250,35 +250,35 @@
 	<element name="Visions of the Future" type="Archetype Feature" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_ARCHETYPE_CLERIC_FEATURE_FATE_DOMAIN_VISIONS_OF_THE_FUTURE">
 		<description>
 			<p><em>17th-level Fate Domain feature</em></p>
-			<p>Your knowledge of the future allows you to guide an individual to achieve their greatest possible success. You can cast the <i>foresight</i> spell once without expending a spell slot; when you cast the spell in this way, the spellâ€™s duration is 1 minute for that casting. Once you cast the spell in this way, you canâ€™t do so again until you finish a long rest.</p>
+			<p>Your knowledge of the future allows you to guide an individual to achieve their greatest possible success. You can cast the <i>foresight</i> spell once without expending a spell slot; when you cast the spell in this way, the spell’s duration is 1 minute for that casting. Once you cast the spell in this way, you can’t do so again until you finish a long rest.</p>
 		</description>
 		<sheet usage="1/Long Rest">
-			<description>You can cast the foresight spell once without expending a spell slot; when you cast the spell in this way, the spellâ€™s duration is 1 minute for that casting.</description>
+			<description>You can cast the foresight spell once without expending a spell slot; when you cast the spell in this way, the spell’s duration is 1 minute for that casting.</description>
 		</sheet>
 	</element>
 
 	<!-- Backgrounds -->
 	<element name="Bonus Feats" type="Information" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_INFORMATION_BONUS_FEATS">
 		<description>
-			<p>If the DM decides to allow any of the backgrounds in this section, all characters in the campaign gain access to a bonus feat. If you select one of these backgrounds, you gain the bonus feat specified in that background. If the background you choose doesnâ€™t provide a feat, you gain a bonus feat of your choice from the following list (a parenthesis tells you where to find the feat):</p>
+			<p>If the DM decides to allow any of the backgrounds in this section, all characters in the campaign gain access to a bonus feat. If you select one of these backgrounds, you gain the bonus feat specified in that background. If the background you choose doesn’t provide a feat, you gain a bonus feat of your choice from the following list (a parenthesis tells you where to find the feat):</p>
 			<ul>
 				<li>Scion of Elemental Air (presented later in this document)</li>
 				<li>Scion of Elemental Earth (presented later in this document)</li>
 				<li>Scion of Elemental Fire (presented later in this document)</li>
 				<li>Scion of Elemental Water (presented later in this document)</li>
-				<li>Skilled (Playerâ€™s Handbook)</li>
-				<li>Tough (Playerâ€™s Handbook)</li>
+				<li>Skilled (Player’s Handbook)</li>
+				<li>Tough (Player’s Handbook)</li>
 			</ul>
 		</description>
 	</element>
 	
 	<element name="Gate Warden" type="Background" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_BACKGROUND_GATE_WARDEN">
 		<description>
-			<p>You spent a significant amount of time somewhere influenced by a portal to another plane of existence or by intense planar forces. Youâ€™re accustomed to experiences that would leave others reeling in terror or enraptured by otherworldly beauty, and youâ€™re as comfortable dealing with fiends and celestials as you are with vendors in town.</p>
+			<p>You spent a significant amount of time somewhere influenced by a portal to another plane of existence or by intense planar forces. You’re accustomed to experiences that would leave others reeling in terror or enraptured by otherworldly beauty, and you’re as comfortable dealing with fiends and celestials as you are with vendors in town.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Persuasion, Survival</li>
 				<li><strong>Languages:</strong> Two of your choice (Abyssal, Celestial, or Infernal recommended)</li>
-				<li><strong>Equipment:</strong> A ring of keys to unknown locks, a blank book, an ink pen or quill, a bottle of black ink, a set of travelerâ€™s clothes, and a pouch containing 10 gp</li>
+				<li><strong>Equipment:</strong> A ring of keys to unknown locks, a blank book, an ink pen or quill, a bottle of black ink, a set of traveler’s clothes, and a pouch containing 10 gp</li>
 			</ul>
 			<div element="ID_WOTC_UA20220718_BACKGROUND_FEATURE_PLANAR_INFUSION" />
 			<div class="reference">
@@ -292,14 +292,14 @@
 				<thead>
 					<tr><td>d6</td><td>Personality Trait</td></tr>
 				</thead>
-				<tr><td>1</td><td>Strange events and otherworldly creatures donâ€™t phase me.</td></tr>
+				<tr><td>1</td><td>Strange events and otherworldly creatures don’t phase me.</td></tr>
 				<tr><td>2</td><td>I think in terms of exchange; something for something, nothing for nothing.</td></tr>
 				<tr><td>3</td><td>I speak with an unusual cadence.</td></tr>
 				<tr><td>4</td><td>I pepper my speech with borrowed words or curses from planar languages.</td></tr>
-				<tr><td>5</td><td>Iâ€™ve seen enough to know that you canâ€™t take anyone at face value, so I scrutinize everyone I deal with.</td></tr>
-				<tr><td>6</td><td>I have a superstitious habit I picked up, such as touching iron when Iâ€™m nervous or arranging objects in a specific order.</td></tr>
+				<tr><td>5</td><td>I’ve seen enough to know that you can’t take anyone at face value, so I scrutinize everyone I deal with.</td></tr>
+				<tr><td>6</td><td>I have a superstitious habit I picked up, such as touching iron when I’m nervous or arranging objects in a specific order.</td></tr>
 			</table>
-			<p class="indent"><strong><em>Gate Warden Trinkets.</em></strong> When you make your character, you can roll once on the Gate Warden Trinkets table, instead of on the Trinkets table in the <i>Playerâ€™s Handbook</i>, for your starting trinket.</p>
+			<p class="indent"><strong><em>Gate Warden Trinkets.</em></strong> When you make your character, you can roll once on the Gate Warden Trinkets table, instead of on the Trinkets table in the <i>Player’s Handbook</i>, for your starting trinket.</p>
 			<h5>Gate Warden Trinkets</h5>
 			<table>
 				<thead>
@@ -308,9 +308,9 @@
 				<tr><td>1</td><td>A tiny vial pendant, filled with a drip of honey that glows faintly</td></tr>
 				<tr><td>2</td><td>A small lead ingot with a strange thumbprint pressed into it that whispers when held tightly</td></tr>
 				<tr><td>3</td><td>Two lodestone spheres that chime when they attract each other</td></tr>
-				<tr><td>4</td><td>A smoldering pebble of coal that, while always hot, doesnâ€™t burn skin</td></tr>
+				<tr><td>4</td><td>A smoldering pebble of coal that, while always hot, doesn’t burn skin</td></tr>
 				<tr><td>5</td><td>A white feather that sheds dim light in a 5-foot radius</td></tr>
-				<tr><td>6</td><td>A ring made from a chain link that, once worn, wonâ€™t come off without pulling painfully hard</td></tr>
+				<tr><td>6</td><td>A ring made from a chain link that, once worn, won’t come off without pulling painfully hard</td></tr>
 			</table>
 			<div class="reference">
 				<div element="ID_WOTC_UA20220718_FEAT_SCION_OF_THE_OUTER_PLANES" />
@@ -323,12 +323,12 @@
 			<grant type="Background Feature" id="ID_WOTC_UA20220718_BACKGROUND_FEATURE_PLANAR_INFUSION" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" number="2" optional="true" >
-				<item id="1">Strange events and otherworldly creatures donâ€™t phase me.</item>
+				<item id="1">Strange events and otherworldly creatures don’t phase me.</item>
 				<item id="2">I think in terms of exchange; something for something, nothing for nothing.</item>
 				<item id="3">I speak with an unusual cadence.</item>
 				<item id="4">I pepper my speech with borrowed words or curses from planar languages.</item>
-				<item id="5">Iâ€™ve seen enough to know that you canâ€™t take anyone at face value, so I scrutinize everyone I deal with.</item>
-				<item id="6">I have a superstitious habit I picked up, such as touching iron when Iâ€™m nervous or arranging objects in a specific order.</item>
+				<item id="5">I’ve seen enough to know that you can’t take anyone at face value, so I scrutinize everyone I deal with.</item>
+				<item id="6">I have a superstitious habit I picked up, such as touching iron when I’m nervous or arranging objects in a specific order.</item>
 			</select>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
@@ -355,12 +355,12 @@
 
 	<element name="Giant Foundling" type="Background" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_BACKGROUND_GIANT_FOUNDLING">
 		<description>
-			<p>Though you arenâ€™t a Giant, you grew up among giants. Maybe you were an orphan taken in by a sympathetic family of stone giants who raised you as one of their own. Or perhaps you lived in a lost prehistoric pocket of the world, surrounded by giants and fearsome behemoths or hulking dinosaurs.</p>
-			<p class="indent">Something about your environmentâ€”perhaps the food or water that sustained you through childhood, elemental magic inherent in the site of your home, or some verdant blessing of growth placed on youâ€”ensured that you grew to a remarkable size. With the aid of this magic, you have learned how to embody the titanic might of giants. You are used to moving through a world much bigger than you, and that is reflected in your skills, attitude, and perspective on life.</p>
+			<p>Though you aren’t a Giant, you grew up among giants. Maybe you were an orphan taken in by a sympathetic family of stone giants who raised you as one of their own. Or perhaps you lived in a lost prehistoric pocket of the world, surrounded by giants and fearsome behemoths or hulking dinosaurs.</p>
+			<p class="indent">Something about your environment—perhaps the food or water that sustained you through childhood, elemental magic inherent in the site of your home, or some verdant blessing of growth placed on you—ensured that you grew to a remarkable size. With the aid of this magic, you have learned how to embody the titanic might of giants. You are used to moving through a world much bigger than you, and that is reflected in your skills, attitude, and perspective on life.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Intimidation, Survival</li>
 				<li><strong>Languages:</strong> Two of your choice</li>
-				<li><strong>Equipment:</strong> A backpack, a set of travelerâ€™s clothes, a small stone or sprig that reminds you of home, and a pouch containing 10 gp</li>
+				<li><strong>Equipment:</strong> A backpack, a set of traveler’s clothes, a small stone or sprig that reminds you of home, and a pouch containing 10 gp</li>
 			</ul>
 			<h5>ORIGIN STORIES</h5>
 			<p>How you came to live among colossal creatures is up to you to determine, but the Foundling Origin table suggests a variety of possibilities.</p>
@@ -389,11 +389,11 @@
 					<tr><td>d6</td><td>Personality Trait</td></tr>
 				</thead>
 				<tr><td>1</td><td>What i lack in stature, i make up for with sheer spite.</td></tr>
-				<tr><td>2</td><td>Sometimes size does matter, okay? If i see a beast bigger than me, iâ€™m immediately running away.</td></tr>
-				<tr><td>3</td><td>Crowded spaces make me uncomfortable. Iâ€™d much rather be in a wide-open field than a bustling tavern.</td></tr>
-				<tr><td>4</td><td>I like being small. It helps me stay unnoticedâ€”and underestimated.</td></tr>
+				<tr><td>2</td><td>Sometimes size does matter, okay? If i see a beast bigger than me, i’m immediately running away.</td></tr>
+				<tr><td>3</td><td>Crowded spaces make me uncomfortable. I’d much rather be in a wide-open field than a bustling tavern.</td></tr>
+				<tr><td>4</td><td>I like being small. It helps me stay unnoticed—and underestimated.</td></tr>
 				<tr><td>5</td><td>Size is just half the story. Every avalanche begins as a single pebble.</td></tr>
-				<tr><td>6</td><td>The world always feels too big, and iâ€™m afraid iâ€™ll never find my place in it.</td></tr>
+				<tr><td>6</td><td>The world always feels too big, and i’m afraid i’ll never find my place in it.</td></tr>
 			</table>
 			<div class="reference">
 				<div element="ID_WOTC_UA20220718_FEAT_STRIKE_OF_THE_GIANTS" />
@@ -407,11 +407,11 @@
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" number="2" optional="true" >
 				<item id="1">What i lack in stature, i make up for with sheer spite.</item>
-				<item id="2">Sometimes size does matter, okay? If i see a beast bigger than me, iâ€™m immediately running away.</item>
-				<item id="3">Crowded spaces make me uncomfortable. Iâ€™d much rather be in a wide-open field than a bustling tavern.</item>
-				<item id="4">I like being small. It helps me stay unnoticedâ€”and underestimated.</item>
+				<item id="2">Sometimes size does matter, okay? If i see a beast bigger than me, i’m immediately running away.</item>
+				<item id="3">Crowded spaces make me uncomfortable. I’d much rather be in a wide-open field than a bustling tavern.</item>
+				<item id="4">I like being small. It helps me stay unnoticed—and underestimated.</item>
 				<item id="5">Size is just half the story. Every avalanche begins as a single pebble.</item>
-				<item id="6">The world always feels too big, and iâ€™m afraid iâ€™ll never find my place in it.</item>
+				<item id="6">The world always feels too big, and i’m afraid i’ll never find my place in it.</item>
 			</select>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
@@ -454,20 +454,20 @@
 				<thead>
 					<tr><td>d6</td><td>Personality Trait</td></tr>
 				</thead>
-				<tr><td>1</td><td>I donâ€™t venerate any gods; we can be as powerful or greater than them.</td></tr>
+				<tr><td>1</td><td>I don’t venerate any gods; we can be as powerful or greater than them.</td></tr>
 				<tr><td>2</td><td>Experience is everything, live in the moment.</td></tr>
 				<tr><td>3</td><td>When things crumble, I find meaning in the ashes.</td></tr>
-				<tr><td>4</td><td>Life thrives through order; I wonâ€™t tolerate disruptions.</td></tr>
+				<tr><td>4</td><td>Life thrives through order; I won’t tolerate disruptions.</td></tr>
 				<tr><td>5</td><td>When others make plans, the multiverse laughs and so do I.</td></tr>
-				<tr><td>6</td><td>I know whatâ€™s right, and no one will stand in my way.</td></tr>
+				<tr><td>6</td><td>I know what’s right, and no one will stand in my way.</td></tr>
 			</table>
-			<p class="indent"><strong><em>Planar Philosopher Trinkets.</em></strong> When you make your character, you can roll once on the Planar Philosopher Trinkets table, instead of on the Trinkets table in the <i>Playerâ€™s Handbook</i>, for your starting trinket.</p>
+			<p class="indent"><strong><em>Planar Philosopher Trinkets.</em></strong> When you make your character, you can roll once on the Planar Philosopher Trinkets table, instead of on the Trinkets table in the <i>Player’s Handbook</i>, for your starting trinket.</p>
 			<h5>Planar Philosopher Trinkets</h5>
 			<table>
 				<thead>
 					<tr><td>d6</td><td>Trinket</td></tr>
 				</thead>
-				<tr><td>1</td><td>A locket with a picture of my mentor and an inscription I canâ€™t read</td></tr>
+				<tr><td>1</td><td>A locket with a picture of my mentor and an inscription I can’t read</td></tr>
 				<tr><td>2</td><td>A bleached rat skull with colored glass beads in its eye sockets</td></tr>
 				<tr><td>3</td><td>A torn parchment with half a rebus puzzle painted on it</td></tr>
 				<tr><td>4</td><td>A bracelet of twisted razorvine stems</td></tr>
@@ -485,12 +485,12 @@
 			<grant type="Background Feature" id="ID_WOTC_UA20220718_BACKGROUND_FEATURE_CONVICTION" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" number="2" optional="true" >
-				<item id="1">I donâ€™t venerate any gods; we can be as powerful or greater than them.</item>
+				<item id="1">I don’t venerate any gods; we can be as powerful or greater than them.</item>
 				<item id="2">Experience is everything, live in the moment.</item>
 				<item id="3">When things crumble, I find meaning in the ashes.</item>
-				<item id="4">Life thrives through order; I wonâ€™t tolerate disruptions.</item>
+				<item id="4">Life thrives through order; I won’t tolerate disruptions.</item>
 				<item id="5">When others make plans, the multiverse laughs and so do I.</item>
-				<item id="6">I know whatâ€™s right, and no one will stand in my way.</item>
+				<item id="6">I know what’s right, and no one will stand in my way.</item>
 			</select>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
@@ -517,12 +517,12 @@
 
 	<element name="Rune Carver" type="Background" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_BACKGROUND_RUNE_CARVER">
 		<description>
-			<p>Youâ€™ve dedicated your life to studying the practice of runecraft. Whether you were personally taught by a master rune carver or learned by poring over engravings in ancient ruins, you understand how to tap into the supernatural power held within runes.</p>
+			<p>You’ve dedicated your life to studying the practice of runecraft. Whether you were personally taught by a master rune carver or learned by poring over engravings in ancient ruins, you understand how to tap into the supernatural power held within runes.</p>
 			<p class="indent">The art of runecraft was initially created by the giants of yore, but over time, the practice has been adopted by individuals of all races and backgrounds. As such, though Giant runes are the most common, many rune carvers incorporate symbols from their native languages into the craft.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> History, Perception</li>
 				<li><strong>Languages:</strong> Giant and one other language of your choice</li>
-				<li><strong>Equipment:</strong> A set of artisanâ€™s tools (one of your choice), a small knife, a whetstone, a set of common clothes, and a pouch containing 10 gp</li>
+				<li><strong>Equipment:</strong> A set of artisan’s tools (one of your choice), a small knife, a whetstone, a set of common clothes, and a pouch containing 10 gp</li>
 			</ul>
 			<h5>RUNE STYLES</h5>
 			<p>Each rune carver has a unique style and preferred medium for creating runes. To determine how you make your runes, you can roll on the Rune Style table.</p>
@@ -762,7 +762,7 @@
 			<p>You can channel the cosmic forces of chaos that drive the multiverse toward both freedom and disarray. Your actions are still yours to choose, but you gain these benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Ability Score Increase.</strong> Increase an ability score of your choice by 1, to a maximum of 20.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Chaotic Flare.</strong> When you roll a 1 or a 20 on an attack roll or a saving throw, the magic of chaos flows through you. Roll on the Chaotic Flares table to determine what happens. A flare lasts until the end of your next turn, and a new flare canâ€™t occur until after the first flare ends.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Chaotic Flare.</strong> When you roll a 1 or a 20 on an attack roll or a saving throw, the magic of chaos flows through you. Roll on the Chaotic Flares table to determine what happens. A flare lasts until the end of your next turn, and a new flare can’t occur until after the first flare ends.</li>
 			</ul>
 			<h5>Chaotic Flares</h5>
 			<table>
@@ -771,13 +771,13 @@
 				</thead>
 				<tr><td>1</td><td><b>Disruption Field.</b> Waves of energy ripple in a 10-foot sphere centered on you. Every creature other than you that starts its turn in that area, or that moves into that area for the first time on a turn, takes 1d8 force damage.</td></tr>
 				<tr><td>2</td><td><b>Battle Fury.</b> A creature of your choice that you can see is filled with reckless fury. The creature has advantage on attack rolls and disadvantage on ability checks.</td></tr>
-				<tr><td>3</td><td><b>Unbound.</b> When you move, you can use some or all of your walking speed to teleport once, along with any equipment youâ€™re wearing or carrying, up to the distance used to an unoccupied space that you can see.</td></tr>
+				<tr><td>3</td><td><b>Unbound.</b> When you move, you can use some or all of your walking speed to teleport once, along with any equipment you’re wearing or carrying, up to the distance used to an unoccupied space that you can see.</td></tr>
 				<tr><td>4</td><td><b>Wailing Winds.</b> Howling winds swirl around you in a 60-foot radius. You and any creature in that radius has disadvantage on Wisdom saving throws.</td></tr>
 			</table>
 			<p>You can also forcibly release a chaotic flare as a bonus action, rolling on the table as normal to determine the effects. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet alt="Chaotic Flare" action="Bonus Action" usage="{{proficiency}}/Long Rest">
-			<description>You can release a chaotic flare, rolling on the Chaotic Flares table to determine what happens. A flare lasts until the end of your next turn, and a new flare canâ€™t occur until after the first flare ends. &#13;
+			<description>You can release a chaotic flare, rolling on the Chaotic Flares table to determine what happens. A flare lasts until the end of your next turn, and a new flare can’t occur until after the first flare ends. &#13;
 			Additionally, when you roll a 1 or a 20 on an attack roll or a saving throw, roll on the table as normal to determine the effects.</description>
 		</sheet>
 		<rules>
@@ -790,15 +790,15 @@
 		<requirements>([level:4],ID_WOTC_UA20220718_FEAT_STRIKE_OF_THE_GIANTS_FIRE_GIANT)||ID_WOTC_UA20220718_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 4th Level, Strike of the Giants (Fire Giant) Feat</em></p>
-			<p>Youâ€™ve manifested the fiery combat emblematic of fire giants, granting you the following benefits:</p>
+			<p>You’ve manifested the fiery combat emblematic of fire giants, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Ability Score Increase.</strong> Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Born of Flame.</strong> You have resistance to fire damage.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Searing Ignition.</strong> When you take the Attack action on your turn, you can replace a single attack with a magical burst of flame. Each creature of your choice within 15 feet of you that can see you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, a creature takes fire damage equal to 1d8 + your proficiency bonus, and it is blinded until the start of your next turn. On a successful save, the creature takes half as much damage and isnâ€™t blinded. You can use your Searing Ignition a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Searing Ignition.</strong> When you take the Attack action on your turn, you can replace a single attack with a magical burst of flame. Each creature of your choice within 15 feet of you that can see you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, a creature takes fire damage equal to 1d8 + your proficiency bonus, and it is blinded until the start of your next turn. On a successful save, the creature takes half as much damage and isn’t blinded. You can use your Searing Ignition a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet alt="Searing Ignition" action="Attack" usage="{{proficiency}}/Long Rest">
-			<description>You can replace a single attack with a magical burst of flame. Each creature of your choice within 15 feet of you that can see you must make a Dexterity saving throw DC{{ua:searing ignition:dc}}. On a failed save, a creature takes 1d8 + {{proficiency}} fire damage, and it is blinded until the start of your next turn. On a successful save, the creature takes half as much damage and isnâ€™t blinded.</description>
+			<description>You can replace a single attack with a magical burst of flame. Each creature of your choice within 15 feet of you that can see you must make a Dexterity saving throw DC{{ua:searing ignition:dc}}. On a failed save, a creature takes 1d8 + {{proficiency}} fire damage, and it is blinded until the start of your next turn. On a successful save, the creature takes half as much damage and isn’t blinded.</description>
 		</sheet>
 		<rules>
 			<stat name="ua:searing ignition:dc" value="8" bonus="base" />
@@ -849,7 +849,7 @@
 		<requirements>([level:4],ID_WOTC_UA20220718_FEAT_STRIKE_OF_THE_GIANTS_FROST_GIANT)||ID_WOTC_UA20220718_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 4th Level, Strike of the Giants (Frost Giant) Feat</em></p>
-			<p>Youâ€™ve manifested the icy might emblematic of frost giants, granting you the following benefits:</p>
+			<p>You’ve manifested the icy might emblematic of frost giants, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Ability Score Increase.</strong> Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Born of Flame.</strong> You have resistance to cold damage.</li>
@@ -908,14 +908,14 @@
 		<requirements>([level:4],ID_WOTC_UA20220718_FEAT_STRIKE_OF_THE_GIANTS_CLOUD_GIANT)||ID_WOTC_UA20220718_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 4th Level, Strike of the Giants (Cloud Giant) Feat</em></p>
-			<p>Youâ€™ve manifested the airy speech and magic emblematic of cloud giants, granting you the following benefits:</p>
+			<p>You’ve manifested the airy speech and magic emblematic of cloud giants, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Ability Score Increase.</strong> Increase your Dexterity, Constitution, or Charisma score by 1, to a maximum of 20.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Cloudy Escape.</strong> When a creature you can see hits you with an attack roll, you can use your reaction to give yourself resistance to that attackâ€™s damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself. You can use this reaction a number of times equal to half your proficiency bonus (rounded up), and you regain all expended uses when you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Cloudy Escape.</strong> When a creature you can see hits you with an attack roll, you can use your reaction to give yourself resistance to that attack’s damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself. You can use this reaction a number of times equal to half your proficiency bonus (rounded up), and you regain all expended uses when you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet alt="Cloudy Escape" action="Reaction" usage="{{proficiency:half:up}}/Long Rest">
-			<description>When a creature you can see hits you with an attack roll, you can give yourself resistance to that attackâ€™s damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself.</description>
+			<description>When a creature you can see hits you with an attack roll, you can give yourself resistance to that attack’s damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself.</description>
 		</sheet>
 		<rules>
 			<select type="Ability Score Improvement" name="Ability Score Increase (Guile of the Cloud Giant)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_CHARISMA" />
@@ -927,15 +927,15 @@
 		<requirements>([level:4],ID_WOTC_UA20220718_FEAT_STRIKE_OF_THE_GIANTS_STONE_GIANT)||ID_WOTC_UA20220718_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 4th Level, Strike of the Giants (Stone Giant) Feat</em></p>
-			<p>Youâ€™ve manifested the physical talents emblematic of stone giants, granting you the following benefits:</p>
+			<p>You’ve manifested the physical talents emblematic of stone giants, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Ability Score Increase.</strong> Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Stone Throw.</strong> As a bonus action, you can touch a rock that can fit in the palm of your hand and imbue it with magic. While the rock is imbued with magic and you are wielding it, the rock is a magic ranged weapon with which youâ€™re proficient, and it has the thrown property with a normal range of 60 feet and a long range of 180 feet. On a hit, the rock deals 1d10 bludgeoning damage, and if the target is a creature, it must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat) or be knocked prone. The magic remains in the rock until you hit with it or finish a long rest. You can imbue a number of rocks equal to your proficiency bonus with this bonus action, and you regain all expended uses when you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Stone Throw.</strong> As a bonus action, you can touch a rock that can fit in the palm of your hand and imbue it with magic. While the rock is imbued with magic and you are wielding it, the rock is a magic ranged weapon with which you’re proficient, and it has the thrown property with a normal range of 60 feet and a long range of 180 feet. On a hit, the rock deals 1d10 bludgeoning damage, and if the target is a creature, it must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat) or be knocked prone. The magic remains in the rock until you hit with it or finish a long rest. You can imbue a number of rocks equal to your proficiency bonus with this bonus action, and you regain all expended uses when you finish a long rest.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Cavernous Sight.</strong> You gain darkvision out to a range of 60 feet. If you already have darkvision from another source, its range increases by 60 feet.</li>
 			</ul>
 		</description>
 		<sheet alt="Stone Throw" action="Bonus Action" usage="{{proficiency}}/Long Rest">
-			<description>You can touch a rock that can fit in the palm of your hand and imbue it with magic. While the rock is imbued with magic and you are wielding it, the rock is a magic ranged weapon with which youâ€™re proficient, and it has the thrown property with a normal range of 60 feet and a long range of 180 feet. On a hit, the rock deals 1d10 bludgeoning damage, and if the target is a creature, it must succeed on a Strength saving throw DC{{ua:stone throw:dc}} or be knocked prone. The magic remains in the rock until you hit with it or finish a long rest.</description>
+			<description>You can touch a rock that can fit in the palm of your hand and imbue it with magic. While the rock is imbued with magic and you are wielding it, the rock is a magic ranged weapon with which you’re proficient, and it has the thrown property with a normal range of 60 feet and a long range of 180 feet. On a hit, the rock deals 1d10 bludgeoning damage, and if the target is a creature, it must succeed on a Strength saving throw DC{{ua:stone throw:dc}} or be knocked prone. The magic remains in the rock until you hit with it or finish a long rest.</description>
 		</sheet>
 		<rules>
 			<stat name="ua:stone throw:dc" value="8" bonus="base" />
@@ -990,7 +990,7 @@
 			<p>You have spent significant time in Sigil or elsewhere in the Outlands, the crossroads of the multiverse. Being steeped in converging planar energies grants you these benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Ability Score Increase.</strong> Increase an ability score of your choice by 1, to a maximum of 20.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Crossroads Emissary.</strong> You learn the <i>misty step</i> and <i>tongues</i> spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast <i>tongues</i> using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spellâ€™s spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Crossroads Emissary.</strong> You learn the <i>misty step</i> and <i>tongues</i> spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast <i>tongues</i> using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
@@ -1007,7 +1007,7 @@
 	<element name="Intelligence" type="Feat Feature" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_FEAT_OUTLANDS_ENVOY_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>You learn the <i>misty step</i> and <i>tongues</i> spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast <i>tongues</i> using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spellâ€™s spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat.</p>
+			<p>You learn the <i>misty step</i> and <i>tongues</i> spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast <i>tongues</i> using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat.</p>
 		</description>
 		<sheet alt="Crossroads Emissary">
 			<description>You can cast misty step and tongues spells once each without a spell slot using this feat, and you must finish a long rest before you can cast that spell in this way again. When you cast tongues using this feat, you require no material components. Intelligence is your spellcasting ability for these spells.</description>
@@ -1017,7 +1017,7 @@
 	<element name="Wisdom" type="Feat Feature" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_FEAT_OUTLANDS_ENVOY_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>You learn the <i>misty step</i> and <i>tongues</i> spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast <i>tongues</i> using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spellâ€™s spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat.</p>
+			<p>You learn the <i>misty step</i> and <i>tongues</i> spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast <i>tongues</i> using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat.</p>
 		</description>
 		<sheet alt="Crossroads Emissary">
 			<description>You can cast misty step and tongues spells once each without a spell slot using this feat, and you must finish a long rest before you can cast that spell in this way again. When you cast tongues using this feat, you require no material components. Wisdom is your spellcasting ability for these spells.</description>
@@ -1027,7 +1027,7 @@
 	<element name="Charisma" type="Feat Feature" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_FEAT_OUTLANDS_ENVOY_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>You learn the <i>misty step</i> and <i>tongues</i> spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast <i>tongues</i> using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spellâ€™s spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat.</p>
+			<p>You learn the <i>misty step</i> and <i>tongues</i> spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast <i>tongues</i> using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat.</p>
 		</description>
 		<sheet alt="Crossroads Emissary">
 			<description>You can cast misty step and tongues spells once each without a spell slot using this feat, and you must finish a long rest before you can cast that spell in this way again. When you cast tongues using this feat, you require no material components. Charisma is your spellcasting ability for these spells.</description>
@@ -1042,8 +1042,8 @@
 			<p>You can draw on the forces of the multiverse to survive cosmic extremes and to traverse its infinite realms. You gain these benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Planar Adaptation.</strong> When you finish a long rest, you gain resistance to either acid, cold, or fire damage (your choice) until you finish your next long rest.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Portal Cracker.</strong> Your experience with portals allows you to operate them without the proper portal key. As an action, you can concentrate on a portal youâ€™re aware of that is within 5 feet of you and make a DC 20 Wisdom (Survival) check. On a failure, you take 3d8 force damage and you canâ€™t use this feature on that portal again until you finish a long rest. On a success, you can force the portal open or closed for 1 hour. For that duration, a portal closed in this way doesnâ€™t respond to its portal key unless a creature employing the key succeeds on a DC 20 Intelligence (Arcana) check as an action.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Portal Sense.</strong> You know the direction to the last planar portal you used while you and the portal are on the same plane. Moreover, as an action, you can detect the location of any portals within 30 feet of you that arenâ€™t behind total cover. Once you detect a portal with this action, you canâ€™t use the action again until you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Portal Cracker.</strong> Your experience with portals allows you to operate them without the proper portal key. As an action, you can concentrate on a portal you’re aware of that is within 5 feet of you and make a DC 20 Wisdom (Survival) check. On a failure, you take 3d8 force damage and you can’t use this feature on that portal again until you finish a long rest. On a success, you can force the portal open or closed for 1 hour. For that duration, a portal closed in this way doesn’t respond to its portal key unless a creature employing the key succeeds on a DC 20 Intelligence (Arcana) check as an action.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Portal Sense.</strong> You know the direction to the last planar portal you used while you and the portal are on the same plane. Moreover, as an action, you can detect the location of any portals within 30 feet of you that aren’t behind total cover. Once you detect a portal with this action, you can’t use the action again until you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
@@ -1067,20 +1067,20 @@
 	<element name="Portal Cracker" type="Feat Feature" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_FEAT_PLANAR_WANDERER_PORTAL_CRACKER">
 		<compendium display="false" />
 		<description>
-			<p>Your experience with portals allows you to operate them without the proper portal key. As an action, you can concentrate on a portal youâ€™re aware of that is within 5 feet of you and make a DC 20 Wisdom (Survival) check. On a failure, you take 3d8 force damage and you canâ€™t use this feature on that portal again until you finish a long rest. On a success, you can force the portal open or closed for 1 hour. For that duration, a portal closed in this way doesnâ€™t respond to its portal key unless a creature employing the key succeeds on a DC 20 Intelligence (Arcana) check as an action.</p>
+			<p>Your experience with portals allows you to operate them without the proper portal key. As an action, you can concentrate on a portal you’re aware of that is within 5 feet of you and make a DC 20 Wisdom (Survival) check. On a failure, you take 3d8 force damage and you can’t use this feature on that portal again until you finish a long rest. On a success, you can force the portal open or closed for 1 hour. For that duration, a portal closed in this way doesn’t respond to its portal key unless a creature employing the key succeeds on a DC 20 Intelligence (Arcana) check as an action.</p>
 		</description>
 		<sheet action="Action">
-			<description>You can concentrate on a portal youâ€™re aware of that is within 5 feet of you and make a DC 20 Wisdom (Survival) check. On a failure, you take 3d8 force damage and you canâ€™t use this feature on that portal again until you finish a long rest. On a success, you can force the portal open or closed for 1 hour. For that duration, a portal closed in this way doesnâ€™t respond to its portal key unless a creature employing the key succeeds on a DC 20 Intelligence (Arcana) check as an action.</description>
+			<description>You can concentrate on a portal you’re aware of that is within 5 feet of you and make a DC 20 Wisdom (Survival) check. On a failure, you take 3d8 force damage and you can’t use this feature on that portal again until you finish a long rest. On a success, you can force the portal open or closed for 1 hour. For that duration, a portal closed in this way doesn’t respond to its portal key unless a creature employing the key succeeds on a DC 20 Intelligence (Arcana) check as an action.</description>
 		</sheet>
 	</element>
 
 	<element name="Portal Sense" type="Feat Feature" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_FEAT_PLANAR_WANDERER_PORTAL_SENSE">
 		<compendium display="false" />
 		<description>
-			<p>You know the direction to the last planar portal you used while you and the portal are on the same plane. Moreover, as an action, you can detect the location of any portals within 30 feet of you that arenâ€™t behind total cover. Once you detect a portal with this action, you canâ€™t use the action again until you finish a long rest.</p>
+			<p>You know the direction to the last planar portal you used while you and the portal are on the same plane. Moreover, as an action, you can detect the location of any portals within 30 feet of you that aren’t behind total cover. Once you detect a portal with this action, you can’t use the action again until you finish a long rest.</p>
 		</description>
 		<sheet action="Action">
-			<description>You can detect the location of any portals within 30 feet of you that arenâ€™t behind total cover. Once you detect a portal with this action, you canâ€™t use it again until you finish a long rest. &#13;
+			<description>You can detect the location of any portals within 30 feet of you that aren’t behind total cover. Once you detect a portal with this action, you can’t use it again until you finish a long rest. &#13;
 			Moreover, you know the direction to the last planar portal you used while you and the portal are on the same plane.</description>
 		</sheet>
 	</element>
@@ -1106,7 +1106,7 @@
 
 	<element name="Rune Carver Apprentice" type="Feat" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_FEAT_RUNE_CARVER_APPRENTICE">
 		<description>
-			<p>Youâ€™ve begun studying the art of runecraft.</p>
+			<p>You’ve begun studying the art of runecraft.</p>
 			<p class="indent">You learn the <i>comprehend languages</i> spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have.</p>
 			<p class="indent">You know two runes of your choice from the Rune Spells table. Whenever you finish a long rest, you can mark one nonmagical weapon, armor, piece of clothing, or other object you touch with a rune you know. You temporarily learn one 1st-level spell based on the rune you inscribed, as specified in the Rune Spells table, and you know the spell until you finish a long rest, when the rune fades.</p>
 			<h5>Rune Spells</h5>
@@ -1283,17 +1283,17 @@
 			<p class="indent">Increase the ability score of the spellcasting ability chosen when you gained the Rune Carver Apprentice feat by 1, to a maximum of 20.</p>
 			<p class="indent">Whenever you cast a spell from the Rune Spells table, or a spell of a school of magic associated with the spell you marked on an object from your Rune Carver Apprentice feat, you can invoke runic power, granting you one of these benefits of your choice:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Battle Runes.</strong> Choose one creature you can see within 30 feet of yourself. Until the end of that creatureâ€™s next turn, it has advantage on the next attack roll it makes.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Battle Runes.</strong> Choose one creature you can see within 30 feet of yourself. Until the end of that creature’s next turn, it has advantage on the next attack roll it makes.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Healing Runes.</strong> Choose one creature you can see within 30 feet of yourself. That creature gains temporary hit points equal to your level.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Runic Winds.</strong> Choose one creature you can see within 30 feet of yourself. Until the end of that creatureâ€™s turn, its movement doesnâ€™t provoke opportunity attacks, and its walking speed increases by 10 feet.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Runic Winds.</strong> Choose one creature you can see within 30 feet of yourself. Until the end of that creature’s turn, its movement doesn’t provoke opportunity attacks, and its walking speed increases by 10 feet.</li>
 			</ul>
 			<p>You can invoke runic power a number of times equal to your proficiency bonus, but no more than once per spell you cast. You regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet usage="{{proficiency}}/Long Rest">
 			<description>Whenever you cast a rune spell or a spell of a school of magic associated with the spell you marked on an object from your Rune Carver Apprentice feat, you can invoke one of the following runic powers of your choice: &#13;
-			â€¢ Battle Runes. Choose one creature you can see within 30 feet of yourself. Until the end of that creatureâ€™s next turn, it has advantage on the next attack roll it makes. &#13;
-			â€¢ Healing Runes. Choose one creature you can see within 30 feet of yourself. That creature gains {{level}} temporary hit points. &#13;
-			â€¢ Runic Winds. Choose one creature you can see within 30 feet of yourself. Until the end of that creatureâ€™s turn, its movement doesnâ€™t provoke opportunity attacks, and its walking speed increases by 10 feet. &#13;
+			• Battle Runes. Choose one creature you can see within 30 feet of yourself. Until the end of that creature’s next turn, it has advantage on the next attack roll it makes. &#13;
+			• Healing Runes. Choose one creature you can see within 30 feet of yourself. That creature gains {{level}} temporary hit points. &#13;
+			• Runic Winds. Choose one creature you can see within 30 feet of yourself. Until the end of that creature’s turn, its movement doesn’t provoke opportunity attacks, and its walking speed increases by 10 feet. &#13;
 			You can't invoke runic power more than once per spell you cast.</description>
 		</sheet>
 		<rules>
@@ -1305,14 +1305,14 @@
 
 	<element name="Scion of Elemental Air" type="Feat" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_FEAT_SCION_OF_ELEMENTAL_AIR">
 		<description>
-			<p>Youâ€™ve been exposed to the primordial magic of the Elemental Plane of Air, granting you the following benefits:</p>
+			<p>You’ve been exposed to the primordial magic of the Elemental Plane of Air, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Elemental Magic.</strong> You learn the <i>minor illusion</i> cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you select this feat).</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Windâ€™s Glide.</strong> You can use a bonus action to gain a flying speed equal to your walking speed until the end of your turn. If you are airborne at the end of your turn after using this movement and arenâ€™t held aloft by other means, you fall. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Wind’s Glide.</strong> You can use a bonus action to gain a flying speed equal to your walking speed until the end of your turn. If you are airborne at the end of your turn after using this movement and aren’t held aloft by other means, you fall. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
 			</ul>
 		</description>
-		<sheet alt="Windâ€™s Glide" action="Bonus Action" usage="{{proficiency}}/Long Rest">
-			<description>You can gain a {{speed}}ft. flying speed until the end of your turn. If you are airborne at the end of your turn after using this movement and arenâ€™t held aloft by other means, you fall.</description>
+		<sheet alt="Wind’s Glide" action="Bonus Action" usage="{{proficiency}}/Long Rest">
+			<description>You can gain a {{speed}}ft. flying speed until the end of your turn. If you are airborne at the end of your turn after using this movement and aren’t held aloft by other means, you fall.</description>
 		</sheet>
 		<rules>
 			<select type="Feat Feature" name="Spellcasting Ability (Scion of Elemental Air)" supports="ID_WOTC_UA20220718_FEAT_SCION_OF_ELEMENTAL_AIR_INTELLIGENCE|ID_WOTC_UA20220718_FEAT_SCION_OF_ELEMENTAL_AIR_WISDOM|ID_WOTC_UA20220718_FEAT_SCION_OF_ELEMENTAL_AIR_CHARISMA" />
@@ -1360,7 +1360,7 @@
 
 	<element name="Scion of Elemental Earth" type="Feat" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_FEAT_SCION_OF_ELEMENTAL_EARTH">
 		<description>
-			<p>Youâ€™ve been exposed to the primordial magic of the Elemental Plane of Earth, granting you the following benefits:</p>
+			<p>You’ve been exposed to the primordial magic of the Elemental Plane of Earth, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Elemental Magic.</strong> You learn the <i>druidcraft</i> cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you select this feat).</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Earthen Shield.</strong> You can use a bonus action to conjure a bulwark of earth that provides half cover to you or a creature of your choice within 30 feet of yourself. The bulwark remains until the start of your next turn. You can create this bulwark a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
@@ -1415,10 +1415,10 @@
 
 	<element name="Scion of Elemental Fire" type="Feat" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_FEAT_SCION_OF_ELEMENTAL_FIRE">
 		<description>
-			<p>Youâ€™ve been exposed to the primordial magic of the Elemental Plane of Fire, granting you the following benefits:</p>
+			<p>You’ve been exposed to the primordial magic of the Elemental Plane of Fire, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Elemental Magic.</strong> You learn the <i>dancing lights</i> cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you select this feat).</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Fervent Blaze.</strong> You learn the <i>produce flame</i> cantrip, using the same spellcasting ability chosen for this featâ€™s Elemental Magic benefit. You can cast <i>produce flame</i> as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Fervent Blaze.</strong> You learn the <i>produce flame</i> cantrip, using the same spellcasting ability chosen for this feat’s Elemental Magic benefit. You can cast <i>produce flame</i> as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet alt="Fervent Blaze" action="Bonus Action" usage="{{proficiency}}/Long Rest">
@@ -1473,7 +1473,7 @@
 
 	<element name="Scion of Elemental Water" type="Feat" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_FEAT_SCION_OF_ELEMENTAL_WATER">
 		<description>
-			<p>Youâ€™ve been exposed to the primordial magic of the Elemental Plane of Water, granting you the following benefits:</p>
+			<p>You’ve been exposed to the primordial magic of the Elemental Plane of Water, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Elemental Magic.</strong> You learn the <i>thaumaturgy</i> cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you select this feat).</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Wave Surge.</strong> You can use a bonus action to create a forceful surge of water directed at a creature within 15 feet of you that you can see. The target must make a Strength saving throw; the DC for this save is equal to 8 + your proficiency bonus + the spellcasting ability modifier chosen for this feat, and a creature can choose to fail this saving throw. On a failure, the target is pushed up to 10 feet away from you or pulled up to 10 feet toward you (your choice). The water vanishes immediately after the creature succeeds or fails. You can create this effect a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
@@ -1674,14 +1674,14 @@
 		<requirements>([level:4],ID_WOTC_UA20220718_FEAT_STRIKE_OF_THE_GIANTS_STORM_GIANT)||ID_WOTC_UA20220718_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 4th Level, Strike of the Giants (Storm Giant) Feat</em></p>
-			<p>Youâ€™ve manifested divination abilities and tempest magic emblematic of storm giants, granting you the following benefits:</p>
+			<p>You’ve manifested divination abilities and tempest magic emblematic of storm giants, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Maelstrom Aura.</strong> As a bonus action, you surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts until the start of your next turn or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the aura, you can force the creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the creatureâ€™s speed is halved until the start of its next turn. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Maelstrom Aura.</strong> As a bonus action, you surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts until the start of your next turn or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the aura, you can force the creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the creature’s speed is halved until the start of its next turn. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet alt="Maelstrom Aura" action="Bonus Action" usage="{{proficiency}}/Long Rest">
-			<description>You surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts until the start of your next turn or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the aura, you can force the creature to make a Strength saving throw DC{{ua:maelstrom aura:dc}}. On a failed save, the creatureâ€™s speed is halved until the start of its next turn.</description>
+			<description>You surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts until the start of your next turn or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the aura, you can force the creature to make a Strength saving throw DC{{ua:maelstrom aura:dc}}. On a failed save, the creature’s speed is halved until the start of its next turn.</description>
 		</sheet>
 		<rules>
 			<stat name="ua:maelstrom aura:dc" value="8" bonus="base" />
@@ -1730,7 +1730,7 @@
 		<description>
 			<p>You have absorbed primeval magic that gives you an echo of the might of giants. Choose one of the kinds of giants listed below. As a bonus action, you can call on the power of your giant magic to imbue your attacks with additional power. The next time you hit a target with a melee or thrown weapon attack within the next minute, the attack has an additional effect depending on the origin of your giant magic:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Hill Giant.</strong> The target takes an extra 1d6 damage of the weaponâ€™s type. If the target is a creature, it must succeed on a Strength saving throw or be knocked prone.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Hill Giant.</strong> The target takes an extra 1d6 damage of the weapon’s type. If the target is a creature, it must succeed on a Strength saving throw or be knocked prone.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Stone Giant.</strong> The target takes an extra 1d6 force damage. If the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you in a straight line.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Frost Giant.</strong> The target takes an extra 1d6 cold damage. If the target is a creature, it must succeed on a Constitution saving throw, or its speed is reduced to 0 until the start of your next turn.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Fire Giant.</strong> The target takes an extra 1d8 fire damage.</li>
@@ -1754,10 +1754,10 @@
 		<compendium display="false" />
 		<supports>UA20220718 Strike of the Giants</supports>
 		<description>
-			<p>The next time you hit a target with a melee or thrown weapon attack within a minute, the target takes an extra 1d6 damage of the weaponâ€™s type. If the target is a creature, it must succeed on a Strength saving throw or be knocked prone.</p>
+			<p>The next time you hit a target with a melee or thrown weapon attack within a minute, the target takes an extra 1d6 damage of the weapon’s type. If the target is a creature, it must succeed on a Strength saving throw or be knocked prone.</p>
 		</description>
 		<sheet alt="Strike of the Giants" action="Bonus Action" usage="{{proficiency}}/Long Rest">
-			<description>The next time you hit a target with a melee or thrown weapon attack within a minute, the target takes an extra 1d6 damage of the weaponâ€™s type. If the target is a creature, it must succeed on a Strength saving throw DC{{ua:strike of the giants:dc}} or be knocked prone.</description>
+			<description>The next time you hit a target with a melee or thrown weapon attack within a minute, the target takes an extra 1d6 damage of the weapon’s type. If the target is a creature, it must succeed on a Strength saving throw DC{{ua:strike of the giants:dc}} or be knocked prone.</description>
 		</sheet>
 	</element>
 
@@ -1821,7 +1821,7 @@
 		<requirements>([level:4],ID_WOTC_UA20220718_FEAT_STRIKE_OF_THE_GIANTS_HILL_GIANT)||ID_WOTC_UA20220718_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 4th Level, Strike of the Giants (Hill Giant) Feat</em></p>
-			<p>Youâ€™ve manifested the resilience emblematic of hill giants, granting you the following benefits:</p>
+			<p>You’ve manifested the resilience emblematic of hill giants, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Ability Score Increase.</strong> Increase your Constitution score by 1, to a maximum of 20.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Bulwark.</strong> When you are subjected to an effect that would move you at least 5 feet or knock you prone, you can use your reaction to steady yourself. You are then neither moved nor knocked prone.</li>
@@ -1896,7 +1896,7 @@
 	<element name="House of Cards" type="Spell" source="Unearthed Arcana: Wonders of the Multiverse" id="ID_WOTC_UA20220718_SPELL_HOUSE_OF_CARDS">
 		<supports>Artificer, Bard, Sorcerer, Wizard</supports>
 		<description>
-			<p>You touch the ground and conjure forth a defensive structure made of enormous playing cards. The structure rises with you at its center, harmlessly lifting you and any creatures in the area. The house of cards has a square base that is 30 feet on each side, and it has three floors with 10-foot-high ceilings. The second floor is 20 feet on each side, and the top floor is 10 feet on each sideâ€”both centered above the bottom floor. Ramps connect the interior of each floor, and empty doorframes connect the interior and exterior of each level. Creatures inside or on top of the structure have half cover.</p>
+			<p>You touch the ground and conjure forth a defensive structure made of enormous playing cards. The structure rises with you at its center, harmlessly lifting you and any creatures in the area. The house of cards has a square base that is 30 feet on each side, and it has three floors with 10-foot-high ceilings. The second floor is 20 feet on each side, and the top floor is 10 feet on each side—both centered above the bottom floor. Ramps connect the interior of each floor, and empty doorframes connect the interior and exterior of each level. Creatures inside or on top of the structure have half cover.</p>
 			<p class="indent">Each card that comprises the house is 5 feet wide and 10 feet tall and is very fragile. A card has AC 10 and 1 hit point. The cards are immune to poison and psychic damage. Reducing a card to 0 hit points destroys it. Every time a card is destroyed, roll 1d6. If you roll a 5 or a 6, the house collapses, ending the spell.</p>
 			<p class="indent">The house and all its cards vanish when the spell ends.</p>
 		</description>
@@ -1920,8 +1920,8 @@
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You call forth a spirit that embodies death itself. Choose a creature you can see within range. The spirit manifests in an unoccupied space that you can see within 10 feet of the target, and the target becomes haunted by the spirit. The spirit uses the Reaper Spirit stat block. The spirit disappears when it or the haunted creature is reduced to 0 hit points, or when the spell ends.</p>
-			<p class="indent">The reaper spirit is an ally to you and your companions. In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you), but it will only attack the haunted creature. If you donâ€™t issue the spirit any commands, it takes the Dodge action and uses its move to avoid danger.</p>
-			<p class="indent"><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spellâ€™s level appears in the stat block.</p>
+			<p class="indent">The reaper spirit is an ally to you and your companions. In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you), but it will only attack the haunted creature. If you don’t issue the spirit any commands, it takes the Dodge action and uses its move to avoid danger.</p>
+			<p class="indent"><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell’s level appears in the stat block.</p>
 			<div class="reference">
 				<div element="ID_WOTC_UA20220718_INFORMATION_REAPER_SPIRIT_STATBLOCK" />
 			</div>
@@ -1960,15 +1960,15 @@
 				<li><strong>Condition Immunities</strong> charmed, frightened, paralyzed, poisoned</li>
 				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 13</li>
 				<li><strong>Languages</strong> understands the languages you speak</li>
-				<li style="margin-bottom:-1em"><strong>Challenge</strong> â€”</li>
+				<li style="margin-bottom:-1em"><strong>Challenge</strong> —</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Proficiency Bonus (PB)</strong> equals your bonus</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<h4 style="margin-top:10px">Actions</h4>
 			<ul class="unstyled">
-				<li><strong><em>Multiattack.</em></strong> The reaper makes a number of attacks equal to half this spellâ€™s level (rounded down).</li>
-				<li><strong><em>Reaping Scythe.</em></strong><em> Melee Weapon Attack:</em> your spell attack modifier to hit (with advantage), reach 5 ft., one target. <em>Hit:</em> 1d10 + 3 + the spellâ€™s level necrotic damage.</li>
-				<li><strong><em>Paralyzing Fear (1/Day).</em></strong> The reaper attempts to instill fear into the haunted creature it can see within 60 feet of itself. The creature must succeed on a Wisdom saving throw against your spell save DC or be frightened of the reaper for 1 minute. While frightened this way, the creatureâ€™s speed is 0, and it canâ€™t benefit from any bonus to its speed. The frightened creature can repeat the saving throw at the end of each of its turns, or immediately after it takes damage, ending the effect on itself on a success.</li>
+				<li><strong><em>Multiattack.</em></strong> The reaper makes a number of attacks equal to half this spell’s level (rounded down).</li>
+				<li><strong><em>Reaping Scythe.</em></strong><em> Melee Weapon Attack:</em> your spell attack modifier to hit (with advantage), reach 5 ft., one target. <em>Hit:</em> 1d10 + 3 + the spell’s level necrotic damage.</li>
+				<li><strong><em>Paralyzing Fear (1/Day).</em></strong> The reaper attempts to instill fear into the haunted creature it can see within 60 feet of itself. The creature must succeed on a Wisdom saving throw against your spell save DC or be frightened of the reaper for 1 minute. While frightened this way, the creature’s speed is 0, and it can’t benefit from any bonus to its speed. The frightened creature can repeat the saving throw at the end of each of its turns, or immediately after it takes damage, ending the effect on itself on a success.</li>
 			</ul>
 		</description>
 	</element>
@@ -2001,8 +2001,8 @@
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You call forth a warrior spirit from the legendary <i>Deck of Many Things</i>. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Warrior Spirit stat block. When you cast the spell, choose a type of warrior: barbarian, fighter, or monk. The warrior resembles a humanoid armed appropriately to the chosen class, which determines certain traits in its stat block. The warrior disappears when it drops to 0 hit points or when the spell ends.</p>
-			<p class="indent">The warrior is an ally to you and your companions. In combat, the warrior shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you donâ€™t issue any, it takes the Dodge action and uses its move to avoid danger.</p>
-			<p class="indent"><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spellâ€™s level in its stat block.</p>
+			<p class="indent">The warrior is an ally to you and your companions. In combat, the warrior shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.</p>
+			<p class="indent"><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell’s level in its stat block.</p>
 			<div class="reference">
 				<div element="ID_WOTC_UA20220718_INFORMATION_WARRIOR_SPIRIT_STATBLOCK" />
 			</div>
@@ -2042,16 +2042,16 @@
 				<li><strong>Condition Immunities</strong> charmed, poisoned</li>
 				<li><strong>Senses</strong> passive Perception 13</li>
 				<li><strong>Languages</strong>  Common, understands the languages you speak</li>
-				<li style="margin-bottom:-1em"><strong>Challenge</strong> â€”</li>
+				<li style="margin-bottom:-1em"><strong>Challenge</strong> —</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Proficiency Bonus (PB)</strong> equals your bonus</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<h4 style="margin-top:10px">Actions</h4>
 			<ul class="unstyled">
-				<li><strong><em>Multiattack.</em></strong> The warrior makes a number of attacks equal to half this spellâ€™s level (rounded down).</li>
-				<li><strong><em>Reckless Strike (Barbarian Only).</em></strong><em> Melee Weapon Attack:</em> your spell attack modifier to hit (with advantage), reach 5 ft., one target. <em>Hit:</em> 1d12 + 3 + the spellâ€™s level slashing damage, and attacks made against the warrior until the start of its next turn are made with advantage.</li>
-				<li><strong><em>Rallying Strike (Fighter Only).</em></strong><em> Melee or Ranged Weapon Attack:</em> your spell attack modifier to hit, reach 5 ft., or range 20/60 ft., one target. <em>Hit:</em> 1d6 + 3 + the spellâ€™s level piercing damage, and the warrior can choose another creature it can see within 20 feet of itself. The chosen creature gains 1d6 temporary hit points. </li>
-				<li><strong><em>Unarmed Strike (Monk Only).</em></strong><em> Melee Weapon Attack:</em> your spell attack modifier to hit (with advantage), reach 5 ft., one target. <em>Hit:</em> 1d4 + 3 + the spellâ€™s level bludgeoning damage, and the target must succeed on a Strength saving throw against your spell save DC or be knocked prone.</li>
+				<li><strong><em>Multiattack.</em></strong> The warrior makes a number of attacks equal to half this spell’s level (rounded down).</li>
+				<li><strong><em>Reckless Strike (Barbarian Only).</em></strong><em> Melee Weapon Attack:</em> your spell attack modifier to hit (with advantage), reach 5 ft., one target. <em>Hit:</em> 1d12 + 3 + the spell’s level slashing damage, and attacks made against the warrior until the start of its next turn are made with advantage.</li>
+				<li><strong><em>Rallying Strike (Fighter Only).</em></strong><em> Melee or Ranged Weapon Attack:</em> your spell attack modifier to hit, reach 5 ft., or range 20/60 ft., one target. <em>Hit:</em> 1d6 + 3 + the spell’s level piercing damage, and the warrior can choose another creature it can see within 20 feet of itself. The chosen creature gains 1d6 temporary hit points. </li>
+				<li><strong><em>Unarmed Strike (Monk Only).</em></strong><em> Melee Weapon Attack:</em> your spell attack modifier to hit (with advantage), reach 5 ft., one target. <em>Hit:</em> 1d4 + 3 + the spell’s level bludgeoning damage, and the target must succeed on a Strength saving throw against your spell save DC or be knocked prone.</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<h4 style="margin-top:10px">Bonus Actions</h4>

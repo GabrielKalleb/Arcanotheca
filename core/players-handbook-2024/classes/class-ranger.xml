@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Patrulheiro</name>
@@ -9,65 +9,65 @@
 		</update>
 	</info>
 
-	<element name="Patrulheiro" type="Class" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_RANGER">
+	<element name="Patrulheiro" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_RANGER">
 		<description>
-			<p class="flavor">Longe das cidades movimentadas, em meio Ã s Ã¡rvores de florestas sem trilhas e atravÃ©s de vastas planÃ­cies, os Patrulheiros mantÃªm sua vigÃ­lia interminÃ¡vel na natureza selvagem. Patrulheiros aprendem a rastrear suas presas como um predador faz, movendo-se furtivamente pelos ermos e escondendo-se em arbustos e escombros.</p>
-			<p class="indent">GraÃ§as Ã  sua conexÃ£o com a natureza, os Patrulheiros tambÃ©m podem conjurar magias que canalizam os poderes primordiais da natureza selvagem. Os talentos e a magia de um Patrulheiro sÃ£o aprimorados com foco mortal para proteger o mundo da devastaÃ§Ã£o de monstros e tiranos.</p>
+			<p class="flavor">Longe das cidades movimentadas, em meio às árvores de florestas sem trilhas e através de vastas planícies, os Patrulheiros mantêm sua vigília interminável na natureza selvagem. Patrulheiros aprendem a rastrear suas presas como um predador faz, movendo-se furtivamente pelos ermos e escondendo-se em arbustos e escombros.</p>
+			<p class="indent">Graças à sua conexão com a natureza, os Patrulheiros também podem conjurar magias que canalizam os poderes primordiais da natureza selvagem. Os talentos e a magia de um Patrulheiro são aprimorados com foco mortal para proteger o mundo da devastação de monstros e tiranos.</p>
 			<div class="sidebar">
-				<h5>TRAÃ‡OS PRINCIPAIS DO PATRULHEIRO</h5>
+				<h5>TRAÇOS PRINCIPAIS DO PATRULHEIRO</h5>
 				<table>
 					<tr><td><b>Habilidades Principais</b></td><td>Destreza e Sabedoria</td></tr>
-					<tr><td><b>Dado de Pontos de Vida</b></td><td>D10 por nÃ­vel de Patrulheiro</td></tr>
-					<tr><td><b>ProficiÃªncias em Testes de ResistÃªncia</b></td><td>ForÃ§a e Destreza</td></tr>
-					<tr><td><b>ProficiÃªncias em PerÃ­cias</b></td><td><i>Escolha 3:</i> Adestrar Animais, Atletismo, Furtividade, IntuiÃ§Ã£o, InvestigaÃ§Ã£o, Natureza, PercepÃ§Ã£o ou SobrevivÃªncia</td></tr>
-					<tr><td><b>ProficiÃªncias com Armas</b></td><td>Armas Simples e Marciais</td></tr>
-					<tr><td><b>Treinamento com Armaduras</b></td><td>Armaduras Leves, MÃ©dias e Escudos</td></tr>
-					<tr><td><b>Equipamento Inicial</b></td><td><i>Escolha A ou B:</i> (A) Armadura de Couro Batido, Cimitarra, Espada Curta, Arco Longo, 20 Flechas, Aljava, Foco DruÃ­dico (ramo de visco), Pacote de Explorador e 7 PC; ou (B) 150 PO</td></tr>
+					<tr><td><b>Dado de Pontos de Vida</b></td><td>D10 por nível de Patrulheiro</td></tr>
+					<tr><td><b>Proficiências em Testes de Resistência</b></td><td>Força e Destreza</td></tr>
+					<tr><td><b>Proficiências em Perícias</b></td><td><i>Escolha 3:</i> Adestrar Animais, Atletismo, Furtividade, Intuição, Investigação, Natureza, Percepção ou Sobrevivência</td></tr>
+					<tr><td><b>Proficiências com Armas</b></td><td>Armas Simples e Marciais</td></tr>
+					<tr><td><b>Treinamento com Armaduras</b></td><td>Armaduras Leves, Médias e Escudos</td></tr>
+					<tr><td><b>Equipamento Inicial</b></td><td><i>Escolha A ou B:</i> (A) Armadura de Couro Batido, Cimitarra, Espada Curta, Arco Longo, 20 Flechas, Aljava, Foco Druídico (ramo de visco), Pacote de Explorador e 7 PC; ou (B) 150 PO</td></tr>
 				</table>
 			</div>
-			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÃVEL 1</h5>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
-				<li>VocÃª ganha todos os traÃ§os na tabela de TraÃ§os Principais do Patrulheiro. </li>
-				<li>VocÃª ganha as caracterÃ­sticas de nÃ­vel 1 do Patrulheiro, que estÃ£o listadas na tabela CaracterÃ­sticas de Patrulheiro.</li>
+				<li>Você ganha todos os traços na tabela de Traços Principais do Patrulheiro. </li>
+				<li>Você ganha as características de nível 1 do Patrulheiro, que estão listadas na tabela Características de Patrulheiro.</li>
 			</ul>
 			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
 			<ul style="margin-top:-1em">
-				<li>VocÃª ganha os seguintes traÃ§os da tabela de TraÃ§os Principais do Patrulheiro: Dado de Pontos de Vida, proficiÃªncia com armas Marciais, proficiÃªncia em uma perÃ­cia Ã  sua escolha da lista do Patrulheiro, e treinamento com Armaduras Leves, MÃ©dias e Escudos.</li>
-				<li>VocÃª ganha as caracterÃ­sticas de nÃ­vel 1 do Patrulheiro, que estÃ£o listadas na tabela CaracterÃ­sticas de Patrulheiro.</li>
+				<li>Você ganha os seguintes traços da tabela de Traços Principais do Patrulheiro: Dado de Pontos de Vida, proficiência com armas Marciais, proficiência em uma perícia à sua escolha da lista do Patrulheiro, e treinamento com Armaduras Leves, Médias e Escudos.</li>
+				<li>Você ganha as características de nível 1 do Patrulheiro, que estão listadas na tabela Características de Patrulheiro.</li>
 			</ul>
-			<h5>CARACTERÃSTICAS DE PATRULHEIRO</h5>
+			<h5>CARACTERÍSTICAS DE PATRULHEIRO</h5>
 			<table class="class-features">
 				<tr style="font-weight: bold">
-					<td rowspan="2">NÃ­vel</td>
-					<td class="col-30 left" rowspan="2">CaracterÃ­sticas de Classe</td>
+					<td rowspan="2">Nível</td>
+					<td class="col-30 left" rowspan="2">Características de Classe</td>
 					<td rowspan="2">Inimigo<br />Favorito</td>
 					<td rowspan="2">Magias<br />Preparadas</td>
-					<td colspan="5" style="vertical-align:bottom; border-bottom: 0px">EspaÃ§os de Magia por NÃ­vel de Magia</td>
+					<td colspan="5" style="vertical-align:bottom; border-bottom: 0px">Espaços de Magia por Nível de Magia</td>
 				</tr>
 				<tr style="font-weight: bold"><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
-				<tr><td> 1</td><td class="left">ConjuraÃ§Ã£o, Inimigo Favorito, Maestria em Armas</td><td>2</td><td>2</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 2</td><td class="left">Explorador Ãgil, Estilo de Luta</td><td>2</td><td>3</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 3</td><td class="left">Subclasse de Patrulheiro</td><td>2</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 4</td><td class="left">Aumento no Valor de Habilidade</td><td>2</td><td>5</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 5</td><td class="left">Ataque Extra</td><td>3</td><td>6</td><td>4</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 6</td><td class="left">Andarilho</td><td>3</td><td>6</td><td>4</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 7</td><td class="left">CaracterÃ­stica de Subclasse</td><td>3</td><td>7</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 8</td><td class="left">Aumento no Valor de Habilidade</td><td>3</td><td>7</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 9</td><td class="left">Especialidade</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td>10</td><td class="left">IncansÃ¡vel</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td>11</td><td class="left">CaracterÃ­stica de Subclasse</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td>12</td><td class="left">Aumento no Valor de Habilidade</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td>13</td><td class="left">CaÃ§ador ImplacÃ¡vel</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>â€”</td></tr>
-				<tr><td>14</td><td class="left">VÃ©u da Natureza</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>â€”</td></tr>
-				<tr><td>15</td><td class="left">CaracterÃ­stica de Subclasse</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>â€”</td></tr>
-				<tr><td>16</td><td class="left">Aumento no Valor de Habilidade</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>â€”</td></tr>
-				<tr><td>17</td><td class="left">CaÃ§ador Preciso</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td> 1</td><td class="left">Conjuração, Inimigo Favorito, Maestria em Armas</td><td>2</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2</td><td class="left">Explorador Ágil, Estilo de Luta</td><td>2</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3</td><td class="left">Subclasse de Patrulheiro</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4</td><td class="left">Aumento no Valor de Habilidade</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5</td><td class="left">Ataque Extra</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6</td><td class="left">Andarilho</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7</td><td class="left">Característica de Subclasse</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8</td><td class="left">Aumento no Valor de Habilidade</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9</td><td class="left">Especialidade</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10</td><td class="left">Incansável</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>11</td><td class="left">Característica de Subclasse</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12</td><td class="left">Aumento no Valor de Habilidade</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13</td><td class="left">Caçador Implacável</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>14</td><td class="left">Véu da Natureza</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>15</td><td class="left">Característica de Subclasse</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16</td><td class="left">Aumento no Valor de Habilidade</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>17</td><td class="left">Caçador Preciso</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
 				<tr><td>18</td><td class="left">Sentidos Selvagens</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>19</td><td class="left">DÃ¡diva Ã‰pica</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>19</td><td class="left">Dádiva Épica</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 				<tr><td>20</td><td class="left">Matador de Inimigos</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 			</table>
-			<h4>CARACTERÃSTICAS DA CLASSE PATRULHEIRO</h4>
-			<p>Como Patrulheiro, vocÃª ganha as seguintes caracterÃ­sticas de classe quando atinge os nÃ­veis de Patrulheiro especificados. Estas caracterÃ­sticas estÃ£o listadas na tabela CaracterÃ­sticas de Patrulheiro.</p>
+			<h4>CARACTERÍSTICAS DA CLASSE PATRULHEIRO</h4>
+			<p>Como Patrulheiro, você ganha as seguintes características de classe quando atinge os níveis de Patrulheiro especificados. Estas características estão listadas na tabela Características de Patrulheiro.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_SPELLCASTING" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FAVORED_ENEMY" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_WEAPON_MASTERY" />
@@ -88,7 +88,7 @@
 		</description>
 		<sheet display="false"/>
 		<setters>
-			<set name="short">Um Guerreiro Errante ImbuÃ­do com Magia Primordial</set>
+			<set name="short">Um Guerreiro Errante Imbuído com Magia Primordial</set>
 			<set name="hd">d10</set>
 		</setters>
 		<rules>
@@ -99,7 +99,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB24_MULTICLASS_RANGER" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB24_MULTICLASS_RANGER" />
-			<select type="Proficiency" name="ProficiÃªncia em PerÃ­cia (Patrulheiro)" supports="Skill,Ranger" number="3" requirements="!ID_WOTC_PHB24_MULTICLASS_RANGER" />
+			<select type="Proficiency" name="Proficiência em Perícia (Patrulheiro)" supports="Skill,Ranger" number="3" requirements="!ID_WOTC_PHB24_MULTICLASS_RANGER" />
 
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_SPELLCASTING" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FAVORED_ENEMY" level="1"/>
@@ -123,33 +123,33 @@
 			<prerequisite>Destreza 13 e Sabedoria 13</prerequisite>
 			<requirements>(([dex:13],[wis:13]),!(ID_WOTC_PHB_CLASS_RANGER||ID_WOTC_PHB_MULTICLASS_RANGER))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
-				<set name="multiclass proficiencies">Armas marciais, uma perÃ­cia da lista do Patrulheiro, Armaduras Leves, Armaduras MÃ©dias, Escudos</set>
+				<set name="multiclass proficiencies">Armas marciais, uma perícia da lista do Patrulheiro, Armaduras Leves, Armaduras Médias, Escudos</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
-				<select type="Proficiency" name="ProficiÃªncia em PerÃ­cia (Patrulheiro)" supports="Skill,Ranger"/>
+				<select type="Proficiency" name="Proficiência em Perícia (Patrulheiro)" supports="Skill,Ranger"/>
 			</rules>
 		</multiclass>
 	</element>
 
-	<element name="NÃ­vel 1: ConjuraÃ§Ã£o" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_SPELLCASTING">
+	<element name="Nível 1: Conjuração" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_SPELLCASTING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_SPELLCASTING</requirements>
 		<description>
-			<p>VocÃª aprendeu a canalizar a essÃªncia mÃ¡gica da natureza para conjurar magias.</p>
-			<p class="indent"><b><i>EspaÃ§os de Magia.</i></b> A tabela CaracterÃ­sticas de Patrulheiro mostra quantos espaÃ§os de magia vocÃª tem para conjurar suas magias de nÃ­vel 1 ou superior. VocÃª recupera todos os espaÃ§os gastos ao terminar um Descanso Longo.</p>
-			<p class="indent"><b><i>Magias Preparadas de NÃ­vel 1 ou Superior.</i></b> VocÃª prepara a lista de magias de nÃ­vel 1 ou superior que estÃ£o disponÃ­veis para vocÃª conjurar com esta caracterÃ­stica. Para comeÃ§ar, escolha duas magias de Patrulheiro de nÃ­vel 1. <i>Curar Ferimentos</i> e <i>Ataque Constritor</i> sÃ£o recomendadas.</p>
-			<p class="indent">O nÃºmero de magias na sua lista aumenta conforme vocÃª ganha nÃ­veis de Patrulheiro, como mostrado na coluna Magias Preparadas da tabela CaracterÃ­sticas de Patrulheiro. Sempre que esse nÃºmero aumentar, escolha magias adicionais de Patrulheiro atÃ© que o nÃºmero de magias em sua lista coincida com o nÃºmero na tabela CaracterÃ­sticas de Patrulheiro. As magias escolhidas devem ser de um nÃ­vel para o qual vocÃª possui espaÃ§os de magia. Por exemplo, se vocÃª Ã© um Patrulheiro de nÃ­vel 5, sua lista de magias preparadas pode incluir seis magias de Patrulheiro de nÃ­vel 1 ou 2 em qualquer combinaÃ§Ã£o.</p>
-			<p class="indent">Se outra caracterÃ­stica de Patrulheiro conceder a vocÃª magias que vocÃª sempre tem preparadas, essas magias nÃ£o contam no nÃºmero de magias que vocÃª pode preparar com esta caracterÃ­stica, mas ainda contam como magias de Patrulheiro para vocÃª.</p>
-			<p class="indent"><b><i>Trocando Suas Magias Preparadas.</i></b> Sempre que terminar um Descanso Longo, vocÃª pode substituir uma magia da sua lista por outra magia de Patrulheiro para a qual possua espaÃ§os de magia.</p>
-			<p class="indent"><b><i>Atributo de ConjuraÃ§Ã£o.</i></b> Sabedoria Ã© o seu atributo de conjuraÃ§Ã£o para as suas magias de Patrulheiro.</p>
-			<p class="indent"><b><i>Foco de ConjuraÃ§Ã£o.</i></b> VocÃª pode usar um Foco DruÃ­dico como Foco de ConjuraÃ§Ã£o para as suas magias de Patrulheiro.</p>
+			<p>Você aprendeu a canalizar a essência mágica da natureza para conjurar magias.</p>
+			<p class="indent"><b><i>Espaços de Magia.</i></b> A tabela Características de Patrulheiro mostra quantos espaços de magia você tem para conjurar suas magias de nível 1 ou superior. Você recupera todos os espaços gastos ao terminar um Descanso Longo.</p>
+			<p class="indent"><b><i>Magias Preparadas de Nível 1 ou Superior.</i></b> Você prepara a lista de magias de nível 1 ou superior que estão disponíveis para você conjurar com esta característica. Para começar, escolha duas magias de Patrulheiro de nível 1. <i>Curar Ferimentos</i> e <i>Ataque Constritor</i> são recomendadas.</p>
+			<p class="indent">O número de magias na sua lista aumenta conforme você ganha níveis de Patrulheiro, como mostrado na coluna Magias Preparadas da tabela Características de Patrulheiro. Sempre que esse número aumentar, escolha magias adicionais de Patrulheiro até que o número de magias em sua lista coincida com o número na tabela Características de Patrulheiro. As magias escolhidas devem ser de um nível para o qual você possui espaços de magia. Por exemplo, se você é um Patrulheiro de nível 5, sua lista de magias preparadas pode incluir seis magias de Patrulheiro de nível 1 ou 2 em qualquer combinação.</p>
+			<p class="indent">Se outra característica de Patrulheiro conceder a você magias que você sempre tem preparadas, essas magias não contam no número de magias que você pode preparar com esta característica, mas ainda contam como magias de Patrulheiro para você.</p>
+			<p class="indent"><b><i>Trocando Suas Magias Preparadas.</i></b> Sempre que terminar um Descanso Longo, você pode substituir uma magia da sua lista por outra magia de Patrulheiro para a qual possua espaços de magia.</p>
+			<p class="indent"><b><i>Atributo de Conjuração.</i></b> Sabedoria é o seu atributo de conjuração para as suas magias de Patrulheiro.</p>
+			<p class="indent"><b><i>Foco de Conjuração.</i></b> Você pode usar um Foco Druídico como Foco de Conjuração para as suas magias de Patrulheiro.</p>
 			<center>
-				<p><strong>CD para evitar magia</strong> = 8 + seu bÃ´nus de proficiÃªncia + seu modificador de Sabedoria</p>
-				<p><strong>Modificador de ataque de magia</strong> = seu bÃ´nus de proficiÃªncia + seu modificador de Sabedoria</p>
+				<p><strong>CD para evitar magia</strong> = 8 + seu bônus de proficiência + seu modificador de Sabedoria</p>
+				<p><strong>Modificador de ataque de magia</strong> = seu bônus de proficiência + seu modificador de Sabedoria</p>
 			</center>
 		</description>
-		<sheet alt="ConjuraÃ§Ã£o">
-			<description>Sempre que terminar um Descanso Longo, vocÃª pode substituir uma magia da sua lista por outra magia de Patrulheiro.</description>
+		<sheet alt="Conjuração">
+			<description>Sempre que terminar um Descanso Longo, você pode substituir uma magia da sua lista por outra magia de Patrulheiro.</description>
 		</sheet>
 		<spellcasting name="Ranger" ability="Wisdom" allowReplace="true">
 			<list>Ranger</list>
@@ -185,14 +185,14 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 1: Inimigo Favorito" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FAVORED_ENEMY">
+	<element name="Nível 1: Inimigo Favorito" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FAVORED_ENEMY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_FAVORED_ENEMY</requirements>
 		<description>
-			<p>VocÃª sempre tem a magia <i>Marca do CaÃ§ador</i> preparada. VocÃª pode conjurÃ¡-la duas vezes sem gastar um espaÃ§o de magia, e recupera todos os usos gastos desta habilidade quando terminar um Descanso Longo.</p>
-			<p class="indent">O nÃºmero de vezes que vocÃª pode conjurar a magia sem usar um espaÃ§o de magia aumenta quando atinge determinados nÃ­veis de Patrulheiro, como mostrado na coluna Inimigo Favorito da tabela CaracterÃ­sticas de Patrulheiro.</p>
+			<p>Você sempre tem a magia <i>Marca do Caçador</i> preparada. Você pode conjurá-la duas vezes sem gastar um espaço de magia, e recupera todos os usos gastos desta habilidade quando terminar um Descanso Longo.</p>
+			<p class="indent">O número de vezes que você pode conjurar a magia sem usar um espaço de magia aumenta quando atinge determinados níveis de Patrulheiro, como mostrado na coluna Inimigo Favorito da tabela Características de Patrulheiro.</p>
 		</description>
 		<sheet alt="Inimigo Favorito" usage="{{favored enemy:usage}}/Descanso Longo">
-			<description>VocÃª pode conjurar a magia Marca do CaÃ§ador sem gastar um espaÃ§o de magia.</description>
+			<description>Você pode conjurar a magia Marca do Caçador sem gastar um espaço de magia.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HUNTERS_MARK" spellcasting="Ranger" /> 
@@ -204,39 +204,39 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 1: Maestria em Armas" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_WEAPON_MASTERY">
+	<element name="Nível 1: Maestria em Armas" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_WEAPON_MASTERY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_WEAPON_MASTERY</requirements>
 		<description>
-			<p>Seu treinamento com armas permite que vocÃª use as propriedades de maestria de dois tipos de armas de sua escolha, dentre aquelas nas quais vocÃª tem proficiÃªncia, como Arcos Longos e Espadas Curtas.</p>
-			<p class="indent">Sempre que vocÃª terminar um Descanso Longo, pode mudar os tipos de armas que escolheu. Por exemplo, vocÃª poderia trocar para usar as propriedades de maestria de Cimitarras e Espadas Longas.</p>
+			<p>Seu treinamento com armas permite que você use as propriedades de maestria de dois tipos de armas de sua escolha, dentre aquelas nas quais você tem proficiência, como Arcos Longos e Espadas Curtas.</p>
+			<p class="indent">Sempre que você terminar um Descanso Longo, pode mudar os tipos de armas que escolheu. Por exemplo, você poderia trocar para usar as propriedades de maestria de Cimitarras e Espadas Longas.</p>
 		</description>
 		<sheet alt="Maestria em Armas">
-			<description>Sempre que terminar um Descanso Longo, vocÃª pode trocar uma das armas que escolheu anteriormente por uma diferente.</description>
+			<description>Sempre que terminar um Descanso Longo, você pode trocar uma das armas que escolheu anteriormente por uma diferente.</description>
 		</sheet>
 		<rules>
 			<select type="Class Feature" name="Maestria em Armas (Patrulheiro)" supports="Weapon Mastery" number="2"/>
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 2: Explorador Ãgil" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_DEFT_EXPLORER">
+	<element name="Nível 2: Explorador Ágil" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_DEFT_EXPLORER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_DEFT_EXPLORER</requirements>
 		<description>
-			<p>GraÃ§as Ã s suas viagens, vocÃª ganha os seguintes benefÃ­cios.</p>
-			<p class="indent"><i>Especialidade.</i> Escolha uma das suas proficiÃªncias em perÃ­cia na qual vocÃª nÃ£o possui Especialidade. VocÃª ganha Especialidade nessa perÃ­cia.</p>
-			<p class="indent"><i>Idiomas.</i> VocÃª aprende dois idiomas de sua escolha das tabelas de idiomas no capÃ­tulo 2.</p>
+			<p>Graças às suas viagens, você ganha os seguintes benefícios.</p>
+			<p class="indent"><i>Especialidade.</i> Escolha uma das suas proficiências em perícia na qual você não possui Especialidade. Você ganha Especialidade nessa perícia.</p>
+			<p class="indent"><i>Idiomas.</i> Você aprende dois idiomas de sua escolha das tabelas de idiomas no capítulo 2.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<select type="Proficiency" name="Especialidade (Explorador Ãgil)" supports="Skill Expertise" />
-			<select type="Language" name="Idioma (Explorador Ãgil)" supports="Standard||Exotic" number="2" />
+			<select type="Proficiency" name="Especialidade (Explorador Ágil)" supports="Skill Expertise" />
+			<select type="Language" name="Idioma (Explorador Ágil)" supports="Standard||Exotic" number="2" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 2: Estilo de Luta" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE">
+	<element name="Nível 2: Estilo de Luta" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_FIGHTING_STYLE</requirements>
 		<description>
-			<p>VocÃª ganha um talento de Estilo de Luta Ã  sua escolha. Em vez de escolher um desses talentos, vocÃª pode escolher a opÃ§Ã£o abaixo.</p>
-			<p class="indent"><b><i>Guerreiro DruÃ­dico.</i></b> VocÃª aprende dois truques de Druida Ã  sua escolha. <i>OrientaÃ§Ã£o</i> e <i>Centelha Estelar</i> sÃ£o recomendados. Os truques escolhidos contam como magias de Patrulheiro para vocÃª, e Sabedoria Ã© o seu atributo de conjuraÃ§Ã£o para eles. Sempre que vocÃª ganhar um nÃ­vel de Patrulheiro, vocÃª pode substituir um desses truques por outro truque de Druida.</p>
+			<p>Você ganha um talento de Estilo de Luta à sua escolha. Em vez de escolher um desses talentos, você pode escolher a opção abaixo.</p>
+			<p class="indent"><b><i>Guerreiro Druídico.</i></b> Você aprende dois truques de Druida à sua escolha. <i>Orientação</i> e <i>Centelha Estelar</i> são recomendados. Os truques escolhidos contam como magias de Patrulheiro para você, e Sabedoria é o seu atributo de conjuração para eles. Sempre que você ganhar um nível de Patrulheiro, você pode substituir um desses truques por outro truque de Druida.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -244,25 +244,25 @@
 			<select type="Feat" name="Estilo de Luta (Patrulheiro 2)" supports="Fighting Style||PHB24 Druidic Warrior Fighting Style" />
 		</rules>
 	</element>
-	<element name="Guerreiro DruÃ­dico" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_DRUIDIC_WARRIOR">
+	<element name="Guerreiro Druídico" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_DRUIDIC_WARRIOR">
 		<supports>PHB24 Druidic Warrior Fighting Style</supports>
 		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
-		<prerequisite>CaracterÃ­stica Estilo de Luta do Patrulheiro</prerequisite>
+		<prerequisite>Característica Estilo de Luta do Patrulheiro</prerequisite>
 		<description>
-			<p>VocÃª aprende dois truques de Druida Ã  sua escolha (veja a seÃ§Ã£o da classe Druida para uma lista de magias de Druida). <i>OrientaÃ§Ã£o</i> e <i>Centelha Estelar</i> sÃ£o recomendados. Os truques escolhidos contam como magias de Patrulheiro para vocÃª, e Sabedoria Ã© o seu atributo de conjuraÃ§Ã£o para eles. Sempre que ganhar um nÃ­vel de Patrulheiro, vocÃª pode substituir um dos truques escolhidos por outro truque de Druida.</p>
+			<p>Você aprende dois truques de Druida à sua escolha (veja a seção da classe Druida para uma lista de magias de Druida). <i>Orientação</i> e <i>Centelha Estelar</i> são recomendados. Os truques escolhidos contam como magias de Patrulheiro para você, e Sabedoria é o seu atributo de conjuração para eles. Sempre que ganhar um nível de Patrulheiro, você pode substituir um dos truques escolhidos por outro truque de Druida.</p>
 		</description>
 		<sheet>
-			<description>Sempre que ganhar um nÃ­vel de Patrulheiro, vocÃª pode substituir um dos truques escolhidos por outro truque de Druida.</description>
+			<description>Sempre que ganhar um nível de Patrulheiro, você pode substituir um dos truques escolhidos por outro truque de Druida.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="Guerreiro DruÃ­dico" supports="0, Druid" number="2" spellcasting="Ranger" />
+			<select type="Spell" name="Guerreiro Druídico" supports="0, Druid" number="2" spellcasting="Ranger" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Subclasse de Patrulheiro" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_RANGER_ARCHETYPE">
+	<element name="Nível 3: Subclasse de Patrulheiro" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_RANGER_ARCHETYPE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_RANGER_ARCHETYPE</requirements>
 		<description>
-			<p>VocÃª ganha uma subclasse de Patrulheiro Ã  sua escolha. Uma subclasse Ã© uma especializaÃ§Ã£o que concede a vocÃª caracterÃ­sticas em certos nÃ­veis de Patrulheiro. Pelo resto da sua carreira, vocÃª ganha as caracterÃ­sticas da sua subclasse que forem equivalentes ao seu nÃ­vel de Patrulheiro ou menor.</p>
+			<p>Você ganha uma subclasse de Patrulheiro à sua escolha. Uma subclasse é uma especialização que concede a você características em certos níveis de Patrulheiro. Pelo resto da sua carreira, você ganha as características da sua subclasse que forem equivalentes ao seu nível de Patrulheiro ou menor.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -270,10 +270,10 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 4: Aumento no Valor de Habilidade" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_ABILITY_SCORE_IMPROVEMENT">
+	<element name="Nível 4: Aumento no Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_ABILITY_SCORE_IMPROVEMENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<description>
-			<p>VocÃª ganha o talento Aumento no Valor de Habilidade ou outro talento de sua escolha para o qual possua os prÃ©-requisitos. VocÃª ganha esta caracterÃ­stica novamente nos nÃ­veis de Patrulheiro 8, 12 e 16.</p>
+			<p>Você ganha o talento Aumento no Valor de Habilidade ou outro talento de sua escolha para o qual possua os pré-requisitos. Você ganha esta característica novamente nos níveis de Patrulheiro 8, 12 e 16.</p>
 		</description>
 		<sheet display="false" />
 		<rules> 
@@ -284,10 +284,10 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 5: Ataque Extra" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_EXTRA_ATTACK">
+	<element name="Nível 5: Ataque Extra" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_EXTRA_ATTACK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_EXTRA_ATTACK</requirements>
 		<description>
-			<p>VocÃª pode atacar duas vezes, em vez de uma, sempre que realizar a aÃ§Ã£o de Ataque no seu turno.</p>
+			<p>Você pode atacar duas vezes, em vez de uma, sempre que realizar a ação de Ataque no seu turno.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -295,10 +295,10 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 6: Andarilho" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_ROVING">
+	<element name="Nível 6: Andarilho" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_ROVING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_ROVING</requirements>
 		<description>
-			<p>Seu Deslocamento aumenta em 3 metros (10 pÃ©s) enquanto vocÃª nÃ£o estiver usando Armadura Pesada. VocÃª tambÃ©m ganha Deslocamento de Escalada e Deslocamento de NataÃ§Ã£o iguais ao seu Deslocamento.</p>
+			<p>Seu Deslocamento aumenta em 3 metros (10 pés) enquanto você não estiver usando Armadura Pesada. Você também ganha Deslocamento de Escalada e Deslocamento de Natação iguais ao seu Deslocamento.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -308,10 +308,10 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 9: Especialidade" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_EXPERTISE">
+	<element name="Nível 9: Especialidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_EXPERTISE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_EXPERTISE</requirements>
 		<description>
-			<p>Escolha duas das suas proficiÃªncias em perÃ­cia nas quais vocÃª nÃ£o possui Especialidade. VocÃª ganha Especialidade nessas perÃ­cias.</p>
+			<p>Escolha duas das suas proficiências em perícia nas quais você não possui Especialidade. Você ganha Especialidade nessas perícias.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -319,16 +319,16 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 10: IncansÃ¡vel" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_TIRELESS">
+	<element name="Nível 10: Incansável" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_TIRELESS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_TIRELESS</requirements>
 		<description>
-			<p>As forÃ§as primordiais agora ajudam a abastecer vocÃª em suas jornadas, concedendo os seguintes benefÃ­cios.</p>
-			<p class="indent"><b><i>Pontos de Vida TemporÃ¡rios.</i></b> Como uma AÃ§Ã£o MÃ¡gica, vocÃª pode se conceder um nÃºmero de Pontos de Vida TemporÃ¡rios igual a 1d8 mais o seu modificador de Sabedoria (mÃ­nimo de 1). VocÃª pode usar esta aÃ§Ã£o um nÃºmero de vezes igual ao seu modificador de Sabedoria (mÃ­nimo de uma vez), e vocÃª recupera todos os usos gastos ao terminar um Descanso Longo.</p>
-			<p class="indent"><b><i>Diminuir ExaustÃ£o.</i></b> Sempre que terminar um Descanso Curto, seu nÃ­vel de ExaustÃ£o, se houver, diminui em 1.</p>
+			<p>As forças primordiais agora ajudam a abastecer você em suas jornadas, concedendo os seguintes benefícios.</p>
+			<p class="indent"><b><i>Pontos de Vida Temporários.</i></b> Como uma Ação Mágica, você pode se conceder um número de Pontos de Vida Temporários igual a 1d8 mais o seu modificador de Sabedoria (mínimo de 1). Você pode usar esta ação um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e você recupera todos os usos gastos ao terminar um Descanso Longo.</p>
+			<p class="indent"><b><i>Diminuir Exaustão.</i></b> Sempre que terminar um Descanso Curto, seu nível de Exaustão, se houver, diminui em 1.</p>
 		</description>
-		<sheet alt="IncansÃ¡vel" action="AÃ§Ã£o" usage="{{tireless:usage}}/Descanso Longo">
-			<description>VocÃª pode se dar um nÃºmero de PVs TemporÃ¡rios igual a 1d8 + {{tireless:thp}}. &#13;
-			AlÃ©m disso, sempre que terminar um Descanso Curto, seu nÃ­vel de ExaustÃ£o diminui em 1.</description>
+		<sheet alt="Incansável" action="Ação" usage="{{tireless:usage}}/Descanso Longo">
+			<description>Você pode se dar um número de PVs Temporários igual a 1d8 + {{tireless:thp}}. &#13;
+			Além disso, sempre que terminar um Descanso Curto, seu nível de Exaustão diminui em 1.</description>
 		</sheet>
 		<rules>
 			<stat name="tireless:thp" value="1" bonus="base" />
@@ -338,26 +338,26 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 13: CaÃ§ador ImplacÃ¡vel" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_RELENTLESS_HUNTER">
+	<element name="Nível 13: Caçador Implacável" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_RELENTLESS_HUNTER">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_RELENTLESS_HUNTER||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_PRECISE_HUNTER||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_FOE_SLAYER)</requirements>
 		<description>
-			<p>Sofrer dano nÃ£o pode quebrar sua ConcentraÃ§Ã£o em <i>Marca do CaÃ§ador</i>.</p>
+			<p>Sofrer dano não pode quebrar sua Concentração em <i>Marca do Caçador</i>.</p>
 		</description>
-		<sheet alt="CaÃ§ador ImplacÃ¡vel">
-			<description>Sofrer dano nÃ£o pode quebrar sua ConcentraÃ§Ã£o em Marca do CaÃ§ador.</description>
-			<description level="17">Sofrer dano nÃ£o pode quebrar sua ConcentraÃ§Ã£o em Marca do CaÃ§ador, e vocÃª tem Vantagem contra a criatura marcada por ela.</description>
-			<description level="20">O dano da sua Marca do CaÃ§ador Ã© 1d10. Sofrer dano nÃ£o pode quebrar sua ConcentraÃ§Ã£o nela, e vocÃª tem Vantagem contra a criatura marcada.</description>
+		<sheet alt="Caçador Implacável">
+			<description>Sofrer dano não pode quebrar sua Concentração em Marca do Caçador.</description>
+			<description level="17">Sofrer dano não pode quebrar sua Concentração em Marca do Caçador, e você tem Vantagem contra a criatura marcada por ela.</description>
+			<description level="20">O dano da sua Marca do Caçador é 1d10. Sofrer dano não pode quebrar sua Concentração nela, e você tem Vantagem contra a criatura marcada.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 14: VÃ©u da Natureza" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_NATURES_VEIL">
+	<element name="Nível 14: Véu da Natureza" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_NATURES_VEIL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_NATURES_VEIL</requirements>
 		<description>
-			<p>VocÃª invoca espÃ­ritos da natureza para esconder-se magicamente. Como uma AÃ§Ã£o BÃ´nus, vocÃª pode assumir a condiÃ§Ã£o InvisÃ­vel atÃ© o final do seu prÃ³ximo turno.</p>
-			<p class="indent">VocÃª pode usar esta caracterÃ­stica um nÃºmero de vezes igual ao seu modificador de Sabedoria (mÃ­nimo de uma vez), e vocÃª recupera todos os usos gastos quando terminar um Descanso Longo.</p>
+			<p>Você invoca espíritos da natureza para esconder-se magicamente. Como uma Ação Bônus, você pode assumir a condição Invisível até o final do seu próximo turno.</p>
+			<p class="indent">Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e você recupera todos os usos gastos quando terminar um Descanso Longo.</p>
 		</description>
-		<sheet alt="VÃ©u da Natureza" action="AÃ§Ã£o BÃ´nus" usage="{{natures veil:usage}}/Descanso Longo">
-			<description>VocÃª ganha a condiÃ§Ã£o InvisÃ­vel atÃ© o final do seu prÃ³ximo turno.</description>
+		<sheet alt="Véu da Natureza" action="Ação Bônus" usage="{{natures veil:usage}}/Descanso Longo">
+			<description>Você ganha a condição Invisível até o final do seu próximo turno.</description>
 		</sheet>
 		<rules>
 			<stat name="natures veil:usage" value="1" bonus="base" />
@@ -365,18 +365,18 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 17: CaÃ§ador Preciso" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_PRECISE_HUNTER">
+	<element name="Nível 17: Caçador Preciso" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_PRECISE_HUNTER">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_RELENTLESS_HUNTER||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_PRECISE_HUNTER||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_FOE_SLAYER)</requirements>
 		<description>
-			<p>VocÃª tem Vantagem nas jogadas de ataque contra a criatura atualmente marcada por sua <i>Marca do CaÃ§ador</i>.</p>
+			<p>Você tem Vantagem nas jogadas de ataque contra a criatura atualmente marcada por sua <i>Marca do Caçador</i>.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="NÃ­vel 18: Sentidos Selvagens" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FERAL_SENSES">
+	<element name="Nível 18: Sentidos Selvagens" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FERAL_SENSES">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_FERAL_SENSES</requirements>
 		<description>
-			<p>Sua conexÃ£o com as forÃ§as da natureza lhe concede PercepÃ§Ã£o Ã s Cegas com alcance de 9 metros (30 pÃ©s).</p>
+			<p>Sua conexão com as forças da natureza lhe concede Percepção às Cegas com alcance de 9 metros (30 pés).</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -385,21 +385,21 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 19: DÃ¡diva Ã‰pica" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_EPIC_BOON">
+	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_EPIC_BOON">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_EPIC_BOON</requirements>
 		<description>
-			<p>VocÃª ganha um talento DÃ¡diva Ã‰pica ou outro talento de sua escolha para o qual possua os prÃ©-requisitos. A DÃ¡diva da Viagem Dimensional Ã© recomendada.</p>
+			<p>Você ganha um talento Dádiva Épica ou outro talento de sua escolha para o qual possua os pré-requisitos. A Dádiva da Viagem Dimensional é recomendada.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>  
-			<select type="Feat" name="DÃ¡diva Ã‰pica (Patrulheiro 19)" level="19" />
+			<select type="Feat" name="Dádiva Épica (Patrulheiro 19)" level="19" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 20: Matador de Inimigos" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FOE_SLAYER">
+	<element name="Nível 20: Matador de Inimigos" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FOE_SLAYER">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_RELENTLESS_HUNTER||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_PRECISE_HUNTER||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_FOE_SLAYER)</requirements>
 		<description>
-			<p>O dado de dano da sua Marca do CaÃ§ador se torna um d10 ao invÃ©s de um d6.</p>
+			<p>O dado de dano da sua Marca do Caçador se torna um d10 ao invés de um d6.</p>
 		</description>
 		<sheet display="false" />
 	</element>

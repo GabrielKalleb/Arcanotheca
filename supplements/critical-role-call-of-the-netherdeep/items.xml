@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Items from Critical Role: Call of the Netherdeep</name>
@@ -40,7 +40,7 @@
 	<element name="Jewel of Three Prayers (Dormant)" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_JEWEL_OF_THREE_PRAYERS_DORMANT">
 		<compendium display="false" />
 		<description>
-			<p>The <i>Jewel of Three Prayers</i> is a Vestige of Divergence (see the "Vestiges of Divergence" sidebar). In ancient times, Alyxian the Apotheon bore this amulet as a symbol of his covenant with three Prime Deities: Sehanine the Moon Weaver, Avandra the Change Bringer, and Corellon the Arch Heart. When the jewel is found, only Sehanine's power thrums within its dormant heart. The power of the other two deities waits to be reawakened by a heroâ€”or heroesâ€”who can follow in Alyxian's footsteps.</p>
+			<p>The <i>Jewel of Three Prayers</i> is a Vestige of Divergence (see the "Vestiges of Divergence" sidebar). In ancient times, Alyxian the Apotheon bore this amulet as a symbol of his covenant with three Prime Deities: Sehanine the Moon Weaver, Avandra the Change Bringer, and Corellon the Arch Heart. When the jewel is found, only Sehanine's power thrums within its dormant heart. The power of the other two deities waits to be reawakened by a hero—or heroes—who can follow in Alyxian's footsteps.</p>
 			<p class="indent"><strong><em>Dormant State.</em></strong> In this state, the <i>Jewel of Three Prayers</i> is a glittering golden disk attached to a fine golden chain. The chain magically resizes to function as a necklace for the creature that wears it.</p>
 			<p class="indent">In its Dormant State, the jewel has the following properties:</p>
 			<ul>
@@ -71,7 +71,7 @@
 	<element name="Jewel of Three Prayers (Awakened)" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_JEWEL_OF_THREE_PRAYERS_AWAKENED">
 		<compendium display="false" />
 		<description>
-			<p>The <i>Jewel of Three Prayers</i> is a Vestige of Divergence (see the "Vestiges of Divergence" sidebar). In ancient times, Alyxian the Apotheon bore this amulet as a symbol of his covenant with three Prime Deities: Sehanine the Moon Weaver, Avandra the Change Bringer, and Corellon the Arch Heart. When the jewel is found, only Sehanine's power thrums within its dormant heart. The power of the other two deities waits to be reawakened by a heroâ€”or heroesâ€”who can follow in Alyxian's footsteps.</p>
+			<p>The <i>Jewel of Three Prayers</i> is a Vestige of Divergence (see the "Vestiges of Divergence" sidebar). In ancient times, Alyxian the Apotheon bore this amulet as a symbol of his covenant with three Prime Deities: Sehanine the Moon Weaver, Avandra the Change Bringer, and Corellon the Arch Heart. When the jewel is found, only Sehanine's power thrums within its dormant heart. The power of the other two deities waits to be reawakened by a hero—or heroes—who can follow in Alyxian's footsteps.</p>
 			<p class="indent"><strong><em>Dormant State.</em></strong> In this state, the <i>Jewel of Three Prayers</i> is a glittering golden disk attached to a fine golden chain. The chain magically resizes to function as a necklace for the creature that wears it.</p>
 			<p class="indent">In its Dormant State, the jewel has the following properties:</p>
 			<ul>
@@ -112,7 +112,7 @@
 	</element>
 	<element name="Jewel of Three Prayers (Exalted)" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_JEWEL_OF_THREE_PRAYERS_EXALTED">
 		<description>
-			<p>The <i>Jewel of Three Prayers</i> is a Vestige of Divergence (see the "Vestiges of Divergence" sidebar). In ancient times, Alyxian the Apotheon bore this amulet as a symbol of his covenant with three Prime Deities: Sehanine the Moon Weaver, Avandra the Change Bringer, and Corellon the Arch Heart. When the jewel is found, only Sehanine's power thrums within its dormant heart. The power of the other two deities waits to be reawakened by a heroâ€”or heroesâ€”who can follow in Alyxian's footsteps.</p>
+			<p>The <i>Jewel of Three Prayers</i> is a Vestige of Divergence (see the "Vestiges of Divergence" sidebar). In ancient times, Alyxian the Apotheon bore this amulet as a symbol of his covenant with three Prime Deities: Sehanine the Moon Weaver, Avandra the Change Bringer, and Corellon the Arch Heart. When the jewel is found, only Sehanine's power thrums within its dormant heart. The power of the other two deities waits to be reawakened by a hero—or heroes—who can follow in Alyxian's footsteps.</p>
 			<p class="indent"><strong><em>Dormant State.</em></strong> In this state, the <i>Jewel of Three Prayers</i> is a glittering golden disk attached to a fine golden chain. The chain magically resizes to function as a necklace for the creature that wears it.</p>
 			<p class="indent">In its Dormant State, the jewel has the following properties:</p>
 			<ul>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -6,12 +6,12 @@
 		</update>
 	</info>
 
-	<element name="DomÃ­nio da Luz" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_LIGHT_DOMAIN">
+	<element name="Domínio da Luz" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_LIGHT_DOMAIN">
 		<supports>Cleric Subclass</supports>
 		<description>
-			<p class="flavor">Traga a Luz para Banir a EscuridÃ£o</p>
-			<p>O DomÃ­nio da Luz enfatiza o poder divino de trazer chamas ardentes e revelaÃ§Ã£o. ClÃ©rigos que empunham este poder sÃ£o almas iluminadas infundidas com radiÃ¢ncia e com o poder da visÃ£o perspicaz de suas divindades, encarregados de afastar mentiras e queimar as trevas.</p>
-			<p class="indent">O DomÃ­nio da Luz estÃ¡ associado a deuses da verdade, vigilÃ¢ncia, beleza, intuiÃ§Ã£o e renovaÃ§Ã£o. Alguns destes deuses sÃ£o identificados com o sol ou como cocheiros que guiam o sol pelo cÃ©u. Outros sÃ£o sentinelas que perfuram a decepÃ§Ã£o. Alguns sÃ£o divindades da beleza e da arte que ensinam que a arte Ã© um veÃ­culo para o aperfeiÃ§oamento da alma.</p>
+			<p class="flavor">Traga a Luz para Banir a Escuridão</p>
+			<p>O Domínio da Luz enfatiza o poder divino de trazer chamas ardentes e revelação. Clérigos que empunham este poder são almas iluminadas infundidas com radiância e com o poder da visão perspicaz de suas divindades, encarregados de afastar mentiras e queimar as trevas.</p>
+			<p class="indent">O Domínio da Luz está associado a deuses da verdade, vigilância, beleza, intuição e renovação. Alguns destes deuses são identificados com o sol ou como cocheiros que guiam o sol pelo céu. Outros são sentinelas que perfuram a decepção. Alguns são divindades da beleza e da arte que ensinam que a arte é um veículo para o aperfeiçoamento da alma.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_LIGHT_DOMAIN_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_RADIANCE_OF_THE_DAWN" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" />
@@ -28,19 +28,19 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Magias do DomÃ­nio da Luz" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_LIGHT_DOMAIN_SPELLS">
+	<element name="Nível 3: Magias do Domínio da Luz" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_LIGHT_DOMAIN_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_LIGHT_DOMAIN_SPELLS</requirements>
 		<description>
-			<p>Sua conexÃ£o com este domÃ­nio divino garante que vocÃª sempre tenha certas magias prontas. Quando vocÃª atinge um nÃ­vel de ClÃ©rigo especificado na tabela Magias do DomÃ­nio da Luz, vocÃª a partir de entÃ£o sempre tem as magias listadas preparadas.</p>
-			<h5>MAGIAS DO DOMÃNIO DA LUZ</h5>
+			<p>Sua conexão com este domínio divino garante que você sempre tenha certas magias prontas. Quando você atinge um nível de Clérigo especificado na tabela Magias do Domínio da Luz, você a partir de então sempre tem as magias listadas preparadas.</p>
+			<h5>MAGIAS DO DOMÍNIO DA LUZ</h5>
 			<table>
 				<thead>
-					<tr><td class="col-15" style="text-align:center">NÃ­vel de ClÃ©rigo</td><td>Magias Preparadas</td></tr>
+					<tr><td class="col-15" style="text-align:center">Nível de Clérigo</td><td>Magias Preparadas</td></tr>
 				</thead>
-				<tr><td style="text-align:center">3</td><td><em>MÃ£os Flamejantes, Fogo das Fadas, Raio Ardente, Ver o InvisÃ­vel</em></td></tr>
+				<tr><td style="text-align:center">3</td><td><em>Mãos Flamejantes, Fogo das Fadas, Raio Ardente, Ver o Invisível</em></td></tr>
 				<tr><td style="text-align:center">5</td><td><em>Luz do Dia, Bola de Fogo</em></td></tr>
 				<tr><td style="text-align:center">7</td><td><em>Olho Arcano, Muralha de Fogo</em></td></tr>
-				<tr><td style="text-align:center">9</td><td><em>Coluna de Chamas, VidÃªncia</em></td></tr>
+				<tr><td style="text-align:center">9</td><td><em>Coluna de Chamas, Vidência</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -58,25 +58,25 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Esplendor da Alvorada" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_RADIANCE_OF_THE_DAWN">
+	<element name="Nível 3: Esplendor da Alvorada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_RADIANCE_OF_THE_DAWN">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_RADIANCE_OF_THE_DAWN</requirements>
 		<description>
-			<p>Como uma aÃ§Ã£o MÃ¡gica, vocÃª apresenta seu SÃ­mbolo Sagrado e gasta um uso de Canalizar Divindade para emitir um clarÃ£o de luz numa EmanaÃ§Ã£o de 9 metros (30 pÃ©s) originada em vocÃª. Qualquer EscuridÃ£o mÃ¡gica â€” como aquela criada pela magia <i>EscuridÃ£o</i> â€” nessa Ã¡rea Ã© dissipada. AlÃ©m disso, cada criatura da sua escolha nessa Ã¡rea deve fazer um teste de resistÃªncia de ConstituiÃ§Ã£o, sofrendo dano Radiante igual a 2d10 mais seu nÃ­vel de ClÃ©rigo em uma falha, ou metade desse dano em um sucesso.</p>
+			<p>Como uma ação Mágica, você apresenta seu Símbolo Sagrado e gasta um uso de Canalizar Divindade para emitir um clarão de luz numa Emanação de 9 metros (30 pés) originada em você. Qualquer Escuridão mágica — como aquela criada pela magia <i>Escuridão</i> — nessa área é dissipada. Além disso, cada criatura da sua escolha nessa área deve fazer um teste de resistência de Constituição, sofrendo dano Radiante igual a 2d10 mais seu nível de Clérigo em uma falha, ou metade desse dano em um sucesso.</p>
 		</description>
 		<sheet alt="Esplendor da Alvorada" action="Action" usage="Canalizar Divindade">
-			<description>VocÃª apresenta seu SÃ­mbolo Sagrado, e qualquer escuridÃ£o mÃ¡gica a atÃ© 9m de vocÃª Ã© magicamente dissipada. Cada criatura de sua escolha a atÃ© 9m deve fazer um teste de ConstituiÃ§Ã£o CD {{cleric:spellcasting:dc}}. Sofre 2d10+{{level:cleric}} de dano Radiante na falha, ou metade no sucesso.</description>
+			<description>Você apresenta seu Símbolo Sagrado, e qualquer escuridão mágica a até 9m de você é magicamente dissipada. Cada criatura de sua escolha a até 9m deve fazer um teste de Constituição CD {{cleric:spellcasting:dc}}. Sofre 2d10+{{level:cleric}} de dano Radiante na falha, ou metade no sucesso.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 3: ClarÃ£o Protetor" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
+	<element name="Nível 3: Clarão Protetor" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_WARDING_FLARE</requirements>
 		<description>
-			<p>Quando uma criatura que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) de vocÃª faz uma jogada de ataque, vocÃª pode usar uma ReaÃ§Ã£o para impor Desvantagem Ã  jogada de ataque, fazendo com que luz brilhe antes do ataque acertar ou errar.</p>
-			<p class="indent">VocÃª pode usar esta caracterÃ­stica um nÃºmero de vezes igual ao seu modificador de Sabedoria (mÃ­nimo de uma vez). VocÃª recupera todos os usos gastos quando termina um Descanso Longo.</p>
+			<p>Quando uma criatura que você possa ver a até 9 metros (30 pés) de você faz uma jogada de ataque, você pode usar uma Reação para impor Desvantagem à jogada de ataque, fazendo com que luz brilhe antes do ataque acertar ou errar.</p>
+			<p class="indent">Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez). Você recupera todos os usos gastos quando termina um Descanso Longo.</p>
 		</description>
-		<sheet alt="ClarÃ£o Protetor" action="Reaction" usage="{{warding flare:usage}}/Descanso Longo">
-			<description>Quando uma criatura visÃ­vel a atÃ© 9m de vocÃª faz um ataque, vocÃª pode impor Desvantagem Ã  jogada de ataque antes que acerte ou erre.</description>
-			<description usage="{{warding flare:usage}}/Descanso Curto" level="6">Quando uma criatura visÃ­vel a atÃ© 9m de vocÃª faz um ataque, vocÃª pode impor Desvantagem Ã  jogada de ataque antes que acerte ou erre. AlÃ©m disso, pode dar ao alvo desse ataque 2d6+{{wisdom:modifier}} PVTs.</description>
+		<sheet alt="Clarão Protetor" action="Reaction" usage="{{warding flare:usage}}/Descanso Longo">
+			<description>Quando uma criatura visível a até 9m de você faz um ataque, você pode impor Desvantagem à jogada de ataque antes que acerte ou erre.</description>
+			<description usage="{{warding flare:usage}}/Descanso Curto" level="6">Quando uma criatura visível a até 9m de você faz um ataque, você pode impor Desvantagem à jogada de ataque antes que acerte ou erre. Além disso, pode dar ao alvo desse ataque 2d6+{{wisdom:modifier}} PVTs.</description>
 		</sheet>
 		<rules>
 			<stat name="warding flare:usage" value="1" bonus="base" />
@@ -84,23 +84,23 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 6: ClarÃ£o Aprimorado" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE">
+	<element name="Nível 6: Clarão Aprimorado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_IMPROVED_FLARE</requirements>
 		<description>
-			<p>VocÃª recupera todos os usos gastos do seu ClarÃ£o Protetor quando termina um Descanso Curto ou Longo.</p>
-			<p class="indent">AlÃ©m disso, sempre que usar ClarÃ£o Protetor, vocÃª pode dar ao alvo do ataque desencadeador um nÃºmero de Pontos de Vida TemporÃ¡rios igual a 2d6 mais seu modificador de Sabedoria.</p>
+			<p>Você recupera todos os usos gastos do seu Clarão Protetor quando termina um Descanso Curto ou Longo.</p>
+			<p class="indent">Além disso, sempre que usar Clarão Protetor, você pode dar ao alvo do ataque desencadeador um número de Pontos de Vida Temporários igual a 2d6 mais seu modificador de Sabedoria.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="NÃ­vel 17: Coroa de Luz" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT">
+	<element name="Nível 17: Coroa de Luz" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CORONA_OF_LIGHT</requirements>
 		<description>
-			<p>Como uma aÃ§Ã£o MÃ¡gica, vocÃª faz com que emita uma aura de luz solar que dura 1 minuto ou atÃ© vocÃª a dissipar (nenhuma aÃ§Ã£o necessÃ¡ria). VocÃª emite Luz Plena num raio de 18 metros (60 pÃ©s) e Penumbra por mais 9 metros (30 pÃ©s). Seus inimigos na Luz Plena tÃªm Desvantagem nos testes de resistÃªncia contra seu Esplendor da Alvorada e qualquer magia que cause dano de Fogo ou Radiante.</p>
-			<p class="indent">VocÃª pode usar esta caracterÃ­stica um nÃºmero de vezes igual ao seu modificador de Sabedoria (mÃ­nimo de uma vez). VocÃª recupera todos os usos gastos quando termina um Descanso Longo.</p>
+			<p>Como uma ação Mágica, você faz com que emita uma aura de luz solar que dura 1 minuto ou até você a dissipar (nenhuma ação necessária). Você emite Luz Plena num raio de 18 metros (60 pés) e Penumbra por mais 9 metros (30 pés). Seus inimigos na Luz Plena têm Desvantagem nos testes de resistência contra seu Esplendor da Alvorada e qualquer magia que cause dano de Fogo ou Radiante.</p>
+			<p class="indent">Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez). Você recupera todos os usos gastos quando termina um Descanso Longo.</p>
 		</description>
 		<sheet alt="Coroa de Luz" action="Action" usage="{{corona of light:usage}}/Descanso Longo">
-			<description>Magicamente emite aura de luz solar por 1 min ou atÃ© dissipar. Luz Plena em 18m e Penumbra em mais 9m. Inimigos na Luz Plena tÃªm Desvantagem contra Esplendor da Alvorada e magias de dano de Fogo/Radiante.</description>
+			<description>Magicamente emite aura de luz solar por 1 min ou até dissipar. Luz Plena em 18m e Penumbra em mais 9m. Inimigos na Luz Plena têm Desvantagem contra Esplendor da Alvorada e magias de dano de Fogo/Radiante.</description>
 		</sheet>
 		<rules>
 			<stat name="corona of light:usage" value="1" bonus="base" />

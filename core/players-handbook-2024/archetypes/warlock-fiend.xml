@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Patrono Corruptor</name>
@@ -9,11 +9,11 @@
 		</update>
 	</info>
 
-	<element name="Patrono Corruptor" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WARLOCK_FIEND_PATRON">
+	<element name="Patrono Corruptor" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WARLOCK_FIEND_PATRON">
 		<supports>Warlock Subclass</supports>
 		<description>
-			<p class="flavor">FaÃ§a um Acordo com os Planos Inferiores</p>
-			<p>Seu pacto se baseia nos Planos Inferiores, os reinos da perdiÃ§Ã£o. VocÃª pode forjar uma barganha com um lorde demÃ´nio, como Demogorgon ou Orcus; um arquidiabo, como Asmodeus; ou um diabo do poÃ§o, balor, yugoloth ou bruxa da noite que seja especialmente poderoso. Os objetivos desse patrono sÃ£o malignos â€” a corrupÃ§Ã£o ou destruiÃ§Ã£o de todas as coisas â€” e seu poder infunde em vocÃª a magia do fogo ardente e do desespero rasgante.</p>
+			<p class="flavor">Faça um Acordo com os Planos Inferiores</p>
+			<p>Seu pacto se baseia nos Planos Inferiores, os reinos da perdição. Você pode forjar uma barganha com um lorde demônio, como Demogorgon ou Orcus; um arquidiabo, como Asmodeus; ou um diabo do poço, balor, yugoloth ou bruxa da noite que seja especialmente poderoso. Os objetivos desse patrono são malignos — a corrupção ou destruição de todas as coisas — e seu poder infunde em você a magia do fogo ardente e do desespero rasgante.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_FIEND_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_DARK_ONES_BLESSING" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_DARK_ONES_OWN_LUCK" />
@@ -30,17 +30,17 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Magias do Corruptor" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_FIEND_SPELLS">
+	<element name="Nível 3: Magias do Corruptor" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_FIEND_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_FIEND_SPELLS</requirements>
 		<description>
-			<p>A magia do seu patrono garante que vocÃª sempre tenha certas magias preparadas; quando vocÃª atinge um nÃ­vel de Bruxo especificado na tabela de Magias do Corruptor, vocÃª passa a ter as magias listadas sempre preparadas.</p>
+			<p>A magia do seu patrono garante que você sempre tenha certas magias preparadas; quando você atinge um nível de Bruxo especificado na tabela de Magias do Corruptor, você passa a ter as magias listadas sempre preparadas.</p>
 			<h5>Magias do Corruptor</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-25">NÃ­vel de Bruxo</td><td class="left">Magias</td></tr>
+					<tr><td class="col-25">Nível de Bruxo</td><td class="left">Magias</td></tr>
 				</thead>
-				<tr><td>3</td><td class="left"><em>MÃ£os Flamejantes, Comando, Cegueira/Surdez, Raio Ardente</em></td></tr>
-				<tr><td>5</td><td class="left"><em>Bola de Fogo, NÃ©voa FÃ©tida</em></td></tr>
+				<tr><td>3</td><td class="left"><em>Mãos Flamejantes, Comando, Cegueira/Surdez, Raio Ardente</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Bola de Fogo, Névoa Fétida</em></td></tr>
 				<tr><td>7</td><td class="left"><em>Escudo de Fogo, Muralha de Fogo</em></td></tr>
 				<tr><td>9</td><td class="left"><em>Coluna de Chamas, Consagrar</em></td></tr>
 			</table>
@@ -60,13 +60,13 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: BÃªnÃ§Ã£o das Trevas" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_DARK_ONES_BLESSING">
+	<element name="Nível 3: Bênção das Trevas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_DARK_ONES_BLESSING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_DARK_ONES_BLESSING</requirements>
 		<description>
-			<p>Quando vocÃª reduz um inimigo a 0 Pontos de Vida, vocÃª ganha Pontos de Vida TemporÃ¡rios iguais ao seu modificador de Carisma mais o seu nÃ­vel de Bruxo (mÃ­nimo de 1). VocÃª tambÃ©m ganha esse benefÃ­cio se alguÃ©m morrer a atÃ© 3 metros (10 pÃ©s) de vocÃª.</p>
+			<p>Quando você reduz um inimigo a 0 Pontos de Vida, você ganha Pontos de Vida Temporários iguais ao seu modificador de Carisma mais o seu nível de Bruxo (mínimo de 1). Você também ganha esse benefício se alguém morrer a até 3 metros (10 pés) de você.</p>
 		</description>
-		<sheet alt="BÃªnÃ§Ã£o das Trevas">
-			<description>Quando vocÃª reduz um inimigo a 0 Pontos de Vida, ou se alguÃ©m morrer a atÃ© 3m (10 pÃ©s) de vocÃª, vocÃª ganha {{dark ones blessing:hp}} Pontos de Vida TemporÃ¡rios.</description>
+		<sheet alt="Bênção das Trevas">
+			<description>Quando você reduz um inimigo a 0 Pontos de Vida, ou se alguém morrer a até 3m (10 pés) de você, você ganha {{dark ones blessing:hp}} Pontos de Vida Temporários.</description>
 		</sheet>
 		<rules>
 			<stat name="dark ones blessing:hp" value="1" bonus="base" />
@@ -75,14 +75,14 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 6: Sorte das Trevas" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_DARK_ONES_OWN_LUCK">
+	<element name="Nível 6: Sorte das Trevas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_DARK_ONES_OWN_LUCK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_DARK_ONES_OWN_LUCK</requirements>
 		<description>
-			<p>VocÃª pode invocar o seu patrono para alterar o destino a seu favor. Quando vocÃª faz um teste de atributo ou um teste de resistÃªncia, pode usar esta caracterÃ­stica para adicionar 1d10 Ã  sua rolagem. VocÃª pode fazer isso depois de ver o resultado inicial, mas antes de quaisquer efeitos da rolagem ocorrerem.</p>
-			<p class="indent">VocÃª pode usar esta caracterÃ­stica um nÃºmero de vezes igual ao seu modificador de Carisma (mÃ­nimo de uma vez), mas vocÃª nÃ£o pode usÃ¡-la mais de uma vez por rolagem. VocÃª recupera todos os usos gastos ao terminar um Descanso Longo.</p>
+			<p>Você pode invocar o seu patrono para alterar o destino a seu favor. Quando você faz um teste de atributo ou um teste de resistência, pode usar esta característica para adicionar 1d10 à sua rolagem. Você pode fazer isso depois de ver o resultado inicial, mas antes de quaisquer efeitos da rolagem ocorrerem.</p>
+			<p class="indent">Você pode usar esta característica um número de vezes igual ao seu modificador de Carisma (mínimo de uma vez), mas você não pode usá-la mais de uma vez por rolagem. Você recupera todos os usos gastos ao terminar um Descanso Longo.</p>
 		</description>
 		<sheet alt="Sorte das Trevas" usage="{{dark ones own luck:usage}}/Descanso Longo">
-			<description>Ao fazer um teste de atributo ou teste de resistÃªncia, vocÃª pode adicionar 1d10 Ã  rolagem (depois de rolar, mas antes dos efeitos ocorrerem). MÃ¡ximo de uma vez por rolagem.</description>
+			<description>Ao fazer um teste de atributo ou teste de resistência, você pode adicionar 1d10 à rolagem (depois de rolar, mas antes dos efeitos ocorrerem). Máximo de uma vez por rolagem.</description>
 		</sheet>
 		<rules>
 			<stat name="dark ones own luck:usage" value="1" bonus="base" />
@@ -90,30 +90,30 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 10: ResiliÃªncia DemonÃ­aca" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_FIENDISH_RESILIENCE">
+	<element name="Nível 10: Resiliência Demoníaca" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_FIENDISH_RESILIENCE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_FIENDISH_RESILIENCE</requirements>
 		<description>
-			<p>Escolha um tipo de dano ao terminar um Descanso Curto ou Longo. VocÃª ganha ResistÃªncia a esse tipo de dano atÃ© escolher um diferente com esta caracterÃ­stica. Dano causado por armas mÃ¡gicas ou armas de prata ignora essa ResistÃªncia.</p>
+			<p>Escolha um tipo de dano ao terminar um Descanso Curto ou Longo. Você ganha Resistência a esse tipo de dano até escolher um diferente com esta característica. Dano causado por armas mágicas ou armas de prata ignora essa Resistência.</p>
 		</description>
-		<sheet alt="ResiliÃªncia DemonÃ­aca">
-			<description>Ao final de um Descanso Curto ou Longo, escolha um tipo de dano. VocÃª ganha ResistÃªncia a ele (dano de armas mÃ¡gicas ou de prata ignoram essa ResistÃªncia).</description>
+		<sheet alt="Resiliência Demoníaca">
+			<description>Ao final de um Descanso Curto ou Longo, escolha um tipo de dano. Você ganha Resistência a ele (dano de armas mágicas ou de prata ignoram essa Resistência).</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 14: LanÃ§ar no Inferno" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_HURL_THROUGH_HELL">
+	<element name="Nível 14: Lançar no Inferno" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_PATRON_HURL_THROUGH_HELL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_HURL_THROUGH_HELL</requirements>
 		<description>
-			<p>Uma vez por turno, ao atingir uma criatura com uma jogada de ataque, vocÃª pode forÃ§Ã¡-la a fazer um teste de resistÃªncia de Carisma contra a CD de suas magias. Se falhar, ela Ã© transportada instantaneamente para os Planos Inferiores. O alvo sofre 8d10 de dano PsÃ­quico (se nÃ£o for um Corruptor) e tem a condiÃ§Ã£o Incapacitado. No final do seu prÃ³ximo turno, o alvo retorna ao espaÃ§o que ocupava antes ou ao espaÃ§o desocupado mais prÃ³ximo.</p>
-			<p class="indent">ApÃ³s usar esta caracterÃ­stica, vocÃª nÃ£o pode usÃ¡-la novamente atÃ© terminar um Descanso Longo, a menos que vocÃª gaste um espaÃ§o de magia de Pacto para usÃ¡-la novamente (nenhuma aÃ§Ã£o exigida).</p>
+			<p>Uma vez por turno, ao atingir uma criatura com uma jogada de ataque, você pode forçá-la a fazer um teste de resistência de Carisma contra a CD de suas magias. Se falhar, ela é transportada instantaneamente para os Planos Inferiores. O alvo sofre 8d10 de dano Psíquico (se não for um Corruptor) e tem a condição Incapacitado. No final do seu próximo turno, o alvo retorna ao espaço que ocupava antes ou ao espaço desocupado mais próximo.</p>
+			<p class="indent">Após usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo, a menos que você gaste um espaço de magia de Pacto para usá-la novamente (nenhuma ação exigida).</p>
 		</description>
-		<sheet alt="LanÃ§ar no Inferno" usage="1/Descanso Longo">
-			<description>Uma vez por turno, ao acertar uma criatura com um ataque, vocÃª pode forÃ§Ã¡-la a fazer uma resistÃªncia de Carisma CD{{warlock:spellcasting:dc}}. Se falhar, ela Ã© transportada para os Planos Inferiores, sofre 8d10 de dano PsÃ­quico (se nÃ£o for um Corruptor) e fica Incapacitada atÃ© o final do seu prÃ³ximo turno, quando ela retorna ao local anterior. VocÃª pode gastar um espaÃ§o de Magia de Pacto para restaurar o uso.</description>
+		<sheet alt="Lançar no Inferno" usage="1/Descanso Longo">
+			<description>Uma vez por turno, ao acertar uma criatura com um ataque, você pode forçá-la a fazer uma resistência de Carisma CD{{warlock:spellcasting:dc}}. Se falhar, ela é transportada para os Planos Inferiores, sofre 8d10 de dano Psíquico (se não for um Corruptor) e fica Incapacitada até o final do seu próximo turno, quando ela retorna ao local anterior. Você pode gastar um espaço de Magia de Pacto para restaurar o uso.</description>
 		</sheet>
 	</element>
 
-	<element name="Dark Oneâ€™s Blessing Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_DARK_ONES_BLESSING" />
+	<element name="Dark One’s Blessing Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_DARK_ONES_BLESSING" />
 	<element name="Fiend Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_FIEND_SPELLS" />
-	<element name="Dark Oneâ€™s Own Luck Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_DARK_ONES_OWN_LUCK" />
+	<element name="Dark One’s Own Luck Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_DARK_ONES_OWN_LUCK" />
 	<element name="Fiendish Resilience Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_FIENDISH_RESILIENCE" />
 	<element name="Hurl Through Hell Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_PATRON_HURL_THROUGH_HELL" />
 </elements>

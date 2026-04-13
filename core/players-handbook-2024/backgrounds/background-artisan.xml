@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>ArtesÃ£o</name>
-		<description>Antecedente ArtesÃ£o do Livro do Jogador 2024.</description>
+		<name>Artesão</name>
+		<description>Antecedente Artesão do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.2">
 			<file name="background-artisan.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/backgrounds/background-artisan.xml" />
 		</update>
 	</info>
 
-	<element name="ArtesÃ£o" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_ARTISAN">
+	<element name="Artesão" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_ARTISAN">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> ForÃ§a, Destreza, InteligÃªncia</li>
-				<li><strong>Talento:</strong> ArtesÃ£o</li>
-				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> InvestigaÃ§Ã£o e PersuasÃ£o</li>
-				<li><strong>ProficiÃªncia em Ferramenta:</strong><i> Escolha um tipo de Ferramentas de ArtesÃ£o</i></li>
-				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Ferramentas de ArtesÃ£o (a mesma escolhida acima), 2 Algibeiras, Roupas de Viajante, 32 PO; ou (B) 50 PO</li>
+				<li><strong>Valores de Habilidade:</strong> Força, Destreza, Inteligência</li>
+				<li><strong>Talento:</strong> Artesão</li>
+				<li><strong>Proficiências em Perícias:</strong> Investigação e Persuasão</li>
+				<li><strong>Proficiência em Ferramenta:</strong><i> Escolha um tipo de Ferramentas de Artesão</i></li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Ferramentas de Artesão (a mesma escolhida acima), 2 Algibeiras, Roupas de Viajante, 32 PO; ou (B) 50 PO</li>
 			</ul>
-			<p>VocÃª comeÃ§ou limpando o chÃ£o e esfregando os balcÃµes em uma oficina de artesÃ£o por algumas moedas de cobre por dia, assim que teve forÃ§a suficiente para carregar um balde. Quando vocÃª teve idade suficiente para ser aprendiz, aprendeu a criar artesanatos bÃ¡sicos, bem como a bajular o cliente ocasional mais exigente. O seu ofÃ­cio tambÃ©m lhe deu um olhar aguÃ§ado para detalhes.</p>
+			<p>Você começou limpando o chão e esfregando os balcões em uma oficina de artesão por algumas moedas de cobre por dia, assim que teve força suficiente para carregar um balde. Quando você teve idade suficiente para ser aprendiz, aprendeu a criar artesanatos básicos, bem como a bajular o cliente ocasional mais exigente. O seu ofício também lhe deu um olhar aguçado para detalhes.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_CRAFTER" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">ForÃ§a, Destreza, InteligÃªncia, Talento ArtesÃ£o, PerÃ­cias InvestigaÃ§Ã£o e PersuasÃ£o, uma Ferramenta de ArtesÃ£o</set>
+			<set name="short">Força, Destreza, Inteligência, Talento Artesão, Perícias Investigação e Persuasão, uma Ferramenta de Artesão</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_INT" />

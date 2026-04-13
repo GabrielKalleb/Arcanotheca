@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Wildspacer</name>
@@ -11,15 +11,15 @@
 
 	<element name="Wildspacer" type="Background" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_BACKGROUND_WILDSPACER">
 		<description>
-			<p>You were raised in the void of Wildspaceâ€”home to asteroid miners, moon farmers, and other hardy folk. Perhaps you grew up in a far-flung settlement such as the Rock of Bral (described in chapter 3 of the <i>Astral Adventurer's Guide</i>), or you spent your early years on the crew of a spelljamming ship, performing helpful chores such as swabbing the deck, loading and offloading cargo, and scraping barnacles off the hull.</p>			
+			<p>You were raised in the void of Wildspace—home to asteroid miners, moon farmers, and other hardy folk. Perhaps you grew up in a far-flung settlement such as the Rock of Bral (described in chapter 3 of the <i>Astral Adventurer's Guide</i>), or you spent your early years on the crew of a spelljamming ship, performing helpful chores such as swabbing the deck, loading and offloading cargo, and scraping barnacles off the hull.</p>			
 			<p class="indent">Whatever your history, life in Wildspace has toughened you so well that you are as brave as a miniature giant space hamster when it comes to facing the terrors and other challenges of the airless night.</p>			
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Athletics, Survival</li>
-				<li><strong>Tool Proficiencies:</strong> Navigatorâ€™s tools, vehicles (space)</li>
-				<li><strong>Equipment:</strong> A belaying pin (club), a set of travelerâ€™s clothes, a grappling hook, 50 feet of hempen rope, and a pouch containing 10 gp</li>
+				<li><strong>Tool Proficiencies:</strong> Navigator’s tools, vehicles (space)</li>
+				<li><strong>Equipment:</strong> A belaying pin (club), a set of traveler’s clothes, a grappling hook, 50 feet of hempen rope, and a pouch containing 10 gp</li>
 			</ul>
 			<h3>Close Encounter</h3>
-			<p>You had a harrowing encounter with one of Wildspaceâ€™s many terrors. You escaped with your life, but the encounter left you with a scar or two, or perhaps a recurring nightmare. Roll on the Close Encounter table to determine which creature nearly got the best of you. Creatures marked with an asterisk appear in <i>Booâ€™s Astral Menagerie</i>; the others are described in the Monster Manual.</p>			
+			<p>You had a harrowing encounter with one of Wildspace’s many terrors. You escaped with your life, but the encounter left you with a scar or two, or perhaps a recurring nightmare. Roll on the Close Encounter table to determine which creature nearly got the best of you. Creatures marked with an asterisk appear in <i>Boo’s Astral Menagerie</i>; the others are described in the Monster Manual.</p>			
 			<h5>Close Encounter</h5>
 			<table>
 				<thead>
@@ -42,7 +42,7 @@
 			</div>
 		</description>
 		<setters>
-			<set name="short">Athletics, Survival, Navigatorâ€™s tools, Vehicles (space)</set>
+			<set name="short">Athletics, Survival, Navigator’s tools, Vehicles (space)</set>
 		</setters>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
@@ -58,13 +58,13 @@
 	<element name="Feature: Wildspace Adaptation" type="Background Feature" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_BACKGROUND_FEATURE_WILDSPACER_WILDSPACE_ADAPTATION">
 		<supports>Background Feature</supports>
 		<description>
-			<p>You gain the Tough feat from the <i>Playerâ€™s Handbook</i>. In addition, you learned how to adapt to zero gravity. Being weightless doesnâ€™t give you disadvantage on any of your melee attack rolls (see â€œWeightlessnessâ€ in chapter 2 of the <i>Astral Adventurer's Guide</i>).</p>
+			<p>You gain the Tough feat from the <i>Player’s Handbook</i>. In addition, you learned how to adapt to zero gravity. Being weightless doesn’t give you disadvantage on any of your melee attack rolls (see “Weightlessness” in chapter 2 of the <i>Astral Adventurer's Guide</i>).</p>
 			<div class="reference">
 				<div element="ID_PHB_FEAT_TOUGH" />
 			</div>
 		</description>
 		<sheet alt="Wildspace Adaptation">
-			<description>You learned how to adapt to zero gravity. Being weightless doesnâ€™t give you disadvantage on any of your melee attack rolls.</description>
+			<description>You learned how to adapt to zero gravity. Being weightless doesn’t give you disadvantage on any of your melee attack rolls.</description>
 		</sheet>
 		<rules>
 			<grant type="Feat" id="ID_PHB_FEAT_TOUGH" />

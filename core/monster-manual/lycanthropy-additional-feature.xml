@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Lycanthropy</name>
@@ -11,7 +11,7 @@
 
 	<element name="Lycanthropy" type="Item" source="Monster Manual" id="ID_WOTC_MM_LYCANTHROPY">
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<p>One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire , features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark. </p>
 		</description>
 		<setters>

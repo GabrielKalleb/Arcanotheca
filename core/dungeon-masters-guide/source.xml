@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.3">
@@ -7,9 +7,9 @@
 	</info>
 	<element name="Guia do Mestre" type="Source" source="Core" id="ID_WOTC_SOURCE_DUNGEON_MASTERS_GUIDE">
 		<description>
-			<p><strong>Tudo o que um Mestre precisa para tecer histÃ³rias lendÃ¡rias para o maior jogo de interpretaÃ§Ã£o de papÃ©is do mundo.</strong></p>
-			<p>O <i>Guia do Mestre</i> fornece a inspiraÃ§Ã£o e a orientaÃ§Ã£o que vocÃª precisa para despertar sua imaginaÃ§Ã£o e criar mundos de aventura para seus jogadores explorarem e desfrutarem.</p>
-			<p>Por dentro vocÃª encontrarÃ¡ ferramentas de construÃ§Ã£o de mundo, dicas e truques para criar masmorras e aventuras memorÃ¡veis, regras de jogo opcionais, centenas de itens mÃ¡gicos clÃ¡ssicos de D&amp;D e muito mais!</p>
+			<p><strong>Tudo o que um Mestre precisa para tecer histórias lendárias para o maior jogo de interpretação de papéis do mundo.</strong></p>
+			<p>O <i>Guia do Mestre</i> fornece a inspiração e a orientação que você precisa para despertar sua imaginação e criar mundos de aventura para seus jogadores explorarem e desfrutarem.</p>
+			<p>Por dentro você encontrará ferramentas de construção de mundo, dicas e truques para criar masmorras e aventuras memoráveis, regras de jogo opcionais, centenas de itens mágicos clássicos de D&amp;D e muito mais!</p>
 		</description>
 		<setters>
 			<set name="abbreviation">GM</set>

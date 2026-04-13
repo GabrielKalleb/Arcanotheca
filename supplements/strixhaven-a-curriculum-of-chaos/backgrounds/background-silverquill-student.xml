@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Silverquill Student Background</name>
@@ -19,7 +19,7 @@
 			<h5>Building a Silverquill Character</h5>
 			<p>Many bards find a home in Silverquill, putting the power of their voices to use with Silverquill magic. Wizards (especially those who study the Schools of Illusion and Enchantment) are common in Silverquill, as are warlocks. Clerics with the Divine Domains of Light and Trickery also fit in well among the mages of Silverquill.</p>
 			<p class="indent">A number of both paladins and rogues attend Silverquill College as well, highlighting the diversity of the student body.</p>
-			<p class="indent"><i><b>Suggested Characteristics.</b></i> With the collegeâ€™s intense standards looming over them, Silverquill students range from cocky and cutthroat to overwhelmed perfectionists. The Silverquill Personality Traits table suggests a variety of traits you might adopt for your character.</p>
+			<p class="indent"><i><b>Suggested Characteristics.</b></i> With the college’s intense standards looming over them, Silverquill students range from cocky and cutthroat to overwhelmed perfectionists. The Silverquill Personality Traits table suggests a variety of traits you might adopt for your character.</p>
 			<div class="reference">
 				<div element="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" />
 			</div>
@@ -34,20 +34,20 @@
 			<grant type="Background Feature" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_SILVERQUILL_INITIATE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" optional="true" >
-				<item id="1">Iâ€™ll say whatever I need to in order to maintain my high social status</item>
-				<item id="2">I prefer saying the blunt truth over a pretty lie, and I donâ€™t particularly care whose feelings I hurt.</item>
+				<item id="1">I’ll say whatever I need to in order to maintain my high social status</item>
+				<item id="2">I prefer saying the blunt truth over a pretty lie, and I don’t particularly care whose feelings I hurt.</item>
 				<item id="3">I believe that uplifting my peers is the best way to succeed.</item>
-				<item id="4">Iâ€™ve mastered the art of using humor as a defense, and I always have a charming joke ready.</item>
+				<item id="4">I’ve mastered the art of using humor as a defense, and I always have a charming joke ready.</item>
 				<item id="5">I always wait before speaking, analyzing the situation for whichever angle is most advantageous to my goals.</item>
-				<item id="6">No one knows about the all-nighters Iâ€™ve pulled to keep my magic looking effortless, and Iâ€™m going to keep it that way.</item>
+				<item id="6">No one knows about the all-nighters I’ve pulled to keep my magic looking effortless, and I’m going to keep it that way.</item>
 			</select>
 			<select type="List" name="Trinket" optional="true" >
 				<item id="1">A black leather notebook filled with half-finished poems</item>
 				<item id="2">A set of flashcards detailing different colloquialisms and their meanings</item>
 				<item id="3">A canteen that makes any liquid drunk from it taste sweet</item>
-				<item id="4">A forged permission slip granting access to the special archives of Strixhavenâ€™s libraries</item>
+				<item id="4">A forged permission slip granting access to the special archives of Strixhaven’s libraries</item>
 				<item id="5">A stylish silver pin that references a famous series of novels about warlocks</item>
-				<item id="6">A stack of small pieces of parchment, each enchanted to stick to whatever surface itâ€™s pressed against and peel off easily</item>
+				<item id="6">A stack of small pieces of parchment, each enchanted to stick to whatever surface it’s pressed against and peel off easily</item>
 			</select>
 		</rules>
 	</element>
@@ -66,9 +66,9 @@
 				<tr><td>2nd</td><td><em>Calm Emotions, Darkness</em></td></tr>
 				<tr><td>3rd</td><td><em>Beacon of Hope, Daylight</em></td></tr>
 				<tr><td>4th</td><td><em>Compulsion, Confusion</em></td></tr>
-				<tr><td>5th</td><td><em>Dominate Person, Raryâ€™s Telepathic Bond</em></td></tr>
+				<tr><td>5th</td><td><em>Dominate Person, Rary’s Telepathic Bond</em></td></tr>
 			</table>
-			<p>Consider customizing how your spells look when you cast them. Your Silverquill spells might be accompanied by visual effects resembling splotches of ink or radiating ripples of golden light. Any auditory effects of your spells often sound like amplified echoes of your own voice speaking the spellsâ€™ verbal componentsâ€”even amid the crash of lightning or a fiery eruption.</p>
+			<p>Consider customizing how your spells look when you cast them. Your Silverquill spells might be accompanied by visual effects resembling splotches of ink or radiating ripples of golden light. Any auditory effects of your spells often sound like amplified echoes of your own voice speaking the spells’ verbal components—even amid the crash of lightning or a fiery eruption.</p>
 			<div class="reference">
 				<div element="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" />
 			</div>

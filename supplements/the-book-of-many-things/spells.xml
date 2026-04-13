@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Spells from The Book of Many Things</name>
@@ -90,7 +90,7 @@
 				<li><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, poisoned</li>
 				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 13</li>
 				<li><strong>Languages</strong> understands the languages you speak</li>
-				<li style="margin-bottom:-1em"><strong>Challenge</strong> â€”</li>
+				<li style="margin-bottom:-1em"><strong>Challenge</strong> —</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Proficiency Bonus (PB)</strong> equals your bonus</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />

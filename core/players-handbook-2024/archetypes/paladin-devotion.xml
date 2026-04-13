@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Juramento da DevoÃ§Ã£o</name>
-		<description>A subclasse Juramento da DevoÃ§Ã£o do Livro do Jogador de 2024.</description>
+		<name>Juramento da Devoção</name>
+		<description>A subclasse Juramento da Devoção do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="paladin-devotion.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/paladin-devotion.xml" />
 		</update>
 	</info>
 
-	<element name="Juramento da DevoÃ§Ã£o" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_PALADIN_OATH_OF_DEVOTION">
+	<element name="Juramento da Devoção" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_PALADIN_OATH_OF_DEVOTION">
 		<supports>Paladin Subclass</supports>
 		<description>
-			<p class="flavor">Defenda os Ideais de JustiÃ§a e Ordem</p>
-			<p>O Juramento da DevoÃ§Ã£o une os Paladinos aos ideais de justiÃ§a e ordem. Estes Paladinos sÃ£o o arquÃ©tipo do cavaleiro de armadura brilhante. Eles mantÃªm os mais altos padrÃµes de conduta e alguns â€” para o bem ou para o mal â€” exigem os mesmos padrÃµes do resto do mundo.</p>
-			<p class="indent">Muitos que fazem este juramento sÃ£o devotos a deuses da lei e do bem, utilizando os dogmas de seus deuses como medida de devoÃ§Ã£o pessoal. Outros tÃªm os anjos como seus ideais e incorporam imagens de asas angelicais em seus elmos ou brasÃµes de armas.</p>
+			<p class="flavor">Defenda os Ideais de Justiça e Ordem</p>
+			<p>O Juramento da Devoção une os Paladinos aos ideais de justiça e ordem. Estes Paladinos são o arquétipo do cavaleiro de armadura brilhante. Eles mantêm os mais altos padrões de conduta e alguns — para o bem ou para o mal — exigem os mesmos padrões do resto do mundo.</p>
+			<p class="indent">Muitos que fazem este juramento são devotos a deuses da lei e do bem, utilizando os dogmas de seus deuses como medida de devoção pessoal. Outros têm os anjos como seus ideais e incorporam imagens de asas angelicais em seus elmos ou brasões de armas.</p>
 			<p class="indent">Estes paladinos compartilham os seguintes dogmas:</p>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
-				<li>FaÃ§a da sua palavra a sua promessa.</li>
+				<li>Faça da sua palavra a sua promessa.</li>
 				<li>Proteja os fracos e nunca tenha medo de agir.</li>
 				<li>Que seus atos honrados sejam um exemplo.</li>
 			</ul>
@@ -37,20 +37,20 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Magias de Juramento" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_OATH_SPELLS">
+	<element name="Nível 3: Magias de Juramento" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_OATH_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_OATH_SPELLS</requirements>
 		<description>
-			<p>A magia do seu juramento garante que vocÃª sempre tenha certas magias preparadas; quando vocÃª atinge um nÃ­vel de Paladino especificado na tabela de Magias do Juramento da DevoÃ§Ã£o, vocÃª passa a ter as magias listadas sempre preparadas.</p>
-			<h5>Magias do Juramento da DevoÃ§Ã£o</h5>
+			<p>A magia do seu juramento garante que você sempre tenha certas magias preparadas; quando você atinge um nível de Paladino especificado na tabela de Magias do Juramento da Devoção, você passa a ter as magias listadas sempre preparadas.</p>
+			<h5>Magias do Juramento da Devoção</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-25">NÃ­vel de Paladino</td><td class="left">Magias</td></tr>
+					<tr><td class="col-25">Nível de Paladino</td><td class="left">Magias</td></tr>
 				</thead>
-				<tr><td>3</td><td class="left"><em>ProteÃ§Ã£o contra o Bem e o Mal, Escudo da FÃ©</em></td></tr>
-				<tr><td>5</td><td class="left"><em>AuxÃ­lio, Zona da Verdade</em></td></tr>
-				<tr><td>9</td><td class="left"><em>Sinal de EsperanÃ§a, Dissipar Magia</em></td></tr>
-				<tr><td>13</td><td class="left"><em>MovimentaÃ§Ã£o Livre, GuardiÃ£o da FÃ©</em></td></tr>
-				<tr><td>17</td><td class="left"><em>ComunhÃ£o, Coluna de Chamas</em></td></tr>
+				<tr><td>3</td><td class="left"><em>Proteção contra o Bem e o Mal, Escudo da Fé</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Auxílio, Zona da Verdade</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Sinal de Esperança, Dissipar Magia</em></td></tr>
+				<tr><td>13</td><td class="left"><em>Movimentação Livre, Guardião da Fé</em></td></tr>
+				<tr><td>17</td><td class="left"><em>Comunhão, Coluna de Chamas</em></td></tr>
 			</table>      
 		</description>
 		<sheet display="false" />
@@ -68,15 +68,15 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Arma Sagrada" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_SACRED_WEAPON">
+	<element name="Nível 3: Arma Sagrada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_SACRED_WEAPON">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_SACRED_WEAPON</requirements>
 		<description>
-			<p>Quando vocÃª realiza a aÃ§Ã£o de Ataque, pode gastar um uso de sua Canalizar Divindade para imbuir uma arma Corpo a Corpo que esteja empunhando com energia positiva. Por 10 minutos ou atÃ© vocÃª usar esta caracterÃ­stica novamente, vocÃª adiciona seu modificador de Carisma Ã s jogadas de ataque que fizer com aquela arma (bÃ´nus mÃ­nimo de +1), e cada vez que vocÃª atinge com ela, vocÃª faz com que ela cause o seu tipo de dano normal ou dano Radiante.</p>
-			<p class="indent">A arma tambÃ©m emite Luz Plena em um raio de 6 metros (20 pÃ©s) e Penumbra 6 metros (20 pÃ©s) alÃ©m disso.</p>
-			<p class="indent">VocÃª pode encerrar esse efeito antes do tempo (nenhuma aÃ§Ã£o exigida). Esse efeito tambÃ©m termina se vocÃª nÃ£o estiver mais portando a arma.</p>
+			<p>Quando você realiza a ação de Ataque, pode gastar um uso de sua Canalizar Divindade para imbuir uma arma Corpo a Corpo que esteja empunhando com energia positiva. Por 10 minutos ou até você usar esta característica novamente, você adiciona seu modificador de Carisma às jogadas de ataque que fizer com aquela arma (bônus mínimo de +1), e cada vez que você atinge com ela, você faz com que ela cause o seu tipo de dano normal ou dano Radiante.</p>
+			<p class="indent">A arma também emite Luz Plena em um raio de 6 metros (20 pés) e Penumbra 6 metros (20 pés) além disso.</p>
+			<p class="indent">Você pode encerrar esse efeito antes do tempo (nenhuma ação exigida). Esse efeito também termina se você não estiver mais portando a arma.</p>
 		</description>
 		<sheet alt="Arma Sagrada" usage="Canalizar Divindade">
-			<description>Quando realiza a aÃ§Ã£o de Ataque, vocÃª imbui uma arma Corpo a Corpo em mÃ£os com energia. Por 10 minutos ou atÃ© usar de novo, vocÃª adiciona +{{sacred weapon:bonus}} nas jogadas de ataque com ela e cada acerto pode causar dano Radiante ou o normal da arma. A arma emite Luz Plena (6m/20 pÃ©s) e Penumbra (mais 6m). VocÃª pode encerrar mais cedo e o efeito termina se nÃ£o a estiver portando.</description>
+			<description>Quando realiza a ação de Ataque, você imbui uma arma Corpo a Corpo em mãos com energia. Por 10 minutos ou até usar de novo, você adiciona +{{sacred weapon:bonus}} nas jogadas de ataque com ela e cada acerto pode causar dano Radiante ou o normal da arma. A arma emite Luz Plena (6m/20 pés) e Penumbra (mais 6m). Você pode encerrar mais cedo e o efeito termina se não a estiver portando.</description>
 		</sheet>
 		<rules>
 			<stat name="sacred weapon:bonus" value="1" bonus="base"/>
@@ -84,40 +84,40 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 7: Aura de DevoÃ§Ã£o" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_AURA_OF_DEVOTION">
+	<element name="Nível 7: Aura de Devoção" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_AURA_OF_DEVOTION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_AURA_OF_DEVOTION</requirements>
 		<description>
-			<p>VocÃª e seus aliados tÃªm Imunidade Ã  condiÃ§Ã£o EnfeitiÃ§ado enquanto estiverem na sua Aura de ProteÃ§Ã£o. Se um aliado EnfeitiÃ§ado entrar na aura, essa condiÃ§Ã£o nÃ£o terÃ¡ efeito sobre esse aliado enquanto ele estiver lÃ¡.</p>
+			<p>Você e seus aliados têm Imunidade à condição Enfeitiçado enquanto estiverem na sua Aura de Proteção. Se um aliado Enfeitiçado entrar na aura, essa condição não terá efeito sobre esse aliado enquanto ele estiver lá.</p>
 		</description>
-		<sheet alt="Aura de DevoÃ§Ã£o">
-			<description>VocÃª e seus aliados na sua Aura de ProteÃ§Ã£o tÃªm Imunidade a EnfeitiÃ§ado. Se um aliado EnfeitiÃ§ado entrar nela, a condiÃ§Ã£o nÃ£o tem efeito enquanto ele estiver lÃ¡.</description>
+		<sheet alt="Aura de Devoção">
+			<description>Você e seus aliados na sua Aura de Proteção têm Imunidade a Enfeitiçado. Se um aliado Enfeitiçado entrar nela, a condição não tem efeito enquanto ele estiver lá.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 15: DestruiÃ§Ã£o Protetora" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_SMITE_OF_PROTECTION">
+	<element name="Nível 15: Destruição Protetora" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_SMITE_OF_PROTECTION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_SMITE_OF_PROTECTION</requirements>
 		<description>
-			<p>Sua destruiÃ§Ã£o mÃ¡gica agora irradia energia protetora. Sempre que vocÃª conjurar <i>DestruiÃ§Ã£o Divina</i>, vocÃª e seus aliados tÃªm Meia Cobertura enquanto estiverem em sua Aura de ProteÃ§Ã£o. A aura possui este benefÃ­cio atÃ© o inÃ­cio de seu prÃ³ximo turno.</p>
+			<p>Sua destruição mágica agora irradia energia protetora. Sempre que você conjurar <i>Destruição Divina</i>, você e seus aliados têm Meia Cobertura enquanto estiverem em sua Aura de Proteção. A aura possui este benefício até o início de seu próximo turno.</p>
 		</description>
-		<sheet alt="DestruiÃ§Ã£o Protetora">
-			<description>Sempre que conjurar DestruiÃ§Ã£o Divina, vocÃª e seus aliados tÃªm Meia Cobertura enquanto na sua Aura de ProteÃ§Ã£o atÃ© o inÃ­cio de seu prÃ³ximo turno.</description>
+		<sheet alt="Destruição Protetora">
+			<description>Sempre que conjurar Destruição Divina, você e seus aliados têm Meia Cobertura enquanto na sua Aura de Proteção até o início de seu próximo turno.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 20: Nimbo Sagrado" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_HOLY_NIMBUS">
+	<element name="Nível 20: Nimbo Sagrado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_HOLY_NIMBUS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_HOLY_NIMBUS</requirements>
 		<description>
-			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode imbuir sua Aura de ProteÃ§Ã£o com poder sagrado, concedendo os benefÃ­cios abaixo por 10 minutos ou atÃ© vocÃª os encerrar (nenhuma aÃ§Ã£o exigida). ApÃ³s usar esta caracterÃ­stica, vocÃª nÃ£o pode usÃ¡-la novamente atÃ© terminar um Descanso Longo. VocÃª tambÃ©m pode restaurar seu uso gastando um espaÃ§o de magia de 5Âº nÃ­vel (nenhuma aÃ§Ã£o exigida).</p>
-			<p class="indent"><b><i>ProteÃ§Ã£o Sagrada.</i></b> VocÃª tem Vantagem em qualquer teste de resistÃªncia que for forÃ§ado a fazer contra um Corruptor ou um Morto-Vivo.</p>
-			<p class="indent"><b><i>Dano Radiante.</i></b> Sempre que um inimigo iniciar o turno dele dentro da aura, essa criatura sofre dano Radiante igual ao seu modificador de Carisma mais seu BÃ´nus de ProficiÃªncia.</p>
-			<p class="indent"><b><i>Luz Solar.</i></b> A aura Ã© preenchida por Luz Plena que Ã© luz solar.</p>
+			<p>Como uma Ação Bônus, você pode imbuir sua Aura de Proteção com poder sagrado, concedendo os benefícios abaixo por 10 minutos ou até você os encerrar (nenhuma ação exigida). Após usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo. Você também pode restaurar seu uso gastando um espaço de magia de 5º nível (nenhuma ação exigida).</p>
+			<p class="indent"><b><i>Proteção Sagrada.</i></b> Você tem Vantagem em qualquer teste de resistência que for forçado a fazer contra um Corruptor ou um Morto-Vivo.</p>
+			<p class="indent"><b><i>Dano Radiante.</i></b> Sempre que um inimigo iniciar o turno dele dentro da aura, essa criatura sofre dano Radiante igual ao seu modificador de Carisma mais seu Bônus de Proficiência.</p>
+			<p class="indent"><b><i>Luz Solar.</i></b> A aura é preenchida por Luz Plena que é luz solar.</p>
 		</description>
-		<sheet alt="Nimbo Sagrado" action="AÃ§Ã£o BÃ´nus" usage="1/Descanso Longo">
-			<description>Por 10 minutos ou atÃ© vocÃª encerrar, sua Aura de ProteÃ§Ã£o ganha: &#13;
-			â€¢ Vantagem em testes de resistÃªncia forÃ§ados por Corruptores ou Mortos-Vivos. &#13;
-			â€¢ Inimigos que iniciem o turno na aura sofrem {{holy nimbus:damage}} de dano Radiante. &#13;
-			â€¢ A aura emana Luz Plena (luz solar). &#13;
-			VocÃª pode gastar um espaÃ§o de 5Âº nÃ­vel para usÃ¡-la novamente.</description>
+		<sheet alt="Nimbo Sagrado" action="Ação Bônus" usage="1/Descanso Longo">
+			<description>Por 10 minutos ou até você encerrar, sua Aura de Proteção ganha: &#13;
+			• Vantagem em testes de resistência forçados por Corruptores ou Mortos-Vivos. &#13;
+			• Inimigos que iniciem o turno na aura sofrem {{holy nimbus:damage}} de dano Radiante. &#13;
+			• A aura emana Luz Plena (luz solar). &#13;
+			Você pode gastar um espaço de 5º nível para usá-la novamente.</description>
 		</sheet>
 		<rules>
 			<stat name="holy nimbus:damage" value="charisma:modifier" bonus="base"/>

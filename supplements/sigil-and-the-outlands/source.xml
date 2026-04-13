@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -9,7 +9,7 @@
 	<element name="Sigil and the Outlands" type="Source" source="Core" id="ID_WOTC_SOURCE_SIGIL_AND_THE_OUTLANDS">
 		<description>
 			<p>Part of the <b><i>Planescape: Adventures in the Multiverse</i></b> box set</p>
-			<p>A 96-page hardcover setting book â€” includes planar character options, details on the fantastic City of Doors, descriptions of the Outlands and the gate-towns that lead to the Outer Planes, and more.</p>
+			<p>A 96-page hardcover setting book — includes planar character options, details on the fantastic City of Doors, descriptions of the Outlands and the gate-towns that lead to the Outer Planes, and more.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">SATO</set>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Assassino</name>
@@ -9,11 +9,11 @@
 		</update>
 	</info>
 
-	<element name="Assassino" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_ASSASSIN">
+	<element name="Assassino" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_ASSASSIN">
 		<supports>Rogue Subclass</supports>
 		<description>
 			<p class="flavor">Pratique a Sinistra Arte da Morte</p>
-			<p>O treinamento de um Assassino foca no uso da furtividade, venenos e disfarces para eliminar os inimigos com eficiÃªncia mortal. Enquanto alguns Ladinos que seguem esse caminho sÃ£o assassinos de aluguel, espiÃµes ou caÃ§adores de recompensa, as capacidades dessa subclasse sÃ£o igualmente Ãºteis para aventureiros lidando com uma variedade de oponentes monstruosos.</p>
+			<p>O treinamento de um Assassino foca no uso da furtividade, venenos e disfarces para eliminar os inimigos com eficiência mortal. Enquanto alguns Ladinos que seguem esse caminho são assassinos de aluguel, espiões ou caçadores de recompensa, as capacidades dessa subclasse são igualmente úteis para aventureiros lidando com uma variedade de oponentes monstruosos.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ASSASSINATE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ASSASSINS_TOOLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_INFILTRATION_EXPERTISE" />
@@ -30,25 +30,25 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Assassinar" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ASSASSINATE">
+	<element name="Nível 3: Assassinar" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ASSASSINATE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_ASSASSINATE</requirements>
 		<description>
-			<p>VocÃª Ã© hÃ¡bil em emboscar um alvo, ganhando os seguintes benefÃ­cios:</p>
-			<p class="indent"><em><strong>Iniciativa.</strong></em> VocÃª tem Vantagem em rolagens de Iniciativa.</p>
-			<p class="indent"><em><strong>Golpes Surpresa.</strong></em> Durante a primeira rodada de cada combate, vocÃª tem Vantagem nas jogadas de ataque contra qualquer criatura que nÃ£o tenha jogado seu turno. Se seu Ataque Furtivo atingir um alvo durante essa rodada, o alvo sofre dano extra do mesmo tipo da arma igual ao seu nÃ­vel de Ladino.</p>
+			<p>Você é hábil em emboscar um alvo, ganhando os seguintes benefícios:</p>
+			<p class="indent"><em><strong>Iniciativa.</strong></em> Você tem Vantagem em rolagens de Iniciativa.</p>
+			<p class="indent"><em><strong>Golpes Surpresa.</strong></em> Durante a primeira rodada de cada combate, você tem Vantagem nas jogadas de ataque contra qualquer criatura que não tenha jogado seu turno. Se seu Ataque Furtivo atingir um alvo durante essa rodada, o alvo sofre dano extra do mesmo tipo da arma igual ao seu nível de Ladino.</p>
 		</description>
 		<sheet alt="Assassinar">
-			<description>Na primeira rodada do combate, vocÃª tem Vantagem em jogadas de ataque contra qualquer criatura que nÃ£o tenha agido ainda no combate, e seu Ataque Furtivo causa um dano adicional de {{level:rogue}}.</description>
+			<description>Na primeira rodada do combate, você tem Vantagem em jogadas de ataque contra qualquer criatura que não tenha agido ainda no combate, e seu Ataque Furtivo causa um dano adicional de {{level:rogue}}.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Ferramentas de Assassino" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ASSASSINS_TOOLS">
+	<element name="Nível 3: Ferramentas de Assassino" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ASSASSINS_TOOLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_ASSASSINS_TOOLS</requirements>
 		<description>
-			<p>VocÃª ganha um Kit de Disfarce e um Kit de Envenenador, e vocÃª possui proficiÃªncia com eles.</p>
+			<p>Você ganha um Kit de Disfarce e um Kit de Envenenador, e você possui proficiência com eles.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -57,38 +57,38 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 9: Especialidade em InfiltraÃ§Ã£o" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_INFILTRATION_EXPERTISE">
+	<element name="Nível 9: Especialidade em Infiltração" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_INFILTRATION_EXPERTISE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_INFILTRATION_EXPERTISE</requirements>
 		<description>
-			<p>VocÃª Ã© especialista nas seguintes tÃ©cnicas que auxiliam as suas infiltraÃ§Ãµes.</p>
-			<p class="indent"><em><strong>Mimetismo Magistral.</strong></em> VocÃª consegue imitar de forma infalÃ­vel a fala de outra pessoa, sua caligrafia, ou ambas, caso tenha passado pelo menos 1 hora as estudando.</p>
-			<p class="indent"><em><strong>Mira Itinerante.</strong></em> Seu Deslocamento nÃ£o se reduz a 0 ao usar a Mira EstÃ¡vel.</p>
+			<p>Você é especialista nas seguintes técnicas que auxiliam as suas infiltrações.</p>
+			<p class="indent"><em><strong>Mimetismo Magistral.</strong></em> Você consegue imitar de forma infalível a fala de outra pessoa, sua caligrafia, ou ambas, caso tenha passado pelo menos 1 hora as estudando.</p>
+			<p class="indent"><em><strong>Mira Itinerante.</strong></em> Seu Deslocamento não se reduz a 0 ao usar a Mira Estável.</p>
 		</description>
-		<sheet alt="Especialidade em InfiltraÃ§Ã£o">
-			<description>VocÃª pode imitar com perfeiÃ§Ã£o a fala e a caligrafia de outra pessoa apÃ³s estudÃ¡-las por 1 hora. AlÃ©m disso, usar Mira EstÃ¡vel nÃ£o reduz o seu Deslocamento para 0.</description>
+		<sheet alt="Especialidade em Infiltração">
+			<description>Você pode imitar com perfeição a fala e a caligrafia de outra pessoa após estudá-las por 1 hora. Além disso, usar Mira Estável não reduz o seu Deslocamento para 0.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 13: Envenenar Armas" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ENVENOM_WEAPONS">
+	<element name="Nível 13: Envenenar Armas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ENVENOM_WEAPONS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_ENVENOM_WEAPONS</requirements>
 		<description>
-			<p>Quando usar a opÃ§Ã£o Envenenar do seu Ataque Astuto, o alvo tambÃ©m sofre 2d6 de dano de Veneno sempre que falhar no teste de resistÃªncia. Esse dano ignora ResistÃªncia a dano de Veneno.</p>
+			<p>Quando usar a opção Envenenar do seu Ataque Astuto, o alvo também sofre 2d6 de dano de Veneno sempre que falhar no teste de resistência. Esse dano ignora Resistência a dano de Veneno.</p>
 		</description>
 		<sheet alt="Envenenar Armas">
-			<description>Quando usar a opÃ§Ã£o Envenenar do Ataque Astuto, o alvo toma 2d6 de dano de Veneno adicional quando falha no teste de resistÃªncia. Esse dano ignora ResistÃªncia a Veneno.</description>
+			<description>Quando usar a opção Envenenar do Ataque Astuto, o alvo toma 2d6 de dano de Veneno adicional quando falha no teste de resistência. Esse dano ignora Resistência a Veneno.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_CUNNING_STRIKE_POISON" />
 		</rules>
 	</element>
-	<element name="Envenenar (Custo: 1d6)" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ENVENOM_WEAPONS_POISON">
+	<element name="Envenenar (Custo: 1d6)" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ENVENOM_WEAPONS_POISON">
 		<supports>PHB24 Cunning Strike Envenom Weapon</supports>
 		<compendium display="false" />
 		<description>
-			<p>Quando usar a opÃ§Ã£o Envenenar do seu Ataque Astuto, o alvo tambÃ©m sofre 2d6 de dano de Veneno sempre que falhar no teste de resistÃªncia. Esse dano ignora ResistÃªncia a dano de Veneno.</p>
+			<p>Quando usar a opção Envenenar do seu Ataque Astuto, o alvo também sofre 2d6 de dano de Veneno sempre que falhar no teste de resistência. Esse dano ignora Resistência a dano de Veneno.</p>
 		</description>
 		<sheet alt="Envenenar (1d6)">
-			<description>O alvo deve ser bem-sucedido num teste de resistÃªncia de ConstituiÃ§Ã£o CD {{cunning strike:dc}} ou tomarÃ¡ 2d6 de dano de Veneno e ficarÃ¡ Envenenado por 1 minuto. Esse dano ignora ResistÃªncia a Veneno. Ao fim de cada turno do alvo, o alvo Envenenado repete o teste de resistÃªncia, encerrando o efeito em um sucesso. Para usar, vocÃª deve ter um Kit de Envenenador consigo.</description>
+			<description>O alvo deve ser bem-sucedido num teste de resistência de Constituição CD {{cunning strike:dc}} ou tomará 2d6 de dano de Veneno e ficará Envenenado por 1 minuto. Esse dano ignora Resistência a Veneno. Ao fim de cada turno do alvo, o alvo Envenenado repete o teste de resistência, encerrando o efeito em um sucesso. Para usar, você deve ter um Kit de Envenenador consigo.</description>
 		</sheet>
 	</element>
 	<append id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE">
@@ -97,13 +97,13 @@
 		</rules>
 	</append>
 
-	<element name="NÃ­vel 17: Golpe Mortal" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_DEATH_STRIKE">
+	<element name="Nível 17: Golpe Mortal" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_DEATH_STRIKE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_DEATH_STRIKE</requirements>
 		<description>
-			<p>Quando atingir um alvo com o seu Ataque Furtivo na primeira rodada de um combate, o alvo deve ter sucesso em um teste de resistÃªncia de ConstituiÃ§Ã£o (CD 8 mais seu modificador de Destreza e BÃ´nus de ProficiÃªncia), ou o dano daquele ataque Ã© dobrado contra ele.</p>
+			<p>Quando atingir um alvo com o seu Ataque Furtivo na primeira rodada de um combate, o alvo deve ter sucesso em um teste de resistência de Constituição (CD 8 mais seu modificador de Destreza e Bônus de Proficiência), ou o dano daquele ataque é dobrado contra ele.</p>
 		</description>
 		<sheet alt="Golpe Mortal">
-			<description>Quando atingir um alvo com Ataque Furtivo na primeira rodada do combate, o alvo deve ter sucesso em um teste de resistÃªncia de ConstituiÃ§Ã£o CD {{death strike:dc}}, ou o dano do ataque serÃ¡ dobrado.</description>
+			<description>Quando atingir um alvo com Ataque Furtivo na primeira rodada do combate, o alvo deve ter sucesso em um teste de resistência de Constituição CD {{death strike:dc}}, ou o dano do ataque será dobrado.</description>
 		</sheet>
 		<rules>
 			<stat name="death strike:dc" value="8" bonus="base" />
@@ -112,7 +112,7 @@
 		</rules>
 	</element>
 	
-	<element name="Assassinâ€™s Tools Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_ASSASSINS_TOOLS" />
+	<element name="Assassin’s Tools Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_ASSASSINS_TOOLS" />
 	<element name="Assassinate Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_ASSASSINATE" />
 	<element name="Infiltration Expertise Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_INFILTRATION_EXPERTISE" />
 	<element name="Envenom Weapons Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_ENVENOM_WEAPONS" />

@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>CÃ­rculo do Mar</name>
-		<description>A subclasse CÃ­rculo do Mar do Livro do Jogador de 2024.</description>
+		<name>Círculo do Mar</name>
+		<description>A subclasse Círculo do Mar do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="druid-sea.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/druid-sea.xml" />
 		</update>
 	</info>
 
-	<element name="CÃ­rculo do Mar" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_SEA">
+	<element name="Círculo do Mar" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_SEA">
 		<supports>Druid Subclass</supports>
 		<description>
-			<p class="flavor">Torne-se Um com as MarÃ©s e Tempestades</p>
-			<p>Druidas do CÃ­rculo do Mar canalizam as forÃ§as tempestuosas de oceanos e tempestades. Alguns veem a si mesmos como personificaÃ§Ãµes da ira da natureza, buscando vinganÃ§a contra aqueles que a espoliam. Outros buscam uniÃ£o mÃ­stica com a natureza sintonizando-se ao fluxo e refluxo das marÃ©s, seguindo a correnteza de ondas e correntes, e ouvindo os sussurros inescrutÃ¡veis e os rugidos dos ventos.</p>
+			<p class="flavor">Torne-se Um com as Marés e Tempestades</p>
+			<p>Druidas do Círculo do Mar canalizam as forças tempestuosas de oceanos e tempestades. Alguns veem a si mesmos como personificações da ira da natureza, buscando vingança contra aqueles que a espoliam. Outros buscam união mística com a natureza sintonizando-se ao fluxo e refluxo das marés, seguindo a correnteza de ondas e correntes, e ouvindo os sussurros inescrutáveis e os rugidos dos ventos.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_CIRCLE_OF_SEA_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_WRATH_OF_THE_SEA" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_AQUATIC_AFFINITY" />
@@ -30,18 +30,18 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Magias do CÃ­rculo do Mar" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_CIRCLE_OF_SEA_SPELLS">
+	<element name="Nível 3: Magias do Círculo do Mar" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_CIRCLE_OF_SEA_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_SEA_CIRCLE_OF_SEA_SPELLS</requirements>
 		<description>
-			<p>Quando vocÃª atinge um nÃ­vel de Druida especificado na tabela Magias do CÃ­rculo do Mar, vocÃª a partir de entÃ£o sempre tem as magias listadas preparadas.</p>
-			<h5>Magias do CÃ­rculo do Mar</h5>
+			<p>Quando você atinge um nível de Druida especificado na tabela Magias do Círculo do Mar, você a partir de então sempre tem as magias listadas preparadas.</p>
+			<h5>Magias do Círculo do Mar</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-10">NÃ­vel de Druida</td><td class="left">Magias do CÃ­rculo</td></tr>
+					<tr><td class="col-10">Nível de Druida</td><td class="left">Magias do Círculo</td></tr>
 				</thead>
-				<tr><td>3</td><td class="left"><em>NÃ©voa Obscurecente, Lufada de Vento, Raio de Gelo, DespedaÃ§ar, Onda Trovejante</em></td></tr>
-				<tr><td>5</td><td class="left"><em>RelÃ¢mpago, Respirar na Ãgua</em></td></tr>
-				<tr><td>7</td><td class="left"><em>Controlar a Ãgua, Tempestade de Gelo</em></td></tr>
+				<tr><td>3</td><td class="left"><em>Névoa Obscurecente, Lufada de Vento, Raio de Gelo, Despedaçar, Onda Trovejante</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Relâmpago, Respirar na Água</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Controlar a Água, Tempestade de Gelo</em></td></tr>
 				<tr><td>9</td><td class="left"><em>Conjurar Elemental, Imobilizar Monstro</em></td></tr>
 			</table>
 		</description>
@@ -60,18 +60,18 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_MONSTER" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="NÃ­vel 3: Ira do Mar" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_WRATH_OF_THE_SEA">
+	<element name="Nível 3: Ira do Mar" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_WRATH_OF_THE_SEA">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_SEA_WRATH_OF_THE_SEA</requirements>
 		<description>
-			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um uso da sua Forma Selvagem para manifestar uma EmanaÃ§Ã£o de 1,5 metro (5 pÃ©s) que assume a forma de espuma oceÃ¢nica que rodeia vocÃª por 10 minutos. Ela termina mais cedo se vocÃª a dissipar (nenhuma aÃ§Ã£o necessÃ¡ria), manifestÃ¡-la novamente, ou se ficar com a condiÃ§Ã£o Incapacitado.</p>
-			<p class="indent">Quando vocÃª manifesta a EmanaÃ§Ã£o e como uma AÃ§Ã£o BÃ´nus nos seus turnos subsequentes, vocÃª pode escolher outra criatura que possa ver na EmanaÃ§Ã£o. O alvo deve ser bem-sucedido em um teste de resistÃªncia de ConstituiÃ§Ã£o contra a CD das suas magias ou sofrerÃ¡ dano de Frio e, se a criatura for Grande ou menor, serÃ¡ empurrada atÃ© 4,5 metros (15 pÃ©s) para longe de vocÃª. Para determinar este dano, role um nÃºmero de d6s igual ao seu modificador de Sabedoria (mÃ­nimo de um dado).</p>
+			<p>Como uma Ação Bônus, você pode gastar um uso da sua Forma Selvagem para manifestar uma Emanação de 1,5 metro (5 pés) que assume a forma de espuma oceânica que rodeia você por 10 minutos. Ela termina mais cedo se você a dissipar (nenhuma ação necessária), manifestá-la novamente, ou se ficar com a condição Incapacitado.</p>
+			<p class="indent">Quando você manifesta a Emanação e como uma Ação Bônus nos seus turnos subsequentes, você pode escolher outra criatura que possa ver na Emanação. O alvo deve ser bem-sucedido em um teste de resistência de Constituição contra a CD das suas magias ou sofrerá dano de Frio e, se a criatura for Grande ou menor, será empurrada até 4,5 metros (15 pés) para longe de você. Para determinar este dano, role um número de d6s igual ao seu modificador de Sabedoria (mínimo de um dado).</p>
 		</description>
 		<sheet alt="Ira do Mar" action="Bonus Action" usage="Forma Selvagem">
-			<description>VocÃª pode manifestar uma EmanaÃ§Ã£o de {{wrath of the sea:size}} pÃ©s ({{wrath of the sea:size_m}}m) pelos prÃ³ximos 10 minutos. Ao manifestÃ¡-la e como AÃ§Ã£o BÃ´nus em cada turno subsequente, vocÃª pode forÃ§ar uma criatura na EmanaÃ§Ã£o a fazer um teste de resistÃªncia de ConstituiÃ§Ã£o CD {{druid:spellcasting:dc}}. Numa falha, a criatura sofre {{wrath of the sea:dice count}}d6 de dano de Frio e, se for Grande ou menor, Ã© empurrada atÃ© 4,5m de vocÃª. &#13;
-			A EmanaÃ§Ã£o termina mais cedo se vocÃª dissipÃ¡-la, manifestÃ¡-la de novo ou ficar Incapacitado.</description>
-			<description level="10">VocÃª pode manifestar uma EmanaÃ§Ã£o de {{wrath of the sea:size}} pÃ©s ({{wrath of the sea:size_m}}m) pelos prÃ³ximos 10 minutos. Ao manifestÃ¡-la e como AÃ§Ã£o BÃ´nus em cada turno subsequente, vocÃª pode forÃ§ar uma criatura na EmanaÃ§Ã£o a fazer um teste de resistÃªncia de ConstituiÃ§Ã£o CD {{druid:spellcasting:dc}}. Numa falha, a criatura sofre {{wrath of the sea:dice count}}d6 de dano de Frio e, se for Grande ou menor, Ã© empurrada atÃ© 4,5m de vocÃª. &#13;
-			VocÃª ganha Deslocamento de Voo de {{speed}}, e tem ResistÃªncia a dano de Frio, Trovejante e ElÃ©trico. &#13;
-			A EmanaÃ§Ã£o termina mais cedo se vocÃª dissipÃ¡-la, manifestÃ¡-la de novo ou ficar Incapacitado.</description>
+			<description>Você pode manifestar uma Emanação de {{wrath of the sea:size}} pés ({{wrath of the sea:size_m}}m) pelos próximos 10 minutos. Ao manifestá-la e como Ação Bônus em cada turno subsequente, você pode forçar uma criatura na Emanação a fazer um teste de resistência de Constituição CD {{druid:spellcasting:dc}}. Numa falha, a criatura sofre {{wrath of the sea:dice count}}d6 de dano de Frio e, se for Grande ou menor, é empurrada até 4,5m de você. &#13;
+			A Emanação termina mais cedo se você dissipá-la, manifestá-la de novo ou ficar Incapacitado.</description>
+			<description level="10">Você pode manifestar uma Emanação de {{wrath of the sea:size}} pés ({{wrath of the sea:size_m}}m) pelos próximos 10 minutos. Ao manifestá-la e como Ação Bônus em cada turno subsequente, você pode forçar uma criatura na Emanação a fazer um teste de resistência de Constituição CD {{druid:spellcasting:dc}}. Numa falha, a criatura sofre {{wrath of the sea:dice count}}d6 de dano de Frio e, se for Grande ou menor, é empurrada até 4,5m de você. &#13;
+			Você ganha Deslocamento de Voo de {{speed}}, e tem Resistência a dano de Frio, Trovejante e Elétrico. &#13;
+			A Emanação termina mais cedo se você dissipá-la, manifestá-la de novo ou ficar Incapacitado.</description>
 		</sheet>
 		<rules>
 			<stat name="wrath of the sea:size" value="5" bonus="base" />
@@ -81,11 +81,11 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 6: Afinidade AquÃ¡tica" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_AQUATIC_AFFINITY">
+	<element name="Nível 6: Afinidade Aquática" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_AQUATIC_AFFINITY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_SEA_AQUATIC_AFFINITY</requirements>
 		<description>
-			<p>O tamanho da EmanaÃ§Ã£o criada pela sua Ira do Mar aumenta para 3 metros (10 pÃ©s).</p>
-			<p class="indent">AlÃ©m disso, vocÃª ganha um Deslocamento de NataÃ§Ã£o igual ao seu Deslocamento.</p>
+			<p>O tamanho da Emanação criada pela sua Ira do Mar aumenta para 3 metros (10 pés).</p>
+			<p class="indent">Além disso, você ganha um Deslocamento de Natação igual ao seu Deslocamento.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -95,25 +95,25 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 10: Nascido da Tempestade" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_STORMBORN">
+	<element name="Nível 10: Nascido da Tempestade" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_STORMBORN">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_SEA_STORMBORN</requirements>
 		<description>
-			<p>Sua Ira do Mar confere mais dois benefÃ­cios enquanto estiver ativa, conforme detalhado abaixo.</p>
-			<p class="indent"><em><strong>Voo.</strong></em> VocÃª ganha um Deslocamento de Voo igual ao seu Deslocamento.</p>
-			<p class="indent"><em><strong>ResistÃªncia.</strong></em> VocÃª tem ResistÃªncia a dano de Frio, ElÃ©trico e Trovejante.</p>
+			<p>Sua Ira do Mar confere mais dois benefícios enquanto estiver ativa, conforme detalhado abaixo.</p>
+			<p class="indent"><em><strong>Voo.</strong></em> Você ganha um Deslocamento de Voo igual ao seu Deslocamento.</p>
+			<p class="indent"><em><strong>Resistência.</strong></em> Você tem Resistência a dano de Frio, Elétrico e Trovejante.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="NÃ­vel 14: DÃ¡diva OceÃ¢nica" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_OCEANIC_GIFT">
+	<element name="Nível 14: Dádiva Oceânica" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_OCEANIC_GIFT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_SEA_OCEANIC_GIFT</requirements>
 		<description>
-			<p>Em vez de manifestar a EmanaÃ§Ã£o de Ira do Mar ao seu redor, vocÃª pode manifestÃ¡-la ao redor de uma criatura disposta a atÃ© 18 metros (60 pÃ©s) de vocÃª. Essa criatura ganha todos os benefÃ­cios da EmanaÃ§Ã£o e usa a CD das suas magias e o seu modificador de Sabedoria para ela.</p>
-			<p class="indent">AlÃ©m disso, vocÃª pode manifestar a EmanaÃ§Ã£o ao redor da outra criatura e de si mesmo simultaneamente se gastar dois usos da sua Forma Selvagem em vez de um ao manifestÃ¡-la.</p>
+			<p>Em vez de manifestar a Emanação de Ira do Mar ao seu redor, você pode manifestá-la ao redor de uma criatura disposta a até 18 metros (60 pés) de você. Essa criatura ganha todos os benefícios da Emanação e usa a CD das suas magias e o seu modificador de Sabedoria para ela.</p>
+			<p class="indent">Além disso, você pode manifestar a Emanação ao redor da outra criatura e de si mesmo simultaneamente se gastar dois usos da sua Forma Selvagem em vez de um ao manifestá-la.</p>
 			</description>
-		<sheet alt="DÃ¡diva OceÃ¢nica">
-			<description>VocÃª pode criar sua EmanaÃ§Ã£o da Ira do Mar ao redor de uma criatura disposta a atÃ© 18m de vocÃª, e ela ganha todos os benefÃ­cios da EmanaÃ§Ã£o. &#13;
-			Se gastar dois usos de Forma Selvagem, vocÃª pode manifestar a EmanaÃ§Ã£o ao redor de si mesmo e da criatura disposta simultaneamente.</description>
+		<sheet alt="Dádiva Oceânica">
+			<description>Você pode criar sua Emanação da Ira do Mar ao redor de uma criatura disposta a até 18m de você, e ela ganha todos os benefícios da Emanação. &#13;
+			Se gastar dois usos de Forma Selvagem, você pode manifestar a Emanação ao redor de si mesmo e da criatura disposta simultaneamente.</description>
 		</sheet>
 	</element>
 

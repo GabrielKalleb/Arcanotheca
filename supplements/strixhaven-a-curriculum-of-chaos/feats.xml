@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Feats from Strixhaven: A Curriculum Of Chaos</name>
@@ -9,9 +9,9 @@
 	<element name="Strixhaven Initiate" type="Feat" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE">
 		<description>
 			<p>You have studied some magical theory and have learned a few spells associated with Strixhaven University.</p>
-			<p class="indent">Choose one of Strixhavenâ€™s colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.</p>
+			<p class="indent">Choose one of Strixhaven’s colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.</p>
 			<p class="indent">You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.</p>
-			<p class="indent">Your spellcasting ability for this featâ€™s spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).</p>
+			<p class="indent">Your spellcasting ability for this feat’s spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).</p>
 			<table>
 				<thead>
 					<tr><td>College</td><td>Cantrips</td><td>1st Level Spell</td></tr>
@@ -45,31 +45,31 @@
 	<element name="Intelligence" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_LOREHOLD_SPELLCASTING_ABILITY_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Intelligence</p>
+			<p>Your spellcasting ability for this feat’s spells is Intelligence</p>
 		</description>
 		<sheet alt="Strixhaven's Lorehold Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Intelligence.</description>
+			Your spellcasting ability for this feat’s spells is Intelligence.</description>
 		</sheet>
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_LOREHOLD_SPELLCASTING_ABILITY_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Wisdom</p>
+			<p>Your spellcasting ability for this feat’s spells is Wisdom</p>
 		</description>
 		<sheet alt="Strixhaven's Lorehold Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Wisdom.</description>
+			Your spellcasting ability for this feat’s spells is Wisdom.</description>
 		</sheet>
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_LOREHOLD_SPELLCASTING_ABILITY_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Charisma</p>
+			<p>Your spellcasting ability for this feat’s spells is Charisma</p>
 		</description>
 		<sheet alt="Strixhaven's Lorehold Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Charisma.</description>
+			Your spellcasting ability for this feat’s spells is Charisma.</description>
 		</sheet>
 	</element>
 
@@ -89,30 +89,30 @@
 	<element name="Intelligence" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_PRISMARI_SPELLCASTING_ABILITY_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Intelligence</p>
+			<p>Your spellcasting ability for this feat’s spells is Intelligence</p>
 		</description>
 		<sheet alt="Strixhaven's Prismari Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Intelligence.</description>
+			Your spellcasting ability for this feat’s spells is Intelligence.</description>
 		</sheet>
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_PRISMARI_SPELLCASTING_ABILITY_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Wisdom</p>
+			<p>Your spellcasting ability for this feat’s spells is Wisdom</p>
 		</description>
 		<sheet alt="Strixhaven's Prismari Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Wisdom.</description>
+			Your spellcasting ability for this feat’s spells is Wisdom.</description>
 		</sheet>
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_PRISMARI_SPELLCASTING_ABILITY_CHARISMA">
 		<compendium display="false" /><description>
-			<p>Your spellcasting ability for this featâ€™s spells is Charisma</p>
+			<p>Your spellcasting ability for this feat’s spells is Charisma</p>
 		</description>
 		<sheet alt="Strixhaven's Prismari Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Charisma.</description>
+			Your spellcasting ability for this feat’s spells is Charisma.</description>
 		</sheet>
 	</element>
 
@@ -132,30 +132,30 @@
 	<element name="Intelligence" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_QUANDRIX_SPELLCASTING_ABILITY_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Intelligence</p>
+			<p>Your spellcasting ability for this feat’s spells is Intelligence</p>
 		</description>
 		<sheet alt="Strixhaven's Quandrix Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Intelligence.</description>
+			Your spellcasting ability for this feat’s spells is Intelligence.</description>
 		</sheet>
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_QUANDRIX_SPELLCASTING_ABILITY_WISDOM">
 		<compendium display="false" /><description>
-			<p>Your spellcasting ability for this featâ€™s spells is Wisdom</p>
+			<p>Your spellcasting ability for this feat’s spells is Wisdom</p>
 		</description>
 		<sheet alt="Strixhaven's Quandrix Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Wisdom.</description>
+			Your spellcasting ability for this feat’s spells is Wisdom.</description>
 		</sheet>
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_QUANDRIX_SPELLCASTING_ABILITY_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Charisma</p>
+			<p>Your spellcasting ability for this feat’s spells is Charisma</p>
 		</description>
 		<sheet alt="Strixhaven's Quandrix Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Charisma.</description>
+			Your spellcasting ability for this feat’s spells is Charisma.</description>
 		</sheet>
 	</element>
 
@@ -175,31 +175,31 @@
 	<element name="Intelligence" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_SILVERQUILL_SPELLCASTING_ABILITY_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Intelligence</p>
+			<p>Your spellcasting ability for this feat’s spells is Intelligence</p>
 		</description>
 		<sheet alt="Strixhaven's Silverquill Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Intelligence.</description>
+			Your spellcasting ability for this feat’s spells is Intelligence.</description>
 		</sheet>
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_SILVERQUILL_SPELLCASTING_ABILITY_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Wisdom</p>
+			<p>Your spellcasting ability for this feat’s spells is Wisdom</p>
 		</description>
 		<sheet alt="Strixhaven's Silverquill Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Wisdom.</description>
+			Your spellcasting ability for this feat’s spells is Wisdom.</description>
 		</sheet>
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_SILVERQUILL_SPELLCASTING_ABILITY_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Charisma</p>
+			<p>Your spellcasting ability for this feat’s spells is Charisma</p>
 		</description>
 		<sheet alt="Strixhaven's Silverquill Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Charisma.</description>
+			Your spellcasting ability for this feat’s spells is Charisma.</description>
 		</sheet>
 	</element>
 
@@ -219,31 +219,31 @@
 	<element name="Intelligence" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_WITHERBLOOM_SPELLCASTING_ABILITY_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Intelligence</p>
+			<p>Your spellcasting ability for this feat’s spells is Intelligence</p>
 		</description>
 		<sheet alt="Strixhaven's Witherbloom Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Intelligence.</description>
+			Your spellcasting ability for this feat’s spells is Intelligence.</description>
 		</sheet>
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_WITHERBLOOM_SPELLCASTING_ABILITY_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Wisdom</p>
+			<p>Your spellcasting ability for this feat’s spells is Wisdom</p>
 		</description>
 		<sheet alt="Strixhaven's Witherbloom Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Wisdom.</description>
+			Your spellcasting ability for this feat’s spells is Wisdom.</description>
 		</sheet>
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_WITHERBLOOM_SPELLCASTING_ABILITY_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this featâ€™s spells is Charisma</p>
+			<p>Your spellcasting ability for this feat’s spells is Charisma</p>
 		</description>
 		<sheet alt="Strixhaven's Witherbloom Initiate" usage="1/Long Rest">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have.&#13;
-			Your spellcasting ability for this featâ€™s spells is Charisma.</description>
+			Your spellcasting ability for this feat’s spells is Charisma.</description>
 		</sheet>
 	</element>
 	
@@ -255,14 +255,14 @@
 			<ul>
 				<li>You can cast the find familiar spell as a ritual. Your familiar can take the form of the mascot associated with the college you chose for the Strixhaven Initiate feat: a spirit statue mascot (Lorehold), an art elemental mascot (Prismari), a fractal mascot (Quandrix), an inkling mascot (Silverquill), or a pest mascot (Witherbloom).</li>
 				<li>When you take the Attack action on your turn, you can forgo one attack to allow your mascot familiar to make one attack of its own with its reaction.</li>
-				<li>If your mascot familiar is within 60 feet of you, you can teleport as an action, swapping places with the familiar. If your destination space is too small for you to occupy, the teleportation fails and is wasted. Once you teleport in this way, you canâ€™t do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to do it again.</li>
+				<li>If your mascot familiar is within 60 feet of you, you can teleport as an action, swapping places with the familiar. If your destination space is too small for you to occupy, the teleportation fails and is wasted. Once you teleport in this way, you can’t do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to do it again.</li>
 			</ul>
 		</description>
 		<sheet>
 			<description>You have learned how to summon a Strixhaven mascot to assist you, granting you these benefits:&#13;
-			â€¢ You can cast the find familiar spell as a ritual. Your familiar can take the form of the mascot associated with the college you chose for the Strixhaven Initiate feat.&#13;
-			â€¢ When you take the Attack action on your turn, you can forgo one attack to allow your mascot familiar to make one attack of its own with its reaction.&#13;
-			â€¢ If your mascot familiar is within 60 feet of you, you can teleport as an action, swapping places with the familiar. If your destination space is too small for you to occupy, the teleportation fails and is wasted. Once you teleport in this way, you canâ€™t do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to do it again.</description>
+			• You can cast the find familiar spell as a ritual. Your familiar can take the form of the mascot associated with the college you chose for the Strixhaven Initiate feat.&#13;
+			• When you take the Attack action on your turn, you can forgo one attack to allow your mascot familiar to make one attack of its own with its reaction.&#13;
+			• If your mascot familiar is within 60 feet of you, you can teleport as an action, swapping places with the familiar. If your destination space is too small for you to occupy, the teleportation fails and is wasted. Once you teleport in this way, you can’t do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to do it again.</description>
 		</sheet>
 		<rules>
 			<select type="Companion" name="Familiar (Strixhaven Mascot)" supports="Familiar" optional="true"/>
@@ -274,7 +274,7 @@
 		<requirements>ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_LOREHOLD, ID_WOTC_SCOC_FEAT_STRIXHAVEN_MASCOT</requirements>
 		<description>
 			<p>To enhance their studies of the past, Lorehold students often call upon the spirits of dead creatures. Mages seeking longer-term assistance from ancient spirits have learned to house these spirits in statues, giving them a more permanent residence from which to assist the living.</p>
-			<p class="indent">Some of these spirit statues bond with and mentor a specific mage, but most serve in a variety of roles for numerous individuals, ranging from research colleagues to martial tacticians. Regardless, their appearance is so common around the Lorehold campus that they have become the collegeâ€™s mascots.</p>
+			<p class="indent">Some of these spirit statues bond with and mentor a specific mage, but most serve in a variety of roles for numerous individuals, ranging from research colleagues to martial tacticians. Regardless, their appearance is so common around the Lorehold campus that they have become the college’s mascots.</p>
 		</description>
 		<setters>
 			<set name="size">Medium</set>
@@ -337,7 +337,7 @@
 		<supports>Familiar</supports>
 		<requirements>ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_PRISMARI, ID_WOTC_SCOC_FEAT_STRIXHAVEN_MASCOT</requirements>
 		<description>
-			<p>Often referred to as a â€œliving expression,â€ an art elemental is an aspect of creativity and emotion given physical formâ€”making it the perfect mascot for Prismari College.</p>
+			<p>Often referred to as a “living expression,” an art elemental is an aspect of creativity and emotion given physical form—making it the perfect mascot for Prismari College.</p>
 			<p class="indent">To create an art elemental mascot, a mage draws power from a blend of all the natural elements, extracting their vibrant colors to craft a swirling outer shell before imbuing its core with a planar spirit. As creatures of both precise elemental study and rebellious expression, art elementals can both wreak elemental destruction and emotionally captivate the creatures around them.</p>
 		</description>
 		<setters>
@@ -358,7 +358,7 @@
 			<set name="damage immunities">poison</set>
 			<set name="condition immunities">poisoned</set>
 			<set name="senses">passive Perception 10</set>
-			<set name="languages">understands the languages of its creator but canâ€™t speak</set>
+			<set name="languages">understands the languages of its creator but can’t speak</set>
 			<set name="challenge">1/4</set>
 			<set name="proficiency">2</set>
 			<set name="traits">ID_WOTC_SCOC_COMPANION_TRAIT_ART_ELEMENTAL_MASCOT_DEATH_BURST</set>
@@ -427,7 +427,7 @@
 			<set name="damage immunities">poison</set>
 			<set name="condition immunities">poisoned</set>
 			<set name="senses">passive Perception 10</set>
-			<set name="languages">understands the languages of its creator but canâ€™t speak</set>
+			<set name="languages">understands the languages of its creator but can’t speak</set>
 			<set name="challenge">1/4</set>
 			<set name="proficiency">2</set>
 			<set name="traits">ID_WOTC_SCOC_COMPANION_TRAIT_FRACTAL_MASCOT_RELATIVE_DENSITY</set>
@@ -457,18 +457,18 @@
 	</element>
 	<element name="Augment (Bonus Action)" type="Companion Action" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_FRACTAL_MASCOT_AUGMENT">
 		<description>
-			<p>The fractalâ€™s size increases by one category. While the fractal is Medium or bigger, it makes Strength checks and Strength saving throws with advantage. The fractal can become no larger than Huge via this bonus action.</p>
+			<p>The fractal’s size increases by one category. While the fractal is Medium or bigger, it makes Strength checks and Strength saving throws with advantage. The fractal can become no larger than Huge via this bonus action.</p>
 		</description>
 		<sheet alt="Augment" usage="Bonus Action">
-			<description>The fractalâ€™s size increases by one category. While the fractal is Medium or bigger, it makes Strength checks and Strength saving throws with advantage. The fractal can become no larger than Huge via this bonus action.</description>
+			<description>The fractal’s size increases by one category. While the fractal is Medium or bigger, it makes Strength checks and Strength saving throws with advantage. The fractal can become no larger than Huge via this bonus action.</description>
 		</sheet>
 	</element>
 	<element name="Diminish (Bonus Action)" type="Companion Action" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_FRACTAL_MASCOT_DIMINISH">
 		<description>
-			<p>The fractalâ€™s size decreases by one category. While the fractal is Tiny, it makes attack rolls, Dexterity checks, and Dexterity saving throws with advantage. The fractal can become no smaller than 1 foot in height via this bonus action.</p>
+			<p>The fractal’s size decreases by one category. While the fractal is Tiny, it makes attack rolls, Dexterity checks, and Dexterity saving throws with advantage. The fractal can become no smaller than 1 foot in height via this bonus action.</p>
 		</description>
 		<sheet alt="Diminish" usage="Bonus Action">
-			<description>The fractalâ€™s size decreases by one category. While the fractal is Tiny, it makes attack rolls, Dexterity checks, and Dexterity saving throws with advantage. The fractal can become no smaller than 1 foot in height via this bonus action.</description>
+			<description>The fractal’s size decreases by one category. While the fractal is Tiny, it makes attack rolls, Dexterity checks, and Dexterity saving throws with advantage. The fractal can become no smaller than 1 foot in height via this bonus action.</description>
 		</sheet>
 	</element>
 
@@ -476,7 +476,7 @@
 		<supports>Familiar</supports>
 		<requirements>ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_SILVERQUILL, ID_WOTC_SCOC_FEAT_STRIXHAVEN_MASCOT</requirements>
 		<description>
-			<p>Squelching slightly as they wriggle through the air, inklings serve as the mascots for Silverquill College. These living blobs of shadowy ink are often summoned by professors who require assistance in their writing workshopsâ€”the inklings provide endless inkâ€”or by lonely students hoping for company as they study. However, inklings can just as readily support mages in combat, disrupting opponentsâ€™ sight.</p>
+			<p>Squelching slightly as they wriggle through the air, inklings serve as the mascots for Silverquill College. These living blobs of shadowy ink are often summoned by professors who require assistance in their writing workshops—the inklings provide endless ink—or by lonely students hoping for company as they study. However, inklings can just as readily support mages in combat, disrupting opponents’ sight.</p>
 		</description>
 		<setters>
 			<set name="size">Tiny</set>
@@ -495,7 +495,7 @@
 			<set name="damage immunities">psychic</set>
 			<set name="condition immunities">blinded, charmed, deafened, exhaustion, prone</set>
 			<set name="senses">blindsight 60ft., passive Perception 10</set>
-			<set name="languages">understands the languages of its creator but canâ€™t speak</set>
+			<set name="languages">understands the languages of its creator but can’t speak</set>
 			<set name="challenge">1/4</set>
 			<set name="proficiency">2</set>
 			<set name="traits">ID_WOTC_SCOC_COMPANION_TRAIT_INKLING_MASCOT_AMORPHOUS</set>
@@ -527,10 +527,10 @@
 	</element>
 	<element name="Ink Spray (1/Day)" type="Companion Action" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_INKLING_MASCOT_INK_SPRAY">
 		<description>
-			<p>The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a DC 12 Constitution saving throw or be blinded until the end of the inklingâ€™s next turn.</p>
+			<p>The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a DC 12 Constitution saving throw or be blinded until the end of the inkling’s next turn.</p>
 		</description>
 		<sheet alt="Ink Spray" usage="1/Day">
-			<description>The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a DC 12 Constitution saving throw or be blinded until the end of the inklingâ€™s next turn.</description>
+			<description>The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a DC 12 Constitution saving throw or be blinded until the end of the inkling’s next turn.</description>
 		</sheet>
 	</element>
 	<element name="Shadow Stealth (Bonus Action)" type="Companion Action" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_INKLING_MASCOT_SHADOW_STEALTH">
@@ -563,7 +563,7 @@
 			<set name="charisma">4</set>
 			<set name="skills">Perception +3</set>
 			<set name="senses">darkvision 60ft., passive Perception 13</set>
-			<set name="languages">â€”</set>
+			<set name="languages">—</set>
 			<set name="challenge">1/4</set>
 			<set name="proficiency">2</set>
 			<set name="traits">ID_WOTC_SCOC_COMPANION_TRAIT_PEST_MASCOT_REGENERATION,ID_WOTC_SCOC_COMPANION_TRAIT_PEST_MASCOT_SPINY_HIDE</set>
@@ -578,10 +578,10 @@
 	</element>
 	<element name="Regeneration" type="Companion Trait" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_TRAIT_PEST_MASCOT_REGENERATION">
 		<description>
-			<p>The pest regains 5 hit points at the start of its turn if it has at least 1 hit point. If it takes fire damage, this trait doesnâ€™t function at the start of the pestâ€™s next turn.</p>
+			<p>The pest regains 5 hit points at the start of its turn if it has at least 1 hit point. If it takes fire damage, this trait doesn’t function at the start of the pest’s next turn.</p>
 		</description>
 		<sheet>
-			<description>The pest regains 5 hit points at the start of its turn if it has at least 1 hit point. If it takes fire damage, this trait doesnâ€™t function at the start of the pestâ€™s next turn.</description>
+			<description>The pest regains 5 hit points at the start of its turn if it has at least 1 hit point. If it takes fire damage, this trait doesn’t function at the start of the pest’s next turn.</description>
 		</sheet>
 	</element>
 	<element name="Spiny Hide" type="Companion Trait" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_TRAIT_PEST_MASCOT_SPINY_HIDE">

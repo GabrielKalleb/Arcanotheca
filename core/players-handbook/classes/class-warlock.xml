@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Warlock</name>
-		<description>The Warlock class from the Playerâ€™s Handbook.</description>
+		<description>The Warlock class from the Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.4.0">
 			<file name="class-warlock.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook/classes/class-warlock.xml" />
 		</update>
 	</info>
 
-	<element name="Warlock" type="Class" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_WARLOCK">
+	<element name="Warlock" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_WARLOCK">
 		<description>
 			<p>With a pseudodragon curled on his shoulder, a young elf in golden robes smiles warmly, weaving a magical charm into his honeyed words and bending the palace sentinel to his will.</p>
 			<p class="indent">As flames spring to life in her hands, a wizened human whispers the secret name of her demonic patron, infusing her spell with fiendish magic. Shifting his gaze between a battered tome and the odd alignment of the stars overhead, a wild-eyed tiefling chants the mystic ritual that will open a doorway to a distant world.</p>
 			<p class="indent">Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular. Drawing on the ancient knowledge of beings such as fey nobles, demons, devils, hags, and alien entities of the Far Realm, warlocks piece together arcane secrets to bolster their own power.</p>
 			<h4>SWORN AND BEHOLDEN</h4>
-			<p>A warlock is defined by a pact with an otherworldly being. Sometimes the relationship between warlock and patron is like that of a cleric and a deity, though the beings that serve as patrons for warlocks are not gods. A warlock might lead a cult dedicated to a demon prince, an archdevil, or an utterly alien entityâ€”beings not typically served by clerics. More often, though, the arrangement is similar to that between a master and an apprentice. The warlock learns and grows in power, at the cost of occasional services performed on the patronâ€™s behalf.</p>
+			<p>A warlock is defined by a pact with an otherworldly being. Sometimes the relationship between warlock and patron is like that of a cleric and a deity, though the beings that serve as patrons for warlocks are not gods. A warlock might lead a cult dedicated to a demon prince, an archdevil, or an utterly alien entity—beings not typically served by clerics. More often, though, the arrangement is similar to that between a master and an apprentice. The warlock learns and grows in power, at the cost of occasional services performed on the patron’s behalf.</p>
 			<p class="indent">The magic bestowed on a warlock ranges from minor but lasting alterations to the warlock's being (such as the ability to see in darkness or to read any language) to access to powerful spells. Unlike bookish wizards, warlocks supplement their magic with some facility at hand-to-hand combat. They are comfortable in light armor and know how to use simple weapons.</p>
 			<h4>DELVERS INTO SECRETS</h4>
 			<p>Warlocks are driven by an insatiable need for knowledge and power, which compels them into their pacts and shapes their lives. This thirst drives warlocks into their pacts and shapes their later careers as well.</p>
-			<p class="indent">Stories of warlocks binding themselves to fiends are widely known. But many warlocks serve patrons that are not fiendish. Sometimes a traveler in the wilds comes to a strangely beautiful tower, meets its fey lord or lady, and stumbles into a pact without being fully aware of it. And sometimes, while poring over tomes of forbidden lore, a brilliant but crazed studentâ€™s mind is opened to realities beyond the material world and to the alien beings that dwell in the outer void.</p>
-			<p class="indent">Once a pact is made, a warlockâ€™s thirst for knowledge and power canâ€™t be slaked with mere study and research. No one makes a pact with such a mighty patron if he or she doesnâ€™t intend to use the power thus gained. Rather, the vast majority of warlocks spend their days in active pursuit of their goals, which typically means some kind of adventuring. Furthermore, the demands of their patrons drive warlocks toward adventure.</p>
+			<p class="indent">Stories of warlocks binding themselves to fiends are widely known. But many warlocks serve patrons that are not fiendish. Sometimes a traveler in the wilds comes to a strangely beautiful tower, meets its fey lord or lady, and stumbles into a pact without being fully aware of it. And sometimes, while poring over tomes of forbidden lore, a brilliant but crazed student’s mind is opened to realities beyond the material world and to the alien beings that dwell in the outer void.</p>
+			<p class="indent">Once a pact is made, a warlock’s thirst for knowledge and power can’t be slaked with mere study and research. No one makes a pact with such a mighty patron if he or she doesn’t intend to use the power thus gained. Rather, the vast majority of warlocks spend their days in active pursuit of their goals, which typically means some kind of adventuring. Furthermore, the demands of their patrons drive warlocks toward adventure.</p>
 			<h4>CREATING A WARLOCK</h4>
 			<p>As you make your warlock character, spend some time thinking about your patron and the obligations that your pact imposes upon you. What led you to make the pact, and how did you make contact with your patron? Were you seduced into summoning a devil, or did you seek out the ritual that would allow you to make contact with an alien elder god? Did you search for your patron, or did your patron find and choose you? Do you chafe under the obligations of your pact or serve joyfully in anticipation of the rewards promised to you?</p>
-			<p class="indent">Work with your DM to determine how big a part your pact will play in your characterâ€™s adventuring career. Your patronâ€™s demands might drive you into adventures, or they might consist entirely of small favors you can do between adventures.</p>
-			<p class="indent">What kind of relationship do you have with your patron? Is it friendly, antagonistic, uneasy, or romantic? How important does your patron consider you to be? What part do you play in your patronâ€™s plans? Do you know other servants of your patron?</p>
-			<p class="indent">How does your patron communicate with you? If you have a familiar, it might occasionally speak with your patronâ€™s voice. Some warlocks find messages from their patrons etched on trees, mingled among tea leaves, or adrift in the cloudsâ€”messages that only the warlock can see. Other warlocks converse with their patrons in dreams or waking visions, or deal only with intermediaries.</p>
+			<p class="indent">Work with your DM to determine how big a part your pact will play in your character’s adventuring career. Your patron’s demands might drive you into adventures, or they might consist entirely of small favors you can do between adventures.</p>
+			<p class="indent">What kind of relationship do you have with your patron? Is it friendly, antagonistic, uneasy, or romantic? How important does your patron consider you to be? What part do you play in your patron’s plans? Do you know other servants of your patron?</p>
+			<p class="indent">How does your patron communicate with you? If you have a familiar, it might occasionally speak with your patron’s voice. Some warlocks find messages from their patrons etched on trees, mingled among tea leaves, or adrift in the clouds—messages that only the warlock can see. Other warlocks converse with their patrons in dreams or waking visions, or deal only with intermediaries.</p>
 			<h5>QUICK BUILD</h5>
 			<p>You can make a warlock quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the charlatan background. Third, choose the eldritch blast and chill touch cantrips, along with the 1st-level spells charm person and witch bolt.</p>
 			<h3>CLASS FEATURES</h3>
@@ -51,7 +51,7 @@
 			<ul>
 				<li>(a) a light crossbow and 20 bolts or (b) any simple weapon</li>
 				<li>(a) a component pouch or (b) an arcane focus</li>
-				<li>(a) a scholarâ€™s pack or (b) a dungeoneerâ€™s pack</li>
+				<li>(a) a scholar’s pack or (b) a dungeoneer’s pack</li>
 				<li>Leather armor, any simple weapon, and two daggers</li>
 			</ul>
 			<h5 class="caption">THE WARLOCK</h5>
@@ -59,15 +59,15 @@
 				<thead>
 					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td class="col-10">Spell Slots</td><td class="col-10">Slot Level</td><td class="col-10">Invocations Known</td></tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Otherworldly Patron, Pact Magic</td><td>2</td><td>2</td><td>1</td><td>1st</td><td>â€”</td></tr>
+				<tr><td> 1st</td><td class="left">Otherworldly Patron, Pact Magic</td><td>2</td><td>2</td><td>1</td><td>1st</td><td>—</td></tr>
 				<tr><td> 2nd</td><td class="left">Eldritch Invocations</td><td>2</td><td>3</td><td>2</td><td>1st</td><td>2</td></tr>
 				<tr><td> 3rd</td><td class="left">Pact Boon</td><td>2</td><td>4</td><td>2</td><td>2nd</td><td>2</td></tr>
 				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>5</td><td>2</td><td>2nd</td><td>2</td></tr>
-				<tr><td> 5th</td><td class="left">â€”</td><td>3</td><td>6</td><td>2</td><td>3rd</td><td>3</td></tr>
+				<tr><td> 5th</td><td class="left">—</td><td>3</td><td>6</td><td>2</td><td>3rd</td><td>3</td></tr>
 				<tr><td> 6th</td><td class="left">Otherworldly Patron feature</td><td>3</td><td>7</td><td>2</td><td>3rd</td><td>3</td></tr>
-				<tr><td> 7th</td><td class="left">â€”</td><td>3</td><td>8</td><td>2</td><td>4th</td><td>4</td></tr>
+				<tr><td> 7th</td><td class="left">—</td><td>3</td><td>8</td><td>2</td><td>4th</td><td>4</td></tr>
 				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>3</td><td>9</td><td>2</td><td>4th</td><td>4</td></tr>
-				<tr><td> 9th</td><td class="left">â€”</td><td>3</td><td>10</td><td>2</td><td>5th</td><td>5</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>3</td><td>10</td><td>2</td><td>5th</td><td>5</td></tr>
 				<tr><td>10th</td><td class="left">Otherworldly Patron feature</td><td>4</td><td>10</td><td>2</td><td>5th</td><td>5</td></tr>
 				<tr><td>11th</td><td class="left">Mystic Arcanum (6th level)</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>5</td></tr>
 				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>6</td></tr>
@@ -76,7 +76,7 @@
 				<tr><td>15th</td><td class="left">Mystic Arcanum (8th level)</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>7</td></tr>
 				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>7</td></tr>
 				<tr><td>17th</td><td class="left">Mystic Arcanum (9th level)</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>7</td></tr>
-				<tr><td>18th</td><td class="left">â€”</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>8</td></tr>
+				<tr><td>18th</td><td class="left">—</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>8</td></tr>
 				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>8</td></tr>
 				<tr><td>20th</td><td class="left">Eldritch Master</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>8</td></tr>
 			</table>
@@ -122,7 +122,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Otherworldly Patron" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON">
+	<element name="Otherworldly Patron" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_OTHERWORLDLY_PATRON</requirements>
 		<description>
 			<p>At 1st level, you have struck a bargain with an otherworldly being of your choice.</p>
@@ -132,7 +132,7 @@
 			<select type="Archetype" name="Otherworldly Patron" supports="Otherworldly Patron" />
 		</rules>
 	</element>
-	<element name="Pact Magic" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
+	<element name="Pact Magic" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_SPELLCASTING_PACT_MAGIC</requirements>
 		<description>
 			<p>Your arcane research and the magic bestowed on you by your patron have given you facility with spells.</p>
@@ -143,7 +143,7 @@
 			<p class="indent">For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell.</p>
 			<h5>SPELLS KNOWN OF 1ST LEVEL AND HIGHER</h5>
 			<p>At 1st level, you know two 1st-level spells of your choice from the warlock spell list.</p>
-			<p class="indent">The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than whatâ€™s shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</p>
+			<p class="indent">The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what’s shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</p>
 			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</p>
 			<h5>SPELLCASTING ABILITY</h5>
 			<p>Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</p>
@@ -206,7 +206,7 @@
 			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Warlock"/>
 		</rules>
 	</element>
-	<element name="Eldritch Invocations" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
+	<element name="Eldritch Invocations" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_INVOCATIONS</requirements>
 		<description>
 			<p>In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.</p>
@@ -223,28 +223,28 @@
 			<select type="Class Feature" name="Eldritch Invocation (Level 18)" supports="Eldritch Invocation" level="18" />
 		</rules>
 	</element>
-	<element name="Pact Boon" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON">
+	<element name="Pact Boon" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_PACT_BOON</requirements>
 		<description>
 			<p>At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.</p>
 			<h5 class="caption">PACT OF THE CHAIN</h5>
-			<p>You learn the <em>find familiar</em> spell and can cast it as a ritual. The spell doesnâ€™t count against your number of spells known.</p>
+			<p>You learn the <em>find familiar</em> spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.</p>
 			<p class="indent">When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.</p>
 			<p class="indent">Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own.</p>
 			<h5 class="caption">PACT OF THE TOME</h5>
-			<p>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any classâ€™s spell list. While the book is on your person, you can cast those cantrips at will. They donâ€™t count against your number of cantrips known.</p>
+			<p>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class’s spell list. While the book is on your person, you can cast those cantrips at will. They don’t count against your number of cantrips known.</p>
 			<p class="indent">If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</p>
 			<h5 class="caption">PACT OF THE BLADE</h5>			
 			<p>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
 			<p class="indent">Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.</p>
-			<p class="indent">You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You canâ€™t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p>
+			<p class="indent">You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Class Feature" name="Pact Boon" supports="Pact Boon" level="3"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK">
+	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -259,7 +259,7 @@
 			<select type="Class Feature" name="Improvement Option (Warlock 19)" supports="Improvement Option,Warlock,19" level="19" />
 		</rules>
 	</element>
-	<element name="Mystic Arcanum" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM">
+	<element name="Mystic Arcanum" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_MYSTIC_ARCANUM</requirements>
 		<description>
 			<p>At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum.</p>
@@ -276,7 +276,7 @@
 			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,9" level="17" spellcasting="Warlock" />
 		</rules>
 	</element>
-	<element name="Eldritch Master" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER">
+	<element name="Eldritch Master" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_MASTER</requirements>
 		<description>
 			<p>At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.</p>
@@ -286,10 +286,10 @@
 		</sheet>
 	</element>
 
-	<element name="Pact of the Chain" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN">
+	<element name="Pact of the Chain" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN">
 		<supports>Pact Boon</supports>
 		<description>
-			<p>You learn the <em>find familiar</em> spell and can cast it as a ritual. The spell doesnâ€™t count against your number of spells known.</p>
+			<p>You learn the <em>find familiar</em> spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.</p>
 			<p class="indent">When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.</p>
 			<p class="indent">Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.</p>
 			<div class="reference">
@@ -305,10 +305,10 @@
 			<select type="Companion" name="Familiar, Pact of the Chain" supports="Familiar||Variant Familiar" />
 		</rules>
 	</element>
-	<element name="Pact of the Tome" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME">
+	<element name="Pact of the Tome" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME">
 		<supports>Pact Boon</supports>
 		<description>
-			<p>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any classâ€™s spell list (the three neednâ€™t be from the same list). While the book is on your person, you can cast those cantrips at will. They donâ€™t count against your number of cantrips known. If they donâ€™t appear on the warlock spell list, they are nonetheless warlock spells for you.</p>
+			<p>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class’s spell list (the three needn’t be from the same list). While the book is on your person, you can cast those cantrips at will. They don’t count against your number of cantrips known. If they don’t appear on the warlock spell list, they are nonetheless warlock spells for you.</p>
 			<p class="indent">If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</p>
 		</description>
 		<sheet>
@@ -319,17 +319,17 @@
 			<select type="Spell" name="Cantrip (Pact of the Tome)" supports="0" level="1" number="3" spellcasting="Warlock"/>
 		</rules>
 	</element>
-	<element name="Pact of the Blade" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE">
+	<element name="Pact of the Blade" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE">
 		<supports>Pact Boon</supports>
 		<description>
 			<p>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
 			<p class="indent">Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.</p>
-			<p class="indent">You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You canâ€™t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p>
+			<p class="indent">You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p>
 		</description>
 		<sheet usage="Action">
 			<description>Create a pact weapon in your empty hand. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
 			Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.
-			You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You canâ€™t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</description>
+			You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</description>
 		</sheet>
 	</element>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Mage of High Sorcery Background</name>
@@ -21,7 +21,7 @@
 			<div element="ID_WOTC_DSDQ_BACKGROUND_FEATURE_INITIATE_OF_HIGH_SORCERY" />
 			<h5>BUILDING A MAGE OF HIGH SORCERY CHARACTER</h5>
 			<p>Mages of High Sorcery are typically sorcerers, warlocks, wizards, or wizards and might have any subclass. Spellcasters who gain their magic through devotion or who possess innate magic are less likely to be welcomed among the traditionalist mages. Nevertheless, the Mages of High Sorcery are shrewd, and they rarely let unique opportunities or individuals pass them by. Even members of martial classes who train in magic might find a rare place among the group's three orders.</p>
-			<p class="indent"><strong><em>Mage of High Sorcery Trinkets.</em></strong> When you make your character, you may roll once on the Mage of High Sorcery Trinkets table, instead of on the Trinkets table in the <i>Playerâ€™s Handbook</i>, for your starting trinket.</p>
+			<p class="indent"><strong><em>Mage of High Sorcery Trinkets.</em></strong> When you make your character, you may roll once on the Mage of High Sorcery Trinkets table, instead of on the Trinkets table in the <i>Player’s Handbook</i>, for your starting trinket.</p>
 			<h5>Mage of High Sorcery Trinkets</h5>
 			<table>
 				<thead>

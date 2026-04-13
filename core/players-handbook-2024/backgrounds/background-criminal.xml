@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Criminoso</name>
@@ -9,22 +9,22 @@
 		</update>
 	</info>
 
-	<element name="Criminoso" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_CRIMINAL">
+	<element name="Criminoso" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_CRIMINAL">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> Destreza, ConstituiÃ§Ã£o, InteligÃªncia</li>
+				<li><strong>Valores de Habilidade:</strong> Destreza, Constituição, Inteligência</li>
 				<li><strong>Talento:</strong> Alerta</li>
-				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> PrestidigitaÃ§Ã£o e Furtividade</li>
-				<li><strong>ProficiÃªncia em Ferramenta:</strong> Ferramentas de LadrÃ£o</li>
-				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) 2 Adagas, Ferramentas de LadrÃ£o, PÃ© de Cabra, 2 Algibeiras, Roupas de Viajante, 16 PC; ou (B) 50 PO</li>
+				<li><strong>Proficiências em Perícias:</strong> Prestidigitação e Furtividade</li>
+				<li><strong>Proficiência em Ferramenta:</strong> Ferramentas de Ladrão</li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) 2 Adagas, Ferramentas de Ladrão, Pé de Cabra, 2 Algibeiras, Roupas de Viajante, 16 PC; ou (B) 50 PO</li>
 			</ul>
-			<p>VocÃª ganhava a vida em becos escuros, cortando bolsas ou roubando lojas. Talvez vocÃª fizesse parte de uma pequena gangue de malfeitores com ideias semelhantes que cuidavam uns dos outros. Ou talvez vocÃª fosse um lobo solitÃ¡rio, defendendo-se sozinho contra a guilda de ladrÃµes local e infratores mais temÃ­veis.</p>
+			<p>Você ganhava a vida em becos escuros, cortando bolsas ou roubando lojas. Talvez você fizesse parte de uma pequena gangue de malfeitores com ideias semelhantes que cuidavam uns dos outros. Ou talvez você fosse um lobo solitário, defendendo-se sozinho contra a guilda de ladrões local e infratores mais temíveis.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_ALERT" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">Destreza, ConstituiÃ§Ã£o, InteligÃªncia, Talento Alerta, PerÃ­cias PrestidigitaÃ§Ã£o e Furtividade, Ferramentas de LadrÃ£o</set>
+			<set name="short">Destreza, Constituição, Inteligência, Talento Alerta, Perícias Prestidigitação e Furtividade, Ferramentas de Ladrão</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_INT" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Adventure with Muk</name>
@@ -11,7 +11,7 @@
 		<description>
 			<p>Meet Muk, the very bravest goblin, and his best friend Birdsquirrel. Adventure your way through the Dankwood and search for a great treasure that is rumored to be hidden far beyond.</p>
 			<p>For players of all levels.</p>
-			<p>This activity book includes enjoyable adventure hooks written by D&amp;Dâ€™s Adam Lee, puzzles, unique Dankwood goblin character sheets developed by D&amp;Dâ€™s Chris Lindsay, modified monster stat blocks and more! Each page is made to be colored and enjoyed, so let the adventure begin!</p>
+			<p>This activity book includes enjoyable adventure hooks written by D&amp;D’s Adam Lee, puzzles, unique Dankwood goblin character sheets developed by D&amp;D’s Chris Lindsay, modified monster stat blocks and more! Each page is made to be colored and enjoyed, so let the adventure begin!</p>
 			<p>Best of all, ALL monies that Wizards of the Coast receives from sales of this PDF are donated to Extra Life. Your purchase of this adventure goes to a truly great cause!</p>
 		</description>
 		<setters>
@@ -28,7 +28,7 @@
 	<element name="Goblin (Dankwood)" type="Race" source="Adventure with Muk" id="ID_WOTC_AWM_RACE_DANKWOOD_GOBLIN">
 		<description>
 			<p class="flavor">Ahh the Dankwood goblins! I have adventured far and wide in my time and never have I met such unique and interesting goblins as these. Perhaps it is the magical nature of the Dankwood itself as this forest was once rumored to have been the ancient sanctum of a powerful Netherese wizard, but who is to say? This world is a wondrous one and everywhere you go, something new is there to dazzle and amaze!</p>
-			<p style="text-align:right">â€“Guardian Leafy Skiptoes</p>
+			<p style="text-align:right">–Guardian Leafy Skiptoes</p>
 			<p>Dankwood goblins are much like any other run-of-the-mill goblin but they are much more gentle and artistic than the savage and uncouth goblins of the world.</p>
 			<p class="indent">They are inquisitive and have a magical bond with the small forest creatures with which they are often friends. They are fast and nimble and love to explore. Because of this they make great adventurers and guides.</p>
 			<h4>DANKWOOD GOBLIN TRAITS</h4>
@@ -37,7 +37,7 @@
 			<p class="indent"><b><i>Alignment. </i></b>Dankwood goblins are typically neutral or neutral good, though some mischievous dankwood goblins are chaotic neutral.</p>
 			<p class="indent"><b><i>Size. </i></b>Dankwood goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.</p>
 			<p class="indent"><b><i>Speed. </i></b> Your base walking speed is 30 feet.</p>
-			<p class="indent"><b><i>Darkvision. </i></b>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You canâ€™t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><b><i>Darkvision. </i></b>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
 			<p class="indent"><b><i>Speak with Small Beasts. </i></b>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Dankwood goblins love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.</p>
 			<p class="indent"><b><i>Nimble Escape. </i></b>You can take the Disengage or Hide action as a bonus action on each of your turns.</p>
 			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Goblin.</p>
@@ -91,7 +91,7 @@
 			<set name="intelligence">4</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">6</set>
-			<set name="languages">â€”</set>
+			<set name="languages">—</set>
 			<set name="challenge">1/4</set>
 			<set name="traits">ID_WOTC_AWM_COMPANION_TRAIT_BIRDSQUIRREL_PACK_TACTICS</set>
 			<set name="actions">ID_WOTC_AWM_COMPANION_ACTION_BIRDSQUIRREL_MULTIATTACK,ID_WOTC_AWM_COMPANION_ACTION_BIRDSQUIRREL_BITE,ID_WOTC_AWM_COMPANION_ACTION_BIRDSQUIRREL_CLAWS</set>
@@ -156,7 +156,7 @@
 			<set name="intelligence">5</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">6</set>
-			<set name="languages">â€”</set>
+			<set name="languages">—</set>
 			<set name="challenge">0</set>
 			<set name="traits">ID_WOTC_AWM_COMPANION_TRAIT_BOONTU_MONKEY_PACK_TACTICS</set>
 			<set name="actions">ID_WOTC_AWM_COMPANION_ACTION_BOONTU_MONKEY_BITE</set>

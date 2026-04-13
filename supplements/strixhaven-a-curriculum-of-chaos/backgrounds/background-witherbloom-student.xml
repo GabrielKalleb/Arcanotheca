@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Witherbloom Student Background</name>
@@ -18,7 +18,7 @@
 			</ul>
 			<div element="ID_WOTC_SCOC_BACKGROUND_FEATURE_WITHERBLOOM_INITIATE" />
 			<h5>Building a Witherbloom Character</h5>
-			<p>Druids and warlocks make up most of Witherbloomâ€™s student body. A few wizards (mostly those who study the School of Necromancy) and clerics(including those with the Divine Domains of Life or Nature) also find their home in Witherbloom.</p>
+			<p>Druids and warlocks make up most of Witherbloom’s student body. A few wizards (mostly those who study the School of Necromancy) and clerics(including those with the Divine Domains of Life or Nature) also find their home in Witherbloom.</p>
 			<p class="indent">A number of rangers and barbarians study at Witherbloom as well, and some rogues learn how to create and use poisons during their studies at this college.</p>
 			<p class="indent"><i><b>Suggested Characteristics.</b></i> Students of Witherbloom College are equally likely to be found picking herbs for a healing tincture or riding zombified swampbeasts through the bayou. The Witherbloom Personality Traits table suggests a variety of traits you might adopt for your character.</p>
 			<div class="reference">
@@ -37,10 +37,10 @@
 			<select type="List" name="Personality Trait" optional="true" >
 				<item id="1">I love brewing up a new recipe, even if some might be repulsed by my choice of ingredients. Or the final product. Or both.</item>
 				<item id="2">My fashion sense is like my garden: withered, black, and weird.</item>
-				<item id="3">Iâ€™m going to befriend every single monster in this swamp if itâ€™s the last thing I do.</item>
+				<item id="3">I’m going to befriend every single monster in this swamp if it’s the last thing I do.</item>
 				<item id="4">Everything in this world dies eventually. The question is, what will you do with the time you have left?</item>
 				<item id="5">I know we just met, but when you die, may I have your bones? For research.</item>
-				<item id="6">Donâ€™t interrupt me; Iâ€™m brooding.</item>
+				<item id="6">Don’t interrupt me; I’m brooding.</item>
 			</select>
 			<select type="List" name="Trinket" optional="true" >
 				<item id="1">A black bird-shaped mask, trimmed with glowing green thread</item>

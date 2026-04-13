@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -6,11 +6,11 @@
 		</update>
 	</info>
 
-	<element name="Abjurador" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER">
+	<element name="Abjurador" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER">
 		<supports>Wizard Subclass</supports>
 		<description>
 			<p class="flavor">Proteja Companheiros e Bana Inimigos</p>
-			<p>Seu estudo de magia se concentra em magias que bloqueiam, banem ou protegem â€” encerrando efeitos prejudiciais, banindo influÃªncias malignas e protegendo os fracos. Abjuradores sÃ£o procurados quando espÃ­ritos malignos exigem exorcismo, quando locais precisam de guarda contra espionagem mÃ¡gica e quando portais para outros planos de existÃªncia devem ser fechados. Grupos de aventureiros valorizam Abjuradores pela proteÃ§Ã£o que eles provÃªm contra uma variedade de magias hostis e outros ataques.</p>
+			<p>Seu estudo de magia se concentra em magias que bloqueiam, banem ou protegem — encerrando efeitos prejudiciais, banindo influências malignas e protegendo os fracos. Abjuradores são procurados quando espíritos malignos exigem exorcismo, quando locais precisam de guarda contra espionagem mágica e quando portais para outros planos de existência devem ser fechados. Grupos de aventureiros valorizam Abjuradores pela proteção que eles provêm contra uma variedade de magias hostis e outros ataques.</p>
             <div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_ABJURATION_SAVANT" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_ARCANE_WARD" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_PROTECTED_WARD" />
@@ -27,11 +27,11 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: SÃ¡bio da AbjuraÃ§Ã£o" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_ABJURATION_SAVANT">
+	<element name="Nível 3: Sábio da Abjuração" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_ABJURATION_SAVANT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ABJURER_ABJURATION_SAVANT</requirements>
 		<description>
-			<p>Escolha duas magias de Mago da escola de AbjuraÃ§Ã£o, cada uma nÃ£o podendo ser de um nÃ­vel maior que o 2, e adicione-as ao seu grimÃ³rio gratuitamente.</p>
-			<p class="indent">AlÃ©m disso, sempre que vocÃª ganhar acesso a um novo nÃ­vel de espaÃ§os de magia nesta classe, vocÃª pode adicionar gratuitamente uma magia de Mago da escola de AbjuraÃ§Ã£o ao seu grimÃ³rio. A magia escolhida deve ser de um nÃ­vel para o qual vocÃª tenha espaÃ§os de magia.</p>
+			<p>Escolha duas magias de Mago da escola de Abjuração, cada uma não podendo ser de um nível maior que o 2, e adicione-as ao seu grimório gratuitamente.</p>
+			<p class="indent">Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você pode adicionar gratuitamente uma magia de Mago da escola de Abjuração ao seu grimório. A magia escolhida deve ser de um nível para o qual você tenha espaços de magia.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -46,15 +46,15 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: ProteÃ§Ã£o Arcana" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_ARCANE_WARD">
+	<element name="Nível 3: Proteção Arcana" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_ARCANE_WARD">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ABJURER_ARCANE_WARD</requirements>
 		<description>
-			<p>VocÃª pode tecer magia ao seu redor para proteÃ§Ã£o. Quando conjura uma magia de AbjuraÃ§Ã£o com um espaÃ§o de magia, pode usar simultaneamente um fio da magia para criar uma proteÃ§Ã£o mÃ¡gica em si mesmo que dura atÃ© vocÃª terminar um Descanso Longo. A proteÃ§Ã£o tem um mÃ¡ximo de Pontos de Vida igual ao dobro de seu nÃ­vel de Mago mais seu modificador de InteligÃªncia. Sempre que sofrer dano, a proteÃ§Ã£o sofre o dano no seu lugar e, se vocÃª tiver ResistÃªncias ou Vulnerabilidades, aplique-as antes de reduzir os Pontos de Vida da proteÃ§Ã£o. Se o dano reduzir a proteÃ§Ã£o a 0 Pontos de Vida, vocÃª sofre o dano restante. Enquanto a proteÃ§Ã£o tiver 0 Pontos de Vida, ela nÃ£o absorve dano, mas sua magia permanece.</p>
-			<p class="indent">Sempre que vocÃª conjurar uma magia de AbjuraÃ§Ã£o com um espaÃ§o de magia, a proteÃ§Ã£o recupera um nÃºmero de Pontos de Vida igual ao dobro do nÃ­vel do espaÃ§o de magia. Alternativamente, como uma AÃ§Ã£o BÃ´nus, pode gastar um espaÃ§o de magia, e a proteÃ§Ã£o recupera um nÃºmero de Pontos de Vida igual ao dobro do nÃ­vel do espaÃ§o gasto.</p>
-			<p class="indent">Uma vez que vocÃª crie a proteÃ§Ã£o, nÃ£o pode criÃ¡-la novamente atÃ© terminar um Descanso Longo.</p>
+			<p>Você pode tecer magia ao seu redor para proteção. Quando conjura uma magia de Abjuração com um espaço de magia, pode usar simultaneamente um fio da magia para criar uma proteção mágica em si mesmo que dura até você terminar um Descanso Longo. A proteção tem um máximo de Pontos de Vida igual ao dobro de seu nível de Mago mais seu modificador de Inteligência. Sempre que sofrer dano, a proteção sofre o dano no seu lugar e, se você tiver Resistências ou Vulnerabilidades, aplique-as antes de reduzir os Pontos de Vida da proteção. Se o dano reduzir a proteção a 0 Pontos de Vida, você sofre o dano restante. Enquanto a proteção tiver 0 Pontos de Vida, ela não absorve dano, mas sua magia permanece.</p>
+			<p class="indent">Sempre que você conjurar uma magia de Abjuração com um espaço de magia, a proteção recupera um número de Pontos de Vida igual ao dobro do nível do espaço de magia. Alternativamente, como uma Ação Bônus, pode gastar um espaço de magia, e a proteção recupera um número de Pontos de Vida igual ao dobro do nível do espaço gasto.</p>
+			<p class="indent">Uma vez que você crie a proteção, não pode criá-la novamente até terminar um Descanso Longo.</p>
 		</description>
-		<sheet alt="ProteÃ§Ã£o Arcana" usage="1/Descanso Longo">
-			<description>Ao conjurar uma AbjuraÃ§Ã£o com espaÃ§o de magia, vocÃª ganha uma proteÃ§Ã£o que dura atÃ© um Descanso Longo. A proteÃ§Ã£o tem PV MÃX de {{arcane ward:hp}}. Quando vocÃª sofre dano, aplique suas ResistÃªncias/Vulnerabilidades e a proteÃ§Ã£o absorve o resto. Se ela cair a 0, vocÃª sofre o dano excedente; mesmo a 0 PV, a proteÃ§Ã£o persiste. Sempre que conjurar AbjuraÃ§Ãµes com espaÃ§os, a proteÃ§Ã£o recupera PV igual ao dobro do nÃ­vel gasto. Como AÃ§Ã£o BÃ´nus, pode gastar um espaÃ§o de magia e curÃ¡-la no dobro do nÃ­vel do espaÃ§o.</description>
+		<sheet alt="Proteção Arcana" usage="1/Descanso Longo">
+			<description>Ao conjurar uma Abjuração com espaço de magia, você ganha uma proteção que dura até um Descanso Longo. A proteção tem PV MÁX de {{arcane ward:hp}}. Quando você sofre dano, aplique suas Resistências/Vulnerabilidades e a proteção absorve o resto. Se ela cair a 0, você sofre o dano excedente; mesmo a 0 PV, a proteção persiste. Sempre que conjurar Abjurações com espaços, a proteção recupera PV igual ao dobro do nível gasto. Como Ação Bônus, pode gastar um espaço de magia e curá-la no dobro do nível do espaço.</description>
 		</sheet>
 		<rules>
 			<stat name="arcane ward:hp" value="level:wizard" bonus="base" />
@@ -63,24 +63,24 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 6: ProteÃ§Ã£o Projetada" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_PROTECTED_WARD">
+	<element name="Nível 6: Proteção Projetada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_PROTECTED_WARD">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ABJURER_PROJECTED_WARD</requirements>
 		<description>
-			<p>Quando uma criatura que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) de vocÃª sofrer dano, vocÃª pode usar uma ReaÃ§Ã£o para fazer sua ProteÃ§Ã£o Arcana absorver esse dano. Se o dano reduzir a proteÃ§Ã£o a 0 Pontos de Vida, a criatura protegida sofre o dano restante. Se a criatura tiver ResistÃªncias ou Vulnerabilidades, aplique-as antes de reduzir os Pontos de Vida da proteÃ§Ã£o.</p>
+			<p>Quando uma criatura que você possa ver a até 9 metros (30 pés) de você sofrer dano, você pode usar uma Reação para fazer sua Proteção Arcana absorver esse dano. Se o dano reduzir a proteção a 0 Pontos de Vida, a criatura protegida sofre o dano restante. Se a criatura tiver Resistências ou Vulnerabilidades, aplique-as antes de reduzir os Pontos de Vida da proteção.</p>
 		</description>
-		<sheet alt="ProteÃ§Ã£o Projetada" action="Reaction">
-			<description>Quando uma criatura visÃ­vel a atÃ© 9m sofre dano, vocÃª pode fazer sua ProteÃ§Ã£o Arcana absorver o dano. Aplique as ResistÃªncias/Vulnerabilidades da criatura primeiro. Se a proteÃ§Ã£o for reduzida a 0 PV, a criatura sofre o resto.</description>
+		<sheet alt="Proteção Projetada" action="Reaction">
+			<description>Quando uma criatura visível a até 9m sofre dano, você pode fazer sua Proteção Arcana absorver o dano. Aplique as Resistências/Vulnerabilidades da criatura primeiro. Se a proteção for reduzida a 0 PV, a criatura sofre o resto.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 10: Quebrador de Magias" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_SPELL_BREAKER">
+	<element name="Nível 10: Quebrador de Magias" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_SPELL_BREAKER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ABJURER_SPELL_BREAKER</requirements>
 		<description>
-			<p>VocÃª sempre tem as magias <i>ContramÃ¡gica</i> e <i>Dissipar Magia</i> preparadas. AlÃ©m disso, vocÃª pode conjurar <i>Dissipar Magia</i> como uma AÃ§Ã£o BÃ´nus, e pode adicionar seu BÃ´nus de ProficiÃªncia ao teste de habilidade dela.</p>
-			<p class="indent">Quando vocÃª conjura qualquer uma das magias com um espaÃ§o de magia, aquele espaÃ§o nÃ£o Ã© gasto se a magia falhar em impedir uma magia.</p>
+			<p>Você sempre tem as magias <i>Contramágica</i> e <i>Dissipar Magia</i> preparadas. Além disso, você pode conjurar <i>Dissipar Magia</i> como uma Ação Bônus, e pode adicionar seu Bônus de Proficiência ao teste de habilidade dela.</p>
+			<p class="indent">Quando você conjura qualquer uma das magias com um espaço de magia, aquele espaço não é gasto se a magia falhar em impedir uma magia.</p>
 		</description>
 		<sheet alt="Quebrador de Magias">
-			<description>Pode conjurar Dissipar Magia como AÃ§Ã£o BÃ´nus, somando sua ProficiÃªncia ao teste. Se ela ou ContramÃ¡gica falharem em impedir/dissipar, o espaÃ§o nÃ£o Ã© gasto.</description>
+			<description>Pode conjurar Dissipar Magia como Ação Bônus, somando sua Proficiência ao teste. Se ela ou Contramágica falharem em impedir/dissipar, o espaço não é gasto.</description>
 		</sheet>
 		<rules>		
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COUNTERSPELL" level="5" spellcasting="Wizard" prepared="true" />
@@ -88,13 +88,13 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 14: ResistÃªncia a Magia" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_SPELL_RESISTANCE">
+	<element name="Nível 14: Resistência a Magia" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_SPELL_RESISTANCE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ABJURER_SPELL_RESISTANCE</requirements>
 		<description>
-			<p>VocÃª tem Vantagem em testes de resistÃªncia contra magias, e tem ResistÃªncia ao dano de magias.</p>
+			<p>Você tem Vantagem em testes de resistência contra magias, e tem Resistência ao dano de magias.</p>
 		</description>
-		<sheet alt="ResistÃªncia a Magia">
-			<description>VocÃª tem Vantagem em testes de resistÃªncia contra magias e ResistÃªncia ao dano delas.</description>
+		<sheet alt="Resistência a Magia">
+			<description>Você tem Vantagem em testes de resistência contra magias e Resistência ao dano delas.</description>
 		</sheet>
 	</element>
 	

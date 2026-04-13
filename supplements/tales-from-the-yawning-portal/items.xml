@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Items</name>
@@ -131,7 +131,7 @@
 		<setters>
 			<set name="category">Potions</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0.5">Â½ lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Rare</set>
 			<set name="stackable">true</set>
@@ -145,7 +145,7 @@
 		<setters>
 			<set name="category">Potions</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0.5">Â½ lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Rare</set>
 			<set name="stackable">true</set>
@@ -159,7 +159,7 @@
 		<setters>
 			<set name="category">Potions</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0.5">Â½ lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Very Rare</set>
 			<set name="stackable">true</set>

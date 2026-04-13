@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Vedalken</name>
 		<description></description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmastersâ€™ Guide to Ravnica</author>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters’ Guide to Ravnica</author>
 		<update version="0.0.6">
 			<file name="vedalken.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/guildmasters-guide-to-ravnica/races/vedalken.xml" />
 		</update>
 	</info>
 
-	<element name="Vedalken" type="Race" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_RACE_VEDALKEN">
+	<element name="Vedalken" type="Race" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_RACE_VEDALKEN">
 		<description>
 			<p>Nothing is perfect. Vedalken not only believe this fact, they rejoice in it. Every imperfection is a chance for improvement, and progress is an endless march toward a state of perfection that can never be reached. This viewpoint leads vedalken to pursue their work with delighted enthusiasm, never deterred by setbacks and excited by every opportunity for improvement.</p>
 			<p class="indent">Vedalken are tall and slender, standing almost a head taller than humans on average but weighing about the same. Their hairless skin comes in a range of shades of blue. Their eyes are darker shades of blue or violet. They lack external ears, their noses are broad and flat, and they are partially amphibious.</p>
@@ -63,7 +63,7 @@
 	<append id="ID_GGTR_LANGUAGE_VEDALKEN">
 		<supports>Vedalken Language</supports>
 	</append>
-	<element name="Vedalken Dispassion" type="Racial Trait" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_RACIAL_TRAIT_VEDALKEN_VEDALKEN_DISPASSION">
+	<element name="Vedalken Dispassion" type="Racial Trait" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_RACIAL_TRAIT_VEDALKEN_VEDALKEN_DISPASSION">
 		<description>
 			<p>You have advantage on all Intelligence, Wisdom, and Charisma saving throws.</p>
 		</description>
@@ -71,7 +71,7 @@
 			<description>You have advantage on all Intelligence, Wisdom, and Charisma saving throws.</description>
 		</sheet>
 	</element>    
-	<element name="Tireless Precision" type="Racial Trait" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_RACIAL_TRAIT_VEDALKEN_TIRELESS_PRECISION">
+	<element name="Tireless Precision" type="Racial Trait" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_RACIAL_TRAIT_VEDALKEN_TIRELESS_PRECISION">
 		<description>
 			<p>You are proficient in one of the following skills of your choice: Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand. You are also proficient with one tool of your choice.</p>
 			<p class="indent">Whenever you make an ability check with the chosen skill or tool, roll a d4 and add the number rolled to the check's total.</p>
@@ -86,7 +86,7 @@
 			<select type="Proficiency" name="Simple Weapon or Tool, Tireless Precision" supports="Simple||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>    
-	<element name="Partially Amphibious" type="Racial Trait" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_RACIAL_TRAIT_VEDALKEN_PARTIALLY_AMPHIBIOUS">
+	<element name="Partially Amphibious" type="Racial Trait" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_RACIAL_TRAIT_VEDALKEN_PARTIALLY_AMPHIBIOUS">
 		<description>
 			<p>By absorbing oxygen through your skin, you can breathe underwater for up to 1 hour. Once you've reached that limit, you can't use this trait again until you finish a long rest.</p>
 		</description>

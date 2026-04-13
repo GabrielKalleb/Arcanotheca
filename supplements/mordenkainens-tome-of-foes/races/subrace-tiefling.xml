@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Tiefling Subraces</name>
-		<description>The Tiefling Subraces from Mordenkainenâ€™s Tome of Foes</description>
+		<description>The Tiefling Subraces from Mordenkainen’s Tome of Foes</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/mordenkainens-tome-foes">Wizards of the Coast</author>
 		<update version="0.0.4">
 			<file name="subrace-tiefling.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/mordenkainens-tome-of-foes/races/subrace-tiefling.xml" />
@@ -10,10 +10,10 @@
 	</info>
 
 	<!-- Asmodeus -->
-	<element name="Tiefling (Asmodeus)" type="Sub Race" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_ASMODEUS">
+	<element name="Tiefling (Asmodeus)" type="Sub Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_ASMODEUS">
 		<supports>Tiefling</supports>
 		<description>
-			<p>The tieflings connected to Nessus command the power of fire and darkness, guided by a keener than normal intellect, as befits those linked to Asmodeus himself. Such tieflings use the Ability Score Increase and Infernal Legacy traits in the Playerâ€™s Handbook.</p>
+			<p>The tieflings connected to Nessus command the power of fire and darkness, guided by a keener than normal intellect, as befits those linked to Asmodeus himself. Such tieflings use the Ability Score Increase and Infernal Legacy traits in the Player’s Handbook.</p>
 		</description>
 		<sheet alt="Tiefling (Asmodeus)" display="false">
 			<description>Descended of Asmodeus</description>
@@ -24,7 +24,7 @@
 	</element>
 	
 	<!-- Baalzebub -->
-	<element name="Tiefling (Baalzebub)" type="Sub Race" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_BAALZEBUB">
+	<element name="Tiefling (Baalzebub)" type="Sub Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_BAALZEBUB">
 		<supports>Tiefling</supports>
 		<description>
 			<p>The crumbling realm of Maladomini is ruled by Baalzebub, who excels at corrupting those whose minor sins can be transformed into acts of damntaion. Tielflings linked this this archdevil can corrupt others both physically and psychically.</p>
@@ -43,7 +43,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_BAALZEBUB_LEGACY_OF_MALADOMINI" />
 		</rules>
 	</element>
-   <element name="Legacy of Maladomini" type="Racial Trait" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_BAALZEBUB_LEGACY_OF_MALADOMINI">
+   <element name="Legacy of Maladomini" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_BAALZEBUB_LEGACY_OF_MALADOMINI">
 		<description>
 			<p>You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the ray of sickness spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the crown of madness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 		</description>
@@ -58,10 +58,10 @@
 	</element>
 
 	<!-- Dispater -->
-	<element name="Tiefling (Dispater)" type="Sub Race" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_DISPATER">
+	<element name="Tiefling (Dispater)" type="Sub Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_DISPATER">
 		<supports>Tiefling</supports>
 		<description>
-			<p>The great city of Dis occupies most of Hellâ€™s second layer. It is a place where secrets are uncovered and shared with the highest bidder, making tieflings tied to Dispayer excellent spies and infiltrators.</p>
+			<p>The great city of Dis occupies most of Hell’s second layer. It is a place where secrets are uncovered and shared with the highest bidder, making tieflings tied to Dispayer excellent spies and infiltrators.</p>
 			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 2, and your Dexterity score increases by 1.</p>
 			<p class="indent"><b><i>Legacy of Dis. </i></b>You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the disguise self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the detect thoughts spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 		</description>
@@ -77,7 +77,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_DISPATER_LEGACY_OF_DIS" />
 		</rules>
 	</element>
-   <element name="Legacy of Dis" type="Racial Trait" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_DISPATER_LEGACY_OF_DIS">
+   <element name="Legacy of Dis" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_DISPATER_LEGACY_OF_DIS">
 		<description>
 			<p>You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the disguise self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the detect thoughts spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 		</description>
@@ -92,7 +92,7 @@
 	</element>
 
 	<!-- Fierna -->
-	<element name="Tiefling (Fierna)" type="Sub Race" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_FIERNA">
+	<element name="Tiefling (Fierna)" type="Sub Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_FIERNA">
 		<supports>Tiefling</supports>
 		<description>
 			<p>A master manipulator, Fierna grants tieflings tied to her forceful personalities.</p>
@@ -111,7 +111,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_FIERNA_LEGACY_OF_PHLEGETHOS" />
 		</rules>
 	</element>
-   <element name="Legacy of Phlegethos" type="Racial Trait" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_FIERNA_LEGACY_OF_PHLEGETHOS">
+   <element name="Legacy of Phlegethos" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_FIERNA_LEGACY_OF_PHLEGETHOS">
 		<description>
 			<p>You know the friends cantrip. When you reach 3rd level, you can cast the charm person spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the suggestion spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 		</description>
@@ -126,7 +126,7 @@
 	</element>
 
 	<!-- Glasya -->
-	<element name="Tiefling (Glasya)" type="Sub Race" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_GLASYA">
+	<element name="Tiefling (Glasya)" type="Sub Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_GLASYA">
 		<supports>Tiefling</supports>
 		<description>
 			<p>Glasya, Hell's criminal mastermind, grants her tieflings magic that is useful for committing heists.</p>
@@ -145,7 +145,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_GLASYA_LEGACY_OF_MALBOLGE" />
 		</rules>
 	</element>
-   <element name="Legacy of Malbolge" type="Racial Trait" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_GLASYA_LEGACY_OF_MALBOLGE">
+   <element name="Legacy of Malbolge" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_GLASYA_LEGACY_OF_MALBOLGE">
 		<description>
 			<p>You know the minor illusion cantrip. When you reach 3rd level, you can cast the disguise self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the invisibility spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 		</description>
@@ -160,7 +160,7 @@
 	</element>
 
 	<!-- Levistus -->
-	<element name="Tiefling (Levistus)" type="Sub Race" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_LEVISTUS">
+	<element name="Tiefling (Levistus)" type="Sub Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_LEVISTUS">
 		<supports>Tiefling</supports>
 		<description>
 			<p>Frozen Stygia is ruled by Levistus, an archdevil known for offering bargains to those who face an inescapable doom.</p>
@@ -179,7 +179,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_LEVISTUS_LEGACY_OF_STYGIA" />
 		</rules>
 	</element>
-   <element name="Legacy of Stygia" type="Racial Trait" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_LEVISTUS_LEGACY_OF_STYGIA">
+   <element name="Legacy of Stygia" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_LEVISTUS_LEGACY_OF_STYGIA">
 		<description>
 			<p>You know the ray of frost cantrip. When you reach 3rd level, you can cast the armor of Agathys spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 		</description>
@@ -194,7 +194,7 @@
 	</element>
 
 	<!-- Mammon -->
-	<element name="Tiefling (Mammon)" type="Sub Race" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_MAMMON">
+	<element name="Tiefling (Mammon)" type="Sub Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_MAMMON">
 		<supports>Tiefling</supports>
 		<description>
 			<p>The great miser Mammon loves coins above all else. Tieflings tied to him excel at gathering and safeguarding wealth.</p>
@@ -213,7 +213,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_MAMMON_LEGACY_OF_MINAUROS" />
 		</rules>
 	</element>
-   <element name="Legacy of Minauros" type="Racial Trait" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_MAMMON_LEGACY_OF_MINAUROS">
+   <element name="Legacy of Minauros" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_MAMMON_LEGACY_OF_MINAUROS">
 		<description>
 			<p>You know the mage hand cantrip. When you reach 3rd level, you can cast the Tenser's floating disk spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the arcane lock spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 		</description>
@@ -228,7 +228,7 @@
 	</element>
 
 	<!-- Mephistopheles -->
-	<element name="Tiefling (Mephistopheles)" type="Sub Race" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_MEPHISTOPHELES">
+	<element name="Tiefling (Mephistopheles)" type="Sub Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_MEPHISTOPHELES">
 		<supports>Tiefling</supports>
 		<description>
 			<p>In the frozen realm of Cania, Mephistopheles offers arcane power to those who entreat with him. Tieflings linked to him master some arcane magic.</p>
@@ -247,7 +247,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_MEPHISTOPHELES_LEGACY_OF_CANIA" />
 		</rules>
 	</element>
-   <element name="Legacy of Cania" type="Racial Trait" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_MEPHISTOPHELES_LEGACY_OF_CANIA">
+   <element name="Legacy of Cania" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_MEPHISTOPHELES_LEGACY_OF_CANIA">
 		<description>
 			<p>You know the mage hand cantrip. When you reach 3rd level, you can cast the burning hands spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the flame blade spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 		</description>
@@ -262,7 +262,7 @@
 	</element>
 
 	<!-- Zariel -->
-	<element name="Tiefling (Zariel)" type="Sub Race" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_ZARIEL">
+	<element name="Tiefling (Zariel)" type="Sub Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_ZARIEL">
 		<supports>Tiefling</supports>
 		<description>
 			<p>Tieflings with a blood tie to Zariel are stronger than the typical tiefling and receive magical abilities that aid them in battle.</p>
@@ -281,7 +281,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_ZARIEL_LEGACY_OF_AVERNUS" />
 		</rules>
 	</element>
-   <element name="Legacy of Avernus" type="Racial Trait" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_ZARIEL_LEGACY_OF_AVERNUS">
+   <element name="Legacy of Avernus" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_ZARIEL_LEGACY_OF_AVERNUS">
 		<description>
 			<p>You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the searing smite spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the branding smite spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 			<p class="indent"></p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Artista</name>
@@ -9,22 +9,22 @@
 		</update>
 	</info>
 
-	<element name="Artista" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_ENTERTAINER">
+	<element name="Artista" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_ENTERTAINER">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> ForÃ§a, Destreza, Carisma</li>
-				<li><strong>Talento:</strong> MÃºsico</li>
-				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> Acrobacia e AtuaÃ§Ã£o</li>
-				<li><strong>ProficiÃªncia em Ferramenta:</strong><i> Escolha um tipo de Instrumento Musical</i></li>
+				<li><strong>Valores de Habilidade:</strong> Força, Destreza, Carisma</li>
+				<li><strong>Talento:</strong> Músico</li>
+				<li><strong>Proficiências em Perícias:</strong> Acrobacia e Atuação</li>
+				<li><strong>Proficiência em Ferramenta:</strong><i> Escolha um tipo de Instrumento Musical</i></li>
 				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Instrumento Musical (o mesmo escolhido acima), 2 Fantasias, Espelho, Perfume, Roupas de Viajante, 11 PO; ou (B) 50 PO</li>
 			</ul>
-			<p>VocÃª passou grande parte da sua juventude acompanhando feiras itinerantes e carnavais, fazendo bicos para mÃºsicos e acrobatas em troca de aulas. VocÃª pode ter aprendido a andar na corda bamba, a tocar um alaÃºde em um estilo distinto ou a recitar poesia com uma dicÃ§Ã£o impecÃ¡vel. AtÃ© hoje, vocÃª prospera com os aplausos e anseia pelo palco.</p>
+			<p>Você passou grande parte da sua juventude acompanhando feiras itinerantes e carnavais, fazendo bicos para músicos e acrobatas em troca de aulas. Você pode ter aprendido a andar na corda bamba, a tocar um alaúde em um estilo distinto ou a recitar poesia com uma dicção impecável. Até hoje, você prospera com os aplausos e anseia pelo palco.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_MUSICIAN" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">ForÃ§a, Destreza, Carisma, Talento MÃºsico, PerÃ­cias Acrobacia e AtuaÃ§Ã£o, um Instrumento Musical</set>
+			<set name="short">Força, Destreza, Carisma, Talento Músico, Perícias Acrobacia e Atuação, um Instrumento Musical</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CHA" />

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Xanatharâ€™s Guide to Everything</name>
-		<description>The beholder Xanatharâ€”Waterdeepâ€™s most infamous crime lordâ€”is known to hoard information on friend and foe alike. The beholder catalogs lore about adventurers and ponders methods to thwart them. Its twisted mind imagines that it can eventually record everything!</description>
+		<name>Xanathar’s Guide to Everything</name>
+		<description>The beholder Xanathar—Waterdeep’s most infamous crime lord—is known to hoard information on friend and foe alike. The beholder catalogs lore about adventurers and ponders methods to thwart them. Its twisted mind imagines that it can eventually record everything!</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Wizards of the Coast</author>
 		<update version="0.3.3">
 			<file name="xanathars-guide-to-everything.index" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/xanathars-guide-to-everything.index" />

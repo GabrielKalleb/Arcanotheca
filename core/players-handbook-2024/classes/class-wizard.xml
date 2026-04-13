@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Mago</name>
@@ -9,68 +9,68 @@
 		</update>
 	</info>
 
-	<element name="Mago" type="Class" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_WIZARD">
+	<element name="Mago" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_WIZARD">
 		<description>
-			<p>Os Magos sÃ£o definidos pelo seu estudo exaustivo dos funcionamentos internos da magia. Eles conjuram magias de fogo explosivo, arcos de relÃ¢mpago, enganos sutis e transformaÃ§Ãµes espetaculares. Sua magia conjura monstros de outros planos de existÃªncia, vislumbra o futuro ou forma barreiras protetoras. Suas magias mais poderosas transformam uma substÃ¢ncia em outra, invocam meteoros do cÃ©u ou abrem portais para outros mundos.</p>
-			<p class="indent">A maioria dos Magos compartilha uma abordagem acadÃªmica da magia. Eles examinam os fundamentos teÃ³ricos da magia, particularmente a categorizaÃ§Ã£o de magias em escolas de magia. Magos renomados como Bigby, Tasha, Mordenkainen e Yolande construÃ­ram a partir de seus estudos para inventar magias icÃ´nicas agora usadas em todo o multiverso.</p>
-			<p class="indent">O mais perto que um Mago provavelmente chegarÃ¡ de uma vida comum Ã© trabalhando como sÃ¡bio ou professor. Outros Magos vendem seus serviÃ§os como conselheiros, servem em forÃ§as militares ou seguem vidas de crime ou dominaÃ§Ã£o.</p>
-			<p class="indent">Mas o fascÃ­nio do conhecimento chama atÃ© mesmo os Magos menos aventureiros da seguranÃ§a de suas bibliotecas e laboratÃ³rios para ruÃ­nas desmoronadas e cidades perdidas. A maioria dos Magos acredita que seus equivalentes em civilizaÃ§Ãµes antigas conheciam segredos de magia que se perderam atravÃ©s das eras, e descobrir esses segredos poderia abrir o caminho para um poder maior do que qualquer magia disponÃ­vel na era atual.</p>
+			<p>Os Magos são definidos pelo seu estudo exaustivo dos funcionamentos internos da magia. Eles conjuram magias de fogo explosivo, arcos de relâmpago, enganos sutis e transformações espetaculares. Sua magia conjura monstros de outros planos de existência, vislumbra o futuro ou forma barreiras protetoras. Suas magias mais poderosas transformam uma substância em outra, invocam meteoros do céu ou abrem portais para outros mundos.</p>
+			<p class="indent">A maioria dos Magos compartilha uma abordagem acadêmica da magia. Eles examinam os fundamentos teóricos da magia, particularmente a categorização de magias em escolas de magia. Magos renomados como Bigby, Tasha, Mordenkainen e Yolande construíram a partir de seus estudos para inventar magias icônicas agora usadas em todo o multiverso.</p>
+			<p class="indent">O mais perto que um Mago provavelmente chegará de uma vida comum é trabalhando como sábio ou professor. Outros Magos vendem seus serviços como conselheiros, servem em forças militares ou seguem vidas de crime ou dominação.</p>
+			<p class="indent">Mas o fascínio do conhecimento chama até mesmo os Magos menos aventureiros da segurança de suas bibliotecas e laboratórios para ruínas desmoronadas e cidades perdidas. A maioria dos Magos acredita que seus equivalentes em civilizações antigas conheciam segredos de magia que se perderam através das eras, e descobrir esses segredos poderia abrir o caminho para um poder maior do que qualquer magia disponível na era atual.</p>
 			<div class="sidebar">
-				<h5>CARACTERÃSTICAS PRINCIPAIS DO MAGO</h5>
+				<h5>CARACTERÍSTICAS PRINCIPAIS DO MAGO</h5>
 				<table>
-					<tr><td><b>Habilidade PrimÃ¡ria</b></td><td class="left">InteligÃªncia</td></tr>
-					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D6 por nÃ­vel de Mago</td></tr>
-					<tr><td><b>ProficiÃªncias em Testes de ResistÃªncia</b></td><td class="left">InteligÃªncia e Sabedoria</td></tr>
-					<tr><td><b>ProficiÃªncias em PerÃ­cias</b></td><td class="left"><i>Escolha 2:</i> Arcanismo, HistÃ³ria, IntuiÃ§Ã£o, InvestigaÃ§Ã£o, Medicina, Natureza, ReligiÃ£o</td></tr>
-					<tr><td><b>ProficiÃªncias com Armas</b></td><td class="left">Armas simples</td></tr>
+					<tr><td><b>Habilidade Primária</b></td><td class="left">Inteligência</td></tr>
+					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D6 por nível de Mago</td></tr>
+					<tr><td><b>Proficiências em Testes de Resistência</b></td><td class="left">Inteligência e Sabedoria</td></tr>
+					<tr><td><b>Proficiências em Perícias</b></td><td class="left"><i>Escolha 2:</i> Arcanismo, História, Intuição, Investigação, Medicina, Natureza, Religião</td></tr>
+					<tr><td><b>Proficiências com Armas</b></td><td class="left">Armas simples</td></tr>
 					<tr><td><b>Treinamento com Armadura</b></td><td class="left">Nenhum</td></tr>
-					<tr><td><b>Equipamento Inicial</b></td><td class="left"><i>Escolha A ou B:</i> (A) 2 Adagas, Foco Arcano (BordÃ£o), TÃºnica, GrimÃ³rio, Pacote de Estudioso e 5 PO; ou (B) 55 PO</td></tr>
+					<tr><td><b>Equipamento Inicial</b></td><td class="left"><i>Escolha A ou B:</i> (A) 2 Adagas, Foco Arcano (Bordão), Túnica, Grimório, Pacote de Estudioso e 5 PO; ou (B) 55 PO</td></tr>
 				</table>
 			</div>
 			<h4>TORNANDO-SE UM MAGO ...</h4>
-			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÃVEL 1</h5>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
-				<li>Ganhe todas as caracterÃ­sticas na tabela CaracterÃ­sticas Principais do Mago.</li>
-				<li>Ganhe as caracterÃ­sticas de nÃ­vel 1 do Mago, que estÃ£o listadas na tabela CaracterÃ­sticas do Mago.</li>
+				<li>Ganhe todas as características na tabela Características Principais do Mago.</li>
+				<li>Ganhe as características de nível 1 do Mago, que estão listadas na tabela Características do Mago.</li>
 			</ul>
 			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
 			<ul style="margin-top:-1em">
-				<li>Ganhe o Dado de Pontos de Vida da tabela CaracterÃ­sticas Principais do Mago.</li>
-				<li>Ganhe as caracterÃ­sticas de nÃ­vel 1 do Mago, que estÃ£o listadas na tabela CaracterÃ­sticas do Mago.</li>
+				<li>Ganhe o Dado de Pontos de Vida da tabela Características Principais do Mago.</li>
+				<li>Ganhe as características de nível 1 do Mago, que estão listadas na tabela Características do Mago.</li>
 			</ul>
-			<h5 class="caption">CARACTERÃSTICAS DO MAGO</h5>
+			<h5 class="caption">CARACTERÍSTICAS DO MAGO</h5>
 			<table class="class-features">
 				<tr style="font-weight: bold">
-					<td rowspan="2">NÃ­vel</td>
-					<td class="col-20 left" rowspan="2">CaracterÃ­sticas de Classe</td>
+					<td rowspan="2">Nível</td>
+					<td class="col-20 left" rowspan="2">Características de Classe</td>
 					<td rowspan="2">Magias<br />Preparadas</td>
 					<td rowspan="2">Truques</td>
-					<td colspan="9" style="vertical-align:bottom; border-bottom: 0px">EspaÃ§os de Magia por NÃ­vel de Magia</td>
+					<td colspan="9" style="vertical-align:bottom; border-bottom: 0px">Espaços de Magia por Nível de Magia</td>
 				</tr>
 				<tr style="font-weight: bold"><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
-				<tr><td> 1</td><td class="left">ConjuraÃ§Ã£o, Adepto de Ritual, RecuperaÃ§Ã£o Arcana</td><td>4</td><td>3</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>-</td></tr>
-				<tr><td> 2</td><td class="left">Estudioso</td><td>5</td><td>3</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 3</td><td class="left">Subclasse de Mago</td><td>6</td><td>3</td><td>4</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 4</td><td class="left">Incremento no Valor de Habilidade</td><td>7</td><td>4</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 5</td><td class="left">Memorizar Magia</td><td>9</td><td>4</td><td>4</td><td>3</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 6</td><td class="left">CaracterÃ­stica de Subclasse</td><td>10</td><td>4</td><td>4</td><td>3</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 7</td><td class="left">â€”</td><td>11</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 8</td><td class="left">Incremento no Valor de Habilidade</td><td>12</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td> 9</td><td class="left">â€”</td><td>14</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td>10</td><td class="left">CaracterÃ­stica de Subclasse</td><td>15</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td>11</td><td class="left">â€”</td><td>16</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td>12</td><td class="left">Incremento no Valor de Habilidade</td><td>16</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td>13</td><td class="left">â€”</td><td>17</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td>14</td><td class="left">CaracterÃ­stica de Subclasse</td><td>18</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>â€”</td><td>â€”</td></tr>
-				<tr><td>15</td><td class="left">â€”</td><td>19</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>â€”</td></tr>
-				<tr><td>16</td><td class="left">Incremento no Valor de Habilidade</td><td>21</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>â€”</td></tr>
-				<tr><td>17</td><td class="left">â€”</td><td>22</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td> 1</td><td class="left">Conjuração, Adepto de Ritual, Recuperação Arcana</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>-</td></tr>
+				<tr><td> 2</td><td class="left">Estudioso</td><td>5</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3</td><td class="left">Subclasse de Mago</td><td>6</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4</td><td class="left">Incremento no Valor de Habilidade</td><td>7</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5</td><td class="left">Memorizar Magia</td><td>9</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6</td><td class="left">Característica de Subclasse</td><td>10</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7</td><td class="left">—</td><td>11</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8</td><td class="left">Incremento no Valor de Habilidade</td><td>12</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9</td><td class="left">—</td><td>14</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10</td><td class="left">Característica de Subclasse</td><td>15</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11</td><td class="left">—</td><td>16</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12</td><td class="left">Incremento no Valor de Habilidade</td><td>16</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13</td><td class="left">—</td><td>17</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14</td><td class="left">Característica de Subclasse</td><td>18</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15</td><td class="left">—</td><td>19</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16</td><td class="left">Incremento no Valor de Habilidade</td><td>21</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17</td><td class="left">—</td><td>22</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
 				<tr><td>18</td><td class="left">Maestria em Magia</td><td>23</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>19</td><td class="left">DÃ¡diva Ã‰pica</td><td>24</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19</td><td class="left">Dádiva Épica</td><td>24</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
 				<tr><td>20</td><td class="left">Magias de Assinatura</td><td>25</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
 			</table>
-			<h4>CARACTERÃSTICAS DO MAGO</h4>
-			<p>Como um Mago, vocÃª ganha as seguintes caracterÃ­sticas de classe quando atinge os nÃ­veis de Mago especificados. Essas caracterÃ­sticas estÃ£o listadas na tabela CaracterÃ­sticas do Mago.</p>
+			<h4>CARACTERÍSTICAS DO MAGO</h4>
+			<p>Como um Mago, você ganha as seguintes características de classe quando atinge os níveis de Mago especificados. Essas características estão listadas na tabela Características do Mago.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELLCASTING" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_RITUAL_ADEPT" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
@@ -84,14 +84,14 @@
 		</description>
 		<sheet display="false" />
 		<setters>
-			<set name="short">Um UsuÃ¡rio de Magia AcadÃªmico de Poder Arcano</set>
+			<set name="short">Um Usuário de Magia Acadêmico de Poder Arcano</set>
 			<set name="hd">d6</set>
 		</setters>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
-			<select type="Proficiency" name="ProficiÃªncia em PerÃ­cia (Mago)" supports="Skill,PHB24 Wizard" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
+			<select type="Proficiency" name="Proficiência em Perícia (Mago)" supports="Skill,PHB24 Wizard" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
 
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELLCASTING" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_RITUAL_ADEPT" level="1" />
@@ -105,10 +105,10 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" level="20" />
 		</rules>
 		<multiclass id="ID_WOTC_PHB24_MULTICLASS_WIZARD">
-			<prerequisite>InteligÃªncia 13</prerequisite>
+			<prerequisite>Inteligência 13</prerequisite>
 			<requirements>([int:13],!(ID_WOTC_PHB_CLASS_WIZARD||ID_WOTC_PHB_MULTICLASS_WIZARD))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
-				<set name="multiclass proficiencies">â€”</set>
+				<set name="multiclass proficiencies">—</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
@@ -116,36 +116,36 @@
 		</multiclass>
 	</element>
 
-	<element name="NÃ­vel 1: ConjuraÃ§Ã£o" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELLCASTING">
+	<element name="Nível 1: Conjuração" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELLCASTING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_SPELLCASTING</requirements>
 		<description>
-			<p>Como um estudante da magia arcana, vocÃª aprendeu a conjurar magias.</p>
-			<p class="indent"><b><i>Truques.</i></b> VocÃª conhece trÃªs truques de Mago de sua escolha. <i>Luz</i>, <i>MÃ£os MÃ¡gicas</i> e <i>Raio de Gelo</i> sÃ£o recomendados. Sempre que terminar um descanso longo, vocÃª pode substituir um de seus truques desta caracterÃ­stica por outro truque de Mago de sua escolha.</p>
-			<p class="indent">Quando vocÃª atinge os nÃ­veis de Mago 4 e 10, vocÃª aprende outro truque de Mago de sua escolha, como mostrado na coluna Truques da tabela CaracterÃ­sticas do Mago.</p>
-	 		<p class="indent"><b><i>GrimÃ³rio.</i></b> Seu aprendizado mÃ¡gico culminou na criaÃ§Ã£o de um livro Ãºnico: seu grimÃ³rio. Ã‰ um objeto MinÃºsculo que pesa 3 libras (aprox. 1,5 kg), contÃ©m 100 pÃ¡ginas e pode ser lido apenas por vocÃª ou alguÃ©m conjurando <i>Identificar</i>. VocÃª determina a aparÃªncia e os materiais do livro, como um tomo com bordas douradas ou uma coleÃ§Ã£o de velino amarrada com barbante.</p>
-			<p class="indent">O livro contÃ©m as magias de nÃ­vel 1+ que vocÃª conhece. Ele comeÃ§a com seis magias de Mago de nÃ­vel 1 de sua escolha. <i>Detectar Magia</i>, <i>Queda Suave</i>, <i>Armadura Arcana</i>, <i>MÃ­sseis MÃ¡gicos</i>, <i>Sono</i> e <i>Onda Trovejante</i> sÃ£o recomendadas. </p>
-			<p class="indent">Sempre que vocÃª ganhar um nÃ­vel de Mago apÃ³s o 1Âº, adicione duas magias de Mago de sua escolha ao seu grimÃ³rio. Cada uma dessas magias deve ser de um nÃ­vel para o qual vocÃª tenha espaÃ§os de magia, como mostrado na tabela CaracterÃ­sticas do Mago. As magias sÃ£o a culminaÃ§Ã£o da pesquisa arcana que vocÃª faz regularmente. </p>
-			<p class="indent"><b><i>EspaÃ§os de Magia.</i></b> A tabela CaracterÃ­sticas do Mago mostra quantos espaÃ§os de magia vocÃª tem para conjurar suas magias de nÃ­vel 1+. VocÃª recupera todos os espaÃ§os gastos quando termina um Descanso Longo.</p>
-			<p class="indent"><b><i>Magias Preparadas de NÃ­vel 1+.</i></b> VocÃª prepara a lista de magias de nÃ­vel 1+ que estÃ£o disponÃ­veis para vocÃª conjurar com esta caracterÃ­stica. Para isso, escolha quatro magias do seu grimÃ³rio. As magias escolhidas devem ser de um nÃ­vel para o qual vocÃª tenha espaÃ§os de magia.</p>
-			<p class="indent">O nÃºmero de magias em sua lista aumenta conforme vocÃª ganha nÃ­veis de Mago, como mostrado na coluna Magias Preparadas da tabela CaracterÃ­sticas do Mago. Sempre que esse nÃºmero aumentar, escolha magias adicionais de Mago atÃ© que o nÃºmero de magias em sua lista corresponda ao nÃºmero na tabela. As magias escolhidas devem ser de um nÃ­vel para o qual vocÃª tenha espaÃ§os de magia. Por exemplo, se vocÃª for um Mago de nÃ­vel 3, sua lista de magias preparadas pode incluir seis magias de nÃ­veis 1 e 2 em qualquer combinaÃ§Ã£o, escolhidas do seu grimÃ³rio.</p>
-			<p class="indent">Se outra caracterÃ­stica de Mago lhe der magias que vocÃª sempre tem preparadas, essas magias nÃ£o contam para o nÃºmero de magias que vocÃª pode preparar com esta caracterÃ­stica, mas de resto elas contam como magias de Mago para vocÃª.</p>
-			<p class="indent"><b><i>Mudando suas Magias Preparadas.</i></b> Sempre que terminar um Descanso Longo, vocÃª pode mudar sua lista de magias preparadas, substituindo qualquer uma das magias lÃ¡ por magias do seu grimÃ³rio.</p>
-			<p class="indent"><b><i>Habilidade de ConjuraÃ§Ã£o.</i></b> InteligÃªncia Ã© a sua habilidade de conjuraÃ§Ã£o para as suas magias de Mago.</p>
-			<p class="indent"><b><i>Foco de ConjuraÃ§Ã£o.</i></b> VocÃª pode usar um Foco Arcano ou o seu grimÃ³rio como um Foco de ConjuraÃ§Ã£o para as suas magias de Mago.</p>
+			<p>Como um estudante da magia arcana, você aprendeu a conjurar magias.</p>
+			<p class="indent"><b><i>Truques.</i></b> Você conhece três truques de Mago de sua escolha. <i>Luz</i>, <i>Mãos Mágicas</i> e <i>Raio de Gelo</i> são recomendados. Sempre que terminar um descanso longo, você pode substituir um de seus truques desta característica por outro truque de Mago de sua escolha.</p>
+			<p class="indent">Quando você atinge os níveis de Mago 4 e 10, você aprende outro truque de Mago de sua escolha, como mostrado na coluna Truques da tabela Características do Mago.</p>
+	 		<p class="indent"><b><i>Grimório.</i></b> Seu aprendizado mágico culminou na criação de um livro único: seu grimório. É um objeto Minúsculo que pesa 3 libras (aprox. 1,5 kg), contém 100 páginas e pode ser lido apenas por você ou alguém conjurando <i>Identificar</i>. Você determina a aparência e os materiais do livro, como um tomo com bordas douradas ou uma coleção de velino amarrada com barbante.</p>
+			<p class="indent">O livro contém as magias de nível 1+ que você conhece. Ele começa com seis magias de Mago de nível 1 de sua escolha. <i>Detectar Magia</i>, <i>Queda Suave</i>, <i>Armadura Arcana</i>, <i>Mísseis Mágicos</i>, <i>Sono</i> e <i>Onda Trovejante</i> são recomendadas. </p>
+			<p class="indent">Sempre que você ganhar um nível de Mago após o 1º, adicione duas magias de Mago de sua escolha ao seu grimório. Cada uma dessas magias deve ser de um nível para o qual você tenha espaços de magia, como mostrado na tabela Características do Mago. As magias são a culminação da pesquisa arcana que você faz regularmente. </p>
+			<p class="indent"><b><i>Espaços de Magia.</i></b> A tabela Características do Mago mostra quantos espaços de magia você tem para conjurar suas magias de nível 1+. Você recupera todos os espaços gastos quando termina um Descanso Longo.</p>
+			<p class="indent"><b><i>Magias Preparadas de Nível 1+.</i></b> Você prepara a lista de magias de nível 1+ que estão disponíveis para você conjurar com esta característica. Para isso, escolha quatro magias do seu grimório. As magias escolhidas devem ser de um nível para o qual você tenha espaços de magia.</p>
+			<p class="indent">O número de magias em sua lista aumenta conforme você ganha níveis de Mago, como mostrado na coluna Magias Preparadas da tabela Características do Mago. Sempre que esse número aumentar, escolha magias adicionais de Mago até que o número de magias em sua lista corresponda ao número na tabela. As magias escolhidas devem ser de um nível para o qual você tenha espaços de magia. Por exemplo, se você for um Mago de nível 3, sua lista de magias preparadas pode incluir seis magias de níveis 1 e 2 em qualquer combinação, escolhidas do seu grimório.</p>
+			<p class="indent">Se outra característica de Mago lhe der magias que você sempre tem preparadas, essas magias não contam para o número de magias que você pode preparar com esta característica, mas de resto elas contam como magias de Mago para você.</p>
+			<p class="indent"><b><i>Mudando suas Magias Preparadas.</i></b> Sempre que terminar um Descanso Longo, você pode mudar sua lista de magias preparadas, substituindo qualquer uma das magias lá por magias do seu grimório.</p>
+			<p class="indent"><b><i>Habilidade de Conjuração.</i></b> Inteligência é a sua habilidade de conjuração para as suas magias de Mago.</p>
+			<p class="indent"><b><i>Foco de Conjuração.</i></b> Você pode usar um Foco Arcano ou o seu grimório como um Foco de Conjuração para as suas magias de Mago.</p>
 			<center style="margin-bottom:1em">
-				<p><strong>CD para evitar magia</strong> = 8 + seu bÃ´nus de proficiÃªncia + seu modificador de InteligÃªncia</p>
-				<p><strong>Modificador de ataque de magia</strong> = seu bÃ´nus de proficiÃªncia + seu modificador de InteligÃªncia</p>
+				<p><strong>CD para evitar magia</strong> = 8 + seu bônus de proficiência + seu modificador de Inteligência</p>
+				<p><strong>Modificador de ataque de magia</strong> = seu bônus de proficiência + seu modificador de Inteligência</p>
 			</center>
 			<div class="sidebar">
-				<h5 class="caption">EXPANDINDO E SUBSTITUINDO UM GRIMÃ“RIO</h5>
-				<p>As magias que vocÃª adiciona ao seu grimÃ³rio conforme ganha nÃ­veis refletem sua pesquisa mÃ¡gica contÃ­nua, mas vocÃª pode encontrar outras magias durante suas aventuras que vocÃª pode adicionar ao livro. VocÃª pode descobrir uma magia de Mago em um <i>Pergaminho de Magia</i>, por exemplo, e entÃ£o copiÃ¡-la para seu grimÃ³rio.</p>
-				<p class="indent"><b><i>Copiando uma Magia para o Livro.</i></b> Quando vocÃª encontrar uma magia de Mago de nÃ­vel 1+, vocÃª pode copiÃ¡-la para seu grimÃ³rio se for de um nÃ­vel que vocÃª pode preparar e se vocÃª tiver tempo para copiÃ¡-la. Para cada nÃ­vel da magia, a transcriÃ§Ã£o leva 2 horas e custa 50 PO. Depois disso, vocÃª pode preparar a magia como as outras magias em seu grimÃ³rio.</p>
-				<p class="indent"><b><i>Copiando o Livro.</i></b> VocÃª pode copiar uma magia do seu grimÃ³rio para outro livro. Isso Ã© como copiar uma nova magia para seu grimÃ³rio, mas mais rÃ¡pido, pois vocÃª jÃ¡ sabe como conjurar a magia. VocÃª precisa gastar apenas 1 hora e 10 PO para cada nÃ­vel da magia copiada.</p>
-				<p class="indent">Se vocÃª perder seu grimÃ³rio, vocÃª pode usar o mesmo procedimento para transcrever as magias de Mago que vocÃª preparou em um novo grimÃ³rio. Preencher o resto do novo livro requer que vocÃª encontre novas magias para fazÃª-lo. Por essa razÃ£o, muitos magos mantÃªm um grimÃ³rio de backup.</p>
+				<h5 class="caption">EXPANDINDO E SUBSTITUINDO UM GRIMÓRIO</h5>
+				<p>As magias que você adiciona ao seu grimório conforme ganha níveis refletem sua pesquisa mágica contínua, mas você pode encontrar outras magias durante suas aventuras que você pode adicionar ao livro. Você pode descobrir uma magia de Mago em um <i>Pergaminho de Magia</i>, por exemplo, e então copiá-la para seu grimório.</p>
+				<p class="indent"><b><i>Copiando uma Magia para o Livro.</i></b> Quando você encontrar uma magia de Mago de nível 1+, você pode copiá-la para seu grimório se for de um nível que você pode preparar e se você tiver tempo para copiá-la. Para cada nível da magia, a transcrição leva 2 horas e custa 50 PO. Depois disso, você pode preparar a magia como as outras magias em seu grimório.</p>
+				<p class="indent"><b><i>Copiando o Livro.</i></b> Você pode copiar uma magia do seu grimório para outro livro. Isso é como copiar uma nova magia para seu grimório, mas mais rápido, pois você já sabe como conjurar a magia. Você precisa gastar apenas 1 hora e 10 PO para cada nível da magia copiada.</p>
+				<p class="indent">Se você perder seu grimório, você pode usar o mesmo procedimento para transcrever as magias de Mago que você preparou em um novo grimório. Preencher o resto do novo livro requer que você encontre novas magias para fazê-lo. Por essa razão, muitos magos mantêm um grimório de backup.</p>
 			</div>
 		</description>
-		<sheet alt="ConjuraÃ§Ã£o">
-			<description>VocÃª pode usar um Foco Arcano ou seu GrimÃ³rio como um Foco de ConjuraÃ§Ã£o para suas magias de Mago.</description>
+		<sheet alt="Conjuração">
+			<description>Você pode usar um Foco Arcano ou seu Grimório como um Foco de Conjuração para suas magias de Mago.</description>
 		</sheet>
 		<spellcasting name="Wizard" ability="Intelligence" prepare="true">
 			<list>Wizard</list>
@@ -198,66 +198,66 @@
 			<select type="Spell" name="Truque (Mago)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Wizard" />
 			<select type="Spell" name="Truque (Mago)" supports="$(spellcasting:list), 0" level="4" spellcasting="Wizard" />
 			<select type="Spell" name="Truque (Mago)" supports="$(spellcasting:list), 0" level="10" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="1" number="6" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="12" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="14" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="18" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" number="2" spellcasting="Wizard" />
-			<select type="Spell" name="GrimÃ³rio (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="1" number="6" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="12" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="14" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="18" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Grimório (Mago)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="2" spellcasting="Wizard" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 1: Adepto de Ritual" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_RITUAL_ADEPT">
+	<element name="Nível 1: Adepto de Ritual" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_RITUAL_ADEPT">
 				<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_RITUAL_ADEPT</requirements>
 		<description>
-			<p>VocÃª pode conjurar qualquer magia como um Ritual se essa magia tiver o descritor Ritual e a magia estiver no seu grimÃ³rio. VocÃª nÃ£o precisa ter a magia preparada, mas deve ler o livro para conjurar uma magia dessa maneira.</p>
+			<p>Você pode conjurar qualquer magia como um Ritual se essa magia tiver o descritor Ritual e a magia estiver no seu grimório. Você não precisa ter a magia preparada, mas deve ler o livro para conjurar uma magia dessa maneira.</p>
 		</description>
 		<sheet alt="Adepto de Ritual">
-			<description>VocÃª pode conjurar qualquer magia de ritual no seu livro como um Ritual, mas deve ler o livro para conjurar uma magia dessa maneira.</description>
+			<description>Você pode conjurar qualquer magia de ritual no seu livro como um Ritual, mas deve ler o livro para conjurar uma magia dessa maneira.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 1: RecuperaÃ§Ã£o Arcana" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY">
+	<element name="Nível 1: Recuperação Arcana" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ARCANE_RECOVERY</requirements>
 		<description>
-			<p>VocÃª pode recuperar parte de sua energia mÃ¡gica estudando seu grimÃ³rio. Quando vocÃª termina um Descanso Curto, pode escolher espaÃ§os de magia gastos para recuperar. Os espaÃ§os de magia podem ter um nÃ­vel combinado igual a nÃ£o mais do que a metade do seu nÃ­vel de Mago (arredondado para cima), e nenhum dos espaÃ§os pode ser de nÃ­vel 6 ou superior. Por exemplo, se vocÃª for um Mago de nÃ­vel 4, pode recuperar atÃ© dois nÃ­veis em espaÃ§os de magia, recuperando um espaÃ§o de magia de nÃ­vel 2 ou dois espaÃ§os de magia de nÃ­vel 1.</p>
-			<p class="indent">Depois de usar esta caracterÃ­stica, vocÃª nÃ£o pode usÃ¡-la novamente atÃ© terminar um Descanso Longo.</p>
+			<p>Você pode recuperar parte de sua energia mágica estudando seu grimório. Quando você termina um Descanso Curto, pode escolher espaços de magia gastos para recuperar. Os espaços de magia podem ter um nível combinado igual a não mais do que a metade do seu nível de Mago (arredondado para cima), e nenhum dos espaços pode ser de nível 6 ou superior. Por exemplo, se você for um Mago de nível 4, pode recuperar até dois níveis em espaços de magia, recuperando um espaço de magia de nível 2 ou dois espaços de magia de nível 1.</p>
+			<p class="indent">Depois de usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo.</p>
 		</description>
-		<sheet alt="RecuperaÃ§Ã£o Arcana" usage="1/Descanso Longo">
-			<description>Quando vocÃª termina um Descanso Curto, pode escolher espaÃ§os de magia gastos de atÃ© 5Âº nÃ­vel para recuperar. Os espaÃ§os de magia podem ter um nÃ­vel combinado igual a ou menor que {{level:wizard:half:up}}.</description>
+		<sheet alt="Recuperação Arcana" usage="1/Descanso Longo">
+			<description>Quando você termina um Descanso Curto, pode escolher espaços de magia gastos de até 5º nível para recuperar. Os espaços de magia podem ter um nível combinado igual a ou menor que {{level:wizard:half:up}}.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 2: Estudioso" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SCHOLAR">
+	<element name="Nível 2: Estudioso" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SCHOLAR">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_SCHOLAR</requirements>
 		<description>
-			<p>Enquanto estudava magia, vocÃª tambÃ©m se especializou em outro campo de estudo. Escolha uma das seguintes perÃ­cias nas quais vocÃª tem proficiÃªncia: Arcanismo, HistÃ³ria, InvestigaÃ§Ã£o, Medicina, Natureza ou ReligiÃ£o. VocÃª tem especializaÃ§Ã£o na perÃ­cia escolhida.</p>
+			<p>Enquanto estudava magia, você também se especializou em outro campo de estudo. Escolha uma das seguintes perícias nas quais você tem proficiência: Arcanismo, História, Investigação, Medicina, Natureza ou Religião. Você tem especialização na perícia escolhida.</p>
 		</description>
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Proficiency" name="EspecializaÃ§Ã£o em PerÃ­cia (Estudioso)" level="2" supports="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ARCANA|ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_HISTORY|ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_INVESTIGATION|ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_MEDICINE|ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_NATURE|ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_RELIGION"/>
+			<select type="Proficiency" name="Especialização em Perícia (Estudioso)" level="2" supports="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ARCANA|ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_HISTORY|ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_INVESTIGATION|ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_MEDICINE|ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_NATURE|ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_RELIGION"/>
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Subclasse de Mago" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SUBCLASS">
+	<element name="Nível 3: Subclasse de Mago" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SUBCLASS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_SUBCLASS</requirements>
 		<description>
-			<p>VocÃª ganha uma subclasse de Mago de sua escolha. Uma subclasse Ã© uma especializaÃ§Ã£o que concede a vocÃª caracterÃ­sticas em certos nÃ­veis de Mago. Para o resto de sua carreira, vocÃª ganha cada uma das caracterÃ­sticas de sua subclasse que sejam do seu nÃ­vel de Mago ou inferior.</p>
+			<p>Você ganha uma subclasse de Mago de sua escolha. Uma subclasse é uma especialização que concede a você características em certos níveis de Mago. Para o resto de sua carreira, você ganha cada uma das características de sua subclasse que sejam do seu nível de Mago ou inferior.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -265,11 +265,11 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 4: Incremento no Valor de Habilidade" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ABILITY_SCORE_IMPROVEMENT">
+	<element name="Nível 4: Incremento no Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ABILITY_SCORE_IMPROVEMENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>VocÃª ganha o talento Incremento no Valor de Habilidade ou outro talento de sua escolha para o qual vocÃª se qualifique. VocÃª ganha esta caracterÃ­stica novamente nos nÃ­veis de Mago 8, 12 e 16.</p>
+			<p>Você ganha o talento Incremento no Valor de Habilidade ou outro talento de sua escolha para o qual você se qualifique. Você ganha esta característica novamente nos níveis de Mago 8, 12 e 16.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -280,48 +280,48 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 5: Memorizar Magia" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL">
+	<element name="Nível 5: Memorizar Magia" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_MEMORIZE_SPELL</requirements>
 		<description>
-			<p>Sempre que vocÃª terminar um Descanso Curto, pode estudar seu grimÃ³rio e substituir uma das magias de Mago de nÃ­vel 1+ que vocÃª preparou para sua caracterÃ­stica ConjuraÃ§Ã£o por outra magia de nÃ­vel 1+ do livro.</p>
+			<p>Sempre que você terminar um Descanso Curto, pode estudar seu grimório e substituir uma das magias de Mago de nível 1+ que você preparou para sua característica Conjuração por outra magia de nível 1+ do livro.</p>
 		</description>
 		<sheet alt="Memorizar Magia">
-			<description>Quando vocÃª termina um Descanso Curto, pode substituir uma magia preparada de nÃ­vel 1+ por uma diferente do seu grimÃ³rio.</description>
+			<description>Quando você termina um Descanso Curto, pode substituir uma magia preparada de nível 1+ por uma diferente do seu grimório.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 18: Maestria em Magia" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELL_MASTERY">
+	<element name="Nível 18: Maestria em Magia" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELL_MASTERY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_SPELL_MASTERY</requirements>
 		<description>
-			<p>VocÃª alcanÃ§ou tamanho domÃ­nio sobre certas magias que pode conjurÃ¡-las Ã  vontade. Escolha uma magia de nÃ­vel 1 e uma de nÃ­vel 2 em seu grimÃ³rio que tenham tempo de conjuraÃ§Ã£o de uma aÃ§Ã£o. VocÃª sempre tem essas magias preparadas e pode conjurÃ¡-las em seu nÃ­vel mais baixo sem gastar um espaÃ§o de magia. Para conjurar qualquer uma delas em um nÃ­vel mais alto, vocÃª deve gastar um espaÃ§o de magia.</p>
-			<p class="indent">Sempre que vocÃª terminar um Descanso Longo, pode estudar seu grimÃ³rio e substituir uma dessas magias por uma magia elegÃ­vel do mesmo nÃ­vel do livro.</p>
+			<p>Você alcançou tamanho domínio sobre certas magias que pode conjurá-las à vontade. Escolha uma magia de nível 1 e uma de nível 2 em seu grimório que tenham tempo de conjuração de uma ação. Você sempre tem essas magias preparadas e pode conjurá-las em seu nível mais baixo sem gastar um espaço de magia. Para conjurar qualquer uma delas em um nível mais alto, você deve gastar um espaço de magia.</p>
+			<p class="indent">Sempre que você terminar um Descanso Longo, pode estudar seu grimório e substituir uma dessas magias por uma magia elegível do mesmo nível do livro.</p>
 		</description>
 		<sheet alt="Maestria em Magia">
-			<description>Escolha uma magia de nÃ­vel 1 e uma de nÃ­vel 2 em seu grimÃ³rio que tenham tempo de conjuraÃ§Ã£o de uma aÃ§Ã£o. VocÃª sempre tem essas magias preparadas e pode conjurÃ¡-las em seu nÃ­vel mais baixo sem gastar um espaÃ§o de magia. Para conjurar qualquer uma delas em um nÃ­vel mais alto, vocÃª deve gastar um espaÃ§o de magia. &#13;
-			Sempre que vocÃª terminar um Descanso Longo, pode estudar seu grimÃ³rio e substituir uma dessas magias por uma magia elegÃ­vel do mesmo nÃ­vel do livro.</description>
+			<description>Escolha uma magia de nível 1 e uma de nível 2 em seu grimório que tenham tempo de conjuração de uma ação. Você sempre tem essas magias preparadas e pode conjurá-las em seu nível mais baixo sem gastar um espaço de magia. Para conjurar qualquer uma delas em um nível mais alto, você deve gastar um espaço de magia. &#13;
+			Sempre que você terminar um Descanso Longo, pode estudar seu grimório e substituir uma dessas magias por uma magia elegível do mesmo nível do livro.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 19: DÃ¡diva Ã‰pica" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_EPIC_BOON">
+	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_EPIC_BOON">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EPIC_BOON</requirements>
 		<description>
-			<p>VocÃª ganha um talento de DÃ¡diva Ã‰pica ou outro talento de sua escolha para o qual vocÃª se qualifique. DÃ¡diva de RecordaÃ§Ã£o de Magia Ã© recomendada.</p>
+			<p>Você ganha um talento de Dádiva Épica ou outro talento de sua escolha para o qual você se qualifique. Dádiva de Recordação de Magia é recomendada.</p>
 		</description>
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Feat" name="DÃ¡diva Ã‰pica (Mago 19)" level="19" />
+			<select type="Feat" name="Dádiva Épica (Mago 19)" level="19" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 20: Magias de Assinatura" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS">
+	<element name="Nível 20: Magias de Assinatura" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_SIGNATURE_SPELLS</requirements>
 		<description>
-			<p>Escolha duas magias de nÃ­vel 3 em seu grimÃ³rio como suas magias de assinatura. VocÃª sempre as tem preparadas e pode conjurar cada uma delas uma vez no nÃ­vel 3 sem gastar um espaÃ§o de magia. Quando vocÃª faz isso, nÃ£o pode conjurÃ¡-las desta maneira novamente atÃ© terminar um Descanso Curto ou Longo. Para conjurar qualquer uma delas em um nÃ­vel mais alto, vocÃª deve gastar um espaÃ§o de magia.</p>
+			<p>Escolha duas magias de nível 3 em seu grimório como suas magias de assinatura. Você sempre as tem preparadas e pode conjurar cada uma delas uma vez no nível 3 sem gastar um espaço de magia. Quando você faz isso, não pode conjurá-las desta maneira novamente até terminar um Descanso Curto ou Longo. Para conjurar qualquer uma delas em um nível mais alto, você deve gastar um espaço de magia.</p>
 		</description>
 		<sheet alt="Magias de Assinatura">
-			<description>Escolha duas magias de nÃ­vel 3 em seu grimÃ³rio como suas magias de assinatura. VocÃª sempre tem essas magias preparadas e pode conjurar cada uma delas uma vez por Descanso sem gastar um espaÃ§o de magia. &#13;
-			Para conjurar qualquer uma delas em um nÃ­vel 4+, vocÃª deve gastar um espaÃ§o de magia normalmente.</description>
+			<description>Escolha duas magias de nível 3 em seu grimório como suas magias de assinatura. Você sempre tem essas magias preparadas e pode conjurar cada uma delas uma vez por Descanso sem gastar um espaço de magia. &#13;
+			Para conjurar qualquer uma delas em um nível 4+, você deve gastar um espaço de magia normalmente.</description>
 		</sheet>
 	</element>
 

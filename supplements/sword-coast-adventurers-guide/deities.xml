@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Deities</name>
-		<description>Deities from the Sword Coast Adventurerâ€™s Guide.</description>
+		<description>Deities from the Sword Coast Adventurer’s Guide.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="deities.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/sword-coast-adventurers-guide/deities.xml" />
@@ -10,7 +10,7 @@
 	</info>
 
 	<!--Faerunian Pantheon-->
-	<element name="Akadi" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_AKADI">
+	<element name="Akadi" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_AKADI">
 		<description>
 			<p class="flavor">goddess of air</p>
 		</description>
@@ -25,7 +25,7 @@
 			<description>Faerunian goddess of air</description>
 		</sheet>
 	</element>
-	<element name="Amaunator" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_AMAUNATOR">
+	<element name="Amaunator" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_AMAUNATOR">
 		<description>
 			<p class="flavor">god of the sun</p>
 		</description>
@@ -40,7 +40,7 @@
 			<description>Faerunian god of the sun</description>
 		</sheet>
 	</element>
-	<element name="Asmodeus" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_ASMODEUS">
+	<element name="Asmodeus" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_ASMODEUS">
 		<description>
 			<p class="flavor">god of indulgence</p>
 		</description>
@@ -55,7 +55,7 @@
 			<description>Faerunian god of indulgence</description>
 		</sheet>
 	</element>
-	<element name="Auril" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_AURIL">
+	<element name="Auril" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_AURIL">
 		<description>
 			<p class="flavor">goddess of winter</p>
 		</description>
@@ -70,7 +70,7 @@
 			<description>goddess of winter</description>
 		</sheet>
 	</element>
-	<element name="Azuth" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_AZUTH">
+	<element name="Azuth" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_AZUTH">
 		<description>
 			<p class="flavor">god of wizardry</p>
 		</description>
@@ -85,7 +85,7 @@
 			<description>god of wizardry</description>
 		</sheet>
 	</element>
-	<element name="Bane" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_BANE">
+	<element name="Bane" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_BANE">
 		<description>
 			<p class="flavor">god of tyranny</p>
 		</description>
@@ -100,7 +100,7 @@
 			<description>god of tyranny</description>
 		</sheet>
 	</element>
-	<element name="Beshaba" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_BESHABA">
+	<element name="Beshaba" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_BESHABA">
 		<description>
 			<p class="flavor">goddess of misfortune</p>
 		</description>
@@ -115,7 +115,7 @@
 			<description>goddess of misfortune</description>
 		</sheet>
 	</element>
-	<element name="Bhaal" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_BHAAL">
+	<element name="Bhaal" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_BHAAL">
 		<description>
 			<p class="flavor">god of murder</p>
 		</description>
@@ -130,7 +130,7 @@
 			<description>god of murder</description>
 		</sheet>
 	</element>
-	<element name="Chauntea" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_CHAUNTEA">
+	<element name="Chauntea" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_CHAUNTEA">
 		<description>
 			<p class="flavor">goddess of agriculture</p>
 		</description>
@@ -145,7 +145,7 @@
 			<description>goddess of agriculture</description>
 		</sheet>
 	</element>
-	<element name="Cyric" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_CYRIC">
+	<element name="Cyric" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_CYRIC">
 		<description>
 			<p class="flavor">god of lies</p>
 		</description>
@@ -160,7 +160,7 @@
 			<description>god of lies</description>
 		</sheet>
 	</element>
-	<element name="Deneir" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_DENEIR">
+	<element name="Deneir" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_DENEIR">
 		<description>
 			<p class="flavor">god of writing</p>
 		</description>
@@ -175,7 +175,7 @@
 			<description>god of writing</description>
 		</sheet>
 	</element>
-	<element name="Eldath" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_ELDATH">
+	<element name="Eldath" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_ELDATH">
 		<description>
 			<p class="flavor">goddess of peace</p>
 		</description>
@@ -190,7 +190,7 @@
 			<description>goddess of peace</description>
 		</sheet>
 	</element>
-	<element name="Gond" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_GOND">
+	<element name="Gond" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_GOND">
 		<description>
 			<p class="flavor">god of craft</p>
 		</description>
@@ -205,7 +205,7 @@
 			<description>god of craft</description>
 		</sheet>
 	</element>
-	<element name="Grumbar" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_GRUMBAR">
+	<element name="Grumbar" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_GRUMBAR">
 		<description>
 			<p class="flavor">god of earth</p>
 		</description>
@@ -220,7 +220,7 @@
 			<description>Faerunian god of earth</description>
 		</sheet>
 	</element>
-	<element name="Gwaeron Windstrom" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_GWAERON_WINDSTROM">
+	<element name="Gwaeron Windstrom" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_GWAERON_WINDSTROM">
 		<description>
 			<p class="flavor">god of tracking</p>
 		</description>
@@ -235,7 +235,7 @@
 			<description>Faerunian god of tracking</description>
 		</sheet>
 	</element>
-	<element name="Helm" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_HELM">
+	<element name="Helm" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_HELM">
 		<description>
 			<p class="flavor">god of watchfulness</p>
 		</description>
@@ -250,7 +250,7 @@
 			<description>Faerunian god of watchfulness</description>
 		</sheet>
 	</element>
-	<element name="Hoar" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_HOAR">
+	<element name="Hoar" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_HOAR">
 		<description>
 			<p class="flavor">god of revenge and retribution</p>
 		</description>
@@ -265,7 +265,7 @@
 			<description>Faerunian god of revenge and retribution</description>
 		</sheet>
 	</element>
-	<element name="Ilmater" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_ILMATER">
+	<element name="Ilmater" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_ILMATER">
 		<description>
 			<p class="flavor">god of endurance</p>
 		</description>
@@ -280,7 +280,7 @@
 			<description>god of endurance</description>
 		</sheet>
 	</element>
-	<element name="Istishia" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_ISTISHIA">
+	<element name="Istishia" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_ISTISHIA">
 		<description>
 			<p class="flavor">god of water</p>
 		</description>
@@ -295,7 +295,7 @@
 			<description>Faerunian god of water</description>
 		</sheet>
 	</element>
-	<element name="Jergal" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_JERGAL">
+	<element name="Jergal" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_JERGAL">
 		<description>
 			<p class="flavor">scribe of the dead</p>
 		</description>
@@ -310,7 +310,7 @@
 			<description>Faerunian scribe of the dead</description>
 		</sheet>
 	</element>
-	<element name="Kelemvor" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_KELEMVOR">
+	<element name="Kelemvor" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_KELEMVOR">
 		<description>
 			<p class="flavor">god of the dead</p>
 		</description>
@@ -325,7 +325,7 @@
 			<description>god of the dead</description>
 		</sheet>
 	</element>
-	<element name="Kossuth" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_KOSSUTH">
+	<element name="Kossuth" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_KOSSUTH">
 		<description>
 			<p class="flavor">god of fire</p>
 		</description>
@@ -340,7 +340,7 @@
 			<description>Faerunian god of fire</description>
 		</sheet>
 	</element>
-	<element name="Lathander" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_LATHANDER">
+	<element name="Lathander" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_LATHANDER">
 		<description>
 			<p class="flavor">god of dawn and renewal</p>
 		</description>
@@ -355,7 +355,7 @@
 			<description>god of dawn and renewal</description>
 		</sheet>
 	</element>
-	<element name="Leira" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_LEIRA">
+	<element name="Leira" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_LEIRA">
 		<description>
 			<p class="flavor">goddess of illusion</p>
 		</description>
@@ -370,7 +370,7 @@
 			<description>goddess of illusion</description>
 		</sheet>
 	</element>
-	<element name="Lliira" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_LLIIRA">
+	<element name="Lliira" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_LLIIRA">
 		<description>
 			<p class="flavor">goddess of joy</p>
 		</description>
@@ -385,7 +385,7 @@
 			<description>goddess of joy</description>
 		</sheet>
 	</element>
-	<element name="Loviatar" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_LOVIATAR">
+	<element name="Loviatar" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_LOVIATAR">
 		<description>
 			<p class="flavor">goddess of pain</p>
 		</description>
@@ -400,7 +400,7 @@
 			<description>goddess of pain</description>
 		</sheet>
 	</element>
-	<element name="Malar" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_MALAR">
+	<element name="Malar" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_MALAR">
 		<description>
 			<p class="flavor">god of the hunt</p>
 		</description>
@@ -415,7 +415,7 @@
 			<description>god of the hunt</description>
 		</sheet>
 	</element>
-	<element name="Mask" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_MASK">
+	<element name="Mask" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_MASK">
 		<description>
 			<p class="flavor">god of thieves</p>
 		</description>
@@ -430,7 +430,7 @@
 			<description>god of thieves</description>
 		</sheet>
 	</element>
-	<element name="Mielikki" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_MIELIKKI">
+	<element name="Mielikki" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_MIELIKKI">
 		<description>
 			<p class="flavor">goddess of forests</p>
 		</description>
@@ -438,14 +438,14 @@
 			<set name="setting">Forgotten Realms</set>
 			<set name="alignment">NG</set>
 			<set name="domains">Nature</set>
-			<set name="symbol">Unicornâ€™s head</set>
+			<set name="symbol">Unicorn’s head</set>
 			<set name="gender">female</set>
 		</setters>
 		<sheet>
 			<description>goddess of forests</description>
 		</sheet>
 	</element>
-	<element name="Milil" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_MILIL">
+	<element name="Milil" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_MILIL">
 		<description>
 			<p class="flavor">god of poetry and song</p>
 		</description>
@@ -460,7 +460,7 @@
 			<description>god of poetry and song</description>
 		</sheet>
 	</element>
-	<element name="Myrkul" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_MYRKUL">
+	<element name="Myrkul" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_MYRKUL">
 		<description>
 			<p class="flavor">god of death</p>
 		</description>
@@ -475,7 +475,7 @@
 			<description>god of death</description>
 		</sheet>
 	</element>
-	<element name="Mystra" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_MYSTRA">
+	<element name="Mystra" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_MYSTRA">
 		<description>
 			<p class="flavor">goddess of magic</p>
 		</description>
@@ -490,7 +490,7 @@
 			<description>goddess of magic</description>
 		</sheet>
 	</element>
-	<element name="Oghma" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_OGHMA">
+	<element name="Oghma" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_OGHMA">
 		<description>
 			<p class="flavor">god of knowledge</p>
 		</description>
@@ -505,7 +505,7 @@
 			<description>god of knowledge</description>
 		</sheet>
 	</element>
-	<element name="The Red Knight" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_THE_RED_KNIGHT">
+	<element name="The Red Knight" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_THE_RED_KNIGHT">
 		<description>
 			<p class="flavor">goddess of strategy</p>
 		</description>
@@ -520,7 +520,7 @@
 			<description>Faerunian goddess of strategy</description>
 		</sheet>
 	</element>
-	<element name="Savras" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SAVRAS">
+	<element name="Savras" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SAVRAS">
 		<description>
 			<p class="flavor">god of divination and fate</p>
 		</description>
@@ -535,7 +535,7 @@
 			<description>god of divination and fate</description>
 		</sheet>
 	</element>
-	<element name="Selune" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SELUNE">
+	<element name="Selune" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SELUNE">
 		<description>
 			<p class="flavor">goddess of the moon</p>
 		</description>
@@ -550,7 +550,7 @@
 			<description>goddess of the moon</description>
 		</sheet>
 	</element>
-	<element name="Shar" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SHAR">
+	<element name="Shar" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SHAR">
 		<description>
 			<p class="flavor">goddess of darkness and loss</p>
 		</description>
@@ -565,7 +565,7 @@
 			<description>goddess of darkness and loss</description>
 		</sheet>
 	</element>
-	<element name="Silvanus" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SILVANUS">
+	<element name="Silvanus" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SILVANUS">
 		<description>
 			<p class="flavor">god of wild nature</p>
 		</description>
@@ -580,7 +580,7 @@
 			<description>god of wild nature</description>
 		</sheet>
 	</element>
-	<element name="Sune" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SUNE">
+	<element name="Sune" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SUNE">
 		<description>
 			<p class="flavor">goddess of love and beauty</p>
 		</description>
@@ -595,7 +595,7 @@
 			<description>goddess of love and beauty</description>
 		</sheet>
 	</element>
-	<element name="Talona" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_TALONA">
+	<element name="Talona" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_TALONA">
 		<description>
 			<p class="flavor">goddess of poison and disease</p>
 		</description>
@@ -610,7 +610,7 @@
 			<description>goddess of poison and disease</description>
 		</sheet>
 	</element>
-	<element name="Talos" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_TALOS">
+	<element name="Talos" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_TALOS">
 		<description>
 			<p class="flavor">god of storms</p>
 		</description>
@@ -625,7 +625,7 @@
 			<description>god of storms</description>
 		</sheet>
 	</element>
-	<element name="Tempus" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_TEMPUS">
+	<element name="Tempus" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_TEMPUS">
 		<description>
 			<p class="flavor">god of war</p>
 		</description>
@@ -640,7 +640,7 @@
 			<description>god of war</description>
 		</sheet>
 	</element>
-	<element name="Torm" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_TORM">
+	<element name="Torm" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_TORM">
 		<description>
 			<p class="flavor">god of courage and self-sacrifice</p>
 		</description>
@@ -655,7 +655,7 @@
 			<description>god of courage and self-sacrifice</description>
 		</sheet>
 	</element>
-	<element name="Tymora" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_TYMORA">
+	<element name="Tymora" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_TYMORA">
 		<description>
 			<p class="flavor">goddess of good fortune</p>
 		</description>
@@ -670,7 +670,7 @@
 			<description>goddess of good fortune</description>
 		</sheet>
 	</element>
-	<element name="Tyr" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_TYR">
+	<element name="Tyr" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_TYR">
 		<description>
 			<p class="flavor">god of justice</p>
 		</description>
@@ -685,7 +685,7 @@
 			<description>god of justice</description>
 		</sheet>
 	</element>
-	<element name="Umberlee" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_UMBERLEE">
+	<element name="Umberlee" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_UMBERLEE">
 		<description>
 			<p class="flavor">goddess of the sea</p>
 		</description>
@@ -700,7 +700,7 @@
 			<description>goddess of the sea</description>
 		</sheet>
 	</element>
-	<element name="Valkur" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_VALKUR">
+	<element name="Valkur" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_VALKUR">
 		<description>
 			<p class="flavor">northlander god of sailors</p>
 		</description>
@@ -715,7 +715,7 @@
 			<description>Faerunian northlander god of sailors</description>
 		</sheet>
 	</element>
-	<element name="Waukeen" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_WAUKEEN">
+	<element name="Waukeen" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_WAUKEEN">
 		<description>
 			<p class="flavor">goddess of trade</p>
 		</description>
@@ -723,7 +723,7 @@
 			<set name="setting">Forgotten Realms</set>
 			<set name="alignment">N</set>
 			<set name="domains">Knowledge, Trickery</set>
-			<set name="symbol">Upright coin with Waukeenâ€™s profile facing left</set>
+			<set name="symbol">Upright coin with Waukeen’s profile facing left</set>
 			<set name="gender">female</set>
 		</setters>
 		<sheet>
@@ -732,7 +732,7 @@
 	</element>
 
 	<!--Dwarven Pantheon-->
-	<element name="Abbathor" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_ABBATHOR">
+	<element name="Abbathor" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_ABBATHOR">
 		<description>
 			<p class="flavor">god of greed</p>
 		</description>
@@ -747,7 +747,7 @@
 			<description>god of greed</description>
 		</sheet>
 	</element>
-	<element name="Berronar Truesilver" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_BERRONAR_TRUESILVER">
+	<element name="Berronar Truesilver" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_BERRONAR_TRUESILVER">
 		<description>
 			<p class="flavor">goddess of hearth and home</p>
 		</description>
@@ -762,7 +762,7 @@
 			<description>goddess of of hearth and home</description>
 		</sheet>
 	</element>
-	<element name="Clangeddin Silverbeard" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_CLANGEDDIN_SILVERBEARD">
+	<element name="Clangeddin Silverbeard" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_CLANGEDDIN_SILVERBEARD">
 		<description>
 			<p class="flavor">god of war</p>
 		</description>
@@ -777,7 +777,7 @@
 			<description>god of war</description>
 		</sheet>
 	</element>
-	<element name="Deep Duerra" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_DEEP_DUERRA">
+	<element name="Deep Duerra" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_DEEP_DUERRA">
 		<description>
 			<p class="flavor">duergar goddess of conquest and psionics</p>
 		</description>
@@ -792,7 +792,7 @@
 			<description>duergar goddess of conquest and psionics</description>
 		</sheet>
 	</element>
-	<element name="Dugmaren Brightmantle" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_DUGMAREN_BRIGHTMANTLE">
+	<element name="Dugmaren Brightmantle" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_DUGMAREN_BRIGHTMANTLE">
 		<description>
 			<p class="flavor">god of discovery</p>
 		</description>
@@ -807,7 +807,7 @@
 			<description>god of discovery</description>
 		</sheet>
 	</element>
-	<element name="Dumathoin" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_DUMATHOIN">
+	<element name="Dumathoin" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_DUMATHOIN">
 		<description>
 			<p class="flavor">god of buried secrets</p>
 		</description>
@@ -822,7 +822,7 @@
 			<description>god of buried secrets</description>
 		</sheet>
 	</element>
-	<element name="Gorm Gulthyn" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_GORM_GULTHYN">
+	<element name="Gorm Gulthyn" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_GORM_GULTHYN">
 		<description>
 			<p class="flavor">god of vigilance</p>
 		</description>
@@ -837,7 +837,7 @@
 			<description>god of vigilance</description>
 		</sheet>
 	</element>
-	<element name="Haela Brightaxe" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_HAELA_BRIGHTAXE">
+	<element name="Haela Brightaxe" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_HAELA_BRIGHTAXE">
 		<description>
 			<p class="flavor">goddess of war-luck</p>
 		</description>
@@ -852,7 +852,7 @@
 			<description>>goddess of war-luck</description>
 		</sheet>
 	</element>
-	<element name="Laduguer" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_LADUGUER">
+	<element name="Laduguer" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_LADUGUER">
 		<description>
 			<p class="flavor">duergar god of magic and slavery</p>
 		</description>
@@ -867,7 +867,7 @@
 			<description>duergar god of magic and slavery</description>
 		</sheet>
 	</element>
-	<element name="Marthammor Duin" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_MARTHAMMOR_DUIN">
+	<element name="Marthammor Duin" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_MARTHAMMOR_DUIN">
 		<description>
 			<p class="flavor">god of wanderers</p>
 		</description>
@@ -882,7 +882,7 @@
 			<description>god of wanderers</description>
 		</sheet>
 	</element>
-	<element name="Moradin" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_MORADIN">
+	<element name="Moradin" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_MORADIN">
 		<description>
 			<p class="flavor">god of creation</p>
 		</description>
@@ -897,7 +897,7 @@
 			<description>god of creation</description>
 		</sheet>
 	</element>
-	<element name="Sharindlar" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SHARINDLAR">
+	<element name="Sharindlar" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SHARINDLAR">
 		<description>
 			<p class="flavor">goddess of healing</p>
 		</description>
@@ -912,7 +912,7 @@
 			<description>goddess of healing</description>
 		</sheet>
 	</element>
-	<element name="Vergadain" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_VERGADAIN">
+	<element name="Vergadain" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_VERGADAIN">
 		<description>
 			<p class="flavor">god of luck and wealth</p>
 		</description>
@@ -929,7 +929,7 @@
 	</element>
 
 	<!--Elven Pantheon-->
-	<element name="Aerdrie Faenya" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_AERDRIE_FAENYA">
+	<element name="Aerdrie Faenya" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_AERDRIE_FAENYA">
 		<description>
 			<p class="flavor">goddess of the sky</p>
 		</description>
@@ -944,7 +944,7 @@
 			<description>goddess of the sky</description>
 		</sheet>
 	</element>
-	<element name="Angharradh" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_ANGHARRADH">
+	<element name="Angharradh" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_ANGHARRADH">
 		<description>
 			<p class="flavor">triple goddess of wisdom and protection</p>
 		</description>
@@ -959,7 +959,7 @@
 			<description>triple goddess of wisdom and protection</description>
 		</sheet>
 	</element>
-	<element name="Corellon Larethian" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_CORELLON_LARETHIAN">
+	<element name="Corellon Larethian" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_CORELLON_LARETHIAN">
 		<description>
 			<p class="flavor">god of art and magic</p>
 		</description>
@@ -974,7 +974,7 @@
 			<description>god of art and magic</description>
 		</sheet>
 	</element>
-	<element name="Deep Sashelas" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_DEEP_SASHELAS">
+	<element name="Deep Sashelas" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_DEEP_SASHELAS">
 		<description>
 			<p class="flavor">god of the sea</p>
 		</description>
@@ -989,7 +989,7 @@
 			<description>god of the sea</description>
 		</sheet>
 	</element>
-	<element name="Erevan Ilesere" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_EREVAN_ILESERE">
+	<element name="Erevan Ilesere" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_EREVAN_ILESERE">
 		<description>
 			<p class="flavor">god of mischief</p>
 		</description>
@@ -1004,7 +1004,7 @@
 			<description>god of mischief</description>
 		</sheet>
 	</element>
-	<element name="Fenmarel Mestarine" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_FENMAREL_MESTARINE">
+	<element name="Fenmarel Mestarine" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_FENMAREL_MESTARINE">
 		<description>
 			<p class="flavor">god of outcasts</p>
 		</description>
@@ -1019,7 +1019,7 @@
 			<description>god of outcasts</description>
 		</sheet>
 	</element>
-	<element name="Hanali Celanil" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_HANALI_CELANIL">
+	<element name="Hanali Celanil" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_HANALI_CELANIL">
 		<description>
 			<p class="flavor">goddess of love and beauty</p>
 		</description>
@@ -1034,7 +1034,7 @@
 			<description>goddess of love and beauty</description>
 		</sheet>
 	</element>
-	<element name="Labelas Enoreth" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_LABELAS_ENORETH">
+	<element name="Labelas Enoreth" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_LABELAS_ENORETH">
 		<description>
 			<p class="flavor">god of time, history, and philosophy</p>
 		</description>
@@ -1049,7 +1049,7 @@
 			<description>god of time, history, and philosophy</description>
 		</sheet>
 	</element>
-	<element name="Rillifane Rallathil" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_RILLIFANE_RALLATHIL">
+	<element name="Rillifane Rallathil" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_RILLIFANE_RALLATHIL">
 		<description>
 			<p class="flavor">god of nature</p>
 		</description>
@@ -1064,7 +1064,7 @@
 			<description>god of nature</description>
 		</sheet>
 	</element>
-	<element name="Sehanine Moonbow" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SEHANINE_MOONBOW">
+	<element name="Sehanine Moonbow" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SEHANINE_MOONBOW">
 		<description>
 			<p class="flavor">goddess of divination, dreams, travel, and death</p>
 		</description>
@@ -1079,7 +1079,7 @@
 			<description>goddess of divination, dreams, travel, and death</description>
 		</sheet>
 	</element>
-	<element name="Shevarash" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SHEVARASH">
+	<element name="Shevarash" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SHEVARASH">
 		<description>
 			<p class="flavor">god of vengeance</p>
 		</description>
@@ -1094,7 +1094,7 @@
 			<description>god of vengeance</description>
 		</sheet>
 	</element>
-	<element name="Solonor Thelandira" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SOLONOR_THELANDIRA">
+	<element name="Solonor Thelandira" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SOLONOR_THELANDIRA">
 		<description>
 			<p class="flavor">god of archery</p>
 		</description>
@@ -1111,7 +1111,7 @@
 	</element>
 
 	<!--Drow Pantheon-->
-	<element name="Eilistraee" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_EILISTRAEE">
+	<element name="Eilistraee" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_EILISTRAEE">
 		<description>
 			<p class="flavor">goddess of song and moonlight</p>
 		</description>
@@ -1126,7 +1126,7 @@
 			<description>goddess of song and moonlight</description>
 		</sheet>
 	</element>
-	<element name="Kiaransalee" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_KIARANSALEE">
+	<element name="Kiaransalee" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_KIARANSALEE">
 		<description>
 			<p class="flavor">goddess of necromancy</p>
 		</description>
@@ -1141,7 +1141,7 @@
 			<description>goddess of necromancy</description>
 		</sheet>
 	</element>
-	<element name="Lolth" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_LOLTH">
+	<element name="Lolth" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_LOLTH">
 		<description>
 			<p class="flavor">goddess of spiders</p>
 		</description>
@@ -1156,7 +1156,7 @@
 			<description>goddess of spiders</description>
 		</sheet>
 	</element>
-	<element name="Selvetarm" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SELVETARM">
+	<element name="Selvetarm" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SELVETARM">
 		<description>
 			<p class="flavor">god of warriors</p>
 		</description>
@@ -1171,7 +1171,7 @@
 			<description>god of warriors</description>
 		</sheet>
 	</element>
-	<element name="Vhaeraun" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_VHAERAUN">
+	<element name="Vhaeraun" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_VHAERAUN">
 		<description>
 			<p class="flavor">god of thieves</p>
 		</description>
@@ -1188,7 +1188,7 @@
 	</element>
 
 	<!--Halfling Pantheon-->
-	<element name="Arvoreen" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_ARVOREEN">
+	<element name="Arvoreen" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_ARVOREEN">
 		<description>
 			<p class="flavor">god of vigilance and war</p>
 		</description>
@@ -1203,7 +1203,7 @@
 			<description>god of vigilance and war</description>
 		</sheet>
 	</element>
-	<element name="Brandobaris" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_BRANDOBARIS">
+	<element name="Brandobaris" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_BRANDOBARIS">
 		<description>
 			<p class="flavor">god of thievery and adventure</p>
 		</description>
@@ -1218,7 +1218,7 @@
 			<description>god of thievery and adventure</description>
 		</sheet>
 	</element>
-	<element name="Cyrrollalee" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_CYRROLLALEE">
+	<element name="Cyrrollalee" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_CYRROLLALEE">
 		<description>
 			<p class="flavor">goddess of hearth and home</p>
 		</description>
@@ -1233,7 +1233,7 @@
 			<description>goddess of hearth and home</description>
 		</sheet>
 	</element>
-	<element name="Sheela Peryroyl" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SHEELA_PERYROYL">
+	<element name="Sheela Peryroyl" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SHEELA_PERYROYL">
 		<description>
 			<p class="flavor">goddess of agriculture and weather</p>
 		</description>
@@ -1248,7 +1248,7 @@
 			<description>goddess of agriculture and weather</description>
 		</sheet>
 	</element>
-	<element name="Urogalan" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_UROGALAN">
+	<element name="Urogalan" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_UROGALAN">
 		<description>
 			<p class="flavor">god of earth and death</p>
 		</description>
@@ -1263,7 +1263,7 @@
 			<description>god of earth and death</description>
 		</sheet>
 	</element>
-	<element name="Yondalla" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_YONDALLA">
+	<element name="Yondalla" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_YONDALLA">
 		<description>
 			<p class="flavor">goddess of fertility and protection</p>
 		</description>
@@ -1280,7 +1280,7 @@
 	</element>
 
 	<!--Gnomish Pantheon-->
-	<element name="Baervan Wildwanderer" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_BAERVAN_WILDWANDERER">
+	<element name="Baervan Wildwanderer" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_BAERVAN_WILDWANDERER">
 		<description>
 			<p class="flavor">god of woodlands</p>
 		</description>
@@ -1295,7 +1295,7 @@
 			<description>god of woodlands</description>
 		</sheet>
 	</element>
-	<element name="Baravar Cloakshadow" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_BARAVAR_CLOAKSHADOW">
+	<element name="Baravar Cloakshadow" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_BARAVAR_CLOAKSHADOW">
 		<description>
 			<p class="flavor">god of illusion and deception</p>
 		</description>
@@ -1310,7 +1310,7 @@
 			<description>god of illusion and deception</description>
 		</sheet>
 	</element>
-	<element name="Callarduran Smoothhands" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_CALLARDURAN_SMOOTHHANDS">
+	<element name="Callarduran Smoothhands" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_CALLARDURAN_SMOOTHHANDS">
 		<description>
 			<p class="flavor">god of mining and carving stone</p>
 		</description>
@@ -1325,7 +1325,7 @@
 			<description>god of mining and carving stone</description>
 		</sheet>
 	</element>
-	<element name="Flandal Steelskin" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_FLANDAL_STEELSKIN">
+	<element name="Flandal Steelskin" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_FLANDAL_STEELSKIN">
 		<description>
 			<p class="flavor">god of metalwork</p>
 		</description>
@@ -1340,7 +1340,7 @@
 			<description>god of metalwork</description>
 		</sheet>
 	</element>
-	<element name="Gaerdal Ironhand" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_GAERDAL_IRONHAND">
+	<element name="Gaerdal Ironhand" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_GAERDAL_IRONHAND">
 		<description>
 			<p class="flavor">god of protection</p>
 		</description>
@@ -1355,7 +1355,7 @@
 			<description>god of protection</description>
 		</sheet>
 	</element>
-	<element name="Garl Glittergold" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_GARL_GLITTERGOLD">
+	<element name="Garl Glittergold" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_GARL_GLITTERGOLD">
 		<description>
 			<p class="flavor">god of trickery and gems</p>
 		</description>
@@ -1370,7 +1370,7 @@
 			<description>god of trickery and gems</description>
 		</sheet>
 	</element>
-	<element name="Nebelun" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_NEBELUN">
+	<element name="Nebelun" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_NEBELUN">
 		<description>
 			<p class="flavor">god of invention and luck</p>
 		</description>
@@ -1385,7 +1385,7 @@
 			<description>god of invention and luck</description>
 		</sheet>
 	</element>
-	<element name="Segojan Earthcaller" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SEGOJAN_EARTHCALLER">
+	<element name="Segojan Earthcaller" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SEGOJAN_EARTHCALLER">
 		<description>
 			<p class="flavor">god of earth and the dead</p>
 		</description>
@@ -1400,7 +1400,7 @@
 			<description>god of earth and the dead</description>
 		</sheet>
 	</element>
-	<element name="Urdlen" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_URDLEN">
+	<element name="Urdlen" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_URDLEN">
 		<description>
 			<p class="flavor">god of greed and murder</p>
 		</description>
@@ -1417,7 +1417,7 @@
 	</element>
 
 	<!--Orc Pantheon-->
-	<element name="Bahgtru" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_BAHGTRU">
+	<element name="Bahgtru" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_BAHGTRU">
 		<description>
 			<p class="flavor">god of strength</p>
 		</description>
@@ -1432,7 +1432,7 @@
 			<description>god of strength</description>
 		</sheet>
 	</element>
-	<element name="Gruumsh" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_GRUUMSH">
+	<element name="Gruumsh" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_GRUUMSH">
 		<description>
 			<p class="flavor">god of storms and war</p>
 		</description>
@@ -1447,7 +1447,7 @@
 			<description>god of storms and war</description>
 		</sheet>
 	</element>
-	<element name="Ilneval" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_ILNEVAL">
+	<element name="Ilneval" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_ILNEVAL">
 		<description>
 			<p class="flavor">god of strategy and hordes</p>
 		</description>
@@ -1462,7 +1462,7 @@
 			<description>god of strategy and hordes</description>
 		</sheet>
 	</element>
-	<element name="Luthic" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_LUTHIC">
+	<element name="Luthic" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_LUTHIC">
 		<description>
 			<p class="flavor">mother-goddess of fertility and healing</p>
 		</description>
@@ -1477,7 +1477,7 @@
 			<description>mother-goddess of fertility and healing</description>
 		</sheet>
 	</element>
-	<element name="Shargaas" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_SHARGAAS">
+	<element name="Shargaas" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_SHARGAAS">
 		<description>
 			<p class="flavor">god of stealth and darkness</p>
 		</description>
@@ -1492,7 +1492,7 @@
 			<description>god of stealth and darkness</description>
 		</sheet>
 	</element>
-	<element name="Yurtrus" type="Deity" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_SCAG_DEITY_YURTRUS">
+	<element name="Yurtrus" type="Deity" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_DEITY_YURTRUS">
 		<description>
 			<p class="flavor">god of death and disease</p>
 		</description>

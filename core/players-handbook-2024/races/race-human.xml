@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Humano</name>
-		<description>A espÃ©cie Humano do Playerâ€™s Handbook 2024.</description>
+		<description>A espécie Humano do Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="race-human.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/races/race-human.xml" />
 		</update>
 	</info>
 	
-	<element name="Humano" type="Race" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACE_HUMAN">
+	<element name="Humano" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_HUMAN">
 		<description>
-			<p>Encontrados em todo o multiverso, os humanos sÃ£o tÃ£o variados quanto numerosos, e se esforÃ§am para alcanÃ§ar o mÃ¡ximo que puderem nos anos que lhes sÃ£o dados. Sua ambiÃ§Ã£o e engenhosidade sÃ£o elogiadas, respeitadas e temidas em muitos mundos.</p>
-			<p class="indent">Os humanos sÃ£o tÃ£o diversos em aparÃªncia quanto as pessoas da Terra, e tÃªm muitos deuses. Os estudiosos disputam a origem da humanidade, mas diz-se que um dos primeiros encontros humanos conhecidos ocorreu em Sigil, a cidade em forma de toro no centro do multiverso e o local onde o idioma Comum nasceu. De lÃ¡, os humanos poderiam ter se espalhado por todas as partes do multiverso, levando o cosmopolitismo da Cidade das Portas com eles.</p>
-			<h5>TRAÃ‡OS DE HUMANO</h5>
+			<p>Encontrados em todo o multiverso, os humanos são tão variados quanto numerosos, e se esforçam para alcançar o máximo que puderem nos anos que lhes são dados. Sua ambição e engenhosidade são elogiadas, respeitadas e temidas em muitos mundos.</p>
+			<p class="indent">Os humanos são tão diversos em aparência quanto as pessoas da Terra, e têm muitos deuses. Os estudiosos disputam a origem da humanidade, mas diz-se que um dos primeiros encontros humanos conhecidos ocorreu em Sigil, a cidade em forma de toro no centro do multiverso e o local onde o idioma Comum nasceu. De lá, os humanos poderiam ter se espalhado por todas as partes do multiverso, levando o cosmopolitismo da Cidade das Portas com eles.</p>
+			<h5>TRAÇOS DE HUMANO</h5>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
 				<li><strong>Tipo de Criatura:</strong> Humanoide</li>
-				<li><strong>Tamanho:</strong> MÃ©dio (cerca de 1,2 a 2,1 metros de altura) ou Pequeno (cerca de 0,6 a 1,2 metro de altura), escolhido quando vocÃª seleciona esta espÃ©cie</li>
+				<li><strong>Tamanho:</strong> Médio (cerca de 1,2 a 2,1 metros de altura) ou Pequeno (cerca de 0,6 a 1,2 metro de altura), escolhido quando você seleciona esta espécie</li>
 				<li><strong>Deslocamento:</strong> 9 metros</li>
 			</ul>
-			<p>Como um Humano, vocÃª possui estes traÃ§os especiais.</p>
-			<p class="indent"><strong><em>Engenhoso.</em></strong> VocÃª ganha InspiraÃ§Ã£o Heroica sempre que terminar um Descanso Longo.</p>
-			<p class="indent"><strong><em>Habilidoso.</em></strong> VocÃª ganha proficiÃªncia em uma perÃ­cia de sua escolha.</p> 
-			<p class="indent"><strong><em>VersÃ¡til.</em></strong> VocÃª ganha um talento de Origem de sua escolha. Perito Ã© recomendado.</p> 
+			<p>Como um Humano, você possui estes traços especiais.</p>
+			<p class="indent"><strong><em>Engenhoso.</em></strong> Você ganha Inspiração Heroica sempre que terminar um Descanso Longo.</p>
+			<p class="indent"><strong><em>Habilidoso.</em></strong> Você ganha proficiência em uma perícia de sua escolha.</p> 
+			<p class="indent"><strong><em>Versátil.</em></strong> Você ganha um talento de Origem de sua escolha. Perito é recomendado.</p> 
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_HUMAN" />
-			<select type="Ability Score Improvement" name="OpÃ§Ã£o de Melhoria no Valor de Habilidade (Humano)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade (Humano)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
 			<select type="Racial Trait" name="Tamanho (Humano)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 
@@ -41,40 +41,40 @@
 		</rules>
 	</element>
 
-	<element name="Engenhoso" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_RESOURCEFUL">
+	<element name="Engenhoso" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_RESOURCEFUL">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_RESOURCEFUL</requirements>
 		<description>
-			<p>VocÃª ganha InspiraÃ§Ã£o Heroica sempre que terminar um Descanso Longo.</p> 
+			<p>Você ganha Inspiração Heroica sempre que terminar um Descanso Longo.</p> 
 		</description>
 		<sheet>
-			<description>VocÃª ganha InspiraÃ§Ã£o Heroica sempre que terminar um Descanso Longo.</description>
+			<description>Você ganha Inspiração Heroica sempre que terminar um Descanso Longo.</description>
 		</sheet>
 	</element>
 
-	<element name="Habilidoso" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_SKILLFUL">
+	<element name="Habilidoso" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_SKILLFUL">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_SKILLFUL</requirements>
 		<description>
-			<p>VocÃª ganha proficiÃªncia em uma perÃ­cia de sua escolha.</p> 
+			<p>Você ganha proficiência em uma perícia de sua escolha.</p> 
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="ProficiÃªncia em PerÃ­cia (Habilidoso)" supports="Skill" />
+			<select type="Proficiency" name="Proficiência em Perícia (Habilidoso)" supports="Skill" />
 		</rules>
 	</element>
 
-	<element name="VersÃ¡til" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_VERSATILE">
+	<element name="Versátil" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_VERSATILE">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_VERSATILE</requirements>
 		<description>
-			<p>VocÃª ganha um talento de Origem de sua escolha. Perito Ã© recomendado.</p> 
+			<p>Você ganha um talento de Origem de sua escolha. Perito é recomendado.</p> 
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="Talento (VersÃ¡til)" supports="Origin" />
+			<select type="Feat" name="Talento (Versátil)" supports="Origin" />
 		</rules>
 	</element>
 
-	<element name="SubstituiÃ§Ã£o de TraÃ§o Engenhoso" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_RESOURCEFUL" />
-	<element name="SubstituiÃ§Ã£o de TraÃ§o Habilidoso" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_SKILLFUL" />
-	<element name="SubstituiÃ§Ã£o de TraÃ§o VersÃ¡til" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_VERSATILE" />
+	<element name="Substituição de Traço Engenhoso" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_RESOURCEFUL" />
+	<element name="Substituição de Traço Habilidoso" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_SKILLFUL" />
+	<element name="Substituição de Traço Versátil" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_VERSATILE" />
 
 </elements>

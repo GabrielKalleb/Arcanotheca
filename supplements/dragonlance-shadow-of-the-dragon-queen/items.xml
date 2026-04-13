@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -14,7 +14,7 @@
 		<setters>
 			<set name="category">Adventuring Gear</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">â€”</set>
+			<set name="weight" lb="0">—</set>
 		</setters>
 	</element>
 
@@ -25,7 +25,7 @@
 		<setters>
 			<set name="category">Adventuring Gear</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">â€”</set>
+			<set name="weight" lb="0">—</set>
 		</setters>
 	</element>
 
@@ -39,7 +39,7 @@
 		<setters>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="sp">1</set>
-			<set name="weight" lb="0">â€”</set>
+			<set name="weight" lb="0">—</set>
 			<set name="slot">onehand</set>
 			<set name="range">30/120</set>
 			<set name="damage" type="piercing (melee) or 1d4 bludgeoning (ranged)">1d6</set>
@@ -74,7 +74,7 @@
 		<setters>
 			<set name="category">Adventuring Gear</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">â€”</set>
+			<set name="weight" lb="0">—</set>
 		</setters>
 	</element>
 
@@ -95,7 +95,7 @@
 		<setters>
 			<set name="category">Adventuring Gear</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">â€”</set>
+			<set name="weight" lb="0">—</set>
 		</setters>
 	</element>
 

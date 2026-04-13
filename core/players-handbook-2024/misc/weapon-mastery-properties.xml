@@ -1,476 +1,476 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Propriedades de Maestria</name>
-		<description>As Propriedades de Maestria para marciais do novo Playerâ€™s Handbook.</description>
+		<description>As Propriedades de Maestria para marciais do novo Player’s Handbook.</description>
 		<update version="0.0.1">
 			<file name="weapon-mastery-properties.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/misc/weapon-mastery-properties.xml" />
 		</update>
 	</info>
 
-	<element name="Machado Grande (Fender)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_GREATAXE_CLEAVE">
+	<element name="Machado Grande (Fender)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_GREATAXE_CLEAVE">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com uma jogada de ataque corpo a corpo usando esta arma, vocÃª pode realizar uma jogada de ataque corpo a corpo com a arma contra uma segunda criatura a atÃ© 1,5 metro da primeira que tambÃ©m esteja dentro do seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas nÃ£o adicione seu modificador de habilidade a esse dano, a menos que o modificador seja negativo. VocÃª pode realizar este ataque extra apenas uma vez por turno.</p>
+			<p>Se você atingir uma criatura com uma jogada de ataque corpo a corpo usando esta arma, você pode realizar uma jogada de ataque corpo a corpo com a arma contra uma segunda criatura a até 1,5 metro da primeira que também esteja dentro do seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas não adicione seu modificador de habilidade a esse dano, a menos que o modificador seja negativo. Você pode realizar este ataque extra apenas uma vez por turno.</p>
 		</description>
 		<sheet usage="1/Turn">
-			<description>Se vocÃª atingir uma criatura com uma jogada de ataque corpo a corpo usando esta arma, vocÃª pode realizar uma jogada de ataque corpo a corpo com a arma contra uma segunda criatura a atÃ© 1,5 metro da primeira que tambÃ©m esteja dentro do seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas nÃ£o adicione seu modificador de habilidade a esse dano, a menos que o modificador seja negativo.</description>
+			<description>Se você atingir uma criatura com uma jogada de ataque corpo a corpo usando esta arma, você pode realizar uma jogada de ataque corpo a corpo com a arma contra uma segunda criatura a até 1,5 metro da primeira que também esteja dentro do seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas não adicione seu modificador de habilidade a esse dano, a menos que o modificador seja negativo.</description>
 		</sheet>
 	</element>
-	<element name="Alabarda (Fender)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_HALBERD_CLEAVE">
+	<element name="Alabarda (Fender)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_HALBERD_CLEAVE">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com uma jogada de ataque corpo a corpo usando esta arma, vocÃª pode realizar uma jogada de ataque corpo a corpo com a arma contra uma segunda criatura a atÃ© 1,5 metro da primeira que tambÃ©m esteja dentro do seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas nÃ£o adicione seu modificador de habilidade a esse dano, a menos que o modificador seja negativo. VocÃª pode realizar este ataque extra apenas uma vez por turno.</p>
+			<p>Se você atingir uma criatura com uma jogada de ataque corpo a corpo usando esta arma, você pode realizar uma jogada de ataque corpo a corpo com a arma contra uma segunda criatura a até 1,5 metro da primeira que também esteja dentro do seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas não adicione seu modificador de habilidade a esse dano, a menos que o modificador seja negativo. Você pode realizar este ataque extra apenas uma vez por turno.</p>
 		</description>
 		<sheet usage="1/Turn">
-			<description>Se vocÃª atingir uma criatura com uma jogada de ataque corpo a corpo usando esta arma, vocÃª pode realizar uma jogada de ataque corpo a corpo com a arma contra uma segunda criatura a atÃ© 1,5 metro da primeira que tambÃ©m esteja dentro do seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas nÃ£o adicione seu modificador de habilidade a esse dano, a menos que o modificador seja negativo.</description>
+			<description>Se você atingir uma criatura com uma jogada de ataque corpo a corpo usando esta arma, você pode realizar uma jogada de ataque corpo a corpo com a arma contra uma segunda criatura a até 1,5 metro da primeira que também esteja dentro do seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas não adicione seu modificador de habilidade a esse dano, a menos que o modificador seja negativo.</description>
 		</sheet>
 	</element>
-	<element name="Fender" type="Weapon Property" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_CLEAVE">
+	<element name="Fender" type="Weapon Property" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_CLEAVE">
 		<description>
-			<p>Se vocÃª atingir uma criatura com uma jogada de ataque corpo a corpo usando esta arma, vocÃª pode realizar uma jogada de ataque corpo a corpo com a arma contra uma segunda criatura a atÃ© 1,5 metro da primeira que tambÃ©m esteja dentro do seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas nÃ£o adicione seu modificador de habilidade a esse dano, a menos que o modificador seja negativo. VocÃª pode realizar este ataque extra apenas uma vez por turno.</p>
+			<p>Se você atingir uma criatura com uma jogada de ataque corpo a corpo usando esta arma, você pode realizar uma jogada de ataque corpo a corpo com a arma contra uma segunda criatura a até 1,5 metro da primeira que também esteja dentro do seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas não adicione seu modificador de habilidade a esse dano, a menos que o modificador seja negativo. Você pode realizar este ataque extra apenas uma vez por turno.</p>
 		</description>
 	</element>
 
-	<element name="Glaive (RoÃ§ar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_GLAIVE_GRAZE">
+	<element name="Glaive (Roçar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_GLAIVE_GRAZE">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se a sua jogada de ataque com esta arma errar uma criatura, vocÃª pode causar dano Ã quela criatura igual ao modificador de habilidade que vocÃª usou para realizar a jogada de ataque. Esse dano Ã© do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</p>
+			<p>Se a sua jogada de ataque com esta arma errar uma criatura, você pode causar dano àquela criatura igual ao modificador de habilidade que você usou para realizar a jogada de ataque. Esse dano é do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</p>
 		</description>
 		<sheet>
-			<description>Se a sua jogada de ataque com esta arma errar uma criatura, vocÃª pode causar dano Ã quela criatura igual ao modificador de habilidade que vocÃª usou para realizar a jogada de ataque. Esse dano Ã© do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</description>
+			<description>Se a sua jogada de ataque com esta arma errar uma criatura, você pode causar dano àquela criatura igual ao modificador de habilidade que você usou para realizar a jogada de ataque. Esse dano é do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</description>
 		</sheet>
 	</element>
-	<element name="Espada Grande (RoÃ§ar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_GREATSWORD_GRAZE">
+	<element name="Espada Grande (Roçar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_GREATSWORD_GRAZE">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se a sua jogada de ataque com esta arma errar uma criatura, vocÃª pode causar dano Ã quela criatura igual ao modificador de habilidade que vocÃª usou para realizar a jogada de ataque. Esse dano Ã© do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</p>
+			<p>Se a sua jogada de ataque com esta arma errar uma criatura, você pode causar dano àquela criatura igual ao modificador de habilidade que você usou para realizar a jogada de ataque. Esse dano é do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</p>
 		</description>
 		<sheet>
-			<description>Se a sua jogada de ataque com esta arma errar uma criatura, vocÃª pode causar dano Ã quela criatura igual ao modificador de habilidade que vocÃª usou para realizar a jogada de ataque. Esse dano Ã© do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</description>
+			<description>Se a sua jogada de ataque com esta arma errar uma criatura, você pode causar dano àquela criatura igual ao modificador de habilidade que você usou para realizar a jogada de ataque. Esse dano é do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</description>
 		</sheet>
 	</element>
-	<element name="RoÃ§ar" type="Weapon Property" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_GRAZE">
+	<element name="Roçar" type="Weapon Property" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_GRAZE">
 		<description>
-			<p>Se a sua jogada de ataque com esta arma errar uma criatura, vocÃª pode causar dano Ã quela criatura igual ao modificador de habilidade que vocÃª usou para realizar a jogada de ataque. Esse dano Ã© do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</p>
+			<p>Se a sua jogada de ataque com esta arma errar uma criatura, você pode causar dano àquela criatura igual ao modificador de habilidade que você usou para realizar a jogada de ataque. Esse dano é do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</p>
 		</description>
 	</element>
 
-	<element name="Adaga (Talho)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_DAGGER_NICK">
+	<element name="Adaga (Talho)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_DAGGER_NICK">
 		<supports>Weapon Mastery, Simple, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Quando vocÃª realiza o ataque extra da propriedade Leve, vocÃª pode realizÃ¡-lo como parte da aÃ§Ã£o de Ataque em vez de como uma AÃ§Ã£o BÃ´nus. VocÃª pode realizar este ataque extra apenas uma vez por turno.</p>
+			<p>Quando você realiza o ataque extra da propriedade Leve, você pode realizá-lo como parte da ação de Ataque em vez de como uma Ação Bônus. Você pode realizar este ataque extra apenas uma vez por turno.</p>
 		</description>
 		<sheet usage="1/Turn">
-			<description>Quando vocÃª realiza o ataque extra da propriedade Leve, vocÃª pode realizÃ¡-lo como parte da aÃ§Ã£o de Ataque em vez de como uma AÃ§Ã£o BÃ´nus.</description>
+			<description>Quando você realiza o ataque extra da propriedade Leve, você pode realizá-lo como parte da ação de Ataque em vez de como uma Ação Bônus.</description>
 		</sheet>
 	</element>
-	<element name="Martelo Leve (Talho)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_LIGHT_HAMMER_NICK">
+	<element name="Martelo Leve (Talho)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_LIGHT_HAMMER_NICK">
 		<supports>Weapon Mastery, Simple, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Quando vocÃª realiza o ataque extra da propriedade Leve, vocÃª pode realizÃ¡-lo como parte da aÃ§Ã£o de Ataque em vez de como uma AÃ§Ã£o BÃ´nus. VocÃª pode realizar este ataque extra apenas uma vez por turno.</p>
+			<p>Quando você realiza o ataque extra da propriedade Leve, você pode realizá-lo como parte da ação de Ataque em vez de como uma Ação Bônus. Você pode realizar este ataque extra apenas uma vez por turno.</p>
 		</description>
 		<sheet usage="1/Turn">
-			<description>Quando vocÃª realiza o ataque extra da propriedade Leve, vocÃª pode realizÃ¡-lo como parte da aÃ§Ã£o de Ataque em vez de como uma AÃ§Ã£o BÃ´nus.</description>
+			<description>Quando você realiza o ataque extra da propriedade Leve, você pode realizá-lo como parte da ação de Ataque em vez de como uma Ação Bônus.</description>
 		</sheet>
 	</element>
-	<element name="Foice Curta (Talho)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SICKLE_NICK">
+	<element name="Foice Curta (Talho)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SICKLE_NICK">
 		<supports>Weapon Mastery, Simple, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Quando vocÃª realiza o ataque extra da propriedade Leve, vocÃª pode realizÃ¡-lo como parte da aÃ§Ã£o de Ataque em vez de como uma AÃ§Ã£o BÃ´nus. VocÃª pode realizar este ataque extra apenas uma vez por turno.</p>
+			<p>Quando você realiza o ataque extra da propriedade Leve, você pode realizá-lo como parte da ação de Ataque em vez de como uma Ação Bônus. Você pode realizar este ataque extra apenas uma vez por turno.</p>
 		</description>
 		<sheet usage="1/Turn">
-			<description>Quando vocÃª realiza o ataque extra da propriedade Leve, vocÃª pode realizÃ¡-lo como parte da aÃ§Ã£o de Ataque em vez de como uma AÃ§Ã£o BÃ´nus.</description>
+			<description>Quando você realiza o ataque extra da propriedade Leve, você pode realizá-lo como parte da ação de Ataque em vez de como uma Ação Bônus.</description>
 		</sheet>
 	</element>
-	<element name="Cimitarra (Talho)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SCIMITAR_NICK">
+	<element name="Cimitarra (Talho)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SCIMITAR_NICK">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Quando vocÃª realiza o ataque extra da propriedade Leve, vocÃª pode realizÃ¡-lo como parte da aÃ§Ã£o de Ataque em vez de como uma AÃ§Ã£o BÃ´nus. VocÃª pode realizar este ataque extra apenas uma vez por turno.</p>
+			<p>Quando você realiza o ataque extra da propriedade Leve, você pode realizá-lo como parte da ação de Ataque em vez de como uma Ação Bônus. Você pode realizar este ataque extra apenas uma vez por turno.</p>
 		</description>
 		<sheet usage="1/Turn">
-			<description>Quando vocÃª realiza o ataque extra da propriedade Leve, vocÃª pode realizÃ¡-lo como parte da aÃ§Ã£o de Ataque em vez de como uma AÃ§Ã£o BÃ´nus.</description>
+			<description>Quando você realiza o ataque extra da propriedade Leve, você pode realizá-lo como parte da ação de Ataque em vez de como uma Ação Bônus.</description>
 		</sheet>
 	</element>
-	<element name="Talho" type="Weapon Property" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_NICK">
+	<element name="Talho" type="Weapon Property" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_NICK">
 		<description>
-			<p>Quando vocÃª realiza o ataque extra da propriedade Leve, vocÃª pode realizÃ¡-lo como parte da aÃ§Ã£o de Ataque em vez de como uma AÃ§Ã£o BÃ´nus. VocÃª pode realizar este ataque extra apenas uma vez por turno.</p>
+			<p>Quando você realiza o ataque extra da propriedade Leve, você pode realizá-lo como parte da ação de Ataque em vez de como uma Ação Bônus. Você pode realizar este ataque extra apenas uma vez por turno.</p>
 		</description>
 	</element>
 
-	<element name="Clava Grande (Empurrar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_GREATCLUB_PUSH">
+	<element name="Clava Grande (Empurrar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_GREATCLUB_PUSH">
 		<supports>Weapon Mastery, Simple, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, vocÃª pode empurrar a criatura atÃ© 3 metros em linha reta para longe de vocÃª se ela for Grande ou menor.</p>
+			<p>Se você atingir uma criatura com esta arma, você pode empurrar a criatura até 3 metros em linha reta para longe de você se ela for Grande ou menor.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, vocÃª pode empurrar a criatura atÃ© 3 metros em linha reta para longe de vocÃª se ela for Grande ou menor.</description>
+			<description>Se você atingir uma criatura com esta arma, você pode empurrar a criatura até 3 metros em linha reta para longe de você se ela for Grande ou menor.</description>
 		</sheet>
 	</element>
-	<element name="Pique (Empurrar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_PIKE_PUSH">
+	<element name="Pique (Empurrar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_PIKE_PUSH">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, vocÃª pode empurrar a criatura atÃ© 3 metros em linha reta para longe de vocÃª se ela for Grande ou menor.</p>
+			<p>Se você atingir uma criatura com esta arma, você pode empurrar a criatura até 3 metros em linha reta para longe de você se ela for Grande ou menor.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, vocÃª pode empurrar a criatura atÃ© 3 metros em linha reta para longe de vocÃª se ela for Grande ou menor.</description>
+			<description>Se você atingir uma criatura com esta arma, você pode empurrar a criatura até 3 metros em linha reta para longe de você se ela for Grande ou menor.</description>
 		</sheet>
 	</element>
-	<element name="Martelo de Guerra (Empurrar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_WARHAMMER_PUSH">
+	<element name="Martelo de Guerra (Empurrar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_WARHAMMER_PUSH">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, vocÃª pode empurrar a criatura atÃ© 3 metros em linha reta para longe de vocÃª se ela for Grande ou menor.</p>
+			<p>Se você atingir uma criatura com esta arma, você pode empurrar a criatura até 3 metros em linha reta para longe de você se ela for Grande ou menor.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, vocÃª pode empurrar a criatura atÃ© 3 metros em linha reta para longe de vocÃª se ela for Grande ou menor.</description>
+			<description>Se você atingir uma criatura com esta arma, você pode empurrar a criatura até 3 metros em linha reta para longe de você se ela for Grande ou menor.</description>
 		</sheet>
 	</element>
-	<element name="Besta Pesada (Empurrar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_CROSSBOW_HEAVY_PUSH">
+	<element name="Besta Pesada (Empurrar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_CROSSBOW_HEAVY_PUSH">
 		<supports>Weapon Mastery, Martial, Ranged</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, vocÃª pode empurrar a criatura atÃ© 3 metros em linha reta para longe de vocÃª se ela for Grande ou menor.</p>
+			<p>Se você atingir uma criatura com esta arma, você pode empurrar a criatura até 3 metros em linha reta para longe de você se ela for Grande ou menor.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, vocÃª pode empurrar a criatura atÃ© 3 metros em linha reta para longe de vocÃª se ela for Grande ou menor.</description>
+			<description>Se você atingir uma criatura com esta arma, você pode empurrar a criatura até 3 metros em linha reta para longe de você se ela for Grande ou menor.</description>
 		</sheet>
 	</element>
-	<element name="Empurrar" type="Weapon Property" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_PUSH">
+	<element name="Empurrar" type="Weapon Property" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_PUSH">
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, vocÃª pode empurrar a criatura atÃ© 3 metros em linha reta para longe de vocÃª se ela for Grande ou menor.</p>
+			<p>Se você atingir uma criatura com esta arma, você pode empurrar a criatura até 3 metros em linha reta para longe de você se ela for Grande ou menor.</p>
 		</description>
 	</element>
 
-	<element name="MaÃ§a (Debilitar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_MACE_SAP">
+	<element name="Maça (Debilitar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_MACE_SAP">
 		<supports>Weapon Mastery, Simple, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="LanÃ§a (Debilitar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SPEAR_SAP">
+	<element name="Lança (Debilitar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SPEAR_SAP">
 		<supports>Weapon Mastery, Simple, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Mangual (Debilitar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_FLAIL_SAP">
+	<element name="Mangual (Debilitar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_FLAIL_SAP">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Espada Longa (Debilitar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_LONGSWORD_SAP">
+	<element name="Espada Longa (Debilitar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_LONGSWORD_SAP">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Estrela da ManhÃ£ (Debilitar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_MORNINGSTAR_SAP">
+	<element name="Estrela da Manhã (Debilitar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_MORNINGSTAR_SAP">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Picareta de Guerra (Debilitar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_WAR_PICK_SAP">
+	<element name="Picareta de Guerra (Debilitar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_WAR_PICK_SAP">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Debilitar" type="Weapon Property" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_SAP">
+	<element name="Debilitar" type="Weapon Property" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_SAP">
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua prÃ³xima jogada de ataque antes do inÃ­cio do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima jogada de ataque antes do início do seu próximo turno.</p>
 		</description>
 	</element>
 
-	<element name="Clava (LentidÃ£o)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_CLUB_SLOW">
+	<element name="Clava (Lentidão)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_CLUB_SLOW">
 		<supports>Weapon Mastery, Simple, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</description>
 		</sheet>
 	</element>
-	<element name="Azagaia (LentidÃ£o)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_JAVELIN_SLOW">
+	<element name="Azagaia (Lentidão)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_JAVELIN_SLOW">
 		<supports>Weapon Mastery, Simple, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</description>
 		</sheet>
 	</element>
-	<element name="Besta Leve (LentidÃ£o)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_CROSSBOW_LIGHT_SLOW">
+	<element name="Besta Leve (Lentidão)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_CROSSBOW_LIGHT_SLOW">
 		<supports>Weapon Mastery, Simple, Ranged</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</description>
 		</sheet>
 	</element>
-	<element name="Funda (LentidÃ£o)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SLING_SLOW">
+	<element name="Funda (Lentidão)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SLING_SLOW">
 		<supports>Weapon Mastery, Simple, Ranged</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</description>
 		</sheet>
 	</element>
-	<element name="Chicote (LentidÃ£o)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_WHIP_SLOW">
+	<element name="Chicote (Lentidão)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_WHIP_SLOW">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</description>
 		</sheet>
 	</element>
-	<element name="Arco Longo (LentidÃ£o)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_LONGBOW_SLOW">
+	<element name="Arco Longo (Lentidão)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_LONGBOW_SLOW">
 		<supports>Weapon Mastery, Martial, Ranged</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</description>
 		</sheet>
 	</element>
-	<element name="Mosquete (LentidÃ£o)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_MUSKET_SLOW">
+	<element name="Mosquete (Lentidão)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_MUSKET_SLOW">
 		<supports>Weapon Mastery, Martial, Ranged</supports>
 		<requirements>ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MUSKET</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</description>
 		</sheet>
 	</element>
-	<element name="LentidÃ£o" type="Weapon Property" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_SLOW">
+	<element name="Lentidão" type="Weapon Property" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_SLOW">
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano a ela, vocÃª pode reduzir o Deslocamento dela em 3 metros atÃ© o inÃ­cio do seu prÃ³ximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a reduÃ§Ã£o de Deslocamento nÃ£o excede 3 metros.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano a ela, você pode reduzir o Deslocamento dela em 3 metros até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Deslocamento não excede 3 metros.</p>
 		</description>
 	</element>
 
-	<element name="BordÃ£o (Derrubar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_QUARTERSTAFF_TOPPLE">
+	<element name="Bordão (Derrubar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_QUARTERSTAFF_TOPPLE">
 		<supports>Weapon Mastery, Simple, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, vocÃª pode forÃ§ar a criatura a fazer uma salvaguarda de ConstituiÃ§Ã£o (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu BÃ´nus de ProficiÃªncia). Em uma falha, a criatura fica com a condiÃ§Ã£o CaÃ­do.</p>
+			<p>Se você atingir uma criatura com esta arma, você pode forçar a criatura a fazer uma salvaguarda de Constituição (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu Bônus de Proficiência). Em uma falha, a criatura fica com a condição Caído.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, vocÃª pode forÃ§ar a criatura a fazer uma salvaguarda de ConstituiÃ§Ã£o (CD 8 + o modificador de habilidade usado para realizar a jogada de ataque e seu BP). Em uma falha, a criatura fica com a condiÃ§Ã£o CaÃ­do.</description>
+			<description>Se você atingir uma criatura com esta arma, você pode forçar a criatura a fazer uma salvaguarda de Constituição (CD 8 + o modificador de habilidade usado para realizar a jogada de ataque e seu BP). Em uma falha, a criatura fica com a condição Caído.</description>
 		</sheet>
 	</element>
-	<element name="Machado de Batalha (Derrubar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_BATTLEAXE_TOPPLE">
+	<element name="Machado de Batalha (Derrubar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_BATTLEAXE_TOPPLE">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, vocÃª pode forÃ§ar a criatura a fazer uma salvaguarda de ConstituiÃ§Ã£o (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu BÃ´nus de ProficiÃªncia). Em uma falha, a criatura fica com a condiÃ§Ã£o CaÃ­do.</p>
+			<p>Se você atingir uma criatura com esta arma, você pode forçar a criatura a fazer uma salvaguarda de Constituição (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu Bônus de Proficiência). Em uma falha, a criatura fica com a condição Caído.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, vocÃª pode forÃ§ar a criatura a fazer uma salvaguarda de ConstituiÃ§Ã£o (CD 8 + o modificador de habilidade usado para realizar a jogada de ataque e seu BP). Em uma falha, a criatura fica com a condiÃ§Ã£o CaÃ­do.</description>
+			<description>Se você atingir uma criatura com esta arma, você pode forçar a criatura a fazer uma salvaguarda de Constituição (CD 8 + o modificador de habilidade usado para realizar a jogada de ataque e seu BP). Em uma falha, a criatura fica com a condição Caído.</description>
 		</sheet>
 	</element>
-	<element name="LanÃ§a de Montaria (Derrubar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_LANCE_TOPPLE">
+	<element name="Lança de Montaria (Derrubar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_LANCE_TOPPLE">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, vocÃª pode forÃ§ar a criatura a fazer uma salvaguarda de ConstituiÃ§Ã£o (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu BÃ´nus de ProficiÃªncia). Em uma falha, a criatura fica com a condiÃ§Ã£o CaÃ­do.</p>
+			<p>Se você atingir uma criatura com esta arma, você pode forçar a criatura a fazer uma salvaguarda de Constituição (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu Bônus de Proficiência). Em uma falha, a criatura fica com a condição Caído.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, vocÃª pode forÃ§ar a criatura a fazer uma salvaguarda de ConstituiÃ§Ã£o (CD 8 + o modificador de habilidade usado para realizar a jogada de ataque e seu BP). Em uma falha, a criatura fica com a condiÃ§Ã£o CaÃ­do.</description>
+			<description>Se você atingir uma criatura com esta arma, você pode forçar a criatura a fazer uma salvaguarda de Constituição (CD 8 + o modificador de habilidade usado para realizar a jogada de ataque e seu BP). Em uma falha, a criatura fica com a condição Caído.</description>
 		</sheet>
 	</element>
-	<element name="Malho (Derrubar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_MAUL_TOPPLE">
+	<element name="Malho (Derrubar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_MAUL_TOPPLE">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, vocÃª pode forÃ§ar a criatura a fazer uma salvaguarda de ConstituiÃ§Ã£o (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu BÃ´nus de ProficiÃªncia). Em uma falha, a criatura fica com a condiÃ§Ã£o CaÃ­do.</p>
+			<p>Se você atingir uma criatura com esta arma, você pode forçar a criatura a fazer uma salvaguarda de Constituição (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu Bônus de Proficiência). Em uma falha, a criatura fica com a condição Caído.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, vocÃª pode forÃ§ar a criatura a fazer uma salvaguarda de ConstituiÃ§Ã£o (CD 8 + o modificador de habilidade usado para realizar a jogada de ataque e seu BP). Em uma falha, a criatura fica com a condiÃ§Ã£o CaÃ­do.</description>
+			<description>Se você atingir uma criatura com esta arma, você pode forçar a criatura a fazer uma salvaguarda de Constituição (CD 8 + o modificador de habilidade usado para realizar a jogada de ataque e seu BP). Em uma falha, a criatura fica com a condição Caído.</description>
 		</sheet>
 	</element>
-	<element name="Tridente (Derrubar)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_TRIDENT_TOPPLE">
+	<element name="Tridente (Derrubar)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_TRIDENT_TOPPLE">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, vocÃª pode forÃ§ar a criatura a fazer uma salvaguarda de ConstituiÃ§Ã£o (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu BÃ´nus de ProficiÃªncia). Em uma falha, a criatura fica com a condiÃ§Ã£o CaÃ­do.</p>
+			<p>Se você atingir uma criatura com esta arma, você pode forçar a criatura a fazer uma salvaguarda de Constituição (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu Bônus de Proficiência). Em uma falha, a criatura fica com a condição Caído.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma, vocÃª pode forÃ§ar a criatura a fazer uma salvaguarda de ConstituiÃ§Ã£o (CD 8 + o modificador de habilidade usado para realizar a jogada de ataque e seu BP). Em uma falha, a criatura fica com a condiÃ§Ã£o CaÃ­do.</description>
+			<description>Se você atingir uma criatura com esta arma, você pode forçar a criatura a fazer uma salvaguarda de Constituição (CD 8 + o modificador de habilidade usado para realizar a jogada de ataque e seu BP). Em uma falha, a criatura fica com a condição Caído.</description>
 		</sheet>
 	</element>
-	<element name="Derrubar" type="Weapon Property" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_TOPPLE">
+	<element name="Derrubar" type="Weapon Property" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_TOPPLE">
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma, vocÃª pode forÃ§ar a criatura a fazer uma salvaguarda de ConstituiÃ§Ã£o (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu BÃ´nus de ProficiÃªncia). Em uma falha, a criatura fica com a condiÃ§Ã£o CaÃ­do.</p>
+			<p>Se você atingir uma criatura com esta arma, você pode forçar a criatura a fazer uma salvaguarda de Constituição (CD 8 mais o modificador de habilidade usado para realizar a jogada de ataque e seu Bônus de Proficiência). Em uma falha, a criatura fica com a condição Caído.</p>
 		</description>
 	</element>
 
-	<element name="Machado de MÃ£o (Afligir)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_HANDAXE_VEX">
+	<element name="Machado de Mão (Afligir)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_HANDAXE_VEX">
 		<supports>Weapon Mastery, Simple, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Dardo (Afligir)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_DART_VEX">
+	<element name="Dardo (Afligir)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_DART_VEX">
 		<supports>Weapon Mastery, Simple, Ranged</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_DART</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Arco Curto (Afligir)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SHORTBOW_VEX">
+	<element name="Arco Curto (Afligir)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SHORTBOW_VEX">
 		<supports>Weapon Mastery, Simple, Ranged</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Rapieira (Afligir)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_RAPIER_VEX">
+	<element name="Rapieira (Afligir)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_RAPIER_VEX">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Espada Curta (Afligir)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SHORTSWORD_VEX">
+	<element name="Espada Curta (Afligir)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_SHORTSWORD_VEX">
 		<supports>Weapon Mastery, Martial, Melee</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Zarabatana (Afligir)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_BLOWGUN_VEX">
+	<element name="Zarabatana (Afligir)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_BLOWGUN_VEX">
 		<supports>Weapon Mastery, Martial, Ranged</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Besta de MÃ£o (Afligir)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_CROSSBOW_HAND_VEX">
+	<element name="Besta de Mão (Afligir)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_CROSSBOW_HAND_VEX">
 		<supports>Weapon Mastery, Martial, Ranged</supports>
 		<requirements>ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Pistola (Afligir)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_PISTOL_VEX">
+	<element name="Pistola (Afligir)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MASTERY_PROPERTY_PISTOL_VEX">
 		<supports>Weapon Mastery, Martial, Ranged</supports>
 		<requirements>ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_PISTOL</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</p>
 		</description>
 		<sheet>
-			<description>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</description>
+			<description>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Afligir" type="Weapon Property" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_VEX">
+	<element name="Afligir" type="Weapon Property" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PROPERTY_VEX">
 		<description>
-			<p>Se vocÃª atingir uma criatura com esta arma e causar dano Ã  criatura, vocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra essa criatura antes do final do seu prÃ³ximo turno.</p>
+			<p>Se você atingir uma criatura com esta arma e causar dano à criatura, você tem Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.</p>
 		</description>
 	</element>
 

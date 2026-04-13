@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>AcÃ³lito</name>
-		<description>O antecedente AcÃ³lito do Livro do Jogador 2024.</description>
+		<name>Acólito</name>
+		<description>O antecedente Acólito do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="background-acolyte.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/backgrounds/background-acolyte.xml" />
 		</update>
 	</info>
 
-	<element name="AcÃ³lito" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_ACOLYTE">
+	<element name="Acólito" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_ACOLYTE">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> InteligÃªncia, Sabedoria, Carisma</li>
-				<li><strong>Talento:</strong> Iniciado em Magia (ClÃ©rigo)</li>
-				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> IntuiÃ§Ã£o e ReligiÃ£o</li>
-				<li><strong>ProficiÃªncia em Ferramenta:</strong> Suprimentos de CalÃ­grafo</li>
-				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Suprimentos de CalÃ­grafo, Livro (oraÃ§Ãµes), SÃ­mbolo Sagrado, Pergaminho (10 folhas), Veste, 8 PO; ou (B) 50 PO</li>
+				<li><strong>Valores de Habilidade:</strong> Inteligência, Sabedoria, Carisma</li>
+				<li><strong>Talento:</strong> Iniciado em Magia (Clérigo)</li>
+				<li><strong>Proficiências em Perícias:</strong> Intuição e Religião</li>
+				<li><strong>Proficiência em Ferramenta:</strong> Suprimentos de Calígrafo</li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Suprimentos de Calígrafo, Livro (orações), Símbolo Sagrado, Pergaminho (10 folhas), Veste, 8 PO; ou (B) 50 PO</li>
 			</ul>
-			<p>VocÃª se dedicou ao serviÃ§o em um templo, seja aninhado em uma cidade ou isolado em um bosque sagrado. LÃ¡ vocÃª realizou ritos em homenagem a um deus ou panteÃ£o. VocÃª serviu sob um sacerdote e estudou religiÃ£o. GraÃ§as Ã s instruÃ§Ãµes de seu sacerdote e Ã  sua prÃ³pria devoÃ§Ã£o, vocÃª tambÃ©m aprendeu como canalizar um pouco do poder divino a serviÃ§o de seu local de culto e das pessoas que oravam lÃ¡.</p>
+			<p>Você se dedicou ao serviço em um templo, seja aninhado em uma cidade ou isolado em um bosque sagrado. Lá você realizou ritos em homenagem a um deus ou panteão. Você serviu sob um sacerdote e estudou religião. Graças às instruções de seu sacerdote e à sua própria devoção, você também aprendeu como canalizar um pouco do poder divino a serviço de seu local de culto e das pessoas que oravam lá.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">InteligÃªncia, Sabedoria, Carisma, Talento Iniciado em Magia (ClÃ©rigo), PerÃ­cias IntuiÃ§Ã£o e ReligiÃ£o, e Suprimentos de CalÃ­grafo</set>
+			<set name="short">Inteligência, Sabedoria, Carisma, Talento Iniciado em Magia (Clérigo), Perícias Intuição e Religião, e Suprimentos de Calígrafo</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_INT_WIS_CHA" />

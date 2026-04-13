@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Items</name>
@@ -31,7 +31,7 @@
 		<setters>
 			<set name="category">Potions</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0.5">Â½ lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Uncommon</set>
 			<set name="stackable">true</set>
@@ -166,7 +166,7 @@
 				<li>You and any of your friends within 30 feet of you can't be frightened while you're not incapacitated.</li>
 			</ul>
 			<p class="indent"><strong><em>Sentience.</em></strong> <em>Orcsplitter</em> is a sentient, lawful good weapon with an Intelligence of 6, a Wisdom of 15, and a Charisma of 10. It can see and hear out to 120 feet and has darkvision. It communicates by transmitting emotions to its wielder, although on rare occasions it uses a limited form of telepathy to bring to the wielder's mind a couplet or stanza of ancient Dwarvish verse.</p>
-			<p class="indent"><strong><em>Personality.</em></strong> <em>Orcsplitter</em> is grim, taciturn, and inflexible. It knows little more than the desire to face orcs in battle and serve a courageous, just wielder. It disdains cowards and any form of duplicity, deception, or disloyalty. The weapon's purpose is to defend dwarves and to serve as a symbol of dwarven resolve. It hates the traditional foes of dwarvesâ€”giants, goblins, and, most of all, orcsâ€”and silently urges its possessor to meet such creatures in battle.</p>
+			<p class="indent"><strong><em>Personality.</em></strong> <em>Orcsplitter</em> is grim, taciturn, and inflexible. It knows little more than the desire to face orcs in battle and serve a courageous, just wielder. It disdains cowards and any form of duplicity, deception, or disloyalty. The weapon's purpose is to defend dwarves and to serve as a symbol of dwarven resolve. It hates the traditional foes of dwarves—giants, goblins, and, most of all, orcs—and silently urges its possessor to meet such creatures in battle.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
@@ -206,7 +206,7 @@
 	</element>
 	<element name="Ironfang" type="Magic Item" source="Princes of the Apocalypse" id="ID_WOTC_POTA_MAGIC_ITEM_IRONFANG">
 		<description>
-			<p>A war pick forged from a single piece of iron, Ironfang has a fang-like head inscribed with ancient runes. The pick is heavy in the hand, but when the wielder swings the pick in anger, the weapon seems almost weightless. This weapon is immune to any form of rust, acid, or corrosionâ€”nothing seems to mark it. Ironfang contains a spark of Ogremoch, the Prince of Evil Earth.</p>
+			<p>A war pick forged from a single piece of iron, Ironfang has a fang-like head inscribed with ancient runes. The pick is heavy in the hand, but when the wielder swings the pick in anger, the weapon seems almost weightless. This weapon is immune to any form of rust, acid, or corrosion—nothing seems to mark it. Ironfang contains a spark of Ogremoch, the Prince of Evil Earth.</p>
 			<p class="indent">You gain a +2 bonus to attack and damage rolls you make with this magic weapon. When you hit with it, the target takes an extra 1d8 thunder damage.</p>
 			<p class="indent"><strong><em>Earth Mastery.</em></strong> You gain the following benefits while you hold Ironfang:</p>
 			<ul>

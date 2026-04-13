@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
         <update version="0.0.3">
@@ -45,35 +45,35 @@
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" number="2">
 				<item id="1">Any group is only as strong as its weakest link. Everyone has to pull their own weight.</item>
-				<item id="2">Thereâ€™s always someone out there trying to take what Iâ€™ve got. Always be vigilent.</item>
+				<item id="2">There’s always someone out there trying to take what I’ve got. Always be vigilent.</item>
 				<item id="3">Anything can be learned if you have the right teacher. Most folks just need a chance.</item>
 				<item id="4">Early to bed and early to rise; this much at least is under my control.</item>
-				<item id="5">You can listen to me or donâ€™t and wish you had. Everyone ends up on one side of that fence.</item>
+				<item id="5">You can listen to me or don’t and wish you had. Everyone ends up on one side of that fence.</item>
 				<item id="6">Eventually my hard work will be rewarded. Maybe that time has finally come.</item>
-				<item id="7">A strong ox or horse is more reliable than most people Iâ€™ve met.</item>
+				<item id="7">A strong ox or horse is more reliable than most people I’ve met.</item>
 				<item id="8">I never had time for books, but wish I had. I admire folks who have taken the time to learn. </item>
 			</select>
 			<select type="List" name="Ideal">
 				<item id="1">Service: Using my talents to help others is the best way of helping myself. (Good)</item>
-				<item id="2">Selfish: What people donâ€™t know WILL hurt them, but why is that my problem? (Evil)</item>
-				<item id="3">Wanderer: I go where the road takes me. Sometimes thatâ€™s a good thingâ€¦ (Chaotic)</item>
+				<item id="2">Selfish: What people don’t know WILL hurt them, but why is that my problem? (Evil)</item>
+				<item id="3">Wanderer: I go where the road takes me. Sometimes that’s a good thing… (Chaotic)</item>
 				<item id="4">Fittest: On the open road, the law of nature wins. Victims are the unprepared. (Lawful)</item>
-				<item id="5">Focused: I simply have a job to do, and Iâ€™m going to do it. (Neutral)</item>
-				<item id="6">Motivated: Thereâ€™s a reason Iâ€™m good at what I do, I pay attention to the details. (Any)</item>
+				<item id="5">Focused: I simply have a job to do, and I’m going to do it. (Neutral)</item>
+				<item id="6">Motivated: There’s a reason I’m good at what I do, I pay attention to the details. (Any)</item>
 			</select>
 			<select type="List" name="Bond">
-				<item id="1">My brother has a farm In Elmwood and Iâ€™ve helped him and his neigbors move their goods to Mulmaster and other surrounding towns. Those are good people.</item>
+				<item id="1">My brother has a farm In Elmwood and I’ve helped him and his neigbors move their goods to Mulmaster and other surrounding towns. Those are good people.</item>
 				<item id="2">A caravan I lead was attacked by bandits and many innocents died. I swear that I will avenge them by killing any bandits I encounter.</item>
 				<item id="3">The Soldiery are mostly good guys who understand the importance of protecting the roads. The City Watch is who you have to look out for. If they are inspecting your goods, get ready to pay a fine.</item>
-				<item id="4">The new commander of Southroad Tower, Capt. Holke, understands the importance of safe roads. Heâ€™s hired me for several jobs and Iâ€™m grateful.</item>
-				<item id="5">Thereâ€™s always a road I havenâ€™t traveled before. Iâ€™m always looking for new places to explore.</item>
+				<item id="4">The new commander of Southroad Tower, Capt. Holke, understands the importance of safe roads. He’s hired me for several jobs and I’m grateful.</item>
+				<item id="5">There’s always a road I haven’t traveled before. I’m always looking for new places to explore.</item>
 				<item id="6">Wealth and power mean little without the freedom to go where and when you want.</item>
 			</select>
 			<select type="List" name="Flaw">
-				<item id="1">I have trouble trusting people Iâ€™ve just met.</item>
+				<item id="1">I have trouble trusting people I’ve just met.</item>
 				<item id="2">I enjoy the open road. Underground and tight spaces make me very nervous.</item>
-				<item id="3">I expect others to heed my orders and have little resepect or sympathy if they donâ€™t.</item>
-				<item id="4">I am very prideful and have trouble admitting when Iâ€™m wrong.</item>
+				<item id="3">I expect others to heed my orders and have little resepect or sympathy if they don’t.</item>
+				<item id="4">I am very prideful and have trouble admitting when I’m wrong.</item>
 				<item id="5">Once I decide on a course of action, I do not waiver.</item>
 				<item id="6">I like to explore, and my curiosity will sometimes get me into trouble.</item>
 			</select>
@@ -88,11 +88,11 @@
 	</element>
 	<element name="Earthspur Miner" type="Background" source="Adventurers League: Elemental Evil" id="ID_WOTC_ALEE_BACKGROUND_EARTHSPUR_MINER">
 		<description>
-			<p>You are a down-on your luck miner from the Earthspur Mountains who is no stranger to hardship. You have spent a great deal of time living among the dwarves, goliaths, and denizens of the Underdark that also work mines in the area. At this point, youâ€™re just as comfortable working underground as above. You know how to read a seam, dicker for supplies with the deep gnomes, party with dwarves, and find your way back to the surface afterwards. Unfortunately, you havenâ€™t struck it rich... yet. Although youâ€™ve come to Mulmaster looking for work, the tall peaks and deep mines of the Earthspurs still call to you.</p>
+			<p>You are a down-on your luck miner from the Earthspur Mountains who is no stranger to hardship. You have spent a great deal of time living among the dwarves, goliaths, and denizens of the Underdark that also work mines in the area. At this point, you’re just as comfortable working underground as above. You know how to read a seam, dicker for supplies with the deep gnomes, party with dwarves, and find your way back to the surface afterwards. Unfortunately, you haven’t struck it rich... yet. Although you’ve come to Mulmaster looking for work, the tall peaks and deep mines of the Earthspurs still call to you.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Athletics, Survival</li>
 				<li><strong>Languages:</strong> Dwarvish and Undercommon</li>
-				<li><strong>Equipment:</strong> A shovel or a minerâ€™s pick, a block and tackle, a climberâ€™s kit, a set of common clothes, and a belt pouch containing 5 gp.</li>
+				<li><strong>Equipment:</strong> A shovel or a miner’s pick, a block and tackle, a climber’s kit, a set of common clothes, and a belt pouch containing 5 gp.</li>
 				<li><strong>Lifestyle:</strong> Poor</li>
 			</ul>
 			<div element="ID_WOTC_ALEE_BACKGROUND_FEATURE_DEEP_MINER" />
@@ -112,15 +112,15 @@
 				<item id="2">I hate the horrors of the Underdark with a passion. They took my friends and family and almost got me.</item>
 				<item id="3">Anything worth doing takes time and patience. I have learned to plan and wait for the things I want and to be patient to achieve my goals.</item>
 				<item id="4">I can party with everyone. Whether with dwarves, or goliaths, or deep gnomes, I can find a way to have a good time.</item>
-				<item id="5">Iâ€™d rather be mining. This is okay; mining is better.</item>
+				<item id="5">I’d rather be mining. This is okay; mining is better.</item>
 				<item id="6">I think that I will stumble upon great riches if I just keep looking.</item>
-				<item id="7">People who donâ€™t work with their hands and who live in houses are soft and weak.</item>
+				<item id="7">People who don’t work with their hands and who live in houses are soft and weak.</item>
 				<item id="8">I wish I were more educated. I look up to people who are.</item>
 			</select>
 			<select type="List" name="Ideal">
 				<item id="1">Generosity: The riches of the earth are to be shared by all. (Good)</item>
 				<item id="2">Greed: Gems and precious metals, I want them all for myself. (Evil)</item>
-				<item id="3">Mooch: Property, schmoperty. If I need it, I take and use it. If I donâ€™t, I leave it for someone else. (Chaotic)</item>
+				<item id="3">Mooch: Property, schmoperty. If I need it, I take and use it. If I don’t, I leave it for someone else. (Chaotic)</item>
 				<item id="4">Boundaries: Everything and everyone has its prescribed place; I respect that and expect others to do the same. (Lawful)</item>
 				<item id="5">Let it Be: I don't meddle in the affairs of others if I can avoid it. They're none of my business. (Neutral)</item>
 				<item id="6">Materialist: I want riches to improve my life. (Any)</item>
@@ -217,7 +217,7 @@
 	<element name="Mulmaster Aristocrat" type="Background" source="Adventurers League: Elemental Evil" id="ID_WOTC_ALEE_BACKGROUND_MULMASTER_ARISTOCRAT">
 		<description>
 			<p>From your hilltop home, you have looked down (literally and perhaps figuratively) on the unwashed masses of Mulmaster for your entire life. Your fur-trimmed robes and training in the visual and performing arts mark you as wealthy and perhaps well-born; you are a member of the City of Danger's aristocracy.</p>
-			<p class="indent">None of your immediate family members sits on the Council of Blades or is even a Zor or Zoraâ€¦yet. Nevertheless, you are one of Mulmaster's elite, and whether you personally covet a higher standing or not, you are at home in the dance halls where the aristocracy gathers to plot, to scheme, to do business, to discuss the arts, and, above all, to see, and to be seen.</p>
+			<p class="indent">None of your immediate family members sits on the Council of Blades or is even a Zor or Zora…yet. Nevertheless, you are one of Mulmaster's elite, and whether you personally covet a higher standing or not, you are at home in the dance halls where the aristocracy gathers to plot, to scheme, to do business, to discuss the arts, and, above all, to see, and to be seen.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Deception, Performance</li>
 				<li><strong>Tool Proficiencies:</strong> One type of artistic artisan's tools and one musical instrument</li>
@@ -227,12 +227,12 @@
 			<div element="ID_WOTC_ALEE_BACKGROUND_FEATURE_HIGHBORN" />
 		</description>
 		<setters>
-			<set name="short">Deception, Performance, Artisanâ€™s Tool, Instrument</set>
+			<set name="short">Deception, Performance, Artisan’s Tool, Instrument</set>
 		</setters>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
-			<select type="Proficiency" name="Artisanâ€™s Tool, Mulmaster Aristocrat" supports="Artisan tools" />
+			<select type="Proficiency" name="Artisan’s Tool, Mulmaster Aristocrat" supports="Artisan tools" />
 			<select type="Proficiency" name="Musical Instrument, Mulmaster Aristocrat" supports="Musical Instrument" />
 			<grant type="Background Feature" id="ID_WOTC_ALEE_BACKGROUND_FEATURE_HIGHBORN" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
@@ -240,7 +240,7 @@
 				<item id="1">My ambitions are boundless. I will be a Zor or Zora one day!</item>
 				<item id="2">I must alwayss look my best.</item>
 				<item id="3">Beauty is everywhere. I can find it in even the homliest person and the most horrible tragedy.</item>
-				<item id="4">DÃ©corum must be preserved at all costs.</item>
+				<item id="4">Décorum must be preserved at all costs.</item>
 				<item id="5">I will not admit I am wrong if I can avoid it.</item>
 				<item id="6">I am extremely well-educated and frequently remind others of that fact.</item>
 				<item id="7">I take what I can today, because I do not know what tomorrow holds.</item>
@@ -255,12 +255,12 @@
 				<item id="6">Isolationist: I am concerned with the fortunes of my friends and family. Others must see to themselves. (Any)</item>
 			</select>
 			<select type="List" name="Bond">
-				<item id="1">I have dedicated my wealth and my talents to the service of one of the cityâ€™s many temples.</item>
+				<item id="1">I have dedicated my wealth and my talents to the service of one of the city’s many temples.</item>
 				<item id="2">My family and I are loyal supporters of High Blade Jaseen Drakehorn. Our fortunes are inexorably tied to hers. I would do anything to support her.</item>
 				<item id="3">Like many families who were close to High Blade Selfaril Uoumdolphin, mine has suffered greatly since his fall. We honor his memory in secret.</item>
 				<item id="4">My family plotted with Rassendyll Uoumdolphin brother usurped brother as High Blade. Betrayal is the quickest route to power.</item>
 				<item id="5">Wealth and power are nothing. Fulfillment can only be found in artistic expression.</item>
-				<item id="6">Itâ€™s not how you feel, who you know, or what you can do - itâ€™s how you look, and I look fabulous.</item>
+				<item id="6">It’s not how you feel, who you know, or what you can do - it’s how you look, and I look fabulous.</item>
 			</select>
 			<select type="List" name="Flaw">
 				<item id="1">I have difficulty caring about anyone or anything other than myself.</item>
@@ -281,35 +281,35 @@
 	</element>
 	<element name="Phlan Refugee" type="Background" source="Adventurers League: Elemental Evil" id="ID_WOTC_ALEE_BACKGROUND_PHLAN_REFUGEE">
 		<description>
-			<p>Gone are the happier days of walking into the Laughing Goblin Inn after a hard dayâ€™s labor. Everything has changed, and you are lucky to be alive. Back in Phlan you could count yourself among those street-wise folks who knew when to pay a bribe and who to work with to make a living. Your ability to listen to the winds of change have saved you before, and this time they allowed you to be one of the lucky few who escaped Phlan with something more than just the shirt on your back.</p>
+			<p>Gone are the happier days of walking into the Laughing Goblin Inn after a hard day’s labor. Everything has changed, and you are lucky to be alive. Back in Phlan you could count yourself among those street-wise folks who knew when to pay a bribe and who to work with to make a living. Your ability to listen to the winds of change have saved you before, and this time they allowed you to be one of the lucky few who escaped Phlan with something more than just the shirt on your back.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Insight, Athletics</li>
 				<li><strong>Tool Proficiencies:</strong> One type of Artisan tools</li>
 				<li><strong>Languages:</strong> One of your choosing</li>
-				<li><strong>Equipment:</strong> A set of artisanâ€™s tools (one of your choice), a token of the life you once knew, a set of travelerâ€™s clothes, and a belt pouch containing 15 gp</li>
+				<li><strong>Equipment:</strong> A set of artisan’s tools (one of your choice), a token of the life you once knew, a set of traveler’s clothes, and a belt pouch containing 15 gp</li>
 				<li><strong>Lifestyle:</strong> Modest</li>
 			</ul>
 			<div element="ID_WOTC_ALEE_BACKGROUND_FEATURE_PHLAN_SURVIVOR" />
 		</description>
 		<setters>
-			<set name="short">Insight, Athletics, Artisanâ€™s Tool, Language</set>
+			<set name="short">Insight, Athletics, Artisan’s Tool, Language</set>
 		</setters>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
-			<select type="Proficiency" name="Artisanâ€™s Tool, Phlan Refugee" supports="Artisan tools" />
+			<select type="Proficiency" name="Artisan’s Tool, Phlan Refugee" supports="Artisan tools" />
 			<select type="Language" name="Language, Phlan Refugee" supports="Standard||Exotic" />
 			<grant type="Background Feature" id="ID_WOTC_ALEE_BACKGROUND_FEATURE_PHLAN_SURVIVOR" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" number="2">
-				<item id="1">I may have lost everything I worked for most of my life, but thereâ€™s work to be done, no time to linger on the past.</item>
+				<item id="1">I may have lost everything I worked for most of my life, but there’s work to be done, no time to linger on the past.</item>
 				<item id="2">I worked hard to get where I am and I refuse to let a little hardship stop me from succeeding.</item>
 				<item id="3">I protect those around me, you never know when one of them will be useful.</item>
 				<item id="4">I have always gotten ahead by giving, why change now?</item>
 				<item id="5">I prepare for everything, it paid off in Phlan and it will pay off again.</item>
 				<item id="6">I will reclaim my home, though the path may be long, I will never give up hope.</item>
 				<item id="7">I never cared for personal hygiene, and am amazed that It bothers others.</item>
-				<item id="8">I am always willing to volunteer my services, just as long as donâ€™t have to do anything.</item>
+				<item id="8">I am always willing to volunteer my services, just as long as don’t have to do anything.</item>
 			</select>
 			<select type="List" name="Ideal">
 				<item id="1">Justice: Corruption brought Phlan down, I will not tolerate that any longer. (Lawful)</item>
@@ -325,7 +325,7 @@
 				<item id="3">I await the day I will be able to return to my home in Phlan.</item>
 				<item id="4">I will never forget the debt owed to Glevith of the Welcomers. I will be ready to repay that debt when called upon.</item>
 				<item id="5">There was someone I cared about in Phlan, I will find out what happened to them.</item>
-				<item id="6">Some say my life wasnâ€™t worth saving, I will prove them wrong.</item>
+				<item id="6">Some say my life wasn’t worth saving, I will prove them wrong.</item>
 			</select>
 			<select type="List" name="Flaw">
 				<item id="1">I used the lives of children to facilitate my escape from Phlan.</item>
@@ -333,7 +333,7 @@
 				<item id="3">I am incapable of standing up for myself.</item>
 				<item id="4">I will borrow money from friends with no intention to repay it.</item>
 				<item id="5">I am unable to keep secrets. A secret is just an untold story.</item>
-				<item id="6">When something goes wrong, itâ€™s never my fault.</item>
+				<item id="6">When something goes wrong, it’s never my fault.</item>
 			</select>
 		</rules>
 	</element>

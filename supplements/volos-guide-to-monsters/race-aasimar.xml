@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Aasimar</name>
@@ -8,7 +8,7 @@
 			<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/volos-guide-to-monsters/race-aasimar.xml" />
 		</update>
 	</info>
-	<element name="Aasimar" type="Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACE_AASIMAR">
+	<element name="Aasimar" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_AASIMAR">
 		<description>
 			<p class="flavor">Aasimar bear within their souls the light of the heavens. They are descended from humans with a touch of the power of Mount Celestia, the divine realm of many lawful good deities. Aasimar are born to serve as champions of the gods, their births hailed as blessed events. They are a people of otherworldly visages, with luminous features that reveal their celestial heritage.</p>
 			<h4>CELESTIAL CHAMPIONS</h4>
@@ -68,7 +68,7 @@
 		</rules>
 	</element>
 
-	<element name="Celestial Resistance" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_CELESTIAL_RESISTANCE">
+	<element name="Celestial Resistance" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_CELESTIAL_RESISTANCE">
 		<description>
 			<p>You have resistance to necrotic damage and radiant damage.</p>
 		</description>
@@ -81,7 +81,7 @@
 		</rules>
 	</element>
 
-	<element name="Healing Hands" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_HEALING_HANDS">
+	<element name="Healing Hands" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_HEALING_HANDS">
 		<description>
 			<p>As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.</p>
 		</description>
@@ -93,7 +93,7 @@
 		</rules>
 	</element>
 
-	<element name="Light Bearer" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_LIGHT_BEARER">
+	<element name="Light Bearer" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_LIGHT_BEARER">
 		<description>
 			<p>You know the light cantrip. Charisma is your spellcasting ability for it.</p>
 		</description>
@@ -105,7 +105,7 @@
 		</rules>
 	</element>
 
-	<element name="Aasimar Subrace" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_AASIMAR_SUBRACE">
+	<element name="Aasimar Subrace" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_AASIMAR_SUBRACE">
 		<description>
 			<p>Three subraces of aasimar exist: protector aasimar, scourge aasimar, and fallen aasimar. Choose one of them for your character.</p>
 		</description>
@@ -115,7 +115,7 @@
 		</rules>
 	</element>
 
-	<element name="Protector Aasimar" type="Sub Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_SUB_RACE_PROTECTOR_AASIMAR">
+	<element name="Protector Aasimar" type="Sub Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_SUB_RACE_PROTECTOR_AASIMAR">
 		<supports>Aasimar</supports>
 		<description>
 			<p>Protector aasimar are charged by the powers of good to guard the weak, to strike at evil wherever it arises, and to stand vigilant against the darkness. From a young age, a protector aasimar receives advice and directives that urge to stand against evil.</p>
@@ -132,7 +132,7 @@
 		</rules>
 	</element>
 
-	<element name="Radiant Soul" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_RACIAL_TRAIT_AASIMAR_RADIANT_SOUL">
+	<element name="Radiant Soul" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_RACIAL_TRAIT_AASIMAR_RADIANT_SOUL">
 		<description>
 			<p>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.</p>
 			<p>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.</p>
@@ -143,7 +143,7 @@
 		</sheet>
 	</element>
 
-	<element name="Scourge Aasimar" type="Sub Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_SUB_RACE_Scourge_AASIMAR">
+	<element name="Scourge Aasimar" type="Sub Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_SUB_RACE_Scourge_AASIMAR">
 		<supports>Aasimar</supports>
 		<description>
 			<p>Scourge aasimar are imbued with a divine energy that blazes intensely within them. It feeds a powerful desire to destroy evil-a desire that is, at its best, unflinching and, at its worst, all-consuming. Many scourge aasimar wear masks to block out the world and focus on containing this power, unmasking themselves only in battle.</p>
@@ -160,7 +160,7 @@
 		</rules>
 	</element>
 
-	<element name="Radiant Consumption" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_RACIAL_TRAIT_AASIMAR_RADIANT_CONSUMPTION">
+	<element name="Radiant Consumption" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_RACIAL_TRAIT_AASIMAR_RADIANT_CONSUMPTION">
 		<description>
 			<p>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.</p>
 			<p>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.</p>
@@ -171,7 +171,7 @@
 		</sheet>
 	</element>
 
-	<element name="Fallen Aasimar" type="Sub Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_SUB_RACE_FALLEN_AASIMAR">
+	<element name="Fallen Aasimar" type="Sub Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_SUB_RACE_FALLEN_AASIMAR">
 		<supports>Aasimar</supports>
 		<description>
 			<p>An aasimar who was touched by dark powers as a youth or who turns to evil in early adulthood can become one of the fallen-a group of aasimar whose inner light has been replaced by shadow.</p>
@@ -188,7 +188,7 @@
 		</rules>
 	</element>
 
-	<element name="Necrotic Shroud" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_RACIAL_TRAIT_AASIMAR_NECROTIC_SHROUD">
+	<element name="Necrotic Shroud" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_RACIAL_TRAIT_AASIMAR_NECROTIC_SHROUD">
 		<description>
 			<p>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn.</p>
 			<p class="indent">Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.</p>

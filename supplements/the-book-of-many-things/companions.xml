@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Companion</name>
@@ -13,7 +13,7 @@
 		<supports>Variant Familiar</supports>
 		<description>
 			<p>When a beloved animal companion dies traumatically alongside its master, the beast might rise again as an Undead. Falcons, ravens, and other birds of prey that suffer this fate are known as harrow hawks, and they prowl abandoned battlefields and cemeteries, looking for corpses to eat and living creatures to hunt. A harrow hawk can even travel the multiverse, flying magically from one world to another.</p>
-			<p class="indent">The Grim Harrowâ€”a band of Undead beings created by the Deck of Many Things (see chapter 19)â€”seeks out harrow hawks, capturing them and training them as hunting animals. The Grim Harrow dispatches these Undead companions from the Gardens of Decay to search for Decks of Many Things. On harrowing hunts, harrow hawks scout for the prey and accompany the Grim Harrow in battle.</p>
+			<p class="indent">The Grim Harrow—a band of Undead beings created by the Deck of Many Things (see chapter 19)—seeks out harrow hawks, capturing them and training them as hunting animals. The Grim Harrow dispatches these Undead companions from the Gardens of Decay to search for Decks of Many Things. On harrowing hunts, harrow hawks scout for the prey and accompany the Grim Harrow in battle.</p>
 		</description>
 		<setters>
 			<set name="size">Tiny</set>
@@ -32,7 +32,7 @@
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, poisoned</set>            
 			<set name="senses">darkvision 120 ft., passive Perception 16</set>
-			<set name="languages">â€”</set>
+			<set name="languages">—</set>
 			<set name="challenge">1</set>
 			<set name="actions">ID_WOTC_BOMT_COMPANION_ACTION_HARROW_HAWK_TALONS,ID_WOTC_BOMT_COMPANION_ACTION_HARROW_HAWK_PLANE_SHIFT,ID_WOTC_BOMT_COMPANION_ACTION_HARROW_HAWK_SHADOW_DASH</set>
 		</setters>

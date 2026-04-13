@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.1.1">
@@ -9,8 +9,8 @@
 		<description>
 			<h5 style="margin-top:-1em">WELCOME TO WATERDEEP!</h5>
 			<p><strong>A fantastic treasure trove is yours for the taking in this adventure for the world's greatest roleplaying game.</strong></p>
-			<p>Famed explorer Volothamp Geddarm needs you to complete a simple quest. Thus begins a mad romp through the wards of Waterdeep as you uncover a villainous plot involving some of the cityâ€™s most influential figures.</p>
-			<p>A grand urban caper awaits you. Pit your skill and bravado against villains the likes of which youâ€™ve never faced before, and let the dragon hunt begin!</p>
+			<p>Famed explorer Volothamp Geddarm needs you to complete a simple quest. Thus begins a mad romp through the wards of Waterdeep as you uncover a villainous plot involving some of the city’s most influential figures.</p>
+			<p>A grand urban caper awaits you. Pit your skill and bravado against villains the likes of which you’ve never faced before, and let the dragon hunt begin!</p>
 		</description>
 		<setters>
 			<set name="abbreviation">WDDH</set>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Idiomas</name>
@@ -33,11 +33,11 @@
 	<element name="Aquan" type="Language" source="Manual dos Monstros" id="ID_MM_LANGUAGE_AQUAN">
 		<supports>Monstro</supports>
 		<description>
-			<p>Normalmente falado por elementais da Ã¡gua.</p>
+			<p>Normalmente falado por elementais da água.</p>
 		</description>
 		<setters>
 			<set name="monster">true</set>
-			<set name="speakers">Elementais da Ã¡gua</set>
+			<set name="speakers">Elementais da água</set>
 			<set name="script"></set>
 		</setters>
 	</element>
@@ -66,7 +66,7 @@
 	<element name="Thri-kreen" type="Language" source="Manual dos Monstros" id="ID_MM_LANGUAGE_THRIKREEN">
 		<supports>Monstro</supports>
 		<description>
-			<p>Thri-kreen utilizam uma linguagem sem palavras. Para demonstrar emoÃ§Ã£o e reaÃ§Ã£o, um thri-kreen estala suas mandÃ­bulas e agita suas antenas, dando a outros thri-kreen uma ideia do que estÃ¡ pensando e sentindo. Outras criaturas acham essa forma de comunicaÃ§Ã£o difÃ­cil de interpretar e impossÃ­vel de duplicar.</p>
+			<p>Thri-kreen utilizam uma linguagem sem palavras. Para demonstrar emoção e reação, um thri-kreen estala suas mandíbulas e agita suas antenas, dando a outros thri-kreen uma ideia do que está pensando e sentindo. Outras criaturas acham essa forma de comunicação difícil de interpretar e impossível de duplicar.</p>
 		</description>
 		<setters>
 			<set name="monster">true</set>
@@ -133,7 +133,7 @@
 			<p>Normalmente falado por slaadi.</p>
 		</description>
 	</element>
-	<element name="EsfÃ­ngico" type="Language" source="Manual dos Monstros" id="ID_MM_LANGUAGE_SPHINX">
+	<element name="Esfíngico" type="Language" source="Manual dos Monstros" id="ID_MM_LANGUAGE_SPHINX">
 		<supports>Monstro</supports>
 		<description>
 			<p>Normalmente falado por esfinges.</p>
@@ -151,16 +151,16 @@
 			<p>Normalmente falado por yetis.</p>
 		</description>
 	</element>
-	<element name="CÃ£o Teleportador" type="Language" source="Manual dos Monstros" id="ID_MM_LANGUAGE_BLINK_DOG">
+	<element name="Cão Teleportador" type="Language" source="Manual dos Monstros" id="ID_MM_LANGUAGE_BLINK_DOG">
 		<supports>Monstro</supports>
 		<description>
-			<p>Normalmente falado por cÃ£es teleportadores.</p>
+			<p>Normalmente falado por cães teleportadores.</p>
 		</description>
 	</element>
-	<element name="Ãguia Gigante" type="Language" source="Manual dos Monstros" id="ID_MM_LANGUAGE_GIANT_EAGLE">
+	<element name="Águia Gigante" type="Language" source="Manual dos Monstros" id="ID_MM_LANGUAGE_GIANT_EAGLE">
 		<supports>Monstro</supports>
 		<description>
-			<p>Normalmente falado por Ã¡guias gigantes.</p>
+			<p>Normalmente falado por águias gigantes.</p>
 		</description>
 	</element>
 	<element name="Alce Gigante" type="Language" source="Manual dos Monstros" id="ID_MM_LANGUAGE_GIANT_ELK">

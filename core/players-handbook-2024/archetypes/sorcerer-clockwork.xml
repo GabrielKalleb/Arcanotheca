@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>FeitiÃ§aria MecÃ¢nica</name>
-		<description>A subclasse FeitiÃ§aria MecÃ¢nica do Livro do Jogador 2024.</description>
+		<name>Feitiçaria Mecânica</name>
+		<description>A subclasse Feitiçaria Mecânica do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/sorcerer-clockwork.xml" />
 		</update>
 	</info>
 
-	<element name="FeitiÃ§aria MecÃ¢nica" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_CLOCKWORK_SORCERY">
+	<element name="Feitiçaria Mecânica" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_CLOCKWORK_SORCERY">
 		<supports>Sorcerer Subclass</supports>
 		<description>
-			<p class="flavor">Canalize ForÃ§as CÃ³smicas da Ordem</p>
-			<p>A forÃ§a cÃ³smica da ordem impregnou vocÃª com magia. Esse poder surge de Mechanus ou um reino semelhanteâ€”um plano de existÃªncia moldado inteiramente pela eficiÃªncia mecÃ¢nica. VocÃª ou alguÃ©m da sua linhagem pode ter se envolvido nas maquinaÃ§Ãµes dos modrons, os seres ordenados que habitam Mechanus. Talvez seu ancestral tenha atÃ© participado da Grande Marcha Modron. Independentemente de sua origem dentro de vocÃª, o poder da ordem pode parecer estranho para os outros, mas para vocÃª, faz parte de um vasto e glorioso sistema.</p>
+			<p class="flavor">Canalize Forças Cósmicas da Ordem</p>
+			<p>A força cósmica da ordem impregnou você com magia. Esse poder surge de Mechanus ou um reino semelhante—um plano de existência moldado inteiramente pela eficiência mecânica. Você ou alguém da sua linhagem pode ter se envolvido nas maquinações dos modrons, os seres ordenados que habitam Mechanus. Talvez seu ancestral tenha até participado da Grande Marcha Modron. Independentemente de sua origem dentro de você, o poder da ordem pode parecer estranho para os outros, mas para você, faz parte de um vasto e glorioso sistema.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_MAGIC" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_RESTORE_BALANCE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_BASTION_OF_LAW" />
@@ -30,32 +30,32 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Magia MecÃ¢nica" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_MAGIC">
+	<element name="Nível 3: Magia Mecânica" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_MAGIC">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_MAGIC</requirements>
 		<description>
-			<p>Quando vocÃª atinge um nÃ­vel de Feiticeiro especificado na tabela Magias MecÃ¢nicas, vocÃª a partir de entÃ£o sempre terÃ¡ as magias listadas preparadas.</p>
-			<h5>Magias MecÃ¢nicas</h5>
+			<p>Quando você atinge um nível de Feiticeiro especificado na tabela Magias Mecânicas, você a partir de então sempre terá as magias listadas preparadas.</p>
+			<h5>Magias Mecânicas</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-30">NÃ­vel de Feiticeiro</td><td class="left">Magias</td></tr>
+					<tr><td class="col-30">Nível de Feiticeiro</td><td class="left">Magias</td></tr>
 				</thead>
-				<tr><td>3</td><td class="left"><em>AuxÃ­lio, Alarme, RestauraÃ§Ã£o Menor, ProteÃ§Ã£o contra o Bem e o Mal</em></td></tr>
-				<tr><td>5</td><td class="left"><em>Dissipar Magia, ProteÃ§Ã£o contra Energia</em></td></tr>
-				<tr><td>7</td><td class="left"><em>MovimentaÃ§Ã£o Livre, Invocar Construto</em></td></tr>
-				<tr><td>9</td><td class="left"><em>RestauraÃ§Ã£o Maior, Muralha de Energia</em></td></tr>
+				<tr><td>3</td><td class="left"><em>Auxílio, Alarme, Restauração Menor, Proteção contra o Bem e o Mal</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Dissipar Magia, Proteção contra Energia</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Movimentação Livre, Invocar Construto</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Restauração Maior, Muralha de Energia</em></td></tr>
 			</table>
-			<p>AlÃ©m disso, consulte a tabela ManifestaÃ§Ãµes da Ordem e escolha ou determine aleatoriamente uma forma de como a sua conexÃ£o com a ordem se manifesta enquanto vocÃª conjura qualquer das suas magias de Feiticeiro.</p>
-			<h5>ManifestaÃ§Ãµes da Ordem</h5>
+			<p>Além disso, consulte a tabela Manifestações da Ordem e escolha ou determine aleatoriamente uma forma de como a sua conexão com a ordem se manifesta enquanto você conjura qualquer das suas magias de Feiticeiro.</p>
+			<h5>Manifestações da Ordem</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-10">1d6</td><td class="left">ManifestaÃ§Ã£o</td></tr>
+					<tr><td class="col-10">1d6</td><td class="left">Manifestação</td></tr>
 				</thead>
-				<tr><td>1</td><td class="left">Engrenagens espectrais pairam atrÃ¡s de vocÃª.</td></tr>
-				<tr><td>2</td><td class="left">Os ponteiros de um relÃ³gio giram em seus olhos.</td></tr>
-				<tr><td>3</td><td class="left">A sua pele brilha com um tom de latÃ£o.</td></tr>
-				<tr><td>4</td><td class="left">EquaÃ§Ãµes flutuantes e objetos geomÃ©tricos cobrem o seu corpo.</td></tr>
-				<tr><td>5</td><td class="left">O seu Foco de ConjuraÃ§Ã£o toma temporariamente a forma de um mecanismo mecÃ¢nico MiÃºdo.</td></tr>
-				<tr><td>6</td><td class="left">O tique-taque de engrenagens ou o toque de um relÃ³gio pode ser ouvido por vocÃª e por aqueles afetados pela sua magia.</td></tr>
+				<tr><td>1</td><td class="left">Engrenagens espectrais pairam atrás de você.</td></tr>
+				<tr><td>2</td><td class="left">Os ponteiros de um relógio giram em seus olhos.</td></tr>
+				<tr><td>3</td><td class="left">A sua pele brilha com um tom de latão.</td></tr>
+				<tr><td>4</td><td class="left">Equações flutuantes e objetos geométricos cobrem o seu corpo.</td></tr>
+				<tr><td>5</td><td class="left">O seu Foco de Conjuração toma temporariamente a forma de um mecanismo mecânico Miúdo.</td></tr>
+				<tr><td>6</td><td class="left">O tique-taque de engrenagens ou o toque de um relógio pode ser ouvido por você e por aqueles afetados pela sua magia.</td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -73,14 +73,14 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Restaurar o EquilÃ­brio" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_RESTORE_BALANCE">
+	<element name="Nível 3: Restaurar o Equilíbrio" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_RESTORE_BALANCE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_RESTORE_BALANCE</requirements>
 		<description>
-			<p>A sua conexÃ£o com o plano de absoluta ordem permite que vocÃª iguale momentos caÃ³ticos. Quando uma criatura que vocÃª possa ver a atÃ© 18 metros (60 pÃ©s) de vocÃª estiver prestes a rolar um d20 com Vantagem ou Desvantagem, vocÃª pode usar uma ReaÃ§Ã£o para evitar que a rolagem seja afetada por Vantagem e Desvantagem.</p>
-			<p class="indent">VocÃª pode usar esta caracterÃ­stica um nÃºmero de vezes igual ao seu modificador de Carisma (mÃ­nimo de uma vez), e vocÃª recupera todos os usos gastos quando termina um Descanso Longo.</p>
+			<p>A sua conexão com o plano de absoluta ordem permite que você iguale momentos caóticos. Quando uma criatura que você possa ver a até 18 metros (60 pés) de você estiver prestes a rolar um d20 com Vantagem ou Desvantagem, você pode usar uma Reação para evitar que a rolagem seja afetada por Vantagem e Desvantagem.</p>
+			<p class="indent">Você pode usar esta característica um número de vezes igual ao seu modificador de Carisma (mínimo de uma vez), e você recupera todos os usos gastos quando termina um Descanso Longo.</p>
 		</description>
-		<sheet alt="Restaurar o EquilÃ­brio" action="ReaÃ§Ã£o" usage="{{restore balance:usage}}/Descanso Longo">
-			<description>Quando uma criatura que vocÃª possa ver a atÃ© 18 metros de vocÃª for rolar um d20 com Vantagem ou Desvantagem, vocÃª pode evitar que a rolagem seja afetada por Vantagem e Desvantagem.</description>
+		<sheet alt="Restaurar o Equilíbrio" action="Reação" usage="{{restore balance:usage}}/Descanso Longo">
+			<description>Quando uma criatura que você possa ver a até 18 metros de você for rolar um d20 com Vantagem ou Desvantagem, você pode evitar que a rolagem seja afetada por Vantagem e Desvantagem.</description>
 		</sheet>
 		<rules>
 			<stat name="restore balance:usage" value="1" bonus="base" />
@@ -88,43 +88,43 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 6: BastiÃ£o da Lei" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_BASTION_OF_LAW">
+	<element name="Nível 6: Bastião da Lei" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_BASTION_OF_LAW">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_BASTION_OF_LAW</requirements>
 		<description>
-			<p>VocÃª pode acessar a grandiosa equaÃ§Ã£o da existÃªncia para imbuir uma criatura com um escudo cintilante da ordem. Como uma AÃ§Ã£o MÃ¡gica, vocÃª pode gastar 1 a 5 Pontos de FeitiÃ§aria para criar uma proteÃ§Ã£o mÃ¡gica em torno de si mesmo ou de outra criatura que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) de vocÃª. A proteÃ§Ã£o Ã© representada por um nÃºmero de d8s igual ao nÃºmero de Pontos de FeitiÃ§aria gastos para criÃ¡-la. Quando a criatura protegida sofrer dano, ela pode gastar uma quantidade desses dados, rolÃ¡-los e reduzir o dano sofrido pelo total rolado nesses dados.</p>
-			<p class="indent">A proteÃ§Ã£o dura atÃ© vocÃª terminar um Descanso Longo ou atÃ© vocÃª usar esta caracterÃ­stica novamente.</p>
+			<p>Você pode acessar a grandiosa equação da existência para imbuir uma criatura com um escudo cintilante da ordem. Como uma Ação Mágica, você pode gastar 1 a 5 Pontos de Feitiçaria para criar uma proteção mágica em torno de si mesmo ou de outra criatura que você possa ver a até 9 metros (30 pés) de você. A proteção é representada por um número de d8s igual ao número de Pontos de Feitiçaria gastos para criá-la. Quando a criatura protegida sofrer dano, ela pode gastar uma quantidade desses dados, rolá-los e reduzir o dano sofrido pelo total rolado nesses dados.</p>
+			<p class="indent">A proteção dura até você terminar um Descanso Longo ou até você usar esta característica novamente.</p>
 		</description>
-		<sheet alt="BastiÃ£o da Lei" action="AÃ§Ã£o" usage="1-5 Pontos de FeitiÃ§aria">
-			<description>VocÃª pode criar uma proteÃ§Ã£o mÃ¡gica em vocÃª ou outra criatura a atÃ© 9m de vocÃª. A proteÃ§Ã£o possui d8s igual aos Pontos de FeitiÃ§aria gastos. Ao sofrer dano, a criatura protegida pode gastar uma quantidade desses dados, rolÃ¡-los e reduzir o dano sofrido por esse total. A proteÃ§Ã£o dura atÃ© vocÃª terminar um Descanso Longo ou usÃ¡-la novamente.</description>
+		<sheet alt="Bastião da Lei" action="Ação" usage="1-5 Pontos de Feitiçaria">
+			<description>Você pode criar uma proteção mágica em você ou outra criatura a até 9m de você. A proteção possui d8s igual aos Pontos de Feitiçaria gastos. Ao sofrer dano, a criatura protegida pode gastar uma quantidade desses dados, rolá-los e reduzir o dano sofrido por esse total. A proteção dura até você terminar um Descanso Longo ou usá-la novamente.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 14: Transe da Ordem" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_TRANCE_OF_ORDER">
+	<element name="Nível 14: Transe da Ordem" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_TRANCE_OF_ORDER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_TRANCE_OF_ORDER</requirements>
 		<description>
-			<p>VocÃª ganha a habilidade de alinhar a sua consciÃªncia com os cÃ¡lculos interminÃ¡veis de Mechanus. Como uma AÃ§Ã£o BÃ´nus, vocÃª pode entrar nesse estado por 1 minuto. Pela duraÃ§Ã£o, jogadas de ataque contra vocÃª nÃ£o podem se beneficiar de Vantagem, e sempre que fizer um Teste de D20, vocÃª pode tratar um resultado de 9 ou inferior no d20 como um 10.</p>
-			<p class="indent">Depois de usar esta caracterÃ­stica, vocÃª nÃ£o pode usÃ¡-la novamente atÃ© terminar um Descanso Longo a nÃ£o ser que gaste 5 Pontos de FeitiÃ§aria (nÃ£o requer aÃ§Ã£o) para restaurar o seu uso.</p>
+			<p>Você ganha a habilidade de alinhar a sua consciência com os cálculos intermináveis de Mechanus. Como uma Ação Bônus, você pode entrar nesse estado por 1 minuto. Pela duração, jogadas de ataque contra você não podem se beneficiar de Vantagem, e sempre que fizer um Teste de D20, você pode tratar um resultado de 9 ou inferior no d20 como um 10.</p>
+			<p class="indent">Depois de usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo a não ser que gaste 5 Pontos de Feitiçaria (não requer ação) para restaurar o seu uso.</p>
 		</description>
-		<sheet alt="Transe da Ordem" action="AÃ§Ã£o BÃ´nus" usage="1/Descanso Longo">
-			<description>Por 1 minuto, jogadas de ataque contra vocÃª nÃ£o podem usar Vantagem, e ao fazer um Teste de D20, trate resultados de 9 ou inferiores no d20 como se fossem 10. &#13;
-			VocÃª pode gastar 5 Pontos de FeitiÃ§aria para restaurar o uso.</description>
+		<sheet alt="Transe da Ordem" action="Ação Bônus" usage="1/Descanso Longo">
+			<description>Por 1 minuto, jogadas de ataque contra você não podem usar Vantagem, e ao fazer um Teste de D20, trate resultados de 9 ou inferiores no d20 como se fossem 10. &#13;
+			Você pode gastar 5 Pontos de Feitiçaria para restaurar o uso.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 18: Cavalgada MecÃ¢nica" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_CAVALCADE">
+	<element name="Nível 18: Cavalgada Mecânica" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_CAVALCADE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_CAVALCADE</requirements>
 		<description>
-			<p>VocÃª invoca momentaneamente os espÃ­ritos da ordem para expurgar a desordem ao seu redor. Como uma AÃ§Ã£o MÃ¡gica, vocÃª invoca os espÃ­ritos em um Cubo de 9 metros (30 pÃ©s) originando de vocÃª. Os espÃ­ritos parecem modrons ou outros Construtos da sua escolha. Os espÃ­ritos sÃ£o intangÃ­veis e invulnerÃ¡veis, e eles criam os efeitos abaixo dentro do Cubo antes de sumirem. Uma vez que usar essa aÃ§Ã£o, vocÃª nÃ£o pode usÃ¡-la de novo atÃ© terminar um Descanso Longo a nÃ£o ser que gaste 7 Pontos de FeitiÃ§aria (nÃ£o requer aÃ§Ã£o) para restaurar o seu uso.</p>
-			<p class="indent"><em><strong>Curar.</strong></em> Os espÃ­ritos restauram atÃ© 100 Pontos de Vida, divididos como vocÃª escolher entre qualquer nÃºmero de criaturas de sua escolha dentro do Cubo.</p>
-			<p class="indent"><em><strong>Reparar.</strong></em> Quaisquer objetos danificados inteiramente dentro do Cubo sÃ£o reparados instantaneamente.</p>
-			<p class="indent"><em><strong>Dissipar.</strong></em> Todas as magias de nÃ­vel 6 e inferiores se encerram em criaturas e objetos de sua escolha dentro do Cubo.</p>
+			<p>Você invoca momentaneamente os espíritos da ordem para expurgar a desordem ao seu redor. Como uma Ação Mágica, você invoca os espíritos em um Cubo de 9 metros (30 pés) originando de você. Os espíritos parecem modrons ou outros Construtos da sua escolha. Os espíritos são intangíveis e invulneráveis, e eles criam os efeitos abaixo dentro do Cubo antes de sumirem. Uma vez que usar essa ação, você não pode usá-la de novo até terminar um Descanso Longo a não ser que gaste 7 Pontos de Feitiçaria (não requer ação) para restaurar o seu uso.</p>
+			<p class="indent"><em><strong>Curar.</strong></em> Os espíritos restauram até 100 Pontos de Vida, divididos como você escolher entre qualquer número de criaturas de sua escolha dentro do Cubo.</p>
+			<p class="indent"><em><strong>Reparar.</strong></em> Quaisquer objetos danificados inteiramente dentro do Cubo são reparados instantaneamente.</p>
+			<p class="indent"><em><strong>Dissipar.</strong></em> Todas as magias de nível 6 e inferiores se encerram em criaturas e objetos de sua escolha dentro do Cubo.</p>
 		</description>
-		<sheet alt="Cavalgada MecÃ¢nica" action="AÃ§Ã£o" usage="1/Descanso Longo">
-			<description>VocÃª produz magicamente os seguintes efeitos dentro de um Cubo de 9m originando de vocÃª: &#13;
-			â€¢ Restaura atÃ© 100 PVs, divididos como vocÃª escolher entre criaturas Ã  sua escolha. &#13;
-			â€¢ Objetos danificados sÃ£o reparados instantaneamente. &#13;
-			â€¢ Todas as magias de nÃ­vel 6 e inferior terminam em criaturas e objetos de sua escolha. &#13;
-			VocÃª pode gastar 7 Pontos de FeitiÃ§aria para restaurar o uso.</description>
+		<sheet alt="Cavalgada Mecânica" action="Ação" usage="1/Descanso Longo">
+			<description>Você produz magicamente os seguintes efeitos dentro de um Cubo de 9m originando de você: &#13;
+			• Restaura até 100 PVs, divididos como você escolher entre criaturas à sua escolha. &#13;
+			• Objetos danificados são reparados instantaneamente. &#13;
+			• Todas as magias de nível 6 e inferior terminam em criaturas e objetos de sua escolha. &#13;
+			Você pode gastar 7 Pontos de Feitiçaria para restaurar o uso.</description>
 		</sheet>
 	</element>
 

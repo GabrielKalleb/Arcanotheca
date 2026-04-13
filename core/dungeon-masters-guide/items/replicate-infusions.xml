@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -7,7 +7,7 @@
 	</info>
 	
 	<!-- 2nd-level -->
-	<element name="Alchemy Jug" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ALCHEMY_JUG">
+	<element name="Alchemy Jug" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ALCHEMY_JUG">
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>2nd-level artificer</prerequisite>
 		<requirements>[level:2]</requirements>
@@ -22,7 +22,7 @@
 			<description>Using this infusion, you can replicate an Alchemy Jug.</description>
 		</sheet>		
 	</element>
-	<element name="Bag of Holding" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BAG_OF_HOLDING">		
+	<element name="Bag of Holding" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BAG_OF_HOLDING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>2nd-level artificer</prerequisite>
 		<requirements>[level:2]</requirements>
@@ -37,7 +37,7 @@
 			<description>Using this infusion, you can replicate a Bag of Holding.</description>
 		</sheet>		
 	</element>
-	<element name="Cap of Water Breathing" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CAP_OF_WATER_BREATHING">		
+	<element name="Cap of Water Breathing" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CAP_OF_WATER_BREATHING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>2nd-level artificer</prerequisite>
 		<requirements>[level:2]</requirements>
@@ -52,7 +52,7 @@
 			<description>Using this infusion, you can replicate a Cap of Water Breathing.</description>
 		</sheet>		
 	</element>
-	<element name="Goggles of Night" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GOGGLES_OF_NIGHT">		
+	<element name="Goggles of Night" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GOGGLES_OF_NIGHT">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>2nd-level artificer</prerequisite>
 		<requirements>[level:2]</requirements>
@@ -67,7 +67,7 @@
 			<description>Using this infusion, you can replicate Goggles of Night.</description>
 		</sheet>		
 	</element>
-	<element name="Rope of Climbing" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ROPE_OF_CLIMBING">		
+	<element name="Rope of Climbing" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ROPE_OF_CLIMBING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>2nd-level artificer</prerequisite>
 		<requirements>[level:2]</requirements>
@@ -82,7 +82,7 @@
 			<description>Using this infusion, you can replicate a Rope of Climbing.</description>
 		</sheet>		
 	</element>
-	<element name="Sending Stones" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SENDING_STONES">		
+	<element name="Sending Stones" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SENDING_STONES">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>2nd-level artificer</prerequisite>
 		<requirements>[level:2]</requirements>
@@ -97,7 +97,7 @@
 			<description>Using this infusion, you can replicate Sending Stones.</description>
 		</sheet>		
 	</element>
-	<element name="Wand of Magic Detection" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_MAGIC_DETECTION">		
+	<element name="Wand of Magic Detection" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_MAGIC_DETECTION">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>2nd-level artificer</prerequisite>
 		<requirements>[level:2]</requirements>
@@ -112,7 +112,7 @@
 			<description>Using this infusion, you can replicate a Wand of Magic Detection.</description>
 		</sheet>		
 	</element>
-	<element name="Wand of Secrets" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_SECRETS">		
+	<element name="Wand of Secrets" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_SECRETS">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>2nd-level artificer</prerequisite>
 		<requirements>[level:2]</requirements>
@@ -129,7 +129,7 @@
 	</element>
 
 	<!-- 6th-level -->
-	<element name="Boots of Elvenkind" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_ELVENKIND">		
+	<element name="Boots of Elvenkind" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_ELVENKIND">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>6th-level artificer</prerequisite>
 		<requirements>[level:6]</requirements>
@@ -144,7 +144,7 @@
 			<description>Using this infusion, you can replicate Boots of Elvenkind.</description>
 		</sheet>		
 	</element>
-	<element name="Cloak of Elvenkind" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_ELVENKIND">		
+	<element name="Cloak of Elvenkind" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_ELVENKIND">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>6th-level artificer</prerequisite>
 		<requirements>[level:6]</requirements>
@@ -159,7 +159,7 @@
 			<description>Using this infusion, you can replicate a Cloak of Elvenkind.</description>
 		</sheet>		
 	</element>
-	<element name="Cloak of the Manta Ray" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_THE_MANTA_RAY">		
+	<element name="Cloak of the Manta Ray" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_THE_MANTA_RAY">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>6th-level artificer</prerequisite>
 		<requirements>[level:6]</requirements>
@@ -174,7 +174,7 @@
 			<description>Using this infusion, you can replicate a Cloak of the Manta Ray.</description>
 		</sheet>		
 	</element>
-	<element name="Eyes of Charming" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EYES_OF_CHARMING">		
+	<element name="Eyes of Charming" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EYES_OF_CHARMING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>6th-level artificer</prerequisite>
 		<requirements>[level:6]</requirements>
@@ -189,7 +189,7 @@
 			<description>Using this infusion, you can replicate Eyes of Charming.</description>
 		</sheet>		
 	</element>
-	<element name="Gloves of Thievery" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GLOVES_OF_THIEVERY">		
+	<element name="Gloves of Thievery" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GLOVES_OF_THIEVERY">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>6th-level artificer</prerequisite>
 		<requirements>[level:6]</requirements>
@@ -204,7 +204,7 @@
 			<description>Using this infusion, you can replicate Gloves of Thievery.</description>
 		</sheet>		
 	</element>
-	<element name="Lantern of Revealing" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_LANTERN_OF_REVEALING">		
+	<element name="Lantern of Revealing" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_LANTERN_OF_REVEALING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>6th-level artificer</prerequisite>
 		<requirements>[level:6]</requirements>
@@ -219,7 +219,7 @@
 			<description>Using this infusion, you can replicate a Lantern of Revealing.</description>
 		</sheet>		
 	</element>
-	<element name="Pipes of Haunting" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PIPES_OF_HAUNTING">		
+	<element name="Pipes of Haunting" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PIPES_OF_HAUNTING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>6th-level artificer</prerequisite>
 		<requirements>[level:6]</requirements>
@@ -234,7 +234,7 @@
 			<description>Using this infusion, you can replicate Pipes of Haunting.</description>
 		</sheet>		
 	</element>
-	<element name="Ring of Water Walking" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_WATER_WALKING">		
+	<element name="Ring of Water Walking" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_WATER_WALKING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>6th-level artificer</prerequisite>
 		<requirements>[level:6]</requirements>
@@ -251,7 +251,7 @@
 	</element>
 
 	<!-- 10th-level -->
-	<element name="Boots of Striding and Springing" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_STRIDING_AND_SPRINGING">	
+	<element name="Boots of Striding and Springing" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_STRIDING_AND_SPRINGING">	
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -266,7 +266,7 @@
 			<description>Using this infusion, you can replicate Boots of Striding and Springing.</description>
 		</sheet>		
 	</element>
-	<element name="Boots of the Winterlands" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_THE_WINTERLANDS">		
+	<element name="Boots of the Winterlands" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_THE_WINTERLANDS">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -281,7 +281,7 @@
 			<description>Using this infusion, you can replicate Boots of the Winterlands.</description>
 		</sheet>		
 	</element>
-	<element name="Bracers of Archery" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BRACERS_OF_ARCHERY">		
+	<element name="Bracers of Archery" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BRACERS_OF_ARCHERY">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -296,7 +296,7 @@
 			<description>Using this infusion, you can replicate Bracers of Archery.</description>
 		</sheet>		
 	</element>
-	<element name="Brooch of Shielding" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BROOCH_OF_SHIELDING">		
+	<element name="Brooch of Shielding" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BROOCH_OF_SHIELDING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -311,7 +311,7 @@
 			<description>Using this infusion, you can replicate a Brooch of Shielding.</description>
 		</sheet>		
 	</element>
-	<element name="Cloak of Protection" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_PROTECTION">		
+	<element name="Cloak of Protection" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_PROTECTION">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -326,7 +326,7 @@
 			<description>Using this infusion, you can replicate a Cloak of Protection.</description>
 		</sheet>		
 	</element>
-	<element name="Eyes of the Eagle" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EYES_OF_THE_EAGLE">		
+	<element name="Eyes of the Eagle" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EYES_OF_THE_EAGLE">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -341,7 +341,7 @@
 			<description>Using this infusion, you can replicate Eyes of the Eagle.</description>
 		</sheet>		
 	</element>
-	<element name="Gauntlets of Ogre Power" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GAUNTLETS_OF_OGRE_POWER">		
+	<element name="Gauntlets of Ogre Power" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GAUNTLETS_OF_OGRE_POWER">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -356,7 +356,7 @@
 			<description>Using this infusion, you can replicate Gauntlets of Ogre Power.</description>
 		</sheet>		
 	</element>
-	<element name="Gloves of Missile Snaring" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GLOVES_OF_MISSILE_SNARING">		
+	<element name="Gloves of Missile Snaring" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GLOVES_OF_MISSILE_SNARING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -371,7 +371,7 @@
 			<description>Using this infusion, you can replicate Gloves of Missile Snaring.</description>
 		</sheet>		
 	</element>
-	<element name="Gloves of Swimming and Climbing" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GLOVES_OF_SWIMMING_AND_CLIMBING">		
+	<element name="Gloves of Swimming and Climbing" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GLOVES_OF_SWIMMING_AND_CLIMBING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -386,7 +386,7 @@
 			<description>Using this infusion, you can replicate Gloves of Swimming and Climbing.</description>
 		</sheet>		
 	</element>
-	<element name="Hat of Disguise" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HAT_OF_DISGUISE">		
+	<element name="Hat of Disguise" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HAT_OF_DISGUISE">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -401,7 +401,7 @@
 			<description>Using this infusion, you can replicate a Hat of Disguise.</description>
 		</sheet>		
 	</element>
-	<element name="Headband of Intellect" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HEADBAND_OF_INTELLECT">		
+	<element name="Headband of Intellect" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HEADBAND_OF_INTELLECT">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -416,7 +416,7 @@
 			<description>Using this infusion, you can replicate a Headband of Intellect.</description>
 		</sheet>		
 	</element>
-	<element name="Helm of Telepathy" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HELM_OF_TELEPATHY">		
+	<element name="Helm of Telepathy" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HELM_OF_TELEPATHY">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -431,7 +431,7 @@
 			<description>Using this infusion, you can replicate a Helm of Telepathy.</description>
 		</sheet>		
 	</element>
-	<element name="Medallion of Thoughts" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_MEDALLION_OF_THOUGHTS">		
+	<element name="Medallion of Thoughts" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_MEDALLION_OF_THOUGHTS">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -446,7 +446,7 @@
 			<description>Using this infusion, you can replicate a Medallion of Thoughts.</description>
 		</sheet>		
 	</element>
-	<element name="Necklace of Adaptation" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_NECKLACE_OF_ADAPTATION">		
+	<element name="Necklace of Adaptation" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_NECKLACE_OF_ADAPTATION">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -461,7 +461,7 @@
 			<description>Using this infusion, you can replicate a Necklace of Adaptation.</description>
 		</sheet>		
 	</element>
-	<element name="Periapt of Wound Closure" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PERIAPT_OF_WOUND_CLOSURE">		
+	<element name="Periapt of Wound Closure" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PERIAPT_OF_WOUND_CLOSURE">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -476,7 +476,7 @@
 			<description>Using this infusion, you can replicate a Periapt of Wound Closure.</description>
 		</sheet>		
 	</element>
-	<element name="Pipes of the Sewers" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PIPES_OF_THE_SEWERS">		
+	<element name="Pipes of the Sewers" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PIPES_OF_THE_SEWERS">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -491,7 +491,7 @@
 			<description>Using this infusion, you can replicate Pipes of the Sewers.</description>
 		</sheet>		
 	</element>
-	<element name="Quiver of Ehlonna" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_QUIVER_OF_EHLONNA">		
+	<element name="Quiver of Ehlonna" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_QUIVER_OF_EHLONNA">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -506,7 +506,7 @@
 			<description>Using this infusion, you can replicate a Quiver of Ehlonna.</description>
 		</sheet>		
 	</element>
-	<element name="Ring of Jumping" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_JUMPING">		
+	<element name="Ring of Jumping" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_JUMPING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -521,7 +521,7 @@
 			<description>Using this infusion, you can replicate a Ring of Jumping.</description>
 		</sheet>		
 	</element>
-	<element name="Ring of Mind Shielding" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_MIND_SHIELDING">		
+	<element name="Ring of Mind Shielding" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_MIND_SHIELDING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -536,7 +536,7 @@
 			<description>Using this infusion, you can replicate a Ring of Mind Shielding.</description>
 		</sheet>		
 	</element>
-	<element name="Slippers of Spider Climbing" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SLIPPERS_OF_SPIDER_CLIMBING">		
+	<element name="Slippers of Spider Climbing" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SLIPPERS_OF_SPIDER_CLIMBING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -552,7 +552,7 @@
 		</sheet>		
 	</element>
 
-	<element name="Winged Boots" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WINGED_BOOTS">		
+	<element name="Winged Boots" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WINGED_BOOTS">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
@@ -570,7 +570,7 @@
 
 
 	<!-- 14th-level -->
-	<element name="Amulet of Health" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_AMULET_OF_HEALTH">		
+	<element name="Amulet of Health" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_AMULET_OF_HEALTH">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
@@ -586,7 +586,7 @@
 		</sheet>		
 	</element>
 
-	<element name="Belt of Hill Giant Strength" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BELT_OF_HILL_GIANT_STRENGTH">		
+	<element name="Belt of Hill Giant Strength" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BELT_OF_HILL_GIANT_STRENGTH">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
@@ -601,7 +601,7 @@
 			<description>Using this infusion, you can replicate a Belt of Hill Giant Strength.</description>
 		</sheet>		
 	</element>
-	<element name="Boots of Levitation" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_LEVITATION">		
+	<element name="Boots of Levitation" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_LEVITATION">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
@@ -616,7 +616,7 @@
 			<description>Using this infusion, you can replicate Boots of Levitation.</description>
 		</sheet>		
 	</element>
-	<element name="Boots of Speed" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_SPEED">		
+	<element name="Boots of Speed" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_SPEED">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
@@ -631,7 +631,7 @@
 			<description>Using this infusion, you can replicate Boots of Speed.</description>
 		</sheet>		
 	</element>
-	<element name="Bracers of Defense" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BRACERS_OF_DEFENSE">		
+	<element name="Bracers of Defense" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BRACERS_OF_DEFENSE">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
@@ -646,7 +646,7 @@
 			<description>Using this infusion, you can replicate Bracers of Defense.</description>
 		</sheet>		
 	</element>
-	<element name="Cloak of the Bat" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_THE_BAT">		
+	<element name="Cloak of the Bat" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_THE_BAT">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
@@ -661,7 +661,7 @@
 			<description>Using this infusion, you can replicate a Cloak of the Bat.</description>
 		</sheet>		
 	</element>
-	<element name="Dimensional Shackles" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_DIMENSIONAL_SHACKLES">		
+	<element name="Dimensional Shackles" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_DIMENSIONAL_SHACKLES">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
@@ -676,7 +676,7 @@
 			<description>Using this infusion, you can replicate Dimensional Shackles.</description>
 		</sheet>		
 	</element>
-	<element name="Gem of Seeing" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GEM_OF_SEEING">		
+	<element name="Gem of Seeing" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GEM_OF_SEEING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
@@ -691,7 +691,7 @@
 			<description>Using this infusion, you can replicate a Gem of Seeing.</description>
 		</sheet>		
 	</element>
-	<element name="Horn of Blasting" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HORN_OF_BLASTING">		
+	<element name="Horn of Blasting" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HORN_OF_BLASTING">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
@@ -706,7 +706,7 @@
 			<description>Using this infusion, you can replicate a Horn of Blasting.</description>
 		</sheet>		
 	</element>
-	<element name="Ring of Free Action" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_FREE_ACTION">		
+	<element name="Ring of Free Action" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_FREE_ACTION">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
@@ -721,7 +721,7 @@
 			<description>Using this infusion, you can replicate a Ring of Free Action.</description>
 		</sheet>		
 	</element>
-	<element name="Ring of Protection" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_PROTECTION">		
+	<element name="Ring of Protection" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_PROTECTION">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
@@ -736,7 +736,7 @@
 			<description>Using this infusion, you can replicate a Ring of Protection.</description>
 		</sheet>		
 	</element>
-	<element name="Ring of the Ram" type="Class Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_THE_RAM">		
+	<element name="Ring of the Ram" type="Class Feature" source="Dungeon Master’s Guide" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RING_OF_THE_RAM">		
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>

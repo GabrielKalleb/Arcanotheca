@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Unearthed Arcana: Fighter: Martial Archetypes</name>
-		<description>The fighter faces four new Martial Archetype options this week: Arcane Archer, Knight, Samurai, and Sharpshooter. We invite you to read the optionsâ€™ descriptions, make characters with them, and see whether you like them.</description>
+		<description>The fighter faces four new Martial Archetype options this week: Arcane Archer, Knight, Samurai, and Sharpshooter. We invite you to read the options’ descriptions, make characters with them, and see whether you like them.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/fighter">Wizards of the Coast</author>
 		<update version="0.0.4">
 			<file name="20161205.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2016/20161205.xml" />
@@ -11,7 +11,7 @@
 
 	<element name="Unearthed Arcana: Fighter: Martial Archetypes" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20161205">
 		<description>
-			<p>The fighter faces four new Martial Archetype options this week: Arcane Archer, Knight, Samurai, and Sharpshooter. We invite you to read the optionsâ€™ descriptions, make characters with them, and see whether you like them.</p>
+			<p>The fighter faces four new Martial Archetype options this week: Arcane Archer, Knight, Samurai, and Sharpshooter. We invite you to read the options’ descriptions, make characters with them, and see whether you like them.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">UA20161205</set>
@@ -26,7 +26,7 @@
 	<element name="Knight" type="Archetype" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FIGHTER_KNIGHT">
 		<supports>Martial Archetype</supports>
 		<description>
-			<p>The Knight is a colossus on the battlefield who can shrug off attacks and protect allies from harm. Knights fight from the saddle when they can, and in combat they are expected to seek out and lock down the mightiest of the enemyâ€™s forces. On adventures, they are the armored bulwark that strives to keep the rest of the party safe.</p>
+			<p>The Knight is a colossus on the battlefield who can shrug off attacks and protect allies from harm. Knights fight from the saddle when they can, and in combat they are expected to seek out and lock down the mightiest of the enemy’s forces. On adventures, they are the armored bulwark that strives to keep the rest of the party safe.</p>
 			<div element="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_BORN_TO_THE_SADDLE"/>
 			<div element="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_IMPLACABLE_MARK"/>
 			<div element="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_NOBLE_CAVALRY"/>
@@ -49,7 +49,7 @@
 
 	<element name="Born to the Saddle" type="Archetype Feature" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_BORN_TO_THE_SADDLE">
 		<description>
-			<p>Starting at 3rd level, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed. In addition, you have advantage on saving throws made to avoid falling off your mount. If you fall off it, you can automatically land on your feet if you arenâ€™t incapacitated and you fall less than 10 feet.</p>
+			<p>Starting at 3rd level, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed. In addition, you have advantage on saving throws made to avoid falling off your mount. If you fall off it, you can automatically land on your feet if you aren’t incapacitated and you fall less than 10 feet.</p>
 		</description>
 		<sheet>
 			<description>You have advantage on saving throws made to avoid falling off your mount. If you fall no more than 10ft, you land on your feet. Mounting and dismounting a creature costs you only 5ft of movement.</description>
@@ -57,13 +57,13 @@
 	</element>
 	<element name="Implacable Mark" type="Archetype Feature" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_IMPLACABLE_MARK">
 		<description>
-			<p>At 3rd level, you excel at foiling attacks and protecting your allies by menacing your foes. When you hit a creature with a melee weapon attack, the target is marked by you until the end of your next turn. A creature ignores this effect if the creature canâ€™t be frightened.</p>
+			<p>At 3rd level, you excel at foiling attacks and protecting your allies by menacing your foes. When you hit a creature with a melee weapon attack, the target is marked by you until the end of your next turn. A creature ignores this effect if the creature can’t be frightened.</p>
 			<p class="indent">The marked target has disadvantage on any attack roll against a creature other than you or someone else who marked it.</p>
-			<p class="indent">If a target marked by you is within 5 feet of you on its turn and it moves at least 1 foot or makes an attack that suffers disadvantage from this feature, you can make one melee weapon attack against it using your reaction. This attack roll has advantage, and if it hits, the attackâ€™s weapon deals extra damage to the target equal to your fighter level.</p>
+			<p class="indent">If a target marked by you is within 5 feet of you on its turn and it moves at least 1 foot or makes an attack that suffers disadvantage from this feature, you can make one melee weapon attack against it using your reaction. This attack roll has advantage, and if it hits, the attack’s weapon deals extra damage to the target equal to your fighter level.</p>
 			<p class="indent">You can make this special attack even if you have already expended your reaction this round, but not if you have already used your reaction this turn. You can make this attack three times, and you regain all expended uses of it when you finish a short or long rest.</p>
 		</description>
 		<sheet>
-			<description>When you hit a creature with a melee weapon attack, it is marked until the end of your next turn, unless it canâ€™t be frightened. It has disadvantage on attack rolls that donâ€™t target you or another that marked it. If it is within 5ft and moves at least 1ft, or makes an attack that suffers disadvantage from this feature, make a melee attack against it using your reaction. You have advantage on the roll, and  it deals an extra {{level:fighter}} points of damage. You can do this even if your reaction has already been used this round, but not this turn. (3/rest)</description>
+			<description>When you hit a creature with a melee weapon attack, it is marked until the end of your next turn, unless it can’t be frightened. It has disadvantage on attack rolls that don’t target you or another that marked it. If it is within 5ft and moves at least 1ft, or makes an attack that suffers disadvantage from this feature, make a melee attack against it using your reaction. You have advantage on the roll, and  it deals an extra {{level:fighter}} points of damage. You can do this even if your reaction has already been used this round, but not this turn. (3/rest)</description>
 		</sheet>
 	</element>
 	<element name="Noble Cavalry" type="Archetype Feature" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_NOBLE_CAVALRY">
@@ -97,7 +97,7 @@
 	
 	<element name="Hold the Line" type="Archetype Feature" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_HOLD_THE_LINE">
 		<description>
-			<p>At 10th level, you master the ability to harass and slow your enemies. As a reaction when a creature moves at least 1 foot within 5 feet of you, you can make one melee weapon attack against that creature. If you hit, the attackâ€™s weapon deals extra damage to the target equal to half your fighter level, and the targetâ€™s speed is reduced to 0 until the end of this turn.</p>
+			<p>At 10th level, you master the ability to harass and slow your enemies. As a reaction when a creature moves at least 1 foot within 5 feet of you, you can make one melee weapon attack against that creature. If you hit, the attack’s weapon deals extra damage to the target equal to half your fighter level, and the target’s speed is reduced to 0 until the end of this turn.</p>
 		</description>
 		<sheet action="Reaction">
 			<description>If creature moves 1ft or more while within 5ft of you, you can make one melee attack against that creature and deal an extra {{level:fighter:half}} damage if it hits, and its speed is reduced to 0 until the end of this turn.</description>
@@ -111,7 +111,7 @@
 			<description>When attacking with advantage, you can forgo the advantage to gain an additional attack against your target.</description>
 		</sheet>
 	</element>
-	<element name="Defenderâ€™s Blade" type="Archetype Feature" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_DEFENDERS_BLADE">
+	<element name="Defender’s Blade" type="Archetype Feature" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_DEFENDERS_BLADE">
 		<description>
 			<p>At 18th level, you respond to danger with extraordinary vigilance. You can use your reaction for an opportunity attack even if you have already expended your reaction this round, but not if you have already used your reaction this turn.</p>
 			<p class="indent">In addition, you gain a +1 bonus to AC while wearing heavy armor.</p>
@@ -148,7 +148,7 @@
 
 	<element name="Steady Aim" type="Archetype Feature" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_STEADY_AIM">
 		<description>
-			<p>Beginning when you choose this archetype at 3rd level, your aim becomes deadly. As a bonus action on your turn, you can take careful aim at a creature you can see that is within range of a ranged weapon youâ€™re wielding. Until the end of this turn, your ranged attacks with that weapon gain two benefits against the target:</p>
+			<p>Beginning when you choose this archetype at 3rd level, your aim becomes deadly. As a bonus action on your turn, you can take careful aim at a creature you can see that is within range of a ranged weapon you’re wielding. Until the end of this turn, your ranged attacks with that weapon gain two benefits against the target:</p>
 			<ul>
 				<li>The attacks ignore half and three-quarters cover.</li>
 				<li>On each hit, the weapon deals additional damage to the target equal to 2 + half your fighter level.</li>
@@ -177,11 +177,11 @@
 	</element>
 	<element name="Close-Quarters Shooting" type="Archetype Feature" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_CLOSE_QUARTERS_SHOOTING">
 		<description>
-			<p>At 10th level, you learn to handle yourself in close combat. Making a ranged attack roll while within 5 feet of an enemy doesnâ€™t impose disadvantage on your roll.</p>
-			<p class="indent">In addition, if you hit a creature within 5 feet of you with a ranged attack on your turn, that creature canâ€™t take reactions until the end of this turn.</p>
+			<p>At 10th level, you learn to handle yourself in close combat. Making a ranged attack roll while within 5 feet of an enemy doesn’t impose disadvantage on your roll.</p>
+			<p class="indent">In addition, if you hit a creature within 5 feet of you with a ranged attack on your turn, that creature can’t take reactions until the end of this turn.</p>
 		</description>
 		<sheet>
-			<description>Ranged attacks you make within 5ft from a target do not impose disadvantage, and if you hit, the target canâ€™t take reaction until the end of his next turn.</description>
+			<description>Ranged attacks you make within 5ft from a target do not impose disadvantage, and if you hit, the target can’t take reaction until the end of his next turn.</description>
 		</sheet>
 	</element>
 	<element name="Rapid Strike" type="Archetype Feature" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_SHARPSHOOTER_RAPID_STRIKE">

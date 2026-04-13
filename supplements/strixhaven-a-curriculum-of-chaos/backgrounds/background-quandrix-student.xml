@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Quandrix Student Background</name>
@@ -9,10 +9,10 @@
 
 	<element name="Quandrix Student" type="Background" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_BACKGROUND_QUANDRIX_STUDENT">
 		<description>
-			<p>In preparation to become a student of Quandrix College, you have spent years working through the collegeâ€™s math problems for prospective students. Your interests concentrate on the mathematical principles and patterns found in the natural world. You might lean more toward mathematics or physics, or you delve into more abstract studies of metaphysics, arcana, or logic.</p>
+			<p>In preparation to become a student of Quandrix College, you have spent years working through the college’s math problems for prospective students. Your interests concentrate on the mathematical principles and patterns found in the natural world. You might lean more toward mathematics or physics, or you delve into more abstract studies of metaphysics, arcana, or logic.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Arcana, Nature</li>
-				<li><strong>Tool Proficiencies:</strong> One type of artisanâ€™s tools</li>
+				<li><strong>Tool Proficiencies:</strong> One type of artisan’s tools</li>
 				<li><strong>Languages:</strong> One of your choice</li>
 				<li><strong>Equipment:</strong> A bottle of black ink, an ink pen, an abacus, a book of arcane theory, a school uniform, and a pouch containing 15 gp</li>
 			</ul>
@@ -36,11 +36,11 @@
 			<grant type="Background Feature" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_QUANDRIX_INITIATE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" optional="true" >
-				<item id="1">When I find a subject Iâ€™m interested in, I wonâ€™t stop studying until I know everything about it. It keeps me up at night.</item>
-				<item id="2">I hope this all makes sense to me one day. Until then, Iâ€™m going to keep faking it.</item>
+				<item id="1">When I find a subject I’m interested in, I won’t stop studying until I know everything about it. It keeps me up at night.</item>
+				<item id="2">I hope this all makes sense to me one day. Until then, I’m going to keep faking it.</item>
 				<item id="3">Equations and patterns come naturally to my mind. I wish friendship came just as easily.</item>
-				<item id="4">I believe Iâ€™m always the smartest person in the room. And Iâ€™ll prove it, even if no one asks me to.</item>
-				<item id="5">If these classes have taught me anything, itâ€™s that reality is a lie, and nothing matters. So why bother?</item>
+				<item id="4">I believe I’m always the smartest person in the room. And I’ll prove it, even if no one asks me to.</item>
+				<item id="5">If these classes have taught me anything, it’s that reality is a lie, and nothing matters. So why bother?</item>
 				<item id="6">Before I graduate, I want to achieve something mathematically impossible. I must leave a legacy!</item>
 			</select>
 			<select type="List" name="Trinket" optional="true" >

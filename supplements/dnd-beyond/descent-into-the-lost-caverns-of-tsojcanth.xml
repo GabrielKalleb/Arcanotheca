@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -9,7 +9,7 @@
 	<element name="Descent into the Lost Caverns of Tsojcanth" type="Source" source="Core" id="ID_WOTC_SOURCE_DESCENT_INTO_THE_LOST_CAVERNS_OF_TSOJCANTH">
 		<description>
 			<p>Deep in the Yatil Mountains lie the Lost Caverns of Tsojcanth, formerly occupied by the legendary archmage Iggwilv the Witch Queen. Though Iggwilv is long gone, she is rumored to have amassed a magical hoard of unsurpassed value, a trove of such fame that scores of adventurers have perished in search of it.</p>
-			<p class="indent">This adventure is part of a yearlong celebration of Dungeons &amp; Dragons and its 50th anniversary. The adventure presented herein is an abridged, quick-play version of â€œThe Lost Caverns of Tsojcanth,â€ which appears in <i>Quests from the Infinite Staircase</i>.</p>
+			<p class="indent">This adventure is part of a yearlong celebration of Dungeons &amp; Dragons and its 50th anniversary. The adventure presented herein is an abridged, quick-play version of “The Lost Caverns of Tsojcanth,” which appears in <i>Quests from the Infinite Staircase</i>.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">DLCT</set>
@@ -24,8 +24,8 @@
 
 	<element name="Demon Skin" type="Magic Item" source="Descent into the Lost Caverns of Tsojcanth" id="ID_WOTC_DLCT_MAGIC_ITEM_DEMON_SKIN">
 		<description>
-			<p>This magic armor appears as a pot of bubbling black ichor. When you attune to it, the ichor adheres to and contours to your skin, and the pot disappears. The armor can be worn under normal clothes, and it doesnâ€™t impede bodily functions. Once you put it on, it canâ€™t be removed unless you choose to do so or you die, at which point the pot reappears and the ichor flows back into it.</p>
-			<p class="indent">While wearing the armor, you have resistance to poison damage. The armor also doesnâ€™t impose disadvantage on Dexterity (Stealth) checks.</p>
+			<p>This magic armor appears as a pot of bubbling black ichor. When you attune to it, the ichor adheres to and contours to your skin, and the pot disappears. The armor can be worn under normal clothes, and it doesn’t impede bodily functions. Once you put it on, it can’t be removed unless you choose to do so or you die, at which point the pot reappears and the ichor flows back into it.</p>
+			<p class="indent">While wearing the armor, you have resistance to poison damage. The armor also doesn’t impose disadvantage on Dexterity (Stealth) checks.</p>
 		</description>
 		<setters>
 			<set name="keywords">heavy, stealth</set>
@@ -44,10 +44,10 @@
 		</rules>
 	</element>
 
-	<element name="Iggwilvâ€™s Horn" type="Magic Item" source="Descent into the Lost Caverns of Tsojcanth" id="ID_WOTC_DLCT_MAGIC_ITEM_IGGWILVS_HORN">
+	<element name="Iggwilv’s Horn" type="Magic Item" source="Descent into the Lost Caverns of Tsojcanth" id="ID_WOTC_DLCT_MAGIC_ITEM_IGGWILVS_HORN">
 		<description>
 			<p>You can use an action to blow this horn to cast one of the following spells from it: <i>Arms of Hadar</i>, <i>Fog Cloud</i>, <i>Gust of Wind</i>, or <i>Web</i>. If the spell requires a saving throw, the spell save DC is 13.</p>
-			<p class="indent">Once the horn has been used to cast a spell, it canâ€™t be used to cast that spell again until the next dawn.</p>
+			<p class="indent">Once the horn has been used to cast a spell, it can’t be used to cast that spell again until the next dawn.</p>
 		</description>
 		<setters>
 			<set name="keywords">action, arms of hadar, fog cloud, gust of wind, web, spells, dawn</set>
@@ -68,16 +68,16 @@
 		<setters>
 			<set name="keywords">stealth, advantage</set>
 			<set name="category">Potions</set>
-			<set name="weight" lb="0.5">Â½ lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Uncommon</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
 
-	<element name="Tashaâ€™s Creeping Keelboat" type="Magic Item" source="Descent into the Lost Caverns of Tsojcanth" id="ID_WOTC_DLCT_MAGIC_ITEM_TASHAS_CREEPING_KEELBOAT">
+	<element name="Tasha’s Creeping Keelboat" type="Magic Item" source="Descent into the Lost Caverns of Tsojcanth" id="ID_WOTC_DLCT_MAGIC_ITEM_TASHAS_CREEPING_KEELBOAT">
 		<description>
-			<p>This magic vehicle is a boat 10 feet wide and 30 feet long. It has four legs that propel it across land and water. It has a walking and swimming speed of 20 feet, but it canâ€™t travel underwater. The boat moves according to your spoken directions while you are riding it, and creatures of your choice gain a +1 bonus to their Armor Class while on the boat.</p>
+			<p>This magic vehicle is a boat 10 feet wide and 30 feet long. It has four legs that propel it across land and water. It has a walking and swimming speed of 20 feet, but it can’t travel underwater. The boat moves according to your spoken directions while you are riding it, and creatures of your choice gain a +1 bonus to their Armor Class while on the boat.</p>
 			<p class="indent">The boat can transport up to 1,000 pounds without hindrance. It can carry up to twice this weight, but it moves at half speed if it carries more than its normal capacity.</p>
 		</description>
 		<setters>

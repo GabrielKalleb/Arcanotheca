@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Custom Background</name>
@@ -9,9 +9,9 @@
 		</update>
 	</info>
 
-	<element name="Custom Background" type="Background" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_BACKGROUND_CUSTOM">
+	<element name="Custom Background" type="Background" source="Player’s Handbook" id="ID_WOTC_PHB_BACKGROUND_CUSTOM">
 		<description>
-			<p>You might want to tweak some of the features of a background so it better fits your character or the campaign setting. To customize a background, you can replace one feature with any other one, choose any two skills, and choose a total of two tool proficiencies or languages from the sample backgrounds. You can either use the equipment package from your background or spend coin on gear as described in chapter 5. (If you spend coin, you canâ€™t also take the equipment package suggested for your class.) Finally, choose two personality traits, one ideal, one bond, and one flaw. If you canâ€™t find a feature that matches your desired background, work with your DM to create one.</p>
+			<p>You might want to tweak some of the features of a background so it better fits your character or the campaign setting. To customize a background, you can replace one feature with any other one, choose any two skills, and choose a total of two tool proficiencies or languages from the sample backgrounds. You can either use the equipment package from your background or spend coin on gear as described in chapter 5. (If you spend coin, you can’t also take the equipment package suggested for your class.) Finally, choose two personality traits, one ideal, one bond, and one flaw. If you can’t find a feature that matches your desired background, work with your DM to create one.</p>
 			<ul>
 				<li><strong>Skill Proficiencies:</strong> You can select any two skills to be proficient with.</li>
 				<li><strong>Tool Proficiencies and Languages:</strong> You can select up to 2 tool proficiencies or languages.</li>
@@ -33,7 +33,7 @@
 		</rules>
 	</element>
 
-	<element name="Tool Proficiency" type="Background Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_BACKGROUND_CUSTOM_TOOL_SELECT">
+	<element name="Tool Proficiency" type="Background Feature" source="Player’s Handbook" id="ID_WOTC_PHB_BACKGROUND_CUSTOM_TOOL_SELECT">
 		<supports>Tool Language Select</supports>
 		<compendium display="false" />
 		<sheet display="false" />
@@ -42,7 +42,7 @@
 		</rules>
 	</element>
 
-	<element name="Additional Language" type="Background Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_BACKGROUND_CUSTOM_LANGUAGE_SELECT">
+	<element name="Additional Language" type="Background Feature" source="Player’s Handbook" id="ID_WOTC_PHB_BACKGROUND_CUSTOM_LANGUAGE_SELECT">
 		<supports>Tool Language Select</supports>
 		<compendium display="false" />
 		<sheet display="false" />
@@ -51,7 +51,7 @@
 		</rules>
 	</element>
 
-	<element name="Tool Proficiency" type="Background Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_BACKGROUND_CUSTOM_TOOL_SELECT_2">
+	<element name="Tool Proficiency" type="Background Feature" source="Player’s Handbook" id="ID_WOTC_PHB_BACKGROUND_CUSTOM_TOOL_SELECT_2">
 		<supports>Tool Language Select 2</supports>
 		<compendium display="false" />
 		<sheet display="false" />
@@ -60,7 +60,7 @@
 		</rules>
 	</element>
 
-	<element name="Additional Language" type="Background Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_BACKGROUND_CUSTOM_LANGUAGE_SELECT_2">
+	<element name="Additional Language" type="Background Feature" source="Player’s Handbook" id="ID_WOTC_PHB_BACKGROUND_CUSTOM_LANGUAGE_SELECT_2">
 		<supports>Tool Language Select 2</supports>
 		<compendium display="false" />
 		<sheet display="false" />

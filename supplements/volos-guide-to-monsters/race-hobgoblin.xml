@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Hobgoblin</name>
-		<description>The monstrous-adventurers from Voloâ€™s Guide to Monsters.</description>
+		<description>The monstrous-adventurers from Volo’s Guide to Monsters.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters">Wizards of the Coast</author>
 		<update version="0.0.4">
 			<file name="race-hobgoblin.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/volos-guide-to-monsters/race-hobgoblin.xml" />
 		</update>
 	</info>
 		
-	<element name="Hobgoblin" type="Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACE_HOBGOBLIN">
+	<element name="Hobgoblin" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_HOBGOBLIN">
 		<description>
 			<p class="flavor">In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. This section is aimed at those who wish to expand the race selections for their campaigns beyond the typical folk of D&amp;D.</p>
 			<h4>HOBGOBLIN TRAITS</h4>
@@ -48,7 +48,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_HOBGOBLIN_SAVING_FACE" />
 		</rules>
 	</element>
-	<element name="Martial Training" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_HOBGOBLIN_MARTIAL_TRAINING">
+	<element name="Martial Training" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_HOBGOBLIN_MARTIAL_TRAINING">
 		<description>
 			<p>You are proficient with two martial weapons of your choice and with light armor.</p>
 		</description>
@@ -66,7 +66,7 @@
 		<supports>Hobgoblin Armor</supports>
 	</append>
 
-	<element name="Saving Face" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_HOBGOBLIN_SAVING_FACE">
+	<element name="Saving Face" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_HOBGOBLIN_SAVING_FACE">
 		<description>
 			<p>Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest.</p>
 		</description>

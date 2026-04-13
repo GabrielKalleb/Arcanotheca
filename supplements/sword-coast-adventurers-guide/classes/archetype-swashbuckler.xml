@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Swashbuckler</name>
@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<element name="Swashbuckler" type="Archetype" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_ARCHETYPE_SWASHBUCKLER">
+	<element name="Swashbuckler" type="Archetype" source="Sword Coast Adventurer�s Guide" id="ID_WOTC_SCAG_ARCHETYPE_SWASHBUCKLER">
 		<supports>Roguish Archetype</supports>
 		<description>
 			<p>You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance. Duelists and pirates typically belong to this archetype.</p>
@@ -30,7 +30,7 @@
 		</rules>
 	</element>
 
-	<element name="Fancy Footwork" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_ARCHETYPEFEATURE_FANCY_FOOTWORK">
+	<element name="Fancy Footwork" type="Archetype Feature" source="Sword Coast Adventurer�s Guide" id="ID_WOTC_SCAG_ARCHETYPEFEATURE_FANCY_FOOTWORK">
 		<description>
 			<p>When you choose this archetype at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of your turn.</p>
 		</description>
@@ -39,20 +39,20 @@
 		</sheet>
 	</element>
 
-	<element name="Rakish Audacity" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_ARCHETYPEFEATURE_RAKISH_AUDACITY">
+	<element name="Rakish Audacity" type="Archetype Feature" source="Sword Coast Adventurer�s Guide" id="ID_WOTC_SCAG_ARCHETYPEFEATURE_RAKISH_AUDACITY">
 		<description>
 			<p>Starting at 3rd level, your unmistakable confidence propels you into battle. You can give yourself a bonus to your initiative rolls equal to your Charisma modifier.</p>
-			<p class="indent">You also gain an additional way to use your Sneak Attack; you don’t need advantage on your attack roll to use Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don’t have disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you.</p>
+			<p class="indent">You also gain an additional way to use your Sneak Attack; you don�t need advantage on your attack roll to use Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don�t have disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you.</p>
 		</description>
 		<sheet>
-			<description>You don't need advantage on your attack roll to use your Sneak Attack if you are within 5 feet of the target, no other creatures are within 5 feet of you, and you don’t have disadvantage on the attack roll.</description>
+			<description>You don't need advantage on your attack roll to use your Sneak Attack if you are within 5 feet of the target, no other creatures are within 5 feet of you, and you don�t have disadvantage on the attack roll.</description>
 		</sheet>
 		<rules>
 			<stat name="initiative" value="charisma:modifier" />
 		</rules>
 	</element>
 
-	<element name="Panache" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_ARCHETYPEFEATURE_PANACHE">
+	<element name="Panache" type="Archetype Feature" source="Sword Coast Adventurer�s Guide" id="ID_WOTC_SCAG_ARCHETYPEFEATURE_PANACHE">
 		<description>
 			<p>At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</p>
 			<p class="indent">If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.</p>
@@ -63,7 +63,7 @@
 		</sheet>
 	</element>
 
-	<element name="Elegant Maneuver" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_ARCHETYPEFEATURE_ELEGANT_MANEUVER">
+	<element name="Elegant Maneuver" type="Archetype Feature" source="Sword Coast Adventurer�s Guide" id="ID_WOTC_SCAG_ARCHETYPEFEATURE_ELEGANT_MANEUVER">
 		<description>
 			<p>Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn.</p>
 		</description>
@@ -72,7 +72,7 @@
 		</sheet>
 	</element>
 
-	<element name="Master Duelist" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_ARCHETYPEFEATURE_MASTER_DUELIST">
+	<element name="Master Duelist" type="Archetype Feature" source="Sword Coast Adventurer�s Guide" id="ID_WOTC_SCAG_ARCHETYPEFEATURE_MASTER_DUELIST">
 		<description>
 			<p>Beginning at 17th level, your mastery of the blade lets you turn failure into success in combat. If you miss with an attack roll, you can roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest.</p>
 		</description>

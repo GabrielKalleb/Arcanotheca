@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Genasi from Monsters of the Multiverse</name>
@@ -9,7 +9,7 @@
 
 	<element name="Genasi" type="Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_GENASI">
 		<description>
-			<p>Tracing their ancestry to the genies of the Elemental Planes, each genasi can tap into the power of one of the elements. Air, earth, fire, and waterâ€”these are the four pillars of the Material Plane and the four types of genasi. Some genasi are direct descendants of a genie, while others were born to non-genasi parents who lived near a place suffused by a genie's magic.</p>
+			<p>Tracing their ancestry to the genies of the Elemental Planes, each genasi can tap into the power of one of the elements. Air, earth, fire, and water—these are the four pillars of the Material Plane and the four types of genasi. Some genasi are direct descendants of a genie, while others were born to non-genasi parents who lived near a place suffused by a genie's magic.</p>
 			<p class="indent">A typical genasi has a life span of 120 years. </p>
 			<h4>AIR GENASI TRAITS</h4>
 			<p>Air genasi are descended from djinn, the genies of the Elemental Plane of Air. Embodying many of the airy traits of their otherworldly ancestors, air genasi can draw upon their connection to the winds.</p>

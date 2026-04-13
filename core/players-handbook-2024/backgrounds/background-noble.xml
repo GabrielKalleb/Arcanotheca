@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Nobre</name>
@@ -9,22 +9,22 @@
 		</update>
 	</info>
 
-	<element name="Nobre" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_NOBLE">
+	<element name="Nobre" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_NOBLE">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> ForÃ§a, InteligÃªncia, Carisma</li>
+				<li><strong>Valores de Habilidade:</strong> Força, Inteligência, Carisma</li>
 				<li><strong>Talento:</strong> Perito</li>
-				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> HistÃ³ria e PersuasÃ£o</li>
-				<li><strong>ProficiÃªncia em Ferramenta:</strong><i> Escolha um tipo de Kit de Jogos</i></li>
+				<li><strong>Proficiências em Perícias:</strong> História e Persuasão</li>
+				<li><strong>Proficiência em Ferramenta:</strong><i> Escolha um tipo de Kit de Jogos</i></li>
 				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Kit de Jogos (o mesmo acima), Roupas Finas, Perfume, 29 PO; ou (B) 50 PO</li>
 			</ul>
-			<p>VocÃª foi criado em um castelo, cercado por riqueza, poder e privilÃ©gio. Sua famÃ­lia de aristocratas menores garantiu que vocÃª recebesse uma educaÃ§Ã£o de primeira classe, da qual parte vocÃª apreciou e parte vocÃª se ressentiu. Seu tempo no castelo, especialmente as muitas horas que vocÃª passou observando sua famÃ­lia na corte, tambÃ©m lhe ensinou muito sobre lideranÃ§a.</p>
+			<p>Você foi criado em um castelo, cercado por riqueza, poder e privilégio. Sua família de aristocratas menores garantiu que você recebesse uma educação de primeira classe, da qual parte você apreciou e parte você se ressentiu. Seu tempo no castelo, especialmente as muitas horas que você passou observando sua família na corte, também lhe ensinou muito sobre liderança.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_SKILLED" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">ForÃ§a, InteligÃªncia, Carisma, Talento Perito, PerÃ­cias HistÃ³ria e PersuasÃ£o, um Kit de Jogos</set>
+			<set name="short">Força, Inteligência, Carisma, Talento Perito, Perícias História e Persuasão, um Kit de Jogos</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_CHA" />

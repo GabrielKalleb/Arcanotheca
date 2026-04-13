@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Unearthed Arcana: Barbarian and Monk</name>
@@ -45,7 +45,7 @@
 	</element>
 	<element name="Arms of the Astral Self" type="Archetype Feature" source="Unearthed Arcana: Barbarian and Monk" id="ID_WOTC_UA_ASTRAL_SELF_ARCHETYPE_FEATURE_ARMS_OF_THE_ASTRAL_SELF">
 		<description>
-			<p>At 3rd level, your mastery of your ki allows you to summon a portion of your astral self. On your turn, you can spend 2 ki points as a bonus action to summon the arms of your astral self for 10 minutes. These spectral arms hover near your shoulders. You determine the armsâ€™ appearance based on the qualities of your character.</p>
+			<p>At 3rd level, your mastery of your ki allows you to summon a portion of your astral self. On your turn, you can spend 2 ki points as a bonus action to summon the arms of your astral self for 10 minutes. These spectral arms hover near your shoulders. You determine the arms’ appearance based on the qualities of your character.</p>
 			<p class="indent">While your astral arms are summoned, you gain the following benefits:</p>
 			<ul>
 			<li>You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.</li>
@@ -94,7 +94,7 @@
 			<p>Starting at 17th level, your connection to your astral self is complete, allowing you summon it entirely. On your turn, you can spend 10 ki points as a bonus action to summon the arms, visage, and body of your astral self for 10 minutes. This spectral body covers your physical form like a suit of armor, connecting with the arms and visage. You determine its appearance based on the qualities of your character.</p>
 			<p class="indent">While your astral self is summoned, you gain the following benefits.</p>
 			<ul>
-			<li><b>Armor of the Spirit. </b>You gain a +2 bonus to AC while you arenâ€™t incapacitated.</li>
+			<li><b>Armor of the Spirit. </b>You gain a +2 bonus to AC while you aren’t incapacitated.</li>
 			<li><b>Astral Barrage. </b>Whenever you use the Extra Attack feature to attack twice, you can instead attack three times using your astral arms.</li>
 			<li><b>Ki Consumption. </b>When a creature within 10 feet of you is reduced to 0 hit points, you can use your reaction to regain ki points equal to your Wisdom modifier (minimum 1).</li>
 			</ul>
@@ -155,7 +155,7 @@
 				<tr><td>3</td><td>You conjure 1d4 intangible spirits that look like flumphs in unoccupied spaces within 30 feet of you. Each spirit immediately flies 30 feet in a random direction. At the end of your turn, all spirits explode and each creature within 5 feet of one or more of them must succeed on a Dexterity saving throw or take 2d8 force damage.</td></tr>
 				<tr><td>4</td><td>Arcane energy enshrouds you. Until your rage ends, you gain a +2 bonus to AC, and whenever a creature within 10 feet of you hits you with an attack, that creature takes force damage equal to your Constitution modifier</td></tr>
 				<tr><td>5</td><td>Plant life temporarily grows around you: until your rage ends, the ground within 10 feet of you is difficult terrain.</td></tr>
-				<tr><td>6</td><td>Arcane energy taps into the minds of those around you. Each creature within 30 feet of you must succeed on a Wisdom saving throw or you see a glimpse of the creatureâ€™s thoughts, learning how it plans to attack you. As a result, the creature has disadvantage on attack rolls against you until the start of your next turn.</td></tr>
+				<tr><td>6</td><td>Arcane energy taps into the minds of those around you. Each creature within 30 feet of you must succeed on a Wisdom saving throw or you see a glimpse of the creature’s thoughts, learning how it plans to attack you. As a result, the creature has disadvantage on attack rolls against you until the start of your next turn.</td></tr>
 				<tr><td>7</td><td>Shadows weave around a weapon of your choice you are holding. Until your rage ends, your weapon deals psychic damage instead of its bludgeoning, slashing, or piercing damage, and it gains the light and thrown properties with a normal range of 20 feet and a long range of 60 feet. If you drop the weapon or throw it, the weapon dissipates and reappears in your hand at the end of your turn.</td></tr>
 				<tr><td>8</td><td>A beam of brilliant light lances from your chest in a 5-foot-wide, 60-foot-long line. Each creature in the line must succeed on a Constitution saving throw or take 2d8 radiant damage and be blinded until the start of your next turn.</td></tr>
 			</table>
@@ -171,7 +171,7 @@
 	</element>
 	<element name="Magic Reserve" type="Archetype Feature" source="Unearthed Arcana: Barbarian and Monk" id="ID_WOTC_UA_WILD_SOUL_ARCHETYPE_FEATURE_MAGIC_RESERVE">
 		<description>
-			<p>At 6th level, you can channel the magic surging inside you into other creatures. As an action, you can touch a creature and roll a d4. The creature recovers an expended spell slot of a level equal to the number rolled. If the creature you touch canâ€™t recover a spell slot of that level, the creature instead gains temporary hit points equal to five times the number rolled.</p>
+			<p>At 6th level, you can channel the magic surging inside you into other creatures. As an action, you can touch a creature and roll a d4. The creature recovers an expended spell slot of a level equal to the number rolled. If the creature you touch can’t recover a spell slot of that level, the creature instead gains temporary hit points equal to five times the number rolled.</p>
 			<p class="indent">You take force damage equal to five times the number rolled.</p>
 			<p class="indent">When you reach 14th level in this class, you increase the die to a d6.</p>
 		</description>

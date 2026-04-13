@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Artificer Infusions</name>
@@ -74,9 +74,9 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<description>
 			<p><em>Item: A gem or crystal worth at least 100 gp</em></p>
-			<p>You learn intricate methods for magically creating a special homunculus that serves you. The item you infuse serves as the creatureâ€™s heart, around which the creatureâ€™s body instantly forms.</p>
-			<p class="indent">You determine the homunculusâ€™s appearance. Some artificers prefer mechanical-looking birds, whereas some like winged vials or miniature, animate cauldrons.</p>
-			<p class="indent">The homunculus is friendly to you and your companions, and it obeys your commands. See this creatureâ€™s game statistics in the Homunculus Servant stat block, which uses your proficiency bonus (PB) in several places.</p>
+			<p>You learn intricate methods for magically creating a special homunculus that serves you. The item you infuse serves as the creature’s heart, around which the creature’s body instantly forms.</p>
+			<p class="indent">You determine the homunculus’s appearance. Some artificers prefer mechanical-looking birds, whereas some like winged vials or miniature, animate cauldrons.</p>
+			<p class="indent">The homunculus is friendly to you and your companions, and it obeys your commands. See this creature’s game statistics in the Homunculus Servant stat block, which uses your proficiency bonus (PB) in several places.</p>
 			<p class="indent">In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the homunculus can take any action of its choice, not just Dodge.</p>
 			<p class="indent">The homunculus regains 2d6 hit points if the mending spell is cast on it. If you or the homunculus dies, it vanishes, leaving its heart in its space. </p>
 			<div class="reference">
@@ -99,7 +99,7 @@
 					<li><strong>Condition Immunities</strong> exhaustion, poisoned</li>
 					<li><strong>Senses</strong> darkvision 60 ft., passive Perception 10 + (PB x 2)</li>
 					<li><strong>Languages</strong> understands the language you speak</li>
-					<li><strong>Challenge</strong> â€”</li>
+					<li><strong>Challenge</strong> —</li>
 					<li><strong>Proficiency Bonus (PB)</strong> equals your bonus</li>
 				</ul>
 				<h4 style="margin-top:5px; margin-bottom:10px" />
@@ -133,34 +133,34 @@
 			<p><em>Prerequisite: 6th-level artificer</em></p>
 			<p><em>Item: A simple or martial weapon (requires attunement)</em></p>
 			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.</p>
-			<p class="indent">The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attackerâ€™s next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn.</p>
+			<p class="indent">The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attacker’s next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn.</p>
 		</description>
 		<sheet>
 			<description>You can infuse a simple or martial weapon into a radiant weapon.</description>
 			<!-- <description>Item: A simple or martial weapon (requires attunement)
 			This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.
-			The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attackerâ€™s next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn</description> -->
+			The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attacker’s next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn</description> -->
 		</sheet>
 	</element>
 	<element name="Repeating Shot" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPEATING_SHOT">
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<description>
 			<p><em>Item: A simple or martial weapon with the ammunition property (requires attunement)</em></p>
-			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it when itâ€™s used to make a ranged attack, and it ignores the loading property if it has it.</p>
+			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it when it’s used to make a ranged attack, and it ignores the loading property if it has it.</p>
 			<p class="indent">If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target.</p>
 		</description>
 		<sheet>
 			<description>You can infuse a simple or martial weapon with the ammunition property into a repeating weapon.</description>
 			<!-- <description>Item: A simple or martial weapon with the ammunition property (requires attunement)
-			This magic weapon grants a +1 bonus to attack and damage rolls made with it when itâ€™s used to make a ranged attack, and it ignores the loading property if it has it.
+			This magic weapon grants a +1 bonus to attack and damage rolls made with it when it’s used to make a ranged attack, and it ignores the loading property if it has it.
 			If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target.</description> -->
 		</sheet>
 	</element>
 	<element name="Replicate Magic Item" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM">
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the appropriate book for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the appropriate book for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -170,8 +170,8 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<requirements>ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM</requirements>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the Dungeon Masterâ€™s Guide for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the Dungeon Master’s Guide for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -181,8 +181,8 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<requirements>ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_2</requirements>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the Dungeon Masterâ€™s Guide for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the Dungeon Master’s Guide for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -192,8 +192,8 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<requirements>ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_3</requirements>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the Dungeon Masterâ€™s Guide for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the Dungeon Master’s Guide for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -203,8 +203,8 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<requirements>ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_4</requirements>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the Dungeon Masterâ€™s Guide for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the Dungeon Master’s Guide for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -214,8 +214,8 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<requirements>ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_5</requirements>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the Dungeon Masterâ€™s Guide for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the Dungeon Master’s Guide for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -225,8 +225,8 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<requirements>ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_6</requirements>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the Dungeon Masterâ€™s Guide for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the Dungeon Master’s Guide for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -236,8 +236,8 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<requirements>ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_7</requirements>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the Dungeon Masterâ€™s Guide for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the Dungeon Master’s Guide for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -247,8 +247,8 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<requirements>ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_8</requirements>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the Dungeon Masterâ€™s Guide for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the Dungeon Master’s Guide for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -258,8 +258,8 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<requirements>ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_9</requirements>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the Dungeon Masterâ€™s Guide for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the Dungeon Master’s Guide for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -269,8 +269,8 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<requirements>ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_10</requirements>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the Dungeon Masterâ€™s Guide for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the Dungeon Master’s Guide for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -280,8 +280,8 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<requirements>ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_11</requirements>
 		<description>
-			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A tableâ€™s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
-			<p class="indent">In the tables, an itemâ€™s entry tells you whether the item requires attunement. See the itemâ€™s description in the Dungeon Masterâ€™s Guide for more information about it, including the type of object required for its making.</p>
+			<p>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table’s title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.</p>
+			<p class="indent">In the tables, an item’s entry tells you whether the item requires attunement. See the item’s description in the Dungeon Master’s Guide for more information about it, including the type of object required for its making.</p>
 			<div element="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES" />
 		</description>
 		<sheet display="false" />
@@ -294,13 +294,13 @@
 			<p><em>Prerequisite: 6th-level artificer</em></p>
 			<p><em>Item: A shield (requires attunement)</em></p>
 			<p>A creature gains a +1 bonus to Armor Class while wielding this shield.</p>
-			<p class="indent">The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shieldâ€™s charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.</p>
+			<p class="indent">The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield’s charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.</p>
 		</description>
 		<sheet>
 			<description>You can infuse a shield into a repulsion shield.</description>
 			<!-- <description>Item: A shield (requires attunement)
 			A creature gains a +1 bonus to Armor Class while wielding this shield.
-			The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shieldâ€™s charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.</description> -->
+			The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield’s charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.</description> -->
 		</sheet>
 	</element>
 	<element name="Resistant Armor" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_RESISTANT_ARMOR">
@@ -322,12 +322,12 @@
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<description>
 			<p><em>Item: A simple or martial weapon with the thrown property</em></p>
-			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielderâ€™s hand immediately after it is used to make a ranged attack.</p>
+			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder’s hand immediately after it is used to make a ranged attack.</p>
 		</description>
 		<sheet>
 			<description>You can infuse a simple or martial weapon with the thrown property into a returning weapon.</description>
 			<!-- <description>Item: A simple or martial weapon with the thrown property
-			This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielderâ€™s hand immediately after it is used to make a ranged attack.</description> -->
+			This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder’s hand immediately after it is used to make a ranged attack.</description> -->
 		</sheet>
 	</element>
 
@@ -526,7 +526,7 @@
 	<element name="Radiant Weapon" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_INFUSION_RADIANT_WEAPON">
 		<description>
 			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.</p>
-			<p class="indent">The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attackerâ€™s next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn.</p>
+			<p class="indent">The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attacker’s next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn.</p>
 		</description>
 		<setters>
 			<set name="keywords">artificer infusion</set>
@@ -543,7 +543,7 @@
 	</element>
 	<element name="Repeating Shot" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_INFUSION_REPEATING_SHOT">
 		<description>
-			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it when itâ€™s used to make a ranged attack, and it ignores the loading property if it has it.
+			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it when it’s used to make a ranged attack, and it ignores the loading property if it has it.
 			If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target.</p>
 		</description>
 		<setters>
@@ -561,7 +561,7 @@
 	<element name="Repulsion Shield" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_SHIELD_REPULSION_SHIELD">
 		<description>
 			<p>A creature gains a +1 bonus to Armor Class while wielding this shield.</p>
-			<p class="indent">The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shieldâ€™s charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.</p>
+			<p class="indent">The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield’s charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.</p>
 		</description>
 		<setters>
 			<set name="keywords">artificer infusion</set>
@@ -581,7 +581,7 @@
 	</element>
 	<element name="Returning Weapon" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_INFUSION_RETURNING_WEAPON">
 		<description>
-			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielderâ€™s hand immediately after it is used to make a ranged attack.</p>
+			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder’s hand immediately after it is used to make a ranged attack.</p>
 		</description>
 		<setters>
 			<set name="keywords">artificer infusion</set>

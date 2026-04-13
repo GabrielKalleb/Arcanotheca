@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Izzet Engineer</name>
 		<description></description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmastersâ€™ Guide to Ravnica</author>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters’ Guide to Ravnica</author>
 		<update version="0.0.7">
 			<file name="izzet-engineer.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/guildmasters-guide-to-ravnica/backgrounds/izzet-engineer.xml" />
 		</update>
 	</info>
     
-	<element name="Izzet Engineer" type="Background" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_IZZET_ENGINEER">
+	<element name="Izzet Engineer" type="Background" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_IZZET_ENGINEER">
 		<description>
-			<p>Armed with an inventive intellect, a love of magical technology, and an unquenchable energy, you are an enthusiastic participant in the research work of the Izzet League. Though youâ€™re likely to begin your career as a mere attendant, you can aspire to become a skilled mage or alchemist, a laboratory supervisor, or even a flamethrower-wielding scorchbringer tasked with defending Izzet laboratories. The Izzet are obsessive, brilliant, inspired, and an unpredictable force of chaos in Ravnica, and you epitomize all of those qualities.</p>
+			<p>Armed with an inventive intellect, a love of magical technology, and an unquenchable energy, you are an enthusiastic participant in the research work of the Izzet League. Though you’re likely to begin your career as a mere attendant, you can aspire to become a skilled mage or alchemist, a laboratory supervisor, or even a flamethrower-wielding scorchbringer tasked with defending Izzet laboratories. The Izzet are obsessive, brilliant, inspired, and an unpredictable force of chaos in Ravnica, and you epitomize all of those qualities.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Arcana, Investigation</li>
-				<li><strong>Tool Proficiencies:</strong> One type of artisanâ€™s tools</li>
+				<li><strong>Tool Proficiencies:</strong> One type of artisan’s tools</li>
 				<li><strong>Languages:</strong> Choose one of Draconic, Goblin, or Vedalken</li>
-				<li><strong>Equipment:</strong> An Izzet insignia, one set of artisanâ€™s tools, the charred and twisted remains of a failed experiment, a hammer, a block and tackle, a set of common clothes, and a belt pouch containing 5 gp (Azorius 1-zino coins)</li>
+				<li><strong>Equipment:</strong> An Izzet insignia, one set of artisan’s tools, the charred and twisted remains of a failed experiment, a hammer, a block and tackle, a set of common clothes, and a belt pouch containing 5 gp (Azorius 1-zino coins)</li>
 			</ul>
 			<div element="ID_WOTC_GGTR_BACKGROUND_FEATURE_IZZET_ENGINEER_URBAN_INFRASTRUCTURE" />
 			<div element="ID_WOTC_GGTR_BACKGROUND_FEATURE_IZZET_ENGINEER_IZZET_GUILD_SPELLS" />
@@ -24,7 +24,7 @@
 			<p>Members of the Izzet League embody some combination of chaotic, frenetic energy with intellectual curiosity, in varying proportions. Some are comm itted to academic pursuits, and others just like explosions.</p>
 		</description>
 		<setters>
-			<set name="short">Arcana, Investigation, Artisanâ€™s Tool, Language</set>
+			<set name="short">Arcana, Investigation, Artisan’s Tool, Language</set>
 		</setters>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
@@ -36,51 +36,51 @@
 			<grant type="Background Feature" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_IZZET_ENGINEER_IZZET_GUILD_SPELLS" />
 			<select name="Personality Trait" type="List" number="2">
 				<item id="1">I have a hard time staying focused on ... oh, and my brain tends to jump from one ... did I mention focus?</item>
-				<item id="2">I get really excited about my ideas and I canâ€™t wait to talk about them and start putting them into practice and tinkering with them and I want to tell you about how exciting it all is!</item>				
-				<item id="3">Itâ€™s not magic-or anything, really-if you do it only halfway. Whatever I do, I give it all Iâ€™ve got.</item>
+				<item id="2">I get really excited about my ideas and I can’t wait to talk about them and start putting them into practice and tinkering with them and I want to tell you about how exciting it all is!</item>				
+				<item id="3">It’s not magic-or anything, really-if you do it only halfway. Whatever I do, I give it all I’ve got.</item>
 				<item id="4">I do what my gut tells me.</item>
-				<item id="5">Lifeâ€™s an experiment, and I canâ€™t wait to see what happens.</item>
+				<item id="5">Life’s an experiment, and I can’t wait to see what happens.</item>
 				<item id="6">I pepper my speech with the incomprehensible jargon of my trade, like mizzium droplets inserted into a weird, field suspension.</item>
 				<item id="7">Great ideas are fine, but great results are what counts.</item>
-				<item id="8">If you can guess what Iâ€™m about to do, that means Iâ€™ve run out of imagination.</item>
+				<item id="8">If you can guess what I’m about to do, that means I’ve run out of imagination.</item>
 			</select>
 			<select name="Ideal" type="List">
 				<item id="1">Guild. My guild is all that real ly matters. (Any)</item>
-				<item id="2">Creativity. Half the worldâ€™s troubles come from stodgy thinking, stuck in the past. We need innovative solutions. (Chaotic)</item>
+				<item id="2">Creativity. Half the world’s troubles come from stodgy thinking, stuck in the past. We need innovative solutions. (Chaotic)</item>
 				<item id="3">Discovery. Every experiment has the potential to reveal more secrets of the multiverse. (Any)</item>
 				<item id="4">Science. A rigorous application of logical principles and protocols will lead us toward progress more surely than any belief system. (Lawful)</item>
-				<item id="5">Fun. I love my job! Despite the dangerous working conditions, thereâ€™s nothing Iâ€™d rather do. (Chaotic)</item>
-				<item id="6">Power. Someday Iâ€™ll find or create the magic that will make me the most powerful being in Ravnica. (Evil)</item>
+				<item id="5">Fun. I love my job! Despite the dangerous working conditions, there’s nothing I’d rather do. (Chaotic)</item>
+				<item id="6">Power. Someday I’ll find or create the magic that will make me the most powerful being in Ravnica. (Evil)</item>
 			</select>
 			<select name="Bond" type="List">
 				<item id="1">I have dedicated my life to finding a solution to a scientific problem.</item>
-				<item id="2">Iâ€™ll never forget the laboratory where I learned my skills, or the other attendants who learned alongside me.</item>
-				<item id="3">Iâ€™m convinced it was sabotage that destroyed my first laboratory and killed many of my friends, and I seek revenge against whoever did it.</item>
+				<item id="2">I’ll never forget the laboratory where I learned my skills, or the other attendants who learned alongside me.</item>
+				<item id="3">I’m convinced it was sabotage that destroyed my first laboratory and killed many of my friends, and I seek revenge against whoever did it.</item>
 				<item id="4">I have the schematics for an invention that I hope to build one day, once I have the necessary resources.</item>
 				<item id="5">A fellow student and I are racing to solve the same scient ific puzzle.</item>
 				<item id="6">I would do anything the guildmaster told me to do.</item>
 			</select>
 			<select name="Flaw" type="List">
-				<item id="1">If thereâ€™s a plan, Iâ€™ll probably forget it. If I donâ€™t forget it, Iâ€™ll probably ignore it.</item>
-				<item id="2">I get bored easily, and if nothing is happening Iâ€™ll make something happen.</item>
-				<item id="3">Nothing is ever simple, and if it seems simple, Iâ€™ll find a way to make it complicated.</item>
-				<item id="4">I tend to ignore sleep for days when Iâ€™m conducting research, often at the expense of my own health and safety.</item>
-				<item id="5">Iâ€™m convinced thereâ€™s not a soul in Ravnica, except maybe the great Niv-Mizzet, who can match my boundless intellect.</item>
-				<item id="6">Iâ€™m incapable of admitting a flaw in my logic.</item>
+				<item id="1">If there’s a plan, I’ll probably forget it. If I don’t forget it, I’ll probably ignore it.</item>
+				<item id="2">I get bored easily, and if nothing is happening I’ll make something happen.</item>
+				<item id="3">Nothing is ever simple, and if it seems simple, I’ll find a way to make it complicated.</item>
+				<item id="4">I tend to ignore sleep for days when I’m conducting research, often at the expense of my own health and safety.</item>
+				<item id="5">I’m convinced there’s not a soul in Ravnica, except maybe the great Niv-Mizzet, who can match my boundless intellect.</item>
+				<item id="6">I’m incapable of admitting a flaw in my logic.</item>
 			</select>
 		</rules>
 	</element>
-	<element name="Feature: Urban Infrastructure" type="Background Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_IZZET_ENGINEER_URBAN_INFRASTRUCTURE">
+	<element name="Feature: Urban Infrastructure" type="Background Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_IZZET_ENGINEER_URBAN_INFRASTRUCTURE">
 		<supports>Background Feature</supports>
 		<description>
 			<p>The popular conception of the Izzet League is based on mad inventions, dangerous experiments, and explosive blasts. Much of that perception is accurate, but the league is also involved with mundane tasks of construction and architecture- primarily in crafting the infrastructure that allows Ravnicans to enjoy running water, levitating platforms, and other magical and technological wonders.</p>
-			<p class="indent">You have a basic knowledge of the structure of buildings, including the stuff behind the walls. You can also find blueprints of a specific building in order to learn the details of its construction. Such blueprints might provide knowledge of entry points, structural weaknesses, or secret spaces. Your access to such information isnâ€™t unlimited. If obtaining or using the information gets you in trouble with the law, the guild canâ€™t shield you from the repercussions.</p>
+			<p class="indent">You have a basic knowledge of the structure of buildings, including the stuff behind the walls. You can also find blueprints of a specific building in order to learn the details of its construction. Such blueprints might provide knowledge of entry points, structural weaknesses, or secret spaces. Your access to such information isn’t unlimited. If obtaining or using the information gets you in trouble with the law, the guild can’t shield you from the repercussions.</p>
 		</description>
 		<sheet alt="Urban Infrastructure">
-			<description>You have a basic knowledge of the structure of buildings, including the stuff behind the walls. You can also find blueprints of a specific building in order to learn the details of its construction. Such blueprints might provide knowledge of entry points, structural weaknesses, or secret spaces. Your access to such information isnâ€™t unlimited. If obtaining or using the information gets you in trouble with the law, the guild canâ€™t shield you from the repercussions.</description>
+			<description>You have a basic knowledge of the structure of buildings, including the stuff behind the walls. You can also find blueprints of a specific building in order to learn the details of its construction. Such blueprints might provide knowledge of entry points, structural weaknesses, or secret spaces. Your access to such information isn’t unlimited. If obtaining or using the information gets you in trouble with the law, the guild can’t shield you from the repercussions.</description>
 		</sheet>
 	</element>
-	<element name="Izzet Guild Spells" type="Background Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_IZZET_ENGINEER_IZZET_GUILD_SPELLS">
+	<element name="Izzet Guild Spells" type="Background Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_IZZET_ENGINEER_IZZET_GUILD_SPELLS">
 		<supports>2nd Background Feature</supports>
 		<description>
 			<p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
@@ -94,7 +94,7 @@
 				<tr><td>1st</td><td><em>chaos bolt, create or destroy water, unseen servant</em></td></tr>
 				<tr><td>2nd</td><td><em>heat metal, rope trick</em></td></tr>
 				<tr><td>3rd</td><td><em>call lightning, elemental weapon, glyph of warding</em></td></tr>
-				<tr><td>4th</td><td><em>conjure minor elementals, divination, Otilukeâ€™s resilient sphere</em></td></tr>
+				<tr><td>4th</td><td><em>conjure minor elementals, divination, Otiluke’s resilient sphere</em></td></tr>
 				<tr><td>5th</td><td><em>animate objects, conjure elemental</em></td></tr>
 			</table>
 			<p class="indent">Your spells tend to be loud, flashy, or explosive, even when the effect is unremarkable. For example, when you open the portal of a rope trick spell, the portal might be outlined by harmless, showy sparkles.</p>

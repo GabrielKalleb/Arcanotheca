@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Metallic Dragonborn</name>
@@ -10,7 +10,7 @@
 	</info>
 	<element name="Dragonborn (Metallic)" type="Race" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_RACE_METALLIC_DRAGONBORN">
 		<description>
-			<p>Dragonborn with metallic ancestry lay claim to the tenacity of metallic dragonsâ€”brass, bronze, copper, gold, and silverâ€”whose hues glint in their scales. Theirs is the fire of hearth and forge, the cold of high mountain air, the spark of inspiration, and the scouring touch of acid that purifies.</p>
+			<p>Dragonborn with metallic ancestry lay claim to the tenacity of metallic dragons—brass, bronze, copper, gold, and silver—whose hues glint in their scales. Theirs is the fire of hearth and forge, the cold of high mountain air, the spark of inspiration, and the scouring touch of acid that purifies.</p>
 			<h4>METALLIC DRAGONBORN TRAITS</h4>
 			<p>You have the following racial traits.</p>
 			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
@@ -23,7 +23,7 @@
 			<p class="indent"><strong><em>Metallic Breath Weapon.</em></strong> At 5th level, you gain a second breath weapon. When you take the Attack action on your turn, you can replace one of your attacks with an exhalation in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. Whenever you use this trait, choose one:</p>
 			<p style="text-indent: -1em; margin-left: 1em"><b>Enervating Breath.</b> Each creature in the cone must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.</p>
 			<p class="indent" style="text-indent: -1em; margin-left: 1em"><b>Repulsion Breath.</b> Each creature in the cone must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.</p>
-			<p>Once you use your Metallic Breath Weapon, you canâ€™t do so again until you finish a long rest.</p>
+			<p>Once you use your Metallic Breath Weapon, you can’t do so again until you finish a long rest.</p>
 			<h5>Metallic Ancestry</h5>
 			<table>
 				<thead>
@@ -175,12 +175,12 @@
 			<p>At 5th level, you gain a second breath weapon. When you take the Attack action on your turn, you can replace one of your attacks with an exhalation in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. Whenever you use this trait, choose one:</p>
 			<p style="text-indent: -1em; margin-left: 1em"><b>Enervating Breath.</b> Each creature in the cone must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.</p>
 			<p class="indent" style="text-indent: -1em; margin-left: 1em"><b>Repulsion Breath.</b> Each creature in the cone must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.</p>
-			<p>Once you use your Metallic Breath Weapon, you canâ€™t do so again until you finish a long rest.</p>
+			<p>Once you use your Metallic Breath Weapon, you can’t do so again until you finish a long rest.</p>
 		</description>
 		<sheet action="Attack" usage="1/Long Rest">
 			<description>You gain a second breath weapon. You can replace one of your attacks with an exhalation in a 15-foot cone. Whenever you use this trait, choose one: &#13;
-			â€¢ Enervating Breath. Each creature in the cone must succeed on a Constitution saving throw against DC{{metallic breath weapon:dc}} or become incapacitated until the start of your next turn.&#13;
-			â€¢ Repulsion Breath. Each creature in the cone must succeed on a Strength saving throw against DC{{metallic breath weapon:dc}} or be pushed 20 feet away from you and be knocked prone.</description>
+			• Enervating Breath. Each creature in the cone must succeed on a Constitution saving throw against DC{{metallic breath weapon:dc}} or become incapacitated until the start of your next turn.&#13;
+			• Repulsion Breath. Each creature in the cone must succeed on a Strength saving throw against DC{{metallic breath weapon:dc}} or be pushed 20 feet away from you and be knocked prone.</description>
 		</sheet>
 		<rules>
 			<stat name="metallic breath weapon:dc" value="8" />

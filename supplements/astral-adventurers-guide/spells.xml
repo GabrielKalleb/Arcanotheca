@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -31,7 +31,7 @@
 	<element name="Create Spelljamming Helm" type="Spell" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_SPELL_CREATE_SPELLJAMMING_HELM">
 		<supports>Artificer, Wizard</supports>
 		<description>
-			<p>Holding the rod used in the casting of the spell, you touch a Large or smaller chair that is unoccupied. The rod disappears, and the chair is transformed into a spelljamming helm (see â€œMagic Itemsâ€ in the <i>Astral Adventurer's Guide</i>).</p>
+			<p>Holding the rod used in the casting of the spell, you touch a Large or smaller chair that is unoccupied. The rod disappears, and the chair is transformed into a spelljamming helm (see “Magic Items” in the <i>Astral Adventurer's Guide</i>).</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>

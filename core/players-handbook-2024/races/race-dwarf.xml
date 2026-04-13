@@ -1,42 +1,42 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>AnÃ£o</name>
-		<description>A espÃ©cie AnÃ£o do Playerâ€™s Handbook 2024.</description>
+		<name>Anão</name>
+		<description>A espécie Anão do Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="race-dwarf.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/races/race-dwarf.xml" />
 		</update>
 	</info>
 	
-	<element name="AnÃ£o" type="Race" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACE_DWARF">
+	<element name="Anão" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_DWARF">
 		<description>
-			<p>Os anÃµes foram erguidos da terra nos dias antigos por uma divindade da forja. Conhecido por vÃ¡rios nomes em diferentes mundos â€” Moradin, Reorx e outros â€” esse deus deu aos anÃµes uma afinidade com pedra e metal e para viverem no subsolo. O deus tambÃ©m os fez resilientes como as montanhas, com uma expectativa de vida de cerca de 350 anos.</p>
-			<p class="indent">Parrudos e frequentemente barbudos, os anÃµes originais esculpiram cidades e fortalezas nas encostas das montanhas e debaixo da terra. Suas lendas mais antigas contam sobre conflitos com os monstros dos topos das montanhas e do SubterrÃ¢neo, quer esses monstros fossem gigantes imponentes ou horrores subterrÃ¢neos. Inspirados por esses contos, anÃµes de qualquer cultura frequentemente cantam sobre feitos valorosos â€” especialmente sobre os pequenos superando os poderosos.</p>
-			<p class="indent">Em alguns mundos do multiverso, os primeiros assentamentos de anÃµes foram construÃ­dos em colinas ou montanhas, e as famÃ­lias que traÃ§am seus ancestrais a esses assentamentos se chamam de anÃµes da colina ou anÃµes da montanha, respectivamente. Os cenÃ¡rios de Greyhawk e Dragonlance possuem tais comunidades.</p>
-			<h5>TRAÃ‡OS DE ANÃƒO</h5>
+			<p>Os anões foram erguidos da terra nos dias antigos por uma divindade da forja. Conhecido por vários nomes em diferentes mundos — Moradin, Reorx e outros — esse deus deu aos anões uma afinidade com pedra e metal e para viverem no subsolo. O deus também os fez resilientes como as montanhas, com uma expectativa de vida de cerca de 350 anos.</p>
+			<p class="indent">Parrudos e frequentemente barbudos, os anões originais esculpiram cidades e fortalezas nas encostas das montanhas e debaixo da terra. Suas lendas mais antigas contam sobre conflitos com os monstros dos topos das montanhas e do Subterrâneo, quer esses monstros fossem gigantes imponentes ou horrores subterrâneos. Inspirados por esses contos, anões de qualquer cultura frequentemente cantam sobre feitos valorosos — especialmente sobre os pequenos superando os poderosos.</p>
+			<p class="indent">Em alguns mundos do multiverso, os primeiros assentamentos de anões foram construídos em colinas ou montanhas, e as famílias que traçam seus ancestrais a esses assentamentos se chamam de anões da colina ou anões da montanha, respectivamente. Os cenários de Greyhawk e Dragonlance possuem tais comunidades.</p>
+			<h5>TRAÇOS DE ANÃO</h5>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
 				<li><strong>Tipo de Criatura:</strong> Humanoide</li>
-				<li><strong>Tamanho:</strong> MÃ©dio (cerca de 1,2 a 1,5 metro de altura)</li>
+				<li><strong>Tamanho:</strong> Médio (cerca de 1,2 a 1,5 metro de altura)</li>
 				<li><strong>Deslocamento:</strong> 9 metros</li>
 			</ul>
-			<p>Como um AnÃ£o, vocÃª possui estes traÃ§os especiais.</p>
-			<p class="indent"><strong><em>VisÃ£o no Escuro.</em></strong> VocÃª tem VisÃ£o no Escuro com um alcance de 36 metros.</p>
-			<p class="indent"><strong><em>ResiliÃªncia AnÃ£.</em></strong> VocÃª tem ResistÃªncia a dano de Veneno. VocÃª tambÃ©m tem Vantagem em salvaguardas que fizer para evitar ou encerrar a condiÃ§Ã£o Envenenado.</p> 
-			<p class="indent"><strong><em>Robustez AnÃ£.</em></strong> O seu mÃ¡ximo de Pontos de Vida aumenta em 1, e ele aumenta em 1 novamente toda vez que vocÃª ganhar um nÃ­vel.</p> 
-			<p class="indent"><strong><em>Afinidade com Pedras.</em></strong> Como uma AÃ§Ã£o BÃ´nus, vocÃª ganha Sentido SÃ­smico com um alcance de 18 metros por 10 minutos. VocÃª deve estar em uma superfÃ­cie de pedra ou tocando uma superfÃ­cie de pedra para usar esse Sentido SÃ­smico. A pedra pode ser natural ou trabalhada.</p>
-			<p class="indent">VocÃª pode usar esta AÃ§Ã£o BÃ´nus um nÃºmero de vezes igual ao seu BÃ´nus de ProficiÃªncia, e vocÃª recupera todos os usos gastos quando terminar um Descanso Longo.</p>
+			<p>Como um Anão, você possui estes traços especiais.</p>
+			<p class="indent"><strong><em>Visão no Escuro.</em></strong> Você tem Visão no Escuro com um alcance de 36 metros.</p>
+			<p class="indent"><strong><em>Resiliência Anã.</em></strong> Você tem Resistência a dano de Veneno. Você também tem Vantagem em salvaguardas que fizer para evitar ou encerrar a condição Envenenado.</p> 
+			<p class="indent"><strong><em>Robustez Anã.</em></strong> O seu máximo de Pontos de Vida aumenta em 1, e ele aumenta em 1 novamente toda vez que você ganhar um nível.</p> 
+			<p class="indent"><strong><em>Afinidade com Pedras.</em></strong> Como uma Ação Bônus, você ganha Sentido Sísmico com um alcance de 18 metros por 10 minutos. Você deve estar em uma superfície de pedra ou tocando uma superfície de pedra para usar esse Sentido Sísmico. A pedra pode ser natural ou trabalhada.</p>
+			<p class="indent">Você pode usar esta Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, e você recupera todos os usos gastos quando terminar um Descanso Longo.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DWARF" />
-			<select type="Ability Score Improvement" name="OpÃ§Ã£o de Melhoria no Valor de Habilidade (AnÃ£o)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade (Anão)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Idioma (AnÃ£o)" supports="Standard" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Idioma Personalizado (AnÃ£o)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" number="3" />
+			<select type="Language" name="Idioma (Anão)" supports="Standard" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Idioma Personalizado (Anão)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" number="3" />
 
 			<grant type="Vision" id="ID_VISION_DARKVISION" requirements="!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_DARKVISION" />
 			<stat name="darkvision:range" value="120" requirements="!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_DARKVISION" bonus="base" />
@@ -46,23 +46,23 @@
 		</rules>
 	</element>
 
-	<element name="ResiliÃªncia AnÃ£" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DWARF_DWARVEN_RESILIENCE">
+	<element name="Resiliência Anã" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DWARF_DWARVEN_RESILIENCE">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_DWARVEN_RESILIENCE</requirements>
 		<description>
-			<p>VocÃª tem ResistÃªncia a dano de Veneno. VocÃª tambÃ©m tem Vantagem em salvaguardas que fizer para evitar ou encerrar a condiÃ§Ã£o Envenenado.</p>
+			<p>Você tem Resistência a dano de Veneno. Você também tem Vantagem em salvaguardas que fizer para evitar ou encerrar a condição Envenenado.</p>
 		</description>
 		<sheet>
-			<description>VocÃª tem Vantagem em salvaguardas que fizer para evitar ou encerrar a condiÃ§Ã£o Envenenado.</description>
+			<description>Você tem Vantagem em salvaguardas que fizer para evitar ou encerrar a condição Envenenado.</description>
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
 		</rules>
 	</element>
 
-	<element name="Robustez AnÃ£" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DWARF_DWARVEN_TOUGHNESS">
+	<element name="Robustez Anã" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DWARF_DWARVEN_TOUGHNESS">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_DWARVEN_TOUGHNESS</requirements>
 		<description>
-			<p>O seu mÃ¡ximo de Pontos de Vida aumenta em 1, e ele aumenta em 1 novamente toda vez que vocÃª ganhar um nÃ­vel.</p>
+			<p>O seu máximo de Pontos de Vida aumenta em 1, e ele aumenta em 1 novamente toda vez que você ganhar um nível.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -70,20 +70,20 @@
 		</rules>
 	</element>
 
-	<element name="Afinidade com Pedras" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DWARF_STONECUNNING">
+	<element name="Afinidade com Pedras" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DWARF_STONECUNNING">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_STONECUNNING</requirements>
 		<description>
-			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª ganha Sentido SÃ­smico com um alcance de 18 metros por 10 minutos. VocÃª deve estar em uma superfÃ­cie de pedra ou tocando uma superfÃ­cie de pedra para usar esse Sentido SÃ­smico. A pedra pode ser natural ou trabalhada.</p>
-			<p class="indent">VocÃª pode usar esta AÃ§Ã£o BÃ´nus um nÃºmero de vezes igual ao seu BÃ´nus de ProficiÃªncia, e vocÃª recupera todos os usos gastos quando terminar um Descanso Longo.</p>
+			<p>Como uma Ação Bônus, você ganha Sentido Sísmico com um alcance de 18 metros por 10 minutos. Você deve estar em uma superfície de pedra ou tocando uma superfície de pedra para usar esse Sentido Sísmico. A pedra pode ser natural ou trabalhada.</p>
+			<p class="indent">Você pode usar esta Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, e você recupera todos os usos gastos quando terminar um Descanso Longo.</p>
 		</description>
 		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
-			<description>VocÃª ganha Sentido SÃ­smico com um alcance de 18 metros por 10 minutos. VocÃª deve estar em uma superfÃ­cie de pedra ou tocando uma superfÃ­cie de pedra para usar esse Sentido SÃ­smico. A pedra pode ser natural ou trabalhada.</description>
+			<description>Você ganha Sentido Sísmico com um alcance de 18 metros por 10 minutos. Você deve estar em uma superfície de pedra ou tocando uma superfície de pedra para usar esse Sentido Sísmico. A pedra pode ser natural ou trabalhada.</description>
 		</sheet>
 	</element>
 
-	<element name="SubstituiÃ§Ã£o de TraÃ§o VisÃ£o no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_DARKVISION" />
-	<element name="SubstituiÃ§Ã£o de TraÃ§o ResiliÃªncia AnÃ£" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_DWARVEN_RESILIENCE" />
-	<element name="SubstituiÃ§Ã£o de TraÃ§o Robustez AnÃ£" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_DWARVEN_TOUGHNESS" />
-	<element name="SubstituiÃ§Ã£o de TraÃ§o Afinidade com Pedras" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_STONECUNNING" />
+	<element name="Substituição de Traço Visão no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_DARKVISION" />
+	<element name="Substituição de Traço Resiliência Anã" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_DWARVEN_RESILIENCE" />
+	<element name="Substituição de Traço Robustez Anã" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_DWARVEN_TOUGHNESS" />
+	<element name="Substituição de Traço Afinidade com Pedras" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DWARF_STONECUNNING" />
 
 </elements>

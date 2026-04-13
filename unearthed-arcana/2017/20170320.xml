@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Unearthed Arcana: Wizard Revisited</name>
@@ -50,7 +50,7 @@
 	</element>
 	<element name="Divine Inspiration" type="Archetype Feature" source="Unearthed Arcana: Wizard Revisited" id="ID_WOTC_UA20170320_ARCHETYPE_FEATURE_THEURGY_DIVINE_INSPIRATION">
 		<description>
-			<p>When you choose this tradition at 2nd level, choose a domain from your chosen deityâ€™s list of eligible domains (see appendix B, â€œGods of the Multiverse,â€ in the Playerâ€™s Handbook for examples). The Knowledge and Light domains are especially appropriate choices for a theurgist.</p>
+			<p>When you choose this tradition at 2nd level, choose a domain from your chosen deity’s list of eligible domains (see appendix B, “Gods of the Multiverse,” in the Player’s Handbook for examples). The Knowledge and Light domains are especially appropriate choices for a theurgist.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -61,10 +61,10 @@
 		<description>
 			<p>Beginning when you select this tradition at 2nd level, whenever you gain a wizard level, you can replace one of the wizard spells you add to your spellbook with a cleric domain spell for your chosen domain. The spell must be of a level for which you have spell slots.</p>
 			<p class="indent">If you add all of your domain spells to your spellbook, you can subsequently add any spell from the cleric spell list instead. The spell must still be of a level for which you have spell slots.</p>
-			<p class="indent">Any cleric spell you gain from this feature is considered a wizard spell for you, but other wizards canâ€™t copy cleric spells from your spellbook into their own spellbooks.</p>
+			<p class="indent">Any cleric spell you gain from this feature is considered a wizard spell for you, but other wizards can’t copy cleric spells from your spellbook into their own spellbooks.</p>
 		</description>
 		<sheet>
-			<description>Whenever you gain a wizard level, you can replace one of the wizard spells you add to your spellbook with a cleric domain spell. Any cleric spell you gain from this feature is considered a wizard spell for you, but other wizards canâ€™t copy cleric spells from your spellbook into their own spellbooks. If you add all of your domain spells to your spellbook, you can subsequently add any spell from the cleric spell list instead.</description>
+			<description>Whenever you gain a wizard level, you can replace one of the wizard spells you add to your spellbook with a cleric domain spell. Any cleric spell you gain from this feature is considered a wizard spell for you, but other wizards can’t copy cleric spells from your spellbook into their own spellbooks. If you add all of your domain spells to your spellbook, you can subsequently add any spell from the cleric spell list instead.</description>
 		</sheet>
 	</element>
 	<element name="Channel Arcana" type="Archetype Feature" source="Unearthed Arcana: Wizard Revisited" id="ID_WOTC_UA20170320_ARCHETYPE_FEATURE_THEURGY_CHANNEL_ARCANA">
@@ -96,19 +96,19 @@
 	</element>
 	<element name="Arcane Acolyte" type="Archetype Feature" source="Unearthed Arcana: Wizard Revisited" id="ID_WOTC_UA20170320_ARCHETYPE_FEATURE_THEURGY_ARCANE_ACOLYTE">
 		<description>
-			<p>At 6th level, you gain your chosen domainâ€™s 1st level benefits. However, you do not gain any weapon or armor proficiencies from the domain.</p>
+			<p>At 6th level, you gain your chosen domain’s 1st level benefits. However, you do not gain any weapon or armor proficiencies from the domain.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 	<element name="Arcane Priest" type="Archetype Feature" source="Unearthed Arcana: Wizard Revisited" id="ID_WOTC_UA20170320_ARCHETYPE_FEATURE_THEURGY_ARCANE_PRIEST">
 		<description>
-			<p>At 10th level, you gain your chosen domainâ€™s 6th-level benefits. Your faith and your understanding of magic allow you to delve into your godâ€™s secrets.</p>
+			<p>At 10th level, you gain your chosen domain’s 6th-level benefits. Your faith and your understanding of magic allow you to delve into your god’s secrets.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 	<element name="Arcane High Priest" type="Archetype Feature" source="Unearthed Arcana: Wizard Revisited" id="ID_WOTC_UA20170320_ARCHETYPE_FEATURE_THEURGY_ARCANE_HIGH_PRIEST">
 		<description>
-			<p>At 14th level, you gain your chosen domainâ€™s 17th-level benefits. Your academic nature and understanding of magic and doctrine allow you to master this ability sooner than a cleric of your domain.</p>
+			<p>At 14th level, you gain your chosen domain’s 17th-level benefits. Your academic nature and understanding of magic and doctrine allow you to master this ability sooner than a cleric of your domain.</p>
 		</description>
 		<sheet display="false" />
 	</element>
@@ -121,11 +121,11 @@
 	</element>
 
 	<!-- Knowledge Domain -->
-	<element name="Knowledge Domain" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_KNOWLEDGE_DOMAIN">
+	<element name="Knowledge Domain" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_KNOWLEDGE_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
-			<p>The gods of knowledgeâ€”including Oghma, Boccob, Gilean, Aureon, and Thothâ€”value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.</p>
+			<p>The gods of knowledge—including Oghma, Boccob, Gilean, Aureon, and Thoth—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.</p>
 			<h5>Knowledge Domain Spells</h5>
 			<table>
 				<thead>
@@ -154,7 +154,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST" level="14"/>
 		</rules>
 	</element>
-	<element name="Knowledge Domain Spells" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_KNOWLEDGE_DOMAIN_SPELLS">
+	<element name="Knowledge Domain Spells" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_KNOWLEDGE_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>Knowledge Domain Spells</h5>
@@ -183,7 +183,7 @@
 			<extend>ID_PHB_SPELL_SCRYING</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Knowledge of the Ages" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES">
+	<element name="Channel Divinity: Knowledge of the Ages" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an action, you choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool.</p>
@@ -192,7 +192,7 @@
 			<description>You choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool.</description>
 		</sheet>
 	</element>
-	<element name="Blessings of Knowledge" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE">
+	<element name="Blessings of Knowledge" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE">
 		<compendium display="false" />
 		<description>
 			<p>At 6th level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: Arcana, History, Nature, or Religion.</p>
@@ -204,11 +204,11 @@
 			<select type="Archetype Feature" name="Blessings of Knowledge" supports="Blessings of Knowledge" number="2"/>
 		</rules>
 	</element>
-	<element name="Channel Divinity: Read Thoughts" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS">
+	<element name="Channel Divinity: Read Thoughts" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS">
 		<compendium display="false" />
 		<description>
-			<p>At 10th level, you can use your Channel Divinity to read a creatureâ€™s thoughts. You can then use your access to the creatureâ€™s mind to command it.</p>
-			<p class="indent">As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you canâ€™t use this feature on it again until you finish a long rest.</p>
+			<p>At 10th level, you can use your Channel Divinity to read a creature’s thoughts. You can then use your access to the creature’s mind to command it.</p>
+			<p class="indent">As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can’t use this feature on it again until you finish a long rest.</p>
 			<p class="indent">If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.</p>
 			<p class="indent">During that time, you can use your action to end this effect and cast the suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.</p>
 		</description>
@@ -216,13 +216,13 @@
 			<description>As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature fails its save, you can read its surface thoughts when it is within 60 feet of you. This effect lasts for 1 minute. During that time, you can use your action to end this effect and cast the suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.</description>
 		</sheet>
 	</element>
-	<element name="Visions of the Past" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST">
+	<element name="Visions of the Past" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 14th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain concentration during that time, as if you were casting a spell.</p>
-			<p class="indent">Once you use this feature, you canâ€™t use it again until you finish a short or long rest.</p>
+			<p class="indent">Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
 			<p>
-				<span class="feature">Object Reading.</span>Holding an object as you meditate, you can see visions of the objectâ€™s previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature.<br/>
+				<span class="feature">Object Reading.</span>Holding an object as you meditate, you can see visions of the object’s previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature.<br/>
 				<span class="feature">Area Reading.</span>As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.<br/>
 			</p>
 		</description>
@@ -232,11 +232,11 @@
 	</element>
 
 	<!-- Life Domain -->
-	<element name="Life Domain" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_LIFE_DOMAIN">
+	<element name="Life Domain" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_LIFE_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
-			<p>The Life domain focuses on the vibrant positive energyâ€” one of the fundamental forces of the universeâ€”that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei).</p>
+			<p>The Life domain focuses on the vibrant positive energy— one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei).</p>
 			<h5>Life Domain Spells</h5>
 			<table>
 				<thead>
@@ -254,7 +254,7 @@
 			<div element="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING" />
 		</description>
 		<sheet>
-			<description>The Life domain focuses on the vibrant positive energyâ€” one of the fundamental forces of the universeâ€”that sustains all life.</description>
+			<description>The Life domain focuses on the vibrant positive energy— one of the fundamental forces of the universe—that sustains all life.</description>
 		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_LIFE_DOMAIN_SPELLS"/>
@@ -265,7 +265,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING" level="14"/>
 		</rules>
 	</element>
-	<element name="Life Domain Spells" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_LIFE_DOMAIN_SPELLS">
+	<element name="Life Domain Spells" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_LIFE_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>Life Domain Spells</h5>
@@ -294,14 +294,14 @@
 			<extend>ID_PHB_SPELL_RAISE_DEAD</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Preserve Life" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_CD_PRESERVELIFE">
+	<element name="Channel Divinity: Preserve Life" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_CD_PRESERVELIFE">
 		<compendium display="false" />
 		<description>
 			<p>You can use your Channel Divinity to heal the badly injured.</p>
-			<p class="indent">As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your Wizard level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You canâ€™t use this feature on an undead or a construct.</p>
+			<p class="indent">As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your Wizard level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can’t use this feature on an undead or a construct.</p>
 		</description>
 		<sheet alt="Preserve Life" action="Action" usage="Channel Arcana">
-			<description>You present your holy symbol and evoke healing energy that can restore {{preserve life:hp}} hit points. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You canâ€™t use this feature on an undead or a construct.</description>
+			<description>You present your holy symbol and evoke healing energy that can restore {{preserve life:hp}} hit points. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can’t use this feature on an undead or a construct.</description>
 		</sheet>
 		<rules>
 			<stat name="preserve life:hp" value="level:wizard" />
@@ -311,25 +311,25 @@
 			<stat name="preserve life:hp" value="level:wizard" />
 		</rules>
 	</element>
-	<element name="Disciple of Life" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLEOFLIFE">
+	<element name="Disciple of Life" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLEOFLIFE">
 		<compendium display="false" />
 		<description>
-			<p>Starting at 6th level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spellâ€™s level.</p>
+			<p>Starting at 6th level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell’s level.</p>
 		</description>
 		<sheet>
-			<description>Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spellâ€™s level.</description>
+			<description>Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell’s level.</description>
 		</sheet>
 	</element>
-	<element name="Blessed Healer" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_BLESSEDHEALER">
+	<element name="Blessed Healer" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_BLESSEDHEALER">
 		<compendium display="false" />
 		<description>
-			<p>Beginning at 10th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spellâ€™s level.</p>
+			<p>Beginning at 10th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell’s level.</p>
 		</description>
 		<sheet>
-			<description>When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spellâ€™s level.</description>
+			<description>When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell’s level.</description>
 		</sheet>
 	</element>
-	<element name="Supreme Healing" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING">
+	<element name="Supreme Healing" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 14th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.</p>
@@ -340,11 +340,11 @@
 	</element>
 
 	<!-- Light Domain -->
-	<element name="Light Domain" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_LIGHT_DOMAIN">
+	<element name="Light Domain" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_LIGHT_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
-			<p>Gods of lightâ€”including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhtyâ€”promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their godsâ€™ discerning vision, charged with chasing away lies and burning away darkness.</p>
+			<p>Gods of light—including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods’ discerning vision, charged with chasing away lies and burning away darkness.</p>
 			<h5>Light Domain Spells</h5>
 			<table>
 				<thead>
@@ -375,7 +375,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT" level="14"/>
 		</rules>
 	</element>
-	<element name="Light Domain Spells" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_LIGHT_DOMAIN_SPELLS">
+	<element name="Light Domain Spells" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_LIGHT_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>Light Domain Spells</h5>
@@ -404,7 +404,7 @@
 			<extend>ID_PHB_SPELL_SCRYING</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Radiance of the Dawn" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_DAWN">
+	<element name="Channel Divinity: Radiance of the Dawn" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_DAWN">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.</p>
@@ -414,20 +414,20 @@
 			<description>You present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes 2d10 + {{level:wizard}} radiant damage on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.</description>
 		</sheet>
 	</element>
-	<element name="Bonus Cantrip" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP">
+	<element name="Bonus Cantrip" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP">
 		<compendium display="false" />
 		<description>
-			<p>At 6st level, you gain the light cantrip if you donâ€™t already know it.</p>
+			<p>At 6st level, you gain the light cantrip if you don’t already know it.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" spellcasting="Wizard" />
 		</rules>
 	</element>
-	<element name="Warding Flare" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
+	<element name="Warding Flare" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
 		<compendium display="false" />
 		<description>
-			<p>Also at 6th level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that canâ€™t be blinded is immune to this feature.</p>
+			<p>Also at 6th level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can’t be blinded is immune to this feature.</p>
 			<p class="indent">You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet action="Reaction" usage="{{warding flare:count}}/Long Rest">
@@ -438,7 +438,7 @@
 			<stat name="warding flare:count" value="wisdom:modifier" bonus="warding flare" />
 		</rules>
 	</element>
-	<element name="Improved Flare" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE">
+	<element name="Improved Flare" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 10th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.</p>
@@ -447,7 +447,7 @@
 			<description>You can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.</description>
 		</sheet>
 	</element>
-	<element name="Corona of Light" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT">
+	<element name="Corona of Light" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 14th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.</p>
@@ -458,7 +458,7 @@
 	</element>
 
 	<!-- Nature Domain -->
-	<element name="Nature Domain" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_NATURE_DOMAIN">
+	<element name="Nature Domain" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_NATURE_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
@@ -491,7 +491,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_MASTER_OF_NATURE" level="14"/>
 		</rules>
 	</element>
-	<element name="Nature Domain Spells" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_NATURE_DOMAIN_SPELLS">
+	<element name="Nature Domain Spells" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_NATURE_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>Nature Domain Spells</h5>
@@ -520,7 +520,7 @@
 			<extend>ID_PHB_SPELL_TREE_STRIDE</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Charm Animals and Plants" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_CD_CHARM_ANIMALS_AND_PLANTS">
+	<element name="Channel Divinity: Charm Animals and Plants" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_CD_CHARM_ANIMALS_AND_PLANTS">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to charm animals and plants.</p>
@@ -530,7 +530,7 @@
 			<description>You present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate.</description>
 		</sheet>
 	</element>
-	<element name="Acolyte of Nature" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_ACOLYTE_OF_NATURE">
+	<element name="Acolyte of Nature" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_ACOLYTE_OF_NATURE">
 		<compendium display="false" />
 		<description>
 			<p>At 6st level, you learn one druid cantrip of your choice. You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival.</p>
@@ -541,7 +541,7 @@
 			<select type="Proficiency" name="Acolyte of Nature" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL" />
 		</rules>
 	</element>
-	<element name="Dampen Elements" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DAMPEN_ELEMENTS">
+	<element name="Dampen Elements" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DAMPEN_ELEMENTS">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 10th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage.</p>
@@ -550,7 +550,7 @@
 			<description>When you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage.</description>
 		</sheet>
 	</element>
-	<element name="Master of Nature" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_MASTER_OF_NATURE">
+	<element name="Master of Nature" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_MASTER_OF_NATURE">
 		<compendium display="false" />
 		<description>
 			<p>At 14th level, you gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn.</p>
@@ -561,11 +561,11 @@
 	</element>
 
 	<!-- Tempest Domain -->
-	<element name="Tempest Domain" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_TEMPEST_DOMAIN">
+	<element name="Tempest Domain" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_TEMPEST_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
-			<p>Gods whose portfolios include the Tempest domain - including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thorâ€”govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.</p>
+			<p>Gods whose portfolios include the Tempest domain - including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor—govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.</p>
 			<h5>Tempest Domain Spells</h5>
 			<table>
 				<thead>
@@ -594,7 +594,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_STORMBORN" level="14"/>
 		</rules>
 	</element>
-	<element name="Tempest Domain Spells" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_TEMPEST_DOMAIN_SPELLS">
+	<element name="Tempest Domain Spells" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_TEMPEST_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>Tempest Domain Spells</h5>
@@ -623,7 +623,7 @@
 			<extend>ID_PHB_SPELL_INSECT_PLAGUE</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Destructive Wrath" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_CD_DESTRUCTIVE_WRATH">
+	<element name="Channel Divinity: Destructive Wrath" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_CD_DESTRUCTIVE_WRATH">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to wield the power of the storm with unchecked ferocity.</p>
@@ -633,7 +633,7 @@
 			<description>When you roll lightning or thunder damage, you can use your Channel Divinity to deal maximum damage, instead of rolling.</description>
 		</sheet>
 	</element>
-	<element name="Wrath of the Storm" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_WRATH_OF_THE_STORM">
+	<element name="Wrath of the Storm" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_WRATH_OF_THE_STORM">
 		<compendium display="false" />
 		<description>
 			<p>At 6th level, you can thunderously rebuke attackers. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Dexterity saving throw. The creature takes 2d8 lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.</p>
@@ -647,7 +647,7 @@
 			<stat name="wrath of the storm:count" value="wisdom:modifier" bonus="wrath of the storm"/>
 		</rules>
 	</element>
-	<element name="Thunderbolt Strike" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_THUNDERBOLT_STRIKE">
+	<element name="Thunderbolt Strike" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_THUNDERBOLT_STRIKE">
 		<compendium display="false" />
 		<description>
 			<p>At 10th level, when you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you.</p>
@@ -656,7 +656,7 @@
 			<description>When you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you.</description>
 		</sheet>
 	</element>
-	<element name="Stormborn" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_STORMBORN">
+	<element name="Stormborn" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_STORMBORN">
 		<compendium display="false" />
 		<description>
 			<p>At 14th level, you have a flying speed equal to your current walking speed whenever you are not underground or indoors.</p>
@@ -667,11 +667,11 @@
 	</element>
 
 	<!-- Trickery Domain -->
-	<element name="Trickery Domain" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_TRICKERY_DOMAIN">
+	<element name="Trickery Domain" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_TRICKERY_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
-			<p>Gods of trickeryâ€”such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Lokiâ€”are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. Theyâ€™re patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.</p>
+			<p>Gods of trickery—such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki—are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They’re patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.</p>
 			<h5>Trickery Domain Spells</h5>
 			<table>
 				<thead>
@@ -700,7 +700,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY" level="14"/>
 		</rules>
 	</element>
-	<element name="Trickery Domain Spells" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKERY_DOMAIN_SPELLS">
+	<element name="Trickery Domain Spells" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKERY_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>Trickery Domain Spells</h5>
@@ -729,18 +729,18 @@
 			<extend>ID_PHB_SPELL_MODIFY_MEMORY</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Invoke Duplicity" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY">
+	<element name="Channel Divinity: Invoke Duplicity" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself. As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell).</p>
 			<p class="indent">The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.</p>
-			<p class="indent">For the duration, you can cast spells as though you were in the illusionâ€™s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.</p>
+			<p class="indent">For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.</p>
 		</description>
 		<sheet alt="Invoke Duplicity" action="Action" usage="Channel Arcana">
 			<description>You create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration.</description>
 		</sheet>
 	</element>
-	<element name="Blessing of the Trickster" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER">
+	<element name="Blessing of the Trickster" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER">
 		<compendium display="false" />
 		<description>
 			<p>Starting at the 6th level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again.</p>
@@ -749,7 +749,7 @@
 			<description>Touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again.</description>
 		</sheet>
 	</element>
-	<element name="Channel Divinity: Cloak of Shadows" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_CLOAK_OF_SHADOWS">
+	<element name="Channel Divinity: Cloak of Shadows" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_CLOAK_OF_SHADOWS">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 10th level, you can use your Channel Divinity to vanish.</p>
@@ -759,7 +759,7 @@
 			<description>You become invisible until the end of your next turn. You become visible if you attack or cast a spell.</description>
 		</sheet>
 	</element>
-	<element name="Improved Duplicity" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY">
+	<element name="Improved Duplicity" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY">
 		<compendium display="false" />
 		<description>
 			<p>At 14th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet.</p>
@@ -771,7 +771,7 @@
 	</element>
 
 	<!-- War Domain -->
-	<element name="War Domain" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_WAR_DOMAIN">
+	<element name="War Domain" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_THEURGY_WAR_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
@@ -783,7 +783,7 @@
 				</thead>
 				<tr><td>2nd</td><td><em>divine favor, shield of faith</em></td></tr>
 				<tr><td>3rd</td><td><em>magic weapon, spiritual weapon</em></td></tr>
-				<tr><td>5th</td><td><em>crusaderâ€™s mantle, spirit guardians</em></td></tr>
+				<tr><td>5th</td><td><em>crusader’s mantle, spirit guardians</em></td></tr>
 				<tr><td>7th</td><td><em>freedom of movement, stoneskin</em></td></tr>
 				<tr><td>9th</td><td><em>flame strike, hold monster</em></td></tr>
 			</table>
@@ -804,7 +804,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE" level="14"/>
 		</rules>
 	</element>
-	<element name="War Domain Spells" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_DOMAIN_SPELLS">
+	<element name="War Domain Spells" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>War Domain Spells</h5>
@@ -814,7 +814,7 @@
 				</thead>
 				<tr><td>2nd</td><td><em>divine favor, shield of faith</em></td></tr>
 				<tr><td>3rd</td><td><em>magic weapon, spiritual weapon</em></td></tr>
-				<tr><td>5th</td><td><em>crusaderâ€™s mantle, spirit guardians</em></td></tr>
+				<tr><td>5th</td><td><em>crusader’s mantle, spirit guardians</em></td></tr>
 				<tr><td>7th</td><td><em>freedom of movement, stoneskin</em></td></tr>
 				<tr><td>9th</td><td><em>flame strike, hold monster</em></td></tr>
 			</table>
@@ -833,7 +833,7 @@
 			<extend>ID_PHB_SPELL_HOLD_MONSTER</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Guided Strike" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE">
+	<element name="Channel Divinity: Guided Strike" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>
@@ -842,7 +842,7 @@
 			<description>When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll.</description>
 		</sheet>
 	</element>
-	<element name="War Priest" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST">
+	<element name="War Priest" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST">
 		<compendium display="false" />
 		<description>
 			<p>From 6th level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action.</p>
@@ -856,16 +856,16 @@
 			<stat name="war priest:count" value="wisdom:modifier" bonus="war priest" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: War Godâ€™s Blessing" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_WAR_GODS_BLESSING">
+	<element name="Channel Divinity: War God’s Blessing" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_WAR_GODS_BLESSING">
 		<compendium display="false" />
 		<description>
 			<p>At 10th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>
 		</description>
-		<sheet alt="War Godâ€™s Blessing" action="Reaction" usage="Channel Arcana">
+		<sheet alt="War God’s Blessing" action="Reaction" usage="Channel Arcana">
 			<description>When a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Arcana.</description>
 		</sheet>
 	</element>
-	<element name="Avatar of Battle" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE">
+	<element name="Avatar of Battle" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_UA20170320_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE">
 		<compendium display="false" />
 		<description>
 			<p>At 14th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</p>
@@ -876,7 +876,7 @@
 	</element>
 
 	<!-- Death Domain -->
-	<element name="Death Domain" type="Archetype Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_THEURGY_DEATH_DOMAIN">
+	<element name="Death Domain" type="Archetype Feature" source="Dungeon Master’s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_THEURGY_DEATH_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
@@ -909,7 +909,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_IMPROVED_REAPER" level="14"/>
 		</rules>
 	</element>
-	<element name="Death Domain Spells" type="Archetype Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_DEATH_DOMAIN_SPELLS">
+	<element name="Death Domain Spells" type="Archetype Feature" source="Dungeon Master’s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_DEATH_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>Death Domain Spells</h5>
@@ -948,7 +948,7 @@
 			<extend>ID_WOTC_PHB24_SPELL_CLOUDKILL</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Touch of Death" type="Archetype Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_CD_TOUCH_OF_DEATH">
+	<element name="Channel Divinity: Touch of Death" type="Archetype Feature" source="Dungeon Master’s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_CD_TOUCH_OF_DEATH">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 2nd level, the wizard can use Channel Divinity to destroy another creature's life force by touch.</p>
@@ -962,7 +962,7 @@
 			<stat name="touch of death" value="level:wizard" />
 		</rules>
 	</element>
-	<element name="Reaper" type="Archetype Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_REAPER">
+	<element name="Reaper" type="Archetype Feature" source="Dungeon Master’s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_REAPER">
 		<compendium display="false" />
 		<description>
 			<p>At 6th level, the wizard learns one necromancy cantrip of his or her choice from any spell list. When the wizard casts a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other.</p>
@@ -974,7 +974,7 @@
 			<select type="Spell" name="Necromancy Cantrip (Death Domain)" supports="0,Necromancy" spellcasting="Wizard" />
 		</rules>
 	</element>
-	<element name="Inescapable Destruction" type="Archetype Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_INESCAPABLE_DESTRUCTION">
+	<element name="Inescapable Destruction" type="Archetype Feature" source="Dungeon Master’s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_INESCAPABLE_DESTRUCTION">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 10th level, the wizard's ability to channel negative energy becomes more potent. Necrotic damage dealt by the character's wizard spells and Channel Divinity options ignores resistance to necrotic damage.</p>
@@ -983,7 +983,7 @@
 			<description>Your wizard spells and Channel Divinity options ignore resistance to necrotic damage.</description>
 		</sheet>
 	</element>
-	<element name="Improved Reaper" type="Archetype Feature" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_IMPROVED_REAPER">
+	<element name="Improved Reaper" type="Archetype Feature" source="Dungeon Master’s Guide" id="ID_WOTC_UA20170320_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_IMPROVED_REAPER">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 14th level, when the wizard casts a necromancy spell of 1st through 5th level that targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other. If the spell consumes its material components, the wizard must provide them for each target.</p>
@@ -994,7 +994,7 @@
 	</element>
 
 	<!-- Arcana Domain -->
-	<element name="Arcana Domain" type="Archetype Feature" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_THEURGY_ARCANA_DOMAIN">
+	<element name="Arcana Domain" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_THEURGY_ARCANA_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
@@ -1028,7 +1028,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANE_MASTERY" level="14"/>
 		</rules>
 	</element>
-	<element name="Arcana Domain Spells" type="Archetype Feature" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANA_DOMAIN_SPELLS">
+	<element name="Arcana Domain Spells" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANA_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>ARCANA DOMAIN SPELLS</h5>
@@ -1067,7 +1067,7 @@
 			<extend>ID_WOTC_PHB24_SPELL_TELEPORTATION_CIRCLE</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Arcane Abjuration" type="Archetype Feature" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_CD_ARCANE_ABJURATION">
+	<element name="Channel Divinity: Arcane Abjuration" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_CD_ARCANE_ABJURATION">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures.</p>
@@ -1092,7 +1092,7 @@
 			<description level="17">You can use your Channel Divinity to abjure otherworldly creatures of CR 4 or lower for 1 minute DC {{spellcasting:dc:int}} Wisdom saving throw.</description>
 		</sheet>
 	</element>
-	<element name="Arcane Initiate" type="Archetype Feature" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANE_INITIATE">
+	<element name="Arcane Initiate" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANE_INITIATE">
 		<compendium display="false" />
 		<description>
 			<p>At 6th level, you gain proficiency in the Arcana skill, and you gain two cantrips of your choice from the wizard spell list. For you, these cantrips count as cleric cantrips.</p>
@@ -1105,7 +1105,7 @@
 			<select type="Spell" name="Arcane Initiate" supports="Wizard,0" number="2" spellcasting="Wizard"/>
 		</rules>
 	</element>
-	<element name="Spell Breaker" type="Archetype Feature" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_SPELL_BREAKER">
+	<element name="Spell Breaker" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_SPELL_BREAKER">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 10th level, when you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell.</p>
@@ -1114,7 +1114,7 @@
 			<description>When you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell.</description>
 		</sheet>
 	</element>
-	<element name="Arcane Mastery" type="Archetype Feature" source="Sword Coast Adventurerâ€™s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANE_MASTERY">
+	<element name="Arcane Mastery" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_UA20170320_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANE_MASTERY">
 		<compendium display="false" />
 		<description>
 			<p>At 14th level, you choose four spells from the wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you.</p>
@@ -1131,7 +1131,7 @@
 	</element>
 
 	<!-- Forge Domain -->
-	<element name="Forge Domain" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_THEURGY_FORGE_DOMAIN">
+	<element name="Forge Domain" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_THEURGY_FORGE_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
@@ -1166,7 +1166,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_SAINT_OF_FORGE_AND_FIRE" level="14"/>
 		</rules>
 	</element>
-	<element name="Forge Domain Spells" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_FORGE_DOMAIN_SPELLS">
+	<element name="Forge Domain Spells" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_FORGE_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>FORGE DOMAIN SPELLS</h5>
@@ -1205,41 +1205,41 @@
 			<extend>ID_WOTC_PHB24_SPELL_CREATION</extend>
 		</spellcasting>
 	</element> 
-	<element name="Channel Divinity: Artisanâ€™s Blessing" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_CD_ARTISANS_BLESSING">
+	<element name="Channel Divinity: Artisan’s Blessing" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_CD_ARTISANS_BLESSING">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to create simple items.</p>
-			<p class="indent">You conduct an hour-long ritual that crafts a nonmagical item that must include some metal: a simple or martial weapon, a suit of armor, ten pieces of ammunition, a set of tools, or another metal object (see chapter 5, â€œEquipment,â€ in the Playerâ€™s Handbook for examples of these items). The creation is completed at the end of the hour, coalescing in an unoccupied space of your choice on a surface within 5 feet of you.</p>
-			<p class="indent">The thing you create can be something that is worth no more than 100 gp. As part of this ritual, you must lay out metal, which can include coins, with a value equal to the creation. The metal irretrievably coalesces and transforms into the creation at the ritualâ€™s end, magically forming even nonmetal parts of the creation.</p>
+			<p class="indent">You conduct an hour-long ritual that crafts a nonmagical item that must include some metal: a simple or martial weapon, a suit of armor, ten pieces of ammunition, a set of tools, or another metal object (see chapter 5, “Equipment,” in the Player’s Handbook for examples of these items). The creation is completed at the end of the hour, coalescing in an unoccupied space of your choice on a surface within 5 feet of you.</p>
+			<p class="indent">The thing you create can be something that is worth no more than 100 gp. As part of this ritual, you must lay out metal, which can include coins, with a value equal to the creation. The metal irretrievably coalesces and transforms into the creation at the ritual’s end, magically forming even nonmetal parts of the creation.</p>
 			<p class="indent">The ritual can create a duplicate of a nonmagical item that contains metal, such as a key, if you possess the original during the ritual.</p>
 		</description>
-		<sheet alt="Artisanâ€™s Blessing" usage="Channel Arcana">
+		<sheet alt="Artisan’s Blessing" usage="Channel Arcana">
 			<description>You can conduct an hour-long ritual that crafts or duplicates a nonmagical item that must include some metal.</description>
 		</sheet>
 	</element> 
-	<element name="Bonus Proficiencies" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_BONUS_PROFICIENCIES">
+	<element name="Bonus Proficiencies" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_BONUS_PROFICIENCIES">
 		<compendium display="false" />
 		<description>
-			<p>At 6th level, you gain proficiency with smithâ€™s tools.</p>
+			<p>At 6th level, you gain proficiency with smith’s tools.</p>
 		</description>
 		<sheet display="false">
-			<description>You gain proficiency with smithâ€™s tools.</description>
+			<description>You gain proficiency with smith’s tools.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
 		</rules>
 	</element> 
-	<element name="Blessing of the Forge" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_BLESSING_OF_THE_FORGE">
+	<element name="Blessing of the Forge" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_BLESSING_OF_THE_FORGE">
 		<compendium display="false" />
 		<description>
-			<p>At 6th level, you gain the ability to imbue magic into a weapon or armor. At the end of a long rest, you can touch one nonmagical object that is a suit of armor or a simple or martial weapon. Until the end of your next long rest or until you die, the object becomes a magic item, granting a +1 bonus to AC if itâ€™s armor or a +1 bonus to attack and damage rolls if itâ€™s a weapon.</p>
-			<p class="indent">Once you use this feature, you canâ€™t use it again until you finish a long rest.</p>
+			<p>At 6th level, you gain the ability to imbue magic into a weapon or armor. At the end of a long rest, you can touch one nonmagical object that is a suit of armor or a simple or martial weapon. Until the end of your next long rest or until you die, the object becomes a magic item, granting a +1 bonus to AC if it’s armor or a +1 bonus to attack and damage rolls if it’s a weapon.</p>
+			<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
 		</description>
 		<sheet>
-			<description>At the end of a long rest, you can touch one nonmagical object that is a suit of armor or a simple or martial weapon. Until the end of your next long rest or until you die, the object becomes a magic item, granting a +1 bonus to AC if itâ€™s armor or a +1 bonus to attack and damage rolls if itâ€™s a weapon.</description>
+			<description>At the end of a long rest, you can touch one nonmagical object that is a suit of armor or a simple or martial weapon. Until the end of your next long rest or until you die, the object becomes a magic item, granting a +1 bonus to AC if it’s armor or a +1 bonus to attack and damage rolls if it’s a weapon.</description>
 		</sheet>
 	</element> 
-	<element name="Soul of the Forge" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_SOUL_OF_THE_FORGE">
+	<element name="Soul of the Forge" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_SOUL_OF_THE_FORGE">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 10th level, your mastery of the forge grants you special abilities:</p>
@@ -1256,7 +1256,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
 		</rules>
 	</element> 
-	<element name="Saint of Forge and Fire" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_SAINT_OF_FORGE_AND_FIRE">
+	<element name="Saint of Forge and Fire" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_SAINT_OF_FORGE_AND_FIRE">
 		<compendium display="false" />
 		<description>
 			<p>At 14th level, your blessed affinity with fire and metal becomes more powerful:</p>
@@ -1277,7 +1277,7 @@
 	</element> 
 
 	<!-- Grave Domain -->
-	<element name="Grave Domain" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_THEURGY_GRAVE_DOMAIN">
+	<element name="Grave Domain" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_THEURGY_GRAVE_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
@@ -1310,7 +1310,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_KEEPER_OF_SOULS" level="14"/>
 		</rules>
 	</element>
-	<element name="Grave Domain Spells" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_GRAVE_DOMAIN_SPELLS">
+	<element name="Grave Domain Spells" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_GRAVE_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>GRAVE DOMAIN SPELLS</h5>
@@ -1349,21 +1349,21 @@
 			<extend>ID_WOTC_PHB24_SPELL_RAISE_DEAD</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Path to the Grave" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_CD_PATH_TO_THE_GRAVE">
+	<element name="Channel Divinity: Path to the Grave" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_CD_PATH_TO_THE_GRAVE">
 		<compendium display="false" />
 		<description>
-			<p>Starting at 2nd level, you can use your Channel Divinity to mark another creatureâ€™s life force for termination.</p>
+			<p>Starting at 2nd level, you can use your Channel Divinity to mark another creature’s life force for termination.</p>
 			<p class="indent">As an action, you choose one creature you can see within 30 feet of you, cursing it until the end of your next turn. The next time you or an ally of yours hits the cursed creature with an attack, the creature has vulnerability to all of that attack's damage, and then the curse ends.</p>
 		</description>
 		<sheet alt="Path to the Grave" action="Action" usage="Channel Arcana">
 			<description>As an action, choose one creature you can see within 30ft, and curse it until the end of your next turn. The next time you or an ally of yours hits the cursed creature with an attack, the creature has vulnerability to all of that attack's damage, and then the curse ends.</description>
 		</sheet>
 	</element>
-	<element name="Circle of Mortality" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_CIRCLE_OF_MORTALITY">
+	<element name="Circle of Mortality" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_CIRCLE_OF_MORTALITY">
 		<compendium display="false" />
 		<description>
 			<p>At 6th level, you gain the ability to manipulate the line between life and death. When you would normally roll one or more dice to restore hit points with a spell to a creature at 0 hit points, you instead use the highest number possible for each die.</p>
-			<p class="indent">In addition, you learn the<i>spare the dying cantrip</i>, which doesnâ€™t count against the number of cleric cantrips you know. For you, it has a range of 30 feet, and you can cast it as a bonus action.</p>
+			<p class="indent">In addition, you learn the<i>spare the dying cantrip</i>, which doesn’t count against the number of cleric cantrips you know. For you, it has a range of 30 feet, and you can cast it as a bonus action.</p>
 		</description>
 		<sheet>
 			<description>When rolling dice to restore HP with a spell, to a creature at 0HP, instead use the highest number possible for each die. Your spare the dying cantrip, has a range of 30ft and is a bonus action.
@@ -1373,10 +1373,10 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SPARE_THE_DYING" spellcasting="Wizard" />
 		</rules>
 	</element>
-	<element name="Sentinel at Death's Door" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_SENTINEL_AT_DEATHS_DOOR">
+	<element name="Sentinel at Death's Door" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_SENTINEL_AT_DEATHS_DOOR">
 		<compendium display="false" />
 		<description>
-			<p>At 10th level, you gain the ability to impede deathâ€™s progress. As a reaction when you or a creature you can see within 30 feet of you suffers a critical hit, you can turn that hit into a normal hit. Any effects triggered by a critical hit are canceled. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.</p>
+			<p>At 10th level, you gain the ability to impede death’s progress. As a reaction when you or a creature you can see within 30 feet of you suffers a critical hit, you can turn that hit into a normal hit. Any effects triggered by a critical hit are canceled. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet action="Reaction" usage="{{sentinel deaths door:count}}/Long Rest">
 			<description>When you or a creature you can see within 30ft of you suffers a critical hit, turn that hit into a normal hit.</description>
@@ -1386,13 +1386,13 @@
 			<stat name="sentinel deaths door:count" value="wisdom:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Keeper of Souls" type="Archetype Feature" source="Xanatharâ€™s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_KEEPER_OF_SOULS">
+	<element name="Keeper of Souls" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_UA20170320_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_KEEPER_OF_SOULS">
 		<compendium display="false" />
 		<description>
-			<p>Starting at 14th level. you can seize a trace of vitality from a parting soul and use it to heal the living. When an enemy you can see dies within 60 feet of you, you or one creature of your choice that is within 60 feet of you regains hit points equal to the enemyâ€™s number of Hit Dice. You can use this feature only if you arenâ€™t incapacitated. Once you use it, you can't do so again until the start of your next turn.</p>
+			<p>Starting at 14th level. you can seize a trace of vitality from a parting soul and use it to heal the living. When an enemy you can see dies within 60 feet of you, you or one creature of your choice that is within 60 feet of you regains hit points equal to the enemy’s number of Hit Dice. You can use this feature only if you aren’t incapacitated. Once you use it, you can't do so again until the start of your next turn.</p>
 		</description>
 		<sheet usage="1/Turn">
-			<description>When an enemy you can see dies within 60 feet of you, you or one creature of your choice that is within 60 feet of you regains hit points equal to the enemyâ€™s number of Hit Dice.</description>
+			<description>When an enemy you can see dies within 60 feet of you, you or one creature of your choice that is within 60 feet of you regains hit points equal to the enemy’s number of Hit Dice.</description>
 		</sheet>
 	</element>
 
@@ -1402,7 +1402,7 @@
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
 			<p>The City domain is concerned with the citizenry, commerce, traffic, and even architecture of modern civilization. In the eyes of a cleric of the city, the center of modern life is a sense and spirit of community, and the gravest enemies of the city are those who seek to harm the common weal of its citizens.</p>
-			<p class="indent">New spells introduced for the City domain are marked with an asterisk and detailed in the â€œNew Spellsâ€ section. For all other spells, see the <i>Playerâ€™s Handbook</i>.</p>
+			<p class="indent">New spells introduced for the City domain are marked with an asterisk and detailed in the “New Spells” section. For all other spells, see the <i>Player’s Handbook</i>.</p>
 			<h5>City Domain Spells</h5>
 			<table>
 				<thead>
@@ -1538,8 +1538,8 @@
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
-			<p>The Order domain represents discipline, as well as service to a society or an institution, whether that service is rendered in obedience to or enforcement of the lawâ€”civil, religious, or both. Gods on many worlds grant access to this domain, including Bane, Tyr, Majere, Erathis, Pholtus, Wee Jas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forseti, and Asmodeus.</p>
-			<p class="indent">The ideal of order is obedience to the law above all else, rather than to a specific individual or the passing influence of emotion or popular rule. Clerics of order are typically concerned with how things are done, rather than whether an actionâ€™s results are just. Following the law and obeying its edicts is critical, especially when it benefits these clerics and their deities.</p>
+			<p>The Order domain represents discipline, as well as service to a society or an institution, whether that service is rendered in obedience to or enforcement of the law—civil, religious, or both. Gods on many worlds grant access to this domain, including Bane, Tyr, Majere, Erathis, Pholtus, Wee Jas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forseti, and Asmodeus.</p>
+			<p class="indent">The ideal of order is obedience to the law above all else, rather than to a specific individual or the passing influence of emotion or popular rule. Clerics of order are typically concerned with how things are done, rather than whether an action’s results are just. Following the law and obeying its edicts is critical, especially when it benefits these clerics and their deities.</p>
 			<p class="indent">More importantly, law establishes hierarchies. Those selected by the law to lead must be obeyed. Those who obey must do so to the best of their ability. In this manner, law creates an intricate web of obligations that allows society to forge order and security in a chaotic multiverse.</p>
 			<h5>Order Domain Spells</h5>
 			<table>
@@ -1558,7 +1558,7 @@
 			<div element="ID_WOTC_UA20170320_UA20180409_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_WRATH" />
 		</description>
 		<sheet>
-			<description>The Order domain represents discipline, as well as service to a society or an institution, whether that service is rendered in obedience to or enforcement of the lawâ€”civil, religious, or both.</description>
+			<description>The Order domain represents discipline, as well as service to a society or an institution, whether that service is rendered in obedience to or enforcement of the law—civil, religious, or both.</description>
 		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_UA20180409_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDER_DOMAIN_SPELLS"/>
@@ -1608,13 +1608,13 @@
 			<extend>ID_WOTC_PHB24_SPELL_DOMINATE_PERSON</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Orderâ€™s Demand" type="Archetype Feature" source="Unearthed Arcana: Order Domain" id="ID_WOTC_UA20170320_UA20180409_ARCHETYPE_FEATURE_ORDER_DOMAIN_CD_ORDERS_DEMAND">
+	<element name="Channel Divinity: Order’s Demand" type="Archetype Feature" source="Unearthed Arcana: Order Domain" id="ID_WOTC_UA20170320_UA20180409_ARCHETYPE_FEATURE_ORDER_DOMAIN_CD_ORDERS_DEMAND">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to exert an intimidating presence over others.</p>
 			<p class="indent">As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to fall prone when they fail the saving throw.</p>
 		</description>
-		<sheet alt="Orderâ€™s Demand" action="Action" usage="Channel Arcana">
+		<sheet alt="Order’s Demand" action="Action" usage="Channel Arcana">
 			<description>You present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to fall prone when they fail the saving throw.</description>
 		</sheet>
 	</element>
@@ -1628,17 +1628,17 @@
 			<description>Immediately after you cast a spell on an ally using a spell slot of 1st level or higher, that ally can use their reaction to make one weapon attack against a target of your choice that you can see. If the spell targets more than one ally, you choose the ally who can make the attack.</description>
 		</sheet>
 	</element>
-	<element name="Orderâ€™s Dominion" type="Archetype Feature" source="Unearthed Arcana: Order Domain" id="ID_WOTC_UA20170320_UA20180409_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_DOMINION">
+	<element name="Order’s Dominion" type="Archetype Feature" source="Unearthed Arcana: Order Domain" id="ID_WOTC_UA20170320_UA20180409_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_DOMINION">
 		<compendium display="false" />
 		<description>
 			<p>At 10th level, you become extraordinarily adept at channeling magical energy to compel others.</p>
-			<p class="indent">When you cast a spell of the enchantment school using a spell slot of 2nd level or higher, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and canâ€™t be higher than 5th level.</p>
+			<p class="indent">When you cast a spell of the enchantment school using a spell slot of 2nd level or higher, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can’t be higher than 5th level.</p>
 		</description>
 		<sheet>
-			<description>When you cast a spell of the enchantment school using a spell slot of 2nd level or higher, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and canâ€™t be higher than 5th level.</description>
+			<description>When you cast a spell of the enchantment school using a spell slot of 2nd level or higher, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can’t be higher than 5th level.</description>
 		</sheet>
 	</element>
-	<element name="Orderâ€™s Wrath" type="Archetype Feature" source="Unearthed Arcana: Order Domain" id="ID_WOTC_UA20170320_UA20180409_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_WRATH">
+	<element name="Order’s Wrath" type="Archetype Feature" source="Unearthed Arcana: Order Domain" id="ID_WOTC_UA20170320_UA20180409_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_WRATH">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 14th level, enemies you designate for destruction wilt under the combined efforts of you and your allies. If you deal your Divine Strike damage to a creature, that creature takes an extra 2d8 force damage the first time each turn that any ally of yours hits it with a weapon attack. This benefit lasts until the start of your next turn.</p>
@@ -1653,7 +1653,7 @@
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
-			<p>The protection domain is the purview of deities who charge their followers to shield the weak from the strong. The godsâ€™ faithful dwell in villages and towns on the borderlands, where they help bolster defenses and seek out evils to defeat. These gods believe that a strong shield and a suit of armor is the best defense against evil, second only to a stout mace on hand to respond to any attacks in kind. Deities who grant this domain include Helm, Ilmater, Torm, Tyr, Heironeous, St. Cuthbert, Paladine, Dol Dorn, the Silver Flame, Bahamut, Yondalla, Athena, and Odin.</p>
+			<p>The protection domain is the purview of deities who charge their followers to shield the weak from the strong. The gods’ faithful dwell in villages and towns on the borderlands, where they help bolster defenses and seek out evils to defeat. These gods believe that a strong shield and a suit of armor is the best defense against evil, second only to a stout mace on hand to respond to any attacks in kind. Deities who grant this domain include Helm, Ilmater, Torm, Tyr, Heironeous, St. Cuthbert, Paladine, Dol Dorn, the Silver Flame, Bahamut, Yondalla, Athena, and Odin.</p>
 			<h5>Order Domain Spells</h5>
 			<table>
 				<thead>
@@ -1662,7 +1662,7 @@
 				<tr><td>1st</td><td><em>compelled duel, protection from evil and good</em></td></tr>
 				<tr><td>3rd</td><td><em>aid, protection from poison</em></td></tr>
 				<tr><td>5th</td><td><em>protection from energy, slow</em></td></tr>
-				<tr><td>7th</td><td><em>guardian of faith, Otilukeâ€™s resilient sphere</em></td></tr> 
+				<tr><td>7th</td><td><em>guardian of faith, Otiluke’s resilient sphere</em></td></tr> 
 				<tr><td>9th</td><td><em>antilife shell, wall of force</em></td></tr>
 			</table>
 			<div element="ID_WOTC_UA20170320_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_CD_RADIANT_DEFENSE" />
@@ -1693,7 +1693,7 @@
 				<tr><td>1st</td><td><em>compelled duel, protection from evil and good</em></td></tr>
 				<tr><td>3rd</td><td><em>aid, protection from poison</em></td></tr>
 				<tr><td>5th</td><td><em>protection from energy, slow</em></td></tr>
-				<tr><td>7th</td><td><em>guardian of faith, Otilukeâ€™s resilient sphere</em></td></tr> 
+				<tr><td>7th</td><td><em>guardian of faith, Otiluke’s resilient sphere</em></td></tr> 
 				<tr><td>9th</td><td><em>antilife shell, wall of force</em></td></tr>
 			</table>
 		</description>
@@ -1743,10 +1743,10 @@
 	<element name="Blessed Healer" type="Archetype Feature" source="Unearthed Arcana: Cleric: Divine Domains" id="ID_WOTC_UA20170320_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_BLESSED_HEALER">
 		<compendium display="false" />
 		<description>
-			<p>Beginning at 10th level, the healing spells you cast on others can heal you as well. When you cast a spell with a spell slot and it restores hit points to any creature other than you this turn, you regain hit points equal to 2 + the spellâ€™s level.</p>
+			<p>Beginning at 10th level, the healing spells you cast on others can heal you as well. When you cast a spell with a spell slot and it restores hit points to any creature other than you this turn, you regain hit points equal to 2 + the spell’s level.</p>
 		</description>
 		<sheet>
-			<description>You regain hit points equal to 2 + the spellâ€™s level when casting a healing spell on another creature with a spell slot.</description>
+			<description>You regain hit points equal to 2 + the spell’s level when casting a healing spell on another creature with a spell slot.</description>
 		</sheet>
 	</element> 
 	<element name="Indomitable Defense" type="Archetype Feature" source="Unearthed Arcana: Cleric: Divine Domains" id="ID_WOTC_UA20170320_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_INDOMITABLE_DEFENSE">
@@ -1762,12 +1762,12 @@
 	</element> 
 
 	<!-- GGTR Order Domain -->
-	<element name="Order Domain" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_THEURGY_ORDER_DOMAIN">
+	<element name="Order Domain" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_THEURGY_ORDER_DOMAIN">
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
-			<p>The Order domain represents discipline, as well as service to a society or an institution, whether that service is rendered in obedience to or enforcement of the lawâ€”civil, religious, or both. Gods on many worlds grant access to this domain, including Bane, Tyr, Majere, Erathis, Pholtus, Wee Jas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forseti, and Asmodeus.</p>
-			<p class="indent">The ideal of order is obedience to the law above all else, rather than to a specific individual or the passing influence of emotion or popular rule. Clerics of order are typically concerned with how things are done, rather than whether an actionâ€™s results are just. Following the law and obeying its edicts is critical, especially when it benefits these clerics and their deities.</p>
+			<p>The Order domain represents discipline, as well as service to a society or an institution, whether that service is rendered in obedience to or enforcement of the law—civil, religious, or both. Gods on many worlds grant access to this domain, including Bane, Tyr, Majere, Erathis, Pholtus, Wee Jas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forseti, and Asmodeus.</p>
+			<p class="indent">The ideal of order is obedience to the law above all else, rather than to a specific individual or the passing influence of emotion or popular rule. Clerics of order are typically concerned with how things are done, rather than whether an action’s results are just. Following the law and obeying its edicts is critical, especially when it benefits these clerics and their deities.</p>
 			<p class="indent">More importantly, law establishes hierarchies. Those selected by the law to lead must be obeyed. Those who obey must do so to the best of their ability. In this manner, law creates an intricate web of obligations that allows society to forge order and security in a chaotic multiverse.</p>
 			<h5>Order Domain Spells</h5>
 			<table>
@@ -1787,7 +1787,7 @@
 			<div element="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_WRATH" />
 		</description>
 		<sheet>
-			<description>The Order domain represents discipline, as well as service to a society or an institution, whether that service is rendered in obedience to or enforcement of the lawâ€”civil, religious, or both.</description>
+			<description>The Order domain represents discipline, as well as service to a society or an institution, whether that service is rendered in obedience to or enforcement of the law—civil, religious, or both.</description>
 		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDER_DOMAIN_SPELLS"/>
@@ -1799,7 +1799,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_WRATH" level="14"/>
 		</rules>
 	</element>
-	<element name="Order Domain Spells" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDER_DOMAIN_SPELLS">
+	<element name="Order Domain Spells" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDER_DOMAIN_SPELLS">
 		<compendium display="false" />
 		<description>
 			<h5>Order Domain Spells</h5>
@@ -1838,17 +1838,17 @@
 			<extend>ID_WOTC_PHB24_SPELL_DOMINATE_PERSON</extend>
 		</spellcasting>
 	</element>
-	<element name="Channel Divinity: Orderâ€™s Demand" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_CD_ORDERS_DEMAND">
+	<element name="Channel Divinity: Order’s Demand" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_CD_ORDERS_DEMAND">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to exert an intimidating presence over others.</p>
 			<p class="indent">As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving throw.</p>
 		</description>
-		<sheet alt="Orderâ€™s Demand" action="Action" usage="Channel Arcana">
+		<sheet alt="Order’s Demand" action="Action" usage="Channel Arcana">
 			<description>You present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving throw.</description>
 		</sheet>
 	</element>	
-	<element name="Bonus Proficiency" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_BONUS_PROFICIENCY">
+	<element name="Bonus Proficiency" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_BONUS_PROFICIENCY">
 		<compendium display="false" />
 		<description>
 			<p>At 6th level, you gain proficiency in the Intimidation or Persuasion skill (your choice).</p>
@@ -1860,7 +1860,7 @@
 			<select type="Proficiency" name="Bonus Proficiency (Order Domain)" supports="ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERSUASION" />
 		</rules>
 	</element>
-	<element name="Voice of Authority" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_VOICE_OF_AUTHORITY">
+	<element name="Voice of Authority" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_VOICE_OF_AUTHORITY">
 		<compendium display="false" />
 		<description>
 			<p>At 6th level, you can invoke the power of law to drive an ally to attack. If you cast a spell with a spell slot of 1st level or higher and target an ally with the spell, that ally can use their reaction immediately after the spell to make one weapon attack against a creature of your choice that you can see.</p>
@@ -1870,7 +1870,7 @@
 			<description>If you cast a spell with a spell slot of 1st level or higher and target an ally with the spell, that ally can use their reaction immediately after the spell to make one weapon attack against a creature of your choice that you can see. If the spell targets more than one ally, you choose the ally who can make the attack.</description>
 		</sheet>
 	</element>
-	<element name="Embodiment of the Law" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_EMBODIMENT_OF_THE_LAW">
+	<element name="Embodiment of the Law" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_EMBODIMENT_OF_THE_LAW">
 		<compendium display="false" />
 		<description>
 			<p>At 10th level, you become remarkably adept at channeling magical energy to compel others.</p>
@@ -1885,7 +1885,7 @@
 			<stat name="embodiment of the law:usages" value="wisdom:modifier" bonus="embodiment of the law" />
 		</rules>
 	</element>
-	<element name="Orderâ€™s Wrath" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_WRATH">
+	<element name="Order’s Wrath" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_UA20170320_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_WRATH">
 		<compendium display="false" />
 		<description>
 			<p>Starting at 14th level, enemies you designate for destruction wilt under the combined efforts of you and your allies. If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 2d8 psychic damage, and the curse ends. You can curse a creature in this way only once per turn.</p>
@@ -1900,7 +1900,7 @@
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
-			<p>Bontu has fully embraced this dictum, and though she expends little effort in teaching it, she surely leads by example. Her viziers subtly plant the seeds that flower into the ambition the God-Pharaoh desires. Through insinuation, they remind acolytes and initiates alike that achieving oneâ€™s place in the afterlife at the expense of others is not shameful, but is proof of the initiateâ€™s determination and drive. Nothing is more important than that drive, they suggestâ€”not the bonds of a crop, not friendship or love. Not even devotion to a deity.</p>
+			<p>Bontu has fully embraced this dictum, and though she expends little effort in teaching it, she surely leads by example. Her viziers subtly plant the seeds that flower into the ambition the God-Pharaoh desires. Through insinuation, they remind acolytes and initiates alike that achieving one’s place in the afterlife at the expense of others is not shameful, but is proof of the initiate’s determination and drive. Nothing is more important than that drive, they suggest—not the bonds of a crop, not friendship or love. Not even devotion to a deity.</p>
 			<h5>Ambition Domain Spells</h5>
 			<table>
 				<thead>
@@ -1973,7 +1973,7 @@
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.</p>
 			<p class="indent">As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.</p>
-			<p class="indent">For the duration, you can cast spells as though you were in the illusionâ€™s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.</p>
+			<p class="indent">For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.</p>
 		</description>
 		<sheet alt="Invoke Duplicity" action="Action" usage="Channel Arcana">
 			<description>Summon an illusion of you for 1 min. As a bonus action you can move this illusion 30 ft up to a range of 120 ft. You can cast spells as if you're on the illusions space and if you're within 5 ft of your illusion you have advatange on attack rolls against any creatures that can see both you and your illusion.</description>
@@ -1983,7 +1983,7 @@
 	<element name="Warding Flare" type="Archetype Feature" source="Plane Shift: Amonkhet" id="ID_WOTC_UA20170320_PSA_ARCHETYPE_FEATURE_AMBITION_DOMAIN_WARDING_FLARE">
 		<compendium display="false" />
 		<description>
-			<p>At 6th level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that canâ€™t be blinded is immune to this feature.</p>
+			<p>At 6th level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can’t be blinded is immune to this feature.</p>
 			<p class="indent">You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet action="Reaction" usage="{{warding flare:usage}}/Long Rest">
@@ -2026,7 +2026,7 @@
 				</thead>
 				<tr><td>1st</td><td><em>bless, guiding bolt</em></td></tr>
 				<tr><td>3rd</td><td><em>aid, warding bond</em></td></tr>
-				<tr><td>5th</td><td><em>beacon of hope, crusaderâ€™s mantle</em></td></tr>
+				<tr><td>5th</td><td><em>beacon of hope, crusader’s mantle</em></td></tr>
 				<tr><td>7th</td><td><em>aura of life, guardian of faith</em></td></tr>
 				<tr><td>9th</td><td><em>circle of power, mass cure wounds</em></td></tr>
 			</table>
@@ -2057,7 +2057,7 @@
 				</thead>
 				<tr><td>1st</td><td><em>bless, guiding bolt</em></td></tr>
 				<tr><td>3rd</td><td><em>aid, warding bond</em></td></tr>
-				<tr><td>5th</td><td><em>beacon of hope, crusaderâ€™s mantle</em></td></tr>
+				<tr><td>5th</td><td><em>beacon of hope, crusader’s mantle</em></td></tr>
 				<tr><td>7th</td><td><em>aura of life, guardian of faith</em></td></tr>
 				<tr><td>9th</td><td><em>circle of power, mass cure wounds</em></td></tr>
 			</table>
@@ -2090,10 +2090,10 @@
 		<compendium display="false" />
 		<description>
 		<p>Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.</p>
-		<p class="indent">As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your wizard level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You canâ€™t use this feature on an undead or a construct.</p>
+		<p class="indent">As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your wizard level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can’t use this feature on an undead or a construct.</p>
 		</description>
 		<sheet alt="Preserve Life" action="Action" usage="Channel Arcana">
-			<description>You present your holy symbol and evoke healing energy that can restore {{preserve life:hp}} hit points. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You canâ€™t use this feature on an undead or a construct.</description>
+			<description>You present your holy symbol and evoke healing energy that can restore {{preserve life:hp}} hit points. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can’t use this feature on an undead or a construct.</description>
 		</sheet>
 		<rules>
 			<stat name="preserve life:hp" value="level:wizard" />
@@ -2103,21 +2103,21 @@
 			<stat name="preserve life:hp" value="level:wizard" />
 		</rules>
 	</element>
-	<element name="Solidarityâ€™s Action" type="Archetype Feature" source="Plane Shift: Amonkhet" id="ID_WOTC_UA20170320_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_SOLIDARITYS_ACTION">
+	<element name="Solidarity’s Action" type="Archetype Feature" source="Plane Shift: Amonkhet" id="ID_WOTC_UA20170320_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_SOLIDARITYS_ACTION">
 		<compendium display="false" />
 		<description>
-			<p>At 6th level, when you take the Help action to aid an allyâ€™s attack, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain expended uses when you finish a long rest.</p>
+			<p>At 6th level, when you take the Help action to aid an ally’s attack, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain expended uses when you finish a long rest.</p>
 		</description>
 		<sheet usage="wisdom:modifier}}/Long Rest">
 			<description>When you take the Help action you can make one attack as a bonus action.</description>
 		</sheet>
 	</element>
-	<element name="Channel Divinity: Oketraâ€™s Blessing" type="Archetype Feature" source="Plane Shift: Amonkhet" id="ID_WOTC_UA20170320_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_CD_OKETRAS_BLESSING">
+	<element name="Channel Divinity: Oketra’s Blessing" type="Archetype Feature" source="Plane Shift: Amonkhet" id="ID_WOTC_UA20170320_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_CD_OKETRAS_BLESSING">
 		<compendium display="false" />
 		<description>
 			<p>At 10th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>
 		</description>
-		<sheet alt="Oketraâ€™s Blessing" action="Reaction" usage="Channel Arcana">
+		<sheet alt="Oketra’s Blessing" action="Reaction" usage="Channel Arcana">
 			<description>When a creature within 30 feet of you makes an attack roll you can add +10 to that roll this can be done after the roll but before the results are revealed.</description>
 		</sheet>
 	</element>
@@ -2136,7 +2136,7 @@
 		<compendium display="false" />
 		<supports>UA20170320 Theurgy Domain</supports>
 		<description>
-			<p>It falls to Rhonas to instill this teaching in those who would enter the afterlifeâ€”but to his mind, the words themselves donâ€™t matter. Strength canâ€™t be taught. It must be built through practice and training. Rhonas demonstrates his teachings by his example, rather than by giving his students any kind of academic instruction. He welcomes the people of Naktamun to stand by the Hekma and watch him as he storms into the desert to battle the greatest horrors. He encourages them to observe his indomitable strength, for though they will never equal it, they can aspire to mimicry. He invites them to scrutinize every move and practice what they see.</p>
+			<p>It falls to Rhonas to instill this teaching in those who would enter the afterlife—but to his mind, the words themselves don’t matter. Strength can’t be taught. It must be built through practice and training. Rhonas demonstrates his teachings by his example, rather than by giving his students any kind of academic instruction. He welcomes the people of Naktamun to stand by the Hekma and watch him as he storms into the desert to battle the greatest horrors. He encourages them to observe his indomitable strength, for though they will never equal it, they can aspire to mimicry. He invites them to scrutinize every move and practice what they see.</p>
 			<h5>Strength Domain Spells</h5>
 			<table>
 				<thead>
@@ -2229,12 +2229,12 @@
 			<select type="Proficiency" name="Skill Proficiency (Acolyte of Strength)" supports="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Rhonaâ€™s Blessing" type="Archetype Feature" source="Plane Shift: Amonkhet" id="ID_WOTC_UA20170320_PSA_ARCHETYPE_FEATURE_STRENGTH_DOMAIN_CD_RHONAS_BLESSING">
+	<element name="Channel Divinity: Rhona’s Blessing" type="Archetype Feature" source="Plane Shift: Amonkhet" id="ID_WOTC_UA20170320_PSA_ARCHETYPE_FEATURE_STRENGTH_DOMAIN_CD_RHONAS_BLESSING">
 		<compendium display="false" />
 		<description>
 			<p>At 10th level, when a creature within 30 feet of you makes an attack roll, ability check, or saving throw using Strength, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the roll succeeds or fail.</p>
 		</description>
-		<sheet alt="Rhonaâ€™s Blessing" action="Reaction" usage="Channel Arcana">
+		<sheet alt="Rhona’s Blessing" action="Reaction" usage="Channel Arcana">
 			<description>When a creature within 30 ft of you makes an attack roll, ability check, saving throw with Strength you can add +10 to the roll before the results are revealed.</description>
 		</sheet>
 	</element>
@@ -2358,7 +2358,7 @@
 		<compendium display="false" />
 		<description>
 			<p>Starting at 14th level, you can delay death for an instant to perform a final heroic act. </p>
-			<p class="indent">When you are reduced to 0 hit points by an attacker you can see, even if you would be killed outright, you can use your reaction to move up to your speed toward the attacker and make one melee weapon attack against it, as long as the movement brings it within your reach. You make this attack with advantage. If the attack hits, the creature takes an extra 5d10 fire damage and an extra 5d10 damage of the weaponâ€™s type. You then fall unconscious and begin making death saving throws as normal, or you die if the damage you took would have killed you outright. Once you use this feature, you canâ€™t use it again until you finish a long rest.</p>
+			<p class="indent">When you are reduced to 0 hit points by an attacker you can see, even if you would be killed outright, you can use your reaction to move up to your speed toward the attacker and make one melee weapon attack against it, as long as the movement brings it within your reach. You make this attack with advantage. If the attack hits, the creature takes an extra 5d10 fire damage and an extra 5d10 damage of the weapon’s type. You then fall unconscious and begin making death saving throws as normal, or you die if the damage you took would have killed you outright. Once you use this feature, you can’t use it again until you finish a long rest.</p>
 		</description>
 		<sheet usage="1/Long Rest">
 			<description>If you were to drop to 0 HP or die from an attack you can move your movement up to the attacker and make a melee attack with advantage. On a hit the target takes an additional 5d10 fire and 5d10 weapon type damage.</description>

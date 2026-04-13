@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.2">
@@ -7,8 +7,8 @@
 	</info>
 	<element name="Giant Foundling" type="Background" source="Bigby Presents: Glory of the Giants" id="ID_WOTC_GOTG_BACKGROUND_GIANT_FOUNDLING">
 		<description>
-			<p>Though you arenâ€™t a Giant, you grew up among giants. Maybe you were an orphan taken in by a sympathetic family of stone giants who raised you as one of their own. Or perhaps you lived in a lost prehistoric pocket of the world, surrounded by giants and fearsome behemoths or hulking dinosaurs.</p>
-			<p class="indent">Something about your environmentâ€”perhaps the food or water that sustained you, elemental magic inherent in the site of your home, or some verdant blessing of growth placed on youâ€”caused you to grow to a remarkable size for your kind. With the aid of this magic, you have learned how to embody the might of giants. You are used to moving through a world much bigger than you, and that is reflected in your skills, attitude, and perspective on life.</p>
+			<p>Though you aren’t a Giant, you grew up among giants. Maybe you were an orphan taken in by a sympathetic family of stone giants who raised you as one of their own. Or perhaps you lived in a lost prehistoric pocket of the world, surrounded by giants and fearsome behemoths or hulking dinosaurs.</p>
+			<p class="indent">Something about your environment—perhaps the food or water that sustained you, elemental magic inherent in the site of your home, or some verdant blessing of growth placed on you—caused you to grow to a remarkable size for your kind. With the aid of this magic, you have learned how to embody the might of giants. You are used to moving through a world much bigger than you, and that is reflected in your skills, attitude, and perspective on life.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Intimidation, Survival</li>
 				<li><strong>Languages:</strong> Giant and one other language of your choice</li>
@@ -40,7 +40,7 @@
 				<tr><td>1</td><td>What I lack in stature compared to giants, I make up for with sheer spite.</td></tr>
 				<tr><td>2</td><td>I insist on being taken seriously as a full-grown adult. Nobody talks down to me!</td></tr>
 				<tr><td>3</td><td>Crowded spaces make me uncomfortable. I'd much rather be in an open field than a bustling tavern.</td></tr>
-				<tr><td>4</td><td>I embrace my shorter stature. It helps me stay unnoticedâ€”and underestimated.</td></tr>
+				<tr><td>4</td><td>I embrace my shorter stature. It helps me stay unnoticed—and underestimated.</td></tr>
 				<tr><td>5</td><td>Every avalanche begins as a single pebble.</td></tr>
 				<tr><td>6</td><td>The world always feels too big, and I'm afraid I'll never find my place in it.</td></tr>
 			</table>
@@ -59,7 +59,7 @@
 				<item id="1">What I lack in stature compared to giants, I make up for with sheer spite.</item>
 				<item id="2">I insist on being taken seriously as a full-grown adult. Nobody talks down to me!</item>
 				<item id="3">Crowded spaces make me uncomfortable. I'd much rather be in an open field than a bustling tavern.</item>
-				<item id="4">I embrace my shorter stature. It helps me stay unnoticedâ€”and underestimated.</item>
+				<item id="4">I embrace my shorter stature. It helps me stay unnoticed—and underestimated.</item>
 				<item id="5">Every avalanche begins as a single pebble.</item>
 				<item id="6">The world always feels too big, and I'm afraid I'll never find my place in it.</item>
 			</select>

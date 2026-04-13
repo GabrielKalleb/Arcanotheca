@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Dhampir</name>
@@ -9,8 +9,8 @@
 
 	<element name="Dhampir" type="Race" source="Van Richten's Guide To Ravenloft" id="ID_WOTC_VRGTR_RACE_DHAMPIR">
 		<description>
-			<p>Poised between the worlds of the living and the dead, dhampirs retain their grip on life yet are endlessly tested by vicious hungers. Their ties to the undead grant dhampirs a taste of a vampireâ€™s deathless prowess in the form of increased speed, darkvision, and a life-draining bite.</p>
-			<p class="indent">With unique insights into the nature of the undead, many dhampirs become adventurers and monster hunters. Their reasons are often deeply personal. Some seek danger, imagining monsters as personifications of their own hungers. Others pursue revenge against whatever turned them into a dhampir. And still others embrace the solitude of the hunt, striving to distance themselves from those whoâ€™d tempt their hunger.</p>
+			<p>Poised between the worlds of the living and the dead, dhampirs retain their grip on life yet are endlessly tested by vicious hungers. Their ties to the undead grant dhampirs a taste of a vampire’s deathless prowess in the form of increased speed, darkvision, and a life-draining bite.</p>
+			<p class="indent">With unique insights into the nature of the undead, many dhampirs become adventurers and monster hunters. Their reasons are often deeply personal. Some seek danger, imagining monsters as personifications of their own hungers. Others pursue revenge against whatever turned them into a dhampir. And still others embrace the solitude of the hunt, striving to distance themselves from those who’d tempt their hunger.</p>
 			<h4>Dhampir Hungers</h4>
 			<p>Every dhampir knows a thirst slaked only by the living. Those who overindulge their thirst risk losing control and forever viewing others as prey. Those who resist might find exceptional ways of controlling their urges or suppress them through constant, molar-grinding restraint. In any case, temptation haunts dhampirs, and circumstances conspire to give them endless reasons to indulge.</p>
 			<p class="indent">While many dhampirs thirst for blood, your character might otherwise gain sustenance from the living. Roll on or choose an option from the Dhampir Hungers table to determine what tempts your character to feed.</p>
@@ -49,12 +49,12 @@
 			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you gain this lineage.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 35 feet.</p>
 			<p class="indent"><strong><em>Ancestral Legacy.</em></strong> If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
-			<p class="indent">If you donâ€™t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>
+			<p class="indent">If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>
 			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.</p>
-			<p class="indent"><strong><em>Deathless Nature.</em></strong> You donâ€™t need to breathe.</p>
+			<p class="indent"><strong><em>Deathless Nature.</em></strong> You don’t need to breathe.</p>
 			<p class="indent"><strong><em>Spider Climb.</em></strong> You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
 			<p class="indent"><strong><em>Vampiric Bite.</em></strong> Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.</p>
-			<p class="indent">When you attack with this bite and hit a creature that isnâ€™t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p>
+			<p class="indent">When you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p>
 			<ul>
 				<li>You regain hit points equal to the piercing damage dealt by the bite.</li>
 				<li>You gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite.</li>
@@ -83,7 +83,7 @@
 	<element name="Ancestral Legacy" type="Racial Trait" source="Van Richten's Guide To Ravenloft" id="ID_WOTC_VRGTR_RACIAL_TRAIT_DHAMPIR_ANCESTRAL_LEGACY">
 		<description>
 			<p>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
-			<p class="indent">If you donâ€™t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>
+			<p class="indent">If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>
 			<p><strong><em>Notes:</em></strong> This trait's mechanics aren't implemented in the Aurora Builder. But you can emulate mechanics of this trait with following options:</p>
 			<p class="indent"><b>Skill Proficiencies.</b> You can recover lost skill proficiencies by selecting and equipping items from Additional Proficiency category of the Equipment section.</p>
 			<p class="indent"><b>Speed.</b> You can regain lost speed by selecting and equipping items from Additional Features category of the Equipment section.</p>
@@ -96,10 +96,10 @@
 
 	<element name="Deathless Nature" type="Racial Trait" source="Van Richten's Guide To Ravenloft" id="ID_WOTC_VRGTR_RACIAL_TRAIT_DHAMPIR_DEATHLESS_NATURE">
 		<description>
-			<p>You donâ€™t need to breathe.</p>
+			<p>You don’t need to breathe.</p>
 		</description>
 		<sheet>
-			<description>You donâ€™t need to breathe.</description>
+			<description>You don’t need to breathe.</description>
 		</sheet>
 	</element>
 
@@ -119,7 +119,7 @@
 	<element name="Vampiric Bite" type="Racial Trait" source="Van Richten's Guide To Ravenloft" id="ID_WOTC_VRGTR_RACIAL_TRAIT_DHAMPIR_VAMPIRIC_BITE">
 		<description>
 			<p>Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.</p>
-			<p class="indent">When you attack with this bite and hit a creature that isnâ€™t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p>
+			<p class="indent">When you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p>
 			<ul>
 				<li>You regain hit points equal to the piercing damage dealt by the bite.</li>
 				<li>You gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite.</li>
@@ -127,9 +127,9 @@
 			<p class="indent">You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet>
-			<description>Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack rolls with this bite. It deals 1d4 + {{constitution:modifier}} piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite. When you attack with this bite and hit a creature that isnâ€™t a Construct or an Undead, you can empower yourself in one of the following ways of your choice: &#13;
-			â€¢ You regain hit points equal to the piercing damage dealt by the bite. &#13;
-			â€¢ You gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite. &#13;
+			<description>Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack rolls with this bite. It deals 1d4 + {{constitution:modifier}} piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite. When you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice: &#13;
+			• You regain hit points equal to the piercing damage dealt by the bite. &#13;
+			• You gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite. &#13;
 			You can empower yourself with your bite {{proficiency}} times, and you regain all expended uses when you finish a long rest.</description>
 		</sheet>
 	</element>

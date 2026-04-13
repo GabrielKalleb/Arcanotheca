@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Unearthed Arcana: Fighter, Ranger, and Rogue</name>
@@ -23,7 +23,7 @@
 	<element name="Rune Knight" type="Archetype" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_RUNE_KNIGHT">
 		<supports>Martial Archetype</supports>
 		<description>
-			<p>You discovered how to enhance your martial prowess using the supernatural power of runes. The ancient practice of rune magic originated with giants. Skiltgravr (â€œrune cuttersâ€) can be found among any type of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giantâ€™s work carved into a hill or cave, learned of the runes from a traveling sage, or met the giant in person, you studied the giantâ€™s craft. In time, you learned how to carve and apply runes to your equipment and how to invoke their magic, ultimately becoming a Rune Knight.</p>
+			<p>You discovered how to enhance your martial prowess using the supernatural power of runes. The ancient practice of rune magic originated with giants. Skiltgravr (“rune cutters”) can be found among any type of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant’s work carved into a hill or cave, learned of the runes from a traveling sage, or met the giant in person, you studied the giant’s craft. In time, you learned how to carve and apply runes to your equipment and how to invoke their magic, ultimately becoming a Rune Knight.</p>
 			<div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_BONUS_PROFICIENCIES" />
 			<div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC" />
 			<div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_GIANT_MIGHT" />
@@ -48,10 +48,10 @@
 	<element name="Bonus Proficiencies" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_BONUS_PROFICIENCIES">
 		<description>
 			<p><em>3rd-level Rune Knight feature</em></p>
-			<p>You gain proficiency with smithâ€™s tools, and you learn to speak, read, and write Giant.</p>
+			<p>You gain proficiency with smith’s tools, and you learn to speak, read, and write Giant.</p>
 		</description>
 		<sheet display="false">
-			<description>You gain proficiency with smithâ€™s tools, and you learn to speak, read, and write Giant.</description>
+			<description>You gain proficiency with smith’s tools, and you learn to speak, read, and write Giant.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
@@ -61,7 +61,7 @@
 	<element name="Rune Magic" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC">
 		<description>
 			<p><em>3rd-level Rune Knight feature</em></p>
-			<p>You learn how to use runes to enhance your gear. When you gain this feature, you learn how to inscribe two runes of your choice on weapons, armor, or shields (see â€œRune Optionsâ€).</p>
+			<p>You learn how to use runes to enhance your gear. When you gain this feature, you learn how to inscribe two runes of your choice on weapons, armor, or shields (see “Rune Options”).</p>
 			<p class="indent">Whenever you finish a long rest, you can touch a number of objects equal to the number of runes you know, and you inscribe a different rune onto each of the objects. To be eligible, an object must be a weapon, a suit of armor, or a shield.</p>
 			<p class="indent">Your rune remains on an object until you finish a long rest, and an object can bear only one of your runes.</p>
 			<p class="indent">Each time you gain a level in this class, you can replace one rune you know with a different one.</p>
@@ -84,7 +84,7 @@
 			<p><em>3rd-level Rune Knight feature</em></p>
 			<p>You can imbue yourself with the might of giants. As a bonus action, you magically gain the following benefits, which last for 1 minute:</p>
 			<ul>
-				<li>If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesnâ€™t change.</li>
+				<li>If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn’t change.</li>
 				<li>You have advantage on Strength checks and Strength saving throws.</li>
 				<li>Your weapon attacks deal an extra 1d6 damage.</li>
 			</ul>
@@ -92,23 +92,23 @@
 		</description>
 		<sheet action="Bonus Action" usage="2/Long Rest">
 			<description>You magically gain the following benefits, which last for 1 minute: &#13;
-			â€¢ If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesnâ€™t change. &#13;
-			â€¢ You have advantage on Strength checks and Strength saving throws. &#13;
-			â€¢ Your weapon attacks deal an extra 1d6 damage.</description>
+			• If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn’t change. &#13;
+			• You have advantage on Strength checks and Strength saving throws. &#13;
+			• Your weapon attacks deal an extra 1d6 damage.</description>
 			<description level="10">You magically gain the following benefits, which last for 1 minute: &#13;
-			â€¢ If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesnâ€™t change. &#13;
-			â€¢ You have advantage on Strength checks and Strength saving throws. &#13;
-			â€¢ Your weapon attacks deal an extra 1d8 damage.</description>
+			• If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn’t change. &#13;
+			• You have advantage on Strength checks and Strength saving throws. &#13;
+			• Your weapon attacks deal an extra 1d8 damage.</description>
 		</sheet>
 	</element>
 	<element name="Defensive Runes" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_DEFENSIVE_RUNES">
 		<description>
 			<p><em>7th-level Rune Knight feature</em></p>
-			<p>You learn to invoke your rune magic to protect your allies. When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to grant a bonus to the creatureâ€™s AC against that attack. The bonus equals 1 + your Intelligence modifier (minimum of +2).</p>
+			<p>You learn to invoke your rune magic to protect your allies. When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to grant a bonus to the creature’s AC against that attack. The bonus equals 1 + your Intelligence modifier (minimum of +2).</p>
 			<p class="indent">In addition, you learn one new rune of your choice from the Rune Magic feature (for a total of three).</p>
 		</description>
 		<sheet action="Reaction">
-			<description>When another creature you can see within 60 feet of you is hit by an attack roll, you can grant a +{{defensive runes:bonus}} bonus to the creatureâ€™s AC against that attack.</description>
+			<description>When another creature you can see within 60 feet of you is hit by an attack roll, you can grant a +{{defensive runes:bonus}} bonus to the creature’s AC against that attack.</description>
 		</sheet>
 		<rules>
 			<select type="Archetype Feature" name="Rune Option, Defensive Runes" supports="UA Rune Magic Option" />
@@ -157,8 +157,8 @@
 	<element name="Haug (Hill Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_HAUG">
 		<supports>UA Rune Magic Option</supports>
 		<description>
-			<p>This runeâ€™s magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object inscribed with this rune, you have advantage on saving throws against being poisoned, and you have resistance against poison damage.</p>
-			<p class="indent">In addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute. Once you invoke the rune, you canâ€™t do so again until you finish a short or long rest.</p>
+			<p>This rune’s magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object inscribed with this rune, you have advantage on saving throws against being poisoned, and you have resistance against poison damage.</p>
+			<p class="indent">In addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
 		</description>
 		<sheet usage="1/Short Rest">
 			<description>You have advantage on saving throws against being poisoned, and you have resistance against poison damage.
@@ -168,8 +168,8 @@
 	<element name="Ild (Fire Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_ILD">
 		<supports>UA Rune Magic Option</supports>
 		<description>
-			<p>This runeâ€™s magic channels the masterful craftsmanship of fire giant smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.</p>
-			<p class="indent">In addition, when you hit a creature with a weapon attack, you can invoke the rune to summon fiery shackles: the target must succeed on a Strength saving throw or be restrained for 1 minute. While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke the rune, you canâ€™t do so again until you finish a short or long rest.</p>
+			<p>This rune’s magic channels the masterful craftsmanship of fire giant smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.</p>
+			<p class="indent">In addition, when you hit a creature with a weapon attack, you can invoke the rune to summon fiery shackles: the target must succeed on a Strength saving throw or be restrained for 1 minute. While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
 		</description>
 		<sheet usage="1/Short Rest">
 			<description>Your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.
@@ -179,8 +179,8 @@
 	<element name="Ise (Frost Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_ISE">
 		<supports>UA Rune Magic Option</supports>
 		<description>
-			<p>This runeâ€™s magic evokes a frost giantâ€™s stoic calm. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Animal Handling) checks and Charisma (Intimidation) checks.</p>
-			<p class="indent">In addition, you can invoke the rune as a bonus action to increase your Strength score by 2 for 10 minutes. This increase can cause your score to exceed 20, but not 30. Once you invoke the rune, you canâ€™t do so again until you finish a short or long rest.</p>
+			<p>This rune’s magic evokes a frost giant’s stoic calm. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Animal Handling) checks and Charisma (Intimidation) checks.</p>
+			<p class="indent">In addition, you can invoke the rune as a bonus action to increase your Strength score by 2 for 10 minutes. This increase can cause your score to exceed 20, but not 30. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
 		</description>
 		<sheet usage="1/Short Rest">
 			<description>You have advantage on Animal Handling checks and Intimidation checks.
@@ -190,19 +190,19 @@
 	<element name="Skye (Cloud Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_SKYE">
 		<supports>UA Rune Magic Option</supports>
 		<description>
-			<p>This runeâ€™s magic emulates the deceptiveness of a cloud giant. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks.</p>
-			<p class="indent">In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and cause that attack to target a different creature within 30 feet of you (other than the attacker), using the same roll. This magic can transfer the attack regardless of the attackâ€™s range. Once you invoke the rune, you canâ€™t do so again until you finish a short or long rest.</p>
+			<p>This rune’s magic emulates the deceptiveness of a cloud giant. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks.</p>
+			<p class="indent">In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and cause that attack to target a different creature within 30 feet of you (other than the attacker), using the same roll. This magic can transfer the attack regardless of the attack’s range. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
 		</description>
 		<sheet usage="1/Short Rest">
 			<description>You have advantage on Sleight of Hand checks and Deception checks.
-			In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and cause that attack to target a different creature within 30 feet of you (other than the attacker), using the same roll. This magic can transfer the attack regardless of the attackâ€™s range.</description>
+			In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and cause that attack to target a different creature within 30 feet of you (other than the attacker), using the same roll. This magic can transfer the attack regardless of the attack’s range.</description>
 		</sheet>
 	</element>
 	<element name="Stein (Stone Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_STEIN">
 		<supports>UA Rune Magic Option</supports>
 		<description>
-			<p>This runeâ€™s magic channels the insightfulness of a stone giant. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Insight) checks, and you have darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.</p>
-			<p class="indent">In addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is charmed by you for 1 minute. While charmed in this way, the creature has a speed of 0 and is incapacitated, descending into a dreamy stupor. The effect ends if the charmed creature takes any damage or if someone else uses an action to shake the creature out of its haze. Once you invoke the rune, you canâ€™t do so again until you finish a short or long rest.</p>
+			<p>This rune’s magic channels the insightfulness of a stone giant. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Insight) checks, and you have darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.</p>
+			<p class="indent">In addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is charmed by you for 1 minute. While charmed in this way, the creature has a speed of 0 and is incapacitated, descending into a dreamy stupor. The effect ends if the charmed creature takes any damage or if someone else uses an action to shake the creature out of its haze. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
 		</description>
 		<sheet usage="1/Short Rest">
 			<description>You have advantage on Insight checks, and you have darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.
@@ -217,19 +217,19 @@
 	<element name="Uvar (Storm Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_UVAR">
 		<supports>UA Rune Magic Option</supports>
 		<description>
-			<p>Using this rune, you can glimpse the future like a storm giant. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence (Arcana) checks, and you canâ€™t be surprised as long as you are not incapacitated.</p>
-			<p class="indent">In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until youâ€™re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke the rune, you canâ€™t do so again until you finish a short or long rest.</p>
+			<p>Using this rune, you can glimpse the future like a storm giant. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence (Arcana) checks, and you can’t be surprised as long as you are not incapacitated.</p>
+			<p class="indent">In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you’re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
 		</description>
 		<sheet usage="1/Short Rest">
-			<description>You have advantage on Arcana checks, and you canâ€™t be surprised as long as you are not incapacitated.
-			In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until youâ€™re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage.</description>
+			<description>You have advantage on Arcana checks, and you can’t be surprised as long as you are not incapacitated.
+			In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you’re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage.</description>
 		</sheet>
 	</element>
 
 	<element name="Swarmkeeper" type="Archetype" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_SWARMKEEPER">
 		<supports>Ranger Archetype</supports>
 		<description>
-			<p>Feeling a deep connection to the world around them, some rangers reach out through their magical connection to nature and gather a host of fey spirits, which take the form of swarming beastsâ€”be they buzzing insects, fluttering birds, slippery squids, or otherwise. The swarm becomes a potent force in battle, as well as helpfulâ€”if potentially disturbingâ€”company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.</p>
+			<p>Feeling a deep connection to the world around them, some rangers reach out through their magical connection to nature and gather a host of fey spirits, which take the form of swarming beasts—be they buzzing insects, fluttering birds, slippery squids, or otherwise. The swarm becomes a potent force in battle, as well as helpful—if potentially disturbing—company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.</p>
 			<div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC" />
 			<div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_SWARMKEEPER_GATHERED_SWARM" />
 			<div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_SWARMKEEPER_WRITHING_TIDE" />
@@ -237,7 +237,7 @@
 			<div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_SWARMKEEPER_STORM_OF_MINIONS" />
 		</description>
 		<sheet display="false">
-			<description>Feeling a deep connection to the world around them, some rangers reach out through their magical connection to nature and gather a host of fey spirits, which take the form of swarming beastsâ€”be they buzzing insects, fluttering birds, slippery squids, or otherwise.</description>
+			<description>Feeling a deep connection to the world around them, some rangers reach out through their magical connection to nature and gather a host of fey spirits, which take the form of swarming beasts—be they buzzing insects, fluttering birds, slippery squids, or otherwise.</description>
 		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC" level="3" />
@@ -250,8 +250,8 @@
 	<element name="Swarmkeeper Magic" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC">
 		<description>
 			<p><em>3rd-level Swarmkeeper feature</em></p>
-			<p>You learn the mage hand cantrip if you donâ€™t already know it. When you cast it, the hand takes the form of swarming nature spirits.</p>
-			<p class="indent">You also learn an additional spell when you reach certain levels in this class, as shown in the Swarmkeeper Spells table. These spells count as ranger spells for you, but donâ€™t count against the number of ranger spells you know.</p>
+			<p>You learn the mage hand cantrip if you don’t already know it. When you cast it, the hand takes the form of swarming nature spirits.</p>
+			<p class="indent">You also learn an additional spell when you reach certain levels in this class, as shown in the Swarmkeeper Spells table. These spells count as ranger spells for you, but don’t count against the number of ranger spells you know.</p>
 			<h5>Swarmkeeper Spells</h5>
 			<table>
 				<thead>
@@ -304,9 +304,9 @@
 		</description>
 		<sheet>
 			<description>Whenever you activate your Gathered Swarm feature, choose one of the following additional benefits: &#13;
-			â€¢ Your walking speed increases by 10 feet, and you can take the Disengage action as a bonus action. &#13;
-			â€¢ You gain a climb speed equal to your walking speed. You can climb difficult surfaces, including upside down on ceilings, without making an ability check. &#13;
-			â€¢ You gain a flying speed of 10 feet and can hover.</description>
+			• Your walking speed increases by 10 feet, and you can take the Disengage action as a bonus action. &#13;
+			• You gain a climb speed equal to your walking speed. You can climb difficult surfaces, including upside down on ceilings, without making an ability check. &#13;
+			• You gain a flying speed of 10 feet and can hover.</description>
 		</sheet>
 	</element>
 	<element name="Scuttling Eyes" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_SWARMKEEPER_SCUTTLING_EYES">
@@ -314,7 +314,7 @@
 			<p><em>11th-level Swarmkeeper feature</em></p>
 			<p>As an action, you can magically form one of the spirits of your swarm into the shape of a Tiny beast of your choice. The transformation lasts for 1 hour, at which point the spirit disappears. For the duration, the spirit has a speed of 40 feet, which it can use to walk, climb, fly, or swim. The spirit has your senses and telepathically relays what it sees and hears to you. During your turn, you can speak through the spirit, telepathically command it to move, and it can Hide using your bonus to Dexterity (Stealth) checks. The spirit has AC 18. If it takes damage, you must succeed on a Wisdom saving throw (DC equal to 10, or half the damage dealt, whichever is higher) or the spirit disappears.</p>
 			<p class="indent">As an action, you can dismiss the spirit early. If you do, you can magically teleport to an unoccupied space within 5 feet of where the spirit disappeared.</p>
-			<p class="indent">Once you use this feature, you canâ€™t do so again until you finish a long rest. You can also use it again by expending a spell slot of 3rd level or higher.</p>
+			<p class="indent">Once you use this feature, you can’t do so again until you finish a long rest. You can also use it again by expending a spell slot of 3rd level or higher.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
 			<description>You can magically form one of the spirits of your swarm into the shape of a Tiny beast of your choice. The transformation lasts for 1 hour, at which point the spirit disappears. For the duration, the spirit has a speed of 40 feet, which it can use to walk, climb, fly, or swim. The spirit has your senses and telepathically relays what it sees and hears to you. During your turn, you can speak through the spirit, telepathically command it to move, and it can Hide using your bonus to Dexterity (Stealth) checks. The spirit has AC 18. If it takes damage, you must succeed on a Wisdom saving throw (DC equal to 10, or half the damage dealt, whichever is higher) or the spirit disappears.
@@ -325,12 +325,12 @@
 	<element name="Storm of Minions" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_SWARMKEEPER_STORM_OF_MINIONS">
 		<description>
 			<p><em>15th-level Swarmkeeper feature</em></p>
-			<p>Your swarm can expel a seething storm of spirits that drains life from others. As an action, you create a magical sphere filled with an enraged swarm centered on a point you can see within 120 feet of you. The sphere has a 10-foot-radius and lasts for 1 minute. The sphere is difficult terrain for creatures other than you. A creature other than you that starts its turn in the sphereâ€™s area must make a Constitution saving throw against your spell save DC. On a failed save, the creature takes 2d8 necrotic damage and is blinded until the start of its next turn. On a successful save, it takes half as much damage and isnâ€™t blinded. At the start of your turn, if any number of Small or larger creatures took necrotic damage from the swarm, you regain 1d8 hit points. On subsequent turns, you can use a bonus action to move the sphere up to 30 feet.</p>
+			<p>Your swarm can expel a seething storm of spirits that drains life from others. As an action, you create a magical sphere filled with an enraged swarm centered on a point you can see within 120 feet of you. The sphere has a 10-foot-radius and lasts for 1 minute. The sphere is difficult terrain for creatures other than you. A creature other than you that starts its turn in the sphere’s area must make a Constitution saving throw against your spell save DC. On a failed save, the creature takes 2d8 necrotic damage and is blinded until the start of its next turn. On a successful save, it takes half as much damage and isn’t blinded. At the start of your turn, if any number of Small or larger creatures took necrotic damage from the swarm, you regain 1d8 hit points. On subsequent turns, you can use a bonus action to move the sphere up to 30 feet.</p>
 			<p class="indent">When you activate this feature, you can choose any number of creatures you can see to be unaffected by it.</p>
-			<p class="indent">Once you use this feature, you canâ€™t do so again until you finish a long rest. You can also use it again by expending a spell slot of 4th level or higher.</p>
+			<p class="indent">Once you use this feature, you can’t do so again until you finish a long rest. You can also use it again by expending a spell slot of 4th level or higher.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
-			<description>You create a magical sphere filled with an enraged swarm centered on a point you can see within 120 feet of you. The sphere has a 10-foot-radius and lasts for 1 minute. The sphere is difficult terrain for creatures other than you. A creature other than you that starts its turn in the sphereâ€™s area must make a Constitution saving throw against your spell save DC. On a failed save, the creature takes 2d8 necrotic damage and is blinded until the start of its next turn. On a successful save, it takes half as much damage and isnâ€™t blinded. At the start of your turn, if any number of Small or larger creatures took necrotic damage from the swarm, you regain 1d8 hit points. On subsequent turns, you can use a bonus action to move the sphere up to 30 feet.
+			<description>You create a magical sphere filled with an enraged swarm centered on a point you can see within 120 feet of you. The sphere has a 10-foot-radius and lasts for 1 minute. The sphere is difficult terrain for creatures other than you. A creature other than you that starts its turn in the sphere’s area must make a Constitution saving throw against your spell save DC. On a failed save, the creature takes 2d8 necrotic damage and is blinded until the start of its next turn. On a successful save, it takes half as much damage and isn’t blinded. At the start of your turn, if any number of Small or larger creatures took necrotic damage from the swarm, you regain 1d8 hit points. On subsequent turns, you can use a bonus action to move the sphere up to 30 feet.
 			When you activate this feature, you can choose any number of creatures you can see to be unaffected by it.
 			You can also use it again by expending a spell slot of 4th level or higher.</description>
 		</sheet>
@@ -339,7 +339,7 @@
 	<element name="The Revived" type="Archetype" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_THE_REVIVED">
 		<supports>Roguish Archetype</supports>
 		<description>
-			<p>Youâ€™ve had a soul-shaking realization: youâ€™ve been dead before, yet somehow you are alive again. This life isnâ€™t your first; it might not even be your second. Your past life, or lives, are unclear to you, but you know that you passed through the gates of death. And the powers of death, or some other influence, wasnâ€™t done with you. You might have convinced a deity to let you return to the Material Plane, perhaps you signed a deal with a fiend, or maybe you used an artifact that revived you. Whatever force brought you back, you now know the truth about yourself: that you are one of deathâ€™s representatives among the living.</p>
+			<p>You’ve had a soul-shaking realization: you’ve been dead before, yet somehow you are alive again. This life isn’t your first; it might not even be your second. Your past life, or lives, are unclear to you, but you know that you passed through the gates of death. And the powers of death, or some other influence, wasn’t done with you. You might have convinced a deity to let you return to the Material Plane, perhaps you signed a deal with a fiend, or maybe you used an artifact that revived you. Whatever force brought you back, you now know the truth about yourself: that you are one of death’s representatives among the living.</p>
 			<div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_REVIVED_TOKENS_OF_PAST_LIVES" />
 			<div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_REVIVED_REVIVED_NATURE" />
 			<div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_REVIVED_BOLTS_FROM_THE_GRAVE" />
@@ -348,7 +348,7 @@
 			<div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_REVIVED_ETHEREAL_JAUNT" />
 		</description>
 		<sheet display="false">
-			<description>Youâ€™ve had a soul-shaking realization: youâ€™ve been dead before, yet somehow you are alive again.</description>
+			<description>You’ve had a soul-shaking realization: you’ve been dead before, yet somehow you are alive again.</description>
 		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_REVIVED_TOKENS_OF_PAST_LIVES" level="3" />
@@ -377,24 +377,24 @@
 			<p>Your newfound connection to death gives you the following benefits:</p>
 			<ul>
 				<li>You have advantage on saving throws against disease and being poisoned, and you have resistance to poison damage.</li>
-				<li>You donâ€™t need to eat, drink, or breathe.</li>
-				<li>You donâ€™t need to sleep. When you take a long rest, you must spend at least four hours in an inactive, motionless state, rather than sleeping. In this state, you remain semiconscious, and you can hear as normal.</li>
+				<li>You don’t need to eat, drink, or breathe.</li>
+				<li>You don’t need to sleep. When you take a long rest, you must spend at least four hours in an inactive, motionless state, rather than sleeping. In this state, you remain semiconscious, and you can hear as normal.</li>
 			</ul>
 		</description>
 		<sheet>
 			<description>Your newfound connection to death gives you the following benefits: &#13;
-			â€¢ You have advantage on saving throws against disease and being poisoned, and you have resistance to poison damage. &#13;
-			â€¢ You donâ€™t need to eat, drink, or breathe. &#13;
-			â€¢ You donâ€™t need to sleep. When you take a long rest, you must spend at least four hours in an inactive, motionless state, rather than sleeping. In this state, you remain semiconscious, and you can hear as normal.</description>
+			• You have advantage on saving throws against disease and being poisoned, and you have resistance to poison damage. &#13;
+			• You don’t need to eat, drink, or breathe. &#13;
+			• You don’t need to sleep. When you take a long rest, you must spend at least four hours in an inactive, motionless state, rather than sleeping. In this state, you remain semiconscious, and you can hear as normal.</description>
 		</sheet>
 	</element>
 	<element name="Bolts from the Grave" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_REVIVED_BOLTS_FROM_THE_GRAVE">
 		<description>
 			<p><em>3rd-level Revived feature</em></p>
-			<p>You have learned to unleash bolts of necrotic energy from within your revived body. Immediately after you use your Cunning Action, you can make a ranged spell attack against a creature within 30 feet of you, provided you havenâ€™t used your Sneak Attack this turn. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. A creature hit by this attack takes necrotic damage equal to your Sneak Attack. This uses your Sneak Attack for the turn.</p>
+			<p>You have learned to unleash bolts of necrotic energy from within your revived body. Immediately after you use your Cunning Action, you can make a ranged spell attack against a creature within 30 feet of you, provided you haven’t used your Sneak Attack this turn. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. A creature hit by this attack takes necrotic damage equal to your Sneak Attack. This uses your Sneak Attack for the turn.</p>
 		</description>
 		<sheet>
-			<description>Immediately after you use your Cunning Action, you can make a ranged spell attack against a creature within 30 feet of you, provided you havenâ€™t used your Sneak Attack this turn. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. A creature hit by this attack (+{{bolts from the grave:attack}} vs AC) takes {{sneak-attack:count}}d{{sneak-attack:die}}+{{dexterity:modifier}} necrotic damage. This uses your Sneak Attack for the turn.</description>
+			<description>Immediately after you use your Cunning Action, you can make a ranged spell attack against a creature within 30 feet of you, provided you haven’t used your Sneak Attack this turn. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. A creature hit by this attack (+{{bolts from the grave:attack}} vs AC) takes {{sneak-attack:count}}d{{sneak-attack:die}}+{{dexterity:modifier}} necrotic damage. This uses your Sneak Attack for the turn.</description>
 		</sheet>
 		<rules>
 			<stat name="bolts from the grave:attack" value="proficiency" />
@@ -405,7 +405,7 @@
 		<description>
 			<p><em>9th-level Revived feature</em></p>
 			<p>You can create a link with a spirit through their corpse. When you do so, you cast the <em>speak with dead spell</em>, without using a spell slot or material components. Intelligence is your spellcasting ability for this spell.</p>
-			<p class="indent">Speaking with the dead in this way temporarily gives you a capability from a past lifeâ€”youâ€™re unsure whether itâ€™s from your past or the spiritâ€™s. When the spell ends, you gain one random benefit from the Revived Capabilities table. The benefit lasts until you finish a short or long rest.</p>
+			<p class="indent">Speaking with the dead in this way temporarily gives you a capability from a past life—you’re unsure whether it’s from your past or the spirit’s. When the spell ends, you gain one random benefit from the Revived Capabilities table. The benefit lasts until you finish a short or long rest.</p>
 			<h5>Revived Capabilities</h5>
 			<table>
 				<thead>
@@ -415,31 +415,31 @@
 				<tr><td>2</td><td>You gain one skill or tool proficiency of your choice.</td></tr>
 				<tr><td>3</td><td>You gain proficiency with one saving throw of your choice.</td></tr>
 			</table>
-			<p class="indent">After you cast the spell with this feature, you canâ€™t do so again until you finish a short or long rest.</p>
+			<p class="indent">After you cast the spell with this feature, you can’t do so again until you finish a short or long rest.</p>
 		</description>
 		<sheet>
 			<description>You can create a link with a spirit through their corpse. When you do so, you cast the speak with dead spell, without using a spell slot or material components. Intelligence is your spellcasting ability for this spell.
-			Speaking with the dead in this way temporarily gives you a capability from a past lifeâ€”youâ€™re unsure whether itâ€™s from your past or the spiritâ€™s. When the spell ends, you gain one random benefit from the Revived Capabilities table. The benefit lasts until you finish a short or long rest.</description>
+			Speaking with the dead in this way temporarily gives you a capability from a past life—you’re unsure whether it’s from your past or the spirit’s. When the spell ends, you gain one random benefit from the Revived Capabilities table. The benefit lasts until you finish a short or long rest.</description>
 		</sheet>
 	</element>
 	<element name="Audience with Death" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_REVIVED_AUDIENCE_WITH_DEATH">
 		<description>
 			<p><em>13th-level Revived feature</em></p>
-			<p>When at deathâ€™s door, you can converse with the powers of death. You have advantage on death saving throws, and whenever you make a death saving throw, your spirit can ask an entity of death a question that can be answered with â€œyes,â€ â€œno,â€ or â€œunknown.â€ The entity answers truthfully, using the knowledge of all those who have died.</p>
+			<p>When at death’s door, you can converse with the powers of death. You have advantage on death saving throws, and whenever you make a death saving throw, your spirit can ask an entity of death a question that can be answered with “yes,” “no,” or “unknown.” The entity answers truthfully, using the knowledge of all those who have died.</p>
 			<p class="indent">In addition, whenever you have 0 hit points and are healed or stabilized, you can change any of your personal characteristics: personality trait, ideal, bond, or flaw.</p>
 		</description>
 		<sheet>
-			<description>You have advantage on death saving throws, and whenever you make a death saving throw, your spirit can ask an entity of death a question that can be answered with â€œyes,â€ â€œno,â€ or â€œunknown.â€ The entity answers truthfully, using the knowledge of all those who have died.
+			<description>You have advantage on death saving throws, and whenever you make a death saving throw, your spirit can ask an entity of death a question that can be answered with “yes,” “no,” or “unknown.” The entity answers truthfully, using the knowledge of all those who have died.
 			In addition, whenever you have 0 hit points and are healed or stabilized, you can change any of your personal characteristics: personality trait, ideal, bond, or flaw.</description>
 		</sheet>
 	</element>
 	<element name="Ethereal Jaunt" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_REVIVED_ETHEREAL_JAUNT">
 		<description>
 			<p><em>17th-level Revived feature</em></p>
-			<p>Like a ghost, you have the ability to slip in and out of the Ethereal Plane. You can now use your Cunning Action to teleport to an unoccupied space within 30 feet of you. You donâ€™t need to see that space to teleport to it, but your teleportation fails, wasting your bonus action, if you attempt to teleport through magical force that is Medium or larger, such as a wall of force. If you appear in a space occupied by another creature or filled by an object, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are shunted.</p>
+			<p>Like a ghost, you have the ability to slip in and out of the Ethereal Plane. You can now use your Cunning Action to teleport to an unoccupied space within 30 feet of you. You don’t need to see that space to teleport to it, but your teleportation fails, wasting your bonus action, if you attempt to teleport through magical force that is Medium or larger, such as a wall of force. If you appear in a space occupied by another creature or filled by an object, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are shunted.</p>
 		</description>
 		<sheet>
-			<description>You can now use your Cunning Action to teleport to an unoccupied space within 30 feet of you. You donâ€™t need to see that space to teleport to it, but your teleportation fails, wasting your bonus action, if you attempt to teleport through magical force that is Medium or larger, such as a wall of force. If you appear in a space occupied by another creature or filled by an object, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are shunted.</description>
+			<description>You can now use your Cunning Action to teleport to an unoccupied space within 30 feet of you. You don’t need to see that space to teleport to it, but your teleportation fails, wasting your bonus action, if you attempt to teleport through magical force that is Medium or larger, such as a wall of force. If you appear in a space occupied by another creature or filled by an object, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are shunted.</description>
 		</sheet>
 	</element>
 </elements>

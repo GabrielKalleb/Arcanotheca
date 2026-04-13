@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Kenku</name>
@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Kenku" type="Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACE_KENKU">
+	<element name="Kenku" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_KENKU">
 		<description>
 			<p class="flavor">Haunted by an ancient crime that robbed them of their wings, the kenku wander the world as vagabonds and burglars who live at the edge of human society. Kenku suffer from a sinister reputation that is not wholly unearned, but they can prove to be valuable allies.</p>
 			<h4>AN ANCIENT CURSE</h4>
@@ -82,7 +82,7 @@
 		<supports>Kenku Language</supports>
 	</append>
 
-	<element name="Expert Forgery" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_EXPERT_FORGERY">
+	<element name="Expert Forgery" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_EXPERT_FORGERY">
 		<description>
 			<p>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</p>
 		</description>
@@ -91,7 +91,7 @@
 		</sheet>
 	</element>
 
-	<element name="Kenku Training" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_KENKU_TRAINING">
+	<element name="Kenku Training" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_KENKU_TRAINING">
 		<description>
 			<p>You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.</p>
 		</description>
@@ -104,7 +104,7 @@
 		</rules>
 	</element>
 
-	<element name="Mimicry" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_MIMICRY">
+	<element name="Mimicry" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_MIMICRY">
 		<description>
 			<p>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.</p>
 		</description>

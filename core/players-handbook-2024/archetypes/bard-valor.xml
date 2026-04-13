@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>ColÃ©gio da Bravura</name>
-		<description>A subclasse ColÃ©gio da Bravura do Livro do Jogador de 2024.</description>
+		<name>Colégio da Bravura</name>
+		<description>A subclasse Colégio da Bravura do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="bard-valor.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/bard-valor.xml" />
 		</update>
 	</info>
 
-	<element name="ColÃ©gio da Bravura" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_VALOR">
+	<element name="Colégio da Bravura" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_VALOR">
 		<supports>Bard Subclass</supports>
 		<description>
-			<p class="flavor">Cante os Feitos de HerÃ³is Antigos</p>
-			<p>Bardos do ColÃ©gio da Bravura sÃ£o contadores de histÃ³rias ousados cujas lendas preservam a memÃ³ria dos grandes herÃ³is do passado. Estes Bardos cantam os feitos dos poderosos em salÃµes abobadados ou para multidÃµes reunidas ao redor de grandes fogueiras. Eles viajam para testemunhar grandes eventos em primeira mÃ£o e garantir que a memÃ³ria desses eventos nÃ£o se perca. Com suas canÃ§Ãµes, eles inspiram novas geraÃ§Ãµes a alcanÃ§ar as mesmas alturas de realizaÃ§Ã£o que os herÃ³is antigos.</p>
+			<p class="flavor">Cante os Feitos de Heróis Antigos</p>
+			<p>Bardos do Colégio da Bravura são contadores de histórias ousados cujas lendas preservam a memória dos grandes heróis do passado. Estes Bardos cantam os feitos dos poderosos em salões abobadados ou para multidões reunidas ao redor de grandes fogueiras. Eles viajam para testemunhar grandes eventos em primeira mão e garantir que a memória desses eventos não se perca. Com suas canções, eles inspiram novas gerações a alcançar as mesmas alturas de realização que os heróis antigos.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_MARTIAL_TRAINING" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK" />
@@ -28,26 +28,26 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: InspiraÃ§Ã£o de Combate" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION">
+	<element name="Nível 3: Inspiração de Combate" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_VALOR_COMBAT_INSPIRATION</requirements>
 		<description>
-			<p>VocÃª pode usar sua perspicÃ¡cia para virar o rumo da batalha. Uma criatura que tenha um dado de InspiraÃ§Ã£o de Bardo de vocÃª pode usÃ¡-lo para um dos seguintes efeitos.</p>
-				<p class="indent"><em><strong>Defesa.</strong></em> Quando a criatura Ã© atingida por uma jogada de ataque, essa criatura pode usar a ReaÃ§Ã£o dela para rolar o dado de InspiraÃ§Ã£o de Bardo e adicionar o nÃºmero rolado Ã  CA dela contra aquele ataque, potencialmente fazendo com que o ataque erre.</p>
-				<p class="indent"><em><strong>Ataque.</strong></em> Imediatamente apÃ³s a criatura atingir um alvo com uma jogada de ataque, a criatura pode rolar o dado de InspiraÃ§Ã£o de Bardo e adicionar o nÃºmero rolado ao dano do ataque contra o alvo.</p>
+			<p>Você pode usar sua perspicácia para virar o rumo da batalha. Uma criatura que tenha um dado de Inspiração de Bardo de você pode usá-lo para um dos seguintes efeitos.</p>
+				<p class="indent"><em><strong>Defesa.</strong></em> Quando a criatura é atingida por uma jogada de ataque, essa criatura pode usar a Reação dela para rolar o dado de Inspiração de Bardo e adicionar o número rolado à CA dela contra aquele ataque, potencialmente fazendo com que o ataque erre.</p>
+				<p class="indent"><em><strong>Ataque.</strong></em> Imediatamente após a criatura atingir um alvo com uma jogada de ataque, a criatura pode rolar o dado de Inspiração de Bardo e adicionar o número rolado ao dano do ataque contra o alvo.</p>
 		</description>
-		<sheet alt="InspiraÃ§Ã£o de Combate">
-			<description>Uma criatura que atinge com um ataque e tem um dado de InspiraÃ§Ã£o de Bardo seu pode rolar aquele dado e adicionar o nÃºmero rolado Ã  rolagem de dano dela. Alternativamente, quando a criatura Ã© atingida por um ataque, ela pode usar a ReaÃ§Ã£o dela para rolar o dado de InspiraÃ§Ã£o de Bardo e adicionar o nÃºmero rolado Ã  CA dela, potencialmente fazendo com que o ataque erre em vez disso.</description>
+		<sheet alt="Inspiração de Combate">
+			<description>Uma criatura que atinge com um ataque e tem um dado de Inspiração de Bardo seu pode rolar aquele dado e adicionar o número rolado à rolagem de dano dela. Alternativamente, quando a criatura é atingida por um ataque, ela pode usar a Reação dela para rolar o dado de Inspiração de Bardo e adicionar o número rolado à CA dela, potencialmente fazendo com que o ataque erre em vez disso.</description>
 		</sheet>
 	</element>
 	
-	<element name="NÃ­vel 3: Treinamento Marcial" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_MARTIAL_TRAINING">
+	<element name="Nível 3: Treinamento Marcial" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_MARTIAL_TRAINING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_VALOR_MARTIAL_TRAINING</requirements>
 		<description>
-			<p>VocÃª ganha proficiÃªncia com armas Marciais e treinamento com armaduras MÃ©dias e Escudos.</p>
-			<p class="indent">AlÃ©m disso, vocÃª pode usar uma arma Simples ou Marcial como Foco de ConjuraÃ§Ã£o para conjurar magias da sua lista de magias de Bardo.</p>
+			<p>Você ganha proficiência com armas Marciais e treinamento com armaduras Médias e Escudos.</p>
+			<p class="indent">Além disso, você pode usar uma arma Simples ou Marcial como Foco de Conjuração para conjurar magias da sua lista de magias de Bardo.</p>
 		</description>
 		<sheet alt="Treinamento Marcial">
-			<description>VocÃª pode usar uma arma Simples ou Marcial como Foco de ConjuraÃ§Ã£o para conjurar suas magias de Bardo.</description>
+			<description>Você pode usar uma arma Simples ou Marcial como Foco de Conjuração para conjurar suas magias de Bardo.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
@@ -56,27 +56,27 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 6: Ataque Extra" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK">
+	<element name="Nível 6: Ataque Extra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_VALOR_EXTRA_ATTACK</requirements>
 		<description>
-			<p>VocÃª pode atacar duas vezes em vez de uma sempre que realizar a aÃ§Ã£o de Ataque no seu turno.</p>
-			<p class="indent">AlÃ©m disso, vocÃª pode conjurar um dos seus truques que tenha um tempo de conjuraÃ§Ã£o de uma aÃ§Ã£o no lugar de um desses ataques.</p>
+			<p>Você pode atacar duas vezes em vez de uma sempre que realizar a ação de Ataque no seu turno.</p>
+			<p class="indent">Além disso, você pode conjurar um dos seus truques que tenha um tempo de conjuração de uma ação no lugar de um desses ataques.</p>
 		</description>
 		<sheet alt="Ataque Extra">
-			<description>VocÃª pode conjurar um de seus truques (com um tempo de conjuraÃ§Ã£o de uma aÃ§Ã£o) no lugar de um de seus ataques.</description>
+			<description>Você pode conjurar um de seus truques (com um tempo de conjuração de uma ação) no lugar de um de seus ataques.</description>
 		</sheet>
 		<rules>
 			<stat name="extra attack:count" value="2" bonus="extra attack" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 14: Magia de Batalha" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC">
+	<element name="Nível 14: Magia de Batalha" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_VALOR_BATTLE_MAGIC</requirements>
 		<description>
-			<p>ApÃ³s vocÃª conjurar uma magia que tenha um tempo de conjuraÃ§Ã£o de uma aÃ§Ã£o, vocÃª pode fazer um ataque com uma arma como uma AÃ§Ã£o BÃ´nus.</p>
+			<p>Após você conjurar uma magia que tenha um tempo de conjuração de uma ação, você pode fazer um ataque com uma arma como uma Ação Bônus.</p>
 		</description>
 		<sheet alt="Magia de Batalha" action="Bonus Action">
-			<description>ApÃ³s vocÃª ter usado sua AÃ§Ã£o para conjurar uma magia, vocÃª pode fazer um ataque com arma.</description>
+			<description>Após você ter usado sua Ação para conjurar uma magia, você pode fazer um ataque com arma.</description>
 		</sheet>
 	</element>
 	

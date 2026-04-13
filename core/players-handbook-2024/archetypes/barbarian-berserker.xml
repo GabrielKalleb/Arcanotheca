@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Caminho do Berserker</name>
@@ -9,11 +9,11 @@
 		</update>
 	</info>
 
-	<element name="Caminho do Berserker" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARBARIAN_BERSERKER">
+	<element name="Caminho do Berserker" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARBARIAN_BERSERKER">
 		<supports>Barbarian Subclass</supports>
 		<description>
-			<p class="flavor">Canalize a FÃºria em uma FÃºria Violenta</p>
-			<p>BÃ¡rbaros que trilham o Caminho do Berserker direcionam sua FÃºria principalmente para a violÃªncia. Seu caminho Ã© um de fÃºria desenfreada, e eles se empolgam com o caos da batalha ao permitirem que sua FÃºria os domine e os fortaleÃ§a.</p>
+			<p class="flavor">Canalize a Fúria em uma Fúria Violenta</p>
+			<p>Bárbaros que trilham o Caminho do Berserker direcionam sua Fúria principalmente para a violência. Seu caminho é um de fúria desenfreada, e eles se empolgam com o caos da batalha ao permitirem que sua Fúria os domine e os fortaleça.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_BERSERKER_FRENZY" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_BERSERKER_MINDLESS_RAGE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_BERSERKER_RETALIATION" />
@@ -28,45 +28,45 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Frenesi" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_BERSERKER_FRENZY">
+	<element name="Nível 3: Frenesi" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_BERSERKER_FRENZY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_BERSERKER_FRENZY</requirements>
 		<description>
-			<p>Se vocÃª usar o Ataque Descuidado enquanto sua FÃºria estiver ativa, vocÃª causa dano extra ao primeiro alvo que atingir no seu turno com um ataque baseado em ForÃ§a. Para determinar o dano extra, role um nÃºmero de d6s igual ao seu bÃ´nus de Dano de FÃºria, e some-os. O dano tem o mesmo tipo que o da arma ou Ataque Desarmado usado no ataque.</p>
+			<p>Se você usar o Ataque Descuidado enquanto sua Fúria estiver ativa, você causa dano extra ao primeiro alvo que atingir no seu turno com um ataque baseado em Força. Para determinar o dano extra, role um número de d6s igual ao seu bônus de Dano de Fúria, e some-os. O dano tem o mesmo tipo que o da arma ou Ataque Desarmado usado no ataque.</p>
 		</description>
 		<sheet alt="Frenesi">
-			<description>Quando vocÃª usa Ataque Descuidado enquanto sua FÃºria estiver ativa, vocÃª causa {{barbarian rage:damage}}d6 de dano extra no seu primeiro acerto.</description>
+			<description>Quando você usa Ataque Descuidado enquanto sua Fúria estiver ativa, você causa {{barbarian rage:damage}}d6 de dano extra no seu primeiro acerto.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 6: FÃºria Inconsciente" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_BERSERKER_MINDLESS_RAGE">
+	<element name="Nível 6: Fúria Inconsciente" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_BERSERKER_MINDLESS_RAGE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_BERSERKER_MINDLESS_RAGE</requirements>
 		<description>
-			<p>VocÃª tem Imunidade Ã s condiÃ§Ãµes EnfeitiÃ§ado e Amedrontado enquanto sua FÃºria estiver ativa. Se vocÃª estiver EnfeitiÃ§ado ou Amedrontado ao entrar em FÃºria, a condiÃ§Ã£o termina em vocÃª.</p>
+			<p>Você tem Imunidade às condições Enfeitiçado e Amedrontado enquanto sua Fúria estiver ativa. Se você estiver Enfeitiçado ou Amedrontado ao entrar em Fúria, a condição termina em você.</p>
 		</description>
-		<sheet alt="FÃºria Inconsciente">
-			<description>VocÃª tem Imunidade Ã s condiÃ§Ãµes EnfeitiÃ§ado e Amedrontado enquanto sua FÃºria estiver ativa. Se vocÃª estiver EnfeitiÃ§ado ou Amedrontado ao entrar em FÃºria, a condiÃ§Ã£o termina em vocÃª.</description>
+		<sheet alt="Fúria Inconsciente">
+			<description>Você tem Imunidade às condições Enfeitiçado e Amedrontado enquanto sua Fúria estiver ativa. Se você estiver Enfeitiçado ou Amedrontado ao entrar em Fúria, a condição termina em você.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 10: RetaliaÃ§Ã£o" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_BERSERKER_RETALIATION">
+	<element name="Nível 10: Retaliação" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_BERSERKER_RETALIATION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_BERSERKER_RETALIATION</requirements>
 		<description>
-			<p>Quando vocÃª sofre dano de uma criatura que estÃ¡ a atÃ© 1,5 metro (5 pÃ©s) de vocÃª, vocÃª pode usar uma ReaÃ§Ã£o para fazer um ataque corpo a corpo contra aquela criatura, usando uma arma ou um Ataque Desarmado.</p>
+			<p>Quando você sofre dano de uma criatura que está a até 1,5 metro (5 pés) de você, você pode usar uma Reação para fazer um ataque corpo a corpo contra aquela criatura, usando uma arma ou um Ataque Desarmado.</p>
 		</description>
-		<sheet alt="RetaliaÃ§Ã£o" action="Reaction">
-			<description>Quando vocÃª sofre dano de uma criatura que estÃ¡ a atÃ© 1,5m de vocÃª, vocÃª pode fazer um ataque corpo a corpo contra aquela criatura.</description>
+		<sheet alt="Retaliação" action="Reaction">
+			<description>Quando você sofre dano de uma criatura que está a até 1,5m de você, você pode fazer um ataque corpo a corpo contra aquela criatura.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 14: PresenÃ§a Intimidadora" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_BERSERKER_INTIMIDATING_PRESENCE">
+	<element name="Nível 14: Presença Intimidadora" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_BERSERKER_INTIMIDATING_PRESENCE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_BERSERKER_INTIMIDATING_PRESENCE</requirements>
 		<description>
-			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode infundir terror nos outros com sua presenÃ§a ameaÃ§adora e poder primitivo. Quando vocÃª faz isso, cada criatura de sua escolha em uma EmanaÃ§Ã£o de 9 metros (30 pÃ©s) originada em vocÃª deve fazer um teste de resistÃªncia de Sabedoria (CD 8 mais seu modificador de ForÃ§a e BÃ´nus de ProficiÃªncia). Em uma falha, a criatura fica com a condiÃ§Ã£o Amedrontado por 1 minuto. No final de cada turno de uma criatura Amedrontada, ela repete o teste de resistÃªncia, encerrando o efeito sobre si mesma num sucesso.</p>
-			<p class="indent">Uma vez que vocÃª usar esta caracterÃ­stica, vocÃª nÃ£o pode usÃ¡-la novamente atÃ© terminar um Descanso Longo a menos que gaste um uso de sua FÃºria (nenhuma aÃ§Ã£o necessÃ¡ria) para restaurar seu uso.</p>
+			<p>Como uma Ação Bônus, você pode infundir terror nos outros com sua presença ameaçadora e poder primitivo. Quando você faz isso, cada criatura de sua escolha em uma Emanação de 9 metros (30 pés) originada em você deve fazer um teste de resistência de Sabedoria (CD 8 mais seu modificador de Força e Bônus de Proficiência). Em uma falha, a criatura fica com a condição Amedrontado por 1 minuto. No final de cada turno de uma criatura Amedrontada, ela repete o teste de resistência, encerrando o efeito sobre si mesma num sucesso.</p>
+			<p class="indent">Uma vez que você usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo a menos que gaste um uso de sua Fúria (nenhuma ação necessária) para restaurar seu uso.</p>
 		</description>
-		<sheet alt="PresenÃ§a Intimidadora" action="Bonus Action" usage="1/Long Rest">
-			<description>Cada criatura de sua escolha em uma EmanaÃ§Ã£o de 9m originada em vocÃª deve fazer um teste de resistÃªncia de Sabedoria CD {{intimidating presence:dc}}. Em uma falha, a criatura fica com a condiÃ§Ã£o Amedrontado por 1 minuto. No final de cada turno da criatura Amedrontada, ela repete o teste de resistÃªncia, encerrando o efeito sobre si mesma num sucesso. &#13;
-			VocÃª pode gastar um uso da sua FÃºria (nenhuma aÃ§Ã£o necessÃ¡ria) para restaurar um uso desta caracterÃ­stica.</description>
+		<sheet alt="Presença Intimidadora" action="Bonus Action" usage="1/Long Rest">
+			<description>Cada criatura de sua escolha em uma Emanação de 9m originada em você deve fazer um teste de resistência de Sabedoria CD {{intimidating presence:dc}}. Em uma falha, a criatura fica com a condição Amedrontado por 1 minuto. No final de cada turno da criatura Amedrontada, ela repete o teste de resistência, encerrando o efeito sobre si mesma num sucesso. &#13;
+			Você pode gastar um uso da sua Fúria (nenhuma ação necessária) para restaurar um uso desta característica.</description>
 		</sheet>
 		<rules>
 			<stat name="intimidating presence:dc" value="8" bonus="base" />

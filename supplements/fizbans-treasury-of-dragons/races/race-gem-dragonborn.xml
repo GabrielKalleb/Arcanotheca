@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Gem Dragonborn</name>
@@ -10,7 +10,7 @@
 	</info>
 	<element name="Dragonborn (Gem)" type="Race" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_RACE_GEM_DRAGONBORN">
 		<description>
-			<p>Gem dragonborn partake of the heritage of gem dragons, who claim to be heirs of Sardior, the Ruby Dragon. The colors and mysterious powers of gem dragonsâ€”amethyst, crystal, emerald, sapphire, and topazâ€”gleam in these dragonbornâ€™s scaled skin and course through their veins. Theirs are the wonders of the mind, the force of will, the brilliant light of insight, and the resounding echo of discoveryâ€”but also the desiccation of despair.</p>
+			<p>Gem dragonborn partake of the heritage of gem dragons, who claim to be heirs of Sardior, the Ruby Dragon. The colors and mysterious powers of gem dragons—amethyst, crystal, emerald, sapphire, and topaz—gleam in these dragonborn’s scaled skin and course through their veins. Theirs are the wonders of the mind, the force of will, the brilliant light of insight, and the resounding echo of discovery—but also the desiccation of despair.</p>
 			<h4>GEM DRAGONBORN TRAITS</h4>
 			<p>You have the following racial traits.</p>
 			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
@@ -20,8 +20,8 @@
 			<p class="indent"><strong><em>Breath Weapon.</em></strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Gem Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
 			<p class="indent">You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 			<p class="indent"><strong><em>Draconic Resistance.</em></strong> You have resistance to the damage type associated with your Gem Ancestry.</p>
-			<p class="indent"><strong><em>Psionic Mind.</em></strong> You can send telepathic messages to any creature you can see within 30 feet of you. You donâ€™t need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</p>
-			<p class="indent"><strong><em>Gem Flight.</em></strong> Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you canâ€™t do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Psionic Mind.</em></strong> You can send telepathic messages to any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</p>
+			<p class="indent"><strong><em>Gem Flight.</em></strong> Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest.</p>
 			<h5>Gem Ancestry</h5>
 			<table>
 				<thead>
@@ -172,16 +172,16 @@
 
 	<element name="Psionic Mind" type="Racial Trait" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_PSIONIC_MIND">
 		<description>
-			<p>You can send telepathic messages to any creature you can see within 30 feet of you. You donâ€™t need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</p>
+			<p>You can send telepathic messages to any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</p>
 		</description>
 		<sheet>
-			<description>You can send telepathic messages to any creature you can see within 30 feet of you. You donâ€™t need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</description>
+			<description>You can send telepathic messages to any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</description>
 		</sheet>
 	</element>
 
 	<element name="Gem Flight" type="Racial Trait" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_FLIGHT">
 		<description>
-			<p>Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you canâ€™t do so again until you finish a long rest.</p>
+			<p>Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest.</p>
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest">
 			<description>For 1 minute you manifest spectral wings. For the duration, you gain a flying speed equal to {{speed}} and can hover.</description>

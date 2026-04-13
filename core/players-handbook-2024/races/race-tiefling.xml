@@ -1,45 +1,45 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Tiefling</name>
-		<description>A espÃ©cie Tiefling do Playerâ€™s Handbook 2024.</description>
+		<description>A espécie Tiefling do Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/races/race-tiefling.xml" />
 		</update>
 	</info>
 	
-	<element name="Tiefling" type="Race" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACE_TIEFLING">
+	<element name="Tiefling" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_TIEFLING">
 		<description>
-			<p>Os Tieflings nascem nos Planos Inferiores ou tÃªm ancestrais infernais que se originaram de lÃ¡. Um tiefling (pronuncia-se TÃ-fling) Ã© ligado por sangue a um diabo, um demÃ´nio ou algum outro Ãnfero. Essa conexÃ£o com os Planos Inferiores Ã© o legado infernal do tiefling, que vem com a promessa de poder, mas nÃ£o tem efeito sobre a perspectiva moral do tiefling.</p>
-			<p class="indent">Um tiefling escolhe se abraÃ§a ou lamenta o seu legado infernal. Os trÃªs legados sÃ£o descritos abaixo.</p>
-			<h5>TRAÃ‡OS DE TIEFLING</h5>
+			<p>Os Tieflings nascem nos Planos Inferiores ou têm ancestrais infernais que se originaram de lá. Um tiefling (pronuncia-se TÍ-fling) é ligado por sangue a um diabo, um demônio ou algum outro Ínfero. Essa conexão com os Planos Inferiores é o legado infernal do tiefling, que vem com a promessa de poder, mas não tem efeito sobre a perspectiva moral do tiefling.</p>
+			<p class="indent">Um tiefling escolhe se abraça ou lamenta o seu legado infernal. Os três legados são descritos abaixo.</p>
+			<h5>TRAÇOS DE TIEFLING</h5>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
 				<li><strong>Tipo de Criatura:</strong> Humanoide</li>
-				<li><strong>Tamanho:</strong> MÃ©dio (cerca de 1,2 a 2,1 metros de altura) ou Pequeno (cerca de 0,9 a 1,2 metro de altura), escolhido quando vocÃª seleciona esta espÃ©cie</li>
+				<li><strong>Tamanho:</strong> Médio (cerca de 1,2 a 2,1 metros de altura) ou Pequeno (cerca de 0,9 a 1,2 metro de altura), escolhido quando você seleciona esta espécie</li>
 				<li><strong>Deslocamento:</strong> 9 metros</li>
 			</ul>
-			<p>Como um Tiefling, vocÃª possui estes traÃ§os especiais.</p>
-			<p class="indent"><strong><em>VisÃ£o no Escuro.</em></strong> VocÃª tem VisÃ£o no Escuro com um alcance de 18 metros.</p>
-			<p class="indent"><strong><em>Legado Infernal.</em></strong> VocÃª Ã© o destinatÃ¡rio de um legado que lhe concede habilidades sobrenaturais. Escolha um legado da tabela Legados Infernais. VocÃª ganha o benefÃ­cio de nÃ­vel 1 do legado escolhido.</p>
-			<p class="indent">Quando vocÃª atinge os nÃ­veis de personagem 3 e 5, vocÃª aprende uma magia de nÃ­vel superior, conforme mostrado na tabela. VocÃª sempre tem essa magia preparada. VocÃª pode conjurÃ¡-la uma vez sem gastar um espaÃ§o de magia, e vocÃª recupera a habilidade de conjurÃ¡-la dessa forma quando terminar um Descanso Longo. VocÃª tambÃ©m pode conjurar a magia usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</p>
-			<p class="indent">InteligÃªncia, Sabedoria ou Carisma Ã© a sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjura com este traÃ§o (escolha a habilidade quando selecionar o legado).</p>
-			<p class="indent"><strong><em>PresenÃ§a de Outro Mundo.</em></strong> VocÃª conhece o truque <i>Taumaturgia</i>. Quando vocÃª o conjura com este traÃ§o, a magia usa a mesma habilidade de conjuraÃ§Ã£o que vocÃª usa para o seu traÃ§o Legado Infernal.</p>
+			<p>Como um Tiefling, você possui estes traços especiais.</p>
+			<p class="indent"><strong><em>Visão no Escuro.</em></strong> Você tem Visão no Escuro com um alcance de 18 metros.</p>
+			<p class="indent"><strong><em>Legado Infernal.</em></strong> Você é o destinatário de um legado que lhe concede habilidades sobrenaturais. Escolha um legado da tabela Legados Infernais. Você ganha o benefício de nível 1 do legado escolhido.</p>
+			<p class="indent">Quando você atinge os níveis de personagem 3 e 5, você aprende uma magia de nível superior, conforme mostrado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem gastar um espaço de magia, e você recupera a habilidade de conjurá-la dessa forma quando terminar um Descanso Longo. Você também pode conjurar a magia usando quaisquer espaços de magia que tiver do nível apropriado.</p>
+			<p class="indent">Inteligência, Sabedoria ou Carisma é a sua habilidade de conjuração para as magias que você conjura com este traço (escolha a habilidade quando selecionar o legado).</p>
+			<p class="indent"><strong><em>Presença de Outro Mundo.</em></strong> Você conhece o truque <i>Taumaturgia</i>. Quando você o conjura com este traço, a magia usa a mesma habilidade de conjuração que você usa para o seu traço Legado Infernal.</p>
 			
 			<h5>Legados Infernais</h5>
 			<table>
 				<thead>
-					<tr><td>Legado</td><td class="col-50">NÃ­vel 1</td><td>NÃ­vel 3</td><td>NÃ­vel 5</td></tr>
+					<tr><td>Legado</td><td class="col-50">Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr>
 				</thead>
-				<tr><td>Abissal</td><td>VocÃª tem ResistÃªncia a dano de Veneno. VocÃª tambÃ©m conhece o truque <i>Rajada de Veneno</i>.</td><td><i>Raio Adoecedor</i></td><td><i>Imobilizar Pessoa</i></td></tr>
-				<tr><td>CtÃ´nico</td><td>VocÃª tem ResistÃªncia a dano NecrÃ³tico. VocÃª tambÃ©m conhece o truque <i>Toque Macabro</i>.</td><td><i>Vida Falsa</i></td><td><i>Raio do Enfraquecimento</i></td></tr>
-				<tr><td>Infernal</td><td>VocÃª tem ResistÃªncia a dano de Fogo. VocÃª tambÃ©m conhece o truque <i>Raio de Fogo</i>.</td><td><i>RepreensÃ£o Infernal</i></td><td><i>EscuridÃ£o</i></td></tr>
+				<tr><td>Abissal</td><td>Você tem Resistência a dano de Veneno. Você também conhece o truque <i>Rajada de Veneno</i>.</td><td><i>Raio Adoecedor</i></td><td><i>Imobilizar Pessoa</i></td></tr>
+				<tr><td>Ctônico</td><td>Você tem Resistência a dano Necrótico. Você também conhece o truque <i>Toque Macabro</i>.</td><td><i>Vida Falsa</i></td><td><i>Raio do Enfraquecimento</i></td></tr>
+				<tr><td>Infernal</td><td>Você tem Resistência a dano de Fogo. Você também conhece o truque <i>Raio de Fogo</i>.</td><td><i>Repreensão Infernal</i></td><td><i>Escuridão</i></td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_TIEFLING" />
-			<select type="Ability Score Improvement" name="OpÃ§Ã£o de Melhoria no Valor de Habilidade (Tiefling)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade (Tiefling)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
 			<select type="Racial Trait" name="Tamanho (Tiefling)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 
@@ -55,20 +55,20 @@
 		</rules>
 	</element>
 
-	<element name="Legado Infernal" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY">
+	<element name="Legado Infernal" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_TIEFLING_FIENDISH_LEGACY</requirements>
 		<description>
-			<p>VocÃª Ã© o destinatÃ¡rio de um legado que lhe concede habilidades sobrenaturais. Escolha um legado da tabela Legados Infernais. VocÃª ganha o benefÃ­cio de nÃ­vel 1 do legado escolhido.</p>
-			<p class="indent">Quando vocÃª atinge os nÃ­veis de personagem 3 e 5, vocÃª aprende uma magia de nÃ­vel superior, conforme mostrado na tabela. VocÃª sempre tem essa magia preparada. VocÃª pode conjurÃ¡-la uma vez sem gastar um espaÃ§o de magia, e vocÃª recupera a habilidade de conjurÃ¡-la dessa forma quando terminar um Descanso Longo. VocÃª tambÃ©m pode conjurar a magia usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</p>
-			<p class="indent">InteligÃªncia, Sabedoria ou Carisma Ã© a sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjura com este traÃ§o (escolha a habilidade quando selecionar o legado).</p>
+			<p>Você é o destinatário de um legado que lhe concede habilidades sobrenaturais. Escolha um legado da tabela Legados Infernais. Você ganha o benefício de nível 1 do legado escolhido.</p>
+			<p class="indent">Quando você atinge os níveis de personagem 3 e 5, você aprende uma magia de nível superior, conforme mostrado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem gastar um espaço de magia, e você recupera a habilidade de conjurá-la dessa forma quando terminar um Descanso Longo. Você também pode conjurar a magia usando quaisquer espaços de magia que tiver do nível apropriado.</p>
+			<p class="indent">Inteligência, Sabedoria ou Carisma é a sua habilidade de conjuração para as magias que você conjura com este traço (escolha a habilidade quando selecionar o legado).</p>
 			<h5>Legados Infernais</h5>
 			<table>
 				<thead>
-					<tr><td>Legado</td><td class="col-50">NÃ­vel 1</td><td>NÃ­vel 3</td><td>NÃ­vel 5</td></tr>
+					<tr><td>Legado</td><td class="col-50">Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr>
 				</thead>
-				<tr><td>Abissal</td><td>VocÃª tem ResistÃªncia a dano de Veneno. VocÃª tambÃ©m conhece o truque <i>Rajada de Veneno</i>.</td><td><i>Raio Adoecedor</i></td><td><i>Imobilizar Pessoa</i></td></tr>
-				<tr><td>CtÃ´nico</td><td>VocÃª tem ResistÃªncia a dano NecrÃ³tico. VocÃª tambÃ©m conhece o truque <i>Toque Macabro</i>.</td><td><i>Vida Falsa</i></td><td><i>Raio do Enfraquecimento</i></td></tr>
-				<tr><td>Infernal</td><td>VocÃª tem ResistÃªncia a dano de Fogo. VocÃª tambÃ©m conhece o truque <i>Raio de Fogo</i>.</td><td><i>RepreensÃ£o Infernal</i></td><td><i>EscuridÃ£o</i></td></tr>
+				<tr><td>Abissal</td><td>Você tem Resistência a dano de Veneno. Você também conhece o truque <i>Rajada de Veneno</i>.</td><td><i>Raio Adoecedor</i></td><td><i>Imobilizar Pessoa</i></td></tr>
+				<tr><td>Ctônico</td><td>Você tem Resistência a dano Necrótico. Você também conhece o truque <i>Toque Macabro</i>.</td><td><i>Vida Falsa</i></td><td><i>Raio do Enfraquecimento</i></td></tr>
+				<tr><td>Infernal</td><td>Você tem Resistência a dano de Fogo. Você também conhece o truque <i>Raio de Fogo</i>.</td><td><i>Repreensão Infernal</i></td><td><i>Escuridão</i></td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -77,29 +77,29 @@
 		</rules>
 	</element>
 
-	<element name="Legado Abissal" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL">
+	<element name="Legado Abissal" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL">
 		<supports>Fiendish Legacy 2024</supports>
 		<compendium display="false" />
 		<description>
-			<p>A entropia do Abismo, o caos do PandemÃ´nio e o desespero de Carceri chamam os tieflings que possuem o legado abissal. Chifres, pelos, presas e odores peculiares sÃ£o caracterÃ­sticas fÃ­sicas comuns desses tieflings, a maioria dos quais tem sangue de demÃ´nios correndo em suas veias.</p>
-			<p>Como um Tiefling Abissal, vocÃª tem ResistÃªncia a dano de Veneno e aprende o truque <i>Rajada de Veneno</i>.</p>
-			<p class="indent">AlÃ©m disso, vocÃª aprende a magia <i>Raio Adoecedor</i> quando atinge o 3Âº nÃ­vel, e a magia <i>Imobilizar Pessoa</i> quando atinge o 5Âº nÃ­vel. VocÃª pode conjurar cada uma dessas magias uma vez sem usar um espaÃ§o de magia, e vocÃª recupera a habilidade de conjurÃ¡-las desta forma quando termina um Descanso Longo. VocÃª tambÃ©m pode conjurar essas magias usando quaisquer espaÃ§os de magia que possua do nÃ­vel apropriado.</p>
+			<p>A entropia do Abismo, o caos do Pandemônio e o desespero de Carceri chamam os tieflings que possuem o legado abissal. Chifres, pelos, presas e odores peculiares são características físicas comuns desses tieflings, a maioria dos quais tem sangue de demônios correndo em suas veias.</p>
+			<p>Como um Tiefling Abissal, você tem Resistência a dano de Veneno e aprende o truque <i>Rajada de Veneno</i>.</p>
+			<p class="indent">Além disso, você aprende a magia <i>Raio Adoecedor</i> quando atinge o 3º nível, e a magia <i>Imobilizar Pessoa</i> quando atinge o 5º nível. Você pode conjurar cada uma dessas magias uma vez sem usar um espaço de magia, e você recupera a habilidade de conjurá-las desta forma quando termina um Descanso Longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que possua do nível apropriado.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
-			<select type="Racial Trait" name="Habilidade de ConjuraÃ§Ã£o (Legado Infernal)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_CHARISMA" />
+			<select type="Racial Trait" name="Habilidade de Conjuração (Legado Infernal)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_CHARISMA" />
 		</rules>
 	</element>
-	<element name="InteligÃªncia" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_INTELLIGENCE">
+	<element name="Inteligência" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjura com o traÃ§o Legado Infernal.</p>
+			<p>Inteligência é sua habilidade de conjuração para as magias que você conjura com o traço Legado Infernal.</p>
 		</description>
 		<sheet alt="Legado Infernal (Abissal)">
-			<description>VocÃª conhece o truque Rajada de Veneno. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
-			<description level="3">VocÃª conhece o truque Rajada de Veneno, e pode conjurar a magia Raio Adoecedor uma vez por Descanso Longo. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
-			<description level="5">VocÃª conhece o truque Rajada de Veneno, e pode conjurar as magias Raio Adoecedor e Imobilizar Pessoa uma vez cada por Descanso Longo. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar qualquer uma dessas magias usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
+			<description>Você conhece o truque Rajada de Veneno. Inteligência é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Rajada de Veneno, e pode conjurar a magia Raio Adoecedor uma vez por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar esta magia usando quaisquer espaços de magia que tiver do nível apropriado.</description>
+			<description level="5">Você conhece o truque Rajada de Veneno, e pode conjurar as magias Raio Adoecedor e Imobilizar Pessoa uma vez cada por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar qualquer uma dessas magias usando quaisquer espaços de magia que tiver do nível apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_INTELLIGENCE" />
@@ -108,15 +108,15 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_PERSON" level="5" />
 		</rules>
 	</element>
-	<element name="Sabedoria" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_WISDOM">
+	<element name="Sabedoria" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjura com o traÃ§o Legado Infernal.</p>
+			<p>Sabedoria é sua habilidade de conjuração para as magias que você conjura com o traço Legado Infernal.</p>
 		</description>
 		<sheet alt="Legado Infernal (Abissal)">
-			<description>VocÃª conhece o truque Rajada de Veneno. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
-			<description level="3">VocÃª conhece o truque Rajada de Veneno, e pode conjurar a magia Raio Adoecedor uma vez por Descanso Longo. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
-			<description level="5">VocÃª conhece o truque Rajada de Veneno, e pode conjurar as magias Raio Adoecedor e Imobilizar Pessoa uma vez cada por Descanso Longo. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar qualquer uma dessas magias usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
+			<description>Você conhece o truque Rajada de Veneno. Sabedoria é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Rajada de Veneno, e pode conjurar a magia Raio Adoecedor uma vez por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar esta magia usando quaisquer espaços de magia que tiver do nível apropriado.</description>
+			<description level="5">Você conhece o truque Rajada de Veneno, e pode conjurar as magias Raio Adoecedor e Imobilizar Pessoa uma vez cada por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar qualquer uma dessas magias usando quaisquer espaços de magia que tiver do nível apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_WISDOM" />
@@ -125,15 +125,15 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_PERSON" level="5" />
 		</rules>
 	</element>
-	<element name="Carisma" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_CHARISMA">
+	<element name="Carisma" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjura com o traÃ§o Legado Infernal.</p>
+			<p>Carisma é sua habilidade de conjuração para as magias que você conjura com o traço Legado Infernal.</p>
 		</description>
 		<sheet alt="Legado Infernal (Abissal)">
-			<description>VocÃª conhece o truque Rajada de Veneno. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
-			<description level="3">VocÃª conhece o truque Rajada de Veneno, e pode conjurar a magia Raio Adoecedor uma vez por Descanso Longo. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
-			<description level="5">VocÃª conhece o truque Rajada de Veneno, e pode conjurar as magias Raio Adoecedor e Imobilizar Pessoa uma vez cada por Descanso Longo. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar qualquer uma dessas magias usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
+			<description>Você conhece o truque Rajada de Veneno. Carisma é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Rajada de Veneno, e pode conjurar a magia Raio Adoecedor uma vez por Descanso Longo. Carisma é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar esta magia usando quaisquer espaços de magia que tiver do nível apropriado.</description>
+			<description level="5">Você conhece o truque Rajada de Veneno, e pode conjurar as magias Raio Adoecedor e Imobilizar Pessoa uma vez cada por Descanso Longo. Carisma é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar qualquer uma dessas magias usando quaisquer espaços de magia que tiver do nível apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_CHARISMA" />
@@ -143,29 +143,29 @@
 		</rules>
 	</element>
 	
-	<element name="Legado CtÃ´nico" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC">
+	<element name="Legado Ctônico" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC">
 		<supports>Fiendish Legacy 2024</supports>
 		<compendium display="false" />
 		<description>
-			<p>Tieflings que possuem o legado ctÃ´nico sentem nÃ£o apenas o chamado de Carceri, mas tambÃ©m a ganÃ¢ncia de Gehenna e a melancolia de Hades. Alguns desses tieflings tÃªm aparÃªncia cadavÃ©rica. Outros possuem a beleza sobrenatural de uma sÃºcubo, ou tÃªm caracterÃ­sticas fÃ­sicas em comum com uma bruxa da noite, um yugoloth ou algum outro ancestral infernal Neutro e Mau.</p>
-			<p>Como um Tiefling CtÃ´nico, vocÃª tem ResistÃªncia a dano NecrÃ³tico e aprende o truque <i>Toque Macabro</i>.</p>
-			<p class="indent">AlÃ©m disso, vocÃª aprende a magia <i>Vida Falsa</i> quando atinge o 3Âº nÃ­vel, e a magia <i>Raio do Enfraquecimento</i> quando atinge o 5Âº nÃ­vel. VocÃª pode conjurar cada uma dessas magias uma vez sem usar um espaÃ§o de magia, e vocÃª recupera a habilidade de conjurÃ¡-las desta forma quando termina um Descanso Longo. VocÃª tambÃ©m pode conjurar essas magias usando quaisquer espaÃ§os de magia que possua do nÃ­vel apropriado.</p>
+			<p>Tieflings que possuem o legado ctônico sentem não apenas o chamado de Carceri, mas também a ganância de Gehenna e a melancolia de Hades. Alguns desses tieflings têm aparência cadavérica. Outros possuem a beleza sobrenatural de uma súcubo, ou têm características físicas em comum com uma bruxa da noite, um yugoloth ou algum outro ancestral infernal Neutro e Mau.</p>
+			<p>Como um Tiefling Ctônico, você tem Resistência a dano Necrótico e aprende o truque <i>Toque Macabro</i>.</p>
+			<p class="indent">Além disso, você aprende a magia <i>Vida Falsa</i> quando atinge o 3º nível, e a magia <i>Raio do Enfraquecimento</i> quando atinge o 5º nível. Você pode conjurar cada uma dessas magias uma vez sem usar um espaço de magia, e você recupera a habilidade de conjurá-las desta forma quando termina um Descanso Longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que possua do nível apropriado.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
-			<select type="Racial Trait" name="Habilidade de ConjuraÃ§Ã£o (Legado Infernal)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_CHARISMA" />
+			<select type="Racial Trait" name="Habilidade de Conjuração (Legado Infernal)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_CHARISMA" />
 		</rules>
 	</element>
-	<element name="InteligÃªncia" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_INTELLIGENCE">
+	<element name="Inteligência" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjura com o traÃ§o Legado Infernal.</p>
+			<p>Inteligência é sua habilidade de conjuração para as magias que você conjura com o traço Legado Infernal.</p>
 		</description>
-		<sheet alt="Legado Infernal (CtÃ´nico)">
-			<description>VocÃª conhece o truque Toque Macabro. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
-			<description level="3">VocÃª conhece o truque Toque Macabro, e pode conjurar a magia Vida Falsa uma vez por Descanso Longo. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
-			<description level="5">VocÃª conhece o truque Toque Macabro, e pode conjurar as magias Vida Falsa e Raio do Enfraquecimento uma vez cada por Descanso Longo. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar qualquer uma dessas magias usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
+		<sheet alt="Legado Infernal (Ctônico)">
+			<description>Você conhece o truque Toque Macabro. Inteligência é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Toque Macabro, e pode conjurar a magia Vida Falsa uma vez por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar esta magia usando quaisquer espaços de magia que tiver do nível apropriado.</description>
+			<description level="5">Você conhece o truque Toque Macabro, e pode conjurar as magias Vida Falsa e Raio do Enfraquecimento uma vez cada por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar qualquer uma dessas magias usando quaisquer espaços de magia que tiver do nível apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_INTELLIGENCE" />
@@ -174,15 +174,15 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_RAY_OF_ENFEEBLEMENT" level="5" />
 		</rules>
 	</element>
-	<element name="Sabedoria" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_WISDOM">
+	<element name="Sabedoria" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjura com o traÃ§o Legado Infernal.</p>
+			<p>Sabedoria é sua habilidade de conjuração para as magias que você conjura com o traço Legado Infernal.</p>
 		</description>
-		<sheet alt="Legado Infernal (CtÃ´nico)">
-			<description>VocÃª conhece o truque Toque Macabro. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
-			<description level="3">VocÃª conhece o truque Toque Macabro, e pode conjurar a magia Vida Falsa uma vez por Descanso Longo. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
-			<description level="5">VocÃª conhece o truque Toque Macabro, e pode conjurar as magias Vida Falsa e Raio do Enfraquecimento uma vez cada por Descanso Longo. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar qualquer uma dessas magias usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
+		<sheet alt="Legado Infernal (Ctônico)">
+			<description>Você conhece o truque Toque Macabro. Sabedoria é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Toque Macabro, e pode conjurar a magia Vida Falsa uma vez por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar esta magia usando quaisquer espaços de magia que tiver do nível apropriado.</description>
+			<description level="5">Você conhece o truque Toque Macabro, e pode conjurar as magias Vida Falsa e Raio do Enfraquecimento uma vez cada por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar qualquer uma dessas magias usando quaisquer espaços de magia que tiver do nível apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_WISDOM" />
@@ -191,15 +191,15 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_RAY_OF_ENFEEBLEMENT" level="5" />
 		</rules>
 	</element>
-	<element name="Carisma" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_CHARISMA">
+	<element name="Carisma" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjura com o traÃ§o Legado Infernal.</p>
+			<p>Carisma é sua habilidade de conjuração para as magias que você conjura com o traço Legado Infernal.</p>
 		</description>
-		<sheet alt="Legado Infernal (CtÃ´nico)">
-			<description>VocÃª conhece o truque Toque Macabro. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
-			<description level="3">VocÃª conhece o truque Toque Macabro, e pode conjurar a magia Vida Falsa uma vez por Descanso Longo. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
-			<description level="5">VocÃª conhece o truque Toque Macabro, e pode conjurar as magias Vida Falsa e Raio do Enfraquecimento uma vez cada por Descanso Longo. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar qualquer uma dessas magias usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
+		<sheet alt="Legado Infernal (Ctônico)">
+			<description>Você conhece o truque Toque Macabro. Carisma é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Toque Macabro, e pode conjurar a magia Vida Falsa uma vez por Descanso Longo. Carisma é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar esta magia usando quaisquer espaços de magia que tiver do nível apropriado.</description>
+			<description level="5">Você conhece o truque Toque Macabro, e pode conjurar as magias Vida Falsa e Raio do Enfraquecimento uma vez cada por Descanso Longo. Carisma é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar qualquer uma dessas magias usando quaisquer espaços de magia que tiver do nível apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_CHARISMA" />
@@ -209,29 +209,29 @@
 		</rules>
 	</element>
 
-	<element name="Legado Infernal" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL">
+	<element name="Legado Infernal" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL">
 		<supports>Fiendish Legacy 2024</supports>
 		<compendium display="false" />
 		<description>
-			<p>O legado infernal conecta os tieflings nÃ£o apenas a Gehenna, mas tambÃ©m aos Nove Infernos e aos campos de batalha furiosos de Acheron. Chifres, espinhos, caudas, olhos dourados e um leve odor de enxofre ou fumaÃ§a sÃ£o caracterÃ­sticas fÃ­sicas comuns desses tieflings, a maioria dos quais traÃ§a a sua ascendÃªncia a diabos.</p>
-			<p>Como um Tiefling Infernal, vocÃª tem ResistÃªncia a dano de Fogo e aprende o truque <i>Raio de Fogo</i>.</p>
-			<p class="indent">AlÃ©m disso, vocÃª aprende a magia <i>RepreensÃ£o Infernal</i> quando atinge o 3Âº nÃ­vel, e a magia <i>EscuridÃ£o</i> quando atinge o 5Âº nÃ­vel. VocÃª pode conjurar cada uma dessas magias uma vez sem usar um espaÃ§o de magia, e vocÃª recupera a habilidade de conjurÃ¡-las desta forma quando termina um Descanso Longo. VocÃª tambÃ©m pode conjurar essas magias usando quaisquer espaÃ§os de magia que possua do nÃ­vel apropriado.</p>
+			<p>O legado infernal conecta os tieflings não apenas a Gehenna, mas também aos Nove Infernos e aos campos de batalha furiosos de Acheron. Chifres, espinhos, caudas, olhos dourados e um leve odor de enxofre ou fumaça são características físicas comuns desses tieflings, a maioria dos quais traça a sua ascendência a diabos.</p>
+			<p>Como um Tiefling Infernal, você tem Resistência a dano de Fogo e aprende o truque <i>Raio de Fogo</i>.</p>
+			<p class="indent">Além disso, você aprende a magia <i>Repreensão Infernal</i> quando atinge o 3º nível, e a magia <i>Escuridão</i> quando atinge o 5º nível. Você pode conjurar cada uma dessas magias uma vez sem usar um espaço de magia, e você recupera a habilidade de conjurá-las desta forma quando termina um Descanso Longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que possua do nível apropriado.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
-			<select type="Racial Trait" name="Habilidade de ConjuraÃ§Ã£o (Legado Infernal)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_CHARISMA" />
+			<select type="Racial Trait" name="Habilidade de Conjuração (Legado Infernal)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_CHARISMA" />
 		</rules>
 	</element>
-	<element name="InteligÃªncia" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_INTELLIGENCE">
+	<element name="Inteligência" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjura com o traÃ§o Legado Infernal.</p>
+			<p>Inteligência é sua habilidade de conjuração para as magias que você conjura com o traço Legado Infernal.</p>
 		</description>
 		<sheet alt="Legado Infernal (Infernal)">
-			<description>VocÃª conhece o truque Raio de Fogo. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
-			<description level="3">VocÃª conhece o truque Raio de Fogo, e pode conjurar a magia RepreensÃ£o Infernal uma vez por Descanso Longo. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
-			<description level="5">VocÃª conhece o truque Raio de Fogo, e pode conjurar as magias RepreensÃ£o Infernal e EscuridÃ£o uma vez cada por Descanso Longo. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar qualquer uma dessas magias usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
+			<description>Você conhece o truque Raio de Fogo. Inteligência é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Raio de Fogo, e pode conjurar a magia Repreensão Infernal uma vez por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar esta magia usando quaisquer espaços de magia que tiver do nível apropriado.</description>
+			<description level="5">Você conhece o truque Raio de Fogo, e pode conjurar as magias Repreensão Infernal e Escuridão uma vez cada por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar qualquer uma dessas magias usando quaisquer espaços de magia que tiver do nível apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_INTELLIGENCE" />
@@ -240,15 +240,15 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" level="5" />
 		</rules>
 	</element>
-	<element name="Sabedoria" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_WISDOM">
+	<element name="Sabedoria" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjura com o traÃ§o Legado Infernal.</p>
+			<p>Sabedoria é sua habilidade de conjuração para as magias que você conjura com o traço Legado Infernal.</p>
 		</description>
 		<sheet alt="Legado Infernal (Infernal)">
-			<description>VocÃª conhece o truque Raio de Fogo. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
-			<description level="3">VocÃª conhece o truque Raio de Fogo, e pode conjurar a magia RepreensÃ£o Infernal uma vez por Descanso Longo. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
-			<description level="5">VocÃª conhece o truque Raio de Fogo, e pode conjurar as magias RepreensÃ£o Infernal e EscuridÃ£o uma vez cada por Descanso Longo. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar qualquer uma dessas magias usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
+			<description>Você conhece o truque Raio de Fogo. Sabedoria é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Raio de Fogo, e pode conjurar a magia Repreensão Infernal uma vez por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar esta magia usando quaisquer espaços de magia que tiver do nível apropriado.</description>
+			<description level="5">Você conhece o truque Raio de Fogo, e pode conjurar as magias Repreensão Infernal e Escuridão uma vez cada por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar qualquer uma dessas magias usando quaisquer espaços de magia que tiver do nível apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_WISDOM" />
@@ -257,15 +257,15 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" level="5" />
 		</rules>
 	</element>
-	<element name="Carisma" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_CHARISMA">
+	<element name="Carisma" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjura com o traÃ§o Legado Infernal.</p>
+			<p>Carisma é sua habilidade de conjuração para as magias que você conjura com o traço Legado Infernal.</p>
 		</description>
 		<sheet alt="Legado Infernal (Infernal)">
-			<description>VocÃª conhece o truque Raio de Fogo. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
-			<description level="3">VocÃª conhece o truque Raio de Fogo, e pode conjurar a magia RepreensÃ£o Infernal uma vez por Descanso Longo. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
-			<description level="5">VocÃª conhece o truque Raio de Fogo, e pode conjurar as magias RepreensÃ£o Infernal e EscuridÃ£o uma vez cada por Descanso Longo. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias que conjura com este traÃ§o. VocÃª tambÃ©m pode conjurar qualquer uma dessas magias usando quaisquer espaÃ§os de magia que tiver do nÃ­vel apropriado.</description>
+			<description>Você conhece o truque Raio de Fogo. Carisma é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Raio de Fogo, e pode conjurar a magia Repreensão Infernal uma vez por Descanso Longo. Carisma é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar esta magia usando quaisquer espaços de magia que tiver do nível apropriado.</description>
+			<description level="5">Você conhece o truque Raio de Fogo, e pode conjurar as magias Repreensão Infernal e Escuridão uma vez cada por Descanso Longo. Carisma é sua habilidade de conjuração para as magias que conjura com este traço. Você também pode conjurar qualquer uma dessas magias usando quaisquer espaços de magia que tiver do nível apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_CHARISMA" />
@@ -275,51 +275,51 @@
 		</rules>
 	</element>
 	
-	<element name="PresenÃ§a de Outro Mundo" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_OTHERWORLDLY_PRESENCE_INTELLIGENCE">
+	<element name="Presença de Outro Mundo" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_OTHERWORLDLY_PRESENCE_INTELLIGENCE">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_TIEFLING_OTHERWORLDLY_PRESENCE</requirements>
 		<description>
-			<p>VocÃª conhece o truque <i>Taumaturgia</i>. Quando vocÃª o conjura com este traÃ§o, a magia usa a mesma habilidade de conjuraÃ§Ã£o que vocÃª usa para o seu traÃ§o Legado Infernal.</p> 
+			<p>Você conhece o truque <i>Taumaturgia</i>. Quando você o conjura com este traço, a magia usa a mesma habilidade de conjuração que você usa para o seu traço Legado Infernal.</p> 
 		</description>
-		<sheet alt="PresenÃ§a de Outro Mundo">
-			<description>VocÃª conhece o truque Taumaturgia. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
+		<sheet alt="Presença de Outro Mundo">
+			<description>Você conhece o truque Taumaturgia. Inteligência é sua habilidade de conjuração para ele.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_THAUMATURGY" />
 		</rules>
 	</element>
-	<element name="PresenÃ§a de Outro Mundo" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_OTHERWORLDLY_PRESENCE_WISDOM">
+	<element name="Presença de Outro Mundo" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_OTHERWORLDLY_PRESENCE_WISDOM">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_TIEFLING_OTHERWORLDLY_PRESENCE</requirements>
 		<compendium display="false" />
 		<description>
-			<p>VocÃª conhece o truque <i>Taumaturgia</i>. Quando vocÃª o conjura com este traÃ§o, a magia usa a mesma habilidade de conjuraÃ§Ã£o que vocÃª usa para o seu traÃ§o Legado Infernal.</p> 
+			<p>Você conhece o truque <i>Taumaturgia</i>. Quando você o conjura com este traço, a magia usa a mesma habilidade de conjuração que você usa para o seu traço Legado Infernal.</p> 
 		</description>
-		<sheet alt="PresenÃ§a de Outro Mundo">
-			<description>VocÃª conhece o truque Taumaturgia. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
+		<sheet alt="Presença de Outro Mundo">
+			<description>Você conhece o truque Taumaturgia. Sabedoria é sua habilidade de conjuração para ele.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_THAUMATURGY" />
 		</rules>
 	</element>
-	<element name="PresenÃ§a de Outro Mundo" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_OTHERWORLDLY_PRESENCE_CHARISMA">
+	<element name="Presença de Outro Mundo" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_OTHERWORLDLY_PRESENCE_CHARISMA">
 		<compendium display="false" />
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_TIEFLING_OTHERWORLDLY_PRESENCE</requirements>
 		<description>
-			<p>VocÃª conhece o truque <i>Taumaturgia</i>. Quando vocÃª o conjura com este traÃ§o, a magia usa a mesma habilidade de conjuraÃ§Ã£o que vocÃª usa para o seu traÃ§o Legado Infernal.</p> 
+			<p>Você conhece o truque <i>Taumaturgia</i>. Quando você o conjura com este traço, a magia usa a mesma habilidade de conjuração que você usa para o seu traço Legado Infernal.</p> 
 		</description>
-		<sheet alt="PresenÃ§a de Outro Mundo">
-			<description>VocÃª conhece o truque Taumaturgia. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para ele.</description>
+		<sheet alt="Presença de Outro Mundo">
+			<description>Você conhece o truque Taumaturgia. Carisma é sua habilidade de conjuração para ele.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_THAUMATURGY" />
 		</rules>
 	</element>
 
-	<element name="Habilidade de ConjuraÃ§Ã£o: InteligÃªncia (Legado Infernal)" type="Grants" source="Internal" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_INTELLIGENCE" />
-	<element name="Habilidade de ConjuraÃ§Ã£o: Sabedoria (Legado Infernal)" type="Grants" source="Internal" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_WISDOM" />
-	<element name="Habilidade de ConjuraÃ§Ã£o: Carisma (Legado Infernal)" type="Grants" source="Internal" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_CHARISMA" />
+	<element name="Habilidade de Conjuração: Inteligência (Legado Infernal)" type="Grants" source="Internal" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_INTELLIGENCE" />
+	<element name="Habilidade de Conjuração: Sabedoria (Legado Infernal)" type="Grants" source="Internal" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_WISDOM" />
+	<element name="Habilidade de Conjuração: Carisma (Legado Infernal)" type="Grants" source="Internal" id="ID_WOTC_PHB24_GRANTS_TIEFLING_FIENDISH_LEGACY_SPELLCASTING_ABILITY_CHARISMA" />
 
-	<element name="SubstituiÃ§Ã£o de TraÃ§o VisÃ£o no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_TIEFLING_DARKVISION" />
-	<element name="SubstituiÃ§Ã£o de TraÃ§o Legado Infernal" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_TIEFLING_FIENDISH_LEGACY" />
-	<element name="SubstituiÃ§Ã£o de TraÃ§o PresenÃ§a de Outro Mundo" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_TIEFLING_OTHERWORLDLY_PRESENCE" />
+	<element name="Substituição de Traço Visão no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_TIEFLING_DARKVISION" />
+	<element name="Substituição de Traço Legado Infernal" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_TIEFLING_FIENDISH_LEGACY" />
+	<element name="Substituição de Traço Presença de Outro Mundo" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_TIEFLING_OTHERWORLDLY_PRESENCE" />
 
 </elements>

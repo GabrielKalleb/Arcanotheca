@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Pyromancer</name>
@@ -48,7 +48,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
 		</rules>
 	</element>
-	<element name="Pyromancerâ€™s Fury" type="Archetype Feature" source="Plane Shift: Kaladesh" id="ID_WOTC_PSK_ARCHETYPE_FEATURE_PYROMANCER_PYROMANCERS_FURY">
+	<element name="Pyromancer’s Fury" type="Archetype Feature" source="Plane Shift: Kaladesh" id="ID_WOTC_PSK_ARCHETYPE_FEATURE_PYROMANCER_PYROMANCERS_FURY">
 		<description>
 			<p>Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal fire damage to the attacker. The damage equals your sorcerer level, and ignores resistance to fire damage.</p>
 		</description>

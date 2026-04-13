@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Halfling</name>
-		<description>A espÃ©cie Halfling do Playerâ€™s Handbook 2024.</description>
+		<description>A espécie Halfling do Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="race-halfling.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/races/race-halfling.xml" />
 		</update>
 	</info>
 	
-	<element name="Halfling" type="Race" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACE_HALFLING">
+	<element name="Halfling" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_HALFLING">
 		<description>
-			<p>Acarinhados e guiados por deuses que valorizam a vida, o lar e a lareira, os halflings gravitam em torno de refÃºgios bucÃ³licos onde a famÃ­lia e a comunidade ajudam a moldar suas vidas. Dito isso, muitos halflings possuem um espÃ­rito bravo e aventureiro que os leva a jornadas de descoberta, proporcionando-lhes a chance de explorar um mundo maior e fazer novos amigos pelo caminho. O tamanho deles â€” semelhante ao de uma crianÃ§a humana â€” os ajuda a passar por multidÃµes despercebidos e a deslizar por espaÃ§os apertados.</p>
-			<p class="indent">Qualquer um que tenha passado tempo perto de halflings, particularmente halflings aventureiros, provavelmente testemunhou a famosa â€œsorte dos halflingsâ€ em aÃ§Ã£o. Quando um halfling estÃ¡ em perigo mortal, uma forÃ§a invisÃ­vel parece intervir a favor do halfling. Muitos halflings acreditam no poder da sorte e atribuem esse dom incomum a um ou mais de seus deuses benevolentes, incluindo Yondalla, Brandobaris e Charmalaine. O mesmo dom pode contribuir para as suas robustas expectativas de vida (cerca de 150 anos).</p>
-			<p class="indent">Comunidades de halflings vÃªm em todas as variedades. Para cada condado isolado escondido numa parte intocada do mundo, hÃ¡ um sindicato do crime como o ClÃ£ Boromar no cenÃ¡rio de Eberron ou uma mÃ¡fia territorial de halflings como aquelas no cenÃ¡rio de Dark Sun.</p>
-			<p class="indent">Os halflings que preferem viver no subsolo Ã s vezes sÃ£o chamados de halflings coraÃ§Ã£o-forte ou robustos. Halflings nÃ´mades, bem como aqueles que vivem entre os humanos e outras pessoas altas, Ã s vezes sÃ£o chamados de halflings pÃ©s-leves ou altos.</p>
-			<h5>TRAÃ‡OS DE HALFLING</h5>
+			<p>Acarinhados e guiados por deuses que valorizam a vida, o lar e a lareira, os halflings gravitam em torno de refúgios bucólicos onde a família e a comunidade ajudam a moldar suas vidas. Dito isso, muitos halflings possuem um espírito bravo e aventureiro que os leva a jornadas de descoberta, proporcionando-lhes a chance de explorar um mundo maior e fazer novos amigos pelo caminho. O tamanho deles — semelhante ao de uma criança humana — os ajuda a passar por multidões despercebidos e a deslizar por espaços apertados.</p>
+			<p class="indent">Qualquer um que tenha passado tempo perto de halflings, particularmente halflings aventureiros, provavelmente testemunhou a famosa “sorte dos halflings” em ação. Quando um halfling está em perigo mortal, uma força invisível parece intervir a favor do halfling. Muitos halflings acreditam no poder da sorte e atribuem esse dom incomum a um ou mais de seus deuses benevolentes, incluindo Yondalla, Brandobaris e Charmalaine. O mesmo dom pode contribuir para as suas robustas expectativas de vida (cerca de 150 anos).</p>
+			<p class="indent">Comunidades de halflings vêm em todas as variedades. Para cada condado isolado escondido numa parte intocada do mundo, há um sindicato do crime como o Clã Boromar no cenário de Eberron ou uma máfia territorial de halflings como aquelas no cenário de Dark Sun.</p>
+			<p class="indent">Os halflings que preferem viver no subsolo às vezes são chamados de halflings coração-forte ou robustos. Halflings nômades, bem como aqueles que vivem entre os humanos e outras pessoas altas, às vezes são chamados de halflings pés-leves ou altos.</p>
+			<h5>TRAÇOS DE HALFLING</h5>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
 				<li><strong>Tipo de Criatura:</strong> Humanoide</li>
 				<li><strong>Tamanho:</strong> Pequeno (cerca de 0,6 a 0,9 metro de altura)</li>
 				<li><strong>Deslocamento:</strong> 9 metros</li>
 			</ul>
-			<p>Como um Halfling, vocÃª possui estes traÃ§os especiais.</p>
-			<p class="indent"><strong><em>Bravo.</em></strong> VocÃª tem Vantagem nas salvaguardas que fizer para evitar ou encerrar a condiÃ§Ã£o Amedrontado.</p> 
-			<p class="indent"><strong><em>Agilidade Halfling.</em></strong> VocÃª pode se mover atravÃ©s do espaÃ§o de qualquer criatura que seja de um tamanho maior que o seu, mas nÃ£o pode parar no mesmo espaÃ§o.</p> 
-			<p class="indent"><strong><em>Sorte.</em></strong> Quando rolar um 1 no d20 em um Teste de D20, vocÃª pode rolar o dado novamente e deve usar o novo resultado.</p> 
-			<p class="indent"><strong><em>Furtividade Natural.</em></strong> VocÃª pode realizar a aÃ§Ã£o de Esconder-se mesmo quando estiver obscurecido apenas por uma criatura que seja pelo menos um tamanho maior que o seu.</p> 
+			<p>Como um Halfling, você possui estes traços especiais.</p>
+			<p class="indent"><strong><em>Bravo.</em></strong> Você tem Vantagem nas salvaguardas que fizer para evitar ou encerrar a condição Amedrontado.</p> 
+			<p class="indent"><strong><em>Agilidade Halfling.</em></strong> Você pode se mover através do espaço de qualquer criatura que seja de um tamanho maior que o seu, mas não pode parar no mesmo espaço.</p> 
+			<p class="indent"><strong><em>Sorte.</em></strong> Quando rolar um 1 no d20 em um Teste de D20, você pode rolar o dado novamente e deve usar o novo resultado.</p> 
+			<p class="indent"><strong><em>Furtividade Natural.</em></strong> Você pode realizar a ação de Esconder-se mesmo quando estiver obscurecido apenas por uma criatura que seja pelo menos um tamanho maior que o seu.</p> 
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_HALFLING" />
-			<select type="Ability Score Improvement" name="OpÃ§Ã£o de Melhoria no Valor de Habilidade (Halfling)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade (Halfling)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
 			<grant type="Size" id="ID_SIZE_SMALL" />
 			<stat name="innate speed" value="30" bonus="base" />
 
@@ -45,49 +45,49 @@
 		</rules>
 	</element>
 
-	<element name="Bravo" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HALFLING_BRAVE">
+	<element name="Bravo" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HALFLING_BRAVE">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_BRAVE</requirements>
 		<description>
-			<p>VocÃª tem Vantagem nas salvaguardas que fizer para evitar ou encerrar a condiÃ§Ã£o Amedrontado.</p> 
+			<p>Você tem Vantagem nas salvaguardas que fizer para evitar ou encerrar a condição Amedrontado.</p> 
 		</description>
 		<sheet>
-			<description>VocÃª tem Vantagem nas salvaguardas que fizer para evitar ou encerrar a condiÃ§Ã£o Amedrontado.</description>
+			<description>Você tem Vantagem nas salvaguardas que fizer para evitar ou encerrar a condição Amedrontado.</description>
 		</sheet>
 	</element>
 
-	<element name="Agilidade Halfling" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HALFLING_HALFLING_NIMBLENESS">
+	<element name="Agilidade Halfling" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HALFLING_HALFLING_NIMBLENESS">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_HALFLING_NIMBLENESS</requirements>
 		<description>
-			<p>VocÃª pode se mover atravÃ©s do espaÃ§o de qualquer criatura que seja de um tamanho maior que o seu, mas nÃ£o pode parar no mesmo espaÃ§o.</p> 
+			<p>Você pode se mover através do espaço de qualquer criatura que seja de um tamanho maior que o seu, mas não pode parar no mesmo espaço.</p> 
 		</description>
 		<sheet>
-			<description>VocÃª pode se mover atravÃ©s do espaÃ§o de qualquer criatura que seja de um tamanho maior que o seu, mas nÃ£o pode parar no mesmo espaÃ§o.</description>
+			<description>Você pode se mover através do espaço de qualquer criatura que seja de um tamanho maior que o seu, mas não pode parar no mesmo espaço.</description>
 		</sheet>
 	</element>
 
-	<element name="Sorte" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HALFLING_LUCK">
+	<element name="Sorte" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HALFLING_LUCK">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_LUCK</requirements>
 		<description>
-			<p>Quando rolar um 1 no d20 em um Teste de D20, vocÃª pode rolar o dado novamente e deve usar o novo resultado.</p> 
+			<p>Quando rolar um 1 no d20 em um Teste de D20, você pode rolar o dado novamente e deve usar o novo resultado.</p> 
 		</description>
 		<sheet>
-			<description>Quando rolar um 1 no d20 em um Teste de D20, vocÃª pode rolar o dado novamente e deve usar o novo resultado.</description>
+			<description>Quando rolar um 1 no d20 em um Teste de D20, você pode rolar o dado novamente e deve usar o novo resultado.</description>
 		</sheet>
 	</element>
 
-	<element name="Furtividade Natural" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HALFLING_NATURALLY_STEALTHY">
+	<element name="Furtividade Natural" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HALFLING_NATURALLY_STEALTHY">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_NATURALLY_STEALTHY</requirements>
 		<description>
-			<p>VocÃª pode realizar a aÃ§Ã£o de Esconder-se mesmo quando estiver obscurecido apenas por uma criatura que seja pelo menos um tamanho maior que o seu.</p> 
+			<p>Você pode realizar a ação de Esconder-se mesmo quando estiver obscurecido apenas por uma criatura que seja pelo menos um tamanho maior que o seu.</p> 
 		</description>
 		<sheet>
-			<description>VocÃª pode realizar a aÃ§Ã£o de Esconder-se mesmo quando estiver obscurecido apenas por uma criatura que seja pelo menos um tamanho maior que o seu.</description>
+			<description>Você pode realizar a ação de Esconder-se mesmo quando estiver obscurecido apenas por uma criatura que seja pelo menos um tamanho maior que o seu.</description>
 		</sheet>
 	</element>
 
-	<element name="SubstituiÃ§Ã£o de TraÃ§o Bravo" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_BRAVE" />
-	<element name="SubstituiÃ§Ã£o de TraÃ§o Agilidade Halfling" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_HALFLING_NIMBLENESS" />
-	<element name="SubstituiÃ§Ã£o de TraÃ§o Sorte" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_LUCK" />
-	<element name="SubstituiÃ§Ã£o de TraÃ§o Furtividade Natural" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_NATURALLY_STEALTHY" />
+	<element name="Substituição de Traço Bravo" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_BRAVE" />
+	<element name="Substituição de Traço Agilidade Halfling" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_HALFLING_NIMBLENESS" />
+	<element name="Substituição de Traço Sorte" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_LUCK" />
+	<element name="Substituição de Traço Furtividade Natural" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HALFLING_NATURALLY_STEALTHY" />
 
 </elements>

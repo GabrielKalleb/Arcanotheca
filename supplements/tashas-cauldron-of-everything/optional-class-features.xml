@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Optional Class Features</name>
-		<description>The Optional Class Features from Tashaâ€™s Cauldron of Everything</description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tashaâ€™s Cauldron of Everything</author>
+		<description>The Optional Class Features from Tasha’s Cauldron of Everything</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
 		<update version="0.0.9">
 			<file name="optional-class-features.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/tashas-cauldron-of-everything/optional-class-features.xml" />
 		</update>
@@ -11,7 +11,7 @@
 
 	<!-- Barbarian -->
 	<!-- Primal Knowledge -->
-	<element name="Primal Knowledge" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE">
+	<element name="Primal Knowledge" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE">
 		<description>
 			<p><i>3rd-level barbarian feature</i></p>
 			<p>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.</p>
@@ -25,10 +25,10 @@
 		</rules>
 	</element>
 
-	<element name="Barbarian, LV03: Primal Knowledge" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_BARBARIAN_PRIMAL_KNOWLEDGE">
+	<element name="Barbarian, LV03: Primal Knowledge" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_BARBARIAN_PRIMAL_KNOWLEDGE">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE" />
 			</div>
@@ -45,7 +45,7 @@
 	</element>
 
 	<!-- Instinctive Pounce -->
-	<element name="Instinctive Pounce" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE">
+	<element name="Instinctive Pounce" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE">
 		<description>
 			<p><i>7th-level barbarian feature</i></p>
 			<p>As part of the bonus action you take to enter your rage, you can move up to half your speed.</p>
@@ -55,10 +55,10 @@
 		</sheet>
 	</element>
 
-	<element name="Barbarian, LV07: Instinctive Pounce" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_BARBARIAN_INSTINCTIVE_POUNCE">
+	<element name="Barbarian, LV07: Instinctive Pounce" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_BARBARIAN_INSTINCTIVE_POUNCE">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE" />
 			</div>
@@ -76,10 +76,10 @@
 
 	<!-- Bard -->
 	<!-- Additional Bard Spells -->
-	<element name="Additional Bard Spells" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARD_ADDITIONAL_BARD_SPELLS">
+	<element name="Additional Bard Spells" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARD_ADDITIONAL_BARD_SPELLS">
 		<description>
 			<p><i>1st-level bard feature</i></p>
-			<p>The spells in the following list expand the bard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
+			<p>The spells in the following list expand the bard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
 			<table>
 				<thead>
 					<tr><td>Spell Level</td><td>Spells</td></tr>
@@ -96,7 +96,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>The spells in the following list expand the bard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
+			<description>The spells in the following list expand the bard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
 		</sheet>
 		<spellcasting name="Bard" extend="true">
 			<extend>ID_PHB_SPELL_COLOR_SPRAY</extend>
@@ -117,10 +117,10 @@
 		</spellcasting>
 	</element>
 
-	<element name="Bard, LV01: Additional Bard Spells" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_BARD_ADDITIONAL_BARD_SPELLS">
+	<element name="Bard, LV01: Additional Bard Spells" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_BARD_ADDITIONAL_BARD_SPELLS">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_BARD_ADDITIONAL_BARD_SPELLS" />
 			</div>
@@ -137,7 +137,7 @@
 	</element>
 
 	<!-- Magical Inspiration -->
-	<element name="Magical Inspiration" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARD_MAGICAL_INSPIRATION">
+	<element name="Magical Inspiration" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARD_MAGICAL_INSPIRATION">
 		<description>
 			<p><i>2nd-level bard feature</i></p>
 			<p>If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.</p>
@@ -147,10 +147,10 @@
 		</sheet>
 	</element>
 
-	<element name="Bard, LV02: Magical Inspiration" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_BARD_MAGICAL_INSPIRATION">
+	<element name="Bard, LV02: Magical Inspiration" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_BARD_MAGICAL_INSPIRATION">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_BARD_MAGICAL_INSPIRATION" />
 			</div>
@@ -167,7 +167,7 @@
 	</element>
 
 	<!-- Bardic Versatility -->
-	<element name="Bardic Versatility" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARD_BARDIC_VERSATILITY">
+	<element name="Bardic Versatility" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARD_BARDIC_VERSATILITY">
 		<description>
 			<p><i>4th-level bard feature</i></p>
 			<p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</p>
@@ -178,15 +178,15 @@
 		</description>
 		<sheet>
 			<description>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following: &#13;
-			â€¢ Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise. &#13;
-			â€¢ Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.</description>
+			• Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise. &#13;
+			• Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.</description>
 		</sheet>
 	</element>
 
-	<element name="Bard, LV04: Bardic Versatility" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_BARD_BARDIC_VERSATILITY">
+	<element name="Bard, LV04: Bardic Versatility" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_BARD_BARDIC_VERSATILITY">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_BARD_BARDIC_VERSATILITY" />
 			</div>
@@ -204,10 +204,10 @@
 
 	<!-- Cleric -->
 	<!-- Additional Cleric Spells -->
-	<element name="Additional Cleric Spells" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_ADDITIONAL_CLERIC_SPELLS">
+	<element name="Additional Cleric Spells" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_ADDITIONAL_CLERIC_SPELLS">
 		<description>
 			<p><i>1st-level cleric feature</i></p>
-			<p>The spells in the following list expand the cleric spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
+			<p>The spells in the following list expand the cleric spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
 			<table>
 				<thead>
 					<tr><td>Spell Level</td><td>Spells</td></tr>
@@ -221,7 +221,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>The spells in the following list expand the cleric spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
+			<description>The spells in the following list expand the cleric spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
 		</sheet>
 		<spellcasting name="Cleric" extend="true">
 			<extend>ID_PHB_SPELL_AURA_OF_VITALITY</extend>
@@ -235,10 +235,10 @@
 		</spellcasting>
 	</element>
 
-	<element name="Cleric, LV01: Additional Cleric Spells" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_CLERIC_ADDITIONAL_CLERIC_SPELLS">
+	<element name="Cleric, LV01: Additional Cleric Spells" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_CLERIC_ADDITIONAL_CLERIC_SPELLS">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_ADDITIONAL_CLERIC_SPELLS" />
 			</div>
@@ -255,7 +255,7 @@
 	</element>
 
 	<!-- Harness Divine Power -->
-	<element name="Harness Divine Power (Cleric)" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_HARNESS_DIVINE_POWER">
+	<element name="Harness Divine Power (Cleric)" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_HARNESS_DIVINE_POWER">
 		<description>
 			<p><i>2nd-level cleric feature</i></p>
 			<p>You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.</p>
@@ -270,10 +270,10 @@
 		</rules>
 	</element>
 
-	<element name="Cleric, LV02: Harness Divine Power" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_CLERIC_HARNESS_DIVINE_POWER">
+	<element name="Cleric, LV02: Harness Divine Power" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_CLERIC_HARNESS_DIVINE_POWER">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_HARNESS_DIVINE_POWER" />
 			</div>
@@ -290,7 +290,7 @@
 	</element>
 
 	<!-- Cantrip Versatility -->
-	<element name="Cantrip Versatility (Cleric)" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_CANTRIP_VERSATILITY">
+	<element name="Cantrip Versatility (Cleric)" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_CANTRIP_VERSATILITY">
 		<description>
 			<p><i>4th-level cleric feature</i></p>
 			<p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list.</p>
@@ -300,10 +300,10 @@
 		</sheet>
 	</element>
 
-	<element name="Cleric, LV04: Cantrip Versatility" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_CLERIC_CANTRIP_VERSATILITY">
+	<element name="Cleric, LV04: Cantrip Versatility" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_CLERIC_CANTRIP_VERSATILITY">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_CANTRIP_VERSATILITY" />
 			</div>
@@ -320,7 +320,7 @@
 	</element>
 
 	<!-- Blessed Strikes -->
-	<element name="Blessed Strikes" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES">
+	<element name="Blessed Strikes" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES">
 		<description>
 			<p><i>8th-level cleric feature, which replaces the Divine Strike or Potent Spellcasting feature</i></p>
 			<p>You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.</p>
@@ -330,10 +330,10 @@
 		</sheet>
 	</element>
 
-	<element name="Cleric, LV08: Blessed Strikes" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_CLERIC_BLESSED_STRIKES">
+	<element name="Cleric, LV08: Blessed Strikes" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_CLERIC_BLESSED_STRIKES">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" />
 			</div>
@@ -352,10 +352,10 @@
 
 	<!-- Druid -->
 	<!-- Additional Druid Spells -->
-	<element name="Additional Druid Spells" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_ADDITIONAL_DRUID_SPELLS">
+	<element name="Additional Druid Spells" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_ADDITIONAL_DRUID_SPELLS">
 		<description>
 			<p><i>1st-level druid feature</i></p>
-			<p>The spells in the following list expand the druid spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
+			<p>The spells in the following list expand the druid spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
 			<table>
 				<thead>
 					<tr><td>Spell Level</td><td>Spells</td></tr>
@@ -371,7 +371,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>The spells in the following list expand the druid spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
+			<description>The spells in the following list expand the druid spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
 		</sheet>
 		<spellcasting name="Druid" extend="true">
 			<extend>ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD</extend>
@@ -393,10 +393,10 @@
 		</spellcasting>
 	</element>
 
-	<element name="Druid, LV01: Additional Druid Spells" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_DRUID_ADDITIONAL_DRUID_SPELLS">
+	<element name="Druid, LV01: Additional Druid Spells" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_DRUID_ADDITIONAL_DRUID_SPELLS">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_ADDITIONAL_DRUID_SPELLS" />
 			</div>
@@ -413,7 +413,7 @@
 	</element>
 
 	<!-- Wild Companion -->
-	<element name="Wild Companion" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_WILD_COMPANION">
+	<element name="Wild Companion" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_WILD_COMPANION">
 		<description>
 			<p><i>2nd-level druid feature</i></p>
 			<p>You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.</p>
@@ -424,10 +424,10 @@
 		</sheet>
 	</element>
 
-	<element name="Druid, LV02: Wild Companion" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_DRUID_WILD_COMPANION">
+	<element name="Druid, LV02: Wild Companion" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_DRUID_WILD_COMPANION">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_WILD_COMPANION" />
 			</div>
@@ -444,7 +444,7 @@
 	</element>
 
 	<!-- Cantrip Versatility -->
-	<element name="Cantrip Versatility (Druid)" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_CANTRIP_VERSATILITY">
+	<element name="Cantrip Versatility (Druid)" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_CANTRIP_VERSATILITY">
 		<description>
 			<p><i>4th-level druid feature</i></p>
 			<p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</p>
@@ -454,10 +454,10 @@
 		</sheet>
 	</element>
 
-	<element name="Druid, LV04: Cantrip Versatility" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_DRUID_CANTRIP_VERSATILITY">
+	<element name="Druid, LV04: Cantrip Versatility" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_DRUID_CANTRIP_VERSATILITY">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_CANTRIP_VERSATILITY" />
 			</div>
@@ -475,7 +475,7 @@
 
 	<!-- Fighter -->
 	<!-- Martial Versatility -->
-	<element name="Martial Versatility (Fighter)" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTER_MARTIAL_VERSATILITY">
+	<element name="Martial Versatility (Fighter)" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTER_MARTIAL_VERSATILITY">
 		<description>
 			<p><i>4th-level fighter feature</i></p>
 			<p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, as you shift the focus of your martial practice:</p>
@@ -486,15 +486,15 @@
 		</description>
 		<sheet alt="Martial Versatility">
 			<description>Whenever you reach a level in Fighter class that grants the Ability Score Improvement feature, you can do one of the following: &#13;
-			â€¢ Replace a fighting style you know with another fighting style available to fighters. &#13;
-			â€¢ If you know any maneuvers from the Battle Master archetype, you can replace one maneuver you know with a different maneuver.</description>
+			• Replace a fighting style you know with another fighting style available to fighters. &#13;
+			• If you know any maneuvers from the Battle Master archetype, you can replace one maneuver you know with a different maneuver.</description>
 		</sheet>
 	</element>
 
-	<element name="Fighter, LV04: Martial Versatility" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_FIGHTER_MARTIAL_VERSATILITY">
+	<element name="Fighter, LV04: Martial Versatility" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_FIGHTER_MARTIAL_VERSATILITY">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTER_MARTIAL_VERSATILITY" />
 			</div>
@@ -511,40 +511,40 @@
 	</element>
 
 	<!-- Maneuver Options -->
-	<element name="Ambush" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_AMBUSH">
+	<element name="Ambush" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_AMBUSH">
 		<requirements>!ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_AMBUSH</requirements>
 		<supports>Maneuver, Battle Master</supports>
 		<description>
-			<p>When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you arenâ€™t incapacitated.</p>
+			<p>When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren’t incapacitated.</p>
 		</description>
 		<sheet>
-			<description>When you make a Stealth check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you arenâ€™t incapacitated.</description>
+			<description>When you make a Stealth check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren’t incapacitated.</description>
 		</sheet>
 	</element>
 
-	<element name="Bait and Switch" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_BAIT_AND_SWITCH">
+	<element name="Bait and Switch" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_BAIT_AND_SWITCH">
 		<requirements>!ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_BAIT_AND_SWITCH</requirements>
 		<supports>Maneuver, Battle Master</supports>
 		<description>
-			<p>When youâ€™re within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isnâ€™t incapacitated. This movement doesnâ€™t provoke opportunity attacks.</p>
+			<p>When you’re within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn’t incapacitated. This movement doesn’t provoke opportunity attacks.</p>
 			<p class="indent">Roll the superiority die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>
 		</description>
 		<sheet>
-			<description>When youâ€™re within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isnâ€™t incapacitated. This movement doesnâ€™t provoke opportunity attacks. Roll the superiority die. Until the start of your next turn, you or the other creature gains a bonus to AC equal to the number rolled.</description>
+			<description>When you’re within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn’t incapacitated. This movement doesn’t provoke opportunity attacks. Roll the superiority die. Until the start of your next turn, you or the other creature gains a bonus to AC equal to the number rolled.</description>
 		</sheet>
 	</element>
 
-	<element name="Brace" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_BRACE">
+	<element name="Brace" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_BRACE">
 		<supports>Maneuver, Battle Master</supports>
 		<description>
-			<p>When a creature you can see moves into the reach you have with the melee weapon youâ€™re wielding, you can use your reaction to expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weaponâ€™s damage roll.</p>
+			<p>When a creature you can see moves into the reach you have with the melee weapon you’re wielding, you can use your reaction to expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weapon’s damage roll.</p>
 		</description>
 		<sheet action="Reaction">
-			<description>When a creature you can see moves into the reach you have with the melee weapon youâ€™re wielding, you can expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weaponâ€™s damage roll.</description>
+			<description>When a creature you can see moves into the reach you have with the melee weapon you’re wielding, you can expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weapon’s damage roll.</description>
 		</sheet>
 	</element>
 
-	<element name="Commanding Presence" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_COMMANDING_PRESENCE">
+	<element name="Commanding Presence" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_COMMANDING_PRESENCE">
 		<requirements>!ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_COMMANDING_PRESENCE</requirements>
 		<supports>Maneuver, Battle Master</supports>
 		<description>
@@ -555,17 +555,17 @@
 		</sheet>
 	</element>
 
-	<element name="Grappling Strike" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_GRAPPLING_STRIKE">
+	<element name="Grappling Strike" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_GRAPPLING_STRIKE">
 		<supports>Maneuver, Battle Master</supports>
 		<description>
-			<p>Immediately after you hit a creature with a melee attack on your turn, you can expend one superiority die and then try to grapple the target as a bonus action (see the Playerâ€™s Handbook for rules on grappling). Add the superiority die to your Strength (Athletics) check.</p>
+			<p>Immediately after you hit a creature with a melee attack on your turn, you can expend one superiority die and then try to grapple the target as a bonus action (see the Player’s Handbook for rules on grappling). Add the superiority die to your Strength (Athletics) check.</p>
 		</description>
 		<sheet action="Bonus Action">
 			<description>Immediately after you hit a creature with a melee attack on your turn, you can expend one superiority die and then try to grapple the target. Add the superiority die to your Athletics check.</description>
 		</sheet>
 	</element>
 
-	<element name="Tactical Assessment" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_TACTICAL_ASSESSMENT">
+	<element name="Tactical Assessment" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_TACTICAL_ASSESSMENT">
 		<requirements>!ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_TACTICAL_ASSESSMENT</requirements>
 		<supports>Maneuver, Battle Master</supports>
 		<description>
@@ -576,19 +576,19 @@
 		</sheet>
 	</element>
 
-	<element name="Quick Toss" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_QUICK_TOSS">
+	<element name="Quick Toss" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_QUICK_TOSS">
 		<supports>Maneuver, Battle Master</supports>
 		<description>
-			<p>As a bonus action, you can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weaponâ€™s damage roll.</p>
+			<p>As a bonus action, you can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weapon’s damage roll.</p>
 		</description>
 		<sheet action="Bonus Action">
-			<description>You can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weaponâ€™s damage roll.</description>
+			<description>You can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weapon’s damage roll.</description>
 		</sheet>
 	</element>
 
 	<!-- Monk -->
 	<!-- Dedicated Weapon -->
-	<element name="Dedicated Weapon" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_DEDICATED_WEAPON">
+	<element name="Dedicated Weapon" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_DEDICATED_WEAPON">
 		<description>
 			<p><i>2nd-level monk feature</i></p>
 			<p>You train yourself to use a variety of weapons as monk weapons, not just simple melee weapons and shortswords. Whenever you finish a short or long rest, you can touch one weapon, focus your ki on it, and then count that weapon as a monk weapon until you use this feature again.</p>
@@ -601,16 +601,16 @@
 		</description>
 		<sheet>
 			<description>Whenever you finish a short or long rest, you can touch one weapon, focus your ki on it, and then count that weapon as a monk weapon until you use this feature again. The chosen weapon must meet these criteria: &#13;
-			â€¢ The weapon must be a simple or martial weapon. &#13;
-			â€¢ You must be proficient with it.&#13;
-			â€¢ It must lack the heavy and special properties.</description> 
+			• The weapon must be a simple or martial weapon. &#13;
+			• You must be proficient with it.&#13;
+			• It must lack the heavy and special properties.</description> 
 		</sheet>
 	</element>
 
-	<element name="Monk, LV02: Dedicated Weapon" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_MONK_DEDICATED_WEAPON">
+	<element name="Monk, LV02: Dedicated Weapon" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_MONK_DEDICATED_WEAPON">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_MONK_DEDICATED_WEAPON" />
 			</div>
@@ -627,7 +627,7 @@
 	</element>
 
 	<!-- Ki-Fueled Attack -->
-	<element name="Ki-Fueled Attack" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_KI_FUELED_ATTACK">
+	<element name="Ki-Fueled Attack" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_KI_FUELED_ATTACK">
 		<description>
 			<p><i>3rd-level monk feature</i></p>
 			<p>If you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn.</p>
@@ -637,10 +637,10 @@
 		</sheet>
 	</element>
 
-	<element name="Monk, LV03: Ki-Fueled Attack" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_MONK_KI_FUELED_ATTACK">
+	<element name="Monk, LV03: Ki-Fueled Attack" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_MONK_KI_FUELED_ATTACK">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_MONK_KI_FUELED_ATTACK" />
 			</div>
@@ -657,7 +657,7 @@
 	</element>
 
 	<!-- Quickened Healing -->
-	<element name="Quickened Healing" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_QUICKENED_HEALING">
+	<element name="Quickened Healing" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_QUICKENED_HEALING">
 		<description>
 			<p><i>4th-level monk feature</i></p>
 			<p>As an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus your proficiency bonus.</p>
@@ -667,10 +667,10 @@
 		</sheet>
 	</element>
 
-	<element name="Monk, LV04: Quickened Healing" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_MONK_QUICKENED_HEALING">
+	<element name="Monk, LV04: Quickened Healing" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_MONK_QUICKENED_HEALING">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_MONK_QUICKENED_HEALING" />
 			</div>
@@ -687,7 +687,7 @@
 	</element>
 
 	<!-- Focused Aim -->
-	<element name="Focused Aim" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_FOCUSED_AIM">
+	<element name="Focused Aim" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_FOCUSED_AIM">
 		<description>
 			<p><i>5th-level monk feature</i></p>
 			<p>When you miss with an attack roll, you can spend 1 to 3 ki points to increase your attack roll by 2 for each of these ki points you spend, potentially turning the miss into a hit.</p>
@@ -697,10 +697,10 @@
 		</sheet>
 	</element>
 
-	<element name="Monk, LV05: Focused Aim" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_MONK_FOCUSED_AIM">
+	<element name="Monk, LV05: Focused Aim" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_MONK_FOCUSED_AIM">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_MONK_FOCUSED_AIM" />
 			</div>
@@ -718,10 +718,10 @@
 
 	<!-- Paladin -->
 	<!-- Additional Paladin Spells -->
-	<element name="Additional Paladin Spells" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_ADDITIONAL_PALADIN_SPELLS">
+	<element name="Additional Paladin Spells" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_ADDITIONAL_PALADIN_SPELLS">
 		<description>
 			<p><i>2nd-level paladin feature</i></p>
-			<p>The spells in the following list expand the paladin spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
+			<p>The spells in the following list expand the paladin spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
 			<table>
 				<thead>
 					<tr><td>Spell Level</td><td>Spells</td></tr>
@@ -732,7 +732,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>The spells in the following list expand the paladin spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
+			<description>The spells in the following list expand the paladin spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
 		</sheet>
 		<spellcasting name="Paladin" extend="true">
 			<extend>ID_PHB_SPELL_GENTLE_REPOSE</extend>
@@ -743,10 +743,10 @@
 		</spellcasting>
 	</element>
 
-	<element name="Paladin, LV02: Additional Paladin Spells" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_PALADIN_ADDITIONAL_PALADIN_SPELLS">
+	<element name="Paladin, LV02: Additional Paladin Spells" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_PALADIN_ADDITIONAL_PALADIN_SPELLS">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_ADDITIONAL_PALADIN_SPELLS" />
 			</div>
@@ -763,7 +763,7 @@
 	</element>
 
 	<!-- Harness Divine Power -->
-	<element name="Harness Divine Power (Paladin)" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_HARNESS_DIVINE_POWER">
+	<element name="Harness Divine Power (Paladin)" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_HARNESS_DIVINE_POWER">
 		<description>
 			<p><i>3rd-level paladin feature</i></p>
 			<p>You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 3rd level, once; 7th level, twice; and 15th level, thrice. You regain all expended uses when you finish a long rest.</p>
@@ -778,10 +778,10 @@
 		</rules>
 	</element>
 
-	<element name="Paladin, LV03: Harness Divine Power" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_PALADIN_HARNESS_DIVINE_POWER">
+	<element name="Paladin, LV03: Harness Divine Power" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_PALADIN_HARNESS_DIVINE_POWER">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_HARNESS_DIVINE_POWER" />
 			</div>
@@ -798,7 +798,7 @@
 	</element>
 
 	<!-- Martial Versatility -->
-	<element name="Martial Versatility (Paladin)" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_MARTIAL_VERSATILITY">
+	<element name="Martial Versatility (Paladin)" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_MARTIAL_VERSATILITY">
 		<description>
 			<p><i>4th-level ranger feature</i></p>
 			<p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.</p>
@@ -808,10 +808,10 @@
 		</sheet>
 	</element>
 
-	<element name="Paladin, LV04: Martial Versatility" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_PALADIN_MARTIAL_VERSATILITY">
+	<element name="Paladin, LV04: Martial Versatility" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_PALADIN_MARTIAL_VERSATILITY">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_PALADIN_MARTIAL_VERSATILITY" />
 			</div>
@@ -829,7 +829,7 @@
 
 	<!-- Ranger -->
 	<!-- Deft Explorer -->
-	<element name="Deft Explorer" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER">
+	<element name="Deft Explorer" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER">
 		<description>
 			<p><i>1st-level ranger feature, which replaces the Natural Explorer feature</i></p>
 			<p>You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below when you reach 6th level and 10th level in this class.</p>
@@ -852,10 +852,10 @@
 		</rules>
 	</element>
 
-	<element name="Ranger, LV01: Deft Explorer" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_DEFT_EXPLORER">
+	<element name="Ranger, LV01: Deft Explorer" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_DEFT_EXPLORER">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER" />
 			</div>
@@ -872,7 +872,7 @@
 		</rules>
 	</element>
 
-	<element name="Canny" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_CANNY">
+	<element name="Canny" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_CANNY">
 		<description>
 			<p>Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.</p>
 			<p class="indent">You can also speak, read, and write two additional languages of your choice.</p>
@@ -886,7 +886,7 @@
 		</rules>
 	</element>
 
-	<element name="Roving" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_ROVING">
+	<element name="Roving" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_ROVING">
 		<description>
 			<p>Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.</p>
 		</description>
@@ -900,7 +900,7 @@
 		</rules>
 	</element>
 
-	<element name="Tireless" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_TIRELESS">
+	<element name="Tireless" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_DEFT_EXPLORER_TIRELESS">
 		<description>
 			<p>As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 			<p class="indent">In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</p>
@@ -915,7 +915,7 @@
 	</element>
 	
 	<!-- Favored Foe -->
-	<element name="Favored Foe" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_FAVORED_FOE">
+	<element name="Favored Foe" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_FAVORED_FOE">
 		<description>
 			<p><i>1st-level ranger feature, which replaces the Favored Enemy feature and works with the Foe Slayer feature</i></p>
 			<p>When you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell).</p>
@@ -930,10 +930,10 @@
 		</sheet>
 	</element>
 
-	<element name="Ranger, LV01: Favored Foe" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_FAVORED_FOE">
+	<element name="Ranger, LV01: Favored Foe" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_FAVORED_FOE">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_FAVORED_FOE" />
 			</div>
@@ -951,10 +951,10 @@
 	</element>
 
 	<!-- Additional Ranger Spells -->
-	<element name="Additional Ranger Spells" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_ADDITIONAL_RANGER_SPELLS">
+	<element name="Additional Ranger Spells" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_ADDITIONAL_RANGER_SPELLS">
 		<description>
 			<p><i>2nd-level ranger feature</i></p>
-			<p>The spells in the following list expand the ranger spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
+			<p>The spells in the following list expand the ranger spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
 			<table>
 				<thead>
 					<tr><td>Spell Level</td><td>Spells</td></tr>
@@ -967,7 +967,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>The spells in the following list expand the ranger spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
+			<description>The spells in the following list expand the ranger spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
 		</sheet>
 		<spellcasting name="Ranger" extend="true">
 			<extend>ID_PHB_SPELL_ENTANGLE</extend>
@@ -987,10 +987,10 @@
 		</spellcasting>
 	</element>
 
-	<element name="Ranger, LV02: Additional Ranger Spells" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_ADDITIONAL_RANGER_SPELLS">
+	<element name="Ranger, LV02: Additional Ranger Spells" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_ADDITIONAL_RANGER_SPELLS">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_ADDITIONAL_RANGER_SPELLS" />
 			</div>
@@ -1007,7 +1007,7 @@
 	</element>
 
 	<!-- Spellcasting Focus -->
-	<element name="Spellcasting Focus (Ranger)" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_SPELLCASTING_FOCUS">
+	<element name="Spellcasting Focus (Ranger)" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_SPELLCASTING_FOCUS">
 		<description>
 			<p><i>2nd-level ranger feature</i></p>
 			<p>You can use a druidic focus as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.</p>
@@ -1017,10 +1017,10 @@
 		</sheet>
 	</element>
 
-	<element name="Ranger, LV02: Spellcasting Focus" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_SPELLCASTING_FOCUS">
+	<element name="Ranger, LV02: Spellcasting Focus" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_SPELLCASTING_FOCUS">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_SPELLCASTING_FOCUS" />
 			</div>
@@ -1037,7 +1037,7 @@
 	</element>
 
 	<!-- Primal Awareness -->
-	<element name="Primal Awareness" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_AWARENESS">
+	<element name="Primal Awareness" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_AWARENESS">
 		<description>
 			<p><i>3rd-level ranger feature, which replaces the Primeval Awareness feature</i></p>
 			<p>You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.</p>
@@ -1065,10 +1065,10 @@
 		</rules>
 	</element>
 
-	<element name="Ranger, LV03: Primal Awareness" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_AWARENESS">
+	<element name="Ranger, LV03: Primal Awareness" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_AWARENESS">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_AWARENESS" />
 			</div>
@@ -1086,7 +1086,7 @@
 	</element>
 
 	<!-- Martial Versatility -->
-	<element name="Martial Versatility (Ranger)" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_MARTIAL_VERSATILITY">
+	<element name="Martial Versatility (Ranger)" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_MARTIAL_VERSATILITY">
 		<description>
 			<p><i>4th-level ranger feature</i></p>
 			<p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</p>
@@ -1096,10 +1096,10 @@
 		</sheet>
 	</element>
 
-	<element name="Ranger, LV04: Martial Versatility" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_MARTIAL_VERSATILITY">
+	<element name="Ranger, LV04: Martial Versatility" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_MARTIAL_VERSATILITY">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_MARTIAL_VERSATILITY" />
 			</div>
@@ -1116,7 +1116,7 @@
 	</element>
 
 	<!-- Nature's Veil -->
-	<element name="Nature's Veil" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_NATURES_VEIL">
+	<element name="Nature's Veil" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_NATURES_VEIL">
 		<description>
 			<p><i>10th-level ranger feature, which replaces the Hide in Plain Sight feature</i></p>
 			<p>You draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.</p>
@@ -1127,10 +1127,10 @@
 		</sheet>
 	</element>
 
-	<element name="Ranger, LV10: Nature's Veil" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_NATURES_VEIL">
+	<element name="Ranger, LV10: Nature's Veil" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_NATURES_VEIL">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_NATURES_VEIL" />
 			</div>
@@ -1148,16 +1148,16 @@
 	</element>
 
 	<!-- Beast Master Companions: Primal Companion -->
-	<element name="Primal Companion" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION">
+	<element name="Primal Companion" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION">
 		<description>
 			<p><i>3rd-level Beast Master feature, which replaces the Ranger's Companion feature</i></p>
-			<p>You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block â€” Beast of the Land, Beast of the Sea, or Beast of the Sky â€” which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.</p>
+			<p>You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block — Beast of the Land, Beast of the Sea, or Beast of the Sky — which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.</p>
 			<p class="indent">In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge.</p>
 			<p class="indent">If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.</p>
 			<p class="indent">When you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die.</p>
 		</description>
 		<sheet>
-			<description>You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block â€” Beast of the Land, Beast of the Sea, or Beast of the Sky â€” which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. &#13;
+			<description>You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block — Beast of the Land, Beast of the Sea, or Beast of the Sky — which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. &#13;
 			In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge. &#13;
 			If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored. &#13;
 			When you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die.</description>
@@ -1167,10 +1167,10 @@
 		</rules>
 	</element>
 
-	<element name="Ranger, LV03: Primal Companion" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION">
+	<element name="Ranger, LV03: Primal Companion" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION" />
 			</div>
@@ -1188,7 +1188,7 @@
 	</element>
 
 	<!-- Beast Master Companions -->
-	<element name="Beast of the Land" type="Companion" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND">
+	<element name="Beast of the Land" type="Companion" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND">
 		<requirements>ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION</requirements>
 		<setters>
 			<set name="size">Medium</set>
@@ -1205,7 +1205,7 @@
 			<set name="charisma">11</set>
 			<set name="senses">darkvision 60 ft., passive Perception 12</set>
 			<set name="languages">understands the languages you speak</set>
-			<set name="challenge">â€”</set>
+			<set name="challenge">—</set>
 			<set name="traits">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_CHARGE, ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND</set>
 			<set name="actions">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_MAUL></set>
 		</setters>
@@ -1226,7 +1226,7 @@
 		</rules>
 	</element>
 
-	<element name="Charge" type="Companion Trait" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_CHARGE">
+	<element name="Charge" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_CHARGE">
 		<description>
 			<p>If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.</p>
 		</description>
@@ -1234,7 +1234,7 @@
 			<description>If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.</description>
 		</sheet>
 	</element>
-	<element name="Primal Bond" type="Companion Trait" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND">
+	<element name="Primal Bond" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND">
 		<description>
 			<p>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</p>
 		</description>
@@ -1268,7 +1268,7 @@
 			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Maul" type="Companion Action" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_MAUL>">
+	<element name="Maul" type="Companion Action" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_MAUL>">
 		<description>
 			<p><i>Melee Weapon Attack:</i> your spell attack modifier to hit, reach 5 ft., one target. <i>Hit:</i> 1d8+2+PB slashing damage.</p>
 		</description>
@@ -1277,7 +1277,7 @@
 		</sheet>
 	</element>
 
-	<element name="Beast of the Sea" type="Companion" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA">
+	<element name="Beast of the Sea" type="Companion" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA">
 		<requirements>ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION</requirements>
 		<setters>
 			<set name="size">Medium</set>
@@ -1294,7 +1294,7 @@
 			<set name="charisma">11</set>
 			<set name="senses">darkvision 60 ft., passive Perception 12</set>
 			<set name="languages">understands the languages you speak</set>
-			<set name="challenge">â€”</set>
+			<set name="challenge">—</set>
 			<set name="traits">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_AMPHIBIOUS, ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND</set>
 			<set name="actions">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_BINDING_STRIKE></set>
 		</setters>
@@ -1315,7 +1315,7 @@
 		</rules>
 	</element>
 
-	<element name="Amphibious" type="Companion Trait" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_AMPHIBIOUS">
+	<element name="Amphibious" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_AMPHIBIOUS">
 		<description>
 			<p>The beast can breathe both air and water.</p>
 		</description>
@@ -1323,7 +1323,7 @@
 			<description>The beast can breathe both air and water.</description>
 		</sheet>
 	</element>
-	<element name="Primal Bond" type="Companion Trait" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND">
+	<element name="Primal Bond" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND">
 		<description>
 			<p>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</p>
 		</description>
@@ -1357,7 +1357,7 @@
 			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Binding Strike" type="Companion Action" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_BINDING_STRIKE>">
+	<element name="Binding Strike" type="Companion Action" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_BINDING_STRIKE>">
 		<description>
 			<p><i>Melee Weapon Attack:</i> your spell attack modifier to hit, reach 5 ft., one target. <i>Hit:</i> 1d6+2+PB piercing or bludgeoning damage (your choice), and the target is grappled (escape DC equals your spell save DC). Until this grapple ends, the beast can't use this attack on another target.</p>
 		</description>
@@ -1366,7 +1366,7 @@
 		</sheet>
 	</element>
 
-	<element name="Beast of the Sky" type="Companion" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY">
+	<element name="Beast of the Sky" type="Companion" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY">
 		<requirements>ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION</requirements>
 		<setters>
 			<set name="size">Small</set>
@@ -1383,7 +1383,7 @@
 			<set name="charisma">11</set>
 			<set name="senses">darkvision 60 ft., passive Perception 12</set>
 			<set name="languages">understands the languages you speak</set>
-			<set name="challenge">â€”</set>
+			<set name="challenge">—</set>
 			<set name="traits">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_FLYBY, ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND</set>
 			<set name="actions">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_SHRED></set>
 		</setters>
@@ -1403,7 +1403,7 @@
 		</rules>
 	</element>
 
-	<element name="Flyby" type="Companion Trait" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_FLYBY">
+	<element name="Flyby" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_FLYBY">
 		<description>
 			<p>The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>
 		</description>
@@ -1411,7 +1411,7 @@
 			<description>The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.</description>
 		</sheet>
 	</element>
-	<element name="Primal Bond" type="Companion Trait" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND">
+	<element name="Primal Bond" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND">
 		<description>
 			<p>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</p>
 		</description>
@@ -1445,7 +1445,7 @@
 			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Shred" type="Companion Action" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_SHRED>">
+	<element name="Shred" type="Companion Action" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_SHRED>">
 		<description>
 			<p><i>Melee Weapon Attack:</i> your spell attack modifier to hit, reach 5 ft., one target. <i>Hit:</i> 1d4+3+PB slashing damage</p>
 		</description>
@@ -1456,7 +1456,7 @@
 
 	<!-- Rogue -->
 	<!-- Steady Aim -->
-	<element name="Steady Aim" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ROGUE_STEADY_AIM">
+	<element name="Steady Aim" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ROGUE_STEADY_AIM">
 		<description>
 			<p><i>3rd-level rogue feature</i></p>
 			<p>As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.</p>
@@ -1466,10 +1466,10 @@
 		</sheet>
 	</element>
 
-	<element name="Rogue, LV03: Steady Aim" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_ROGUE_STEADY_AIM">
+	<element name="Rogue, LV03: Steady Aim" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_ROGUE_STEADY_AIM">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_ROGUE_STEADY_AIM" />
 			</div>
@@ -1487,10 +1487,10 @@
 
 	<!-- Sorcerer -->
 	<!-- Additional Sorcerer Spells -->
-	<element name="Additional Sorcerer Spells" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_ADDITIONAL_SORCERER_SPELLS">
+	<element name="Additional Sorcerer Spells" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_ADDITIONAL_SORCERER_SPELLS">
 		<description>
 			<p><i>1st-level sorcerer feature</i></p>
-			<p>The spells in the following list expand the sorcerer spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
+			<p>The spells in the following list expand the sorcerer spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
 			<table>
 				<thead>
 					<tr><td>Spell Level</td><td>Spells</td></tr>
@@ -1508,7 +1508,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>The spells in the following list expand the sorcerer spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
+			<description>The spells in the following list expand the sorcerer spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
 		</sheet>
 		<spellcasting name="Sorcerer" extend="true">
 			<extend>ID_WOTC_TCOE_SPELL_BOOMING_BLADE</extend>
@@ -1535,10 +1535,10 @@
 		</spellcasting>
 	</element>
 
-	<element name="Sorcerer, LV01: Additional Sorcerer Spells" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_SORCERER_ADDITIONAL_SORCERER_SPELLS">
+	<element name="Sorcerer, LV01: Additional Sorcerer Spells" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_SORCERER_ADDITIONAL_SORCERER_SPELLS">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_ADDITIONAL_SORCERER_SPELLS" />
 			</div>
@@ -1555,7 +1555,7 @@
 	</element>
 
 	<!-- Metamagic Options -->
-	<element name="Seeking Spell" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_METAMAGIC_SEEKING_SPELL">
+	<element name="Seeking Spell" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_METAMAGIC_SEEKING_SPELL">
 		<supports>Metamagic</supports>
 		<requirements>!ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_SEEKING_SPELL</requirements>
 		<description>
@@ -1568,7 +1568,7 @@
 		</sheet>
 	</element>
 
-	<element name="Transmuted Spell" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_METAMAGIC_TRANSMUTED_SPELL">
+	<element name="Transmuted Spell" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_METAMAGIC_TRANSMUTED_SPELL">
 		<supports>Metamagic</supports>
 		<requirements>!ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_TRANSMUTED_SPELL</requirements>
 		<description>
@@ -1580,7 +1580,7 @@
 	</element>
 
 	<!-- Sorcerous Versatility -->
-	<element name="Sorcerous Versatility" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_SORCEROUS_VERSATILITY">
+	<element name="Sorcerous Versatility" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_SORCEROUS_VERSATILITY">
 		<description>
 			<p><i>4th-level sorcerer feature</i></p>
 			<p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</p>
@@ -1591,15 +1591,15 @@
 		</description>
 		<sheet>
 			<description>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following: &#13;
-			â€¢ Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you. &#13;
-			â€¢ Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</description>
+			• Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you. &#13;
+			• Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</description>
 		</sheet>
 	</element>
 
-	<element name="Sorcerer, LV04: Sorcerous Versatility" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_SORCERER_SORCEROUS_VERSATILITY">
+	<element name="Sorcerer, LV04: Sorcerous Versatility" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_SORCERER_SORCEROUS_VERSATILITY">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_SORCEROUS_VERSATILITY" />
 			</div>
@@ -1616,7 +1616,7 @@
 	</element>
 
 	<!-- Magical Guidance -->
-	<element name="Magical Guidance" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_MAGICAL_GUIDANCE">
+	<element name="Magical Guidance" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_MAGICAL_GUIDANCE">
 		<description>
 			<p><i>5th-level sorcerer feature</i></p>
 			<p>You can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.</p>
@@ -1626,10 +1626,10 @@
 		</sheet>
 	</element>
 
-	<element name="Sorcerer, LV05: Magical Guidance" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_SORCERER_MAGICAL_GUIDANCE">
+	<element name="Sorcerer, LV05: Magical Guidance" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_SORCERER_MAGICAL_GUIDANCE">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_SORCERER_MAGICAL_GUIDANCE" />
 			</div>
@@ -1647,10 +1647,10 @@
 
 	<!-- Warlock -->
 	<!-- Additional Warlock Spells -->
-	<element name="Additional Warlock Spells" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ADDITIONAL_WARLOCK_SPELLS">
+	<element name="Additional Warlock Spells" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ADDITIONAL_WARLOCK_SPELLS">
 		<description>
 			<p><i>1st-level warlock feature</i></p>
-			<p>The spells in the following list expand the warlock spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
+			<p>The spells in the following list expand the warlock spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
 			<table>
 				<thead>
 					<tr><td>Spell Level</td><td>Spells</td></tr>
@@ -1665,7 +1665,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>The spells in the following list expand the warlock spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
+			<description>The spells in the following list expand the warlock spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
 		</sheet>
 		<spellcasting name="Warlock" extend="true">
 			<extend>ID_WOTC_TCOE_SPELL_BOOMING_BLADE</extend>
@@ -1691,10 +1691,10 @@
 		</spellcasting>
 	</element>
 
-	<element name="Warlock, LV01: Additional Warlock Spells" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_WARLOCK_ADDITIONAL_WARLOCK_SPELLS">
+	<element name="Warlock, LV01: Additional Warlock Spells" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_WARLOCK_ADDITIONAL_WARLOCK_SPELLS">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ADDITIONAL_WARLOCK_SPELLS" />
 			</div>
@@ -1711,7 +1711,7 @@
 	</element>
 
 	<!-- Eldritch Versatility -->
-	<element name="Eldritch Versatility" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ELDRITCH_VERSATILITY">
+	<element name="Eldritch Versatility" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ELDRITCH_VERSATILITY">
 		<description>
 			<p><i>4th-level warlock feature</i></p>
 			<p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:</p>
@@ -1724,17 +1724,17 @@
 		</description>
 		<sheet>
 			<description>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following: &#13;
-			â€¢ Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list. &#13;
-			â€¢ Replace the option you chose for the Pact Boon feature with one of that feature's other options. &#13;
-			â€¢ If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level. &#13;
+			• Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list. &#13;
+			• Replace the option you chose for the Pact Boon feature with one of that feature's other options. &#13;
+			• If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level. &#13;
 			If this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify.</description>
 		</sheet>
 	</element>
 
-	<element name="Warlock, LV04: Eldritch Versatility" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_WARLOCK_ELDRITCH_VERSATILITY">
+	<element name="Warlock, LV04: Eldritch Versatility" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_WARLOCK_ELDRITCH_VERSATILITY">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_ELDRITCH_VERSATILITY" />
 			</div>
@@ -1752,10 +1752,10 @@
 
 	<!-- Wizard -->
 	<!-- Additional Wizard Spells -->
-	<element name="Additional Wizard Spells" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_ADDITIONAL_WIZARD_SPELLS">
+	<element name="Additional Wizard Spells" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_ADDITIONAL_WIZARD_SPELLS">
 		<description>
 			<p><i>1st-level wizard feature</i></p>
-			<p>The spells in the following list expand the wizard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. A spell's school of magic is noted, and if a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
+			<p>The spells in the following list expand the wizard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. A spell's school of magic is noted, and if a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</p>
 			<table>
 				<thead>
 					<tr><td>Spell Level</td><td>Spells</td></tr>
@@ -1771,7 +1771,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>The spells in the following list expand the wizard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. A spell's school of magic is noted, and if a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tashaâ€™s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
+			<description>The spells in the following list expand the wizard spell list in the <i>Player's Handbook</i>. The list is organized by spell level, not character level. A spell's school of magic is noted, and if a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the <i>Player's Handbook</i>, unless it has an asterisk (a spell in chapter 3 of <i>Tasha’s Cauldron of Everything</i>). <i>Xanathar's Guide to Everything</i> also offers more spells.</description>
 		</sheet>
 		<spellcasting name="Wizard" extend="true">
 			<extend>ID_WOTC_TCOE_SPELL_BOOMING_BLADE</extend>
@@ -1800,10 +1800,10 @@
 		</spellcasting>
 	</element>
 
-	<element name="Wizard, LV01: Additional Wizard Spells" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_WIZARD_ADDITIONAL_WIZARD_SPELLS">
+	<element name="Wizard, LV01: Additional Wizard Spells" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_WIZARD_ADDITIONAL_WIZARD_SPELLS">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_ADDITIONAL_WIZARD_SPELLS" />
 			</div>
@@ -1820,7 +1820,7 @@
 	</element>
 
 	<!-- Cantrip Formulas -->
-	<element name="Cantrip Formulas" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_CANTRIP_FORMULAS">
+	<element name="Cantrip Formulas" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_CANTRIP_FORMULAS">
 		<description>
 			<p><i>3rd-level wizard feature</i></p>
 			<p>You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.</p>
@@ -1830,10 +1830,10 @@
 		</sheet>
 	</element>
 
-	<element name="Wizard, LV03: Cantrip Formulas" type="Item" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_WIZARD_CANTRIP_FORMULAS">
+	<element name="Wizard, LV03: Cantrip Formulas" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_WIZARD_CANTRIP_FORMULAS">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to â€œenableâ€ it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
 			<div class="reference">
 				<div element="ID_WOTC_TCOE_CLASS_FEATURE_WIZARD_CANTRIP_FORMULAS" />
 			</div>
@@ -1850,7 +1850,7 @@
 	</element>
 
 	<!-- Fighting Styles -->
-	<element name="Blessed Warrior" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_BLESSED_WARRIOR">
+	<element name="Blessed Warrior" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_BLESSED_WARRIOR">
 		<supports>Fighting Style, Paladin</supports>
 		<description>
 			<p>You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.</p>
@@ -1863,14 +1863,14 @@
 		</rules>
 	</element>
 
-	<element name="Blind Fighting" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_BLIND_FIGHTING">
+	<element name="Blind Fighting" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_BLIND_FIGHTING">
 		<requirements>!ID_WOTC_PHB24_FEAT_BLIND_FIGHTING</requirements>
 		<supports>Fighting Style, Fighter, Paladin, Ranger</supports>
 		<description>
-			<p>You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isnâ€™t behind total cover, even if youâ€™re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</p>
+			<p>You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</p>
 		</description>
 		<sheet>
-			<description>You have blindsight with a range of {{blindsight:range}} feet. Within that range, you can effectively see anything that isnâ€™t behind total cover, even if youâ€™re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</description>
+			<description>You have blindsight with a range of {{blindsight:range}} feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</description>
 		</sheet>
 		<rules>
 			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
@@ -1878,7 +1878,7 @@
 		</rules>
 	</element>
 
-	<element name="Druidic Warrior" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_DRUIDIC_WARRIOR">
+	<element name="Druidic Warrior" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_DRUIDIC_WARRIOR">
 		<supports>Fighting Style, Ranger</supports>
 		<description>
 			<p>You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list.</p>
@@ -1891,7 +1891,7 @@
 		</rules>
 	</element>
 
-	<element name="Interception" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_INTERCEPTION">
+	<element name="Interception" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_INTERCEPTION">
 		<requirements>!ID_WOTC_PHB24_FEAT_INTERCEPTION</requirements>
 		<supports>Fighting Style, Fighter, Paladin</supports>
 		<description>
@@ -1902,10 +1902,10 @@
 		</sheet>
 	</element>
 
-	<element name="Superior Technique" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_SUPERIOR_TECHNIQUE">
+	<element name="Superior Technique" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_SUPERIOR_TECHNIQUE">
 		<supports>Fighting Style, Fighter</supports>
 		<description>
-			<p>You can learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuverâ€™s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).</p>
+			<p>You can learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).</p>
 			<p class="indent">You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.</p>
 		</description>
 		<sheet display="false" />
@@ -1921,20 +1921,20 @@
 		</rules>
 	</element>
 
-	<element name="Maneuver Select" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_SUPERIOR_TECHNIQUE_MANEUVER_SELECT">
+	<element name="Maneuver Select" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_SUPERIOR_TECHNIQUE_MANEUVER_SELECT">
 		<compendium display="false" />
 		<description>
-			<p>If a maneuver you use requires your target to make a saving throw to resist the maneuverâ€™s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).</p>
+			<p>If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).</p>
 		</description>
 		<sheet alt="Superior Technique" usage="1d{{superior technique:size}}/Short Rest">
-			<description>If a maneuver you use requires your target to make a saving throw to resist the maneuverâ€™s effects, the saving throw DC equals {{superior technique:dc}}.</description>
+			<description>If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals {{superior technique:dc}}.</description>
 		</sheet>
 		<rules>
 			<select type="Archetype Feature" name="Maneuver, Superior Technique" supports="Maneuver,Battle Master" />
 		</rules>
 	</element>
 
-	<element name="Thrown Weapon Fighting" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_THROWN_WEAPON_FIGHTING">
+	<element name="Thrown Weapon Fighting" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_THROWN_WEAPON_FIGHTING">
 		<requirements>!ID_WOTC_PHB24_FEAT_THROWN_WEAPON_FIGHTING</requirements>
 		<supports>Fighting Style, Fighter, Ranger</supports>
 		<description>
@@ -1947,11 +1947,11 @@
 		</sheet>
 	</element>
 
-	<element name="Unarmed Fighting" type="Class Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_UNARMED_FIGHTING">
+	<element name="Unarmed Fighting" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_UNARMED_FIGHTING">
 		<requirements>!ID_WOTC_PHB24_FEAT_UNARMED_FIGHTING</requirements>
 		<supports>Fighting Style, Fighter</supports>
 		<description>
-			<p>Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you arenâ€™t wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.</p>
+			<p>Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren’t wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.</p>
 			<p class="indent">At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you.</p>
 		</description>
 		<sheet>

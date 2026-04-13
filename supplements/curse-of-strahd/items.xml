@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Items</name>
@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-    <element name="Monster Hunterâ€™s Pack" type="Item" source="Curse of Strahd" id="ID_WOTC_COS_ITEM_MONSTER_HUNTERS_PACK">
+    <element name="Monster Hunter’s Pack" type="Item" source="Curse of Strahd" id="ID_WOTC_COS_ITEM_MONSTER_HUNTERS_PACK">
         <description>
             <p>Includes a chest, a crowbar, a hammer, three wooden stakes, a holy symbol, a flask of holy water, a set of manacles, a steel mirror, a flask of oil, a tinderbox, and three torches.</p>
         </description>
@@ -71,7 +71,7 @@
 		<description>
 			<p>Made from the branch of a Gulthias tree (see the blights entry in the Monster Manual), a Gulthias staff is a spongy, black length of wood. Its evil makes beasts visibly uncomfortable while within 30 feet of it. The staff has 10 charges and regains 1d6 + 4 of its expended charges daily at dusk.</p>
 			<p class="indent">If the staff is broken or burned to ashes, its wood releases a terrible, inhuman scream that can be heard out to a range of 300 feet. All blights that can hear the scream immediately wither and die.</p>
-			<p class="indent"><strong><em>Vampiric Strike.</em></strong> The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to regain a number of hit points equal to the damage dealt by the weapon. Each time a charge is spent, red blood oozes from the staff's pores, and you must succeed on a DC 12 Wisdom saving throw or be afflicted with short-term madness (see "Madness" in chapterÂ· 8 of the Dungeon Master's Guide).</p>
+			<p class="indent"><strong><em>Vampiric Strike.</em></strong> The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to regain a number of hit points equal to the damage dealt by the weapon. Each time a charge is spent, red blood oozes from the staff's pores, and you must succeed on a DC 12 Wisdom saving throw or be afflicted with short-term madness (see "Madness" in chapter· 8 of the Dungeon Master's Guide).</p>
 			<p class="indent"><strong><em>Blight Bane.</em></strong> While you are attuned to the staff, blights and other evil plant creatures don't regard you as hostile unless you harm them.</p>
 		</description>
 		<setters>
@@ -124,7 +124,7 @@
 			<set name="attunement" addition="by a creature of good alignment">true</set>
 		</setters>
 	</element>
-	<element name="Saint Markoviaâ€™s Thighbone" type="Magic Item" source="Curse of Strahd" id="ID_WOTC_COS_MAGIC_ITEM_SAINT_MARKOVIAS_THIGHBONE">		
+	<element name="Saint Markovia’s Thighbone" type="Magic Item" source="Curse of Strahd" id="ID_WOTC_COS_MAGIC_ITEM_SAINT_MARKOVIAS_THIGHBONE">		
 		<description>
 			<p>Saint Markovia's thighbone has the properties of a mace of disruption. If it scores one or more hits against a vampire or a vampire spawn in the course of a single battle, the thighbone crumbles into dust once the battle concludes.</p>
 			<p class="indent">As a youth, Markovia followed her heart and became a priest of the Morninglord soon after her eighteenth birthday. She proved to be a charismatic proselytizer and, before the age of thirty, had gained a reputation for allowing no evil to stand before her.</p>
@@ -165,7 +165,7 @@
 	<element name="Treebane" type="Magic Item" source="Curse of Strahd" id="ID_WOTC_COS_MAGIC_ITEM_TREEBANE">		
 		<description>
 			<p>The axe's handle is carved with leaves and vines, and it weighs half as much as a normal battleaxe. When the axe hits a plant, whether an ordinary plant or a plant creature, the target takes an extra 1d8 slashing damage. When a creature of non-good alignment wields the axe, it sprouts thorns whenever its wielder makes an attack with it. These thorns prick the wielder for 1 piercing damage after the attack is made, and this damage is considered magical.</p>
-			<p class="indent"><strong><em>Versatile (1d10).</em></strong> This weapon can be used with one or two hands. A damage value in parentheses appears with the propertyâ€”the damage when the weapon is used with two hands to make a melee attack.</p>
+			<p class="indent"><strong><em>Versatile (1d10).</em></strong> This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
@@ -180,9 +180,9 @@
 			<p class="indent">You gain a +1 bonus to attack and damage rolls made with this weapon.</p>
 			<p class="indent">The sword continually sheds bright light in a 15-foot radius and dim light for an additional 15 feet. Only by destroying the sword can this light be extinguished.</p>
 			<p class="indent">A lawful good creature can attune itself to the sword in 1 minute.</p>
-			<p class="indent">While attuned to the weapon, the swordâ€™s wielder can use the sword to cast the <em>crusaderâ€™s mantle</em> spell. Once used, this property of the sword canâ€™t be used again until the next dawn.</p>
+			<p class="indent">While attuned to the weapon, the sword’s wielder can use the sword to cast the <em>crusader’s mantle</em> spell. Once used, this property of the sword can’t be used again until the next dawn.</p>
 			<p class="indent"><strong><em>Sentience.</em></strong> The sword is a lawful good weapon with an Intelligence of 11, a Wisdom of 13, and a Charisma of 13. It has hearing and normal vision out to a range of 120 feet. The weapon communicates by transmitting emotion to the creature carrying or wielding it.</p>
-			<p class="indent"><strong><em>Personality.</em></strong> The swordâ€™s purpose is to fight evil.</p>
+			<p class="indent"><strong><em>Personality.</em></strong> The sword’s purpose is to fight evil.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
         <name>Companions</name>
@@ -320,7 +320,7 @@
 			<set name="charisma">5</set>
 			<set name="skills">Perception +3, Stealth +4</set>
 			<set name="senses">passive Perception 13</set>
-			<set name="languages">â€”</set>
+			<set name="languages">—</set>
 			<set name="challenge">2</set>
 			<set name="traits">ID_WOTC_MM_COMPANION_TRAIT_PLESIOSAURUS_HOLD_BREATH</set>
 			<set name="actions">ID_WOTC_MM_COMPANION_ACTION_PLESIOSAURUS_BITE</set>
@@ -366,7 +366,7 @@
 			<ul class="unstyled">
 				<li><strong>Skills</strong> Perception +3, Stealth +4</li>
 				<li><strong>Senses</strong> passive Perception 13</li>
-				<li><strong>Languages</strong> â€”</li>
+				<li><strong>Languages</strong> —</li>
 				<li><strong>Challenge</strong> 2 (450 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
@@ -396,7 +396,7 @@
 			<set name="charisma">5</set>
 			<set name="skills">Perception +1</set>
 			<set name="senses">passive Perception 11</set>
-			<set name="languages">â€”</set>
+			<set name="languages">—</set>
 			<set name="challenge">1/4</set>
 			<set name="traits">ID_WOTC_MM_COMPANION_TRAIT_PTERANODON_FLYBY</set>
 			<set name="actions">ID_WOTC_MM_COMPANION_ACTION_PTERANODON_BITE</set>
@@ -441,7 +441,7 @@
 			<ul class="unstyled">
 				<li><strong>Skills</strong> Perception +1</li>
 				<li><strong>Senses</strong> passive Perception 11</li>
-				<li><strong>Languages</strong> â€”</li>
+				<li><strong>Languages</strong> —</li>
 				<li><strong>Challenge</strong> 1/4 (50 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
@@ -470,7 +470,7 @@
 			<set name="wisdom">11</set>
 			<set name="charisma">5</set>
 			<set name="senses">passive Perception 10</set>
-			<set name="languages">â€”</set>
+			<set name="languages">—</set>
 			<set name="challenge">5</set>
 			<set name="traits">ID_WOTC_MM_COMPANION_TRAIT_TRICERATOPS_TRAMPLING_CHARGE</set>
 			<set name="actions">ID_WOTC_MM_COMPANION_ACTION_TRICERATOPS_GORE,ID_WOTC_MM_COMPANION_ACTION_TRICERATOPS_STOMP</set>
@@ -520,7 +520,7 @@
 			</table>
 			<ul class="unstyled">
 				<li><strong>Senses</strong> passive Perception 10</li>
-				<li><strong>Languages</strong> â€”</li>
+				<li><strong>Languages</strong> —</li>
 				<li><strong>Challenge</strong> 5 (1,800 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
@@ -552,7 +552,7 @@
 			<set name="charisma">9</set>
 			<set name="skills">Perception +4</set>
 			<set name="senses">passive Perception 14</set>
-			<set name="languages">â€”</set>
+			<set name="languages">—</set>
 			<set name="challenge">8</set>
 			<set name="actions">ID_WOTC_MM_COMPANION_ACTION_TYRANNOSAURUS_REX_MULTIATTACK,ID_WOTC_MM_COMPANION_ACTION_TYRANNOSAURUS_REX_BITE,ID_WOTC_MM_COMPANION_ACTION_TYRANNOSAURUS_REX_TAIL</set>
 		</setters>
@@ -603,14 +603,14 @@
 			<ul class="unstyled">
 				<li><strong>Skills</strong> Perception +4</li>
 				<li><strong>Senses</strong> passive Perception 1</li>
-				<li><strong>Languages</strong> â€”</li>
+				<li><strong>Languages</strong> —</li>
 				<li><strong>Challenge</strong> 8 (3,900 XP)</li>
 			</ul>
 			<h4 style="margin-top:10px">Actions</h4>
 			<ul class="unstyled">
-				<li><strong><em>Multiattack.</em></strong> The tyrannosaurus makes two attacks: one with its bite and one with its tail. It canâ€™t make both attacks against the same target.</li>
+				<li><strong><em>Multiattack.</em></strong> The tyrannosaurus makes two attacks: one with its bite and one with its tail. It can’t make both attacks against the same target.</li>
 				<p></p>
-				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus canâ€™t bite another target.</li>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus can’t bite another target.</li>
 				<p></p>
 				<li><strong><em>Tail. </em></strong><em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 20 (3d8 + 7) bludgeoning damage.</li>
 			</ul>

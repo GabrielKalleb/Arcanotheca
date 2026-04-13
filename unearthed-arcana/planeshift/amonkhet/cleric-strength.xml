@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Planeshift Amonkhet: Strength Domain</name>
@@ -13,7 +13,7 @@
 	<element name="Strength Domain" type="Archetype" source="Plane Shift: Amonkhet" id="ID_WOTC_PSA_CLERIC_STRENGTH">
 		<supports>Divine Domain</supports>
 		<description>
-			<p>It falls to Rhonas to instill this teaching in those who would enter the afterlifeâ€”but to his mind, the words themselves donâ€™t matter. Strength canâ€™t be taught. It must be built through practice and training. Rhonas demonstrates his teachings by his example, rather than by giving his students any kind of academic instruction. He welcomes the people of Naktamun to stand by the Hekma and watch him as he storms into the desert to battle the greatest horrors. He encourages them to observe his indomitable strength, for though they will never equal it, they can aspire to mimicry. He invites them to scrutinize every move and practice what they see</p>
+			<p>It falls to Rhonas to instill this teaching in those who would enter the afterlife—but to his mind, the words themselves don’t matter. Strength can’t be taught. It must be built through practice and training. Rhonas demonstrates his teachings by his example, rather than by giving his students any kind of academic instruction. He welcomes the people of Naktamun to stand by the Hekma and watch him as he storms into the desert to battle the greatest horrors. He encourages them to observe his indomitable strength, for though they will never equal it, they can aspire to mimicry. He invites them to scrutinize every move and practice what they see</p>
 
 			<div element="ID_WOTC_PSA_ARCHETYPE_FEATURE_STRENGTH_DOMAIN_DOMAIN_SPELLS" />
 			<div element="ID_WOTC_PSA_ARCHETYPE_FEATURE_STRENGTH_DOMAIN_BONUS_PROFICIENCIES" />
@@ -102,11 +102,11 @@
 			<description>When you make an attack roll/Ability check/saving throw with strength you can use add 10 to the roll before the result is revealed.</description>
 		</sheet>
 	</element>
-	<element name="Channel Divinity: Rhonaâ€™s Blessing" type="Archetype Feature" source="Plane Shift: Amonkhet" id="ID_WOTC_PSA_ARCHETYPE_FEATURE_STRENGTH_DOMAIN_CD_RHONAS_BLESSING">
+	<element name="Channel Divinity: Rhona’s Blessing" type="Archetype Feature" source="Plane Shift: Amonkhet" id="ID_WOTC_PSA_ARCHETYPE_FEATURE_STRENGTH_DOMAIN_CD_RHONAS_BLESSING">
 		<description>
 			<p>At 6th level, when a creature within 30 feet of you makes an attack roll, ability check, or saving throw using Strength, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the roll succeeds or fail.</p>
 		</description>
-		<sheet alt="Rhonaâ€™s Blessing" usage="Channel Divinity">
+		<sheet alt="Rhona’s Blessing" usage="Channel Divinity">
 			<description>When a creature within 30 ft of you makes an attack roll/ability check/saving throw with strength you can use your reaction to add 10 to the roll before the results are revealed.</description>
 		</sheet>
 	</element>

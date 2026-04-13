@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Feats</name>
@@ -13,7 +13,7 @@
         <requirements>ID_WOTC_PSI_VAMPIRE_SUBRACE_IXALAN</requirements>
         <description>
             <p><i>Prerequisite: Ixalan Vampire</i></p>
-            <p>As an action, you can transform the lower half of your body into an inky black vapor, allowing you to float through the air. While transformed, you have a flying speed of 30 feet. You can maintain this form for up to 10 minutes. Once you use this ability, you canâ€™t use it again until you finish a short or long rest.</p>
+            <p>As an action, you can transform the lower half of your body into an inky black vapor, allowing you to float through the air. While transformed, you have a flying speed of 30 feet. You can maintain this form for up to 10 minutes. Once you use this ability, you can’t use it again until you finish a short or long rest.</p>
         </description>
         <sheet>
             <description>Once per rest you can gain a flying speed of 30 ft for 10 minutes.</description>

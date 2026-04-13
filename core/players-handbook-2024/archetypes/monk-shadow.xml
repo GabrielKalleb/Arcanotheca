@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Guerreiro das Sombras</name>
@@ -9,11 +9,11 @@
 		</update>
 	</info>
 
-	<element name="Guerreiro das Sombras" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_MONK_WARRIOR_OF_SHADOW">
+	<element name="Guerreiro das Sombras" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_MONK_WARRIOR_OF_SHADOW">
 		<supports>Monk Subclass</supports>
 		<description>
-			<p class="flavor">Canalize o Poder das Sombras para Furtividade e SubterfÃºgio</p>
-			<p>Os Guerreiros das Sombras praticam a furtividade e o subterfÃºgio, canalizando o poder da Umbra (Shadowfell). Eles sentem-se em casa na escuridÃ£o, sendo capazes de puxar as sombras ao seu redor para se esconderem, saltarem de sombra em sombra e assumirem uma forma fantasmagÃ³rica.</p>
+			<p class="flavor">Canalize o Poder das Sombras para Furtividade e Subterfúgio</p>
+			<p>Os Guerreiros das Sombras praticam a furtividade e o subterfúgio, canalizando o poder da Umbra (Shadowfell). Eles sentem-se em casa na escuridão, sendo capazes de puxar as sombras ao seu redor para se esconderem, saltarem de sombra em sombra e assumirem uma forma fantasmagórica.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_STEP"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_IMPROVED_SHADOW_STEP"/>
@@ -28,17 +28,17 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Artes das Sombras" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS">
+	<element name="Nível 3: Artes das Sombras" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_ARTS</requirements>
 		<description>
-			<p>VocÃª aprendeu a extrair o poder da Umbra, ganhando os seguintes benefÃ­cios.</p>
-			<p class="indent"><em><strong>EscuridÃ£o.</strong></em> VocÃª pode gastar 1 Ponto de Foco para conjurar a magia EscuridÃ£o sem componentes materiais. VocÃª consegue ver dentro da Ã¡rea da magia quando a conjura com esta caracterÃ­stica. Enquanto a magia persistir, vocÃª pode mover a Ã¡rea de EscuridÃ£o para um espaÃ§o a atÃ© 18 metros (60 pÃ©s) de vocÃª no inÃ­cio de cada um dos seus turnos.</p>
-			<p class="indent"><em><strong>VisÃ£o no Escuro.</strong></em> VocÃª ganha VisÃ£o no Escuro com um alcance de 18 metros (60 pÃ©s). Se vocÃª jÃ¡ possuir VisÃ£o no Escuro, o alcance aumenta em 18 metros (60 pÃ©s).</p>
-			<p class="indent"><em><strong>Figmentos Sombrios.</strong></em> VocÃª conhece o truque IlusÃ£o Menor. Sabedoria Ã© o seu atributo de conjuraÃ§Ã£o para ele.</p>
+			<p>Você aprendeu a extrair o poder da Umbra, ganhando os seguintes benefícios.</p>
+			<p class="indent"><em><strong>Escuridão.</strong></em> Você pode gastar 1 Ponto de Foco para conjurar a magia Escuridão sem componentes materiais. Você consegue ver dentro da área da magia quando a conjura com esta característica. Enquanto a magia persistir, você pode mover a área de Escuridão para um espaço a até 18 metros (60 pés) de você no início de cada um dos seus turnos.</p>
+			<p class="indent"><em><strong>Visão no Escuro.</strong></em> Você ganha Visão no Escuro com um alcance de 18 metros (60 pés). Se você já possuir Visão no Escuro, o alcance aumenta em 18 metros (60 pés).</p>
+			<p class="indent"><em><strong>Figmentos Sombrios.</strong></em> Você conhece o truque Ilusão Menor. Sabedoria é o seu atributo de conjuração para ele.</p>
 		</description>
 		<sheet alt="Artes das Sombras" usage="Ponto de Foco">
-			<description>VocÃª pode conjurar a magia EscuridÃ£o sem componentes materiais. VocÃª enxerga na Ã¡rea da magia ao conjurÃ¡-la desta forma. Enquanto persistir, vocÃª pode mover a Ã¡rea para atÃ© 18m de vocÃª no inÃ­cio do seu turno. &#13;
-			AlÃ©m disso, vocÃª conhece o truque IlusÃ£o Menor (Sabedoria Ã© seu atributo de conjuraÃ§Ã£o).</description>
+			<description>Você pode conjurar a magia Escuridão sem componentes materiais. Você enxerga na área da magia ao conjurá-la desta forma. Enquanto persistir, você pode mover a área para até 18m de você no início do seu turno. &#13;
+			Além disso, você conhece o truque Ilusão Menor (Sabedoria é seu atributo de conjuração).</description>
 		</sheet>
 		<rules>
 			<grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
@@ -47,38 +47,38 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 6: Passo das Sombras" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_STEP">
+	<element name="Nível 6: Passo das Sombras" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_STEP">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_STEP||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_IMPROVED_SHADOW_STEP)</requirements>
 		<description>
-			<p>Enquanto estiver inteiramente em Penumbra ou EscuridÃ£o, vocÃª pode usar uma AÃ§Ã£o BÃ´nus para se teletransportar atÃ© 18 metros (60 pÃ©s) para um espaÃ§o desocupado que vocÃª possa ver e que tambÃ©m esteja em Penumbra ou EscuridÃ£o. Em seguida, vocÃª tem Vantagem no prÃ³ximo ataque corpo a corpo que fizer antes do final do turno atual.</p>
+			<p>Enquanto estiver inteiramente em Penumbra ou Escuridão, você pode usar uma Ação Bônus para se teletransportar até 18 metros (60 pés) para um espaço desocupado que você possa ver e que também esteja em Penumbra ou Escuridão. Em seguida, você tem Vantagem no próximo ataque corpo a corpo que fizer antes do final do turno atual.</p>
 		</description>
-		<sheet alt="Passo das Sombras" action="AÃ§Ã£o BÃ´nus">
-			<description>Enquanto estiver em Penumbra ou EscuridÃ£o, vocÃª pode se teletransportar atÃ© 18m para um espaÃ§o desocupado visÃ­vel tambÃ©m em Penumbra ou EscuridÃ£o. VocÃª ganha Vantagem no prÃ³ximo ataque corpo a corpo atÃ© o fim do turno.</description>
-			<description level="11">VocÃª tem duas formas de usar esta caracterÃ­stica: &#13;
-			â€¢ Em Penumbra ou EscuridÃ£o, vocÃª pode se teletransportar atÃ© 18m para um espaÃ§o desocupado visÃ­vel tambÃ©m em Penumbra ou EscuridÃ£o. &#13;
-			â€¢ VocÃª pode gastar 1 Ponto de Foco para ignorar os requisitos de luz e pode fazer um Ataque Desarmado imediatamente apÃ³s o teletransporte. &#13;
-			Independente da escolha, vocÃª ganha Vantagem no seu prÃ³ximo ataque corpo a corpo antes do final do turno.</description>
+		<sheet alt="Passo das Sombras" action="Ação Bônus">
+			<description>Enquanto estiver em Penumbra ou Escuridão, você pode se teletransportar até 18m para um espaço desocupado visível também em Penumbra ou Escuridão. Você ganha Vantagem no próximo ataque corpo a corpo até o fim do turno.</description>
+			<description level="11">Você tem duas formas de usar esta característica: &#13;
+			• Em Penumbra ou Escuridão, você pode se teletransportar até 18m para um espaço desocupado visível também em Penumbra ou Escuridão. &#13;
+			• Você pode gastar 1 Ponto de Foco para ignorar os requisitos de luz e pode fazer um Ataque Desarmado imediatamente após o teletransporte. &#13;
+			Independente da escolha, você ganha Vantagem no seu próximo ataque corpo a corpo antes do final do turno.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 11: Passo das Sombras Aprimorado" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_IMPROVED_SHADOW_STEP">
+	<element name="Nível 11: Passo das Sombras Aprimorado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_IMPROVED_SHADOW_STEP">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_IMPROVED_SHADOW_STEP</requirements>
 		<description>
-			<p>VocÃª pode usar sua conexÃ£o com a Umbra para fortalecer seu teletransporte. Quando usar o seu Passo das Sombras, vocÃª pode gastar 1 Ponto de Foco para remover a exigÃªncia de comeÃ§ar e terminar em Penumbra ou EscuridÃ£o para este uso da caracterÃ­stica. Como parte desta AÃ§Ã£o BÃ´nus, vocÃª pode fazer um Ataque Desarmado imediatamente apÃ³s o teletransporte.</p>
+			<p>Você pode usar sua conexão com a Umbra para fortalecer seu teletransporte. Quando usar o seu Passo das Sombras, você pode gastar 1 Ponto de Foco para remover a exigência de começar e terminar em Penumbra ou Escuridão para este uso da característica. Como parte desta Ação Bônus, você pode fazer um Ataque Desarmado imediatamente após o teletransporte.</p>
 		</description>
 		<sheet display="false"/>
 	</element>
 
-	<element name="NÃ­vel 17: Manto das Sombras" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_CLOAK_OF_SHADOWS">
+	<element name="Nível 17: Manto das Sombras" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_CLOAK_OF_SHADOWS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_CLOAK_OF_SHADOWS</requirements>
 		<description>
-			<p>Como uma AÃ§Ã£o MÃ¡gica, enquanto estiver inteiramente em Penumbra ou EscuridÃ£o, vocÃª pode gastar 3 Pontos de Foco para se envolver em sombras por 1 minuto, atÃ© ter a condiÃ§Ã£o Incapacitado, ou atÃ© terminar seu turno em Luz Plena. Enquanto estiver envolto por essas sombras, vocÃª ganha os seguintes benefÃ­cios.</p>
-			<p class="indent"><em><strong>Invisibilidade.</strong></em> VocÃª tem a condiÃ§Ã£o InvisÃ­vel.</p>
-			<p class="indent"><em><strong>Parcialmente IncorpÃ³reo.</strong></em> VocÃª pode se mover atravÃ©s de espaÃ§os ocupados como se fossem Terreno DifÃ­cil. Se vocÃª terminar seu turno em um espaÃ§o desses, vocÃª Ã© empurrado para o Ãºltimo espaÃ§o desocupado em que esteve.</p>
-			<p class="indent"><em><strong>Rajada Sombria.</strong></em> VocÃª pode usar sua Rajada de Golpes sem gastar nenhum Ponto de Foco.</p>
+			<p>Como uma Ação Mágica, enquanto estiver inteiramente em Penumbra ou Escuridão, você pode gastar 3 Pontos de Foco para se envolver em sombras por 1 minuto, até ter a condição Incapacitado, ou até terminar seu turno em Luz Plena. Enquanto estiver envolto por essas sombras, você ganha os seguintes benefícios.</p>
+			<p class="indent"><em><strong>Invisibilidade.</strong></em> Você tem a condição Invisível.</p>
+			<p class="indent"><em><strong>Parcialmente Incorpóreo.</strong></em> Você pode se mover através de espaços ocupados como se fossem Terreno Difícil. Se você terminar seu turno em um espaço desses, você é empurrado para o último espaço desocupado em que esteve.</p>
+			<p class="indent"><em><strong>Rajada Sombria.</strong></em> Você pode usar sua Rajada de Golpes sem gastar nenhum Ponto de Foco.</p>
 		</description>
-		<sheet alt="Manto das Sombras" action="AÃ§Ã£o" usage="3 Pontos de Foco">
-			<description>Enquanto estiver em Penumbra ou EscuridÃ£o, vocÃª se envolve em sombras por 1 minuto, atÃ© ficar Incapacitado, ou atÃ© terminar o turno em Luz Plena. VocÃª fica InvisÃ­vel; pode se mover em espaÃ§os ocupados como se fossem Terreno DifÃ­cil (sendo empurrado para o Ãºltimo espaÃ§o livre se terminar o turno lÃ¡); e pode usar Rajada de Golpes sem gastar Pontos de Foco.</description>
+		<sheet alt="Manto das Sombras" action="Ação" usage="3 Pontos de Foco">
+			<description>Enquanto estiver em Penumbra ou Escuridão, você se envolve em sombras por 1 minuto, até ficar Incapacitado, ou até terminar o turno em Luz Plena. Você fica Invisível; pode se mover em espaços ocupados como se fossem Terreno Difícil (sendo empurrado para o último espaço livre se terminar o turno lá); e pode usar Rajada de Golpes sem gastar Pontos de Foco.</description>
 		</sheet>
 	</element>
 

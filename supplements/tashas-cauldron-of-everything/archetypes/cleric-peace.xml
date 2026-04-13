@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Peace Doamin</name>
-		<description>The Peace Doamin from Tashaâ€™s Cauldron of Everything</description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tashaâ€™s Cauldron of Everything</author>
+		<description>The Peace Doamin from Tasha’s Cauldron of Everything</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
 		<update version="0.0.2">
 			<file name="cleric-peace.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-peace.xml" />
 		</update>
 	</info>
-	<element name="Peace Domain" type="Archetype" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_PEACE_DOMAIN">
+	<element name="Peace Domain" type="Archetype" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_PEACE_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<p>The balm of peace thrives at the heart of healthy communities, between friendly nations, and in the souls of the kindhearted. The gods of peace inspire people of all sorts to resolve conflict and to stand up against those forces that try to prevent peace from flourishing. See the Peace Deities table for a list of some of the gods associated with this domain.</p>
-			<p class="indent">Clerics of the Peace Domain preside over the signing of treaties, and they are often asked to arbitrate in disputes. These clericsâ€™ blessings draw people together and help them shoulder one anotherâ€™s burdens, and the clericsâ€™ magic aids those who are driven to fight for the way of peace.</p>
+			<p class="indent">Clerics of the Peace Domain preside over the signing of treaties, and they are often asked to arbitrate in disputes. These clerics’ blessings draw people together and help them shoulder one another’s burdens, and the clerics’ magic aids those who are driven to fight for the way of peace.</p>
 			<h5 class="caption">Peace Deities</h5>
 			<table>
 				<thead>
@@ -46,10 +46,10 @@
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_EXPANSIVE_BOND" level="17" />
 		</rules>
 	</element>
-	<element name="Domain Spells" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_DOMAIN_SPELLS">
+	<element name="Domain Spells" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_DOMAIN_SPELLS">
 		<description>
 			<p><em>1st-level Peace Domain feature</em></p>
-			<p>You gain domain spells at the cleric levels listed in the Peace Domain Spells table. See the Divine Domain class feature in the Playerâ€™s Handbook for how domain spells work.</p>
+			<p>You gain domain spells at the cleric levels listed in the Peace Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.</p>
 			<h5 class="caption">Peace Domain Spells</h5>
 			<table>
 				<thead>
@@ -58,8 +58,8 @@
 				<tr><td>1st</td><td><em>heroism, sanctuary</em></td></tr>
 				<tr><td>3rd</td><td><em>aid, warding bond</em></td></tr>
 				<tr><td>5th</td><td><em>beacon of hope, sending</em></td></tr>
-				<tr><td>7th</td><td><em>aura of purity, Otilukeâ€™s resilient sphere</em></td></tr>
-				<tr><td>9th</td><td><em>greater restoration, Raryâ€™s telepathic bond</em></td></tr>
+				<tr><td>7th</td><td><em>aura of purity, Otiluke’s resilient sphere</em></td></tr>
+				<tr><td>9th</td><td><em>greater restoration, Rary’s telepathic bond</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false"/>
@@ -76,7 +76,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="9" spellcasting="Cleric" prepared="true" />
 		</rules>
 	</element>
-	<element name="Implement of Peace" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_IMPLEMENT_OF_PEACE">
+	<element name="Implement of Peace" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_IMPLEMENT_OF_PEACE">
 		<description>
 			<p><em>1st-level Peace Domain feature</em></p>
 			<p>You gain proficiency in the Insight, Performance, or Persuasion skill (your choice).</p>
@@ -88,7 +88,7 @@
 			<select type="Proficiency" name="Skill Proficiency, Implement of Peace" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION" />			
 		</rules>
 	</element>
-	<element name="Emboldening Bond" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_EMBOLDENING_BOND">
+	<element name="Emboldening Bond" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_EMBOLDENING_BOND">
 		<description>
 			<p><em>1st-level Peace Domain feature</em></p>
 			<p>You can forge an empowering bond among people who are at peace with one another. As an action, you can choose a number of willing creatures within 30 feet of you (this can include yourself) equal to your proficiency bonus. You create a magical bond among them for 10 minutes or until you use this feature again. While any bonded creature is within 30 feet of another, the creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.</p>
@@ -101,7 +101,7 @@
 			<stat name="emboldening bond:range" value="30" bonus="base" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Balm of Peace" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_CD_BALM_OF_PEACE">
+	<element name="Channel Divinity: Balm of Peace" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_CD_BALM_OF_PEACE">
 		<description>
 			<p><em>2nd-level Peace Domain feature</em></p>
 			<p>You can use your Channel Divinity to make your very presence a soothing balm. As an action, you can move up to your speed, without provoking an opportunity attacks, and when you move within 5 feet of any other creature during this action, you can restore a number of hit points to that creature equal to 2d6 + your Wisdom modifier (minimum of 1 hit point). A creature can receive this healing only once whenever you take this action.</p>
@@ -110,7 +110,7 @@
 			<description>You can move up to your speed, without provoking an opportunity attacks, and when you move within 5 feet of any other creature during this action, you can restore 2d6 + {{wisdom:modifier}} hps to that creature (minimum of 1 hp). A creature can receive this healing only once whenever you take this action.</description>
 		</sheet>
 	</element>
-	<element name="Protective Bond" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_PROTECTIVE_BOND">
+	<element name="Protective Bond" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_PROTECTIVE_BOND">
 		<description>
 			<p><em>6th-level Peace Domain feature</em></p>
 			<p>The bond you forge between people helps them protect each other. When a creature affected by your Emboldening Bond feature is about to take damage, a second bonded creature within 30 feet of the first can use its reaction to teleport to an unoccupied space within 5 feet of the first creature. The second creature then takes all the damage instead.</p>
@@ -122,7 +122,7 @@
 			<stat name="protective bond:range" value="30" bonus="base" />
 		</rules>
 	</element>
-	<element name="Potent Spellcasting" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_POTENT_SPELLCASTING">
+	<element name="Potent Spellcasting" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_POTENT_SPELLCASTING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING</requirements>
 		<description>
 			<p><em>8th-level Peace Domain feature</em></p>
@@ -132,13 +132,13 @@
 			<description>+{{wisdom:modifier}} to the damage you deal with any cleric cantrip.</description>
 		</sheet>
 	</element>
-	<element name="Expansive Bond" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_EXPANSIVE_BOND">
+	<element name="Expansive Bond" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PEACE_DOMAIN_EXPANSIVE_BOND">
 		<description>
 			<p><em>17th-level Peace Domain feature</em></p>
-			<p>The benefits of your Emboldening Bond and Protective Bond features now work when the creatures are within 60 feet of each other. Moreover, when a creature uses Protective Bond to take someone elseâ€™s damage, the creature has resistance to that damage.</p>
+			<p>The benefits of your Emboldening Bond and Protective Bond features now work when the creatures are within 60 feet of each other. Moreover, when a creature uses Protective Bond to take someone else’s damage, the creature has resistance to that damage.</p>
 		</description>
 		<sheet>
-			<description>When a creature uses Protective Bond to take someone elseâ€™s damage, the creature has resistance to that damage.</description>
+			<description>When a creature uses Protective Bond to take someone else’s damage, the creature has resistance to that damage.</description>
 		</sheet>
 		<rules>
 			<stat name="emboldening bond:range" value="60" bonus="base" />

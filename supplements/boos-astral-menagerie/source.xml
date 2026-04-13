@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="Booâ€™s Astral Menagerie" type="Source" source="Core" id="ID_WOTC_SOURCE_BOOS_ASTRAL_MENAGERIE">
+	<element name="Boo’s Astral Menagerie" type="Source" source="Core" id="ID_WOTC_SOURCE_BOOS_ASTRAL_MENAGERIE">
 		<description>
 			<p>Part of the <b><i>Spelljammer: Adventures in Space</i></b> box set</p>
 			<p>A 64-page hardcover book for Dungeon Masters that presents game statistics and descriptions for over 60 creatures found in Wildspace and the Astral Sea, including astral elves, cosmic horrors, lunar and solar dragons, murder comets, and space clowns.</p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Ladino</name>
@@ -9,63 +9,63 @@
 		</update>
 	</info>
 
-	<element name="Ladino" type="Class" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_ROGUE">
+	<element name="Ladino" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_ROGUE">
 		<description>
-			<p>Ladinos contam com astÃºcia, furtividade e as vulnerabilidades de seus inimigos para obter a vantagem em qualquer situaÃ§Ã£o. Eles tÃªm o dom de encontrar a soluÃ§Ã£o para quase qualquer problema. Alguns atÃ© aprendem truques mÃ¡gicos para complementar suas outras habilidades. Muitos Ladinos se concentram em furtividade e engano, enquanto outros refinam perÃ­cias que os ajudam em um ambiente de masmorra, como escalar, encontrar e desarmar armadilhas, e abrir fechaduras.</p>
-			<p class="indent">Em combate, Ladinos priorizam ataques sutis em vez de forÃ§a bruta. Eles preferem fazer um ataque preciso do que desgastar um oponente com uma enxurrada de golpes.</p>
-			<p class="indent">Alguns Ladinos comeÃ§aram suas carreiras como criminosos, enquanto outros usaram sua astÃºcia para combater o crime. Qualquer que seja a relaÃ§Ã£o de um Ladino com a lei, nenhum criminoso comum ou oficial da lei pode se igualar ao brilhantismo sutil dos maiores Ladinos.</p>
+			<p>Ladinos contam com astúcia, furtividade e as vulnerabilidades de seus inimigos para obter a vantagem em qualquer situação. Eles têm o dom de encontrar a solução para quase qualquer problema. Alguns até aprendem truques mágicos para complementar suas outras habilidades. Muitos Ladinos se concentram em furtividade e engano, enquanto outros refinam perícias que os ajudam em um ambiente de masmorra, como escalar, encontrar e desarmar armadilhas, e abrir fechaduras.</p>
+			<p class="indent">Em combate, Ladinos priorizam ataques sutis em vez de força bruta. Eles preferem fazer um ataque preciso do que desgastar um oponente com uma enxurrada de golpes.</p>
+			<p class="indent">Alguns Ladinos começaram suas carreiras como criminosos, enquanto outros usaram sua astúcia para combater o crime. Qualquer que seja a relação de um Ladino com a lei, nenhum criminoso comum ou oficial da lei pode se igualar ao brilhantismo sutil dos maiores Ladinos.</p>
 			<div class="sidebar">
-				<h5>TRAÃ‡OS PRINCIPAIS DO LADINO</h5>
+				<h5>TRAÇOS PRINCIPAIS DO LADINO</h5>
 				<table>
-					<tr><td><b>Habilidade PrimÃ¡ria</b></td><td class="left">Destreza</td></tr>
-					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D8 por nÃ­vel de Ladino</td></tr>
-					<tr><td><b>ProficiÃªncias em Testes de ResistÃªncia</b></td><td class="left">Destreza e InteligÃªncia</td></tr>
-					<tr><td><b>ProficiÃªncias em PerÃ­cias</b></td><td class="left"><i>Escolha 4:</i> Acrobacia, Atletismo, EnganaÃ§Ã£o, Furtividade, IntimidaÃ§Ã£o, IntuiÃ§Ã£o, InvestigaÃ§Ã£o, PercepÃ§Ã£o, PersuasÃ£o, PrestidigitaÃ§Ã£o</td></tr>
-					<tr><td><b>ProficiÃªncias em Armas</b></td><td class="left">Armas Simples e armas Marciais que possuam a propriedade Acuidade ou Leve</td></tr>
-					<tr><td><b>ProficiÃªncias em Ferramentas</b></td><td class="left">Ferramentas de LadrÃ£o</td></tr>
+					<tr><td><b>Habilidade Primária</b></td><td class="left">Destreza</td></tr>
+					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D8 por nível de Ladino</td></tr>
+					<tr><td><b>Proficiências em Testes de Resistência</b></td><td class="left">Destreza e Inteligência</td></tr>
+					<tr><td><b>Proficiências em Perícias</b></td><td class="left"><i>Escolha 4:</i> Acrobacia, Atletismo, Enganação, Furtividade, Intimidação, Intuição, Investigação, Percepção, Persuasão, Prestidigitação</td></tr>
+					<tr><td><b>Proficiências em Armas</b></td><td class="left">Armas Simples e armas Marciais que possuam a propriedade Acuidade ou Leve</td></tr>
+					<tr><td><b>Proficiências em Ferramentas</b></td><td class="left">Ferramentas de Ladrão</td></tr>
 					<tr><td><b>Treinamento com Armadura</b></td><td class="left">Armaduras Leves</td></tr>
-					<tr><td><b>Equipamento Inicial</b></td><td class="left"><i> Escolha A ou B:</i> (A) Armadura de Couro, 2 Adagas, Espada Curta, Arco Curto, 20 Flechas, Aljava, Ferramentas de LadrÃ£o, Pacote de Assaltante e 8 PO; ou (B) 100 PO</td></tr>
+					<tr><td><b>Equipamento Inicial</b></td><td class="left"><i> Escolha A ou B:</i> (A) Armadura de Couro, 2 Adagas, Espada Curta, Arco Curto, 20 Flechas, Aljava, Ferramentas de Ladrão, Pacote de Assaltante e 8 PO; ou (B) 100 PO</td></tr>
 				</table>
 			</div>
 			<h4>TORNANDO-SE UM LADINO...</h4>
-			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÃVEL 1</h5>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
-				<li>Ganhe todos os traÃ§os na tabela de TraÃ§os Principais do Ladino.</li>
-				<li>Ganhe as caracterÃ­sticas de nÃ­vel 1 do Ladino, que estÃ£o listadas na tabela de CaracterÃ­sticas do Ladino.</li>
+				<li>Ganhe todos os traços na tabela de Traços Principais do Ladino.</li>
+				<li>Ganhe as características de nível 1 do Ladino, que estão listadas na tabela de Características do Ladino.</li>
 			</ul>
 			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
 			<ul style="margin-top:-1em">
-				<li>Ganhe os seguintes traÃ§os da tabela de TraÃ§os Principais do Ladino: Dado de Pontos de Vida, proficiÃªncia em uma perÃ­cia de sua escolha da lista de perÃ­cias do Ladino, proficiÃªncia com Ferramentas de LadrÃ£o e treinamento com armaduras Leves.</li>
-				<li>Ganhe as caracterÃ­sticas de nÃ­vel 1 do Ladino, que estÃ£o listadas na tabela de CaracterÃ­sticas do Ladino.</li>
+				<li>Ganhe os seguintes traços da tabela de Traços Principais do Ladino: Dado de Pontos de Vida, proficiência em uma perícia de sua escolha da lista de perícias do Ladino, proficiência com Ferramentas de Ladrão e treinamento com armaduras Leves.</li>
+				<li>Ganhe as características de nível 1 do Ladino, que estão listadas na tabela de Características do Ladino.</li>
 			</ul>
-			<h5>CARACTERÃSTICAS DO LADINO</h5>
+			<h5>CARACTERÍSTICAS DO LADINO</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-10">NÃ­vel</td><td>BÃ´nus de ProficiÃªncia</td><td class="col-50 left">CaracterÃ­sticas de Classe</td><td>Ataque Furtivo</td></tr>
+					<tr><td class="col-10">Nível</td><td>Bônus de Proficiência</td><td class="col-50 left">Características de Classe</td><td>Ataque Furtivo</td></tr>
 				</thead>
-				<tr><td>1</td><td>+2</td><td class="left">Especialidade, Ataque Furtivo, GÃ­ria de LadrÃ£o, Maestria com Armas</td><td>1d6</td></tr>
-				<tr><td>2</td><td>+2</td><td class="left">AÃ§Ã£o Astuta</td><td>1d6</td></tr>
-				<tr><td>3</td><td>+2</td><td class="left">Subclasse de Ladino, Mira EstÃ¡vel</td><td>2d6</td></tr>
+				<tr><td>1</td><td>+2</td><td class="left">Especialidade, Ataque Furtivo, Gíria de Ladrão, Maestria com Armas</td><td>1d6</td></tr>
+				<tr><td>2</td><td>+2</td><td class="left">Ação Astuta</td><td>1d6</td></tr>
+				<tr><td>3</td><td>+2</td><td class="left">Subclasse de Ladino, Mira Estável</td><td>2d6</td></tr>
 				<tr><td>4</td><td>+2</td><td class="left">Melhoria de Valor de Habilidade</td><td>2d6</td></tr>
 				<tr><td>5</td><td>+3</td><td class="left">Golpe Astuto, Esquiva Sobrenatural</td><td>3d6</td></tr>
 				<tr><td>6</td><td>+3</td><td class="left">Especialidade</td><td>3d6</td></tr>
-				<tr><td>7</td><td>+3</td><td class="left">EvasÃ£o, Talento ConfiÃ¡vel</td><td>4d6</td></tr>
+				<tr><td>7</td><td>+3</td><td class="left">Evasão, Talento Confiável</td><td>4d6</td></tr>
 				<tr><td>8</td><td>+3</td><td class="left">Melhoria de Valor de Habilidade</td><td>4d6</td></tr>
-				<tr><td>9</td><td>+4</td><td class="left">CaracterÃ­stica de Subclasse</td><td>5d6</td></tr>
+				<tr><td>9</td><td>+4</td><td class="left">Característica de Subclasse</td><td>5d6</td></tr>
 				<tr><td>10</td><td>+4</td><td class="left">Melhoria de Valor de Habilidade</td><td>5d6</td></tr>
 				<tr><td>11</td><td>+4</td><td class="left">Golpe Astuto Aprimorado</td><td>6d6</td></tr>
 				<tr><td>12</td><td>+4</td><td class="left">Melhoria de Valor de Habilidade</td><td>6d6</td></tr>
-				<tr><td>13</td><td>+5</td><td class="left">CaracterÃ­stica de Subclasse</td><td>7d6</td></tr>
-				<tr><td>14</td><td>+5</td><td class="left">Golpes TraiÃ§oeiros</td><td>7d6</td></tr>
+				<tr><td>13</td><td>+5</td><td class="left">Característica de Subclasse</td><td>7d6</td></tr>
+				<tr><td>14</td><td>+5</td><td class="left">Golpes Traiçoeiros</td><td>7d6</td></tr>
 				<tr><td>15</td><td>+5</td><td class="left">Mente Escorregadia</td><td>8d6</td></tr>
 				<tr><td>16</td><td>+5</td><td class="left">Melhoria de Valor de Habilidade</td><td>8d6</td></tr>
-				<tr><td>17</td><td>+6</td><td class="left">CaracterÃ­stica de Subclasse</td><td>9d6</td></tr>
+				<tr><td>17</td><td>+6</td><td class="left">Característica de Subclasse</td><td>9d6</td></tr>
 				<tr><td>18</td><td>+6</td><td class="left">Esquivo</td><td>9d6</td></tr>
-				<tr><td>19</td><td>+6</td><td class="left">DÃ¡diva Ã‰pica</td><td>10d6</td></tr>
+				<tr><td>19</td><td>+6</td><td class="left">Dádiva Épica</td><td>10d6</td></tr>
 				<tr><td>20</td><td>+6</td><td class="left">Golpe de Sorte</td><td>10d6</td></tr>
 			</table>
-			<h4>CARACTERÃSTICAS DE CLASSE DO LADINO</h4>
-			<p>Como Ladino, vocÃª ganha as seguintes caracterÃ­sticas de classe ao atingir os nÃ­veis especificados na classe. Estas caracterÃ­sticas estÃ£o listadas na tabela de CaracterÃ­sticas do Ladino.</p>
+			<h4>CARACTERÍSTICAS DE CLASSE DO LADINO</h4>
+			<p>Como Ladino, você ganha as seguintes características de classe ao atingir os níveis especificados na classe. Estas características estão listadas na tabela de Características do Ladino.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EXPERTISE"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_SNEAK_ATTACK"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_THIEVES_CANT"/>
@@ -87,7 +87,7 @@
 		</description>
 		<sheet display="false" />
 		<setters>
-			<set name="short">Um Especialista Destro em Furtividade e SubterfÃºgio</set>
+			<set name="short">Um Especialista Destro em Furtividade e Subterfúgio</set>
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
@@ -101,7 +101,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB24_MULTICLASS_ROGUE"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB24_MULTICLASS_ROGUE"/>
-			<select type="Proficiency" name="ProficiÃªncia em PerÃ­cia (Ladino)" supports="Skill,PHB24 Rogue" number="4" requirements="!ID_WOTC_PHB24_MULTICLASS_ROGUE" />
+			<select type="Proficiency" name="Proficiência em Perícia (Ladino)" supports="Skill,PHB24 Rogue" number="4" requirements="!ID_WOTC_PHB24_MULTICLASS_ROGUE" />
 
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EXPERTISE" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_SNEAK_ATTACK" level="1" />
@@ -126,20 +126,20 @@
 			<prerequisite>Destreza 13</prerequisite>
 			<requirements>([dex:13],!(ID_WOTC_PHB_CLASS_ROGUE||ID_WOTC_PHB_MULTICLASS_ROGUE))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
-				<set name="multiclass proficiencies">uma perÃ­cia da lista de perÃ­cias de Ladino, Ferramentas de LadrÃ£o, Armaduras Leves</set>
+				<set name="multiclass proficiencies">uma perícia da lista de perícias de Ladino, Ferramentas de Ladrão, Armaduras Leves</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
-				<select type="Proficiency" name="ProficiÃªncia em PerÃ­cia (Ladino)" supports="Skill,Rogue" />
+				<select type="Proficiency" name="Proficiência em Perícia (Ladino)" supports="Skill,Rogue" />
 			</rules>
 		</multiclass>
 	</element>
 
-	<element name="NÃ­vel 1: Especialidade" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EXPERTISE">
+	<element name="Nível 1: Especialidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EXPERTISE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_EXPERTISE</requirements>
 		<description>
-			<p>VocÃª ganha Especialidade em duas das suas proficiÃªncias em perÃ­cia Ã  sua escolha. PrestidigitaÃ§Ã£o e Furtividade sÃ£o recomendadas se vocÃª tiver proficiÃªncia nelas.</p>
-			<p class="indent">No nÃ­vel 6 de Ladino, vocÃª ganha Especialidade em mais duas de suas proficiÃªncias em perÃ­cia Ã  sua escolha.</p>
+			<p>Você ganha Especialidade em duas das suas proficiências em perícia à sua escolha. Prestidigitação e Furtividade são recomendadas se você tiver proficiência nelas.</p>
+			<p class="indent">No nível 6 de Ladino, você ganha Especialidade em mais duas de suas proficiências em perícia à sua escolha.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -148,15 +148,15 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 1: Ataque Furtivo" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_SNEAK_ATTACK">
+	<element name="Nível 1: Ataque Furtivo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_SNEAK_ATTACK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_SNEAK_ATTACK</requirements>
 		<description>
-			<p>VocÃª sabe como atacar sutilmente e explorar a distraÃ§Ã£o de um inimigo. Uma vez por turno, vocÃª pode causar 1d6 de dano extra a uma criatura que vocÃª atingir com uma jogada de ataque se tiver Vantagem na rolagem e o ataque usar uma arma de Acuidade ou Ã  DistÃ¢ncia. O tipo do dano extra Ã© o mesmo que o tipo da arma.</p>
-			<p class="indent">VocÃª nÃ£o precisa de Vantagem na jogada de ataque se pelo menos um de seus aliados estiver a atÃ© 1,5 metro (5 pÃ©s) do alvo, o aliado nÃ£o tiver a condiÃ§Ã£o Incapacitado, e vocÃª nÃ£o tiver Desvantagem na jogada de ataque.</p>
-			<p class="indent">O dano extra aumenta Ã  medida que vocÃª ganha nÃ­veis de Ladino, conforme mostrado na coluna Ataque Furtivo da tabela CaracterÃ­sticas do Ladino.</p>
+			<p>Você sabe como atacar sutilmente e explorar a distração de um inimigo. Uma vez por turno, você pode causar 1d6 de dano extra a uma criatura que você atingir com uma jogada de ataque se tiver Vantagem na rolagem e o ataque usar uma arma de Acuidade ou à Distância. O tipo do dano extra é o mesmo que o tipo da arma.</p>
+			<p class="indent">Você não precisa de Vantagem na jogada de ataque se pelo menos um de seus aliados estiver a até 1,5 metro (5 pés) do alvo, o aliado não tiver a condição Incapacitado, e você não tiver Desvantagem na jogada de ataque.</p>
+			<p class="indent">O dano extra aumenta à medida que você ganha níveis de Ladino, conforme mostrado na coluna Ataque Furtivo da tabela Características do Ladino.</p>
 		</description>
 		<sheet alt="Ataque Furtivo" usage="1/Turno">
-			<description>Quando atinge uma criatura com uma arma de Acuidade ou Ã  DistÃ¢ncia, vocÃª pode causar {{sneak-attack:count}}d{{sneak-attack:die}} de dano de arma extra. VocÃª deve ter Vantagem na jogada de ataque ou um aliado que nÃ£o esteja Incapacitado a atÃ© 1,5m do alvo. O ataque tambÃ©m nÃ£o pode ter Desvantagem.</description>
+			<description>Quando atinge uma criatura com uma arma de Acuidade ou à Distância, você pode causar {{sneak-attack:count}}d{{sneak-attack:die}} de dano de arma extra. Você deve ter Vantagem na jogada de ataque ou um aliado que não esteja Incapacitado a até 1,5m do alvo. O ataque também não pode ter Desvantagem.</description>
 		</sheet>
 		<rules>
 			<stat name="sneak-attack:count" value="1" bonus="base"/>
@@ -173,46 +173,46 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 1: GÃ­ria de LadrÃ£o" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_THIEVES_CANT">
+	<element name="Nível 1: Gíria de Ladrão" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_THIEVES_CANT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEVES_CANT</requirements>
 		<description>
-			<p>VocÃª adquiriu vÃ¡rios idiomas nas comunidades onde exerceu seus talentos de ladino. VocÃª conhece a GÃ­ria de LadrÃ£o e um outro idioma de sua escolha.</p>
+			<p>Você adquiriu vários idiomas nas comunidades onde exerceu seus talentos de ladino. Você conhece a Gíria de Ladrão e um outro idioma de sua escolha.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Language" id="ID_WOTC_PHB_LANGUAGE_THIEVES_CANT" />
-			<select type="Language" name="Idioma (GÃ­ria de LadrÃ£o)" supports="Standard||Exotic" />
+			<select type="Language" name="Idioma (Gíria de Ladrão)" supports="Standard||Exotic" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 1: Maestria com Armas" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_WEAPON_MASTERY">
+	<element name="Nível 1: Maestria com Armas" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_WEAPON_MASTERY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_WEAPON_MASTERY</requirements>
 		<description>
-			<p>Seu treinamento com armas permite que vocÃª use as propriedades de maestria de dois tipos de armas de sua escolha com as quais vocÃª tenha proficiÃªncia, como Adagas e Arcos Curtos.</p>
-			<p class="indent">Sempre que vocÃª terminar um Descanso Longo, pode mudar os tipos de armas que escolheu. Por exemplo, vocÃª pode trocar para usar as propriedades de maestria de Cimitarras e Espadas Curtas.</p>
+			<p>Seu treinamento com armas permite que você use as propriedades de maestria de dois tipos de armas de sua escolha com as quais você tenha proficiência, como Adagas e Arcos Curtos.</p>
+			<p class="indent">Sempre que você terminar um Descanso Longo, pode mudar os tipos de armas que escolheu. Por exemplo, você pode trocar para usar as propriedades de maestria de Cimitarras e Espadas Curtas.</p>
 		</description>
 		<sheet alt="Maestria com Armas">
-			<description>Sempre que terminar um Descanso Longo, vocÃª pode mudar uma das maestrias de armas que possui para uma diferente.</description>
+			<description>Sempre que terminar um Descanso Longo, você pode mudar uma das maestrias de armas que possui para uma diferente.</description>
 		</sheet>
 		<rules>
 			<select type="Class Feature" name="Maestria com Armas (Ladino 1)" supports="Weapon Mastery" number="2"/>
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 2: AÃ§Ã£o Astuta" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_ACTION">
+	<element name="Nível 2: Ação Astuta" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_ACTION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_CUNNING_ACTION</requirements>
 		<description>
-			<p>Seu raciocÃ­nio rÃ¡pido e agilidade permitem que vocÃª se mova e aja rapidamente. No seu turno, vocÃª pode realizar uma das seguintes aÃ§Ãµes como AÃ§Ã£o BÃ´nus: Disparada, Desengajar ou Esconder-se.</p>
+			<p>Seu raciocínio rápido e agilidade permitem que você se mova e aja rapidamente. No seu turno, você pode realizar uma das seguintes ações como Ação Bônus: Disparada, Desengajar ou Esconder-se.</p>
 		</description>
-		<sheet alt="AÃ§Ã£o Astuta" action="Bonus Action">
-			<description>VocÃª pode realizar a aÃ§Ã£o Disparada, Desengajar ou Esconder-se.</description>
+		<sheet alt="Ação Astuta" action="Bonus Action">
+			<description>Você pode realizar a ação Disparada, Desengajar ou Esconder-se.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 3: Subclasse de Ladino" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_ROGUE_SUBCLASS">
+	<element name="Nível 3: Subclasse de Ladino" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_ROGUE_SUBCLASS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ROGUE_SUBCLASS</requirements>
 		<description>
-			<p>VocÃª ganha uma subclasse de Ladino Ã  sua escolha. Uma subclasse Ã© uma especializaÃ§Ã£o que lhe concede caracterÃ­sticas em certos nÃ­veis de Ladino. Pelo resto de sua carreira, vocÃª ganha cada uma das caracterÃ­sticas de sua subclasse que sejam do seu nÃ­vel de Ladino ou inferior.</p>
+			<p>Você ganha uma subclasse de Ladino à sua escolha. Uma subclasse é uma especialização que lhe concede características em certos níveis de Ladino. Pelo resto de sua carreira, você ganha cada uma das características de sua subclasse que sejam do seu nível de Ladino ou inferior.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -220,21 +220,21 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Mira EstÃ¡vel" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_STEADY_AIM">
+	<element name="Nível 3: Mira Estável" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_STEADY_AIM">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_STEADY_AIM</requirements>
 		<description>
-			<p>Como AÃ§Ã£o BÃ´nus, vocÃª concede a si mesmo Vantagem na sua prÃ³xima jogada de ataque no turno atual. VocÃª sÃ³ pode usar esta caracterÃ­stica se nÃ£o tiver se movido durante este turno, e apÃ³s usÃ¡-la, seu Deslocamento se torna 0 atÃ© o final do turno atual.</p>
+			<p>Como Ação Bônus, você concede a si mesmo Vantagem na sua próxima jogada de ataque no turno atual. Você só pode usar esta característica se não tiver se movido durante este turno, e após usá-la, seu Deslocamento se torna 0 até o final do turno atual.</p>
 		</description>
-		<sheet alt="Mira EstÃ¡vel" action="Bonus Action">
-			<description>VocÃª pode se dar Vantagem na prÃ³xima jogada de ataque no turno atual. VocÃª sÃ³ pode usar isso se nÃ£o tiver se movido no turno, e depois de usar, seu Deslocamento Ã© 0 atÃ© o final do turno.</description>
+		<sheet alt="Mira Estável" action="Bonus Action">
+			<description>Você pode se dar Vantagem na próxima jogada de ataque no turno atual. Você só pode usar isso se não tiver se movido no turno, e depois de usar, seu Deslocamento é 0 até o final do turno.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 4: Melhoria de Valor de Habilidade" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_ABILITY_SCORE_IMPROVEMENT">
+	<element name="Nível 4: Melhoria de Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_ABILITY_SCORE_IMPROVEMENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>VocÃª ganha o talento Melhoria de Valor de Habilidade ou outro talento de sua escolha para o qual vocÃª se qualifique. VocÃª ganha esta caracterÃ­stica novamente nos nÃ­veis de Ladino 8, 10, 12 e 16.</p>
+			<p>Você ganha o talento Melhoria de Valor de Habilidade ou outro talento de sua escolha para o qual você se qualifique. Você ganha esta característica novamente nos níveis de Ladino 8, 10, 12 e 16.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -246,19 +246,19 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 5: Golpe Astuto" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE">
+	<element name="Nível 5: Golpe Astuto" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_CUNNING_STRIKE||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_IMPROVED_CUNNING_STRIKE||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_DEVIOUS_STRIKES)</requirements>
 		<description>
-			<p>VocÃª desenvolveu maneiras astutas de usar seu Ataque Furtivo. Quando vocÃª causa dano de Ataque Furtivo, pode adicionar um dos seguintes efeitos de Golpe Astuto. Cada efeito tem um custo em dados, que Ã© o nÃºmero de dados de dano do Ataque Furtivo que vocÃª deve abrir mÃ£o para adicionar o efeito. VocÃª remove o dado antes de rolar, e o efeito ocorre imediatamente apÃ³s o dano do ataque ser causado. Por exemplo, se vocÃª adicionar o efeito Veneno, remova 1d6 do dano do Ataque Furtivo antes de rolar.</p>
-			<p class="indent">Se um efeito de Golpe Astuto exigir um teste de resistÃªncia, a CD Ã© igual a 8 mais o seu modificador de Destreza e seu BÃ´nus de ProficiÃªncia.</p>
-			<p class="indent"><em><strong>Veneno (Custo: 1d6).</strong></em> VocÃª adiciona uma toxina ao seu golpe, forÃ§ando o alvo a fazer um teste de resistÃªncia de ConstituiÃ§Ã£o. Em uma falha, o alvo fica com a condiÃ§Ã£o Envenenado por 1 minuto. No final de cada um dos seus turnos, o alvo Envenenado repete o teste, encerrando o efeito sobre si mesmo num sucesso.</p>
-			<p class="indent">Para usar este efeito, vocÃª deve ter um Kit de Venenos em sua pessoa.</p>
-			<p class="indent"><em><strong>Derrubar (Custo: 1d6).</strong></em> Se o alvo for Grande ou menor, ele deve ser bem-sucedido em um teste de resistÃªncia de Destreza ou ficarÃ¡ com a condiÃ§Ã£o CaÃ­do.</p>
-			<p class="indent"><em><strong>Recuar (Custo: 1d6).</strong></em> Imediatamente apÃ³s o ataque, vocÃª se move atÃ© metade de seu Deslocamento sem provocar Ataques de Oportunidade.</p>
+			<p>Você desenvolveu maneiras astutas de usar seu Ataque Furtivo. Quando você causa dano de Ataque Furtivo, pode adicionar um dos seguintes efeitos de Golpe Astuto. Cada efeito tem um custo em dados, que é o número de dados de dano do Ataque Furtivo que você deve abrir mão para adicionar o efeito. Você remove o dado antes de rolar, e o efeito ocorre imediatamente após o dano do ataque ser causado. Por exemplo, se você adicionar o efeito Veneno, remova 1d6 do dano do Ataque Furtivo antes de rolar.</p>
+			<p class="indent">Se um efeito de Golpe Astuto exigir um teste de resistência, a CD é igual a 8 mais o seu modificador de Destreza e seu Bônus de Proficiência.</p>
+			<p class="indent"><em><strong>Veneno (Custo: 1d6).</strong></em> Você adiciona uma toxina ao seu golpe, forçando o alvo a fazer um teste de resistência de Constituição. Em uma falha, o alvo fica com a condição Envenenado por 1 minuto. No final de cada um dos seus turnos, o alvo Envenenado repete o teste, encerrando o efeito sobre si mesmo num sucesso.</p>
+			<p class="indent">Para usar este efeito, você deve ter um Kit de Venenos em sua pessoa.</p>
+			<p class="indent"><em><strong>Derrubar (Custo: 1d6).</strong></em> Se o alvo for Grande ou menor, ele deve ser bem-sucedido em um teste de resistência de Destreza ou ficará com a condição Caído.</p>
+			<p class="indent"><em><strong>Recuar (Custo: 1d6).</strong></em> Imediatamente após o ataque, você se move até metade de seu Deslocamento sem provocar Ataques de Oportunidade.</p>
 		</description>
 		<sheet alt="Golpe Astuto">
-			<description>Quando causar dano de Ataque Furtivo, vocÃª pode adicionar um dos seguintes efeitos de Golpe Astuto abrindo mÃ£o dos dados indicados do Ataque Furtivo:</description>
-			<description level="11">Quando causar dano de Ataque Furtivo, vocÃª pode adicionar dois dos seguintes efeitos de Golpe Astuto abrindo mÃ£o dos dados indicados do Ataque Furtivo:</description>
+			<description>Quando causar dano de Ataque Furtivo, você pode adicionar um dos seguintes efeitos de Golpe Astuto abrindo mão dos dados indicados do Ataque Furtivo:</description>
+			<description level="11">Quando causar dano de Ataque Furtivo, você pode adicionar dois dos seguintes efeitos de Golpe Astuto abrindo mão dos dados indicados do Ataque Furtivo:</description>
 		</sheet>
 		<rules>
 			<stat name="cunning strike:dc" value="8" />
@@ -273,121 +273,121 @@
 			<select type="Class Feature" name="Obscurecer" supports="PHB24 Cunning Strike Obscure" default="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_OBSCURE" requirements="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES,!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_DEVIOUS_STRIKES_OBSCURE" />
 		</rules>
 	</element>
-	<element name="Veneno (Custo: 1d6)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE_POISON">
+	<element name="Veneno (Custo: 1d6)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE_POISON">
 		<supports>PHB24 Cunning Strike Poison</supports>
 		<compendium display="false" />
 		<description>
-			<p>VocÃª adiciona uma toxina ao seu golpe, forÃ§ando o alvo a fazer um teste de resistÃªncia de ConstituiÃ§Ã£o. Em uma falha, o alvo fica com a condiÃ§Ã£o Envenenado por 1 minuto. No final de cada um dos seus turnos, o alvo Envenenado repete o teste, encerrando o efeito sobre si mesmo num sucesso.</p>
-			<p class="indent">Para usar este efeito, vocÃª deve ter um Kit de Venenos em sua pessoa.</p>
+			<p>Você adiciona uma toxina ao seu golpe, forçando o alvo a fazer um teste de resistência de Constituição. Em uma falha, o alvo fica com a condição Envenenado por 1 minuto. No final de cada um dos seus turnos, o alvo Envenenado repete o teste, encerrando o efeito sobre si mesmo num sucesso.</p>
+			<p class="indent">Para usar este efeito, você deve ter um Kit de Venenos em sua pessoa.</p>
 		</description>
 		<sheet alt="Veneno (1d6)">
-			<description>O alvo deve ser bem-sucedido em um teste de ConstituiÃ§Ã£o CD{{cunning strike:dc}} ou ficarÃ¡ Envenenado por 1 minuto. No final de cada turno dele, o alvo Envenenado repete a salvaguarda, encerrando o efeito num sucesso. Para usar isto, vocÃª deve ter um Kit de Venenos com vocÃª.</description>
+			<description>O alvo deve ser bem-sucedido em um teste de Constituição CD{{cunning strike:dc}} ou ficará Envenenado por 1 minuto. No final de cada turno dele, o alvo Envenenado repete a salvaguarda, encerrando o efeito num sucesso. Para usar isto, você deve ter um Kit de Venenos com você.</description>
 		</sheet>
 	</element>
-	<element name="Derrubar (Custo: 1d6)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE_TRIP">
+	<element name="Derrubar (Custo: 1d6)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE_TRIP">
 		<supports>PHB24 Cunning Strike Trip</supports>
 		<compendium display="false" />
 		<description>
-			<p>Se o alvo for Grande ou menor, ele deve ser bem-sucedido em um teste de resistÃªncia de Destreza ou ficarÃ¡ com a condiÃ§Ã£o CaÃ­do.</p>
+			<p>Se o alvo for Grande ou menor, ele deve ser bem-sucedido em um teste de resistência de Destreza ou ficará com a condição Caído.</p>
 		</description>
 		<sheet alt="Derrubar (1d6)">
-			<description>Se o alvo for Grande ou menor, deve passar em teste de Destreza CD{{cunning strike:dc}} ou ficarÃ¡ CaÃ­do.</description>
+			<description>Se o alvo for Grande ou menor, deve passar em teste de Destreza CD{{cunning strike:dc}} ou ficará Caído.</description>
 		</sheet>
 	</element>
-	<element name="Recuar (Custo: 1d6)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE_WITHDRAW">
+	<element name="Recuar (Custo: 1d6)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE_WITHDRAW">
 		<supports>PHB24 Cunning Strike Withdraw</supports>
 		<compendium display="false" />
 		<description>
-			<p>Imediatamente apÃ³s o ataque, vocÃª se move atÃ© metade de seu Deslocamento sem provocar Ataques de Oportunidade.</p>
+			<p>Imediatamente após o ataque, você se move até metade de seu Deslocamento sem provocar Ataques de Oportunidade.</p>
 		</description>
 		<sheet alt="Recuar (1d6)">
-			<description>Mova-se atÃ© metade de seu Deslocamento sem provocar Ataques de Oportunidade.</description>
+			<description>Mova-se até metade de seu Deslocamento sem provocar Ataques de Oportunidade.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 5: Esquiva Sobrenatural" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_UNCANNY_DODGE">
+	<element name="Nível 5: Esquiva Sobrenatural" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_UNCANNY_DODGE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_UNCANNY_DODGE</requirements>
 		<description>
-			<p>Quando um atacante que vocÃª possa ver atinge vocÃª com uma jogada de ataque, vocÃª pode usar uma ReaÃ§Ã£o para reduzir Ã  metade o dano do ataque contra vocÃª (arredondado para baixo).</p>
+			<p>Quando um atacante que você possa ver atinge você com uma jogada de ataque, você pode usar uma Reação para reduzir à metade o dano do ataque contra você (arredondado para baixo).</p>
 		</description>
 		<sheet alt="Esquiva Sobrenatural" action="Reaction">
-			<description>Quando uma criatura que vocÃª possa ver atinge vocÃª com um ataque, vocÃª pode reduzir o dano do ataque pela metade.</description>
+			<description>Quando uma criatura que você possa ver atinge você com um ataque, você pode reduzir o dano do ataque pela metade.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 7: EvasÃ£o" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EVASION">
+	<element name="Nível 7: Evasão" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EVASION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_EVASION</requirements>
 		<description>
-			<p>VocÃª pode desviar-se agilmente do caminho de certos perigos. Quando vocÃª for submetido a um efeito que permita um teste de resistÃªncia de Destreza para sofrer apenas metade do dano, em vez disso vocÃª nÃ£o sofre nenhum dano se for bem-sucedido no teste de resistÃªncia e sofre apenas metade do dano se falhar. VocÃª nÃ£o pode usar esta caracterÃ­stica se estiver com a condiÃ§Ã£o Incapacitado.</p>
+			<p>Você pode desviar-se agilmente do caminho de certos perigos. Quando você for submetido a um efeito que permita um teste de resistência de Destreza para sofrer apenas metade do dano, em vez disso você não sofre nenhum dano se for bem-sucedido no teste de resistência e sofre apenas metade do dano se falhar. Você não pode usar esta característica se estiver com a condição Incapacitado.</p>
 		</description>
-		<sheet alt="EvasÃ£o">
-			<description>Quando vocÃª for forÃ§ado a fazer um teste de Destreza para sofrer apenas metade do dano e nÃ£o estiver com a condiÃ§Ã£o Incapacitado, em vez disso vocÃª nÃ£o sofre nenhum dano se obtiver sucesso, e sofre apenas metade do dano se falhar.</description>
+		<sheet alt="Evasão">
+			<description>Quando você for forçado a fazer um teste de Destreza para sofrer apenas metade do dano e não estiver com a condição Incapacitado, em vez disso você não sofre nenhum dano se obtiver sucesso, e sofre apenas metade do dano se falhar.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 7: Talento ConfiÃ¡vel" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_RELIABLE_TALENT">
+	<element name="Nível 7: Talento Confiável" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_RELIABLE_TALENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_RELIABLE_TALENT</requirements>
 		<description>
-			<p>Sempre que vocÃª fizer um teste de habilidade que use uma das suas proficiÃªncias em perÃ­cia ou ferramenta, vocÃª pode tratar uma rolagem de 9 ou menos no d20 como se fosse um 10.</p>
+			<p>Sempre que você fizer um teste de habilidade que use uma das suas proficiências em perícia ou ferramenta, você pode tratar uma rolagem de 9 ou menos no d20 como se fosse um 10.</p>
 		</description>
-		<sheet alt="Talento ConfiÃ¡vel">
-			<description>Sempre que fizer um teste de habilidade que use uma de suas proficiÃªncias em perÃ­cia ou ferramenta, vocÃª pode tratar um d20 rolado como 9 ou menos como um 10.</description>
+		<sheet alt="Talento Confiável">
+			<description>Sempre que fizer um teste de habilidade que use uma de suas proficiências em perícia ou ferramenta, você pode tratar um d20 rolado como 9 ou menos como um 10.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 11: Golpe Astuto Aprimorado" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_IMPROVED_CUNNING_STRIKE">
+	<element name="Nível 11: Golpe Astuto Aprimorado" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_IMPROVED_CUNNING_STRIKE">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_CUNNING_STRIKE||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_IMPROVED_CUNNING_STRIKE||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_DEVIOUS_STRIKES)</requirements>
 		<description>
-			<p>VocÃª pode usar atÃ© dois efeitos de Golpe Astuto quando causa dano de Ataque Furtivo, pagando o custo em dados para cada efeito.</p>
+			<p>Você pode usar até dois efeitos de Golpe Astuto quando causa dano de Ataque Furtivo, pagando o custo em dados para cada efeito.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="NÃ­vel 14: Golpes TraiÃ§oeiros" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES">
+	<element name="Nível 14: Golpes Traiçoeiros" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_CUNNING_STRIKE||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_IMPROVED_CUNNING_STRIKE||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_DEVIOUS_STRIKES)</requirements>
 		<description>
-			<p>VocÃª praticou novas formas de usar seu Ataque Furtivo de forma desonesta. Os seguintes efeitos agora estÃ£o entre suas opÃ§Ãµes de Golpe Astuto.</p>
-			<p class="indent"><em><strong>Pasmar (Custo: 2d6).</strong></em> O alvo deve ser bem-sucedido em um teste de resistÃªncia de ConstituiÃ§Ã£o, ou no prÃ³ximo turno dele, poderÃ¡ fazer apenas um dos seguintes: mover-se ou usar uma aÃ§Ã£o ou AÃ§Ã£o BÃ´nus.</p>
-			<p class="indent"><em><strong>Nocautear (Custo: 6d6).</strong></em> O alvo deve ser bem-sucedido em um teste de resistÃªncia de ConstituiÃ§Ã£o, ou ficarÃ¡ com a condiÃ§Ã£o Inconsciente por 1 minuto ou atÃ© sofrer qualquer dano. O alvo Inconsciente repete o teste no final de cada um dos turnos dele, encerrando o efeito sobre si mesmo num sucesso.</p>
-			<p class="indent"><em><strong>Obscurecer (Custo: 3d6).</strong></em> O alvo deve ser bem-sucedido em um teste de resistÃªncia de Destreza, ou ficarÃ¡ com a condiÃ§Ã£o Cego atÃ© o final do prÃ³ximo turno dele.</p>
+			<p>Você praticou novas formas de usar seu Ataque Furtivo de forma desonesta. Os seguintes efeitos agora estão entre suas opções de Golpe Astuto.</p>
+			<p class="indent"><em><strong>Pasmar (Custo: 2d6).</strong></em> O alvo deve ser bem-sucedido em um teste de resistência de Constituição, ou no próximo turno dele, poderá fazer apenas um dos seguintes: mover-se ou usar uma ação ou Ação Bônus.</p>
+			<p class="indent"><em><strong>Nocautear (Custo: 6d6).</strong></em> O alvo deve ser bem-sucedido em um teste de resistência de Constituição, ou ficará com a condição Inconsciente por 1 minuto ou até sofrer qualquer dano. O alvo Inconsciente repete o teste no final de cada um dos turnos dele, encerrando o efeito sobre si mesmo num sucesso.</p>
+			<p class="indent"><em><strong>Obscurecer (Custo: 3d6).</strong></em> O alvo deve ser bem-sucedido em um teste de resistência de Destreza, ou ficará com a condição Cego até o final do próximo turno dele.</p>
 		</description>
 		<sheet display="false" />
 	</element>
-	<element name="Pasmar (Custo: 2d6)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_DAZE">
+	<element name="Pasmar (Custo: 2d6)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_DAZE">
 		<supports>PHB24 Cunning Strike Daze</supports>
 		<compendium display="false" />
 		<description>
-			<p>O alvo deve ser bem-sucedido em um teste de resistÃªncia de ConstituiÃ§Ã£o, ou no prÃ³ximo turno dele, poderÃ¡ fazer apenas um dos seguintes: mover-se ou usar uma aÃ§Ã£o ou AÃ§Ã£o BÃ´nus.</p>
+			<p>O alvo deve ser bem-sucedido em um teste de resistência de Constituição, ou no próximo turno dele, poderá fazer apenas um dos seguintes: mover-se ou usar uma ação ou Ação Bônus.</p>
 		</description>
 		<sheet alt="Pasmar (2d6)">
-			<description>O alvo deve passar num teste de ConstituiÃ§Ã£o CD{{cunning strike:dc}} ou poderÃ¡ apenas mover-se, usar uma aÃ§Ã£o, ou uma AÃ§Ã£o BÃ´nus no prÃ³ximo turno dele.</description>
+			<description>O alvo deve passar num teste de Constituição CD{{cunning strike:dc}} ou poderá apenas mover-se, usar uma ação, ou uma Ação Bônus no próximo turno dele.</description>
 		</sheet>
 	</element>
-	<element name="Nocautear (Custo: 6d6)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_KNOCK_OUT">
+	<element name="Nocautear (Custo: 6d6)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_KNOCK_OUT">
 		<supports>PHB24 Cunning Strike Knock Out</supports>
 		<compendium display="false" />
 		<description>
-			<p>O alvo deve ser bem-sucedido em um teste de resistÃªncia de ConstituiÃ§Ã£o, ou ficarÃ¡ com a condiÃ§Ã£o Inconsciente por 1 minuto ou atÃ© sofrer qualquer dano. O alvo Inconsciente repete o teste no final de cada um dos turnos dele, encerrando o efeito sobre si mesmo num sucesso.</p>
+			<p>O alvo deve ser bem-sucedido em um teste de resistência de Constituição, ou ficará com a condição Inconsciente por 1 minuto ou até sofrer qualquer dano. O alvo Inconsciente repete o teste no final de cada um dos turnos dele, encerrando o efeito sobre si mesmo num sucesso.</p>
 		</description>
 		<sheet alt="Nocautear (6d6)">
-			<description>O alvo deve passar num teste de ConstituiÃ§Ã£o CD{{cunning strike:dc}} ou ficarÃ¡ Inconsciente por 1 minuto ou atÃ© sofrer qualquer dano.</description>
+			<description>O alvo deve passar num teste de Constituição CD{{cunning strike:dc}} ou ficará Inconsciente por 1 minuto ou até sofrer qualquer dano.</description>
 		</sheet>
 	</element>
-	<element name="Obscurecer (Custo: 3d6)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_OBSCURE">
+	<element name="Obscurecer (Custo: 3d6)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_OBSCURE">
 		<supports>PHB24 Cunning Strike Obscure</supports>
 		<compendium display="false" />
 		<description>
-			<p>O alvo deve ser bem-sucedido em um teste de resistÃªncia de ConstituiÃ§Ã£o, ou no prÃ³ximo turno dele, poderÃ¡ fazer apenas um dos seguintes: mover-se ou usar uma aÃ§Ã£o ou AÃ§Ã£o BÃ´nus.</p>
+			<p>O alvo deve ser bem-sucedido em um teste de resistência de Constituição, ou no próximo turno dele, poderá fazer apenas um dos seguintes: mover-se ou usar uma ação ou Ação Bônus.</p>
 		</description>
 		<sheet alt="Obscurecer (3d6)">
-			<description>O alvo deve passar num teste de Destreza CD{{cunning strike:dc}} ou ficarÃ¡ Cego atÃ© o final do prÃ³ximo turno dele.</description>
+			<description>O alvo deve passar num teste de Destreza CD{{cunning strike:dc}} ou ficará Cego até o final do próximo turno dele.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 15: Mente Escorregadia" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_SLIPPERY_MIND">
+	<element name="Nível 15: Mente Escorregadia" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_SLIPPERY_MIND">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_SLIPPERY_MIND</requirements>
 		<description>
-			<p>Sua mente astuta Ã© excepcionalmente difÃ­cil de controlar. VocÃª ganha proficiÃªncia em testes de resistÃªncia de Sabedoria e Carisma.</p>
+			<p>Sua mente astuta é excepcionalmente difícil de controlar. Você ganha proficiência em testes de resistência de Sabedoria e Carisma.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -396,41 +396,41 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 18: Esquivo" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_ELUSIVE">
+	<element name="Nível 18: Esquivo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_ELUSIVE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ELUSIVE</requirements>
 		<description>
-			<p>VocÃª Ã© tÃ£o evasivo que os atacantes raramente ganham vantagem contra vocÃª. Nenhuma jogada de ataque pode ter Vantagem contra vocÃª a menos que vocÃª tenha a condiÃ§Ã£o Incapacitado.</p>
+			<p>Você é tão evasivo que os atacantes raramente ganham vantagem contra você. Nenhuma jogada de ataque pode ter Vantagem contra você a menos que você tenha a condição Incapacitado.</p>
 		</description>
 		<sheet alt="Esquivo">
-			<description>Nenhuma jogada de ataque tem Vantagem contra vocÃª a nÃ£o ser que vocÃª esteja Incapacitado.</description>
+			<description>Nenhuma jogada de ataque tem Vantagem contra você a não ser que você esteja Incapacitado.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 19: DÃ¡diva Ã‰pica" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EPIC_BOON">
+	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EPIC_BOON">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_EPIC_BOON</requirements>
 		<description>
-			<p>VocÃª ganha um talento de DÃ¡diva Ã‰pica ou outro talento de sua escolha para o qual se qualifique. A DÃ¡diva do EspÃ­rito Noturno Ã© recomendada.</p>
+			<p>Você ganha um talento de Dádiva Épica ou outro talento de sua escolha para o qual se qualifique. A Dádiva do Espírito Noturno é recomendada.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="DÃ¡diva Ã‰pica (Ladino 19)" level="19" />
+			<select type="Feat" name="Dádiva Épica (Ladino 19)" level="19" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 20: Golpe de Sorte" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_STROKE_OF_LUCK">
+	<element name="Nível 20: Golpe de Sorte" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_STROKE_OF_LUCK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_STROKE_OF_LUCK</requirements>
 		<description>
-			<p>VocÃª tem um dom maravilhoso de ter sucesso quando mais precisa. Se vocÃª falhar em um Teste de D20, pode transformar a rolagem em um 20.</p>
-			<p>Uma vez que vocÃª usar esta caracterÃ­stica, nÃ£o poderÃ¡ usÃ¡-la novamente atÃ© terminar um Descanso Curto ou Longo.</p>
+			<p>Você tem um dom maravilhoso de ter sucesso quando mais precisa. Se você falhar em um Teste de D20, pode transformar a rolagem em um 20.</p>
+			<p>Uma vez que você usar esta característica, não poderá usá-la novamente até terminar um Descanso Curto ou Longo.</p>
 		</description>
 		<sheet alt="Golpe de Sorte" usage="1/Descanso Curto">
-			<description>Se vocÃª falhar em um Teste de D20, pode transformar a rolagem em um 20.</description>
+			<description>Se você falhar em um Teste de D20, pode transformar a rolagem em um 20.</description>
 		</sheet>
 	</element>
 
 	<element name="Expertise Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_EXPERTISE" />
 	<element name="Sneak Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_SNEAK_ATTACK" />
-	<element name="Thievesâ€™ Cant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEVES_CANT" />
+	<element name="Thieves’ Cant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEVES_CANT" />
 	<element name="Weapon Mastery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_WEAPON_MASTERY" />
 	<element name="Cunning Action Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_CUNNING_ACTION" />
 	<element name="Rogue Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ROGUE_SUBCLASS" />

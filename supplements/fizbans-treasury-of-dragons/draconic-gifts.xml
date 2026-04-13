@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -59,8 +59,8 @@
 
 	<element name="Draconic Senses" type="Magic Item" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_MAGIC_ITEM_DRACONIC_SENSES">
 		<description>
-			<p>You gain keen senses like a dragonâ€™s.</p>
-			<p class="indent"><b><i>Blindsight.</i></b> You have blindsight to a range of 10 feet. Within that range, you can effectively see anything that isnâ€™t behind total cover, even if youâ€™re blinded or in darkness. Moreover, you can see invisible creatures within that range, unless the creatures successfully hide from you.</p>
+			<p>You gain keen senses like a dragon’s.</p>
+			<p class="indent"><b><i>Blindsight.</i></b> You have blindsight to a range of 10 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see invisible creatures within that range, unless the creatures successfully hide from you.</p>
 			<p class="indent"><b><i>Keen Senses.</i></b> You have advantage on Wisdom (Perception) checks.</p>
 		</description>
 		<setters>
@@ -118,9 +118,9 @@
 
 	<element name="Frightful Presence" type="Magic Item" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_MAGIC_ITEM_FRIGHTFUL_PRESENCE">
 		<description>
-			<p>Echoes of a dragonâ€™s might linger around you, and you can call on them to inspire fear in those who stand against you.</p>			
+			<p>Echoes of a dragon’s might linger around you, and you can call on them to inspire fear in those who stand against you.</p>			
 			<p class="indent">As a bonus action, you can manifest your frightful presence. Each creature of your choice that is within 120 feet of you and aware of you must make a Wisdom saving throw against a DC equal to 8 + your proficiency bonus + your Charisma modifier. A creature that fails becomes frightened of you for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
-			<p class="indent">Once you use this ability a number of times equal to your proficiency bonus, you canâ€™t use it again until you finish a long rest.</p>
+			<p class="indent">Once you use this ability a number of times equal to your proficiency bonus, you can’t use it again until you finish a long rest.</p>
 		</description>
 		<setters>
 			<set name="keywords">frightened, bonus action, charisma, dragons, draconic gift</set>
@@ -136,9 +136,9 @@
 	<element name="Frightful Presence" type="Racial Trait" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_RACIAL_TRAIT_FRIGHTFUL_PRESENCE">
 		<compendium display="false" />
 		<description>
-			<p>Echoes of a dragonâ€™s might linger around you, and you can call on them to inspire fear in those who stand against you.</p>			
+			<p>Echoes of a dragon’s might linger around you, and you can call on them to inspire fear in those who stand against you.</p>			
 			<p class="indent">As a bonus action, you can manifest your frightful presence. Each creature of your choice that is within 120 feet of you and aware of you must make a Wisdom saving throw against a DC equal to 8 + your proficiency bonus + your Charisma modifier. A creature that fails becomes frightened of you for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
-			<p class="indent">Once you use this ability a number of times equal to your proficiency bonus, you canâ€™t use it again until you finish a long rest.</p>
+			<p class="indent">Once you use this ability a number of times equal to your proficiency bonus, you can’t use it again until you finish a long rest.</p>
 		</description>
 		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
 			<description>You can manifest your frightful presence. Each creature of your choice that is within 120 feet of you and aware of you must make a Wisdom saving throw against a DC{{frightful presence gift:dc}}. A creature that fails becomes frightened of you for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</description>
@@ -153,7 +153,7 @@
 	<element name="Psionic Reach" type="Magic Item" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_MAGIC_ITEM_PSIONIC_REACH">
 		<description>
 			<p>The psionic energy of a gem dragon empowers your mind. You gain resistance to psychic damage.</p>			
-			<p class="indent">In addition, you learn the <i>telekinesis</i> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you canâ€™t do so again until you finish a long rest. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Intelligence, Wisdom, or Charisma when you cast the spell with this gift (choose when you gain the gift).</p>
+			<p class="indent">In addition, you learn the <i>telekinesis</i> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can’t do so again until you finish a long rest. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Intelligence, Wisdom, or Charisma when you cast the spell with this gift (choose when you gain the gift).</p>
 		</description>
 		<setters>
 			<set name="keywords">psychic, resistance, telekinesis, dragons, draconic gift</set>
@@ -172,7 +172,7 @@
 		<compendium display="false" />
 		<description>
 			<p>The psionic energy of a gem dragon empowers your mind. You gain resistance to psychic damage.</p>			
-			<p class="indent">In addition, you learn the <i>telekinesis</i> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you canâ€™t do so again until you finish a long rest. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Intelligence, Wisdom, or Charisma when you cast the spell with this gift (choose when you gain the gift).</p>
+			<p class="indent">In addition, you learn the <i>telekinesis</i> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can’t do so again until you finish a long rest. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Intelligence, Wisdom, or Charisma when you cast the spell with this gift (choose when you gain the gift).</p>
 		</description>
 		<sheet alt="Psionic Reach" usage="1/Long Rest" >
 			<description>You learn the telekinesis spell. You can cast this spell without expending a spell slot. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Intelligence when you cast the spell with this gift.</description>
@@ -182,7 +182,7 @@
 		<compendium display="false" />
 		<description>
 			<p>The psionic energy of a gem dragon empowers your mind. You gain resistance to psychic damage.</p>			
-			<p class="indent">In addition, you learn the <i>telekinesis</i> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you canâ€™t do so again until you finish a long rest. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Wisdom, Wisdom, or Charisma when you cast the spell with this gift (choose when you gain the gift).</p>
+			<p class="indent">In addition, you learn the <i>telekinesis</i> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can’t do so again until you finish a long rest. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Wisdom, Wisdom, or Charisma when you cast the spell with this gift (choose when you gain the gift).</p>
 		</description>
 		<sheet alt="Psionic Reach" usage="1/Long Rest" >
 			<description>You learn the telekinesis spell. You can cast this spell without expending a spell slot. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Wisdom when you cast the spell with this gift.</description>
@@ -192,7 +192,7 @@
 		<compendium display="false" />
 		<description>
 			<p>The psionic energy of a gem dragon empowers your mind. You gain resistance to psychic damage.</p>			
-			<p class="indent">In addition, you learn the <i>telekinesis</i> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you canâ€™t do so again until you finish a long rest. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Charisma, Wisdom, or Charisma when you cast the spell with this gift (choose when you gain the gift).</p>
+			<p class="indent">In addition, you learn the <i>telekinesis</i> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can’t do so again until you finish a long rest. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Charisma, Wisdom, or Charisma when you cast the spell with this gift (choose when you gain the gift).</p>
 		</description>
 		<sheet alt="Psionic Reach" usage="1/Long Rest" >
 			<description>You learn the telekinesis spell. You can cast this spell without expending a spell slot. You can also cast this spell using spell slots you have of the appropriate level. The spellcasting ability is Charisma when you cast the spell with this gift.</description>
@@ -219,9 +219,9 @@
 	<element name="Tongue of the Dragon" type="Magic Item" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_MAGIC_ITEM_TONGUE_OF_THE_DRAGON">
 		<description>
 			<p>You gain some of the majestic presence of a dragon.</p>
-			<p class="indent"><b><i>Dragonâ€™s Speech.</i></b> You can speak, read, and write Draconic.</p>
-			<p class="indent"><b><i>Dragonâ€™s Voice.</i></b> As a bonus action, you can make your voice audible up to 300 feet away for 1 minute.</p>
-			<p class="indent"><b><i>Dragonâ€™s Wiles.</i></b> You have advantage on Charisma (Persuasion) checks.</p>
+			<p class="indent"><b><i>Dragon’s Speech.</i></b> You can speak, read, and write Draconic.</p>
+			<p class="indent"><b><i>Dragon’s Voice.</i></b> As a bonus action, you can make your voice audible up to 300 feet away for 1 minute.</p>
+			<p class="indent"><b><i>Dragon’s Wiles.</i></b> You have advantage on Charisma (Persuasion) checks.</p>
 		</description>
 		<setters>
 			<set name="keywords">language, bonus action, advantage, persuasion, dragons, draconic gift</set>
@@ -236,7 +236,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_FTOD_RACIAL_TRAIT_TONGUE_OF_THE_DRAGON_DRAGONS_WILES" />
 		</rules>
 	</element>	
-	<element name="Dragonâ€™s Voice" type="Racial Trait" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_RACIAL_TRAIT_TONGUE_OF_THE_DRAGON_DRAGONS_VOICE">
+	<element name="Dragon’s Voice" type="Racial Trait" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_RACIAL_TRAIT_TONGUE_OF_THE_DRAGON_DRAGONS_VOICE">
 		<compendium display="false" />
 		<description>
 			<p>As a bonus action, you can make your voice audible up to 300 feet away for 1 minute.</p>
@@ -245,7 +245,7 @@
 			<description>You can make your voice audible up to 300 feet away for 1 minute.</description>
 		</sheet>
 	</element>
-	<element name="Dragonâ€™s Wiles" type="Racial Trait" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_RACIAL_TRAIT_TONGUE_OF_THE_DRAGON_DRAGONS_WILES">
+	<element name="Dragon’s Wiles" type="Racial Trait" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_RACIAL_TRAIT_TONGUE_OF_THE_DRAGON_DRAGONS_WILES">
 		<compendium display="false" />
 		<description>
 			<p>You have advantage on Charisma (Persuasion) checks.</p>

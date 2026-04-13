@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Unearthed Arcana: Races of Eberron</name>
-		<description>Races from the world of Eberron return to Unearthed Arcana this month, with the kalashtar joining revised versions of the changeling, shifter, and warforged. For more information about that world, see Wayfinderâ€™s Guide to Eberron, available on the Dungeon Masters Guild (dmsguild.com).</description>
+		<description>Races from the world of Eberron return to Unearthed Arcana this month, with the kalashtar joining revised versions of the changeling, shifter, and warforged. For more information about that world, see Wayfinder’s Guide to Eberron, available on the Dungeon Masters Guild (dmsguild.com).</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/races-eberron">Wizards of the Coast</author>
 		<update version="0.0.3">
 			<file name="20180723.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2018/20180723.xml" />
@@ -11,7 +11,7 @@
 
 	<element name="Unearthed Arcana: Races of Eberron" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20180723">
 		<description>
-			<p>Races from the world of Eberron return to Unearthed Arcana this month, with the kalashtar joining revised versions of the changeling, shifter, and warforged. For more information about that world, see Wayfinderâ€™s Guide to Eberron, available on the Dungeon Masters Guild (dmsguild.com).</p>
+			<p>Races from the world of Eberron return to Unearthed Arcana this month, with the kalashtar joining revised versions of the changeling, shifter, and warforged. For more information about that world, see Wayfinder’s Guide to Eberron, available on the Dungeon Masters Guild (dmsguild.com).</p>
 		</description>
 		<setters>
 			<set name="abbreviation">UA20180723</set>

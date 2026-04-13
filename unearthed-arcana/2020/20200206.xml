@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Unearthed Arcana: Subclasses, Part 2</name>
@@ -60,7 +60,7 @@
 			<p>Your mastery over the Song of Creation allows you to magically bring items to life. As an action, you can target a Large or smaller nonmagical item you can see within 30 feet of you and animate it. The animate item uses the Dancing Item stat block and is under your control for 1 hour or until it is reduced to 0 hit points.</p>
 			<p class="indent">In combat, the item shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the Dash, Disengage, Help, Hide, or Search action.</p>
 			<p class="indent">When you use your Bardic Inspiration feature, you can command which action your animated item takes as part of the same bonus action.</p>
-			<p class="indent">Once you animate an item with this feature, you canâ€™t do so again until you finish a long rest or until you expend a spell slot of 3rd level or higher to use this feature. You can have only one item animated by this feature at a time; if you use this action and already have a dancing item from this feature, the first one immediately becomes inanimate.</p>			
+			<p class="indent">Once you animate an item with this feature, you can’t do so again until you finish a long rest or until you expend a spell slot of 3rd level or higher to use this feature. You can have only one item animated by this feature at a time; if you use this action and already have a dancing item from this feature, the first one immediately becomes inanimate.</p>			
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
 			<description>You can target a Large or smaller nonmagical item you can see within 30 feet of you and animate it. It is under your control for 1 hour or until it is reduced to 0 hp.
@@ -75,13 +75,13 @@
 	<element name="Performance of Creation" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 2" id="ID_WOTC_UA20200206_ARCHETYPE_FEATURE_CREATION_PERFORMANCE_OF_CREATION">
 		<description>
 			<p><em>14th-level College of Creation feature</em></p>
-			<p>Your performance can manipulate the magic of creation, briefly transforming the world around you. As an action, you can create one nonmagical item of your choice in an unoccupied space within 10 feet of you. The item must appear on a surface or in a liquid that can support it. The gp value of the item canâ€™t be more than 20 times your bard level and must be Large or smaller. Tiny glimmering, intangible notes float around it, and a creature can faintly hear music when touching it. For examples of items you can create, see the Armor, Weapons, Adventuring Gear, Tools, and Mounts and Vehicles tables in chapter 5, â€œEquipment,â€ of the Playerâ€™s Handbook.</p>
-			<p class="indent">The created item disappears at the end of your next turn, unless you use your action to maintain it. Each time you use your action in this way, the itemâ€™s duration is extended to the end of your next turn, up to a maximum of 1 minute. If you maintain the item for the full minute, it continues to exist for a number of hours equal to your bard level.</p>
-			<p class="indent">Once you create an item with this feature, you canâ€™t do so again until you finish a long rest or until you expend a spell slot of 5th level or higher to use this feature. You can have only one item created by this feature at a time; if you use this action and already have an item from this feature, the first one immediately vanishes.</p>			
+			<p>Your performance can manipulate the magic of creation, briefly transforming the world around you. As an action, you can create one nonmagical item of your choice in an unoccupied space within 10 feet of you. The item must appear on a surface or in a liquid that can support it. The gp value of the item can’t be more than 20 times your bard level and must be Large or smaller. Tiny glimmering, intangible notes float around it, and a creature can faintly hear music when touching it. For examples of items you can create, see the Armor, Weapons, Adventuring Gear, Tools, and Mounts and Vehicles tables in chapter 5, “Equipment,” of the Player’s Handbook.</p>
+			<p class="indent">The created item disappears at the end of your next turn, unless you use your action to maintain it. Each time you use your action in this way, the item’s duration is extended to the end of your next turn, up to a maximum of 1 minute. If you maintain the item for the full minute, it continues to exist for a number of hours equal to your bard level.</p>
+			<p class="indent">Once you create an item with this feature, you can’t do so again until you finish a long rest or until you expend a spell slot of 5th level or higher to use this feature. You can have only one item created by this feature at a time; if you use this action and already have an item from this feature, the first one immediately vanishes.</p>			
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
-			<description>You can create one nonmagical item of your choice in an unoccupied space within 10 feet of you. The item must appear on a surface or in a liquid that can support it. The value of the item canâ€™t be more than {{performance of creation:monetary value}}gp and must be Large or smaller.
-			The created item disappears at the end of your next turn, unless you use your action to maintain it. Each time you use your action in this way, the itemâ€™s duration is extended to the end of your next turn, up to a maximum of 1 minute. If you maintain the item for the full minute, it continues to exist for {{level:bard}} hours.
+			<description>You can create one nonmagical item of your choice in an unoccupied space within 10 feet of you. The item must appear on a surface or in a liquid that can support it. The value of the item can’t be more than {{performance of creation:monetary value}}gp and must be Large or smaller.
+			The created item disappears at the end of your next turn, unless you use your action to maintain it. Each time you use your action in this way, the item’s duration is extended to the end of your next turn, up to a maximum of 1 minute. If you maintain the item for the full minute, it continues to exist for {{level:bard}} hours.
 			You regain the use of this feature when you expend a spell slot of 5th level or higher to use this feature. You can have only one item created by this feature at a time; if you use this action and already have an item from this feature, the first one immediately vanishes.</description>
 		</sheet>
 		<rules>
@@ -150,7 +150,7 @@
 			<set name="wisdom">10</set>
 			<set name="charisma">6</set>
 			<set name="ac">16 (natural armor)</set>
-			<set name="hp">equal the dancing itemâ€™s Constitution modifier + your Charisma modifier + five times your level in this class</set>
+			<set name="hp">equal the dancing item’s Constitution modifier + your Charisma modifier + five times your level in this class</set>
 			<set name="speed">40 ft.</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">charmed, exhaustion, poisoned, frightened</set>			
@@ -189,7 +189,7 @@
 			<set name="wisdom">10</set>
 			<set name="charisma">6</set>
 			<set name="ac">16 (natural armor)</set>
-			<set name="hp">equal the dancing itemâ€™s Constitution modifier + your Charisma modifier + five times your level in this class</set>
+			<set name="hp">equal the dancing item’s Constitution modifier + your Charisma modifier + five times your level in this class</set>
 			<set name="speed">40 ft.</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">charmed, exhaustion, poisoned, frightened</set>			
@@ -229,7 +229,7 @@
 			<set name="wisdom">10</set>
 			<set name="charisma">6</set>
 			<set name="ac">16 (natural armor)</set>
-			<set name="hp">equal the dancing itemâ€™s Constitution modifier + your Charisma modifier + five times your level in this class</set>
+			<set name="hp">equal the dancing item’s Constitution modifier + your Charisma modifier + five times your level in this class</set>
 			<set name="speed">40 ft.</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">charmed, exhaustion, poisoned, frightened</set>			
@@ -269,7 +269,7 @@
 			<set name="wisdom">10</set>
 			<set name="charisma">6</set>
 			<set name="ac">16 (natural armor)</set>
-			<set name="hp">equal the dancing itemâ€™s Constitution modifier + your Charisma modifier + five times your level in this class</set>
+			<set name="hp">equal the dancing item’s Constitution modifier + your Charisma modifier + five times your level in this class</set>
 			<set name="speed">40 ft.</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">charmed, exhaustion, poisoned, frightened</set>			
@@ -359,7 +359,7 @@
 	</element>
 	<element name="Domain Spells" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 2" id="ID_WOTC_UA20200206_ARCHETYPE_FEATURE_UNITY_DOMAIN_SPELLS">
 		<description>
-			<p>You gain domain spells at the cleric levels listed in the Unity Domain Spells table. See the Divine Domain class feature in the Playerâ€™s Handbook for how domain spells work.</p>
+			<p>You gain domain spells at the cleric levels listed in the Unity Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.</p>
 			<h5 class="caption">UNITY DOMAIN SPELLS</h5>
 			<table>
 				<thead>
@@ -369,7 +369,7 @@
 				<tr><td>3rd</td><td><em>aid, warding bond</em></td></tr>
 				<tr><td>5th</td><td><em>beacon of hope, sending</em></td></tr>
 				<tr><td>7th</td><td><em>aura of purity, guardian of faith</em></td></tr>
-				<tr><td>9th</td><td><em>greater restoration, Raryâ€™s telepathic bond</em></td></tr>
+				<tr><td>9th</td><td><em>greater restoration, Rary’s telepathic bond</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false"/>
@@ -443,9 +443,9 @@
 		<sheet>
 			<description>Creatures affected by your Emboldening Bond feature gain its benefits, as well as those of your Protective Bond feature, while they are on the same plane of existence as each other.
 			When a creature chosen for your Emboldening Bond is reduced to 0 hp, their bonded partner gains the following benefits for 1 minute, or until the creature regains at least 1 hp: &#13;
-			â€¢ The creature has advantage on attack rolls, ability checks, and saving throws &#13;
-			â€¢ The creature gains resistance to all damage &#13;
-			â€¢ As an action, the creature can touch their bonded partner to expend and roll any number of Hit Dice. Their bonded partner regains a number of hp equal to the total rolled.</description>
+			• The creature has advantage on attack rolls, ability checks, and saving throws &#13;
+			• The creature gains resistance to all damage &#13;
+			• As an action, the creature can touch their bonded partner to expend and roll any number of Hit Dice. Their bonded partner regains a number of hp equal to the total rolled.</description>
 		</sheet>
 	</element>
 	
@@ -453,7 +453,7 @@
 		<supports>Sorcerous Origin</supports>
 		<description>
 			<p>A plane of utmost order, Mechanus is a realm overseen by a godlike entity called Primus, whose actions are inscrutable and calculations, vast. You, or someone from your lineage, might have become entangled in one of the machinations of the leader of the modrons. Perhaps you were exposed to an artifact created by Primus, or your ancestor took part in the Great Modron March in some way.</p>
-			<p class="indent">The power of Mechanus can seem strange and alien to others, but for you it is part of a vast and glorious system that others canâ€™t comprehend. At your option, you can pick from or roll on the Manifestations of Mechanus table to create a way your connection to the plane manifests while you are casting a spell.</p>
+			<p class="indent">The power of Mechanus can seem strange and alien to others, but for you it is part of a vast and glorious system that others can’t comprehend. At your option, you can pick from or roll on the Manifestations of Mechanus table to create a way your connection to the plane manifests while you are casting a spell.</p>
 			<h5 class="caption">Manifestations of Mechanus</h5>
 			<table>
 				<thead>
@@ -484,7 +484,7 @@
 	<element name="Clockwork Magic" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 2" id="ID_WOTC_UA20200206_ARCHETYPE_FEATURE_CLOCKWORK_CLOCKWORK_MAGIC">
 		<description>
 			<p><em>1st-level Clockwork Soul feature</em></p>
-			<p>You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each spell counts as a sorcerer spell for you, but it doesnâ€™t count against the number of sorcerer spells you know. These spells canâ€™t be replaced when you gain a level in this class.</p>
+			<p>You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know. These spells can’t be replaced when you gain a level in this class.</p>
 			<h5 class="caption">Clockwork Spells</h5>
             <table>
                 <thead>
@@ -493,7 +493,7 @@
                 <tr><td>1st</td><td><em>alarm, protection from evil and good</em></td></tr>
                 <tr><td>3rd</td><td><em>find traps, heat metal</em></td></tr>
                 <tr><td>5th</td><td><em>counterspell, glyph of warding</em></td></tr>
-                <tr><td>7th</td><td><em>arcane eye, Otilukeâ€™s resilient sphere</em></td></tr>
+                <tr><td>7th</td><td><em>arcane eye, Otiluke’s resilient sphere</em></td></tr>
                 <tr><td>9th</td><td><em>animate objects, wall of force</em></td></tr>
 			</table>
 		</description>
@@ -539,11 +539,11 @@
 	<element name="Trance of Order" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 2" id="ID_WOTC_UA20200206_ARCHETYPE_FEATURE_CLOCKWORK_TRANCE_OF_ORDER">
 		<description>
 			<p><em>14th-level Clockwork Soul feature</em></p>
-			<p>You gain the ability to enter a state of clockwork consciousness as an action. For the next minute, attack rolls against you canâ€™t benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a d20 roll of 9 or lower as a 10.</p>
-			<p class="indent">Once you use this action, you canâ€™t use it again until you finish a long rest or until you expend 5 sorcery points to use it again.</p>
+			<p>You gain the ability to enter a state of clockwork consciousness as an action. For the next minute, attack rolls against you can’t benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a d20 roll of 9 or lower as a 10.</p>
+			<p class="indent">Once you use this action, you can’t use it again until you finish a long rest or until you expend 5 sorcery points to use it again.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
-			<description>For the next minute, attack rolls against you canâ€™t benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a d20 roll of 9 or lower as a 10.
+			<description>For the next minute, attack rolls against you can’t benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a d20 roll of 9 or lower as a 10.
 			You can expend 5 sorcery points to use this feature again.</description>
 		</sheet>
 	</element>
@@ -556,13 +556,13 @@
 				<li>Any damaged objects entirely in the cube are repaired.</li>
 				<li>Every spell of 6th level or lower ends on creatures and objects of your choice in the cube.</li>
 			</ul>
-			<p class="indent">Once you use this action, you canâ€™t use it again until you finish a long rest or until you expend 7 sorcery points to use it again.</p>
+			<p class="indent">Once you use this action, you can’t use it again until you finish a long rest or until you expend 7 sorcery points to use it again.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
 			<description>You summon the spirits in a 30-foot cube originating from you. The spirits look like modrons or other constructs of your choice. The spirits are intangible and invulnerable, work fast and efficiently, and create the following effects within the cube before vanishing: &#13;
-			â€¢ The spirits restore up to 100 hit points, divided as you choose among any number of creatures of your choice in the cube. &#13;
-			â€¢ Any damaged objects entirely in the cube are repaired. &#13;
-			â€¢ Every spell of 6th level or lower ends on creatures and objects of your choice in the cube. &#13;
+			• The spirits restore up to 100 hit points, divided as you choose among any number of creatures of your choice in the cube. &#13;
+			• Any damaged objects entirely in the cube are repaired. &#13;
+			• Every spell of 6th level or lower ends on creatures and objects of your choice in the cube. &#13;
 			You can expend 7 sorcery points to use this feature again.</description>
 		</sheet>
 	</element>	
@@ -571,7 +571,7 @@
 		<supports>Divine Domain</supports>
 		<description>
 			<p><b>Note:</b>The Love Domain was included in an early version of <i>Unearthed Arcana: Subclasses, Part 2</i>. The subclass caused controversy within the community, so it was officially replaced with the Unity Domain in the final release of the document.</p>
-			<p>Love exists in many formsâ€”compassion, infatuation, friendly affection, and passionate love as a few facets. Whatever form these feelings take, the gods of love deepen the bonds between individuals.</p>
+			<p>Love exists in many forms—compassion, infatuation, friendly affection, and passionate love as a few facets. Whatever form these feelings take, the gods of love deepen the bonds between individuals.</p>
 			<h5 class="caption">Love Deities</h5>
 			<table>
 				<thead>
@@ -615,7 +615,7 @@
 	</element>
 	<element name="Domain Spells" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 2" id="ID_WOTC_UA20200206_ARCHETYPE_FEATURE_LOVE_DOMAIN_SPELLS">
 		<description>
-			<p>You gain domain spells at the cleric levels listed in the Love Domain Spells table. See the Divine Domain class feature in the Playerâ€™s Handbook for how domain spells work.</p>
+			<p>You gain domain spells at the cleric levels listed in the Love Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.</p>
 			<h5 class="caption">LOVE DOMAIN SPELLS</h5>
 			<table>
 				<thead>
@@ -714,9 +714,9 @@
 		</setters>
 		<sheet>
 			<description>When a creature chosen for your Emboldening Bond is reduced to 0 hp, their bonded partner gains the following benefits for 1 minute, or until the creature regains at least 1 hp: &#13;
-			â€¢ The creature has advantage on attack rolls, ability checks, and saving throws &#13;
-			â€¢ The creature gains resistance to all damage &#13;
-			â€¢ As an action, the creature can touch their bonded partner to expend and roll any number of Hit Dice. Their bonded partner regains a number of hit points equal to the total rolled.</description>
+			• The creature has advantage on attack rolls, ability checks, and saving throws &#13;
+			• The creature gains resistance to all damage &#13;
+			• As an action, the creature can touch their bonded partner to expend and roll any number of Hit Dice. Their bonded partner regains a number of hit points equal to the total rolled.</description>
 		</sheet>
 	</element>
 </elements>

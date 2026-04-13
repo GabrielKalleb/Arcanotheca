@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Andarilho FeÃ©rico</name>
-		<description>A subclasse Andarilho FeÃ©rico do Livro do Jogador de 2024.</description>
+		<name>Andarilho Feérico</name>
+		<description>A subclasse Andarilho Feérico do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="ranger-fey-wanderer.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/ranger-fey-wanderer.xml" />
 		</update>
 	</info>
 	
-	<element name="Andarilho FeÃ©rico" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_RANGER_FEY_WANDERER">
+	<element name="Andarilho Feérico" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_RANGER_FEY_WANDERER">
 		<supports>Ranger Subclass</supports>
 		<description>
-			<p class="flavor">Empunhe a Alegria e a FÃºria FeÃ©rica</p>
-			<p>Uma mÃ­stica feÃ©rica envolve vocÃª, graÃ§as Ã  bÃªnÃ§Ã£o de um arquifada ou a um local na Agrestia das Fadas que o transformou. Contudo que vocÃª tenha obtido magia feÃ©rica, vocÃª agora Ã© um Andarilho FeÃ©rico. Sua risada alegre ilumina os coraÃ§Ãµes dos oprimidos, e sua destreza marcial aterroriza seus inimigos, pois grande Ã© a alegria das fadas e terrÃ­vel Ã© a sua fÃºria.</p>
+			<p class="flavor">Empunhe a Alegria e a Fúria Feérica</p>
+			<p>Uma mística feérica envolve você, graças à bênção de um arquifada ou a um local na Agrestia das Fadas que o transformou. Contudo que você tenha obtido magia feérica, você agora é um Andarilho Feérico. Sua risada alegre ilumina os corações dos oprimidos, e sua destreza marcial aterroriza seus inimigos, pois grande é a alegria das fadas e terrível é a sua fúria.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_DREADFUL_STRIKES" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_FEY_WANDERER_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_OTHERWORLDLY_GLAMOUR" />
@@ -32,43 +32,43 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Golpes TerrÃ­veis" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_DREADFUL_STRIKES">
+	<element name="Nível 3: Golpes Terríveis" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_DREADFUL_STRIKES">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_FEY_WANDERER_DREADFUL_STRIKES</requirements>
 		<description>
-			<p>VocÃª pode aumentar seus ataques com armas com magia que cicatriza a mente extraÃ­da dos vales sombrios da Agrestia das Fadas. Quando vocÃª atinge uma criatura com uma arma, pode causar 1d4 de dano PsÃ­quico extra ao alvo, que pode sofrer esse dano extra apenas uma vez por turno. O dano extra aumenta para 1d6 quando vocÃª atinge o nÃ­vel 11 de Patrulheiro.</p>
+			<p>Você pode aumentar seus ataques com armas com magia que cicatriza a mente extraída dos vales sombrios da Agrestia das Fadas. Quando você atinge uma criatura com uma arma, pode causar 1d4 de dano Psíquico extra ao alvo, que pode sofrer esse dano extra apenas uma vez por turno. O dano extra aumenta para 1d6 quando você atinge o nível 11 de Patrulheiro.</p>
 		</description>
-		<sheet alt="Golpes TerrÃ­veis">
-			<description>Quando vocÃª atinge uma criatura com uma arma, pode causar 1d4 de dano PsÃ­quico extra, aplicÃ¡vel apenas uma vez por turno.</description>
-			<description level="11">Quando vocÃª atinge uma criatura com uma arma, pode causar 1d6 de dano PsÃ­quico extra, aplicÃ¡vel apenas uma vez por turno.</description>
+		<sheet alt="Golpes Terríveis">
+			<description>Quando você atinge uma criatura com uma arma, pode causar 1d4 de dano Psíquico extra, aplicável apenas uma vez por turno.</description>
+			<description level="11">Quando você atinge uma criatura com uma arma, pode causar 1d6 de dano Psíquico extra, aplicável apenas uma vez por turno.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 3: Magias do Andarilho FeÃ©rico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_FEY_WANDERER_SPELLS">
+	<element name="Nível 3: Magias do Andarilho Feérico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_FEY_WANDERER_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_FEY_WANDERER_FEY_WANDERER_SPELLS</requirements>
 		<description>
-			<p>Quando vocÃª atinge um nÃ­vel de Patrulheiro especificado na tabela Magias do Andarilho FeÃ©rico, vocÃª a partir de entÃ£o sempre tem as magias listadas preparadas.</p>
-			<h5>Magias do Andarilho FeÃ©rico</h5>
+			<p>Quando você atinge um nível de Patrulheiro especificado na tabela Magias do Andarilho Feérico, você a partir de então sempre tem as magias listadas preparadas.</p>
+			<h5>Magias do Andarilho Feérico</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-25">NÃ­vel de Patrulheiro</td><td class="left">Magias</td></tr>
+					<tr><td class="col-25">Nível de Patrulheiro</td><td class="left">Magias</td></tr>
 				</thead>
-				<tr><td>3</td><td class="left"><em>EnfeitiÃ§ar Pessoa</em></td></tr>
+				<tr><td>3</td><td class="left"><em>Enfeitiçar Pessoa</em></td></tr>
 				<tr><td>5</td><td class="left"><em>Passo Nebuloso</em></td></tr>
 				<tr><td>9</td><td class="left"><em>Invocar Fada</em></td></tr>
 				<tr><td>13</td><td class="left"><em>Porta Dimensional</em></td></tr>
 				<tr><td>17</td><td class="left"><em>Despistar</em></td></tr>
 			</table>
-			<p>VocÃª tambÃ©m possui uma bÃªnÃ§Ã£o feÃ©rica. Escolha-a na tabela DÃ¡divas da Agrestia das Fadas ou determine-a aleatoriamente.</p>
-			<h5>DÃ¡divas da Agrestia das Fadas</h5>
+			<p>Você também possui uma bênção feérica. Escolha-a na tabela Dádivas da Agrestia das Fadas ou determine-a aleatoriamente.</p>
+			<h5>Dádivas da Agrestia das Fadas</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-10">d6</td><td class="left">DÃ¡diva</td></tr>
+					<tr><td class="col-10">d6</td><td class="left">Dádiva</td></tr>
 				</thead>
-				<tr><td>1</td><td class="left">Borboletas ilusÃ³rias esvoaÃ§am ao seu redor enquanto vocÃª faz um Descanso Curto ou Longo.</td></tr>
+				<tr><td>1</td><td class="left">Borboletas ilusórias esvoaçam ao seu redor enquanto você faz um Descanso Curto ou Longo.</td></tr>
 				<tr><td>2</td><td class="left">Flores desabrocham do seu cabelo a cada amanhecer.</td></tr>
-				<tr><td>3</td><td class="left">VocÃª cheira levemente a canela, lavanda, noz-moscada ou outra erva ou especiaria reconfortante.</td></tr>
-				<tr><td>4</td><td class="left">Sua sombra danÃ§a enquanto ninguÃ©m estÃ¡ olhando diretamente para ela.</td></tr>
-				<tr><td>5</td><td class="left">Chifres ou hastes de galhada brotam de sua cabeÃ§a.</td></tr>
+				<tr><td>3</td><td class="left">Você cheira levemente a canela, lavanda, noz-moscada ou outra erva ou especiaria reconfortante.</td></tr>
+				<tr><td>4</td><td class="left">Sua sombra dança enquanto ninguém está olhando diretamente para ela.</td></tr>
+				<tr><td>5</td><td class="left">Chifres ou hastes de galhada brotam de sua cabeça.</td></tr>
 				<tr><td>6</td><td class="left">Sua pele e cabelo mudam de cor a cada amanhecer.</td></tr>
 			</table>
 		</description>
@@ -82,14 +82,14 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: FascÃ­nio de Outro Mundo" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_OTHERWORLDLY_GLAMOUR">
+	<element name="Nível 3: Fascínio de Outro Mundo" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_OTHERWORLDLY_GLAMOUR">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_FEY_WANDERER_OTHERWORLDLY_GLAMOUR</requirements>
 		<description>
-			<p>Sempre que vocÃª faz um teste de Carisma, vocÃª ganha um bÃ´nus no teste igual ao seu modificador de Sabedoria (mÃ­nimo de +1).</p>
-			<p class="indent">VocÃª tambÃ©m ganha proficiÃªncia em uma destas perÃ­cias, Ã  sua escolha: EnganaÃ§Ã£o, AtuaÃ§Ã£o ou PersuasÃ£o.</p>
+			<p>Sempre que você faz um teste de Carisma, você ganha um bônus no teste igual ao seu modificador de Sabedoria (mínimo de +1).</p>
+			<p class="indent">Você também ganha proficiência em uma destas perícias, à sua escolha: Enganação, Atuação ou Persuasão.</p>
 		</description>
-		<sheet alt="FascÃ­nio de Outro Mundo">
-			<description>Sempre que faz um teste de Carisma, vocÃª ganha um bÃ´nus de +{{otherworldly glamour:charisma bonus}}.</description>
+		<sheet alt="Fascínio de Outro Mundo">
+			<description>Sempre que faz um teste de Carisma, você ganha um bônus de +{{otherworldly glamour:charisma bonus}}.</description>
 		</sheet>
 		<rules>
 			<stat name="otherworldly glamour:charisma bonus" value="1" bonus="base" />
@@ -102,39 +102,39 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 7: Truque Sedutor" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_BEGUILING_TWIST">
+	<element name="Nível 7: Truque Sedutor" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_BEGUILING_TWIST">
 		<requirements>!ID_INTERNAL_FEATURE_PHB24_REPLACEMENT_RANGER_FEY_WANDERER_BEGUILING_TWIST</requirements>
 		<description>
-			<p>A magia da Agrestia das Fadas guarda sua mente. VocÃª tem Vantagem em testes de resistÃªncia para evitar ou terminar a condiÃ§Ã£o EnfeitiÃ§ado ou Amedrontado.</p>
-			<p class="indent">AlÃ©m disso, sempre que vocÃª ou uma criatura que vocÃª possa ver a atÃ© 36 metros (120 pÃ©s) de vocÃª for bem-sucedido num teste de resistÃªncia para evitar ou terminar a condiÃ§Ã£o EnfeitiÃ§ado ou Amedrontado, vocÃª pode usar uma ReaÃ§Ã£o para forÃ§ar uma criatura diferente que possa ver a atÃ© 36 metros (120 pÃ©s) de si mesmo a fazer um teste de resistÃªncia de Sabedoria contra a CD de resistÃªncia de suas magias. Em uma falha, o alvo fica EnfeitiÃ§ado ou Amedrontado (Ã  sua escolha) por 1 minuto. O alvo repete o teste no final de cada um dos turnos dele, encerrando o efeito sobre si mesmo num sucesso.</p>
+			<p>A magia da Agrestia das Fadas guarda sua mente. Você tem Vantagem em testes de resistência para evitar ou terminar a condição Enfeitiçado ou Amedrontado.</p>
+			<p class="indent">Além disso, sempre que você ou uma criatura que você possa ver a até 36 metros (120 pés) de você for bem-sucedido num teste de resistência para evitar ou terminar a condição Enfeitiçado ou Amedrontado, você pode usar uma Reação para forçar uma criatura diferente que possa ver a até 36 metros (120 pés) de si mesmo a fazer um teste de resistência de Sabedoria contra a CD de resistência de suas magias. Em uma falha, o alvo fica Enfeitiçado ou Amedrontado (à sua escolha) por 1 minuto. O alvo repete o teste no final de cada um dos turnos dele, encerrando o efeito sobre si mesmo num sucesso.</p>
 		</description>
 		<sheet alt="Truque Sedutor" action="Reaction">
-			<description>Quando uma criatura (incluindo vocÃª) a atÃ© 36m for bem-sucedida num teste de resistÃªncia contra as condiÃ§Ãµes EnfeitiÃ§ado ou Amedrontado, vocÃª pode forÃ§ar outra criatura a atÃ© 36m a fazer um teste de Sabedoria CD {{ranger:spellcasting:dc}}. Em uma falha, ela fica EnfeitiÃ§ada ou Amedrontada (Ã  sua escolha) por 1 min. Ela pode repetir o teste no fim de seus turnos. &#13;
-			AlÃ©m disso, vocÃª tem Vantagem para evitar/terminar EnfeitiÃ§ado ou Amedrontado.</description>
+			<description>Quando uma criatura (incluindo você) a até 36m for bem-sucedida num teste de resistência contra as condições Enfeitiçado ou Amedrontado, você pode forçar outra criatura a até 36m a fazer um teste de Sabedoria CD {{ranger:spellcasting:dc}}. Em uma falha, ela fica Enfeitiçada ou Amedrontada (à sua escolha) por 1 min. Ela pode repetir o teste no fim de seus turnos. &#13;
+			Além disso, você tem Vantagem para evitar/terminar Enfeitiçado ou Amedrontado.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 11: ReforÃ§os FeÃ©ricos" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_FEY_REINFORCEMENTS">
+	<element name="Nível 11: Reforços Feéricos" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_FEY_REINFORCEMENTS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_FEY_WANDERER_FEY_REINFORCEMENTS</requirements>
 		<description>
-			<p>VocÃª pode conjurar <i>Invocar Fada</i> sem um componente Material. VocÃª tambÃ©m pode conjurÃ¡-la uma vez sem gastar um espaÃ§o de magia, e vocÃª recupera a habilidade de conjurÃ¡-la desta forma quando termina um Descanso Longo.</p>
-			<p class="indent">Sempre que comeÃ§ar a conjurar a magia, vocÃª pode modificÃ¡-la para que nÃ£o exija concentraÃ§Ã£o. Se o fizer, a duraÃ§Ã£o da magia se torna 1 minuto para essa conjuraÃ§Ã£o.</p>
+			<p>Você pode conjurar <i>Invocar Fada</i> sem um componente Material. Você também pode conjurá-la uma vez sem gastar um espaço de magia, e você recupera a habilidade de conjurá-la desta forma quando termina um Descanso Longo.</p>
+			<p class="indent">Sempre que começar a conjurar a magia, você pode modificá-la para que não exija concentração. Se o fizer, a duração da magia se torna 1 minuto para essa conjuração.</p>
 		</description>
-		<sheet alt="ReforÃ§os FeÃ©ricos" usage="1/Descanso Longo">
-			<description>VocÃª pode conjurar Invocar Fada sem gastar espaÃ§o de magia. &#13;
-			A magia nÃ£o exige mais componente Material. Ao iniciÃ¡-la, vocÃª pode decidir que ela nÃ£o exija concentraÃ§Ã£o; nesse caso, a duraÃ§Ã£o cai para 1 minuto.</description>
+		<sheet alt="Reforços Feéricos" usage="1/Descanso Longo">
+			<description>Você pode conjurar Invocar Fada sem gastar espaço de magia. &#13;
+			A magia não exige mais componente Material. Ao iniciá-la, você pode decidir que ela não exija concentração; nesse caso, a duração cai para 1 minuto.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 15: Andarilho Nebuloso" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_MISTY_WANDERER">
+	<element name="Nível 15: Andarilho Nebuloso" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_MISTY_WANDERER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_FEY_WANDERER_MISTY_WANDERER</requirements>
 		<description>
-			<p>VocÃª pode conjurar <i>Passo Nebuloso</i> sem gastar um espaÃ§o de magia. VocÃª pode fazÃª-lo um nÃºmero de vezes igual ao seu modificador de Sabedoria (mÃ­nimo de uma vez), e vocÃª recupera todos os usos gastos quando termina um Descanso Longo.</p>
-			<p class="indent">AlÃ©m disso, sempre que conjurar <i>Passo Nebuloso</i>, vocÃª pode levar consigo uma criatura disposta que possa ver a atÃ© 1,5 metro (5 pÃ©s) de vocÃª. Essa criatura se teletransporta para um espaÃ§o desocupado de sua escolha a atÃ© 1,5 metro (5 pÃ©s) do seu espaÃ§o de destino.</p>
+			<p>Você pode conjurar <i>Passo Nebuloso</i> sem gastar um espaço de magia. Você pode fazê-lo um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e você recupera todos os usos gastos quando termina um Descanso Longo.</p>
+			<p class="indent">Além disso, sempre que conjurar <i>Passo Nebuloso</i>, você pode levar consigo uma criatura disposta que possa ver a até 1,5 metro (5 pés) de você. Essa criatura se teletransporta para um espaço desocupado de sua escolha a até 1,5 metro (5 pés) do seu espaço de destino.</p>
 		</description>
 		<sheet alt="Andarilho Nebuloso" usage="{{misty wanderer:usage}}/Descanso Longo">
-			<description>VocÃª pode conjurar Passo Nebuloso sem gastar espaÃ§o de magia. &#13;
-			AlÃ©m disso, sempre que o fizer, pode levar junto uma criatura disposta a atÃ© 1,5m de vocÃª. Ela se teletransporta para um espaÃ§o livre a atÃ© 1,5m de seu destino.</description>
+			<description>Você pode conjurar Passo Nebuloso sem gastar espaço de magia. &#13;
+			Além disso, sempre que o fizer, pode levar junto uma criatura disposta a até 1,5m de você. Ela se teletransporta para um espaço livre a até 1,5m de seu destino.</description>
 		</sheet>
 		<rules>
 			<stat name="misty wanderer:usage" value="1" bonus="base" />

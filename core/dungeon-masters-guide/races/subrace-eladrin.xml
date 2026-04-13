@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Eladrin</name>
-		<description>Subrace from the Dungeon Masterâ€™s Guide".</description>
+		<description>Subrace from the Dungeon Master’s Guide".</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide">Wizards of the Coast</author>
 		<update version="0.0.9">
 			<file name="subrace-eladrin.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/dungeon-masters-guide/races/subrace-eladrin.xml" />
 		</update>
 	</info>
-	<element name="Eladrin" type="Sub Race" source="Dungeon Masterâ€™s Guide" id="ID_DMG_SUBRACE_ELADRIN">
+	<element name="Eladrin" type="Sub Race" source="Dungeon Master’s Guide" id="ID_DMG_SUBRACE_ELADRIN">
 		<supports>Elf</supports>
 		<description>
 			<p>Creatures of magic with strong ties to nature, eladrin live in the twilight realm of the Feywild. Their cities sometimes cross over to the Material Plane, appearing briefly in mountain valleys or deep forest glades before fading back into the Feywild.</p>
@@ -25,7 +25,7 @@
 			<grant type="Racial Trait" id="ID_DMG_RACIAL_TRAIT_FEY_STEP" />
 		</rules>
 	</element>
-	<element name="Fey Step" type="Racial Trait" source="Dungeon Masterâ€™s Guide" id="ID_DMG_RACIAL_TRAIT_FEY_STEP">
+	<element name="Fey Step" type="Racial Trait" source="Dungeon Master’s Guide" id="ID_DMG_RACIAL_TRAIT_FEY_STEP">
 		<description>
 			<p>You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest.</p>
 			<div element="ID_PHB_SPELL_MISTY_STEP" />

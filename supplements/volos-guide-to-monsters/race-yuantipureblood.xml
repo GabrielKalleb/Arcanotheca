@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Yuan-Ti Pureblood</name>
-		<description>The monstrous-adventurers from Voloâ€™s Guide to Monsters.</description>
+		<description>The monstrous-adventurers from Volo’s Guide to Monsters.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters">Wizards of the Coast</author>
 		<update version="0.0.4">
 			<file name="race-yuantipureblood.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/volos-guide-to-monsters/race-yuantipureblood.xml" />
 		</update>
 	</info>
 
-	<element name="Yuan-Ti Pureblood" type="Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACE_YUANTI_PUREBLOOD">
+	<element name="Yuan-Ti Pureblood" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_YUANTI_PUREBLOOD">
 		<description>
 			<p class="flavor">In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. This section is aimed at those who wish to expand the race selections for their campaigns beyond the typical folk of D&amp;D.</p>
 			<h4>YUAN-TI PUREBLOOD TRAITS</h4>
@@ -53,7 +53,7 @@
 		</rules>
 	</element>
 	 
-	<element name="Innate Spellcasting" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_INNATE_SPELLCASTING">
+	<element name="Innate Spellcasting" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_INNATE_SPELLCASTING">
 		<description>
 			<p>You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 		</description>
@@ -67,7 +67,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" level="3" />
 		</rules>
 	</element>	 
-	<element name="Magic Resistance" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_MAGIC_RESISTANCE">
+	<element name="Magic Resistance" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_MAGIC_RESISTANCE">
 		<description>
 			<p>You have advantage on saving throws against spells and other magical effects.</p>
 		</description>
@@ -75,7 +75,7 @@
 			<description>You have advantage on saving throws against spells and other magical effects.</description>
 		</sheet>
 	</element>	 
-	<element name="Poison Immunity" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_POISON_IMMUNITY">
+	<element name="Poison Immunity" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_POISON_IMMUNITY">
 		<description>
 			<p>You are immune to poison damage and the poisoned condition.</p>
 		</description>

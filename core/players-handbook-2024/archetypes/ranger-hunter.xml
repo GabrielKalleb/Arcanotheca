@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>CaÃ§ador</name>
-		<description>O CaÃ§ador do Livro do Jogador 2024</description>
+		<name>Caçador</name>
+		<description>O Caçador do Livro do Jogador 2024</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="ranger-hunter.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/ranger-hunter.xml" />
 		</update>
 	</info>
 
-	<element name="CaÃ§ador" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_RANGER_HUNTER">
+	<element name="Caçador" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_RANGER_HUNTER">
 		<supports>Ranger Subclass</supports>
 		<description>
-			<p class="flavor">Proteja a Natureza e as Pessoas da DestruiÃ§Ã£o</p>
-			<p>VocÃª persegue presas nos ermos e em outros lugares, usando as suas habilidades de CaÃ§ador para proteger a natureza e as pessoas de todas as forÃ§as que buscam destruÃ­-las.</p>
+			<p class="flavor">Proteja a Natureza e as Pessoas da Destruição</p>
+			<p>Você persegue presas nos ermos e em outros lugares, usando as suas habilidades de Caçador para proteger a natureza e as pessoas de todas as forças que buscam destruí-las.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_HUNTERS_LORE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_HUNTERS_PREY" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_DEFENSIVE_TACTICS" />
@@ -30,103 +30,103 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Sabedoria do CaÃ§ador" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_HUNTERS_LORE">
+	<element name="Nível 3: Sabedoria do Caçador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_HUNTERS_LORE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_HUNTER_HUNTERS_LORE</requirements>
 		<description>
-			<p>VocÃª pode evocar as forÃ§as da natureza para revelar certos pontos fortes e fracos de sua presa. Enquanto uma criatura estiver marcada pela sua <i>Marca do CaÃ§ador</i>, vocÃª sabe se essa criatura tem alguma Imunidade, ResistÃªncia ou Vulnerabilidade, e se a criatura as tiver, vocÃª sabe quais sÃ£o.</p>
+			<p>Você pode evocar as forças da natureza para revelar certos pontos fortes e fracos de sua presa. Enquanto uma criatura estiver marcada pela sua <i>Marca do Caçador</i>, você sabe se essa criatura tem alguma Imunidade, Resistência ou Vulnerabilidade, e se a criatura as tiver, você sabe quais são.</p>
 		</description>
-		<sheet alt="Sabedoria do CaÃ§ador">
-			<description>Enquanto uma criatura estiver sob sua Marca do CaÃ§ador, vocÃª conhece as Imunidades, ResistÃªncias ou Vulnerabilidades dela, caso tenha.</description>
+		<sheet alt="Sabedoria do Caçador">
+			<description>Enquanto uma criatura estiver sob sua Marca do Caçador, você conhece as Imunidades, Resistências ou Vulnerabilidades dela, caso tenha.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 3: Presa do CaÃ§ador" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_HUNTERS_PREY">
+	<element name="Nível 3: Presa do Caçador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_HUNTERS_PREY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_HUNTER_HUNTERS_PREY</requirements>
 		<description>
-			<p>VocÃª ganha uma das opÃ§Ãµes de caracterÃ­stica a seguir, da sua escolha. Sempre que terminar um Descanso Curto ou Longo, vocÃª pode substituir a opÃ§Ã£o escolhida pela outra.</p>
-			<p class="indent"><b><i>Matador de Colossos.</i></b> A sua tenacidade pode desgastar atÃ© os inimigos mais resilientes. Quando vocÃª atinge uma criatura com uma arma, a arma causa 1d8 de dano extra ao alvo se ele nÃ£o estiver com todos os Pontos de Vida. VocÃª sÃ³ pode causar esse dano extra uma vez por turno.</p>
-			<p class="indent"><b><i>Quebrador de Hordas.</i></b> Uma vez em cada um dos seus turnos, ao fazer um ataque com uma arma, vocÃª pode fazer outro ataque com a mesma arma contra uma criatura diferente que esteja a 1,5 metro (5 pÃ©s) do alvo original, dentro do alcance da arma, e que vocÃª nÃ£o tenha atacado neste turno.</p>
+			<p>Você ganha uma das opções de característica a seguir, da sua escolha. Sempre que terminar um Descanso Curto ou Longo, você pode substituir a opção escolhida pela outra.</p>
+			<p class="indent"><b><i>Matador de Colossos.</i></b> A sua tenacidade pode desgastar até os inimigos mais resilientes. Quando você atinge uma criatura com uma arma, a arma causa 1d8 de dano extra ao alvo se ele não estiver com todos os Pontos de Vida. Você só pode causar esse dano extra uma vez por turno.</p>
+			<p class="indent"><b><i>Quebrador de Hordas.</i></b> Uma vez em cada um dos seus turnos, ao fazer um ataque com uma arma, você pode fazer outro ataque com a mesma arma contra uma criatura diferente que esteja a 1,5 metro (5 pés) do alvo original, dentro do alcance da arma, e que você não tenha atacado neste turno.</p>
 		</description>
-		<sheet alt="Presa do CaÃ§ador">
-			<description>Sempre que terminar um Descanso Curto ou Longo, vocÃª pode trocar a opÃ§Ã£o escolhida.</description>
+		<sheet alt="Presa do Caçador">
+			<description>Sempre que terminar um Descanso Curto ou Longo, você pode trocar a opção escolhida.</description>
 		</sheet>
 		<rules>
 			<select type="Archetype Feature" name="Hunter's Prey" supports="PHB24 Hunters Pray" />
 		</rules>
 	</element>
-	<element name="Matador de Colossos" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_HUNTERS_PREY_COLOSSUS_SLAYER">
+	<element name="Matador de Colossos" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_HUNTERS_PREY_COLOSSUS_SLAYER">
 		<supports>PHB24 Hunters Pray</supports>
 		<compendium display="false" />
 		<description>
-			<p>A sua tenacidade pode desgastar atÃ© os inimigos mais resilientes. Quando vocÃª atinge uma criatura com uma arma, a arma causa 1d8 de dano extra ao alvo se ele nÃ£o estiver com todos os Pontos de Vida. VocÃª sÃ³ pode causar esse dano extra uma vez por turno.</p>
+			<p>A sua tenacidade pode desgastar até os inimigos mais resilientes. Quando você atinge uma criatura com uma arma, a arma causa 1d8 de dano extra ao alvo se ele não estiver com todos os Pontos de Vida. Você só pode causar esse dano extra uma vez por turno.</p>
 		</description>
 		<sheet usage="1/Turno">
-			<description>Quando vocÃª atinge uma criatura que nÃ£o esteja com todos os PVs com uma arma, vocÃª causa 1d8 de dano extra a ela.</description>
+			<description>Quando você atinge uma criatura que não esteja com todos os PVs com uma arma, você causa 1d8 de dano extra a ela.</description>
 		</sheet>
 	</element>
-	<element name="Quebrador de Hordas" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_HUNTERS_PREY_HORDE_BREAKER">
+	<element name="Quebrador de Hordas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_HUNTERS_PREY_HORDE_BREAKER">
 		<supports>PHB24 Hunters Pray</supports>
 		<compendium display="false" />
 		<description>
-			<p>Uma vez em cada um dos seus turnos, ao fazer um ataque com uma arma, vocÃª pode fazer outro ataque com a mesma arma contra uma criatura diferente que esteja a 1,5 metro (5 pÃ©s) do alvo original, dentro do alcance da arma, e que vocÃª nÃ£o tenha atacado neste turno.</p>
+			<p>Uma vez em cada um dos seus turnos, ao fazer um ataque com uma arma, você pode fazer outro ataque com a mesma arma contra uma criatura diferente que esteja a 1,5 metro (5 pés) do alvo original, dentro do alcance da arma, e que você não tenha atacado neste turno.</p>
 		</description>
 		<sheet usage="1/Turno">
-			<description>Ao fazer um ataque com arma, vocÃª pode atacar outra criatura a 1,5m do alvo original com a mesma arma, se a criatura estiver no alcance e vocÃª nÃ£o tiver atacado-a neste turno.</description>
+			<description>Ao fazer um ataque com arma, você pode atacar outra criatura a 1,5m do alvo original com a mesma arma, se a criatura estiver no alcance e você não tiver atacado-a neste turno.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 7: TÃ¡ticas Defensivas" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_DEFENSIVE_TACTICS">
+	<element name="Nível 7: Táticas Defensivas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_DEFENSIVE_TACTICS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_HUNTER_DEFENSIVE_TACTICS</requirements>
 		<description>
-			<p>VocÃª ganha uma das opÃ§Ãµes de caracterÃ­stica a seguir, da sua escolha. Sempre que terminar um Descanso Curto ou Longo, vocÃª pode substituir a opÃ§Ã£o escolhida pela outra.</p>
-			<p class="indent"><b><i>Escapar da Horda.</i></b> Ataques de Oportunidade tÃªm Desvantagem contra vocÃª.</p>
-			<p class="indent"><b><i>Defesa contra Ataques MÃºltiplos.</i></b> Quando uma criatura atingir vocÃª com uma jogada de ataque, aquela criatura terÃ¡ Desvantagem em todas as outras jogadas de ataque contra vocÃª neste turno.</p>
+			<p>Você ganha uma das opções de característica a seguir, da sua escolha. Sempre que terminar um Descanso Curto ou Longo, você pode substituir a opção escolhida pela outra.</p>
+			<p class="indent"><b><i>Escapar da Horda.</i></b> Ataques de Oportunidade têm Desvantagem contra você.</p>
+			<p class="indent"><b><i>Defesa contra Ataques Múltiplos.</i></b> Quando uma criatura atingir você com uma jogada de ataque, aquela criatura terá Desvantagem em todas as outras jogadas de ataque contra você neste turno.</p>
 		</description>
-		<sheet alt="TÃ¡ticas Defensivas">
-			<description>Sempre que terminar um Descanso Curto ou Longo, vocÃª pode trocar a opÃ§Ã£o escolhida.</description>
+		<sheet alt="Táticas Defensivas">
+			<description>Sempre que terminar um Descanso Curto ou Longo, você pode trocar a opção escolhida.</description>
 		</sheet>
 		<rules>
 			<select type="Archetype Feature" name="Defensive Tactics" supports="PHB24 Defensive Tactics" />
 		</rules>
 	</element>
-	<element name="Escapar da Horda" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_DEFENSIVE_TACTICS_ESCAPE_THE_HORDE">
+	<element name="Escapar da Horda" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_DEFENSIVE_TACTICS_ESCAPE_THE_HORDE">
 		<supports>PHB24 Defensive Tactics</supports>
 		<compendium display="false" />
 		<description>
-			<p>Ataques de Oportunidade tÃªm Desvantagem contra vocÃª.</p>
+			<p>Ataques de Oportunidade têm Desvantagem contra você.</p>
 		</description>
 		<sheet>
-			<description>Ataques de Oportunidade tÃªm Desvantagem contra vocÃª.</description>
+			<description>Ataques de Oportunidade têm Desvantagem contra você.</description>
 		</sheet>
 	</element>
-	<element name="Defesa contra Ataques MÃºltiplos" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_DEFENSIVE_TACTICS_MULTIATTACK_DEFENSE">
+	<element name="Defesa contra Ataques Múltiplos" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_DEFENSIVE_TACTICS_MULTIATTACK_DEFENSE">
 		<supports>PHB24 Defensive Tactics</supports>
 		<compendium display="false" />
 		<description>
-			<p>Quando uma criatura atingir vocÃª com uma jogada de ataque, aquela criatura terÃ¡ Desvantagem em todas as outras jogadas de ataque contra vocÃª neste turno.</p>
+			<p>Quando uma criatura atingir você com uma jogada de ataque, aquela criatura terá Desvantagem em todas as outras jogadas de ataque contra você neste turno.</p>
 		</description>
 		<sheet>
-			<description>Quando uma criatura atingir vocÃª com um ataque, ela terÃ¡ Desvantagem em todas as outras jogadas de ataque contra vocÃª neste turno.</description>
+			<description>Quando uma criatura atingir você com um ataque, ela terá Desvantagem em todas as outras jogadas de ataque contra você neste turno.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 11: Presa do CaÃ§ador Superior" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_SUPERIOR_HUNTERS_PREY">
+	<element name="Nível 11: Presa do Caçador Superior" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_SUPERIOR_HUNTERS_PREY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_HUNTER_SUPERIOR_HUNTERS_PREY</requirements>
 		<description>
-			<p>Uma vez por turno, ao causar dano a uma criatura sob sua <i>Marca do CaÃ§ador</i>, vocÃª tambÃ©m pode causar o dano extra da magia em uma criatura diferente que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) da primeira criatura.</p>
+			<p>Uma vez por turno, ao causar dano a uma criatura sob sua <i>Marca do Caçador</i>, você também pode causar o dano extra da magia em uma criatura diferente que você possa ver a até 9 metros (30 pés) da primeira criatura.</p>
 		</description>
-		<sheet alt="Presa do CaÃ§ador Superior" usage="1/Turno">
-			<description>Quando causar dano Ã  criatura sob sua Marca do CaÃ§ador, vocÃª pode causar o dano extra da magia em outra criatura visÃ­vel a atÃ© 9m da primeira.</description>
+		<sheet alt="Presa do Caçador Superior" usage="1/Turno">
+			<description>Quando causar dano à criatura sob sua Marca do Caçador, você pode causar o dano extra da magia em outra criatura visível a até 9m da primeira.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 15: Defesa do CaÃ§ador Superior" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_SUPERIOR_HUNTERS_DEFENSE">
+	<element name="Nível 15: Defesa do Caçador Superior" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTER_SUPERIOR_HUNTERS_DEFENSE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_HUNTER_SUPERIOR_HUNTERS_DEFENSE</requirements>
 		<description>
-			<p>Quando vocÃª sofre dano, pode usar uma ReaÃ§Ã£o para se dar ResistÃªncia a esse dano e qualquer outro dano do mesmo tipo atÃ© o fim do turno atual.</p>		
+			<p>Quando você sofre dano, pode usar uma Reação para se dar Resistência a esse dano e qualquer outro dano do mesmo tipo até o fim do turno atual.</p>		
 		</description>
-		<sheet alt="Defesa do CaÃ§ador Superior" action="ReaÃ§Ã£o">
-			<description>Ao sofrer dano, vocÃª ganha ResistÃªncia a esse dano e a qualquer outro dano do mesmo tipo atÃ© o final do turno atual.</description>
+		<sheet alt="Defesa do Caçador Superior" action="Reação">
+			<description>Ao sofrer dano, você ganha Resistência a esse dano e a qualquer outro dano do mesmo tipo até o final do turno atual.</description>
 		</sheet>
 	</element>
 

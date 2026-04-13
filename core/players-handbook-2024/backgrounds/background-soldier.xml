@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Soldado</name>
@@ -9,22 +9,22 @@
 		</update>
 	</info>
 
-	<element name="Soldado" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_SOLDIER">
+	<element name="Soldado" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_SOLDIER">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> ForÃ§a, Destreza, ConstituiÃ§Ã£o</li>
+				<li><strong>Valores de Habilidade:</strong> Força, Destreza, Constituição</li>
 				<li><strong>Talento:</strong> Atacante Selvagem</li>
-				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> Atletismo e IntimidaÃ§Ã£o</li>
-				<li><strong>ProficiÃªncia em Ferramenta:</strong><i> Escolha um tipo de Kit de Jogos</i></li>
-				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) LanÃ§a, Arco Curto, 20 Flechas, Kit de Jogos (o mesmo acima), Kit de Curandeiro, Aljava, Roupas de Viajante, 14 PO; ou (B) 50 PO</li>
+				<li><strong>Proficiências em Perícias:</strong> Atletismo e Intimidação</li>
+				<li><strong>Proficiência em Ferramenta:</strong><i> Escolha um tipo de Kit de Jogos</i></li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Lança, Arco Curto, 20 Flechas, Kit de Jogos (o mesmo acima), Kit de Curandeiro, Aljava, Roupas de Viajante, 14 PO; ou (B) 50 PO</li>
 			</ul>
-			<p>VocÃª comeÃ§ou a treinar para a guerra assim que atingiu a idade adulta e carrega poucas memÃ³rias preciosas da vida antes de pegar em armas. A batalha estÃ¡ no seu sangue. Ã€s vezes vocÃª se pega realizando reflexivamente os exercÃ­cios bÃ¡sicos de luta que aprendeu primeiro. Eventualmente, vocÃª colocou esse treinamento em uso no campo de batalha, protegendo o reino ao travar guerras.</p>
+			<p>Você começou a treinar para a guerra assim que atingiu a idade adulta e carrega poucas memórias preciosas da vida antes de pegar em armas. A batalha está no seu sangue. Às vezes você se pega realizando reflexivamente os exercícios básicos de luta que aprendeu primeiro. Eventualmente, você colocou esse treinamento em uso no campo de batalha, protegendo o reino ao travar guerras.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_SAVAGE_ATTACKER" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">ForÃ§a, Destreza, ConstituiÃ§Ã£o, Talento Atacante Selvagem, PerÃ­cias Atletismo e IntimidaÃ§Ã£o, um Kit de Jogos</set>
+			<set name="short">Força, Destreza, Constituição, Talento Atacante Selvagem, Perícias Atletismo e Intimidação, um Kit de Jogos</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CON" />

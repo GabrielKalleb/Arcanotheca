@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -9,7 +9,7 @@
 	<element name="Light of Xaryxis" type="Source" source="Core" id="ID_WOTC_SOURCE_LIGHT_OF_XARYXIS">
 		<description>
 			<p>Part of the <b><i>Spelljammer: Adventures in Space</i></b> box set</p>
-			<p>A 64-page hardcover adventure for Dungeon Masters that is set in the Astral Plane and designed for characters of levels 5â€“8.</p>
+			<p>A 64-page hardcover adventure for Dungeon Masters that is set in the Astral Plane and designed for characters of levels 5–8.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">LOX</set>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Ferramentas</name>
@@ -8,17 +8,17 @@
 		</update>
 	</info>
 
-	<element name="Suprimentos de Alquimista" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_ALCHEMISTS_SUPPLIES">
+	<element name="Suprimentos de Alquimista" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_ALCHEMISTS_SUPPLIES">
 		<description>
 			<ul class="unstyled">
-				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> InteligÃªncia</li>
+				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Inteligência</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 8 lb.</li>
-				<li><strong>Utilizar:</strong> Identificar uma substÃ¢ncia (CD 15) ou iniciar um fogo (CD 15)</li>
-				<li><strong>Fabricar:</strong> Ãcido, Fogo AlquÃ­mico, Bolsa de Componentes, Ã“leo, Papel, Perfume</li>
+				<li><strong>Utilizar:</strong> Identificar uma substância (CD 15) ou iniciar um fogo (CD 15)</li>
+				<li><strong>Fabricar:</strong> Ácido, Fogo Alquímico, Bolsa de Componentes, Óleo, Papel, Perfume</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">50</set>
 			<set name="weight" lb="8">8 lbs.</set>
@@ -27,17 +27,17 @@
 		</setters>
 	</element>
 
-	<element name="Suprimentos de Cervejeiro" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_BREWERS_SUPPLIES">
+	<element name="Suprimentos de Cervejeiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_BREWERS_SUPPLIES">
 		<description>
 			<ul class="unstyled">
-				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> InteligÃªncia</li>
+				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Inteligência</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 9 lb.</li>
-				<li><strong>Utilizar:</strong> Detectar bebida envenenada (CD 15) ou identificar Ã¡lcool (CD 10)</li>
+				<li><strong>Utilizar:</strong> Detectar bebida envenenada (CD 15) ou identificar álcool (CD 10)</li>
 				<li><strong>Fabricar:</strong> Antitoxina</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">20</set>
 			<set name="weight" lb="9">9 lbs.</set>
@@ -46,17 +46,17 @@
 		</setters>
 	</element>
 
-	<element name="Suprimentos de CalÃ­grafo" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_CALLIGRAPHERS_SUPPLIES">
+	<element name="Suprimentos de Calígrafo" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_CALLIGRAPHERS_SUPPLIES">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Destreza</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 5 lb.</li>
-				<li><strong>Utilizar:</strong> Escrever um texto com floreios impressionantes que protegem contra falsificaÃ§Ã£o (CD 15)</li>
+				<li><strong>Utilizar:</strong> Escrever um texto com floreios impressionantes que protegem contra falsificação (CD 15)</li>
 				<li><strong>Fabricar:</strong> Tinta, <i>Pergaminho de Magia</i></li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="5">5 lbs.</set>
@@ -65,17 +65,17 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de Carpinteiro" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_CARPENTERS_TOOLS">
+	<element name="Ferramentas de Carpinteiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_CARPENTERS_TOOLS">
 		<description>
 			<ul class="unstyled">
-				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> ForÃ§a</li>
+				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Força</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 6 lb.</li>
-				<li><strong>Utilizar:</strong> Selar ou forÃ§ar a abertura de uma porta ou recipiente (CD 20)</li>
-				<li><strong>Fabricar:</strong> Clava, Clava Grande, BordÃ£o, Barril, BaÃº, Escada, Vara, ArÃ­ete PortÃ¡til, Tocha</li>
+				<li><strong>Utilizar:</strong> Selar ou forçar a abertura de uma porta ou recipiente (CD 20)</li>
+				<li><strong>Fabricar:</strong> Clava, Clava Grande, Bordão, Barril, Baú, Escada, Vara, Aríete Portátil, Tocha</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">8</set>
 			<set name="weight" lb="6">6 lbs.</set>
@@ -84,17 +84,17 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de CartÃ³grafo" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_CARTOGRAPHERS_TOOLS">
+	<element name="Ferramentas de Cartógrafo" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_CARTOGRAPHERS_TOOLS">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Sabedoria</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 6 lb.</li>
-				<li><strong>Utilizar:</strong> Desenhar o mapa de uma Ã¡rea pequena (CD 15)</li>
+				<li><strong>Utilizar:</strong> Desenhar o mapa de uma área pequena (CD 15)</li>
 				<li><strong>Fabricar:</strong> Mapa</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">15</set>
 			<set name="weight" lb="6">6 lbs.</set>
@@ -103,17 +103,17 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de Sapateiro" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_COBBLERS_TOOLS">
+	<element name="Ferramentas de Sapateiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_COBBLERS_TOOLS">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Destreza</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 5 lb.</li>
-				<li><strong>Utilizar:</strong> Modificar calÃ§ados para conceder Vantagem no prÃ³ximo teste de Destreza (Acrobacia) do usuÃ¡rio (CD 10)</li>
+				<li><strong>Utilizar:</strong> Modificar calçados para conceder Vantagem no próximo teste de Destreza (Acrobacia) do usuário (CD 10)</li>
 				<li><strong>Fabricar:</strong> Kit de Escalador</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">5</set>
 			<set name="weight" lb="5">5 lbs.</set>
@@ -122,17 +122,17 @@
 		</setters>
 	</element>
 
-	<element name="UtensÃ­lios de Cozinheiro" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_COOKS_UTENSILS">
+	<element name="Utensílios de Cozinheiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_COOKS_UTENSILS">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Sabedoria</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 8 lb.</li>
 				<li><strong>Utilizar:</strong> Melhorar o sabor da comida (CD 10) ou detectar comida estragada ou envenenada (CD 15)</li>
-				<li><strong>Fabricar:</strong> RaÃ§Ãµes</li>
+				<li><strong>Fabricar:</strong> Rações</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">1</set>
 			<set name="weight" lb="8">8 lbs.</set>
@@ -141,17 +141,17 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de Soprador de Vidro" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_GLASSBLOWERS_TOOLS">
+	<element name="Ferramentas de Soprador de Vidro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_GLASSBLOWERS_TOOLS">
 		<description>
 			<ul class="unstyled">
-				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> InteligÃªncia</li>
+				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Inteligência</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 5 lb.</li>
-				<li><strong>Utilizar:</strong> Discernir o que um objeto de vidro continha nas Ãºltimas 24 horas (CD 15)</li>
+				<li><strong>Utilizar:</strong> Discernir o que um objeto de vidro continha nas últimas 24 horas (CD 15)</li>
 				<li><strong>Fabricar:</strong> Garrafa de Vidro, Lupa, Luneta, Frasco</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">30</set>
 			<set name="weight" lb="5">5 lbs.</set>
@@ -160,17 +160,17 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de Joalheiro" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_JEWELERS_TOOLS">
+	<element name="Ferramentas de Joalheiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_JEWELERS_TOOLS">
 		<description>
 			<ul class="unstyled">
-				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> InteligÃªncia</li>
+				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Inteligência</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 2 lb.</li>
 				<li><strong>Utilizar:</strong> Discernir o valor de uma joia (CD 15)</li>
-				<li><strong>Fabricar:</strong> Foco Arcano, SÃ­mbolo Sagrado</li>
+				<li><strong>Fabricar:</strong> Foco Arcano, Símbolo Sagrado</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">25</set>
 			<set name="weight" lb="2">2 lbs.</set>
@@ -179,7 +179,7 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de Trabalhador em Couro" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_LEATHERWORKERS_TOOLS">
+	<element name="Ferramentas de Trabalhador em Couro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_LEATHERWORKERS_TOOLS">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Destreza</li>
@@ -189,7 +189,7 @@
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">5</set>
 			<set name="weight" lb="5">5 lbs.</set>
@@ -198,17 +198,17 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de Pedreiro" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_MASONS_TOOLS">
+	<element name="Ferramentas de Pedreiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_MASONS_TOOLS">
 		<description>
 			<ul class="unstyled">
-				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> ForÃ§a</li>
+				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Força</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 8 lb.</li>
-				<li><strong>Utilizar:</strong> Cinzelar um sÃ­mbolo ou buraco em pedra (CD 10)</li>
+				<li><strong>Utilizar:</strong> Cinzelar um símbolo ou buraco em pedra (CD 10)</li>
 				<li><strong>Fabricar:</strong> Cadernal</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="8">8 lbs.</set>
@@ -217,17 +217,17 @@
 		</setters>
 	</element>
 
-	<element name="Suprimentos de Pintor" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_PAINTERS_SUPPLIES">
+	<element name="Suprimentos de Pintor" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_PAINTERS_SUPPLIES">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Sabedoria</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 5 lb.</li>
-				<li><strong>Utilizar:</strong> Pintar uma imagem reconhecÃ­vel de algo que vocÃª viu (CD 10)</li>
-				<li><strong>Fabricar:</strong> Foco DruÃ­dico, SÃ­mbolo Sagrado</li>
+				<li><strong>Utilizar:</strong> Pintar uma imagem reconhecível de algo que você viu (CD 10)</li>
+				<li><strong>Fabricar:</strong> Foco Druídico, Símbolo Sagrado</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="5">5 lbs.</set>
@@ -236,17 +236,17 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de Oleiro" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_POTTERS_TOOLS">
+	<element name="Ferramentas de Oleiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_POTTERS_TOOLS">
 		<description>
 			<ul class="unstyled">
-				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> InteligÃªncia</li>
+				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Inteligência</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 3 lb.</li>
-				<li><strong>Utilizar:</strong> Discernir o que um objeto de cerÃ¢mica continha nas Ãºltimas 24 horas (CD 15)</li>
-				<li><strong>Fabricar:</strong> Jarro, LampiÃ£o</li>
+				<li><strong>Utilizar:</strong> Discernir o que um objeto de cerâmica continha nas últimas 24 horas (CD 15)</li>
+				<li><strong>Fabricar:</strong> Jarro, Lampião</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="3">3 lbs.</set>
@@ -255,17 +255,17 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de Ferreiro" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_SMITHS_TOOLS">
+	<element name="Ferramentas de Ferreiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_SMITHS_TOOLS">
 		<description>
 			<ul class="unstyled">
-				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> ForÃ§a</li>
+				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Força</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 8 lb.</li>
-				<li><strong>Utilizar:</strong> ForÃ§ar a abertura de uma porta ou recipiente (CD 20)</li>
-				<li><strong>Fabricar:</strong> Qualquer arma Corpo a Corpo (exceto Clava, Clava Grande, BordÃ£o e Chicote), armadura MÃ©dia (exceto Pele), armadura Pesada, Esferas de Metal, Balde, Estrepes, Corrente, PÃ© de Cabra, ProjÃ©teis de Arma de Fogo, ArpÃ©u, Panela de Ferro, PÃ­tons de Ferro, MuniÃ§Ã£o de Funda</li>
+				<li><strong>Utilizar:</strong> Forçar a abertura de uma porta ou recipiente (CD 20)</li>
+				<li><strong>Fabricar:</strong> Qualquer arma Corpo a Corpo (exceto Clava, Clava Grande, Bordão e Chicote), armadura Média (exceto Pele), armadura Pesada, Esferas de Metal, Balde, Estrepes, Corrente, Pé de Cabra, Projéteis de Arma de Fogo, Arpéu, Panela de Ferro, Pítons de Ferro, Munição de Funda</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">20</set>
 			<set name="weight" lb="8">8 lbs.</set>
@@ -274,17 +274,17 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de Funileiro" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_TINKERS_TOOLS">
+	<element name="Ferramentas de Funileiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_TINKERS_TOOLS">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Destreza</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 10 lb.</li>
-				<li><strong>Utilizar:</strong> Montar um item MinÃºsculo composto de sucata, que desmorona em 1 minuto (CD 20)</li>
-				<li><strong>Fabricar:</strong> Mosquete, Pistola, Sino, Lanterna Furta-fogo, Frasco, Lanterna Coberta, Armadilha de CaÃ§a, Cadeado, Algemas, Espelho, PÃ¡, Apito de SinalizaÃ§Ã£o, Caixa de Fogo</li>
+				<li><strong>Utilizar:</strong> Montar um item Minúsculo composto de sucata, que desmorona em 1 minuto (CD 20)</li>
+				<li><strong>Fabricar:</strong> Mosquete, Pistola, Sino, Lanterna Furta-fogo, Frasco, Lanterna Coberta, Armadilha de Caça, Cadeado, Algemas, Espelho, Pá, Apito de Sinalização, Caixa de Fogo</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">50</set>
 			<set name="weight" lb="10">10 lbs.</set>
@@ -293,17 +293,17 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de TecelÃ£o" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_WEAVERS_TOOLS">
+	<element name="Ferramentas de Tecelão" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_WEAVERS_TOOLS">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Destreza</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 5 lb.</li>
-				<li><strong>Utilizar:</strong> Remendar um rasgo em uma roupa (CD 10) ou costurar um design MinÃºsculo (CD 10)</li>
-				<li><strong>Fabricar:</strong> Armadura Acolchoada, Cesto, Saco de Dormir, Cobertor, Roupas Finas, Rede, TÃºnica, Corda, Saco, Barbante, Tenda, Roupas de Viajante</li>
+				<li><strong>Utilizar:</strong> Remendar um rasgo em uma roupa (CD 10) ou costurar um design Minúsculo (CD 10)</li>
+				<li><strong>Fabricar:</strong> Armadura Acolchoada, Cesto, Saco de Dormir, Cobertor, Roupas Finas, Rede, Túnica, Corda, Saco, Barbante, Tenda, Roupas de Viajante</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">1</set>
 			<set name="weight" lb="5">5 lbs.</set>
@@ -312,17 +312,17 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de Entalhador" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_WOODCARVERS_TOOLS">
+	<element name="Ferramentas de Entalhador" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_WOODCARVERS_TOOLS">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Destreza</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 5 lb.</li>
-				<li><strong>Utilizar:</strong> Esculpir um padrÃ£o na madeira (CD 10)</li>
-				<li><strong>Fabricar:</strong> Clava, Clava Grande, BordÃ£o, armas Ã  DistÃ¢ncia (exceto Pistola, Mosquete e Funda), Foco Arcano, Flechas, Virotes, Foco DruÃ­dico, Caneta Tinteiro, Agulhas</li>
+				<li><strong>Utilizar:</strong> Esculpir um padrão na madeira (CD 10)</li>
+				<li><strong>Fabricar:</strong> Clava, Clava Grande, Bordão, armas à Distância (exceto Pistola, Mosquete e Funda), Foco Arcano, Flechas, Virotes, Foco Druídico, Caneta Tinteiro, Agulhas</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesÃ£o</set>
+			<set name="keywords">artisan's tools, artisan tools, artisans tools, artisanal tools, ferramentas de artesão</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="gp">1</set>
 			<set name="weight" lb="5">5 lbs.</set>
@@ -331,7 +331,7 @@
 		</setters>
 	</element>
 
-	<element name="Kit de Disfarce" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_DISGUISE_KIT">
+	<element name="Kit de Disfarce" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_DISGUISE_KIT">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Carisma</li>
@@ -349,7 +349,7 @@
 		</setters>
 	</element>
 
-	<element name="Kit de FalsificaÃ§Ã£o" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_FORGERY_KIT">
+	<element name="Kit de Falsificação" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_FORGERY_KIT">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Destreza</li>
@@ -366,85 +366,85 @@
 		</setters>
 	</element>
 
-	<element name="Conjunto de Dados" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_DICE_SET">
+	<element name="Conjunto de Dados" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_DICE_SET">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Sabedoria</li>
-				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> â€” lb.</li>
-				<li><strong>Utilizar:</strong> Discernir se alguÃ©m estÃ¡ trapaceando (CD 10) ou ganhar o jogo (CD 20)</li>
+				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> — lb.</li>
+				<li><strong>Utilizar:</strong> Discernir se alguém está trapaceando (CD 10) ou ganhar o jogo (CD 20)</li>
 			</ul>
 		</description>
 		<setters>
 			<set name="keywords">game, gaming set, conjunto de jogo</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="sp">1</set>
-			<set name="weight" lb="0">â€”</set>
+			<set name="weight" lb="0">—</set>
 			<set name="type">Conjunto de Jogo</set>
 			<set name="proficiency">ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET</set>
 		</setters>
 	</element>
 
-	<element name="Conjunto de Xadrez de DragÃ£o" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_DRAGONCHESS_SET">
+	<element name="Conjunto de Xadrez de Dragão" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_DRAGONCHESS_SET">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Sabedoria</li>
-				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> â€” lb.</li>
-				<li><strong>Utilizar:</strong> Discernir se alguÃ©m estÃ¡ trapaceando (CD 10) ou ganhar o jogo (CD 20)</li>
+				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> — lb.</li>
+				<li><strong>Utilizar:</strong> Discernir se alguém está trapaceando (CD 10) ou ganhar o jogo (CD 20)</li>
 			</ul>
 		</description>
 		<setters>
 			<set name="keywords">game, gaming set, conjunto de jogo</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="sp">1</set>
-			<set name="weight" lb="0">â€”</set>
+			<set name="weight" lb="0">—</set>
 			<set name="type">Conjunto de Jogo</set>
 			<set name="proficiency">ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET</set>
 		</setters>
 	</element>
 
-	<element name="Conjunto de Cartas de Baralho" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_PLAYING_CARDS_SET">
+	<element name="Conjunto de Cartas de Baralho" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_PLAYING_CARDS_SET">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Sabedoria</li>
-				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> â€” lb.</li>
-				<li><strong>Utilizar:</strong> Discernir se alguÃ©m estÃ¡ trapaceando (CD 10) ou ganhar o jogo (CD 20)</li>
+				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> — lb.</li>
+				<li><strong>Utilizar:</strong> Discernir se alguém está trapaceando (CD 10) ou ganhar o jogo (CD 20)</li>
 			</ul>
 		</description>
 		<setters>
 			<set name="keywords">game, gaming set, conjunto de jogo</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="sp">1</set>
-			<set name="weight" lb="0">â€”</set>
+			<set name="weight" lb="0">—</set>
 			<set name="type">Conjunto de Jogo</set>
 			<set name="proficiency">ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET</set>
 		</setters>
 	</element>
 
-	<element name="Conjunto de Ante do TrÃªs DragÃµes" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_THREE_DRAGON_ANTE_SET">
+	<element name="Conjunto de Ante do Três Dragões" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_THREE_DRAGON_ANTE_SET">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Sabedoria</li>
-				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> â€” lb.</li>
-				<li><strong>Utilizar:</strong> Discernir se alguÃ©m estÃ¡ trapaceando (CD 10) ou ganhar o jogo (CD 20)</li>
+				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> — lb.</li>
+				<li><strong>Utilizar:</strong> Discernir se alguém está trapaceando (CD 10) ou ganhar o jogo (CD 20)</li>
 			</ul>
 		</description>
 		<setters>
 			<set name="keywords">game, gaming set, conjunto de jogo</set>
 			<set name="category">Ferramentas</set>
 			<set name="cost" currency="sp">1</set>
-			<set name="weight" lb="0">â€”</set>
+			<set name="weight" lb="0">—</set>
 			<set name="type">Conjunto de Jogo</set>
 			<set name="proficiency">ID_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET</set>
 		</setters>
 	</element>
 
-	<element name="Kit de Herbalismo" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_HERBALISM_KIT">
+	<element name="Kit de Herbalismo" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_HERBALISM_KIT">
 		<description>
 			<ul class="unstyled">
-				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> InteligÃªncia</li>
+				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Inteligência</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 3 lb.</li>
 				<li><strong>Utilizar:</strong> Identificar uma planta (CD 10)</li>
-				<li><strong>Fabricar:</strong> Antitoxina, Vela, Kit de Curandeiro, <i>PoÃ§Ã£o de Cura</i></li>
+				<li><strong>Fabricar:</strong> Antitoxina, Vela, Kit de Curandeiro, <i>Poção de Cura</i></li>
 			</ul>
 		</description>
 		<setters>
@@ -456,12 +456,12 @@
 		</setters>
 	</element>
 
-	<element name="Gaita de Foles" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_BAGPIPES">
+	<element name="Gaita de Foles" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_BAGPIPES">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Carisma</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 6 lb.</li>
-				<li><strong>Utilizar:</strong> Tocar uma mÃºsica conhecida (CD 10) ou improvisar uma canÃ§Ã£o (CD 15)</li>
+				<li><strong>Utilizar:</strong> Tocar uma música conhecida (CD 10) ou improvisar uma canção (CD 15)</li>
 			</ul>
 		</description>
 		<setters>
@@ -474,12 +474,12 @@
 		</setters>
 	</element>
 
-	<element name="Tambor" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_DRUM">
+	<element name="Tambor" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_DRUM">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Carisma</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 3 lb.</li>
-				<li><strong>Utilizar:</strong> Tocar uma mÃºsica conhecida (CD 10) ou improvisar uma canÃ§Ã£o (CD 15)</li>
+				<li><strong>Utilizar:</strong> Tocar uma música conhecida (CD 10) ou improvisar uma canção (CD 15)</li>
 			</ul>
 		</description>
 		<setters>
@@ -492,12 +492,12 @@
 		</setters>
 	</element>
 
-	<element name="Dulcimer" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_DULCIMER">
+	<element name="Dulcimer" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_DULCIMER">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Carisma</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 10 lb.</li>
-				<li><strong>Utilizar:</strong> Tocar uma mÃºsica conhecida (CD 10) ou improvisar uma canÃ§Ã£o (CD 15)</li>
+				<li><strong>Utilizar:</strong> Tocar uma música conhecida (CD 10) ou improvisar uma canção (CD 15)</li>
 			</ul>
 		</description>
 		<setters>
@@ -510,12 +510,12 @@
 		</setters>
 	</element>
 
-	<element name="Flauta" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_FLUTE">
+	<element name="Flauta" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_FLUTE">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Carisma</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 1 lb.</li>
-				<li><strong>Utilizar:</strong> Tocar uma mÃºsica conhecida (CD 10) ou improvisar uma canÃ§Ã£o (CD 15)</li>
+				<li><strong>Utilizar:</strong> Tocar uma música conhecida (CD 10) ou improvisar uma canção (CD 15)</li>
 			</ul>
 		</description>
 		<setters>
@@ -528,12 +528,12 @@
 		</setters>
 	</element>
 
-	<element name="Trombeta" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_HORN">
+	<element name="Trombeta" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_HORN">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Carisma</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 2 lb.</li>
-				<li><strong>Utilizar:</strong> Tocar uma mÃºsica conhecida (CD 10) ou improvisar uma canÃ§Ã£o (CD 15)</li>
+				<li><strong>Utilizar:</strong> Tocar uma música conhecida (CD 10) ou improvisar uma canção (CD 15)</li>
 			</ul>
 		</description>
 		<setters>
@@ -546,12 +546,12 @@
 		</setters>
 	</element>
 
-	<element name="AlaÃºde" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_LUTE">
+	<element name="Alaúde" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_LUTE">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Carisma</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 2 lb.</li>
-				<li><strong>Utilizar:</strong> Tocar uma mÃºsica conhecida (CD 10) ou improvisar uma canÃ§Ã£o (CD 15)</li>
+				<li><strong>Utilizar:</strong> Tocar uma música conhecida (CD 10) ou improvisar uma canção (CD 15)</li>
 			</ul>
 		</description>
 		<setters>
@@ -564,12 +564,12 @@
 		</setters>
 	</element>
 
-	<element name="Lira" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_LYRE">
+	<element name="Lira" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_LYRE">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Carisma</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 2 lb.</li>
-				<li><strong>Utilizar:</strong> Tocar uma mÃºsica conhecida (CD 10) ou improvisar uma canÃ§Ã£o (CD 15)</li>
+				<li><strong>Utilizar:</strong> Tocar uma música conhecida (CD 10) ou improvisar uma canção (CD 15)</li>
 			</ul>
 		</description>
 		<setters>
@@ -582,12 +582,12 @@
 		</setters>
 	</element>
 
-	<element name="Flauta de PÃ£" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_PANFLUTE">
+	<element name="Flauta de Pã" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_PANFLUTE">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Carisma</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 2 lb.</li>
-				<li><strong>Utilizar:</strong> Tocar uma mÃºsica conhecida (CD 10) ou improvisar uma canÃ§Ã£o (CD 15)</li>
+				<li><strong>Utilizar:</strong> Tocar uma música conhecida (CD 10) ou improvisar uma canção (CD 15)</li>
 			</ul>
 		</description>
 		<setters>
@@ -600,12 +600,12 @@
 		</setters>
 	</element>
 
-	<element name="Charamela" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_SHAWM">
+	<element name="Charamela" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_SHAWM">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Carisma</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 1 lb.</li>
-				<li><strong>Utilizar:</strong> Tocar uma mÃºsica conhecida (CD 10) ou improvisar uma canÃ§Ã£o (CD 15)</li>
+				<li><strong>Utilizar:</strong> Tocar uma música conhecida (CD 10) ou improvisar uma canção (CD 15)</li>
 			</ul>
 		</description>
 		<setters>
@@ -618,12 +618,12 @@
 		</setters>
 	</element>
 
-	<element name="Viola" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_VIOL">
+	<element name="Viola" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INSTRUMENT_VIOL">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Carisma</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 1 lb.</li>
-				<li><strong>Utilizar:</strong> Tocar uma mÃºsica conhecida (CD 10) ou improvisar uma canÃ§Ã£o (CD 15)</li>
+				<li><strong>Utilizar:</strong> Tocar uma música conhecida (CD 10) ou improvisar uma canção (CD 15)</li>
 			</ul>
 		</description>
 		<setters>
@@ -636,12 +636,12 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de Navegador" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_NAVIGATORS_TOOLS">
+	<element name="Ferramentas de Navegador" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_NAVIGATORS_TOOLS">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Sabedoria</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 2 lb.</li>
-				<li><strong>Utilizar:</strong> TraÃ§ar uma rota (CD 10) ou determinar posiÃ§Ã£o observando as estrelas (CD 15)</li>
+				<li><strong>Utilizar:</strong> Traçar uma rota (CD 10) ou determinar posição observando as estrelas (CD 15)</li>
 			</ul>
 		</description>
 		<setters>
@@ -653,13 +653,13 @@
 		</setters>
 	</element>
 
-	<element name="Kit de Envenenador" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_POISONERS_KIT">
+	<element name="Kit de Envenenador" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_POISONERS_KIT">
 		<description>
 			<ul class="unstyled">
-				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> InteligÃªncia</li>
+				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Inteligência</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Peso:</strong> 2 lb.</li>
 				<li><strong>Utilizar:</strong> Detectar um objeto envenenado (CD 10)</li>
-				<li><strong>Fabricar:</strong> Veneno BÃ¡sico</li>
+				<li><strong>Fabricar:</strong> Veneno Básico</li>
 			</ul>
 		</description>
 		<setters>
@@ -671,7 +671,7 @@
 		</setters>
 	</element>
 
-	<element name="Ferramentas de LadrÃ£o" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_THIEVES_TOOLS">
+	<element name="Ferramentas de Ladrão" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TOOL_THIEVES_TOOLS">
 		<description>
 			<ul class="unstyled">
 				<li style="margin-bottom:-1em"><strong>Habilidade:</strong> Destreza</li>

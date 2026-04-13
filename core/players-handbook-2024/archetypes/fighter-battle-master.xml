@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Mestre de Batalha</name>
@@ -9,11 +9,11 @@
 		</update>
 	</info>
 
-	<element name="Mestre de Batalha" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_BATTLE_MASTER">
+	<element name="Mestre de Batalha" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_BATTLE_MASTER">
 		<supports>Fighter Subclass</supports>
 		<description>
 			<p class="flavor">Domine Manobras de Batalha Sofisticadas</p>
-			<p>Mestres de Batalha sÃ£o estudantes da arte da guerra, aprendendo tÃ©cnicas marciais passadas atravÃ©s das geraÃ§Ãµes. Os Mestres de Batalha mais realizados sÃ£o figuras equilibradas que combinam suas habilidades de combate cuidadosamente treinadas com estudos acadÃªmicos nos campos da histÃ³ria, teoria e das artes.</p>
+			<p>Mestres de Batalha são estudantes da arte da guerra, aprendendo técnicas marciais passadas através das gerações. Os Mestres de Batalha mais realizados são figuras equilibradas que combinam suas habilidades de combate cuidadosamente treinadas com estudos acadêmicos nos campos da história, teoria e das artes.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_COMBAT_SUPERIORITY"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_STUDENT_OF_WAR"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_KNOW_YOUR_ENEMY"/>
@@ -33,18 +33,18 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Superioridade em Combate" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_COMBAT_SUPERIORITY">
+	<element name="Nível 3: Superioridade em Combate" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_COMBAT_SUPERIORITY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_BATTLE_MASTER_COMBAT_SUPERIORITY</requirements>
 		<description>
-			<p>Sua experiÃªncia no campo de batalha refinou suas tÃ©cnicas de luta. VocÃª aprende manobras que sÃ£o abastecidas por dados especiais chamados Dados de Superioridade.</p>
-			<p class="indent"><strong><em>Manobras.</em></strong> VocÃª aprende trÃªs manobras de sua escolha na seÃ§Ã£o "OpÃ§Ãµes de Manobra" mais adiante na descriÃ§Ã£o desta subclasse. Muitas manobras melhoram um ataque de alguma forma. VocÃª sÃ³ pode usar uma manobra por ataque.</p>
-			<p class="indent">VocÃª aprende duas manobras adicionais de sua escolha quando atinge os nÃ­veis de Guerreiro 7, 10 e 15. A cada vez que aprende novas manobras, vocÃª tambÃ©m pode substituir uma manobra que conhece por uma diferente.</p>
-			<p class="indent"><strong><em>Dados de Superioridade.</em></strong> VocÃª tem quatro Dados de Superioridade, que sÃ£o d8s. Um Dado de Superioridade Ã© gasto quando vocÃª o utiliza. VocÃª recupera todos os Dados de Superioridade gastos quando termina um Descanso Curto ou Longo.</p>
-			<p class="indent">VocÃª ganha um Dado de Superioridade adicional quando atinge os nÃ­veis de Guerreiro 7 (cinco dados no total) e 15 (seis dados no total).</p>
-			<p class="indent"><strong><em>Testes de ResistÃªncia.</em></strong> Se uma manobra exigir um teste de resistÃªncia, a CD Ã© igual a 8 mais seu modificador de ForÃ§a ou Destreza (Ã  sua escolha) e BÃ´nus de ProficiÃªncia.</p>
+			<p>Sua experiência no campo de batalha refinou suas técnicas de luta. Você aprende manobras que são abastecidas por dados especiais chamados Dados de Superioridade.</p>
+			<p class="indent"><strong><em>Manobras.</em></strong> Você aprende três manobras de sua escolha na seção "Opções de Manobra" mais adiante na descrição desta subclasse. Muitas manobras melhoram um ataque de alguma forma. Você só pode usar uma manobra por ataque.</p>
+			<p class="indent">Você aprende duas manobras adicionais de sua escolha quando atinge os níveis de Guerreiro 7, 10 e 15. A cada vez que aprende novas manobras, você também pode substituir uma manobra que conhece por uma diferente.</p>
+			<p class="indent"><strong><em>Dados de Superioridade.</em></strong> Você tem quatro Dados de Superioridade, que são d8s. Um Dado de Superioridade é gasto quando você o utiliza. Você recupera todos os Dados de Superioridade gastos quando termina um Descanso Curto ou Longo.</p>
+			<p class="indent">Você ganha um Dado de Superioridade adicional quando atinge os níveis de Guerreiro 7 (cinco dados no total) e 15 (seis dados no total).</p>
+			<p class="indent"><strong><em>Testes de Resistência.</em></strong> Se uma manobra exigir um teste de resistência, a CD é igual a 8 mais seu modificador de Força ou Destreza (à sua escolha) e Bônus de Proficiência.</p>
 		</description>
 		<sheet alt="Superioridade em Combate" usage="{{combat superiority:dice amount}}d{{combat superiority:dice size}}/Descanso Curto">
-			<description>VocÃª pode usar apenas uma manobra por ataque. VocÃª pode substituir uma manobra que conhece por uma diferente ao atingir os nÃ­veis 7, 10 e 15.</description>
+			<description>Você pode usar apenas uma manobra por ataque. Você pode substituir uma manobra que conhece por uma diferente ao atingir os níveis 7, 10 e 15.</description>
 		</sheet>
 		<rules>
 			<stat name="combat superiority:dice amount" value="4" bonus="base" />
@@ -64,10 +64,10 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Estudante da Guerra" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_STUDENT_OF_WAR">
+	<element name="Nível 3: Estudante da Guerra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_STUDENT_OF_WAR">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_BATTLE_MASTER_STUDENT_OF_WAR</requirements>
 		<description>
-			<p>VocÃª adquire proficiÃªncia com um tipo de Ferramentas de ArtesÃ£o de sua escolha, e ganha proficiÃªncia em uma perÃ­cia de sua escolha dentre as disponÃ­veis para Guerreiros no nÃ­vel 1.</p>
+			<p>Você adquire proficiência com um tipo de Ferramentas de Artesão de sua escolha, e ganha proficiência em uma perícia de sua escolha dentre as disponíveis para Guerreiros no nível 1.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -76,19 +76,19 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 7: ConheÃ§a Seu Inimigo" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_KNOW_YOUR_ENEMY">
+	<element name="Nível 7: Conheça Seu Inimigo" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_KNOW_YOUR_ENEMY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_BATTLE_MASTER_KNOW_YOUR_ENEMY</requirements>
 		<description>
-			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode discernir certos pontos fortes e fracos de uma criatura que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) de vocÃª; vocÃª sabe se aquela criatura tem quaisquer Imunidades, ResistÃªncias ou Vulnerabilidades, e se tiver alguma, vocÃª saberÃ¡ quais sÃ£o.</p>
-			<p class="indent">Depois de usar esta caracterÃ­stica, vocÃª nÃ£o pode fazÃª-lo novamente atÃ© terminar um Descanso Longo. VocÃª tambÃ©m pode restaurar um uso da caracterÃ­stica gastando um Dado de Superioridade (nÃ£o requer aÃ§Ã£o).</p>
+			<p>Como uma Ação Bônus, você pode discernir certos pontos fortes e fracos de uma criatura que você possa ver a até 9 metros (30 pés) de você; você sabe se aquela criatura tem quaisquer Imunidades, Resistências ou Vulnerabilidades, e se tiver alguma, você saberá quais são.</p>
+			<p class="indent">Depois de usar esta característica, você não pode fazê-lo novamente até terminar um Descanso Longo. Você também pode restaurar um uso da característica gastando um Dado de Superioridade (não requer ação).</p>
 		</description>
-		<sheet alt="ConheÃ§a Seu Inimigo" action="AÃ§Ã£o BÃ´nus" usage="1/Descanso Longo">
-			<description>Escolha uma criatura que vocÃª possa ver a atÃ© 9 metros de vocÃª. VocÃª descobre quais Imunidades, ResistÃªncias e Vulnerabilidades essa criatura possui. &#13;
-			VocÃª pode restaurar um uso desta caracterÃ­stica gastando um Dado de Superioridade.</description>
+		<sheet alt="Conheça Seu Inimigo" action="Ação Bônus" usage="1/Descanso Longo">
+			<description>Escolha uma criatura que você possa ver a até 9 metros de você. Você descobre quais Imunidades, Resistências e Vulnerabilidades essa criatura possui. &#13;
+			Você pode restaurar um uso desta característica gastando um Dado de Superioridade.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 10: Superioridade em Combate Aprimorada" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_IMPROVED_COMBAT_SUPERIORITY">
+	<element name="Nível 10: Superioridade em Combate Aprimorada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_IMPROVED_COMBAT_SUPERIORITY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_BATTLE_MASTER_IMPROVED_COMBAT_SUPERIORITY</requirements>
 		<description>
 			<p>Seus Dados de Superioridade tornam-se d10s.</p>
@@ -99,17 +99,17 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 15: ImplacÃ¡vel" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_RELENTLESS">
+	<element name="Nível 15: Implacável" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_RELENTLESS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_BATTLE_MASTER_RELENTLESS</requirements>
 		<description>
-			<p>Uma vez por turno, quando vocÃª usa uma manobra, vocÃª pode rolar 1d8 e usar o nÃºmero rolado em vez de gastar um Dado de Superioridade.</p>
+			<p>Uma vez por turno, quando você usa uma manobra, você pode rolar 1d8 e usar o número rolado em vez de gastar um Dado de Superioridade.</p>
 		</description>
-		<sheet alt="ImplacÃ¡vel" usage="1/Turno">
-			<description>Quando vocÃª usa uma manobra, vocÃª pode rolar 1d8 e usar o nÃºmero rolado em vez de gastar um Dado de Superioridade.</description>
+		<sheet alt="Implacável" usage="1/Turno">
+			<description>Quando você usa uma manobra, você pode rolar 1d8 e usar o número rolado em vez de gastar um Dado de Superioridade.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 18: Superioridade em Combate Suprema" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_ULTIMATE_COMBAT_SUPERIORITY">
+	<element name="Nível 18: Superioridade em Combate Suprema" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_BATTLE_MASTER_ULTIMATE_COMBAT_SUPERIORITY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_BATTLE_MASTER_ULTIMATE_COMBAT_SUPERIORITY</requirements>
 		<description>
 			<p>Seus Dados de Superioridade tornam-se d12s.</p>
@@ -120,232 +120,232 @@
 		</rules>
 	</element>
 
-	<element name="OpÃ§Ãµes de Manobra" type="Information" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_INFORMATION_FIGHTER_BATTLE_MASTER_MANEUVER_OPTIONS">
+	<element name="Opções de Manobra" type="Information" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INFORMATION_FIGHTER_BATTLE_MASTER_MANEUVER_OPTIONS">
 		<description>
-			<p>As manobras estÃ£o apresentadas aqui em ordem alfabÃ©tica.</p>
-			<p class="indent"><i><b>Aparar (Parry).</b></i> Quando outra criatura atingir vocÃª com uma jogada de ataque corpo-a-corpo, vocÃª pode usar sua ReaÃ§Ã£o e gastar um Dado de Superioridade para reduzir o dano pelo nÃºmero que vocÃª rolar no Dado de Superioridade mais seu modificador de ForÃ§a ou Destreza (sua escolha).</p>
-			<p class="indent"><i><b>Ataque AmeaÃ§ador (Menacing Attack).</b></i> Quando vocÃª atinge uma criatura com uma jogada de ataque, vocÃª pode gastar um Dado de Superioridade para tentar amedrontar o alvo. Adicione o Dado de Superioridade Ã  rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistÃªncia de Sabedoria ou sofrerÃ¡ a condiÃ§Ã£o Amedrontado atÃ© o final do seu prÃ³ximo turno.</p>
-			<p class="indent"><i><b>Ataque com Estocada (Lunging Attack).</b></i> Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um Dado de Superioridade e realizar a aÃ§Ã£o Disparada. Se vocÃª se mover pelo menos 1,5 metro em linha reta imediatamente antes de atingir com um ataque corpo-a-corpo como parte da aÃ§Ã£o de Ataque neste turno, vocÃª pode adicionar o Dado de Superioridade Ã  rolagem de dano do ataque.</p>
-			<p class="indent"><i><b>Ataque de Manobra (Maneuvering Attack).</b></i> Quando vocÃª atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para manobrar um de seus companheiros para outra posiÃ§Ã£o. Adicione o Dado de Superioridade Ã  rolagem de dano do ataque, e escolha uma criatura disposta que possa vÃª-lo ou ouvi-lo. Aquela criatura pode usar sua ReaÃ§Ã£o para se mover atÃ© metade do seu Deslocamento sem provocar Ataques de Oportunidade do alvo do seu ataque.</p>
-			<p class="indent"><i><b>Ataque Derrubador (Trip Attack).</b></i> Quando vocÃª atinge uma criatura com um ataque usando uma arma ou um Ataque Desarmado, pode gastar um Dado de Superioridade e adicionar o dado Ã  rolagem de dano do ataque. Se o alvo for Grande ou menor, ele deve ser bem-sucedido num teste de resistÃªncia de ForÃ§a ou sofrerÃ¡ a condiÃ§Ã£o CaÃ­do.</p>
-			<p class="indent"><i><b>Ataque Desarmante (Disarming Attack).</b></i> Quando vocÃª atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para tentar desarmar o alvo. Adicione a rolagem do Dado de Superioridade Ã  rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistÃªncia de ForÃ§a ou deixarÃ¡ cair um objeto de sua escolha que ele esteja segurando. O objeto cai no espaÃ§o dele.</p>
-			<p class="indent"><i><b>Ataque Distrativo (Distracting Strike).</b></i> Quando vocÃª atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para distrair o alvo. Adicione o Dado de Superioridade Ã  rolagem de dano do ataque. A prÃ³xima jogada de ataque contra o alvo por um atacante que nÃ£o seja vocÃª tem Vantagem se o ataque for feito antes do inÃ­cio do seu prÃ³ximo turno.</p>
-			<p class="indent"><i><b>Ataque do Comandante (Commanderâ€™s Strike).</b></i> Quando vocÃª realiza a aÃ§Ã£o de Ataque no seu turno, pode substituir um de seus ataques para direcionar um de seus companheiros a atacar. Quando o faz, escolha uma criatura disposta que possa vÃª-lo ou ouvi-lo e gaste um Dado de Superioridade. Aquela criatura pode usar sua ReaÃ§Ã£o imediatamente para fazer um ataque com uma arma ou um Ataque Desarmado, adicionando o Dado de Superioridade Ã  rolagem de dano em um acerto.</p>
-			<p class="indent"><i><b>Ataque Empurrador (Pushing Attack).</b></i> Quando atinge uma criatura com uma jogada de ataque usando uma arma ou um Ataque Desarmado, vocÃª pode gastar um Dado de Superioridade para tentar empurrar o alvo. Adicione o Dado de Superioridade Ã  rolagem de dano do ataque. Se o alvo for Grande ou menor, deve ser bem-sucedido num teste de resistÃªncia de ForÃ§a ou serÃ¡ empurrado atÃ© 4,5 metros diretamente para longe de vocÃª.</p>
-			<p class="indent"><i><b>Ataque Fintado (Feinting Attack).</b></i> Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um Dado de Superioridade para fintar, escolhendo uma criatura a atÃ© 1,5 metro de vocÃª como seu alvo. VocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra aquele alvo neste turno. Se o ataque acertar, adicione o Dado de Superioridade Ã  rolagem de dano do ataque.</p>
-			<p class="indent"><i><b>Ataque Preciso (Precision Attack).</b></i> Quando vocÃª erra com uma jogada de ataque, pode gastar um Dado de Superioridade, rolar esse dado e adicionÃ¡-lo Ã  jogada de ataque, possivelmente fazendo o ataque acertar.</p>
-			<p class="indent"><i><b>Ataque Provocador (Goading Attack).</b></i> Quando vocÃª atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para tentar provocar o alvo a atacar vocÃª. Adicione o Dado de Superioridade Ã  rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistÃªncia de Sabedoria ou terÃ¡ Desvantagem nas jogadas de ataque contra alvos diferentes de vocÃª atÃ© o final do seu prÃ³ximo turno.</p>
-			<p class="indent"><i><b>Ataque Varredor (Sweeping Attack).</b></i> Quando atinge uma criatura com um ataque corpo-a-corpo usando uma arma ou um Ataque Desarmado, vocÃª pode gastar um Dado de Superioridade para tentar causar dano a outra criatura. Escolha outra criatura a atÃ© 1,5 metro do alvo original e dentro de seu alcance. Se a jogada de ataque original atingiria a segunda criatura, ela sofre dano igual ao nÃºmero rolado no Dado de Superioridade. O dano Ã© do mesmo tipo causado pelo ataque original.</p>
-			<p class="indent"><i><b>AvaliaÃ§Ã£o TÃ¡tica (Tactical Assessment).</b></i> Quando vocÃª faz um teste de InteligÃªncia (HistÃ³ria ou InvestigaÃ§Ã£o) ou de Sabedoria (IntuiÃ§Ã£o), pode gastar um Dado de Superioridade e adicionar esse dado ao teste de habilidade.</p>
-			<p class="indent"><i><b>Emboscada (Ambush).</b></i> Quando vocÃª faz um teste de Destreza (Furtividade) ou uma rolagem de Iniciativa, pode gastar um Dado de Superioridade e adicionar o dado Ã  rolagem, a nÃ£o ser que tenha a condiÃ§Ã£o Incapacitado.</p>
-			<p class="indent"><i><b>Isca e Troca (Bait and Switch).</b></i> Quando estiver a atÃ© 1,5 metro de uma criatura no seu turno, vocÃª pode gastar um Dado de Superioridade e trocar de lugar com aquela criatura, desde que vocÃª gaste pelo menos 1,5 metro de deslocamento e a criatura esteja disposta e nÃ£o possua a condiÃ§Ã£o Incapacitado. Este movimento nÃ£o provoca Ataques de Oportunidade. Role o Dado de Superioridade. AtÃ© o inÃ­cio do seu prÃ³ximo turno, vocÃª ou a outra criatura (sua escolha) recebe um bÃ´nus na CA (Classe de Armadura) igual ao nÃºmero rolado.</p>
-			<p class="indent"><i><b>PresenÃ§a Comandante (Commanding Presence).</b></i> Quando vocÃª faz um teste de Carisma (IntimidaÃ§Ã£o, AtuaÃ§Ã£o ou PersuasÃ£o), pode gastar um Dado de Superioridade e adicionar esse dado Ã  rolagem.</p>
-			<p class="indent"><i><b>Reagrupar (Rally).</b></i> Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um Dado de Superioridade para reforÃ§ar a determinaÃ§Ã£o de um companheiro. Escolha um aliado seu a atÃ© 9 metros de vocÃª que possa vÃª-lo ou ouvi-lo. Aquela criatura ganha Pontos de Vida TemporÃ¡rios iguais Ã  rolagem do Dado de Superioridade mais a metade do seu nÃ­vel de Guerreiro (arredondado para baixo).</p>
-			<p class="indent"><i><b>Revide (Riposte).</b></i> Quando uma criatura erra um ataque corpo-a-corpo contra vocÃª, vocÃª pode usar sua ReaÃ§Ã£o e gastar um Dado de Superioridade para fazer um ataque corpo-a-corpo com uma arma ou um Ataque Desarmado contra aquela criatura. Se acertar, adicione o Dado de Superioridade ao dano do ataque.</p>
-			<p class="indent"><i><b>Trabalho de PÃ©s Evasivo (Evasive Footwork).</b></i> Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um Dado de Superioridade e usar a aÃ§Ã£o Desengajar. VocÃª tambÃ©m rola o dado e adiciona o nÃºmero rolado Ã  sua CA atÃ© o inÃ­cio do seu prÃ³ximo turno.</p>
+			<p>As manobras estão apresentadas aqui em ordem alfabética.</p>
+			<p class="indent"><i><b>Aparar (Parry).</b></i> Quando outra criatura atingir você com uma jogada de ataque corpo-a-corpo, você pode usar sua Reação e gastar um Dado de Superioridade para reduzir o dano pelo número que você rolar no Dado de Superioridade mais seu modificador de Força ou Destreza (sua escolha).</p>
+			<p class="indent"><i><b>Ataque Ameaçador (Menacing Attack).</b></i> Quando você atinge uma criatura com uma jogada de ataque, você pode gastar um Dado de Superioridade para tentar amedrontar o alvo. Adicione o Dado de Superioridade à rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistência de Sabedoria ou sofrerá a condição Amedrontado até o final do seu próximo turno.</p>
+			<p class="indent"><i><b>Ataque com Estocada (Lunging Attack).</b></i> Como uma Ação Bônus, você pode gastar um Dado de Superioridade e realizar a ação Disparada. Se você se mover pelo menos 1,5 metro em linha reta imediatamente antes de atingir com um ataque corpo-a-corpo como parte da ação de Ataque neste turno, você pode adicionar o Dado de Superioridade à rolagem de dano do ataque.</p>
+			<p class="indent"><i><b>Ataque de Manobra (Maneuvering Attack).</b></i> Quando você atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para manobrar um de seus companheiros para outra posição. Adicione o Dado de Superioridade à rolagem de dano do ataque, e escolha uma criatura disposta que possa vê-lo ou ouvi-lo. Aquela criatura pode usar sua Reação para se mover até metade do seu Deslocamento sem provocar Ataques de Oportunidade do alvo do seu ataque.</p>
+			<p class="indent"><i><b>Ataque Derrubador (Trip Attack).</b></i> Quando você atinge uma criatura com um ataque usando uma arma ou um Ataque Desarmado, pode gastar um Dado de Superioridade e adicionar o dado à rolagem de dano do ataque. Se o alvo for Grande ou menor, ele deve ser bem-sucedido num teste de resistência de Força ou sofrerá a condição Caído.</p>
+			<p class="indent"><i><b>Ataque Desarmante (Disarming Attack).</b></i> Quando você atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para tentar desarmar o alvo. Adicione a rolagem do Dado de Superioridade à rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistência de Força ou deixará cair um objeto de sua escolha que ele esteja segurando. O objeto cai no espaço dele.</p>
+			<p class="indent"><i><b>Ataque Distrativo (Distracting Strike).</b></i> Quando você atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para distrair o alvo. Adicione o Dado de Superioridade à rolagem de dano do ataque. A próxima jogada de ataque contra o alvo por um atacante que não seja você tem Vantagem se o ataque for feito antes do início do seu próximo turno.</p>
+			<p class="indent"><i><b>Ataque do Comandante (Commander’s Strike).</b></i> Quando você realiza a ação de Ataque no seu turno, pode substituir um de seus ataques para direcionar um de seus companheiros a atacar. Quando o faz, escolha uma criatura disposta que possa vê-lo ou ouvi-lo e gaste um Dado de Superioridade. Aquela criatura pode usar sua Reação imediatamente para fazer um ataque com uma arma ou um Ataque Desarmado, adicionando o Dado de Superioridade à rolagem de dano em um acerto.</p>
+			<p class="indent"><i><b>Ataque Empurrador (Pushing Attack).</b></i> Quando atinge uma criatura com uma jogada de ataque usando uma arma ou um Ataque Desarmado, você pode gastar um Dado de Superioridade para tentar empurrar o alvo. Adicione o Dado de Superioridade à rolagem de dano do ataque. Se o alvo for Grande ou menor, deve ser bem-sucedido num teste de resistência de Força ou será empurrado até 4,5 metros diretamente para longe de você.</p>
+			<p class="indent"><i><b>Ataque Fintado (Feinting Attack).</b></i> Como uma Ação Bônus, você pode gastar um Dado de Superioridade para fintar, escolhendo uma criatura a até 1,5 metro de você como seu alvo. Você tem Vantagem na sua próxima jogada de ataque contra aquele alvo neste turno. Se o ataque acertar, adicione o Dado de Superioridade à rolagem de dano do ataque.</p>
+			<p class="indent"><i><b>Ataque Preciso (Precision Attack).</b></i> Quando você erra com uma jogada de ataque, pode gastar um Dado de Superioridade, rolar esse dado e adicioná-lo à jogada de ataque, possivelmente fazendo o ataque acertar.</p>
+			<p class="indent"><i><b>Ataque Provocador (Goading Attack).</b></i> Quando você atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para tentar provocar o alvo a atacar você. Adicione o Dado de Superioridade à rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistência de Sabedoria ou terá Desvantagem nas jogadas de ataque contra alvos diferentes de você até o final do seu próximo turno.</p>
+			<p class="indent"><i><b>Ataque Varredor (Sweeping Attack).</b></i> Quando atinge uma criatura com um ataque corpo-a-corpo usando uma arma ou um Ataque Desarmado, você pode gastar um Dado de Superioridade para tentar causar dano a outra criatura. Escolha outra criatura a até 1,5 metro do alvo original e dentro de seu alcance. Se a jogada de ataque original atingiria a segunda criatura, ela sofre dano igual ao número rolado no Dado de Superioridade. O dano é do mesmo tipo causado pelo ataque original.</p>
+			<p class="indent"><i><b>Avaliação Tática (Tactical Assessment).</b></i> Quando você faz um teste de Inteligência (História ou Investigação) ou de Sabedoria (Intuição), pode gastar um Dado de Superioridade e adicionar esse dado ao teste de habilidade.</p>
+			<p class="indent"><i><b>Emboscada (Ambush).</b></i> Quando você faz um teste de Destreza (Furtividade) ou uma rolagem de Iniciativa, pode gastar um Dado de Superioridade e adicionar o dado à rolagem, a não ser que tenha a condição Incapacitado.</p>
+			<p class="indent"><i><b>Isca e Troca (Bait and Switch).</b></i> Quando estiver a até 1,5 metro de uma criatura no seu turno, você pode gastar um Dado de Superioridade e trocar de lugar com aquela criatura, desde que você gaste pelo menos 1,5 metro de deslocamento e a criatura esteja disposta e não possua a condição Incapacitado. Este movimento não provoca Ataques de Oportunidade. Role o Dado de Superioridade. Até o início do seu próximo turno, você ou a outra criatura (sua escolha) recebe um bônus na CA (Classe de Armadura) igual ao número rolado.</p>
+			<p class="indent"><i><b>Presença Comandante (Commanding Presence).</b></i> Quando você faz um teste de Carisma (Intimidação, Atuação ou Persuasão), pode gastar um Dado de Superioridade e adicionar esse dado à rolagem.</p>
+			<p class="indent"><i><b>Reagrupar (Rally).</b></i> Como uma Ação Bônus, você pode gastar um Dado de Superioridade para reforçar a determinação de um companheiro. Escolha um aliado seu a até 9 metros de você que possa vê-lo ou ouvi-lo. Aquela criatura ganha Pontos de Vida Temporários iguais à rolagem do Dado de Superioridade mais a metade do seu nível de Guerreiro (arredondado para baixo).</p>
+			<p class="indent"><i><b>Revide (Riposte).</b></i> Quando uma criatura erra um ataque corpo-a-corpo contra você, você pode usar sua Reação e gastar um Dado de Superioridade para fazer um ataque corpo-a-corpo com uma arma ou um Ataque Desarmado contra aquela criatura. Se acertar, adicione o Dado de Superioridade ao dano do ataque.</p>
+			<p class="indent"><i><b>Trabalho de Pés Evasivo (Evasive Footwork).</b></i> Como uma Ação Bônus, você pode gastar um Dado de Superioridade e usar a ação Desengajar. Você também rola o dado e adiciona o número rolado à sua CA até o início do seu próximo turno.</p>
 		</description>
 	</element>
 
-	<element name="Emboscada" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_AMBUSH">
+	<element name="Emboscada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_AMBUSH">
 		<requirements>!ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_AMBUSH</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando vocÃª faz um teste de Destreza (Furtividade) ou uma rolagem de Iniciativa, pode gastar um Dado de Superioridade e adicionar o dado Ã  rolagem, a nÃ£o ser que tenha a condiÃ§Ã£o Incapacitado.</p>
+			<p>Quando você faz um teste de Destreza (Furtividade) ou uma rolagem de Iniciativa, pode gastar um Dado de Superioridade e adicionar o dado à rolagem, a não ser que tenha a condição Incapacitado.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Quando faz um teste de Destreza (Furtividade) ou rolagem de Iniciativa e nÃ£o estÃ¡ Incapacitado, vocÃª pode rolar o dado e adicionÃ¡-lo ao total.</description>
+			<description>Quando faz um teste de Destreza (Furtividade) ou rolagem de Iniciativa e não está Incapacitado, você pode rolar o dado e adicioná-lo ao total.</description>
 		</sheet>
 	</element>
-	<element name="Isca e Troca" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_BAIT_AND_SWITCH">
+	<element name="Isca e Troca" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_BAIT_AND_SWITCH">
 		<requirements>!ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_BAIT_AND_SWITCH</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando estiver a atÃ© 1,5 metro de uma criatura no seu turno, vocÃª pode gastar um Dado de Superioridade e trocar de lugar com aquela criatura, desde que vocÃª gaste pelo menos 1,5 metro de deslocamento e a criatura esteja disposta e nÃ£o possua a condiÃ§Ã£o Incapacitado. Este movimento nÃ£o provoca Ataques de Oportunidade.</p>
-			<p class="indent">Role o Dado de Superioridade. AtÃ© o inÃ­cio do seu prÃ³ximo turno, vocÃª ou a outra criatura (sua escolha) ganha um bÃ´nus na CA igual ao nÃºmero rolado.</p>
+			<p>Quando estiver a até 1,5 metro de uma criatura no seu turno, você pode gastar um Dado de Superioridade e trocar de lugar com aquela criatura, desde que você gaste pelo menos 1,5 metro de deslocamento e a criatura esteja disposta e não possua a condição Incapacitado. Este movimento não provoca Ataques de Oportunidade.</p>
+			<p class="indent">Role o Dado de Superioridade. Até o início do seu próximo turno, você ou a outra criatura (sua escolha) ganha um bônus na CA igual ao número rolado.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Quando estiver a atÃ© 1,5m de uma criatura disposta sem a condiÃ§Ã£o Incapacitado no seu turno, vocÃª pode trocar de lugar com ela, desde que gaste pelo menos 1,5m de deslocamento. Isso nÃ£o provoca Ataques de Oportunidade. &#13;
-			AtÃ© o inÃ­cio do seu prÃ³ximo turno, vocÃª ou a outra criatura (sua escolha) ganha um bÃ´nus na CA igual a uma rolagem do Dado de Superioridade.</description>
+			<description>Quando estiver a até 1,5m de uma criatura disposta sem a condição Incapacitado no seu turno, você pode trocar de lugar com ela, desde que gaste pelo menos 1,5m de deslocamento. Isso não provoca Ataques de Oportunidade. &#13;
+			Até o início do seu próximo turno, você ou a outra criatura (sua escolha) ganha um bônus na CA igual a uma rolagem do Dado de Superioridade.</description>
 		</sheet>
 	</element>
-	<element name="Ataque do Comandante" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_COMMANDERS_STRIKE">
+	<element name="Ataque do Comandante" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_COMMANDERS_STRIKE">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_COMMANDERS_STRIKE</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando vocÃª realiza a aÃ§Ã£o de Ataque no seu turno, pode substituir um de seus ataques para direcionar um de seus companheiros a atacar. Quando o faz, escolha uma criatura disposta que possa vÃª-lo ou ouvi-lo e gaste um Dado de Superioridade. Aquela criatura pode usar sua ReaÃ§Ã£o imediatamente para fazer um ataque com uma arma ou um Ataque Desarmado, adicionando o Dado de Superioridade Ã  rolagem de dano em um acerto.</p>
+			<p>Quando você realiza a ação de Ataque no seu turno, pode substituir um de seus ataques para direcionar um de seus companheiros a atacar. Quando o faz, escolha uma criatura disposta que possa vê-lo ou ouvi-lo e gaste um Dado de Superioridade. Aquela criatura pode usar sua Reação imediatamente para fazer um ataque com uma arma ou um Ataque Desarmado, adicionando o Dado de Superioridade à rolagem de dano em um acerto.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>VocÃª pode substituir um de seus ataques para comandar um aliado a atacar. Escolha uma criatura disposta que possa vÃª-lo ou ouvi-lo. Ela pode usar imediatamente sua ReaÃ§Ã£o para fazer um ataque com arma ou Ataque Desarmado, adicionando o dado ao dano se acertar.</description>
+			<description>Você pode substituir um de seus ataques para comandar um aliado a atacar. Escolha uma criatura disposta que possa vê-lo ou ouvi-lo. Ela pode usar imediatamente sua Reação para fazer um ataque com arma ou Ataque Desarmado, adicionando o dado ao dano se acertar.</description>
 		</sheet>
 	</element>
-	<element name="PresenÃ§a Comandante" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_COMMANDING_PRESENCE">
+	<element name="Presença Comandante" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_COMMANDING_PRESENCE">
 		<requirements>!ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_COMMANDING_PRESENCE</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando vocÃª faz um teste de Carisma (IntimidaÃ§Ã£o, AtuaÃ§Ã£o ou PersuasÃ£o), pode gastar um Dado de Superioridade e adicionar esse dado Ã  rolagem.</p>
+			<p>Quando você faz um teste de Carisma (Intimidação, Atuação ou Persuasão), pode gastar um Dado de Superioridade e adicionar esse dado à rolagem.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Quando faz um teste de Carisma (IntimidaÃ§Ã£o, AtuaÃ§Ã£o ou PersuasÃ£o), vocÃª pode rolar o dado e adicionÃ¡-lo ao teste.</description>
+			<description>Quando faz um teste de Carisma (Intimidação, Atuação ou Persuasão), você pode rolar o dado e adicioná-lo ao teste.</description>
 		</sheet>
 	</element>
-	<element name="Ataque Desarmante" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_DISARMING_ATTACK">
+	<element name="Ataque Desarmante" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_DISARMING_ATTACK">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_DISARMING_ATTACK</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando vocÃª atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para tentar desarmar o alvo. Adicione a rolagem do Dado de Superioridade Ã  rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistÃªncia de ForÃ§a ou deixarÃ¡ cair um objeto de sua escolha que ele esteja segurando. O objeto cai no espaÃ§o dele.</p>
+			<p>Quando você atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para tentar desarmar o alvo. Adicione a rolagem do Dado de Superioridade à rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistência de Força ou deixará cair um objeto de sua escolha que ele esteja segurando. O objeto cai no espaço dele.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Ao acertar, vocÃª pode tentar desarmar o alvo. Adicione o dado ao dano. O alvo deve passar em um teste de resistÃªncia de ForÃ§a CD {{combat superiority:dc}} ou derrubar um objeto de sua escolha que esteja segurando (cai no espaÃ§o dele).</description>
+			<description>Ao acertar, você pode tentar desarmar o alvo. Adicione o dado ao dano. O alvo deve passar em um teste de resistência de Força CD {{combat superiority:dc}} ou derrubar um objeto de sua escolha que esteja segurando (cai no espaço dele).</description>
 		</sheet>
 	</element>
-	<element name="Ataque Distrativo" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_DISTRACTING_STRIKE">
+	<element name="Ataque Distrativo" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_DISTRACTING_STRIKE">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_DISTRACTING_STRIKE</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando vocÃª atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para distrair o alvo. Adicione o Dado de Superioridade Ã  rolagem de dano do ataque. A prÃ³xima jogada de ataque contra o alvo por um atacante que nÃ£o seja vocÃª tem Vantagem se o ataque for feito antes do inÃ­cio do seu prÃ³ximo turno.</p>
+			<p>Quando você atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para distrair o alvo. Adicione o Dado de Superioridade à rolagem de dano do ataque. A próxima jogada de ataque contra o alvo por um atacante que não seja você tem Vantagem se o ataque for feito antes do início do seu próximo turno.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Ao acertar, adicione o dado ao dano e vocÃª distrai o alvo. O prÃ³ximo ataque contra ele por outro atacante que nÃ£o seja vocÃª tem Vantagem se feito antes do inÃ­cio do seu prÃ³ximo turno.</description>
+			<description>Ao acertar, adicione o dado ao dano e você distrai o alvo. O próximo ataque contra ele por outro atacante que não seja você tem Vantagem se feito antes do início do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Trabalho de PÃ©s Evasivo" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_EVASIVE_FOOTWORK">
+	<element name="Trabalho de Pés Evasivo" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_EVASIVE_FOOTWORK">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_EVASIVE_FOOTWORK</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um Dado de Superioridade e usar a aÃ§Ã£o Desengajar. VocÃª tambÃ©m rola o dado e adiciona o nÃºmero rolado Ã  sua CA atÃ© o inÃ­cio do seu prÃ³ximo turno.</p>
+			<p>Como uma Ação Bônus, você pode gastar um Dado de Superioridade e usar a ação Desengajar. Você também rola o dado e adiciona o número rolado à sua CA até o início do seu próximo turno.</p>
 		</description>
-		<sheet action="AÃ§Ã£o BÃ´nus" usage="Dado de Superioridade">
-			<description>VocÃª usa a aÃ§Ã£o Desengajar. VocÃª rola o dado e adiciona o resultado Ã  sua CA atÃ© o inÃ­cio do seu prÃ³ximo turno.</description>
+		<sheet action="Ação Bônus" usage="Dado de Superioridade">
+			<description>Você usa a ação Desengajar. Você rola o dado e adiciona o resultado à sua CA até o início do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Ataque Fintado" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_FEINTING_ATTACK">
+	<element name="Ataque Fintado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_FEINTING_ATTACK">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_FEINTING_ATTACK</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um Dado de Superioridade para fintar, escolhendo uma criatura a atÃ© 1,5 metro de vocÃª como seu alvo. VocÃª tem Vantagem na sua prÃ³xima jogada de ataque contra aquele alvo neste turno. Se o ataque acertar, adicione o Dado de Superioridade Ã  rolagem de dano do ataque.</p>
+			<p>Como uma Ação Bônus, você pode gastar um Dado de Superioridade para fintar, escolhendo uma criatura a até 1,5 metro de você como seu alvo. Você tem Vantagem na sua próxima jogada de ataque contra aquele alvo neste turno. Se o ataque acertar, adicione o Dado de Superioridade à rolagem de dano do ataque.</p>
 		</description>
-		<sheet action="AÃ§Ã£o BÃ´nus" usage="Dado de Superioridade">
-			<description>Escolha uma criatura a atÃ© 1,5m de vocÃª como alvo. VocÃª tem Vantagem no seu prÃ³ximo ataque contra esse alvo neste turno. Se acertar, adicione o dado ao dano.</description>
+		<sheet action="Ação Bônus" usage="Dado de Superioridade">
+			<description>Escolha uma criatura a até 1,5m de você como alvo. Você tem Vantagem no seu próximo ataque contra esse alvo neste turno. Se acertar, adicione o dado ao dano.</description>
 		</sheet>
 	</element>
-	<element name="Ataque Provocador" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_GOADING_ATTACK">
+	<element name="Ataque Provocador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_GOADING_ATTACK">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_GOADING_ATTACK</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando vocÃª atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para tentar provocar o alvo a atacar vocÃª. Adicione o Dado de Superioridade Ã  rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistÃªncia de Sabedoria ou terÃ¡ Desvantagem nas jogadas de ataque contra alvos diferentes de vocÃª atÃ© o final do seu prÃ³ximo turno.</p>
+			<p>Quando você atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para tentar provocar o alvo a atacar você. Adicione o Dado de Superioridade à rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistência de Sabedoria ou terá Desvantagem nas jogadas de ataque contra alvos diferentes de você até o final do seu próximo turno.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Ao acertar, adicione o dado ao dano. O alvo deve passar em um teste de resistÃªncia de Sabedoria CD {{combat superiority:dc}} ou terÃ¡ Desvantagem nos ataques contra outros alvos alÃ©m de vocÃª atÃ© o final do seu prÃ³ximo turno.</description>
+			<description>Ao acertar, adicione o dado ao dano. O alvo deve passar em um teste de resistência de Sabedoria CD {{combat superiority:dc}} ou terá Desvantagem nos ataques contra outros alvos além de você até o final do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Ataque com Estocada" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_LUNGING_ATTACK">
+	<element name="Ataque com Estocada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_LUNGING_ATTACK">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_LUNGING_ATTACK</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um Dado de Superioridade e realizar a aÃ§Ã£o Disparada. Se vocÃª se mover pelo menos 1,5 metro em linha reta imediatamente antes de atingir com um ataque corpo-a-corpo como parte da aÃ§Ã£o de Ataque neste turno, vocÃª pode adicionar o Dado de Superioridade Ã  rolagem de dano do ataque.</p>
+			<p>Como uma Ação Bônus, você pode gastar um Dado de Superioridade e realizar a ação Disparada. Se você se mover pelo menos 1,5 metro em linha reta imediatamente antes de atingir com um ataque corpo-a-corpo como parte da ação de Ataque neste turno, você pode adicionar o Dado de Superioridade à rolagem de dano do ataque.</p>
 		</description>
-		<sheet action="AÃ§Ã£o BÃ´nus" usage="Dado de Superioridade">
-			<description>VocÃª usa a aÃ§Ã£o Disparada. Se vocÃª se mover pelo menos 1,5m em linha reta imediatamente antes de acertar um ataque corpo-a-corpo na aÃ§Ã£o de Ataque, adicione o dado ao dano.</description>
+		<sheet action="Ação Bônus" usage="Dado de Superioridade">
+			<description>Você usa a ação Disparada. Se você se mover pelo menos 1,5m em linha reta imediatamente antes de acertar um ataque corpo-a-corpo na ação de Ataque, adicione o dado ao dano.</description>
 		</sheet>
 	</element>
-	<element name="Ataque de Manobra" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_MANEUVERING_ATTACK">
+	<element name="Ataque de Manobra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_MANEUVERING_ATTACK">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_MANEUVERING_ATTACK</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando vocÃª atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para manobrar um de seus companheiros para outra posiÃ§Ã£o. Adicione o Dado de Superioridade Ã  rolagem de dano do ataque, e escolha uma criatura disposta que possa vÃª-lo ou ouvi-lo. Aquela criatura pode usar sua ReaÃ§Ã£o para se mover atÃ© metade do seu Deslocamento sem provocar Ataques de Oportunidade do alvo do seu ataque.</p>
+			<p>Quando você atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para manobrar um de seus companheiros para outra posição. Adicione o Dado de Superioridade à rolagem de dano do ataque, e escolha uma criatura disposta que possa vê-lo ou ouvi-lo. Aquela criatura pode usar sua Reação para se mover até metade do seu Deslocamento sem provocar Ataques de Oportunidade do alvo do seu ataque.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Ao acertar, adicione o dado ao dano e escolha uma criatura disposta que possa ver ou ouvi-lo. Ela pode usar a ReaÃ§Ã£o para se mover atÃ© metade do Deslocamento sem provocar Ataques de Oportunidade do alvo do seu ataque.</description>
+			<description>Ao acertar, adicione o dado ao dano e escolha uma criatura disposta que possa ver ou ouvi-lo. Ela pode usar a Reação para se mover até metade do Deslocamento sem provocar Ataques de Oportunidade do alvo do seu ataque.</description>
 		</sheet>
 	</element>
-	<element name="Ataque AmeaÃ§ador" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_MENACING_ATTACK">
+	<element name="Ataque Ameaçador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_MENACING_ATTACK">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_MENACING_ATTACK</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando vocÃª atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para tentar amedrontar o alvo. Adicione o Dado de Superioridade Ã  rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistÃªncia de Sabedoria ou sofrerÃ¡ a condiÃ§Ã£o Amedrontado atÃ© o final do seu prÃ³ximo turno.</p>
+			<p>Quando você atinge uma criatura com uma jogada de ataque, pode gastar um Dado de Superioridade para tentar amedrontar o alvo. Adicione o Dado de Superioridade à rolagem de dano do ataque. O alvo deve ser bem-sucedido num teste de resistência de Sabedoria ou sofrerá a condição Amedrontado até o final do seu próximo turno.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Ao acertar, adicione o dado ao dano. O alvo deve passar em um teste de resistÃªncia de Sabedoria CD {{combat superiority:dc}} ou ficarÃ¡ Amedrontado atÃ© o final do seu prÃ³ximo turno.</description>
+			<description>Ao acertar, adicione o dado ao dano. O alvo deve passar em um teste de resistência de Sabedoria CD {{combat superiority:dc}} ou ficará Amedrontado até o final do seu próximo turno.</description>
 		</sheet>
 	</element>
-	<element name="Aparar" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_PARRY">
+	<element name="Aparar" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_PARRY">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_PARRY</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando outra criatura atingir vocÃª com uma jogada de ataque corpo-a-corpo, vocÃª pode usar sua ReaÃ§Ã£o e gastar um Dado de Superioridade para reduzir o dano pelo nÃºmero que vocÃª rolar no Dado de Superioridade mais seu modificador de ForÃ§a ou Destreza (sua escolha).</p>
+			<p>Quando outra criatura atingir você com uma jogada de ataque corpo-a-corpo, você pode usar sua Reação e gastar um Dado de Superioridade para reduzir o dano pelo número que você rolar no Dado de Superioridade mais seu modificador de Força ou Destreza (sua escolha).</p>
 		</description>
-		<sheet action="ReaÃ§Ã£o" usage="Dado de Superioridade">
-			<description>Quando outra criatura atingir vocÃª com um ataque corpo-a-corpo, vocÃª pode reduzir o dano sofrido em 1d{{combat superiority:dice size}} (Dado de Superioridade) + {{combat superiority:dc:ability}}.</description>
+		<sheet action="Reação" usage="Dado de Superioridade">
+			<description>Quando outra criatura atingir você com um ataque corpo-a-corpo, você pode reduzir o dano sofrido em 1d{{combat superiority:dice size}} (Dado de Superioridade) + {{combat superiority:dc:ability}}.</description>
 		</sheet>
 	</element>
-	<element name="Ataque Preciso" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_PRECISION_ATTACK">
+	<element name="Ataque Preciso" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_PRECISION_ATTACK">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_PRECISION_ATTACK</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando vocÃª erra com uma jogada de ataque, pode gastar um Dado de Superioridade, rolar esse dado e adicionÃ¡-lo Ã  jogada de ataque, possivelmente fazendo o ataque acertar.</p>
+			<p>Quando você erra com uma jogada de ataque, pode gastar um Dado de Superioridade, rolar esse dado e adicioná-lo à jogada de ataque, possivelmente fazendo o ataque acertar.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Quando vocÃª erra uma jogada de ataque, vocÃª pode rolar o Dado de Superioridade e adicionar ao ataque, possivelmente fazendo-o acertar.</description>
+			<description>Quando você erra uma jogada de ataque, você pode rolar o Dado de Superioridade e adicionar ao ataque, possivelmente fazendo-o acertar.</description>
 		</sheet>
 	</element>
-	<element name="Ataque Empurrador" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_PUSHING_ATTACK">
+	<element name="Ataque Empurrador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_PUSHING_ATTACK">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_PUSHING_ATTACK</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando atinge uma criatura com uma jogada de ataque usando uma arma ou um Ataque Desarmado, vocÃª pode gastar um Dado de Superioridade para tentar empurrar o alvo. Adicione o Dado de Superioridade Ã  rolagem de dano do ataque. Se o alvo for Grande ou menor, deve ser bem-sucedido num teste de resistÃªncia de ForÃ§a ou serÃ¡ empurrado atÃ© 4,5 metros diretamente para longe de vocÃª.</p>
+			<p>Quando atinge uma criatura com uma jogada de ataque usando uma arma ou um Ataque Desarmado, você pode gastar um Dado de Superioridade para tentar empurrar o alvo. Adicione o Dado de Superioridade à rolagem de dano do ataque. Se o alvo for Grande ou menor, deve ser bem-sucedido num teste de resistência de Força ou será empurrado até 4,5 metros diretamente para longe de você.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Ao acertar com arma ou Ataque Desarmado, adicione o dado ao dano. Se o alvo for Grande ou menor, ele deve passar em um teste de resistÃªncia de ForÃ§a CD {{combat superiority:dc}} ou serÃ¡ empurrado atÃ© 4,5m diretamente para longe de vocÃª.</description>
+			<description>Ao acertar com arma ou Ataque Desarmado, adicione o dado ao dano. Se o alvo for Grande ou menor, ele deve passar em um teste de resistência de Força CD {{combat superiority:dc}} ou será empurrado até 4,5m diretamente para longe de você.</description>
 		</sheet>
 	</element>
-	<element name="Reagrupar" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_RALLY">
+	<element name="Reagrupar" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_RALLY">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_RALLY</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um Dado de Superioridade para reforÃ§ar a determinaÃ§Ã£o de um companheiro. Escolha um aliado seu a atÃ© 9 metros de vocÃª que possa vÃª-lo ou ouvi-lo. Aquela criatura ganha Pontos de Vida TemporÃ¡rios iguais Ã  rolagem do Dado de Superioridade mais a metade do seu nÃ­vel de Guerreiro (arredondado para baixo).</p>
+			<p>Como uma Ação Bônus, você pode gastar um Dado de Superioridade para reforçar a determinação de um companheiro. Escolha um aliado seu a até 9 metros de você que possa vê-lo ou ouvi-lo. Aquela criatura ganha Pontos de Vida Temporários iguais à rolagem do Dado de Superioridade mais a metade do seu nível de Guerreiro (arredondado para baixo).</p>
 		</description>
-		<sheet action="AÃ§Ã£o BÃ´nus" usage="Dado de Superioridade">
-			<description>Escolha um aliado a atÃ© 9 metros de vocÃª que possa vÃª-lo ou ouvi-lo. A criatura ganha 1d{{combat superiority:dice size}} (Dado de Superioridade) + {{level:fighter:half}} PVs TemporÃ¡rios.</description>
+		<sheet action="Ação Bônus" usage="Dado de Superioridade">
+			<description>Escolha um aliado a até 9 metros de você que possa vê-lo ou ouvi-lo. A criatura ganha 1d{{combat superiority:dice size}} (Dado de Superioridade) + {{level:fighter:half}} PVs Temporários.</description>
 		</sheet>
 	</element>
-	<element name="Revide" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_RIPOSTE">
+	<element name="Revide" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_RIPOSTE">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_RIPOSTE</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando uma criatura erra um ataque corpo-a-corpo contra vocÃª, vocÃª pode usar sua ReaÃ§Ã£o e gastar um Dado de Superioridade para fazer um ataque corpo-a-corpo com uma arma ou um Ataque Desarmado contra aquela criatura. Se acertar, adicione o Dado de Superioridade ao dano do ataque.</p>
+			<p>Quando uma criatura erra um ataque corpo-a-corpo contra você, você pode usar sua Reação e gastar um Dado de Superioridade para fazer um ataque corpo-a-corpo com uma arma ou um Ataque Desarmado contra aquela criatura. Se acertar, adicione o Dado de Superioridade ao dano do ataque.</p>
 		</description>
-		<sheet action="ReaÃ§Ã£o" usage="Dado de Superioridade">
-			<description>Quando uma criatura erra um ataque corpo-a-corpo contra vocÃª, vocÃª pode fazer uma jogada de ataque corpo-a-corpo com arma ou Ataque Desarmado contra ela. Se acertar, adicione o dado ao dano.</description>
+		<sheet action="Reação" usage="Dado de Superioridade">
+			<description>Quando uma criatura erra um ataque corpo-a-corpo contra você, você pode fazer uma jogada de ataque corpo-a-corpo com arma ou Ataque Desarmado contra ela. Se acertar, adicione o dado ao dano.</description>
 		</sheet>
 	</element>
-	<element name="Ataque Varredor" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_SWEEPING_ATTACK">
+	<element name="Ataque Varredor" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_SWEEPING_ATTACK">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_SWEEPING_ATTACK</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando atinge uma criatura com um ataque corpo-a-corpo usando uma arma ou um Ataque Desarmado, vocÃª pode gastar um Dado de Superioridade para tentar causar dano a outra criatura. Escolha outra criatura a atÃ© 1,5 metro do alvo original e dentro de seu alcance. Se a jogada de ataque original atingiria a segunda criatura, ela sofre dano igual ao nÃºmero rolado no Dado de Superioridade. O dano Ã© do mesmo tipo causado pelo ataque original.</p>
+			<p>Quando atinge uma criatura com um ataque corpo-a-corpo usando uma arma ou um Ataque Desarmado, você pode gastar um Dado de Superioridade para tentar causar dano a outra criatura. Escolha outra criatura a até 1,5 metro do alvo original e dentro de seu alcance. Se a jogada de ataque original atingiria a segunda criatura, ela sofre dano igual ao número rolado no Dado de Superioridade. O dano é do mesmo tipo causado pelo ataque original.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Ao acertar corpo-a-corpo com arma ou Ataque Desarmado, vocÃª pode tentar causar dano a outra criatura de sua escolha a atÃ© 1,5m do alvo original e dentro do seu alcance. Se o ataque original a atingiria, ela sofre o dano da arma igual ao nÃºmero que rolar no Dado de Superioridade.</description>
+			<description>Ao acertar corpo-a-corpo com arma ou Ataque Desarmado, você pode tentar causar dano a outra criatura de sua escolha a até 1,5m do alvo original e dentro do seu alcance. Se o ataque original a atingiria, ela sofre o dano da arma igual ao número que rolar no Dado de Superioridade.</description>
 		</sheet>
 	</element>
-	<element name="AvaliaÃ§Ã£o TÃ¡tica" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_TACTICAL_ASSESSMENT">
+	<element name="Avaliação Tática" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_TACTICAL_ASSESSMENT">
 		<requirements>!ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_TACTICAL_ASSESSMENT</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando vocÃª faz um teste de InteligÃªncia (HistÃ³ria ou InvestigaÃ§Ã£o) ou de Sabedoria (IntuiÃ§Ã£o), pode gastar um Dado de Superioridade e adicionar esse dado ao teste de habilidade.</p>
+			<p>Quando você faz um teste de Inteligência (História ou Investigação) ou de Sabedoria (Intuição), pode gastar um Dado de Superioridade e adicionar esse dado ao teste de habilidade.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Quando faz um teste de InteligÃªncia (HistÃ³ria ou InvestigaÃ§Ã£o) ou de Sabedoria (IntuiÃ§Ã£o), vocÃª pode adicionar o dado ao teste.</description>
+			<description>Quando faz um teste de Inteligência (História ou Investigação) ou de Sabedoria (Intuição), você pode adicionar o dado ao teste.</description>
 		</sheet>
 	</element>
-	<element name="Ataque Derrubador" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_TRIP_ATTACK">
+	<element name="Ataque Derrubador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_TRIP_ATTACK">
 		<requirements>!ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_TRIP_ATTACK</requirements>
 		<supports>Maneuver, PHB24 Battle Master</supports>
 		<description>
-			<p>Quando vocÃª atinge uma criatura com um ataque usando uma arma ou um Ataque Desarmado, pode gastar um Dado de Superioridade e adicionar o dado Ã  rolagem de dano do ataque. Se o alvo for Grande ou menor, ele deve ser bem-sucedido num teste de resistÃªncia de ForÃ§a ou sofrerÃ¡ a condiÃ§Ã£o CaÃ­do.</p>
+			<p>Quando você atinge uma criatura com um ataque usando uma arma ou um Ataque Desarmado, pode gastar um Dado de Superioridade e adicionar o dado à rolagem de dano do ataque. Se o alvo for Grande ou menor, ele deve ser bem-sucedido num teste de resistência de Força ou sofrerá a condição Caído.</p>
 		</description>
 		<sheet usage="Dado de Superioridade">
-			<description>Ao acertar com arma ou Ataque Desarmado, adicione o dado ao dano. Se o alvo for Grande ou menor, ele deve passar em um teste de resistÃªncia de ForÃ§a CD {{combat superiority:dc}} ou sofrerÃ¡ a condiÃ§Ã£o CaÃ­do.</description>
+			<description>Ao acertar com arma ou Ataque Desarmado, adicione o dado ao dano. Se o alvo for Grande ou menor, ele deve passar em um teste de resistência de Força CD {{combat superiority:dc}} ou sofrerá a condição Caído.</description>
 		</sheet>
 	</element>
 	

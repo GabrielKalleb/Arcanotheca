@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -6,12 +6,12 @@
 		</update>
 	</info>
 
-	<element name="DomÃ­nio da Guerra" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_WAR_DOMAIN">
+	<element name="Domínio da Guerra" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_WAR_DOMAIN">
 		<supports>Cleric Subclass</supports>
 		<description>
 			<p class="flavor">Inspire Valor e Golpeie Inimigos</p>
-			<p>A guerra tem muitas manifestaÃ§Ãµes. Pode transformar pessoas comuns em herÃ³is. Pode ser desesperadora e horrÃ­vel, com atos de crueldade e covardia eclipsando instÃ¢ncias de excelÃªncia e coragem. ClÃ©rigos que acessam a magia do DomÃ­nio da Guerra sÃ£o excelentes em batalha, inspirando outros a lutar pelo que Ã© certo ou oferecendo atos de violÃªncia como preces.</p>
-			<p class="indent">Deuses do DomÃ­nio da Guerra protegem guerreiros e os recompensam por seus grandes feitos. Eles incluem campeÃµes da honra e cavalheirismo, bem como deuses da destruiÃ§Ã£o e pilhagem. Outros deuses da guerra tÃªm uma postura mais neutra, promovendo a guerra em todas as suas formas e apoiando guerreiros sob qualquer circunstÃ¢ncia.</p>
+			<p>A guerra tem muitas manifestações. Pode transformar pessoas comuns em heróis. Pode ser desesperadora e horrível, com atos de crueldade e covardia eclipsando instâncias de excelência e coragem. Clérigos que acessam a magia do Domínio da Guerra são excelentes em batalha, inspirando outros a lutar pelo que é certo ou oferecendo atos de violência como preces.</p>
+			<p class="indent">Deuses do Domínio da Guerra protegem guerreiros e os recompensam por seus grandes feitos. Eles incluem campeões da honra e cavalheirismo, bem como deuses da destruição e pilhagem. Outros deuses da guerra têm uma postura mais neutra, promovendo a guerra em todas as suas formas e apoiando guerreiros sob qualquer circunstância.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_GUIDED_STRIKE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_DOMAIN_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST" />
@@ -28,29 +28,29 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Golpe Guiado" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_GUIDED_STRIKE">
+	<element name="Nível 3: Golpe Guiado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_GUIDED_STRIKE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_GUIDED_STRIKE</requirements>
 		<description>
-			<p>Quando vocÃª ou uma criatura a atÃ© 9 metros (30 pÃ©s) de vocÃª erra uma jogada de ataque, pode gastar um uso de Canalizar Divindade e dar Ã  jogada um bÃ´nus de +10, potencialmente fazendo com que acerte. Quando usa esta caracterÃ­stica para beneficiar o ataque de outra criatura, vocÃª deve gastar uma ReaÃ§Ã£o para fazÃª-lo.</p>
+			<p>Quando você ou uma criatura a até 9 metros (30 pés) de você erra uma jogada de ataque, pode gastar um uso de Canalizar Divindade e dar à jogada um bônus de +10, potencialmente fazendo com que acerte. Quando usa esta característica para beneficiar o ataque de outra criatura, você deve gastar uma Reação para fazê-lo.</p>
 		</description>
 		<sheet alt="Golpe Guiado" usage="Canalizar Divindade">
-			<description>Quando vocÃª ou criatura a atÃ© 9m de vocÃª erra um ataque, vocÃª pode dar Ã quela jogada +10 de bÃ´nus. Se for para beneficiar outra criatura, gasta sua ReaÃ§Ã£o.</description>
+			<description>Quando você ou criatura a até 9m de você erra um ataque, você pode dar àquela jogada +10 de bônus. Se for para beneficiar outra criatura, gasta sua Reação.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 3: Magias do DomÃ­nio da Guerra" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_DOMAIN_SPELLS">
+	<element name="Nível 3: Magias do Domínio da Guerra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_DOMAIN_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_WAR_DOMAIN_SPELLS</requirements>
 		<description>
-			<p>Quando atinge um nÃ­vel de ClÃ©rigo especificado na tabela Magias do DomÃ­nio da Guerra, vocÃª a partir de entÃ£o sempre tem as magias listadas preparadas.</p>
-			<h5>MAGIAS DO DOMÃNIO DA GUERRA</h5>
+			<p>Quando atinge um nível de Clérigo especificado na tabela Magias do Domínio da Guerra, você a partir de então sempre tem as magias listadas preparadas.</p>
+			<h5>MAGIAS DO DOMÍNIO DA GUERRA</h5>
 			<table>
 				<thead>
-					<tr><td class="col-15" style="text-align:center">NÃ­vel de ClÃ©rigo</td><td>Magias Preparadas</td></tr>
+					<tr><td class="col-15" style="text-align:center">Nível de Clérigo</td><td>Magias Preparadas</td></tr>
 				</thead>
-				<tr><td style="text-align:center">3</td><td><em>Raio Guiador, Arma MÃ¡gica, Escudo da FÃ©, Arma Espiritual</em></td></tr>
-				<tr><td style="text-align:center">5</td><td><em>Manto do Cruzado, GuardiÃµes Espirituais</em></td></tr>
-				<tr><td style="text-align:center">7</td><td><em>Escudo de Fogo, MovimentaÃ§Ã£o Livre</em></td></tr>
-				<tr><td style="text-align:center">9</td><td><em>Imobilizar Monstro, Golpe de Vento de AÃ§o</em></td></tr>
+				<tr><td style="text-align:center">3</td><td><em>Raio Guiador, Arma Mágica, Escudo da Fé, Arma Espiritual</em></td></tr>
+				<tr><td style="text-align:center">5</td><td><em>Manto do Cruzado, Guardiões Espirituais</em></td></tr>
+				<tr><td style="text-align:center">7</td><td><em>Escudo de Fogo, Movimentação Livre</em></td></tr>
+				<tr><td style="text-align:center">9</td><td><em>Imobilizar Monstro, Golpe de Vento de Aço</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -68,14 +68,14 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Sacerdote da Guerra" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST">
+	<element name="Nível 3: Sacerdote da Guerra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_WAR_PRIEST</requirements>
 		<description>
-			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode fazer um ataque com arma ou Ataque Desarmado. VocÃª pode usar esta AÃ§Ã£o BÃ´nus um nÃºmero de vezes igual ao seu modificador de Sabedoria (mÃ­nimo de uma vez). </p>
-			<p class="indent">VocÃª recupera todos os usos gastos ao terminar um Descanso Curto ou Longo.</p>
+			<p>Como uma Ação Bônus, você pode fazer um ataque com arma ou Ataque Desarmado. Você pode usar esta Ação Bônus um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez). </p>
+			<p class="indent">Você recupera todos os usos gastos ao terminar um Descanso Curto ou Longo.</p>
 		</description>
 		<sheet alt="Sacerdote da Guerra" action="Bonus Action" usage="{{war priest:usage}}/Descanso Curto">
-			<description>VocÃª pode fazer um ataque com arma ou Ataque Desarmado.</description>
+			<description>Você pode fazer um ataque com arma ou Ataque Desarmado.</description>
 		</sheet>
 		<rules>
 			<stat name="war priest:usage" value="1" bonus="war priest" />
@@ -83,20 +83,20 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 6: BÃªnÃ§Ã£o do Deus da Guerra" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_GODS_BLESSING">
+	<element name="Nível 6: Bênção do Deus da Guerra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_GODS_BLESSING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_WAR_GODS_BLESSING</requirements>
 		<description>
-			<p>VocÃª pode gastar um uso de Canalizar Divindade para conjurar <i>Escudo da FÃ©</i> ou <i>Arma Espiritual</i> em vez de gastar espaÃ§o de magia. Ao conjurar assim, a magia nÃ£o exige ConcentraÃ§Ã£o. Em vez disso, ela dura por 1 minuto, mas termina cedo se a conjurar de novo, ficar Incapacitado, ou morrer.</p>
+			<p>Você pode gastar um uso de Canalizar Divindade para conjurar <i>Escudo da Fé</i> ou <i>Arma Espiritual</i> em vez de gastar espaço de magia. Ao conjurar assim, a magia não exige Concentração. Em vez disso, ela dura por 1 minuto, mas termina cedo se a conjurar de novo, ficar Incapacitado, ou morrer.</p>
 		</description>
-		<sheet alt="BÃªnÃ§Ã£o do Deus da Guerra" usage="Canalizar Divindade">
-			<description>VocÃª pode conjurar Escudo da FÃ© ou Arma Espiritual sem gastar espaÃ§o de magia, nÃ£o exigindo ConcentraÃ§Ã£o. Dura 1 min, termina se conjurÃ¡-la de novo, se ficar Incapacitado, ou se morrer.</description>
+		<sheet alt="Bênção do Deus da Guerra" usage="Canalizar Divindade">
+			<description>Você pode conjurar Escudo da Fé ou Arma Espiritual sem gastar espaço de magia, não exigindo Concentração. Dura 1 min, termina se conjurá-la de novo, se ficar Incapacitado, ou se morrer.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 17 : Avatar da Batalha" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE">
+	<element name="Nível 17 : Avatar da Batalha" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_AVATAR_OF_BATTLE</requirements>
 		<description>
-			<p>VocÃª ganha ResistÃªncia a dano Contundente, Perfurante e Cortante.</p>
+			<p>Você ganha Resistência a dano Contundente, Perfurante e Cortante.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -109,6 +109,6 @@
 	<element name="Guided Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_GUIDED_STRIKE" />
 	<element name="War Domain Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_WAR_DOMAIN_SPELLS" />
 	<element name="War Priest Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_WAR_PRIEST" />
-	<element name="War Godâ€™s Blessing Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_WAR_GODS_BLESSING" />
+	<element name="War God’s Blessing Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_WAR_GODS_BLESSING" />
 	<element name="Avatar of Battle Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_AVATAR_OF_BATTLE" />
 </elements>

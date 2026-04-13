@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.5">
@@ -27,10 +27,10 @@
 				<tr><td>2</td><td>You often misread emotional cues.</td></tr>
 				<tr><td>3</td><td>You are fiercely protective of your friends.</td></tr>
 				<tr><td>4</td><td>You try to apply wartime discipline to every situation.</td></tr>
-				<tr><td>5</td><td>You donâ€™t know how to filter your feelings and are prone to dramatic emotional outbursts.</td></tr>
-				<tr><td>6</td><td>You donâ€™t understand clothing beyond its utility and assume it denotes a personâ€™s function.</td></tr>
+				<tr><td>5</td><td>You don’t know how to filter your feelings and are prone to dramatic emotional outbursts.</td></tr>
+				<tr><td>6</td><td>You don’t understand clothing beyond its utility and assume it denotes a person’s function.</td></tr>
 				<tr><td>7</td><td>You are obsessed with your appearance and constantly polish and buff yourself.</td></tr>
-				<tr><td>8</td><td>War is the only thing that makes sense to you, and youâ€™re always looking for a fight.</td></tr>
+				<tr><td>8</td><td>War is the only thing that makes sense to you, and you’re always looking for a fight.</td></tr>
 			</table>
 			<h4>WARFORGED NAMES</h4>
 			<p>Most warforged were assigned numerical designations for use in military service. Many of them adopted nicknames, often given to them by their comrades. As independent individuals, some have chosen new names as a way to express their path in life. A few take on human names, often the name of a fallen friend or mentor.</p>
@@ -47,16 +47,16 @@
 			<p class="indent"><strong><em>Constructed Resilience.</em></strong> You were created to have remarkable fortitude, represented by the following benefits:</p>
 			<ul>
 				<li>You have advantage on saving throws against being poisoned, and you have resistance to poison damage.</li>
-				<li>You donâ€™t need to eat, drink, or breathe.</li>
+				<li>You don’t need to eat, drink, or breathe.</li>
 				<li>You are immune to disease.</li>
-				<li>You donâ€™t need to sleep, and magic canâ€™t put you to sleep.</li>
+				<li>You don’t need to sleep, and magic can’t put you to sleep.</li>
 			</ul>
-			<p class="indent"><strong><em>Sentryâ€™s Rest.</em></strong> When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesnâ€™t render you unconscious, and you can see and hear as normal.</p>
+			<p class="indent"><strong><em>Sentry’s Rest.</em></strong> When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.</p>
 			<p class="indent"><strong><em>Integrated Protection.</em></strong> Your body has built-in defensive layers, which can be enhanced with armor:</p>
 			<ul>
 				<li>You gain a +1 bonus to Armor Class.</li>
 				<li>You can don only armor with which you have proficiency. To don armor other than shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.</li>
-				<li>While you live, the armor incorporated into your body canâ€™t be removed against your will.</li>
+				<li>While you live, the armor incorporated into your body can’t be removed against your will.</li>
 			</ul>
 			<p class="indent"><strong><em>Specialized Design.</em></strong> You gain one skill proficiency and one tool proficiency of your choice.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language of your choice.</p>
@@ -88,27 +88,27 @@
 			<p>You were created to have remarkable fortitude, represented by the following benefits:</p>
 			<ul>
 				<li>You have advantage on saving throws against being poisoned, and you have resistance to poison damage.</li>
-				<li>You donâ€™t need to eat, drink, or breathe.</li>
+				<li>You don’t need to eat, drink, or breathe.</li>
 				<li>You are immune to disease.</li>
-				<li>You donâ€™t need to sleep, and magic canâ€™t put you to sleep.</li>
+				<li>You don’t need to sleep, and magic can’t put you to sleep.</li>
 			</ul>
 		</description>
 		<sheet>
 			<description>You have advantage on saving throws against being poisoned, and you have resistance to poison damage.
-			You donâ€™t need to eat, drink, or breathe.
+			You don’t need to eat, drink, or breathe.
 			You are immune to disease.
-			You donâ€™t need to sleep, and magic canâ€™t put you to sleep.</description>
+			You don’t need to sleep, and magic can’t put you to sleep.</description>
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
 		</rules>
 	</element>
-	<element name="Sentryâ€™s Rest" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_WARFORGED_SENTRYS_REST">
+	<element name="Sentry’s Rest" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_WARFORGED_SENTRYS_REST">
 		<description>
-			<p>When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesnâ€™t render you unconscious, and you can see and hear as normal.</p>
+			<p>When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.</p>
 		</description>
 		<sheet>
-			<description>When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesnâ€™t render you unconscious, and you can see and hear as normal.</description>
+			<description>When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.</description>
 		</sheet>
 	</element>
 	<element name="Integrated Protection" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_WARFORGED_INTEGRATED_PROTECTION">
@@ -117,12 +117,12 @@
 			<ul>
 				<li>You gain a +1 bonus to Armor Class.</li>
 				<li>You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.</li>
-				<li>While you live, the armor incorporated into your body canâ€™t be removed against your will.</li>
+				<li>While you live, the armor incorporated into your body can’t be removed against your will.</li>
 			</ul>
 		</description>
 		<sheet>
 			<description>You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.
-			While you live, the armor incorporated into your body canâ€™t be removed against your will.</description>
+			While you live, the armor incorporated into your body can’t be removed against your will.</description>
 		</sheet>
 		<rules>
 			<stat name="ac:misc" value="1" />

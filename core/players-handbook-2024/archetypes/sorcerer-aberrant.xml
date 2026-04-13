@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>FeitiÃ§aria Aberrante</name>
-		<description>A subclasse FeitiÃ§aria Aberrante do Livro do Jogador 2024.</description>
+		<name>Feitiçaria Aberrante</name>
+		<description>A subclasse Feitiçaria Aberrante do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/sorcerer-aberrant.xml" />
 		</update>
 	</info>
 
-	<element name="FeitiÃ§aria Aberrante" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY">
+	<element name="Feitiçaria Aberrante" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY">
 		<supports>Sorcerer Subclass</supports>
 		<description>
-			<p class="flavor">Empunhe Poder PsiÃ´nico Sobrenatural</p>
-			<p>Uma influÃªncia alienÃ­gena enrolou seus tentÃ¡culos ao redor da sua mente, dando-lhe poder psiÃ´nico. VocÃª agora pode tocar outras mentes com esse poder e alterar o mundo ao seu redor. Este poder brilharÃ¡ a partir de vocÃª como um farol de esperanÃ§a para os outros? Ou vocÃª serÃ¡ um terror para aqueles que sentirem a punhalada de sua mente?</p>
-			<p class="indent">Talvez um vento psÃ­quico do Plano Astral tenha trazido energia psiÃ´nica a vocÃª, ou vocÃª foi exposto Ã  influÃªncia distorcedora do Reino Distante. Alternativamente, vocÃª foi implantado com o girino de um devorador de mentes, mas a sua transformaÃ§Ã£o nunca ocorreu; agora o poder psiÃ´nico do girino Ã© seu. NÃ£o importa como adquiriu esse poder, a sua mente estÃ¡ em chamas por ele.</p>
+			<p class="flavor">Empunhe Poder Psiônico Sobrenatural</p>
+			<p>Uma influência alienígena enrolou seus tentáculos ao redor da sua mente, dando-lhe poder psiônico. Você agora pode tocar outras mentes com esse poder e alterar o mundo ao seu redor. Este poder brilhará a partir de você como um farol de esperança para os outros? Ou você será um terror para aqueles que sentirem a punhalada de sua mente?</p>
+			<p class="indent">Talvez um vento psíquico do Plano Astral tenha trazido energia psiônica a você, ou você foi exposto à influência distorcedora do Reino Distante. Alternativamente, você foi implantado com o girino de um devorador de mentes, mas a sua transformação nunca ocorreu; agora o poder psiônico do girino é seu. Não importa como adquiriu esse poder, a sua mente está em chamas por ele.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_PSIONIC_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_TELEPATHIC_SPEECH" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_PSIONIC_SORCERY" />
@@ -33,19 +33,19 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Magias PsiÃ´nicas" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_PSIONIC_SPELLS">
+	<element name="Nível 3: Magias Psiônicas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_PSIONIC_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_ABERRANT_SORCERY_PSIONIC_SPELLS</requirements>
 		<description>
-			<p>Quando vocÃª atinge um nÃ­vel de Feiticeiro especificado na tabela Magias PsiÃ´nicas, vocÃª a partir de entÃ£o sempre terÃ¡ as magias listadas preparadas.</p>
-			<h5>Magias PsiÃ´nicas</h5>
+			<p>Quando você atinge um nível de Feiticeiro especificado na tabela Magias Psiônicas, você a partir de então sempre terá as magias listadas preparadas.</p>
+			<h5>Magias Psiônicas</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-30">NÃ­vel de Feiticeiro</td><td class="left">Magias</td></tr>
+					<tr><td class="col-30">Nível de Feiticeiro</td><td class="left">Magias</td></tr>
 				</thead>
-				<tr><td>3</td><td class="left"><em>BraÃ§os de Hadar, Acalmar EmoÃ§Ãµes, Detectar Pensamentos, Sussurros Dissonantes, Lasca Mental</em></td></tr>
+				<tr><td>3</td><td class="left"><em>Braços de Hadar, Acalmar Emoções, Detectar Pensamentos, Sussurros Dissonantes, Lasca Mental</em></td></tr>
 				<tr><td>5</td><td class="left"><em>Fome de Hadar, Mensagem</em></td></tr>
-				<tr><td>7</td><td class="left"><em>TentÃ¡culos Negros de Evard, Invocar AberraÃ§Ã£o</em></td></tr>
-				<tr><td>9</td><td class="left"><em>LigaÃ§Ã£o TelepÃ¡tica de Rary, TelecinÃ©sia</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Tentáculos Negros de Evard, Invocar Aberração</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Ligação Telepática de Rary, Telecinésia</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -64,14 +64,14 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Fala TelepÃ¡tica" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_TELEPATHIC_SPEECH">
+	<element name="Nível 3: Fala Telepática" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_TELEPATHIC_SPEECH">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_ABERRANT_SORCERY_TELEPATHIC_SPEECH</requirements>
 		<description>
-			<p>VocÃª pode formar uma conexÃ£o telepÃ¡tica entre a sua mente e a mente de outra pessoa. Como uma AÃ§Ã£o BÃ´nus, escolha uma criatura que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) de vocÃª. VocÃª e a criatura escolhida podem se comunicar telepaticamente um com o outro enquanto os dois estiverem a uma quantidade de quilÃ´metros (milhas) de distÃ¢ncia igual ao seu modificador de Carisma (mÃ­nimo de 1 milha/1,5 km). Para entender um ao outro, cada um de vocÃªs deve usar mentalmente um idioma que o outro conheÃ§a.</p>
-			<p class="indent">A conexÃ£o telepÃ¡tica dura por um nÃºmero de minutos igual ao seu nÃ­vel de Feiticeiro. Ela termina mais cedo se vocÃª usar esta habilidade para formar uma conexÃ£o com uma criatura diferente.</p>
+			<p>Você pode formar uma conexão telepática entre a sua mente e a mente de outra pessoa. Como uma Ação Bônus, escolha uma criatura que você possa ver a até 9 metros (30 pés) de você. Você e a criatura escolhida podem se comunicar telepaticamente um com o outro enquanto os dois estiverem a uma quantidade de quilômetros (milhas) de distância igual ao seu modificador de Carisma (mínimo de 1 milha/1,5 km). Para entender um ao outro, cada um de vocês deve usar mentalmente um idioma que o outro conheça.</p>
+			<p class="indent">A conexão telepática dura por um número de minutos igual ao seu nível de Feiticeiro. Ela termina mais cedo se você usar esta habilidade para formar uma conexão com uma criatura diferente.</p>
 		</description>
-		<sheet alt="Fala TelepÃ¡tica" action="AÃ§Ã£o BÃ´nus">
-			<description>Escolha uma criatura visÃ­vel a atÃ© 9 metros de vocÃª. VocÃªs dois podem falar telepaticamente um com o outro pelos prÃ³ximos {{level:sorcerer}} minutos enquanto estiverem a atÃ© {{telepathic speech:distance}} km um do outro. Isso termina cedo se vocÃª ficar incapacitado, morrer ou usar a habilidade em outra criatura. Ambos devem falar mentalmente em um idioma que o outro conheÃ§a para se entenderem.</description>
+		<sheet alt="Fala Telepática" action="Ação Bônus">
+			<description>Escolha uma criatura visível a até 9 metros de você. Vocês dois podem falar telepaticamente um com o outro pelos próximos {{level:sorcerer}} minutos enquanto estiverem a até {{telepathic speech:distance}} km um do outro. Isso termina cedo se você ficar incapacitado, morrer ou usar a habilidade em outra criatura. Ambos devem falar mentalmente em um idioma que o outro conheça para se entenderem.</description>
 		</sheet>
 		<rules>
 			<stat name="telepathic speech:distance" value="1.5" bonus="base" />
@@ -79,44 +79,44 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 6: FeitiÃ§aria PsiÃ´nica" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_PSIONIC_SORCERY">
+	<element name="Nível 6: Feitiçaria Psiônica" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_PSIONIC_SORCERY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_ABERRANT_SORCERY_PSIONIC_SORCERY</requirements>
 		<description>
-			<p>Quando vocÃª conjura qualquer magia de nÃ­vel 1+ a partir de sua caracterÃ­stica Magias PsiÃ´nicas, vocÃª pode conjurÃ¡-la gastando um espaÃ§o de magia como o normal ou gastando um nÃºmero de Pontos de FeitiÃ§aria igual ao nÃ­vel da magia. Se vocÃª conjurar a magia usando Pontos de FeitiÃ§aria, ela nÃ£o requer componentes Verbais ou SomÃ¡ticos, e nÃ£o requer componentes Materiais, a menos que sejam consumidos pela magia ou tenham um custo especificado nela.</p>
+			<p>Quando você conjura qualquer magia de nível 1+ a partir de sua característica Magias Psiônicas, você pode conjurá-la gastando um espaço de magia como o normal ou gastando um número de Pontos de Feitiçaria igual ao nível da magia. Se você conjurar a magia usando Pontos de Feitiçaria, ela não requer componentes Verbais ou Somáticos, e não requer componentes Materiais, a menos que sejam consumidos pela magia ou tenham um custo especificado nela.</p>
 		</description>
-		<sheet alt="FeitiÃ§aria PsiÃ´nica">
-			<description>Quando vocÃª conjura qualquer magia de nÃ­vel 1+ da sua caracterÃ­stica Magias PsiÃ´nicas, vocÃª pode conjurÃ¡-la gastando um nÃºmero de Pontos de FeitiÃ§aria igual ao nÃ­vel da magia. Ao fazÃª-lo, ela nÃ£o requer componentes Verbais ou SomÃ¡ticos, e nÃ£o requer componentes Materiais, a nÃ£o ser que sejam consumidos pela magia ou possuam um custo especificado.</description>
+		<sheet alt="Feitiçaria Psiônica">
+			<description>Quando você conjura qualquer magia de nível 1+ da sua característica Magias Psiônicas, você pode conjurá-la gastando um número de Pontos de Feitiçaria igual ao nível da magia. Ao fazê-lo, ela não requer componentes Verbais ou Somáticos, e não requer componentes Materiais, a não ser que sejam consumidos pela magia ou possuam um custo especificado.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 6: Defesas PsÃ­quicas" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_PSYCHIC_DEFENSES">
+	<element name="Nível 6: Defesas Psíquicas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_PSYCHIC_DEFENSES">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_ABERRANT_SORCERY_PSYCHIC_DEFENSES</requirements>
 		<description>
-			<p>VocÃª tem ResistÃªncia a dano PsÃ­quico, e vocÃª tem Vantagem em testes de resistÃªncia para evitar ou terminar a condiÃ§Ã£o EnfeitiÃ§ado ou Amedrontado.</p>
+			<p>Você tem Resistência a dano Psíquico, e você tem Vantagem em testes de resistência para evitar ou terminar a condição Enfeitiçado ou Amedrontado.</p>
 		</description>
-		<sheet alt="Defesas PsÃ­quicas">
-			<description>VocÃª tem Vantagem em testes de resistÃªncia para evitar ou encerrar as condiÃ§Ãµes EnfeitiÃ§ado ou Amedrontado.</description>
+		<sheet alt="Defesas Psíquicas">
+			<description>Você tem Vantagem em testes de resistência para evitar ou encerrar as condições Enfeitiçado ou Amedrontado.</description>
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 14: RevelaÃ§Ã£o na Carne" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_REVELATION_IN_FLESH">
+	<element name="Nível 14: Revelação na Carne" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_REVELATION_IN_FLESH">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_ABERRANT_SORCERY_REVELATION_IN_FLESH</requirements>
 		<description>
-			<p>VocÃª pode libertar a verdade aberrante escondida dentro de si. Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar 1 Ponto de FeitiÃ§aria ou mais para alterar magicamente seu corpo por 10 minutos. Para cada Ponto de FeitiÃ§aria gasto, vocÃª ganha um dos seguintes benefÃ­cios de sua escolha, cujos efeitos duram atÃ© a alteraÃ§Ã£o terminar.</p>
-			<p class="indent"><em><strong>AdaptaÃ§Ã£o AquÃ¡tica.</strong></em> VocÃª ganha um Deslocamento de NataÃ§Ã£o igual ao dobro do seu Deslocamento, e pode respirar debaixo d'Ã¡gua. Guelras crescem no seu pescoÃ§o ou alargam-se atrÃ¡s das orelhas, e seus dedos ficam com membranas ou vocÃª cresce cÃ­lios contorcidos.</p>
-			<p class="indent"><em><strong>Voo Cintilante.</strong></em> VocÃª ganha um Deslocamento de Voo igual ao seu Deslocamento, e pode pairar. Ao voar, sua pele reluz com um muco ou uma luz de outro mundo.</p>
-			<p class="indent"><em><strong>Ver o InvisÃ­vel.</strong></em> VocÃª pode ver qualquer criatura InvisÃ­vel a atÃ© 18 metros (60 pÃ©s) de vocÃª que nÃ£o esteja atrÃ¡s de Cobertura Total. Seus olhos tambÃ©m ficam negros ou viram tentÃ¡culos sensoriais que se contorcem.</p>
-			<p class="indent"><em><strong>Movimento Vermiforme.</strong></em> O seu corpo, assim como qualquer equipamento que esteja vestindo ou carregando, fica gosmento e maleÃ¡vel. VocÃª pode se mover atravÃ©s de qualquer espaÃ§o de atÃ© 2,5 cm (1 polegada) de espessura, e pode gastar 1,5 metro de movimento para escapar de amarras nÃ£o-mÃ¡gicas ou da condiÃ§Ã£o Agarrado.</p>
+			<p>Você pode libertar a verdade aberrante escondida dentro de si. Como uma Ação Bônus, você pode gastar 1 Ponto de Feitiçaria ou mais para alterar magicamente seu corpo por 10 minutos. Para cada Ponto de Feitiçaria gasto, você ganha um dos seguintes benefícios de sua escolha, cujos efeitos duram até a alteração terminar.</p>
+			<p class="indent"><em><strong>Adaptação Aquática.</strong></em> Você ganha um Deslocamento de Natação igual ao dobro do seu Deslocamento, e pode respirar debaixo d'água. Guelras crescem no seu pescoço ou alargam-se atrás das orelhas, e seus dedos ficam com membranas ou você cresce cílios contorcidos.</p>
+			<p class="indent"><em><strong>Voo Cintilante.</strong></em> Você ganha um Deslocamento de Voo igual ao seu Deslocamento, e pode pairar. Ao voar, sua pele reluz com um muco ou uma luz de outro mundo.</p>
+			<p class="indent"><em><strong>Ver o Invisível.</strong></em> Você pode ver qualquer criatura Invisível a até 18 metros (60 pés) de você que não esteja atrás de Cobertura Total. Seus olhos também ficam negros ou viram tentáculos sensoriais que se contorcem.</p>
+			<p class="indent"><em><strong>Movimento Vermiforme.</strong></em> O seu corpo, assim como qualquer equipamento que esteja vestindo ou carregando, fica gosmento e maleável. Você pode se mover através de qualquer espaço de até 2,5 cm (1 polegada) de espessura, e pode gastar 1,5 metro de movimento para escapar de amarras não-mágicas ou da condição Agarrado.</p>
 		</description>
-		<sheet alt="RevelaÃ§Ã£o na Carne" action="AÃ§Ã£o BÃ´nus">
-			<description>VocÃª pode gastar 1 ou mais Pontos de FeitiÃ§aria, para cada ponto gasto, vocÃª ganha um dos seguintes benefÃ­cios, durando por 10 minutos: &#13;
-			â€¢ VocÃª ganha {{revelation in flesh:swim speed}} de Deslocamento de NataÃ§Ã£o e pode respirar debaixo d'Ã¡gua. &#13;
-			â€¢ VocÃª ganha {{speed}} de Deslocamento de Voo, e pode pairar. &#13;
-			â€¢ VocÃª pode ver qualquer criatura InvisÃ­vel a atÃ© 18 metros que nÃ£o esteja sob Cobertura Total. &#13;
-			â€¢ VocÃª pode se mover atravÃ©s de qualquer espaÃ§o estreito de atÃ© 2,5cm, e pode gastar 1,5m de deslocamento para escapar de amarras nÃ£o-mÃ¡gicas ou da condiÃ§Ã£o Agarrado.</description>
+		<sheet alt="Revelação na Carne" action="Ação Bônus">
+			<description>Você pode gastar 1 ou mais Pontos de Feitiçaria, para cada ponto gasto, você ganha um dos seguintes benefícios, durando por 10 minutos: &#13;
+			• Você ganha {{revelation in flesh:swim speed}} de Deslocamento de Natação e pode respirar debaixo d'água. &#13;
+			• Você ganha {{speed}} de Deslocamento de Voo, e pode pairar. &#13;
+			• Você pode ver qualquer criatura Invisível a até 18 metros que não esteja sob Cobertura Total. &#13;
+			• Você pode se mover através de qualquer espaço estreito de até 2,5cm, e pode gastar 1,5m de deslocamento para escapar de amarras não-mágicas ou da condição Agarrado.</description>
 		</sheet>
 		<rules>
 			<stat name="revelation in flesh:swim speed" value="speed" />
@@ -124,15 +124,15 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 18: ImplosÃ£o Distorcedora" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_WARPING_IMPLOSION">
+	<element name="Nível 18: Implosão Distorcedora" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY_WARPING_IMPLOSION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_ABERRANT_SORCERY_WARPING_IMPLOSION</requirements>
 		<description>
-			<p>VocÃª pode libertar uma anomalia de distorÃ§Ã£o espacial. Como uma AÃ§Ã£o MÃ¡gica, vocÃª se teletransporta para um espaÃ§o desocupado que vocÃª possa ver a atÃ© 36 metros (120 pÃ©s) de vocÃª. Imediatamente apÃ³s desaparecer, cada criatura a atÃ© 9 metros (30 pÃ©s) do espaÃ§o que vocÃª deixou deve fazer um teste de resistÃªncia de ForÃ§a contra a CD de salvamento de Magia. Em uma falha, uma criatura sofre 3d10 de dano de ForÃ§a e Ã© puxada diretamente para o espaÃ§o que vocÃª deixou, terminando num espaÃ§o desocupado o mais perto possÃ­vel de seu antigo espaÃ§o. Em um sucesso, a criatura sofre apenas metade desse dano.</p>
-			<p class="indent">Depois de usar esta caracterÃ­stica, vocÃª nÃ£o pode fazÃª-lo novamente atÃ© terminar um Descanso Longo a nÃ£o ser que gaste 5 Pontos de FeitiÃ§aria (nÃ£o requer aÃ§Ã£o) para restaurar o seu uso.</p>
+			<p>Você pode libertar uma anomalia de distorção espacial. Como uma Ação Mágica, você se teletransporta para um espaço desocupado que você possa ver a até 36 metros (120 pés) de você. Imediatamente após desaparecer, cada criatura a até 9 metros (30 pés) do espaço que você deixou deve fazer um teste de resistência de Força contra a CD de salvamento de Magia. Em uma falha, uma criatura sofre 3d10 de dano de Força e é puxada diretamente para o espaço que você deixou, terminando num espaço desocupado o mais perto possível de seu antigo espaço. Em um sucesso, a criatura sofre apenas metade desse dano.</p>
+			<p class="indent">Depois de usar esta característica, você não pode fazê-lo novamente até terminar um Descanso Longo a não ser que gaste 5 Pontos de Feitiçaria (não requer ação) para restaurar o seu uso.</p>
 		</description>
-		<sheet alt="ImplosÃ£o Distorcedora" action="AÃ§Ã£o" usage="1/Descanso Longo">
-			<description>VocÃª pode magicamente se teletransportar para um espaÃ§o desocupado visÃ­vel a atÃ© 36m de vocÃª. Ao sumir, cada criatura a atÃ© 9m de onde vocÃª estava deve fazer um teste de resistÃªncia de ForÃ§a CD {{sorcerer:spellcasting:dc}}. Numa falha, a criatura sofre 3d10 de dano de ForÃ§a e Ã© puxada para onde vocÃª estava, parando o mais perto possÃ­vel do espaÃ§o. Num sucesso, sofre metade do dano e nÃ£o Ã© puxada. &#13;
-			VocÃª pode gastar 5 Pontos de FeitiÃ§aria para restaurar o uso.</description>
+		<sheet alt="Implosão Distorcedora" action="Ação" usage="1/Descanso Longo">
+			<description>Você pode magicamente se teletransportar para um espaço desocupado visível a até 36m de você. Ao sumir, cada criatura a até 9m de onde você estava deve fazer um teste de resistência de Força CD {{sorcerer:spellcasting:dc}}. Numa falha, a criatura sofre 3d10 de dano de Força e é puxada para onde você estava, parando o mais perto possível do espaço. Num sucesso, sofre metade do dano e não é puxada. &#13;
+			Você pode gastar 5 Pontos de Feitiçaria para restaurar o uso.</description>
 		</sheet>
 	</element>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Elf Subraces</name>
@@ -13,7 +13,7 @@
 	<element name="Bishtahar" type="Sub Race" source="Plane Shift: Kaladesh" id="ID_WOTC_PSK_SUBRACE_BISHTAHAR">
 		<supports>Elf</supports>
 		<description>
-			<p>Elves who dwell in the forest and countryside are known as the Bishtahar. Most live in isolated communities away from other races, though they still trade with them. In fact, much of Kaladeshâ€™s food supply is grown by elves. Bishtahar cultivators grow food, decorative flowers, wood for building, and elaborate living sculptures in their meandering gardens and fields. They use the planeâ€™s ubiquitous technology to foster the growth of plants and animals, utilizing automatons as gardeners and herders, and employing elaborate, nearly invisible systems controlling heat, water, and nutrients. </p>
+			<p>Elves who dwell in the forest and countryside are known as the Bishtahar. Most live in isolated communities away from other races, though they still trade with them. In fact, much of Kaladesh’s food supply is grown by elves. Bishtahar cultivators grow food, decorative flowers, wood for building, and elaborate living sculptures in their meandering gardens and fields. They use the plane’s ubiquitous technology to foster the growth of plants and animals, utilizing automatons as gardeners and herders, and employing elaborate, nearly invisible systems controlling heat, water, and nutrients. </p>
 			<p class="indent">A garden tended by elves seems to grow naturally in an aesthetically pleasing fashion. In fact, many of the forests and plains of Kaladesh are planted and tended by elves as well. What might appear at first to be wild countryside is more likely a carefully planned landscape designed to meet the needs of the people and animals that live there.</p>
 			<h4>BISHTAHAR ELF TRAITS</h4>
 			<p>Bishtahar elves gain the following traits</p>

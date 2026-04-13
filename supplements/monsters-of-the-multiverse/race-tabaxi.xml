@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Tabaxi from Monsters of the Multiverse</name>
@@ -9,8 +9,8 @@
 
 	<element name="Tabaxi" type="Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_TABAXI">
 		<description>
-			<p>Created by the Cat Lordâ€”a divine being of the Upper Planesâ€”to blend the qualities of humanoids and cats, tabaxi are a varied people in both attitude and appearance. In some lands, tabaxi live like the cats they resemble, naturally curious and at home in playful environments. In other places, tabaxi live as other folk do, not exhibiting the feline behavior the Cat Lord intended.</p>
-			<p class="indent">Tabaxi's appearance is as varied as their attitudes. Some tabaxi have features or patterning in their fur like tigers, jaguars, or other big cats, while others have appearances more like a house cat. Still others have unique patterns or might style their fur to their preferencesâ€”or might even be hairless!</p>
+			<p>Created by the Cat Lord—a divine being of the Upper Planes—to blend the qualities of humanoids and cats, tabaxi are a varied people in both attitude and appearance. In some lands, tabaxi live like the cats they resemble, naturally curious and at home in playful environments. In other places, tabaxi live as other folk do, not exhibiting the feline behavior the Cat Lord intended.</p>
+			<p class="indent">Tabaxi's appearance is as varied as their attitudes. Some tabaxi have features or patterning in their fur like tigers, jaguars, or other big cats, while others have appearances more like a house cat. Still others have unique patterns or might style their fur to their preferences—or might even be hairless!</p>
 			<h4>TABAXI TRAITS</h4>
 			<p>As a tabaxi, you have the following racial traits. </p>
 			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>

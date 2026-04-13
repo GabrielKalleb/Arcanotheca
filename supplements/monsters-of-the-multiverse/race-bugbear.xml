@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Bugbear from Monsters of the Multiverse</name>
@@ -9,7 +9,7 @@
 
 	<element name="Bugbear" type="Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_BUGBEAR">
 		<description>
-			<p>Neither bugs nor bears, bugbears are the hulking cousins of goblins and hobgoblins. With roots in the Feywild, early bugbears resided in hidden places, in hard-to-reach and shadowed spaces. Long ago and from out of the corner of your eye, they came to the Material Plane, urged to spread throughout the multiverse by the conquering god Maglubiyet. Centuries later, they still bear a fey gift for lurking just out of sight, and many of them have sneaked away from that godâ€™s influence.</p>
+			<p>Neither bugs nor bears, bugbears are the hulking cousins of goblins and hobgoblins. With roots in the Feywild, early bugbears resided in hidden places, in hard-to-reach and shadowed spaces. Long ago and from out of the corner of your eye, they came to the Material Plane, urged to spread throughout the multiverse by the conquering god Maglubiyet. Centuries later, they still bear a fey gift for lurking just out of sight, and many of them have sneaked away from that god’s influence.</p>
 			<p class="indent">They are long of limb and covered in coarse hair, with wedge-shaped ears and pointed teeth. Despite their formidable build, bugbears are quiet skulkers, thanks to a fey magic that allows them to hide in spaces seemingly too small for them.</p>
 			<h4>BUGBEAR TRAITS</h4>
 			<p>As an bugbear, you have the following racial traits.</p>
@@ -21,7 +21,7 @@
 			<p class="indent"><strong><em>Long-Limbed.</em></strong> When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</p>
 			<p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
 			<p class="indent"><strong><em>Sneaky.</em></strong> You are proficient in the Stealth skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature.</p>
-			<p class="indent"><strong><em>Surprise Attack.</em></strong> If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasnâ€™t taken a turn yet in the current combat.</p>
+			<p class="indent"><strong><em>Surprise Attack.</em></strong> If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn’t taken a turn yet in the current combat.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -88,10 +88,10 @@
 
 	<element name="Surprise Attack" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_SURPRISE_ATTACK">
 		<description>
-			<p>If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasnâ€™t taken a turn yet in the current combat.</p>
+			<p>If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn’t taken a turn yet in the current combat.</p>
 		</description>
 		<sheet>
-			<description>If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasnâ€™t taken a turn yet in the current combat.</description>
+			<description>If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn’t taken a turn yet in the current combat.</description>
 		</sheet>
 	</element>
 </elements>

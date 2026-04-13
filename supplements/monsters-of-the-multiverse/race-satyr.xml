@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Satyr from Monsters of the Multiverse</name>
@@ -9,7 +9,7 @@
 
 	<element name="Satyr" type="Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_SATYR">
 		<description>
-			<p>Originating in the Feywildâ€”a realm of pure emotionâ€”satyrs thrive on the energy of merriment. They resemble elves but have goatlike legs, cloven hooves, and ram or goat horns. The magic of the fey realm has given them an innate ability to perform, to delight, and to resist magical intrusion. While they're usually found in the Feywild, satyrs do wander to other planes of existence, most often to the Material Plane. There they seek to bring a bit of their home plane's splendor to other worlds. </p>
+			<p>Originating in the Feywild—a realm of pure emotion—satyrs thrive on the energy of merriment. They resemble elves but have goatlike legs, cloven hooves, and ram or goat horns. The magic of the fey realm has given them an innate ability to perform, to delight, and to resist magical intrusion. While they're usually found in the Feywild, satyrs do wander to other planes of existence, most often to the Material Plane. There they seek to bring a bit of their home plane's splendor to other worlds. </p>
 			<h4>SATYR TRAITS</h4>
 			<p>As a satyr, you have the following racial traits.</p>
 			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Fey.</p>

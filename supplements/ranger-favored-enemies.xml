@@ -1,149 +1,149 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
 			<file name="ranger-favored-enemies.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/ranger-favored-enemies.xml" />
 		</update>
 	</info>
-	<element name="Derro" type="CaracterÃ­stica de Classe" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_DERRO">
+	<element name="Derro" type="Característica de Classe" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_DERRO">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Derros esgueiram-se pelos reinos subterrÃ¢neos, buscando lugares seguros dos perigos da Subdark. Medrosos e perversos em igual medida, bandos desses anÃµes-primordiais atacam aqueles mais fracos que eles, enquanto se submetem servilmente a quaisquer criaturas que considerem mais poderosas. Com cabelos selvagens, abatidos, tremendo e mal vestidos, um derro solitÃ¡rio parece uma criatura lamentÃ¡vel, mas quando uma horda deles, gargalhando, cuspindo, rosnando e uivando, ataca, a cena inspira tanto medo quanto repulsa.</p>
+			<p>Derros esgueiram-se pelos reinos subterrâneos, buscando lugares seguros dos perigos da Subdark. Medrosos e perversos em igual medida, bandos desses anões-primordiais atacam aqueles mais fracos que eles, enquanto se submetem servilmente a quaisquer criaturas que considerem mais poderosas. Com cabelos selvagens, abatidos, tremendo e mal vestidos, um derro solitário parece uma criatura lamentável, mas quando uma horda deles, gargalhando, cuspindo, rosnando e uivando, ataca, a cena inspira tanto medo quanto repulsa.</p>
 		</description>
 	</element>
-	<element name="Giff" type="CaracterÃ­stica de Classe" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GIFF">
+	<element name="Giff" type="Característica de Classe" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GIFF">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Ã‰ fÃ¡cil identificar os giff em uma sala: um grupo de humanoides com cabeÃ§a de hipopÃ³tamo, de 2,1 metros de altura, vestidos com uniformes militares extravagantes, exibindo pistolas e mosquetes reluzentes. Esses mercenÃ¡rios viajantes do espaÃ§o sÃ£o renomados por seu treinamento marcial e seu amor por explosivos.</p>
+			<p>É fácil identificar os giff em uma sala: um grupo de humanoides com cabeça de hipopótamo, de 2,1 metros de altura, vestidos com uniformes militares extravagantes, exibindo pistolas e mosquetes reluzentes. Esses mercenários viajantes do espaço são renomados por seu treinamento marcial e seu amor por explosivos.</p>
 		</description>
 	</element>
-	<element name="Meazel" type="CaracterÃ­stica de Classe" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_MEAZEL">
+	<element name="Meazel" type="Característica de Classe" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_MEAZEL">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Em lugares onde o Pendor das Sombras se choca contra as praias do Plano Material, vivem os meazels, eremitas rancorosos que abandonaram suas vidas antigas para contemplar sua misÃ©ria nas sombras. Agora o mal arde em seus coraÃ§Ãµes, e eles ressentem qualquer intrusÃ£o em seu sofrimento.</p>
+			<p>Em lugares onde o Pendor das Sombras se choca contra as praias do Plano Material, vivem os meazels, eremitas rancorosos que abandonaram suas vidas antigas para contemplar sua miséria nas sombras. Agora o mal arde em seus corações, e eles ressentem qualquer intrusão em seu sofrimento.</p>
 		</description>
 	</element>
-	<element name="Nagpa" type="CaracterÃ­stica de Classe" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_NAGPA">
+	<element name="Nagpa" type="Característica de Classe" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_NAGPA">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>HÃ¡ muito tempo, a Rainha Corvo amaldiÃ§oou um grupo de treze poderosos magos por interferir em um ritual que teria ajudado a evitar uma guerra entre os deuses. Ela os despojou de sua beleza, transformando-os em monstruosidades escabrosas e aviÃ¡rias. Os nagpas agora conspiram como sempre fizeram, mas agora se esforÃ§am para provocar calamidades terrÃ­veis e abaladoras do mundo para que possam extrair segredos e poder dos destroÃ§os que suas conspiraÃ§Ãµes criam.</p>
-			<p class="indent">Os nagpas temem a Rainha Corvo e fazem o possÃ­vel para evitar ela e seus agentes. Quando Ã© impossÃ­vel fazÃª-lo, eles se tornam seres servil, lisonjeiros, ansiosos para agradar e assim escapar do olhar frio do ser que os rebaixou tanto. Todos os treze originais permanecem vivos, graÃ§as Ã  sua astÃºcia e sua disposiÃ§Ã£o de fazer o que for necessÃ¡rio para sobreviver.</p>
+			<p>Há muito tempo, a Rainha Corvo amaldiçoou um grupo de treze poderosos magos por interferir em um ritual que teria ajudado a evitar uma guerra entre os deuses. Ela os despojou de sua beleza, transformando-os em monstruosidades escabrosas e aviárias. Os nagpas agora conspiram como sempre fizeram, mas agora se esforçam para provocar calamidades terríveis e abaladoras do mundo para que possam extrair segredos e poder dos destroços que suas conspirações criam.</p>
+			<p class="indent">Os nagpas temem a Rainha Corvo e fazem o possível para evitar ela e seus agentes. Quando é impossível fazê-lo, eles se tornam seres servil, lisonjeiros, ansiosos para agradar e assim escapar do olhar frio do ser que os rebaixou tanto. Todos os treze originais permanecem vivos, graças à sua astúcia e sua disposição de fazer o que for necessário para sobreviver.</p>
 		</description>
 	</element>
-	<element name="Skulk" type="CaracterÃ­stica de Classe" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_SKULK">
+	<element name="Skulk" type="Característica de Classe" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_SKULK">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Skulks sÃ£o as cascas sem alma de viajantes que se perderam no Pendor das Sombras, vagando por seus ermos cinzentos atÃ© perderem todo o senso de si. Eles sÃ£o tÃ£o desprovidos de identidade que se tornaram permanentemente invisÃ­veis. Apenas crianÃ§as podem ver um skulk sem a ajuda de um espelho ou de uma vela especial. Nas raras ocasiÃµes em que um skulk Ã© visÃ­vel, ele aparece como um humanoide sem graÃ§a, sem traÃ§os distintivos e sem pelos.</p>
+			<p>Skulks são as cascas sem alma de viajantes que se perderam no Pendor das Sombras, vagando por seus ermos cinzentos até perderem todo o senso de si. Eles são tão desprovidos de identidade que se tornaram permanentemente invisíveis. Apenas crianças podem ver um skulk sem a ajuda de um espelho ou de uma vela especial. Nas raras ocasiões em que um skulk é visível, ele aparece como um humanoide sem graça, sem traços distintivos e sem pelos.</p>
 		</description>
 	</element>
-	<element name="Tortles" type="CaracterÃ­stica de Classe" source="Mordenkainenâ€™s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_TORTLE">
+	<element name="Tortles" type="Característica de Classe" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTF_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_TORTLE">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Tortles sÃ£o humanoides onÃ­voros, semelhantes a tartarugas, com cascos que cobrem a maior parte de seus corpos. Tortles tÃªm um ditado: "NÃ³s carregamos nossas casas nas costas." Consequentemente, tortles sentem pouca necessidade de ficar parados por muito tempo.</p>
+			<p>Tortles são humanoides onívoros, semelhantes a tartarugas, com cascos que cobrem a maior parte de seus corpos. Tortles têm um ditado: "Nós carregamos nossas casas nas costas." Consequentemente, tortles sentem pouca necessidade de ficar parados por muito tempo.</p>
 		</description>
 	</element>
-	<element name="Kraul" type="CaracterÃ­stica de Classe" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_KRAUL">
+	<element name="Kraul" type="Característica de Classe" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_KRAUL">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>A sociedade Kraul Ã© organizada em papÃ©is e castas bem definidos. A vasta maioria dos kraul ocupa vÃ¡rios nÃ­veis de militarismo, desde comandantes e tropas de elite atÃ© a mais humilde infantaria.</p>
+			<p>A sociedade Kraul é organizada em papéis e castas bem definidos. A vasta maioria dos kraul ocupa vários níveis de militarismo, desde comandantes e tropas de elite até a mais humilde infantaria.</p>
 		</description>
 	</element>
-	<element name="Loxodons" type="CaracterÃ­stica de Classe" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_LOXODON">
+	<element name="Loxodons" type="Característica de Classe" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_LOXODON">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Os elefantes humanoides chamados loxodons sÃ£o frequentemente oÃ¡sis de calma nas ruas movimentadas de Ravnica. Eles zumbem ou cantam em tons sonoros e se movem lentamente ou sentam em perfeita quietude. Se provocados Ã  aÃ§Ã£o, os loxodons sÃ£o verdadeiros terrores â€” berrando de raiva, trombetando e batendo as orelhas. Sua sabedoria serena, lealdade feroz e convicÃ§Ã£o inabalÃ¡vel sÃ£o grandes trunfos para suas guildas.</p>
+			<p>Os elefantes humanoides chamados loxodons são frequentemente oásis de calma nas ruas movimentadas de Ravnica. Eles zumbem ou cantam em tons sonoros e se movem lentamente ou sentam em perfeita quietude. Se provocados à ação, os loxodons são verdadeiros terrores — berrando de raiva, trombetando e batendo as orelhas. Sua sabedoria serena, lealdade feroz e convicção inabalável são grandes trunfos para suas guildas.</p>
 		</description>
 	</element>
-	<element name="CrianÃ§as da Lava" type="CaracterÃ­stica de Classe" source="Waterdeep: Dungeon of the Mad Mage" id="ID_WOTC_WDMM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_LAVA_CHILD">
+	<element name="Crianças da Lava" type="Característica de Classe" source="Waterdeep: Dungeon of the Mad Mage" id="ID_WOTC_WDMM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_LAVA_CHILD">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Fisicamente idÃªnticas umas Ã s outras, as crianÃ§as da lava tÃªm constituiÃ§Ãµes musculosas e rostos infantis, perpetuamente sorridentes. A maioria nasce nas Fontes da CriaÃ§Ã£o, tambÃ©m conhecidas como o Plano de Magma, que se encaixa entre os Planos Elementais da Terra e do Fogo. Dentro de cavernas vulcÃ¢nicas, as crianÃ§as da lava formam comunidades, servindo seres primordiais por medo ou adorando deuses da terra e do fogo.</p>
-			<p class="indent">Embora nÃ£o sejam violentas por natureza, as crianÃ§as da lava defendem ferozmente o territÃ³rio que reivindicam como seu. Muitos intrusos foram enganados pelo sorriso de uma crianÃ§a da lava, acreditando-se bem-vindos quando na verdade estÃ£o prestes a ser despedaÃ§ados. As crianÃ§as da lava geralmente ficam perto de seus covis, mas caÃ§am ativamente quando a comida fica escassa.</p>
+			<p>Fisicamente idênticas umas às outras, as crianças da lava têm constituições musculosas e rostos infantis, perpetuamente sorridentes. A maioria nasce nas Fontes da Criação, também conhecidas como o Plano de Magma, que se encaixa entre os Planos Elementais da Terra e do Fogo. Dentro de cavernas vulcânicas, as crianças da lava formam comunidades, servindo seres primordiais por medo ou adorando deuses da terra e do fogo.</p>
+			<p class="indent">Embora não sejam violentas por natureza, as crianças da lava defendem ferozmente o território que reivindicam como seu. Muitos intrusos foram enganados pelo sorriso de uma criança da lava, acreditando-se bem-vindos quando na verdade estão prestes a ser despedaçados. As crianças da lava geralmente ficam perto de seus covis, mas caçam ativamente quando a comida fica escassa.</p>
 		</description>
 	</element>
-	<element name="Locathah" type="CaracterÃ­stica de Classe" source="Ghosts of Saltmarsh" id="ID_WOTC_GOS_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_LOCATHAH">
+	<element name="Locathah" type="Característica de Classe" source="Ghosts of Saltmarsh" id="ID_WOTC_GOS_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_LOCATHAH">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Esses resilientes e orgulhosos homens-peixe (encontrados em Perigo em Ãguaclara) suportaram guerra, escravidÃ£o e maus-tratos nas mÃ£os de outras criaturas aquÃ¡ticas. Eles habitam comunidades tribais submersas ao longo das costas e caÃ§am tanto acima quanto abaixo da Ã¡gua.</p>
+			<p>Esses resilientes e orgulhosos homens-peixe (encontrados em Perigo em Águaclara) suportaram guerra, escravidão e maus-tratos nas mãos de outras criaturas aquáticas. Eles habitam comunidades tribais submersas ao longo das costas e caçam tanto acima quanto abaixo da água.</p>
 		</description>
 	</element>
-	<element name="MestiÃ§os" type="CaracterÃ­stica de Classe" source="Curse of Strahd" id="ID_WOTC_COS_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_MONGRELFOLK">
+	<element name="Mestiços" type="Característica de Classe" source="Curse of Strahd" id="ID_WOTC_COS_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_MONGRELFOLK">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Os mestiÃ§os sÃ£o humanoides que sofreram, ou cujos ancestrais sofreram, transformaÃ§Ãµes mÃ¡gicas horrÃ­veis, a ponto de reterem apenas uma fraÃ§Ã£o de seu ser original. Seus corpos humanoides incorporam as caracterÃ­sticas de vÃ¡rias feras. Por exemplo, um mestiÃ§o pode ter a forma corporal bÃ¡sica de um anÃ£o com uma cabeÃ§a que combina as caracterÃ­sticas de um gato e um lagarto, um braÃ§o que termina em uma pinÃ§a de caranguejo e uma perna que termina em um casco fendido. Outro pode ter a pele e os chifres de uma vaca, os olhos de uma aranha, pernas de sapo e uma cauda escamosa de lagarto. A combinaÃ§Ã£o insana de formas humanoides e animais de cada mestiÃ§o resulta em uma marcha lenta e desajeitada.</p>
+			<p>Os mestiços são humanoides que sofreram, ou cujos ancestrais sofreram, transformações mágicas horríveis, a ponto de reterem apenas uma fração de seu ser original. Seus corpos humanoides incorporam as características de várias feras. Por exemplo, um mestiço pode ter a forma corporal básica de um anão com uma cabeça que combina as características de um gato e um lagarto, um braço que termina em uma pinça de caranguejo e uma perna que termina em um casco fendido. Outro pode ter a pele e os chifres de uma vaca, os olhos de uma aranha, pernas de sapo e uma cauda escamosa de lagarto. A combinação insana de formas humanoides e animais de cada mestiço resulta em uma marcha lenta e desajeitada.</p>
 		</description>
 	</element>
-	<element name="Salamandra Ãgnea" type="CaracterÃ­stica de Classe" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_FIRENEWT">
+	<element name="Salamandra Ígnea" type="Característica de Classe" source="Volo’s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_FIRENEWT">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Em regiÃµes que contÃªm fontes termais, atividade vulcÃ¢nica ou condiÃ§Ãµes quentes e Ãºmidas semelhantes, podem ser encontradas salamandras Ã­gneas. Esses anfÃ­bios humanoides vivem em uma teocracia militarista que reverencia o fogo elemental em sua pior encarnaÃ§Ã£o.</p>
+			<p>Em regiões que contêm fontes termais, atividade vulcânica ou condições quentes e úmidas semelhantes, podem ser encontradas salamandras ígneas. Esses anfíbios humanoides vivem em uma teocracia militarista que reverencia o fogo elemental em sua pior encarnação.</p>
 		</description>
 	</element>
-	<element name="Grung" type="CaracterÃ­stica de Classe" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GRUNG">
+	<element name="Grung" type="Característica de Classe" source="Volo’s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GRUNG">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Grungs sÃ£o humanoides agressivos, semelhantes a sapos, encontrados em florestas tropicais e selvas. Eles sÃ£o ferozmente territoriais e se consideram superiores Ã  maioria das outras criaturas.</p>
+			<p>Grungs são humanoides agressivos, semelhantes a sapos, encontrados em florestas tropicais e selvas. Eles são ferozmente territoriais e se consideram superiores à maioria das outras criaturas.</p>
 		</description>
 	</element>
-	<element name="Tabaxi" type="CaracterÃ­stica de Classe" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_TABAXI">
+	<element name="Tabaxi" type="Característica de Classe" source="Volo’s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_TABAXI">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>OriginÃ¡rios de uma terra estranha e distante, os tabaxi errantes sÃ£o humanoides felinos impulsionados pela curiosidade para coletar artefatos interessantes, reunir contos e histÃ³rias e contemplar todas as maravilhas do mundo. Viajantes por excelÃªncia, os curiosos tabaxi raramente ficam muito tempo em um sÃ³ lugar. Sua natureza inata os impulsiona a nÃ£o deixar segredos por descobrir, nem tesouros ou lendas perdidas.</p>
+			<p>Originários de uma terra estranha e distante, os tabaxi errantes são humanoides felinos impulsionados pela curiosidade para coletar artefatos interessantes, reunir contos e histórias e contemplar todas as maravilhas do mundo. Viajantes por excelência, os curiosos tabaxi raramente ficam muito tempo em um só lugar. Sua natureza inata os impulsiona a não deixar segredos por descobrir, nem tesouros ou lendas perdidas.</p>
 		</description>
 	</element>
-	<element name="TritÃµes" type="CaracterÃ­stica de Classe" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_TRITON">
+	<element name="Tritões" type="Característica de Classe" source="Volo’s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_TRITON">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>TritÃµes guardam as profundezas do oceano, construindo pequenos assentamentos ao lado de fossas profundas, portais para os planos elementais e outros pontos perigosos longe dos olhos dos povos terrestres. GuardiÃµes hÃ¡ muito estabelecidos do fundo do oceano, nos Ãºltimos anos os nobres tritÃµes tornaram-se cada vez mais ativos no mundo acima.</p>
+			<p>Tritões guardam as profundezas do oceano, construindo pequenos assentamentos ao lado de fossas profundas, portais para os planos elementais e outros pontos perigosos longe dos olhos dos povos terrestres. Guardiões há muito estabelecidos do fundo do oceano, nos últimos anos os nobres tritões tornaram-se cada vez mais ativos no mundo acima.</p>
 		</description>
 	</element>
-	<element name="Firbolg" type="CaracterÃ­stica de Classe" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_FIRBOLG">
+	<element name="Firbolg" type="Característica de Classe" source="Volo’s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_FIRBOLG">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>As tribos firbolg se isolam em fortalezas florestais remotas, preferindo passar seus dias em tranquila harmonia com as matas. Quando provocados, os firbolgs demonstram habilidades formidÃ¡veis com armas e magia druÃ­dica.</p>
+			<p>As tribos firbolg se isolam em fortalezas florestais remotas, preferindo passar seus dias em tranquila harmonia com as matas. Quando provocados, os firbolgs demonstram habilidades formidáveis com armas e magia druídica.</p>
 		</description>
 	</element>
-	<element name="Golias" type="CaracterÃ­stica de Classe" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GOLIATH">
+	<element name="Golias" type="Característica de Classe" source="Volo’s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GOLIATH">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Nos picos mais altos das montanhas â€” muito acima das encostas onde as Ã¡rvores crescem e onde o ar Ã© rarefeito e os ventos gÃ©lidos uivam â€” habitam os reclusos golias. Poucas pessoas podem afirmar ter visto um golias, e menos ainda podem afirmar ter amizade com eles. Os golias vagam por um reino sombrio de rocha, vento e frio. Seus corpos parecem ter sido esculpidos em pedra de montanha e lhes conferem grande poder fÃ­sico. Seus espÃ­ritos seguem o vento errante, tornando-os nÃ´mades que vagueiam de pico em pico. Seus coraÃ§Ãµes sÃ£o infundidos com o frio respeito de seu reino gÃ©lido, deixando cada golias com a responsabilidade de conquistar um lugar na tribo ou morrer tentando.</p>
+			<p>Nos picos mais altos das montanhas — muito acima das encostas onde as árvores crescem e onde o ar é rarefeito e os ventos gélidos uivam — habitam os reclusos golias. Poucas pessoas podem afirmar ter visto um golias, e menos ainda podem afirmar ter amizade com eles. Os golias vagam por um reino sombrio de rocha, vento e frio. Seus corpos parecem ter sido esculpidos em pedra de montanha e lhes conferem grande poder físico. Seus espíritos seguem o vento errante, tornando-os nômades que vagueiam de pico em pico. Seus corações são infundidos com o frio respeito de seu reino gélido, deixando cada golias com a responsabilidade de conquistar um lugar na tribo ou morrer tentando.</p>
 		</description>
 	</element>
-	<element name="Xvart" type="CaracterÃ­stica de Classe" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_XVART">
+	<element name="Xvart" type="Característica de Classe" source="Volo’s Guide to Monsters" id="ID_WOTC_VGM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_XVART">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Xvarts sÃ£o humanoides cruÃ©is e covardes gerados por um semideus renegado e covarde. Eles tÃªm pele azul, olhos laranja vÃ­vidos e calvÃ­cie recuada, espelhando a aparÃªncia de seu criador. Medem cerca de 90 centÃ­metros de altura.</p>
-			<p class="indent">Xvarts vivem em colinas, florestas e cavernas remotas. Cada tribo Ã© liderada por um orador, que geralmente Ã© o mais inteligente entre eles. O orador atua como embaixador da tribo e frequentemente usa pernas de pau curtas e vestes pesadas para parecer mais alto e mais imponente. O restante da tribo caÃ§a em busca de alimento, saqueando plantaÃ§Ãµes e gado de fazendas prÃ³ximas se a caÃ§a for mal. Os xvarts nÃ£o representam grande ameaÃ§a para locais civilizados porque sÃ£o um tanto temerosos de humanos, anÃµes e elfos.</p>
+			<p>Xvarts são humanoides cruéis e covardes gerados por um semideus renegado e covarde. Eles têm pele azul, olhos laranja vívidos e calvície recuada, espelhando a aparência de seu criador. Medem cerca de 90 centímetros de altura.</p>
+			<p class="indent">Xvarts vivem em colinas, florestas e cavernas remotas. Cada tribo é liderada por um orador, que geralmente é o mais inteligente entre eles. O orador atua como embaixador da tribo e frequentemente usa pernas de pau curtas e vestes pesadas para parecer mais alto e mais imponente. O restante da tribo caça em busca de alimento, saqueando plantações e gado de fazendas próximas se a caça for mal. Os xvarts não representam grande ameaça para locais civilizados porque são um tanto temerosos de humanos, anões e elfos.</p>
 		</description>
 	</element>
-	<element name="Genasi" type="CaracterÃ­stica de Classe" source="Princes of the Apocalypse" id="ID_WOTC_POTA_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GENASI">
+	<element name="Genasi" type="Característica de Classe" source="Princes of the Apocalypse" id="ID_WOTC_POTA_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GENASI">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Aqueles que pensam em outros planos os consideram reinos remotos e distantes, mas a influÃªncia planar pode ser sentida em todo o mundo. Ã€s vezes, ela se manifesta em seres que, por um acidente de nascimento, carregam o poder dos planos em seu sangue. Os genasi sÃ£o um desses povos, a prole de gÃªnios e mortais.</p>
+			<p>Aqueles que pensam em outros planos os consideram reinos remotos e distantes, mas a influência planar pode ser sentida em todo o mundo. Às vezes, ela se manifesta em seres que, por um acidente de nascimento, carregam o poder dos planos em seu sangue. Os genasi são um desses povos, a prole de gênios e mortais.</p>
 		</description>
 	</element>
-	<element name="Metamorfos" type="CaracterÃ­stica de Classe" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_CHANGELINGS">
+	<element name="Metamorfos" type="Característica de Classe" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_CHANGELINGS">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Um metamorfo pode alterar seu rosto e forma com um pensamento. Muitos metamorfos usam esse dom como uma forma de expressÃ£o artÃ­stica e emocional, mas Ã© uma ferramenta inestimÃ¡vel para golpistas, espiÃµes e outros que desejam enganar. Isso leva muitas pessoas a tratar metamorfos conhecidos com medo e desconfianÃ§a.</p>
+			<p>Um metamorfo pode alterar seu rosto e forma com um pensamento. Muitos metamorfos usam esse dom como uma forma de expressão artística e emocional, mas é uma ferramenta inestimável para golpistas, espiões e outros que desejam enganar. Isso leva muitas pessoas a tratar metamorfos conhecidos com medo e desconfiança.</p>
 		</description>
 	</element>
-	<element name="Mutantes" type="CaracterÃ­stica de Classe" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_SHIFTERS">
+	<element name="Mutantes" type="Característica de Classe" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_SHIFTERS">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Os mutantes sÃ£o Ã s vezes chamados de tocados-pelo-licantropo, pois muitos acreditam que sÃ£o descendentes de humanos e licantropos. Eles sÃ£o humanoides com um aspecto bestial. Embora nÃ£o possam mudar completamente de forma, eles podem temporariamente aprimorar suas caracterÃ­sticas animalÃ­sticas â€” um estado que chamam de mutaÃ§Ã£o. Quaisquer que sejam suas origens, os mutantes evoluÃ­ram para uma raÃ§a Ãºnica. Um mutante caminha no fio da navalha entre a natureza selvagem e o mundo ao seu redor. Eles abraÃ§am seus instintos primais ou o caminho da civilizaÃ§Ã£o?</p>
+			<p>Os mutantes são às vezes chamados de tocados-pelo-licantropo, pois muitos acreditam que são descendentes de humanos e licantropos. Eles são humanoides com um aspecto bestial. Embora não possam mudar completamente de forma, eles podem temporariamente aprimorar suas características animalísticas — um estado que chamam de mutação. Quaisquer que sejam suas origens, os mutantes evoluíram para uma raça única. Um mutante caminha no fio da navalha entre a natureza selvagem e o mundo ao seu redor. Eles abraçam seus instintos primais ou o caminho da civilização?</p>
 		</description>
 	</element>
-	<element name="Kalashtar" type="CaracterÃ­stica de Classe" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_KALASHTAR">
+	<element name="Kalashtar" type="Característica de Classe" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_KALASHTAR">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Os kalashtar sÃ£o uma raÃ§a composta criada a partir da uniÃ£o da humanidade com espÃ­ritos renegados do plano dos sonhos â€” espÃ­ritos chamados quori. Kalashtar sÃ£o frequentemente vistos como pessoas sÃ¡bias e espirituais com grande compaixÃ£o pelos outros. Mas hÃ¡ uma inconfundÃ­vel qualidade alienÃ­gena nos kalashtar, e eles sÃ£o assombrados pelos conflitos de seus espÃ­ritos de outro mundo.</p>
+			<p>Os kalashtar são uma raça composta criada a partir da união da humanidade com espíritos renegados do plano dos sonhos — espíritos chamados quori. Kalashtar são frequentemente vistos como pessoas sábias e espirituais com grande compaixão pelos outros. Mas há uma inconfundível qualidade alienígena nos kalashtar, e eles são assombrados pelos conflitos de seus espíritos de outro mundo.</p>
 		</description>
 	</element>
-	<element name="Verdan" type="CaracterÃ­stica de Classe" source="Acquisitions Incorporated" id="ID_WOTC_AI_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_VERDAN">
+	<element name="Verdan" type="Característica de Classe" source="Acquisitions Incorporated" id="ID_WOTC_AI_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_VERDAN">
 		<supports>Inimigo Predileto Humanoide</supports>
 		<description>
-			<p>Os verdan devem sua existÃªncia ao caos. Descendentes e transformados de um grande clÃ£ de goblins e hobgoblins, aqueles que se tornaram os verdan estavam simplesmente vivendo suas vidas, fazendo coisas goblinoides. Mas entÃ£o, passar pela sombra de Aquele-Que-Perdura os mudou para sempre. Agora, a mais nova raÃ§a a chamar FaerÃ»n de lar, os verdan fazem o possÃ­vel para encontrar seu caminho em um mundo desconhecido.</p>
+			<p>Os verdan devem sua existência ao caos. Descendentes e transformados de um grande clã de goblins e hobgoblins, aqueles que se tornaram os verdan estavam simplesmente vivendo suas vidas, fazendo coisas goblinoides. Mas então, passar pela sombra de Aquele-Que-Perdura os mudou para sempre. Agora, a mais nova raça a chamar Faerûn de lar, os verdan fazem o possível para encontrar seu caminho em um mundo desconhecido.</p>
 		</description>
 	</element>
 </elements>

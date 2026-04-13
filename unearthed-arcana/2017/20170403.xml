@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Unearthed Arcana: Starter Spells</name>
@@ -28,7 +28,7 @@
 		<description>
 			<p>You create a Tiny incorporeal hand of shimmering light in an unoccupied space you can see within range. The hand exists for the duration, but it disappears if you teleport or you travel to a different plane of existence.</p>
 			<p class="indent">When the hand appears, you name one major landmark, such as a city, mountain, castle, or battlefield on the same plane of existence as you. Someone in history must have visited the site and mapped it. If the landmark appears on no map in existence, the spell fails. Otherwise, whenever you move toward the hand, it moves away from you at the same speed you moved, and it moves in the direction of the landmark, always remaining 5 feet away from you.</p>
-			<p class="indent">If you donâ€™t move toward the hand, it remains in place until you do and beckons for you to follow once every 1d4 minutes.</p>
+			<p class="indent">If you don’t move toward the hand, it remains in place until you do and beckons for you to follow once every 1d4 minutes.</p>
 		</description>
 		<setters>
 			<set name="level">1</set>
@@ -48,7 +48,7 @@
 		<supports>Cleric</supports>
 		<description>
 			<p>You raise your hand, and burning radiance erupts from it. Each creature of your choice that you can see within 5 feet of you must succeed on a Constitution saving throw or take 1d6 radiant damage.</p>
-			<p class="indent">The spellâ€™s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+			<p class="indent">The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
 		</description>
 		<setters>
 			<set name="level">0</set>
@@ -67,7 +67,7 @@
 	<element name="Healing Elixir" type="Spell" source="Unearthed Arcana: Starter Spells" id="ID_WOTC_UA20170403_SPELL_HEALING_ELIXIR">
 		<supports>Warlock, Wizard</supports>
 		<description>
-			<p>You create a healing elixir in a simple vial that appears in your hand. The elixir retains its potency for the duration or until itâ€™s consumed, at which point the vial vanishes.</p>
+			<p>You create a healing elixir in a simple vial that appears in your hand. The elixir retains its potency for the duration or until it’s consumed, at which point the vial vanishes.</p>
 			<p class="indent">As an action, a creature can drink the elixir or administer it to another creature. The drinker regains 2d4 + 2 hit points.</p>
 		</description>
 		<setters>
@@ -79,7 +79,7 @@
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">alchemistâ€™s supplies</set>
+			<set name="materialComponent">alchemist’s supplies</set>
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
@@ -106,7 +106,7 @@
 	<element name="Sense Emotion" type="Spell" source="Unearthed Arcana: Starter Spells" id="ID_WOTC_UA20170403_SPELL_SENSE_EMOTION">
 		<supports>Bard, Warlock, Wizard</supports>
 		<description>
-			<p>You attune your senses to pick up the emotions of others for the duration. When you cast the spell, and as your action on each turn until the spell ends, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the targetâ€™s prevailing emotion, whether itâ€™s love, anger, pain, fear, calm, or something else. If the target isnâ€™t actually humanoid or it is immune to being charmed, you sense that it is calm.</p>      
+			<p>You attune your senses to pick up the emotions of others for the duration. When you cast the spell, and as your action on each turn until the spell ends, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm.</p>      
 		</description>
 		<setters>
 			<set name="level">1</set>

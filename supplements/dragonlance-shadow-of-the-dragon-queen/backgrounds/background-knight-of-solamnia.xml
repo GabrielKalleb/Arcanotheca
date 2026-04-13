@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Knight of Solamnia Background</name>
@@ -19,9 +19,9 @@
 			</ul>
 			<div element="ID_WOTC_DSDQ_BACKGROUND_FEATURE_SQUIRE_OF_SOLAMNIA" />
 			<h5>BUILDING A KNIGHT OF SOLAMNIA CHARACTER</h5>
-			<p>Any class or subclass that has martial prowess can be a good fit in the Knights of Solamnia. Fighters and paladins make up the bulk of the knighthoodâ€™s forces. Clerics (often with the War domain) can also be found among the knights' ranks.</p>
-			<p class="indent">For a more unusual take on a Knight of Solamnia character, consider playing a bard of the College of Valor (or the College of Swords from <i>Xanatharâ€™s Guide to Everything</i>) or a barbarian devoted to the ideals of the nature god Habbakuk (perhaps adopting the Path of the Zealot from <i>Xanatharâ€™s Guide to Everything</i>)</p>
-			<p class="indent"><strong><em>Knight of Solamnia Trinkets.</em></strong> When you make your character, roll once on the Knight of Solamnia Trinkets table, instead of on the Trinkets table in the <i>Playerâ€™s Handbook</i>, for your starting trinket.</p>
+			<p>Any class or subclass that has martial prowess can be a good fit in the Knights of Solamnia. Fighters and paladins make up the bulk of the knighthood’s forces. Clerics (often with the War domain) can also be found among the knights' ranks.</p>
+			<p class="indent">For a more unusual take on a Knight of Solamnia character, consider playing a bard of the College of Valor (or the College of Swords from <i>Xanathar’s Guide to Everything</i>) or a barbarian devoted to the ideals of the nature god Habbakuk (perhaps adopting the Path of the Zealot from <i>Xanathar’s Guide to Everything</i>)</p>
+			<p class="indent"><strong><em>Knight of Solamnia Trinkets.</em></strong> When you make your character, roll once on the Knight of Solamnia Trinkets table, instead of on the Trinkets table in the <i>Player’s Handbook</i>, for your starting trinket.</p>
 			<h5>Knight of Solamnia Trinkets</h5>
 			<table>
 				<thead>

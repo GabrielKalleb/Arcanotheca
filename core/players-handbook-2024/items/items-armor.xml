@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Armadura</name>
@@ -8,7 +8,7 @@
 		</update>
 	</info>
 
-	<element name="Acolchoada" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_LIGHT_PADDED">
+	<element name="Acolchoada" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_LIGHT_PADDED">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 		<description>
 			<p class="flavor">1 Minuto para Vestir ou Remover</p>
@@ -30,11 +30,11 @@
 		</rules>
 	</element>
 
-	<element name="Couro" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_LIGHT_LEATHER">
+	<element name="Couro" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_LIGHT_LEATHER">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 		<description>
 			<p class="flavor">1 Minuto para Vestir ou Remover</p>
-			<p>O peitoral e as ombreiras desta armadura sÃ£o feitos de couro que foi endurecido apÃ³s ser fervido em Ã³leo. O resto da armadura Ã© feito de materiais mais macios e flexÃ­veis.</p>
+			<p>O peitoral e as ombreiras desta armadura são feitos de couro que foi endurecido após ser fervido em óleo. O resto da armadura é feito de materiais mais macios e flexíveis.</p>
 		</description>
 		<setters>
 			<set name="category">Armadura</set>
@@ -50,11 +50,11 @@
 		</rules>
 	</element>
 
-	<element name="Couro Batido" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_LIGHT_STUDDED_LEATHER">
+	<element name="Couro Batido" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_LIGHT_STUDDED_LEATHER">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 		<description>
 			<p class="flavor">1 Minuto para Vestir ou Remover</p>
-			<p>Feita de couro resistente, porÃ©m flexÃ­vel, a armadura de couro batido Ã© reforÃ§ada com rebites ou cravos de metal colocados bem prÃ³ximos uns dos outros.</p>
+			<p>Feita de couro resistente, porém flexível, a armadura de couro batido é reforçada com rebites ou cravos de metal colocados bem próximos uns dos outros.</p>
 		</description>
 		<setters>
 			<set name="category">Armadura</set>
@@ -70,16 +70,16 @@
 		</rules>
 	</element>
 
-	<element name="Pele" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_HIDE_ARMOR">
+	<element name="Pele" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_HIDE_ARMOR">
 		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
 		<description>
 			<p class="flavor">5 Minutos para Vestir e 1 Minuto para Remover</p>
-			<p>Esta armadura rÃºstica consiste em couros e peles espessas. Ã‰ comumente usada por tribos bÃ¡rbaras, humanoides malignos e outros povos que nÃ£o tÃªm acesso Ã s ferramentas e materiais necessÃ¡rios para criar uma armadura melhor.</p>
+			<p>Esta armadura rústica consiste em couros e peles espessas. É comumente usada por tribos bárbaras, humanoides malignos e outros povos que não têm acesso às ferramentas e materiais necessários para criar uma armadura melhor.</p>
 		</description>
 		<setters>
 			<set name="category">Armadura</set>
-			<set name="armor">MÃ©dia</set>
-			<set name="armorClass">12 + modificador de Des (mÃ¡x 2)</set>
+			<set name="armor">Média</set>
+			<set name="armorClass">12 + modificador de Des (máx 2)</set>
 			<set name="weight" lb="12">12 lb.</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="slot">body</set>
@@ -90,16 +90,16 @@
 		</rules>
 	</element>
 
-	<element name="Camisa de Cota de Malha" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_CHAIN_SHIRT">
+	<element name="Camisa de Cota de Malha" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_CHAIN_SHIRT">
 		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
 		<description>
 			<p class="flavor">5 Minutos para Vestir e 1 Minuto para Remover</p>
-			<p>Feita de anÃ©is de metal interligados, uma camisa de cota de malha Ã© usada entre camadas de roupas ou couro. Esta armadura oferece proteÃ§Ã£o modesta Ã  parte superior do corpo do usuÃ¡rio e permite que o som dos anÃ©is roÃ§ando uns nos outros seja abafado pelas camadas externas.</p>
+			<p>Feita de anéis de metal interligados, uma camisa de cota de malha é usada entre camadas de roupas ou couro. Esta armadura oferece proteção modesta à parte superior do corpo do usuário e permite que o som dos anéis roçando uns nos outros seja abafado pelas camadas externas.</p>
 		</description>
 		<setters>
 			<set name="category">Armadura</set>
-			<set name="armor">MÃ©dia</set>
-			<set name="armorClass">13 + modificador de Des (mÃ¡x 2)</set>
+			<set name="armor">Média</set>
+			<set name="armorClass">13 + modificador de Des (máx 2)</set>
 			<set name="weight" lb="20">20 lb.</set>
 			<set name="cost" currency="gp">50</set>
 			<set name="slot">body</set>
@@ -110,16 +110,16 @@
 		</rules>
 	</element>
 
-	<element name="Brunea" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_SCALE_MAIL">
+	<element name="Brunea" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_SCALE_MAIL">
 		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
 		<description>
 			<p class="flavor">5 Minutos para Vestir e 1 Minuto para Remover</p>
-			<p>Esta armadura consiste em um casaco e perneiras (e talvez uma saia separada) de couro cobertos com peÃ§as de metal sobrepostas, parecidas com escamas de peixe. O conjunto inclui manoplas.</p>
+			<p>Esta armadura consiste em um casaco e perneiras (e talvez uma saia separada) de couro cobertos com peças de metal sobrepostas, parecidas com escamas de peixe. O conjunto inclui manoplas.</p>
 		</description>
 		<setters>
 			<set name="category">Armadura</set>
-			<set name="armor">MÃ©dia</set>
-			<set name="armorClass">14 + modificador de Des (mÃ¡x 2)</set>
+			<set name="armor">Média</set>
+			<set name="armorClass">14 + modificador de Des (máx 2)</set>
 			<set name="stealth">Desvantagem</set>
 			<set name="weight" lb="45">45 lb.</set>
 			<set name="cost" currency="gp">50</set>
@@ -132,16 +132,16 @@
 		</rules>
 	</element>
 
-	<element name="Peitoral" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_BREASTPLATE">
+	<element name="Peitoral" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_BREASTPLATE">
 		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
 		<description>
 			<p class="flavor">5 Minutos para Vestir e 1 Minuto para Remover</p>
-			<p>Esta armadura consiste em uma peÃ§a peitoral de metal feita sob medida usada com couro flexÃ­vel. Embora deixe as pernas e os braÃ§os relativamente desprotegidos, esta armadura fornece boa proteÃ§Ã£o para os Ã³rgÃ£os vitais do usuÃ¡rio, ao mesmo tempo em que o deixa com um fardo relativamente leve.</p>
+			<p>Esta armadura consiste em uma peça peitoral de metal feita sob medida usada com couro flexível. Embora deixe as pernas e os braços relativamente desprotegidos, esta armadura fornece boa proteção para os órgãos vitais do usuário, ao mesmo tempo em que o deixa com um fardo relativamente leve.</p>
 		</description>
 		<setters>
 			<set name="category">Armadura</set>
-			<set name="armor">MÃ©dia</set>
-			<set name="armorClass">14 + modificador de Des (mÃ¡x 2)</set>
+			<set name="armor">Média</set>
+			<set name="armorClass">14 + modificador de Des (máx 2)</set>
 			<set name="weight" lb="20">20 lb.</set>
 			<set name="cost" currency="gp">400</set>
 			<set name="slot">body</set>
@@ -152,16 +152,16 @@
 		</rules>
 	</element>
 
-	<element name="Meia Armadura" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_HALF_PLATE">
+	<element name="Meia Armadura" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_HALF_PLATE">
 		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
 		<description>
 			<p class="flavor">5 Minutos para Vestir e 1 Minuto para Remover</p>
-			<p>A meia armadura consiste em placas de metal moldadas que cobrem a maior parte do corpo do usuÃ¡rio. Ela nÃ£o inclui proteÃ§Ã£o para as pernas, alÃ©m de grevas simples fixadas com tiras de couro.</p>
+			<p>A meia armadura consiste em placas de metal moldadas que cobrem a maior parte do corpo do usuário. Ela não inclui proteção para as pernas, além de grevas simples fixadas com tiras de couro.</p>
 		</description>
 		<setters>
 			<set name="category">Armadura</set>
-			<set name="armor">MÃ©dia</set>
-			<set name="armorClass">15 + modificador de Des (mÃ¡x 2)</set>
+			<set name="armor">Média</set>
+			<set name="armorClass">15 + modificador de Des (máx 2)</set>
 			<set name="stealth">Desvantagem</set>
 			<set name="weight" lb="40">40 lb.</set>
 			<set name="cost" currency="gp">750</set>
@@ -174,10 +174,10 @@
 		</rules>
 	</element>
 
-	<element name="Cota de AnÃ©is" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_RING_MAIL">
+	<element name="Cota de Anéis" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_RING_MAIL">
 		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 		<description>
-			<p>Esta armadura Ã© de couro, mas com anÃ©is pesados costurados nela. Os anÃ©is ajudam a reforÃ§ar a armadura contra golpes de espadas e machados. A cota de anÃ©is Ã© inferior Ã  cota de malha, e geralmente Ã© usada apenas por aqueles que nÃ£o podem comprar uma armadura melhor.</p>
+			<p>Esta armadura é de couro, mas com anéis pesados costurados nela. Os anéis ajudam a reforçar a armadura contra golpes de espadas e machados. A cota de anéis é inferior à cota de malha, e geralmente é usada apenas por aqueles que não podem comprar uma armadura melhor.</p>
 		</description>
 		<setters>
 			<set name="category">Armadura</set>
@@ -195,11 +195,11 @@
 		</rules>
 	</element>
 
-	<element name="Cota de Malha" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_CHAIN_MAIL">
+	<element name="Cota de Malha" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_CHAIN_MAIL">
 		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 		<description>
 			<p class="flavor">10 Minutos para Vestir e 5 Minutos para Remover</p>
-			<p>Feita de anÃ©is de metal entrelaÃ§ados, a cota de malha inclui uma camada de tecido acolchoado usada sob a malha para evitar atrito e amortecer o impacto dos golpes. O conjunto inclui manoplas.</p>
+			<p>Feita de anéis de metal entrelaçados, a cota de malha inclui uma camada de tecido acolchoado usada sob a malha para evitar atrito e amortecer o impacto dos golpes. O conjunto inclui manoplas.</p>
 		</description>
 		<setters>
 			<set name="category">Armadura</set>
@@ -219,11 +219,11 @@
 		</rules>
 	</element>
 
-	<element name="Cota de Talas" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_SPLINT">
+	<element name="Cota de Talas" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_SPLINT">
 		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 		<description>
 			<p class="flavor">10 Minutos para Vestir e 5 Minutos para Remover</p>
-			<p>Esta armadura Ã© feita de tiras verticais estreitas de metal rebitadas em uma base de couro usada sobre enchimento de pano. Uma cota de malha flexÃ­vel protege as juntas.</p>
+			<p>Esta armadura é feita de tiras verticais estreitas de metal rebitadas em uma base de couro usada sobre enchimento de pano. Uma cota de malha flexível protege as juntas.</p>
 		</description>
 		<setters>
 			<set name="category">Armadura</set>
@@ -243,7 +243,7 @@
 		</rules>
 	</element>
 
-	<element name="Armadura de Placas" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_PLATE">
+	<element name="Armadura de Placas" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_PLATE">
 		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 		<description>
 			<p class="flavor">10 Minutos para Vestir e 5 Minutos para Remover</p>
@@ -267,10 +267,10 @@
 		</rules>
 	</element>
 
-	<element name="Escudo" type="Armor" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_SHIELD">
+	<element name="Escudo" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_SHIELD">
 		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
 		<description>
-			<p>Um escudo Ã© feito de madeira ou metal e Ã© carregado em uma mÃ£o. Empunhar um escudo aumenta sua Classe de Armadura em 2. VocÃª sÃ³ pode se beneficiar de um escudo por vez.</p>
+			<p>Um escudo é feito de madeira ou metal e é carregado em uma mão. Empunhar um escudo aumenta sua Classe de Armadura em 2. Você só pode se beneficiar de um escudo por vez.</p>
 		</description>
 		<setters>
 			<set name="category">Armadura</set>

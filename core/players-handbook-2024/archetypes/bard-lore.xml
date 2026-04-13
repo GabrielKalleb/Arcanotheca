@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>ColÃ©gio do Conhecimento</name>
-		<description>A subclasse ColÃ©gio do Conhecimento do Livro do Jogador de 2024.</description>
+		<name>Colégio do Conhecimento</name>
+		<description>A subclasse Colégio do Conhecimento do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="bard-lore.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/bard-lore.xml" />
 		</update>
 	</info>
 
-	<element name="ColÃ©gio do Conhecimento" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_LORE">
+	<element name="Colégio do Conhecimento" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_LORE">
 		<supports>Bard Subclass</supports>
 		<description>
-			<p class="flavor">Sonde as Profundezas do Conhecimento MÃ¡gico</p>
-			<p>Bardos do ColÃ©gio do Conhecimento coletam magias e segredos de diversas fontes, como tomos acadÃªmicos, ritos mÃ­sticos e contos camponeses. Os membros do colÃ©gio se reÃºnem em bibliotecas e universidades para compartilhar seu conhecimento uns com os outros. Eles tambÃ©m se encontram em festivais ou assuntos de estado, onde podem expor a corrupÃ§Ã£o, desvendar mentiras e zombar de figuras de autoridade presunÃ§osas.</p>
+			<p class="flavor">Sonde as Profundezas do Conhecimento Mágico</p>
+			<p>Bardos do Colégio do Conhecimento coletam magias e segredos de diversas fontes, como tomos acadêmicos, ritos místicos e contos camponeses. Os membros do colégio se reúnem em bibliotecas e universidades para compartilhar seu conhecimento uns com os outros. Eles também se encontram em festivais ou assuntos de estado, onde podem expor a corrupção, desvendar mentiras e zombar de figuras de autoridade presunçosas.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_BONUS_PROFICIENCIES" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES" />
@@ -28,10 +28,10 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: ProficiÃªncias Adicionais" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_BONUS_PROFICIENCIES">
+	<element name="Nível 3: Proficiências Adicionais" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_BONUS_PROFICIENCIES">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_LORE_BONUS_PROFICIENCIES</requirements>
 		<description>
-			<p>VocÃª ganha proficiÃªncia com trÃªs perÃ­cias Ã  sua escolha.</p>
+			<p>Você ganha proficiência com três perícias à sua escolha.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -39,21 +39,21 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: Palavras Cortantes" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS">
+	<element name="Nível 3: Palavras Cortantes" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_LORE_CUTTING_WORDS</requirements>
 		<description>
-			<p>VocÃª aprende a usar sua perspicÃ¡cia para sobrenaturalmente distrair, confundir e, de outras formas, minar a confianÃ§a e a competÃªncia dos outros. Quando uma criatura que vocÃª possa ver a atÃ© 18 metros (60 pÃ©s) de vocÃª faz uma jogada de dano ou Ã© bem-sucedida em um teste de habilidade ou jogada de ataque, vocÃª pode usar uma ReaÃ§Ã£o para gastar um uso de sua InspiraÃ§Ã£o de Bardo; role o seu dado de InspiraÃ§Ã£o de Bardo e subtraia o nÃºmero rolado da rolagem da criatura, reduzindo o dano ou potencialmente transformando o sucesso em uma falha.</p>
+			<p>Você aprende a usar sua perspicácia para sobrenaturalmente distrair, confundir e, de outras formas, minar a confiança e a competência dos outros. Quando uma criatura que você possa ver a até 18 metros (60 pés) de você faz uma jogada de dano ou é bem-sucedida em um teste de habilidade ou jogada de ataque, você pode usar uma Reação para gastar um uso de sua Inspiração de Bardo; role o seu dado de Inspiração de Bardo e subtraia o número rolado da rolagem da criatura, reduzindo o dano ou potencialmente transformando o sucesso em uma falha.</p>
 		</description>
-		<sheet alt="Palavras Cortantes" action="Reaction" usage="InspiraÃ§Ã£o de Bardo">
-			<description>Quando uma criatura que vocÃª possa ver a atÃ© 18m de vocÃª faz uma jogada de dano ou tem sucesso em um teste de habilidade ou jogada de ataque, vocÃª pode rolar seu dado de InspiraÃ§Ã£o de Bardo e subtrair o valor rolado da rolagem da criatura, reduzindo o dano ou potencialmente transformando o sucesso em uma falha.</description>
+		<sheet alt="Palavras Cortantes" action="Reaction" usage="Inspiração de Bardo">
+			<description>Quando uma criatura que você possa ver a até 18m de você faz uma jogada de dano ou tem sucesso em um teste de habilidade ou jogada de ataque, você pode rolar seu dado de Inspiração de Bardo e subtrair o valor rolado da rolagem da criatura, reduzindo o dano ou potencialmente transformando o sucesso em uma falha.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 6: Descobertas MÃ¡gicas" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES">
+	<element name="Nível 6: Descobertas Mágicas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES">
 	<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_LORE_MAGICAL_DISCOVERIES</requirements>
 		<description>
-			<p>VocÃª aprende duas magias Ã  sua escolha. Estas magias podem vir da lista de magias do ClÃ©rigo, Druida ou Mago, ou qualquer combinaÃ§Ã£o destas. Uma magia que vocÃª escolher deve ser um truque ou uma magia para a qual vocÃª tenha espaÃ§os de magia, conforme mostrado na tabela de CaracterÃ­sticas do Bardo.</p>
-			<p class="indent">VocÃª sempre tem as magias escolhidas preparadas, e sempre que ganhar um nÃ­vel de Bardo, pode substituir uma das magias por outra que atenda a esses requisitos.</p>
+			<p>Você aprende duas magias à sua escolha. Estas magias podem vir da lista de magias do Clérigo, Druida ou Mago, ou qualquer combinação destas. Uma magia que você escolher deve ser um truque ou uma magia para a qual você tenha espaços de magia, conforme mostrado na tabela de Características do Bardo.</p>
+			<p class="indent">Você sempre tem as magias escolhidas preparadas, e sempre que ganhar um nível de Bardo, pode substituir uma das magias por outra que atenda a esses requisitos.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -61,44 +61,44 @@
 			<select type="Archetype Feature" name="2nd Spell Type (Magical Discoveries)" supports="Lore Bard Magical Discoveries 2"/>
 		</rules>
 	</element>
-	<element name="Truque" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_CANTRIP_1">
+	<element name="Truque" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_CANTRIP_1">
 	<compendium display="false" />
 	<supports>Lore Bard Magical Discoveries 1</supports>
 		<description>
-			<p>VocÃª aprende um truque das listas de magias do ClÃ©rigo, Druida ou Mago. Sempre que vocÃª ganhar um nÃ­vel de Bardo, pode substituir este truque por outra magia que atenda aos requisitos de Descobertas MÃ¡gicas.</p>
+			<p>Você aprende um truque das listas de magias do Clérigo, Druida ou Mago. Sempre que você ganhar um nível de Bardo, pode substituir este truque por outra magia que atenda aos requisitos de Descobertas Mágicas.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Spell" name="Cantrip (Magical Discoveries)" supports="0,(Bard||Cleric||Druid||Wizard)" spellcasting="Bard" />
 		</rules>
 	</element>
-	<element name="Magia de NÃ­vel" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_LEVELED_SPELL_1">
+	<element name="Magia de Nível" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_LEVELED_SPELL_1">
 	<compendium display="false" />
 	<supports>Lore Bard Magical Discoveries 1</supports>
 		<description>
-			<p>VocÃª aprende uma magia das listas de magias do ClÃ©rigo, Druida ou Mago para a qual vocÃª tenha espaÃ§os de magia. Sempre que ganhar um nÃ­vel de Bardo, vocÃª pode substituir esta magia por outra que atenda aos requisitos de Descobertas MÃ¡gicas.</p>
+			<p>Você aprende uma magia das listas de magias do Clérigo, Druida ou Mago para a qual você tenha espaços de magia. Sempre que ganhar um nível de Bardo, você pode substituir esta magia por outra que atenda aos requisitos de Descobertas Mágicas.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Spell" name="Spell (Magical Discoveries)" supports="$(spellcasting:slots),(Bard||Cleric||Druid||Wizard)" level="6" spellcasting="Bard" allowReplace="true" />
 		</rules>
 	</element>
-	<element name="Truque" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_CANTRIP_2">
+	<element name="Truque" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_CANTRIP_2">
 	<compendium display="false" />
 	<supports>Lore Bard Magical Discoveries 2</supports>
 		<description>
-			<p>VocÃª aprende um truque das listas de magias do ClÃ©rigo, Druida ou Mago. Sempre que vocÃª ganhar um nÃ­vel de Bardo, pode substituir este truque por outra magia que atenda aos requisitos de Descobertas MÃ¡gicas.</p>
+			<p>Você aprende um truque das listas de magias do Clérigo, Druida ou Mago. Sempre que você ganhar um nível de Bardo, pode substituir este truque por outra magia que atenda aos requisitos de Descobertas Mágicas.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Spell" name="Cantrip (Magical Discoveries)" supports="0,(Bard||Cleric||Druid||Wizard)" spellcasting="Bard" />
 		</rules>
 	</element>
-	<element name="Magia de NÃ­vel" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_LEVELED_SPELL_2">
+	<element name="Magia de Nível" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_LEVELED_SPELL_2">
 	<compendium display="false" />
 	<supports>Lore Bard Magical Discoveries 2</supports>
 		<description>
-			<p>VocÃª aprende uma magia das listas de magias do ClÃ©rigo, Druida ou Mago para a qual vocÃª tenha espaÃ§os de magia. Sempre que ganhar um nÃ­vel de Bardo, vocÃª pode substituir esta magia por outra que atenda aos requisitos de Descobertas MÃ¡gicas.</p>
+			<p>Você aprende uma magia das listas de magias do Clérigo, Druida ou Mago para a qual você tenha espaços de magia. Sempre que ganhar um nível de Bardo, você pode substituir esta magia por outra que atenda aos requisitos de Descobertas Mágicas.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -106,13 +106,13 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 14: PerÃ­cia IncomparÃ¡vel" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_PEERLESS_SKILL">
+	<element name="Nível 14: Perícia Incomparável" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_PEERLESS_SKILL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_LORE_PEERLESS_SKILL</requirements>
 		<description>
-			<p>Quando vocÃª faz um teste de habilidade ou jogada de ataque e falha, vocÃª pode gastar um uso de InspiraÃ§Ã£o de Bardo; role o dado de InspiraÃ§Ã£o de Bardo e adicione o nÃºmero rolado ao d20, potencialmente transformando uma falha em um sucesso. Em uma falha, a InspiraÃ§Ã£o de Bardo nÃ£o Ã© gasta.</p>
+			<p>Quando você faz um teste de habilidade ou jogada de ataque e falha, você pode gastar um uso de Inspiração de Bardo; role o dado de Inspiração de Bardo e adicione o número rolado ao d20, potencialmente transformando uma falha em um sucesso. Em uma falha, a Inspiração de Bardo não é gasta.</p>
 		</description>
-		<sheet alt="PerÃ­cia IncomparÃ¡vel" usage="InspiraÃ§Ã£o de Bardo">
-			<description>Quando vocÃª falha em um teste de habilidade ou jogada de ataque, vocÃª pode rolar o dado de InspiraÃ§Ã£o de Bardo e adicionar o nÃºmero rolado ao d20, potencialmente transformando uma falha em um sucesso. Em uma falha, a InspiraÃ§Ã£o de Bardo nÃ£o Ã© gasta.</description>
+		<sheet alt="Perícia Incomparável" usage="Inspiração de Bardo">
+			<description>Quando você falha em um teste de habilidade ou jogada de ataque, você pode rolar o dado de Inspiração de Bardo e adicionar o número rolado ao d20, potencialmente transformando uma falha em um sucesso. Em uma falha, a Inspiração de Bardo não é gasta.</description>
 		</sheet>
 	</element>
 

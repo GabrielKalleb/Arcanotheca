@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<update version="0.0.1">
@@ -23,7 +23,7 @@
 	
 	<element name="Nightbringer" type="Magic Item" source="Monstrous Compendium Volume Two: Dragonlance Monsters" id="ID_WOTC_MCV2_MAGIC_ITEM_NIGHTBRINGER">
 		<description>
-			<p>This heavy mace has a dark oaken handle and a head of blackened steel trimmed with gold. In combat, the maceâ€™s head is wreathed in inky black energy.</p>
+			<p>This heavy mace has a dark oaken handle and a head of blackened steel trimmed with gold. In combat, the mace’s head is wreathed in inky black energy.</p>
 			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this weapon. When you hit with an attack roll using it, the target takes an additional 4d4 radiant damage.</p>
 			<p class="indent">If you have an evil alignment, you also gain the following benefits when attuned to Nightbringer:</p>
 			<p class="indent"><strong><em>Blessing of the Dragon Queen.</em></strong> You are immune to the charmed and frightened conditions, and you gain immunity to one of the following damage types (choose when you attune to the weapon): acid, cold, fire, lightning, or poison.</p>

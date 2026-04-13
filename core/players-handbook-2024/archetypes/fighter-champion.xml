@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>CampeÃ£o</name>
-		<description>A subclasse CampeÃ£o do Livro do Jogador 2024.</description>
+		<name>Campeão</name>
+		<description>A subclasse Campeão do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="fighter-champion.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/fighter-champion.xml" />
 		</update>
 	</info>
 
-	<element name="CampeÃ£o" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_CHAMPION">
+	<element name="Campeão" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_CHAMPION">
 		<supports>Fighter Subclass</supports>
 		<description>
-			<p class="flavor">Busque ExcelÃªncia FÃ­sica no Combate</p>
-			<p>Um CampeÃ£o foca no desenvolvimento de maestria marcial numa busca implacÃ¡vel por vitÃ³ria. CampeÃµes combinam treinamento rigoroso com excelÃªncia fÃ­sica para deferir golpes devastadores, resistir a perigos e conquistar a glÃ³ria. Seja em competiÃ§Ãµes atlÃ©ticas ou batalhas sangrentas, os CampeÃµes se esforÃ§am para obter a coroa do vencedor.</p>
+			<p class="flavor">Busque Excelência Física no Combate</p>
+			<p>Um Campeão foca no desenvolvimento de maestria marcial numa busca implacável por vitória. Campeões combinam treinamento rigoroso com excelência física para deferir golpes devastadores, resistir a perigos e conquistar a glória. Seja em competições atléticas ou batalhas sangrentas, os Campeões se esforçam para obter a coroa do vencedor.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_IMPROVED_CRITICAL"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_REMARKABLE_ATHLETE"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_ADDITIONAL_FIGHTING_STYLE"/>
@@ -32,34 +32,34 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 3: CrÃ­tico Aprimorado" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_IMPROVED_CRITICAL">
+	<element name="Nível 3: Crítico Aprimorado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_IMPROVED_CRITICAL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_IMPROVED_CRITICAL</requirements>
 		<description>
-			<p>Suas jogadas de ataque com armas e Ataques Desarmados podem obter um Acerto CrÃ­tico com uma rolagem de 19 ou 20 no d20.</p>
+			<p>Suas jogadas de ataque com armas e Ataques Desarmados podem obter um Acerto Crítico com uma rolagem de 19 ou 20 no d20.</p>
 		</description>
-		<sheet alt="CrÃ­tico Aprimorado">
-			<description>Suas jogadas de ataque com armas e Ataques Desarmados podem obter um Acerto CrÃ­tico com uma rolagem de 19â€“20.</description>
-			<description level="15">Suas jogadas de ataque com armas e Ataques Desarmados podem obter um Acerto CrÃ­tico com uma rolagem de 18â€“20.</description>
+		<sheet alt="Crítico Aprimorado">
+			<description>Suas jogadas de ataque com armas e Ataques Desarmados podem obter um Acerto Crítico com uma rolagem de 19–20.</description>
+			<description level="15">Suas jogadas de ataque com armas e Ataques Desarmados podem obter um Acerto Crítico com uma rolagem de 18–20.</description>
 		</sheet>
 	</element>
-	<element name="NÃ­vel 3: Atleta Excepcional" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_REMARKABLE_ATHLETE">
+	<element name="Nível 3: Atleta Excepcional" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_REMARKABLE_ATHLETE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_REMARKABLE_ATHLETE</requirements>
 		<description>
-			<p>GraÃ§as ao seu atletismo, vocÃª tem Vantagem em rolagens de Iniciativa e em testes de ForÃ§a (Atletismo).</p>
-			<p class="indent">AlÃ©m disso, imediatamente apÃ³s vocÃª obter um Acerto CrÃ­tico, pode mover-se atÃ© metade do seu Deslocamento sem provocar Ataques de Oportunidade.</p>
+			<p>Graças ao seu atletismo, você tem Vantagem em rolagens de Iniciativa e em testes de Força (Atletismo).</p>
+			<p class="indent">Além disso, imediatamente após você obter um Acerto Crítico, pode mover-se até metade do seu Deslocamento sem provocar Ataques de Oportunidade.</p>
 		</description>
 		<sheet alt="Atleta Excepcional">
-			<description>Imediatamente apÃ³s obter um Acerto CrÃ­tico, vocÃª pode se mover atÃ© metade do seu Deslocamento sem provocar Ataques de Oportunidade. AlÃ©m disso, vocÃª tem Vantagem em rolagens de Iniciativa e em testes de ForÃ§a (Atletismo).</description>
+			<description>Imediatamente após obter um Acerto Crítico, você pode se mover até metade do seu Deslocamento sem provocar Ataques de Oportunidade. Além disso, você tem Vantagem em rolagens de Iniciativa e em testes de Força (Atletismo).</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 7: Estilo de Luta Adicional" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_ADDITIONAL_FIGHTING_STYLE">
+	<element name="Nível 7: Estilo de Luta Adicional" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_ADDITIONAL_FIGHTING_STYLE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_ADDITIONAL_FIGHTING_STYLE</requirements>
 		<description>
-			<p>VocÃª ganha mais um talento de Estilo de Luta de sua escolha.</p>
+			<p>Você ganha mais um talento de Estilo de Luta de sua escolha.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -67,33 +67,33 @@
 		</rules>
 	</element>
 
-	<element name="NÃ­vel 10: Guerreiro HerÃ³ico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_HEROIC_WARRIOR">
+	<element name="Nível 10: Guerreiro Heróico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_HEROIC_WARRIOR">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_HEROIC_WARRIOR</requirements>
 		<description>
-			<p>A emoÃ§Ã£o da batalha o conduz Ã  vitÃ³ria. Durante o combate, vocÃª pode dar a si mesmo InspiraÃ§Ã£o HerÃ³ica sempre que iniciar o seu turno sem uma.</p>
+			<p>A emoção da batalha o conduz à vitória. Durante o combate, você pode dar a si mesmo Inspiração Heróica sempre que iniciar o seu turno sem uma.</p>
 		</description>
-		<sheet alt="Guerreiro HerÃ³ico">
-			<description>Durante o combate, vocÃª pode dar a si mesmo InspiraÃ§Ã£o HerÃ³ica sempre que iniciar seu turno sem uma.</description>
+		<sheet alt="Guerreiro Heróico">
+			<description>Durante o combate, você pode dar a si mesmo Inspiração Heróica sempre que iniciar seu turno sem uma.</description>
 		</sheet>
 	</element>
 
-	<element name="NÃ­vel 15: CrÃ­tico Superior" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_SUPERIOR_CRITICAL">
+	<element name="Nível 15: Crítico Superior" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_SUPERIOR_CRITICAL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_SUPERIOR_CRITICAL</requirements>
 		<description>
-			<p>Suas jogadas de ataque com armas e Ataques Desarmados agora podem obter um Acerto CrÃ­tico com uma rolagem de 18â€“20 no d20.</p>
+			<p>Suas jogadas de ataque com armas e Ataques Desarmados agora podem obter um Acerto Crítico com uma rolagem de 18–20 no d20.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="NÃ­vel 18: Sobrevivente" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_SURVIVOR">
+	<element name="Nível 18: Sobrevivente" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_SURVIVOR">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_SURVIVOR</requirements>
 		<description>
-			<p>VocÃª atinge o Ã¡pice da resiliÃªncia em batalha, concedendo a vocÃª os seguintes benefÃ­cios.</p>
-			<p class="indent"><em><strong>Desafiar a Morte.</strong></em> VocÃª tem Vantagem em Testes de ResistÃªncia contra a Morte. AlÃ©m disso, quando rolar 18â€“20 num Teste de ResistÃªncia contra a Morte, vocÃª recebe o benefÃ­cio de ter rolado um 20 nele.</p>
-			<p class="indent"><em><strong>Reagrupamento HerÃ³ico.</strong></em> No inÃ­cio de cada um dos seus turnos, vocÃª recupera Pontos de Vida iguais a 5 mais seu modificador de ConstituiÃ§Ã£o se vocÃª estiver Ensanguentado e tiver pelo menos 1 Ponto de Vida.</p>
+			<p>Você atinge o ápice da resiliência em batalha, concedendo a você os seguintes benefícios.</p>
+			<p class="indent"><em><strong>Desafiar a Morte.</strong></em> Você tem Vantagem em Testes de Resistência contra a Morte. Além disso, quando rolar 18–20 num Teste de Resistência contra a Morte, você recebe o benefício de ter rolado um 20 nele.</p>
+			<p class="indent"><em><strong>Reagrupamento Heróico.</strong></em> No início de cada um dos seus turnos, você recupera Pontos de Vida iguais a 5 mais seu modificador de Constituição se você estiver Ensanguentado e tiver pelo menos 1 Ponto de Vida.</p>
 		</description>
 		<sheet alt="Sobrevivente">
-			<description>No inÃ­cio de cada um dos seus turnos, vocÃª recupera 5+{{constitution:modifier}} PVs se estiver Ensanguentado e tiver pelo menos 1 PV. AlÃ©m disso, vocÃª tem Vantagem em Testes de ResistÃªncia contra a Morte, e ganha o benefÃ­cio de rolar um 20 caso role entre 18-20.</description>
+			<description>No início de cada um dos seus turnos, você recupera 5+{{constitution:modifier}} PVs se estiver Ensanguentado e tiver pelo menos 1 PV. Além disso, você tem Vantagem em Testes de Resistência contra a Morte, e ganha o benefício de rolar um 20 caso role entre 18-20.</description>
 		</sheet>
 	</element>
 	
