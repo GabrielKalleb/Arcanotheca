@@ -3,7 +3,7 @@
 	<info>
 		<name>Hobgoblin from Monsters of the Multiverse</name>
 		<update version="0.0.2">
-			<file name="race-hobgoblin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/monsters-of-the-multiverse/race-hobgoblin.xml" />
+			<file name="race-hobgoblin.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/monsters-of-the-multiverse/race-hobgoblin.xml" />
 		</update>
 	</info>
 
@@ -70,9 +70,9 @@
 		<sheet usage="{{proficiency}}/Long Rest">
 			<description>You can take the Help action as a bonus action.</description>
 			<description action="Bonus Action" level="3">You can take the Help action and add one of the following effects:&#13;
-			• Hospitality. You and the creature you help each gain a number of temporary hit points equal to 1d6 + {{proficiency}}.&#13;
-			• Passage. You and the creature you help each increase your walking speeds by 10 feet until the start of your next turn.&#13;
-			• Spite. Until the start of your next turn, the first time the creature you help hits a target with an attack roll, that target has disadvantage on the next attack roll it makes within the next minute.</description>
+			â€¢ Hospitality. You and the creature you help each gain a number of temporary hit points equal to 1d6 + {{proficiency}}.&#13;
+			â€¢ Passage. You and the creature you help each increase your walking speeds by 10 feet until the start of your next turn.&#13;
+			â€¢ Spite. Until the start of your next turn, the first time the creature you help hits a target with an attack roll, that target has disadvantage on the next attack roll it makes within the next minute.</description>
 		</sheet>
 	</element>
 

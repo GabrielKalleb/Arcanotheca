@@ -2,16 +2,16 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Modern Magic</name>
-		<description>When the fifth edition Dungeon Master’s Guide was released in 2014, two pages in chapter 9, “Dungeon Master’s Workshop,” attracted a lot of attention. Those pages covered the rules for using firearms and explosives, an addition that allowed DMs to introduce modern and alien weaponry into the D&amp;D world, as in the classic adventure Expedition to the Barrier Peaks.</description>
+		<description>When the fifth edition Dungeon Masterâ€™s Guide was released in 2014, two pages in chapter 9, â€œDungeon Masterâ€™s Workshop,â€ attracted a lot of attention. Those pages covered the rules for using firearms and explosives, an addition that allowed DMs to introduce modern and alien weaponry into the D&amp;D world, as in the classic adventure Expedition to the Barrier Peaks.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/modern-magic">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="20150803.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2015/20150803.xml" />
+			<file name="20150803.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2015/20150803.xml" />
 		</update>
 	</info>
 
 	<element name="Unearthed Arcana: Modern Magic" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20150803">
 		<description>
-			<p>When the fifth edition Dungeon Master’s Guide was released in 2014, two pages in chapter 9, “Dungeon Master’s Workshop,” attracted a lot of attention. Those pages covered the rules for using firearms and explosives, an addition that allowed DMs to introduce modern and alien weaponry into the D&amp;D world, as in the classic adventure Expedition to the Barrier Peaks.</p>
+			<p>When the fifth edition Dungeon Masterâ€™s Guide was released in 2014, two pages in chapter 9, â€œDungeon Masterâ€™s Workshop,â€ attracted a lot of attention. Those pages covered the rules for using firearms and explosives, an addition that allowed DMs to introduce modern and alien weaponry into the D&amp;D world, as in the classic adventure Expedition to the Barrier Peaks.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">UA20150803</set>
@@ -28,7 +28,7 @@
 		<supports>Divine Domain</supports>
 		<description>
 			<p>The City domain is concerned with the citizenry, commerce, traffic, and even architecture of modern civilization. In the eyes of a cleric of the city, the center of modern life is a sense and spirit of community, and the gravest enemies of the city are those who seek to harm the common weal of its citizens.</p>
-			<p class="indent">New spells introduced for the City domain are marked with an asterisk and detailed in the “New Spells” section. For all other spells, see the <i>Player’s Handbook</i>.</p>
+			<p class="indent">New spells introduced for the City domain are marked with an asterisk and detailed in the â€œNew Spellsâ€ section. For all other spells, see the <i>Playerâ€™s Handbook</i>.</p>
 			<div element="ID_WOTC_UA20150803_ARCHETYPE_FEATURE_CITY_DOMAIN_DOMAIN_SPELLS" />
 			<div element="ID_WOTC_UA20150803_ARCHETYPE_FEATURE_CITY_DOMAIN_BONUS_CANTRIP" />
 			<div element="ID_WOTC_UA20150803_ARCHETYPE_FEATURE_CITY_DOMAIN_BONUS_PROFICIENCIES" />
@@ -251,7 +251,7 @@
 		<description>
 			<p>Starting at 14th level, you gain the ability to infect a humanoid's body with living circuitry. You can use an action to make a melee attack against a humanoid creature using your spell attack modifier. The target must make a Constitution saving throw against your spell save DC as a techno-organic virus quickly spreads through its body. On a failed save, the target takes 8d10 psychic damage, or half as much damage on a successful one.</p>
 			<p class="indent">Additionally, if target fails the saving throw, you can use an action to issue it a single command, as if you were casting <i>command</i> spell. The target makes its saving throw against your command with disadvantage. You can issue this command at any time while the target remains infected.</p>
-			<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest, at which point the target is cured of the technovirus. The infection can also be removed with a <i>lesser restoration</i> spell.</p>
+			<p class="indent">Once you use this feature, you canâ€™t use it again until you finish a long rest, at which point the target is cured of the technovirus. The infection can also be removed with a <i>lesser restoration</i> spell.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
 			<description>You can make a melee attack against a humanoid creature using your spell attack modifier. The target must make a Constitution saving throw against your spell save DC{{spellcasting:dc:wis}} as a techno-organic virus quickly spreads through its body. On a failed save, the target takes 8d10 psychic damage, or half as much damage on a successful one. Additionally, if target fails the saving throw, you can use an action to issue it a single command, as if you were casting <i>command</i> spell. The target makes its saving throw against your command with disadvantage. You can issue this command at any time while the target remains infected. Target is cured of the technovirus after you finish a long rest to regain its use. The infection can also be removed with a <i>lesser restoration</i> spell.</description>
@@ -274,7 +274,7 @@
 		<supports>Arcane Tradition</supports>
 		<description>
 			<p>Unlike the more common arcane traditions based around the schools of magic, the tradition of Technomancy does not focus on a singular type of spellcraft or magical energy. Rather, students of Technomancy concern themselves with how their spells interact with modern technology.</p>
-			<p class="indent">Technomancers can make use of technology as both conduit and a storage space for magic. In a campaign using the optional rules for magic item creation (see the <i>Dungeon Master’s Guide</i>), a technomancer might craft disposable electronic devices and smartphone apps in lieu of potions and scrolls.</p>
+			<p class="indent">Technomancers can make use of technology as both conduit and a storage space for magic. In a campaign using the optional rules for magic item creation (see the <i>Dungeon Masterâ€™s Guide</i>), a technomancer might craft disposable electronic devices and smartphone apps in lieu of potions and scrolls.</p>
 			<div element="ID_WOTC_UA20150803_ARCHETYPE_FEATURE_TECHNOMANCY_BONUS_PROFICIENCIES" />
 			<div element="ID_WOTC_UA20150803_ARCHETYPE_FEATURE_TECHNOMANCY_TECHNOLOGICAL_SAVANT" />
 			<div element="ID_WOTC_UA20150803_ARCHETYPE_FEATURE_TECHNOMANCY_PROGRAM_SPELL" />

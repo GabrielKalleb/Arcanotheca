@@ -3,14 +3,14 @@
 	<info>
 		<name>Items and Weapons</name>
 		<update version="0.0.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/van-richtens-guide-to-ravenloft/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/van-richtens-guide-to-ravenloft/items.xml" />
 		</update>
 	</info>
 
-	<element name="Harkon’s Bite" type="Magic Item" source="Van Richten's Guide To Ravenloft" id="ID_WOTC_VRGTR_MAGIC_ITEM_HARKONS_BITE">
+	<element name="Harkonâ€™s Bite" type="Magic Item" source="Van Richten's Guide To Ravenloft" id="ID_WOTC_VRGTR_MAGIC_ITEM_HARKONS_BITE">
 		<description>
 			<p>A dire wolf tooth dangles from this simple cord necklace. While you wear it, the necklace grants you a +1 bonus to ability checks and saving throws.</p>
-			<p class="indent"><strong><em>Curse. </em></strong>Attuning to <em>Harkon’s Bite</em> curses you until either Harkon Lukas removes the necklace from you or you are targeted by a <em>remove curse</em> spell or similar magic. As long as you remain cursed, you cannot remove the necklace.</p>
+			<p class="indent"><strong><em>Curse. </em></strong>Attuning to <em>Harkonâ€™s Bite</em> curses you until either Harkon Lukas removes the necklace from you or you are targeted by a <em>remove curse</em> spell or similar magic. As long as you remain cursed, you cannot remove the necklace.</p>
 			<p>Upon donning or removing the necklace, whether you are attuned to it or not, you are afflicted with werewolf lycanthropy as detailed in the <em>Monster Manual</em>. The curse lasts until the dawn after the next full moon. If you are still wearing the necklace at this time, you are afflicted with the lycanthropy again.</p>
 		</description>
 		<setters>
@@ -80,7 +80,7 @@
 		<description>
 			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
 			<p class="indent"><strong><em>Curse. </em></strong>This sword is cursed and possessed by a vengeful spirit. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the sword, keeping it on your person at all times. While attuned to this weapon, you have disadvantage on attack rolls made with weapons other than this one.</p>
-			<p class="indent">In addition, while the sword is on your person, you must succeed on a DC 15 Wisdom saving throw whenever you take damage in combat. On a failed save, you must attack the creature that damaged you until you drop to 0 hit points or it does, or until you can’t reach the creature to make a melee attack against it.</p>
+			<p class="indent">In addition, while the sword is on your person, you must succeed on a DC 15 Wisdom saving throw whenever you take damage in combat. On a failed save, you must attack the creature that damaged you until you drop to 0 hit points or it does, or until you canâ€™t reach the creature to make a melee attack against it.</p>
 			<p class="indent">You can break the curse in the usual ways. Alternatively, casting <i>banishment</i> on the sword forces the vengeful spirit to leave it. The sword then becomes a +1 weapon with no other properties.</p>
 		</description>
 		<setters>
@@ -108,7 +108,7 @@
 			<set name="keywords">poison,inhale</set>
 			<set name="category">Poison</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="weight" lb="0.5">Â½ lb.</set>
 			<set name="stackable">true</set>
 		</setters>
 		<sheet alt="Ivana's Whisper (Inhaled)" />

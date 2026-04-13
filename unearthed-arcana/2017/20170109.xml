@@ -5,7 +5,7 @@
         <description>Makers of magic-infused objects, artificers are defined by their inventive nature.</description>
         <author url="http://dnd.wizards.com/articles/unearthed-arcana/artificer">Wizards of the Coast</author>
         <update version="0.1.7">
-            <file name="20170109.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2017/20170109.xml" />
+            <file name="20170109.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2017/20170109.xml" />
         </update>
     </info>
 
@@ -55,7 +55,7 @@
                 <br />
                 <span class="emphasis">Weapons:</span>Simple weapons
                 <br />
-                <span class="emphasis">Tools:</span>Thieves’ tools, two other tools of your choice
+                <span class="emphasis">Tools:</span>Thievesâ€™ tools, two other tools of your choice
             </p>
             <p>
                 <span class="emphasis">Saving Throws:</span>Constitution, Intelligence

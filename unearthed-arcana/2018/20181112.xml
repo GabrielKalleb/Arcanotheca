@@ -2,16 +2,16 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Of Ships and the Sea</name>
-		<description>Ships, officers, crew, and hazards on the high seas—those are the focus of this month’s Unearthed Arcana.</description>
+		<description>Ships, officers, crew, and hazards on the high seasâ€”those are the focus of this monthâ€™s Unearthed Arcana.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/ships-and-sea">Wizards of the Coast</author>
 		<update version="0.0.3">
-			<file name="20181112.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2018/20181112.xml" />
+			<file name="20181112.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2018/20181112.xml" />
 		</update>
 	</info>
 
 	<element name="Unearthed Arcana: Of Ships and the Sea" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20181112">
 		<description>
-			<p>Ships, officers, crew, and hazards on the high seas—those are the focus of this month’s Unearthed Arcana.</p>
+			<p>Ships, officers, crew, and hazards on the high seasâ€”those are the focus of this monthâ€™s Unearthed Arcana.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">UA20181112</set>

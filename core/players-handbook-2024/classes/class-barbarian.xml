@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Bárbaro</name>
-		<description>A classe Bárbaro do Livro do Jogador 2024.</description>
+		<name>BÃ¡rbaro</name>
+		<description>A classe BÃ¡rbaro do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-barbarian.xml" />
+			<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/classes/class-barbarian.xml" />
 		</update>
 	</info>
 
-	<element name="Bárbaro" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_BARBARIAN">
+	<element name="BÃ¡rbaro" type="Class" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_BARBARIAN">
 		<description>
-			<p>Bárbaros são guerreiros poderosos que são movidos por forças primitivas do multiverso que se manifestam como uma Fúria. Mais do que uma mera emoção — e não limitada à raiva — essa Fúria é a encarnação da ferocidade de um predador, da fúria de uma tempestade e do tumulto de um mar.</p>
-			<p class="indent">Alguns Bárbaros personificam sua Fúria como um espírito feroz ou um ancestral reverenciado. Outros a veem como uma conexão com a dor e angústia do mundo, como um emaranhado impessoal de magia selvagem, ou como uma expressão de seu próprio eu mais profundo. Para todo Bárbaro, a sua Fúria é um poder que alimenta não apenas a destreza em batalha, mas também reflexos sobrenaturais e sentidos aguçados.</p>
-			<p class="indent">Bárbaros frequentemente servem como protetores e líderes em suas comunidades. Eles avançam de cabeça no perigo para que aqueles sob sua proteção não precisem fazê-lo. Sua coragem diante do perigo torna os Bárbaros perfeitamente adequados para a aventura.</p>
+			<p>BÃ¡rbaros sÃ£o guerreiros poderosos que sÃ£o movidos por forÃ§as primitivas do multiverso que se manifestam como uma FÃºria. Mais do que uma mera emoÃ§Ã£o â€” e nÃ£o limitada Ã  raiva â€” essa FÃºria Ã© a encarnaÃ§Ã£o da ferocidade de um predador, da fÃºria de uma tempestade e do tumulto de um mar.</p>
+			<p class="indent">Alguns BÃ¡rbaros personificam sua FÃºria como um espÃ­rito feroz ou um ancestral reverenciado. Outros a veem como uma conexÃ£o com a dor e angÃºstia do mundo, como um emaranhado impessoal de magia selvagem, ou como uma expressÃ£o de seu prÃ³prio eu mais profundo. Para todo BÃ¡rbaro, a sua FÃºria Ã© um poder que alimenta nÃ£o apenas a destreza em batalha, mas tambÃ©m reflexos sobrenaturais e sentidos aguÃ§ados.</p>
+			<p class="indent">BÃ¡rbaros frequentemente servem como protetores e lÃ­deres em suas comunidades. Eles avanÃ§am de cabeÃ§a no perigo para que aqueles sob sua proteÃ§Ã£o nÃ£o precisem fazÃª-lo. Sua coragem diante do perigo torna os BÃ¡rbaros perfeitamente adequados para a aventura.</p>
 			<div class="sidebar">
-				<h5>CARACTERÍSTICAS CENTRAIS DO BÁRBARO</h5>
+				<h5>CARACTERÃSTICAS CENTRAIS DO BÃRBARO</h5>
 				<table>
-					<tr><td><b>Habilidade Primária</b></td><td class="left">Força</td></tr>
-					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D12 por nível de Bárbaro</td></tr>
-					<tr><td><b>Proficiências em Testes de Resistência</b></td><td class="left">Força e Constituição</td></tr>
-					<tr><td><b>Proficiências em Perícias</b></td><td class="left"><i>Escolha 2:</i> Adestrar Animais, Atletismo, Intimidação, Natureza, Percepção ou Sobrevivência</td></tr>
-					<tr><td><b>Proficiências em Armas</b></td><td class="left">Armas Simples e Marciais</td></tr>
-					<tr><td><b>Treinamento em Armaduras</b></td><td class="left">Armaduras Leves e Médias, Escudos</td></tr>
+					<tr><td><b>Habilidade PrimÃ¡ria</b></td><td class="left">ForÃ§a</td></tr>
+					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D12 por nÃ­vel de BÃ¡rbaro</td></tr>
+					<tr><td><b>ProficiÃªncias em Testes de ResistÃªncia</b></td><td class="left">ForÃ§a e ConstituiÃ§Ã£o</td></tr>
+					<tr><td><b>ProficiÃªncias em PerÃ­cias</b></td><td class="left"><i>Escolha 2:</i> Adestrar Animais, Atletismo, IntimidaÃ§Ã£o, Natureza, PercepÃ§Ã£o ou SobrevivÃªncia</td></tr>
+					<tr><td><b>ProficiÃªncias em Armas</b></td><td class="left">Armas Simples e Marciais</td></tr>
+					<tr><td><b>Treinamento em Armaduras</b></td><td class="left">Armaduras Leves e MÃ©dias, Escudos</td></tr>
 					<tr><td><b>Equipamento Inicial</b></td><td class="left"><i>Escolha A ou B:</i> (A) Machado Grande, 4 Machadinhas, Pacote de Explorador e 15 PO; ou (B) 75 PO</td></tr>
 				</table>
 			</div>
-			<h4>TORNANDO-SE UM BÁRBARO ...</h4>
-			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
+			<h4>TORNANDO-SE UM BÃRBARO ...</h4>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÃVEL 1</h5>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
-				<li>Ganhe todas as características na tabela de Características Centrais do Bárbaro.</li>
-				<li>Ganhe as características de nível 1 do Bárbaro listadas na tabela de Características do Bárbaro.</li>
+				<li>Ganhe todas as caracterÃ­sticas na tabela de CaracterÃ­sticas Centrais do BÃ¡rbaro.</li>
+				<li>Ganhe as caracterÃ­sticas de nÃ­vel 1 do BÃ¡rbaro listadas na tabela de CaracterÃ­sticas do BÃ¡rbaro.</li>
 			</ul>
 			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
 			<ul style="margin-top:-1em">
-				<li>Ganhe as seguintes características da tabela de Características Centrais do Bárbaro: Dado de Pontos de Vida, proficiência com armas Marciais e treinamento com Escudos.</li>
-				<li>Ganhe as características de nível 1 do Bárbaro listadas na tabela de Características do Bárbaro.</li>
+				<li>Ganhe as seguintes caracterÃ­sticas da tabela de CaracterÃ­sticas Centrais do BÃ¡rbaro: Dado de Pontos de Vida, proficiÃªncia com armas Marciais e treinamento com Escudos.</li>
+				<li>Ganhe as caracterÃ­sticas de nÃ­vel 1 do BÃ¡rbaro listadas na tabela de CaracterÃ­sticas do BÃ¡rbaro.</li>
 			</ul>
-			<h5>CARACTERÍSTICAS DO BÁRBARO</h5>
+			<h5>CARACTERÃSTICAS DO BÃRBARO</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Nível</td><td>Bônus de Proficiência</td><td class="col-50 left">Características de Classe</td><td>Fúrias</td><td>Dano da Fúria</td><td>Maestria em Armas</td></tr>
+					<tr><td class="col-5">NÃ­vel</td><td>BÃ´nus de ProficiÃªncia</td><td class="col-50 left">CaracterÃ­sticas de Classe</td><td>FÃºrias</td><td>Dano da FÃºria</td><td>Maestria em Armas</td></tr>
 				</thead>
-				<tr><td>1</td><td>+2</td><td class="left">Fúria, Defesa Sem Armadura, Maestria em Armas</td><td>2</td><td>+2</td><td>2</td></tr>
-				<tr><td>2</td><td>+2</td><td class="left">Senso de Perigo, Ataque Temerário</td><td>2</td><td>+2</td><td>2</td></tr>
-				<tr><td>3</td><td>+2</td><td class="left">Subclasse de Bárbaro, Conhecimento Primitivo</td><td>3</td><td>+2</td><td>2</td></tr>
+				<tr><td>1</td><td>+2</td><td class="left">FÃºria, Defesa Sem Armadura, Maestria em Armas</td><td>2</td><td>+2</td><td>2</td></tr>
+				<tr><td>2</td><td>+2</td><td class="left">Senso de Perigo, Ataque TemerÃ¡rio</td><td>2</td><td>+2</td><td>2</td></tr>
+				<tr><td>3</td><td>+2</td><td class="left">Subclasse de BÃ¡rbaro, Conhecimento Primitivo</td><td>3</td><td>+2</td><td>2</td></tr>
 				<tr><td>4</td><td>+2</td><td class="left">Melhoria no Valor de Habilidade</td><td>3</td><td>+2</td><td>3</td></tr>
-				<tr><td>5</td><td>+3</td><td class="left">Ataque Extra, Movimento Rápido</td><td>3</td><td>+2</td><td>3</td></tr>
-				<tr><td>6</td><td>+3</td><td class="left">Característica de Subclasse</td><td>4</td><td>+2</td><td>3</td></tr>
+				<tr><td>5</td><td>+3</td><td class="left">Ataque Extra, Movimento RÃ¡pido</td><td>3</td><td>+2</td><td>3</td></tr>
+				<tr><td>6</td><td>+3</td><td class="left">CaracterÃ­stica de Subclasse</td><td>4</td><td>+2</td><td>3</td></tr>
 				<tr><td>7</td><td>+3</td><td class="left">Instinto Selvagem, Salto Instintivo</td><td>4</td><td>+2</td><td>3</td></tr>
 				<tr><td>8</td><td>+3</td><td class="left">Melhoria no Valor de Habilidade</td><td>4</td><td>+3</td><td>3</td></tr>
 				<tr><td>9</td><td>+4</td><td class="left">Golpe Brutal</td><td>4</td><td>+3</td><td>3</td></tr>
-				<tr><td>10</td><td>+4</td><td class="left">Característica de Subclasse</td><td>4</td><td>+3</td><td>4</td></tr>
-				<tr><td>11</td><td>+4</td><td class="left">Fúria Implacável</td><td>4</td><td>+3</td><td>4</td></tr>
+				<tr><td>10</td><td>+4</td><td class="left">CaracterÃ­stica de Subclasse</td><td>4</td><td>+3</td><td>4</td></tr>
+				<tr><td>11</td><td>+4</td><td class="left">FÃºria ImplacÃ¡vel</td><td>4</td><td>+3</td><td>4</td></tr>
 				<tr><td>12</td><td>+4</td><td class="left">Melhoria no Valor de Habilidade</td><td>5</td><td>+3</td><td>4</td></tr>
 				<tr><td>13</td><td>+5</td><td class="left">Golpe Brutal Aprimorado</td><td>5</td><td>+3</td><td>4</td></tr>
-				<tr><td>14</td><td>+5</td><td class="left">Característica de Subclasse</td><td>5</td><td>+3</td><td>4</td></tr>
-				<tr><td>15</td><td>+5</td><td class="left">Fúria Persistente</td><td>5</td><td>+3</td><td>4</td></tr>
+				<tr><td>14</td><td>+5</td><td class="left">CaracterÃ­stica de Subclasse</td><td>5</td><td>+3</td><td>4</td></tr>
+				<tr><td>15</td><td>+5</td><td class="left">FÃºria Persistente</td><td>5</td><td>+3</td><td>4</td></tr>
 				<tr><td>16</td><td>+5</td><td class="left">Melhoria no Valor de Habilidade</td><td>5</td><td>+4</td><td>4</td></tr>
 				<tr><td>17</td><td>+6</td><td class="left">Golpe Brutal Aprimorado</td><td>6</td><td>+4</td><td>4</td></tr>
-				<tr><td>18</td><td>+6</td><td class="left">Poder Indomável</td><td>6</td><td>+4</td><td>4</td></tr>
-				<tr><td>19</td><td>+6</td><td class="left">Dádiva Épica</td><td>6</td><td>+4</td><td>4</td></tr>
-				<tr><td>20</td><td>+6</td><td class="left">Campeão Primitivo</td><td>6</td><td>+4</td><td>4</td></tr>
+				<tr><td>18</td><td>+6</td><td class="left">Poder IndomÃ¡vel</td><td>6</td><td>+4</td><td>4</td></tr>
+				<tr><td>19</td><td>+6</td><td class="left">DÃ¡diva Ã‰pica</td><td>6</td><td>+4</td><td>4</td></tr>
+				<tr><td>20</td><td>+6</td><td class="left">CampeÃ£o Primitivo</td><td>6</td><td>+4</td><td>4</td></tr>
 			</table>
-			<h4>CARACTERÍSTICAS DE CLASSE DO BÁRBARO</h4>
-			<p>Como Bárbaro, você ganha as seguintes características de classe quando atinge os níveis especificados de Bárbaro. Estas características estão listadas na tabela de Características do Bárbaro.</p>
+			<h4>CARACTERÃSTICAS DE CLASSE DO BÃRBARO</h4>
+			<p>Como BÃ¡rbaro, vocÃª ganha as seguintes caracterÃ­sticas de classe quando atinge os nÃ­veis especificados de BÃ¡rbaro. Estas caracterÃ­sticas estÃ£o listadas na tabela de CaracterÃ­sticas do BÃ¡rbaro.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RAGE"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENSE"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_WEAPON_MASTERY"/>
@@ -88,7 +88,7 @@
 		</description>
 		<sheet display="false" />
 		<setters>
-			<set name="short">Um Feroz Guerreiro da Fúria Primitiva</set>
+			<set name="short">Um Feroz Guerreiro da FÃºria Primitiva</set>
 			<set name="hd">d12</set>
 		</setters>
 		<rules>
@@ -123,7 +123,7 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION" level="20" />
 		</rules>
 		<multiclass id="ID_WOTC_PHB24_MULTICLASS_BARBARIAN">
-			<prerequisite>Força 13</prerequisite>
+			<prerequisite>ForÃ§a 13</prerequisite>
 			<requirements>([str:13],!(ID_WOTC_PHB_CLASS_BARBARIAN||ID_WOTC_PHB_MULTICLASS_BARBARIAN))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Armas Marciais, Escudos</set>
@@ -134,32 +134,32 @@
 		</multiclass>
 	</element>
 
-	<element name="Nível 1: Fúria" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RAGE">
+	<element name="NÃ­vel 1: FÃºria" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RAGE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_RAGE</requirements>
 		<description>
-			<p>Você pode imbuir a si mesmo com um poder primitivo chamado Fúria, uma força que lhe concede grande poder e resiliência. Você pode ativá-la com uma Ação Bônus caso não esteja vestindo armadura Pesada.</p>
-			<p class="indent">Você pode entrar em Fúria o número de vezes mostrado para o seu nível de Bárbaro na coluna Fúrias da tabela de Características do Bárbaro. Você recupera um uso gasto quando termina um Descanso Curto, e recupera todos os usos gastos quando termina um Descanso Longo.</p>
-			<p>Enquanto ativa, a sua Fúria segue as regras abaixo.</p>
-			<p class="indent"><em><strong>Resistência a Dano.</strong></em> Você tem Resistência a dano de Concussão, Perfuração e Cortante.</p>
-			<p class="indent"><em><strong>Dano da Fúria.</strong></em> Quando você faz um ataque usando Força — seja com uma arma ou um Ataque Desarmado — e causa dano ao alvo, você ganha um bônus no dano que aumenta conforme ganha níveis como Bárbaro, como mostrado na coluna Dano da Fúria da tabela.</p>
-			<p class="indent"><em><strong>Vantagem em Força.</strong></em> Você tem Vantagem em testes de habilidade e testes de resistência de Força.</p>
-			<p class="indent"><em><strong>Sem Concentração ou Magias.</strong></em> Você não pode manter Concentração e não pode conjurar magias.</p>
-			<p class="indent"><em><strong>Duração.</strong></em> A Fúria dura até o final do seu próximo turno, e termina prematuramente se você vestir armadura Pesada ou tiver a condição Incapacitado. Se a sua Fúria ainda estiver ativa no seu próximo turno, você pode estendê-la por mais uma rodada fazendo uma das seguintes coisas:</p>
+			<p>VocÃª pode imbuir a si mesmo com um poder primitivo chamado FÃºria, uma forÃ§a que lhe concede grande poder e resiliÃªncia. VocÃª pode ativÃ¡-la com uma AÃ§Ã£o BÃ´nus caso nÃ£o esteja vestindo armadura Pesada.</p>
+			<p class="indent">VocÃª pode entrar em FÃºria o nÃºmero de vezes mostrado para o seu nÃ­vel de BÃ¡rbaro na coluna FÃºrias da tabela de CaracterÃ­sticas do BÃ¡rbaro. VocÃª recupera um uso gasto quando termina um Descanso Curto, e recupera todos os usos gastos quando termina um Descanso Longo.</p>
+			<p>Enquanto ativa, a sua FÃºria segue as regras abaixo.</p>
+			<p class="indent"><em><strong>ResistÃªncia a Dano.</strong></em> VocÃª tem ResistÃªncia a dano de ConcussÃ£o, PerfuraÃ§Ã£o e Cortante.</p>
+			<p class="indent"><em><strong>Dano da FÃºria.</strong></em> Quando vocÃª faz um ataque usando ForÃ§a â€” seja com uma arma ou um Ataque Desarmado â€” e causa dano ao alvo, vocÃª ganha um bÃ´nus no dano que aumenta conforme ganha nÃ­veis como BÃ¡rbaro, como mostrado na coluna Dano da FÃºria da tabela.</p>
+			<p class="indent"><em><strong>Vantagem em ForÃ§a.</strong></em> VocÃª tem Vantagem em testes de habilidade e testes de resistÃªncia de ForÃ§a.</p>
+			<p class="indent"><em><strong>Sem ConcentraÃ§Ã£o ou Magias.</strong></em> VocÃª nÃ£o pode manter ConcentraÃ§Ã£o e nÃ£o pode conjurar magias.</p>
+			<p class="indent"><em><strong>DuraÃ§Ã£o.</strong></em> A FÃºria dura atÃ© o final do seu prÃ³ximo turno, e termina prematuramente se vocÃª vestir armadura Pesada ou tiver a condiÃ§Ã£o Incapacitado. Se a sua FÃºria ainda estiver ativa no seu prÃ³ximo turno, vocÃª pode estendÃª-la por mais uma rodada fazendo uma das seguintes coisas:</p>
 			<ul>
 				<li>Fazer uma jogada de ataque contra um inimigo.</li>
-				<li>Forçar um inimigo a fazer um teste de resistência.</li>
-				<li>Usar uma Ação Bônus para estender sua Fúria.</li>
+				<li>ForÃ§ar um inimigo a fazer um teste de resistÃªncia.</li>
+				<li>Usar uma AÃ§Ã£o BÃ´nus para estender sua FÃºria.</li>
 			</ul>
-			<p>Cada vez que a Fúria for estendida, ela dura até o final do seu próximo turno. Você pode manter a Fúria por até 10 minutos.</p>
+			<p>Cada vez que a FÃºria for estendida, ela dura atÃ© o final do seu prÃ³ximo turno. VocÃª pode manter a FÃºria por atÃ© 10 minutos.</p>
 		</description>
-		<sheet alt="Fúria" action="Ação Bônus" usage="{{barbarian rage:count}}/Descanso Longo">
-			<description>Enquanto estiver em Fúria, você ganha: Resistência a dano de Concussão, Perfuração e Cortante; bônus de +{{barbarian rage:damage}} em rolagens de dano de ataques baseados em Força; Vantagem em testes e testes de resistência de Força; e você não pode conjurar ou se Concentrar em magias. &#13;
-			A Fúria dura até o fim do seu próximo turno, mas pode ser estendida por mais uma rodada (até no máximo 10 minutos) fazendo um ataque contra um inimigo, forçando um teste de resistência num inimigo ou usando uma Ação Bônus. A Fúria termina prematuramente se vestir armadura Pesada ou tiver a condição Incapacitado. &#13;
-			Você recupera 1 uso gasto quando termina um Descanso Curto.
+		<sheet alt="FÃºria" action="AÃ§Ã£o BÃ´nus" usage="{{barbarian rage:count}}/Descanso Longo">
+			<description>Enquanto estiver em FÃºria, vocÃª ganha: ResistÃªncia a dano de ConcussÃ£o, PerfuraÃ§Ã£o e Cortante; bÃ´nus de +{{barbarian rage:damage}} em rolagens de dano de ataques baseados em ForÃ§a; Vantagem em testes e testes de resistÃªncia de ForÃ§a; e vocÃª nÃ£o pode conjurar ou se Concentrar em magias. &#13;
+			A FÃºria dura atÃ© o fim do seu prÃ³ximo turno, mas pode ser estendida por mais uma rodada (atÃ© no mÃ¡ximo 10 minutos) fazendo um ataque contra um inimigo, forÃ§ando um teste de resistÃªncia num inimigo ou usando uma AÃ§Ã£o BÃ´nus. A FÃºria termina prematuramente se vestir armadura Pesada ou tiver a condiÃ§Ã£o Incapacitado. &#13;
+			VocÃª recupera 1 uso gasto quando termina um Descanso Curto.
 			</description>
-			<description level="15">Enquanto estiver em Fúria, você ganha: Resistência a dano de Concussão, Perfuração e Cortante; bônus de +{{barbarian rage:damage}} em rolagens de dano de ataques baseados em Força; Vantagem em testes e testes de resistência de Força; e você não pode conjurar ou se Concentrar em magias. &#13;
-			Sua Fúria dura 10 minutos. A Fúria termina prematuramente se vestir armadura Pesada ou tiver a condição Inconsciente. &#13;
-			Você recupera 1 uso gasto quando termina um Descanso Curto.
+			<description level="15">Enquanto estiver em FÃºria, vocÃª ganha: ResistÃªncia a dano de ConcussÃ£o, PerfuraÃ§Ã£o e Cortante; bÃ´nus de +{{barbarian rage:damage}} em rolagens de dano de ataques baseados em ForÃ§a; Vantagem em testes e testes de resistÃªncia de ForÃ§a; e vocÃª nÃ£o pode conjurar ou se Concentrar em magias. &#13;
+			Sua FÃºria dura 10 minutos. A FÃºria termina prematuramente se vestir armadura Pesada ou tiver a condiÃ§Ã£o Inconsciente. &#13;
+			VocÃª recupera 1 uso gasto quando termina um Descanso Curto.
 			</description>
 		</sheet>
 		<rules>
@@ -173,113 +173,113 @@
 			<stat name="barbarian rage:damage" value="4" level="16" bonus="base" />
 		</rules>
 	</element>
-	<element name="Nível 1: Defesa Sem Armadura" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENSE">
+	<element name="NÃ­vel 1: Defesa Sem Armadura" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENSE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_UNARMORED_DEFENSE</requirements>
 		<description>
-			<p>Enquanto você não estiver usando nenhuma armadura, sua Classe de Armadura base será igual a 10 mais seus modificadores de Destreza e Constituição. Você pode usar um Escudo e ainda receber esse benefício.</p>
+			<p>Enquanto vocÃª nÃ£o estiver usando nenhuma armadura, sua Classe de Armadura base serÃ¡ igual a 10 mais seus modificadores de Destreza e ConstituiÃ§Ã£o. VocÃª pode usar um Escudo e ainda receber esse benefÃ­cio.</p>
 		</description>
 		<sheet alt="Defesa Sem Armadura">
-			<description>Enquanto não estiver vestindo armadura, a sua CA base é {{ac:unarmored defense barbarian}}. Você pode usar um Escudo e ainda ganhar este benefício.</description>
+			<description>Enquanto nÃ£o estiver vestindo armadura, a sua CA base Ã© {{ac:unarmored defense barbarian}}. VocÃª pode usar um Escudo e ainda ganhar este benefÃ­cio.</description>
 		</sheet>
 		<rules>
 			<stat name="ac:unarmored defense barbarian" value="10" bonus="base" />
 			<stat name="ac:unarmored defense barbarian" value="dexterity:modifier" bonus="primary ability" />
 			<stat name="ac:unarmored defense barbarian" value="constitution:modifier" bonus="secondary ability" />
 
-			<stat name="ac:calculation" value="ac:unarmored defense barbarian" bonus="calculation" equipped="[armor:none]" alt="Defesa Sem Armadura (Bárbaro)" />
+			<stat name="ac:calculation" value="ac:unarmored defense barbarian" bonus="calculation" equipped="[armor:none]" alt="Defesa Sem Armadura (BÃ¡rbaro)" />
 		</rules>
 	</element>
-	<element name="Nível 1: Maestria em Armas" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_WEAPON_MASTERY">
+	<element name="NÃ­vel 1: Maestria em Armas" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_WEAPON_MASTERY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WEAPON_MASTERY</requirements>
 		<description>
-			<p>Seu treinamento com armas permite a você usar as propriedades de maestria de dois tipos de armas Corpo-a-Corpo Simples ou Marciais de sua escolha, como Machados Grandes e Machadinhas. Sempre que terminar um Descanso Longo, você pode praticar técnicas com armas e mudar uma de suas escolhas de arma.</p>
-			<p class="indent">Ao atingir certos níveis de Bárbaro, você ganha a capacidade de usar as propriedades de maestria de mais tipos de armas, conforme listado na coluna Maestria em Armas da tabela do Bárbaro.</p>
+			<p>Seu treinamento com armas permite a vocÃª usar as propriedades de maestria de dois tipos de armas Corpo-a-Corpo Simples ou Marciais de sua escolha, como Machados Grandes e Machadinhas. Sempre que terminar um Descanso Longo, vocÃª pode praticar tÃ©cnicas com armas e mudar uma de suas escolhas de arma.</p>
+			<p class="indent">Ao atingir certos nÃ­veis de BÃ¡rbaro, vocÃª ganha a capacidade de usar as propriedades de maestria de mais tipos de armas, conforme listado na coluna Maestria em Armas da tabela do BÃ¡rbaro.</p>
 		</description>
 		<sheet alt="Maestria em Armas">
-			<description>Sempre que terminar um Descanso Longo, você pode trocar uma das suas maestrias em armas por uma diferente.</description>
+			<description>Sempre que terminar um Descanso Longo, vocÃª pode trocar uma das suas maestrias em armas por uma diferente.</description>
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Maestria em Armas (Bárbaro 1)" supports="Weapon Mastery" number="2"/>
-			<select type="Class Feature" name="Maestria em Armas (Bárbaro 4)" supports="Weapon Mastery" level="4"/>
-			<select type="Class Feature" name="Maestria em Armas (Bárbaro 10)" supports="Weapon Mastery" level="10"/>
+			<select type="Class Feature" name="Maestria em Armas (BÃ¡rbaro 1)" supports="Weapon Mastery" number="2"/>
+			<select type="Class Feature" name="Maestria em Armas (BÃ¡rbaro 4)" supports="Weapon Mastery" level="4"/>
+			<select type="Class Feature" name="Maestria em Armas (BÃ¡rbaro 10)" supports="Weapon Mastery" level="10"/>
 		</rules>
 	</element>
 
-	<element name="Nível 2: Senso de Perigo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_DANGER_SENSE">
+	<element name="NÃ­vel 2: Senso de Perigo" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_DANGER_SENSE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_DANGER_SENSE</requirements>
 		<description>
-			<p>Você ganha um senso sobrenatural de quando as coisas não estão como deveriam, dando-lhe uma vantagem ao se esquivar de perigos. Você tem Vantagem em testes de resistência de Destreza, a menos que possua a condição Incapacitado.</p>
+			<p>VocÃª ganha um senso sobrenatural de quando as coisas nÃ£o estÃ£o como deveriam, dando-lhe uma vantagem ao se esquivar de perigos. VocÃª tem Vantagem em testes de resistÃªncia de Destreza, a menos que possua a condiÃ§Ã£o Incapacitado.</p>
 		</description>
 		<sheet alt="Senso de Perigo">
-			<description>Você tem Vantagem em testes de resistência de Destreza, a menos que tenha a condição Incapacitado.</description>
+			<description>VocÃª tem Vantagem em testes de resistÃªncia de Destreza, a menos que tenha a condiÃ§Ã£o Incapacitado.</description>
 		</sheet>
 	</element>
-	<element name="Nível 2: Ataque Temerário" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK">
+	<element name="NÃ­vel 2: Ataque TemerÃ¡rio" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_RECKLESS_ATTACK</requirements>
 		<description>
-			<p>Você pode deixar toda preocupação com defesa de lado para atacar com ferocidade crescente. Quando fizer sua primeira jogada de ataque no seu turno, você pode decidir atacar temerariamente. Fazer isso lhe dá Vantagem em jogadas de ataque corpo-a-corpo usando Força durante esse turno, mas as jogadas de ataque contra você terão Vantagem até o início do seu próximo turno.</p>
+			<p>VocÃª pode deixar toda preocupaÃ§Ã£o com defesa de lado para atacar com ferocidade crescente. Quando fizer sua primeira jogada de ataque no seu turno, vocÃª pode decidir atacar temerariamente. Fazer isso lhe dÃ¡ Vantagem em jogadas de ataque corpo-a-corpo usando ForÃ§a durante esse turno, mas as jogadas de ataque contra vocÃª terÃ£o Vantagem atÃ© o inÃ­cio do seu prÃ³ximo turno.</p>
 		</description>
-		<sheet alt="Ataque Temerário">
-			<description>Quando fizer seu primeiro ataque no turno, pode decidir atacar temerariamente. Fazer isso concede Vantagem em ataques com Força até o início do seu próximo turno, mas ataques contra você terão Vantagem durante esse período.</description>
+		<sheet alt="Ataque TemerÃ¡rio">
+			<description>Quando fizer seu primeiro ataque no turno, pode decidir atacar temerariamente. Fazer isso concede Vantagem em ataques com ForÃ§a atÃ© o inÃ­cio do seu prÃ³ximo turno, mas ataques contra vocÃª terÃ£o Vantagem durante esse perÃ­odo.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 3: Subclasse de Bárbaro" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_BARBARIAN_SUBCLASS">
+	<element name="NÃ­vel 3: Subclasse de BÃ¡rbaro" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_BARBARIAN_SUBCLASS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_BARBARIAN_SUBCLASS</requirements>
 		<description>
-			<p>Você adquire uma subclasse de Bárbaro da sua escolha. Uma subclasse é uma especialização que lhe concede características em determinados níveis. Pelo restante da sua carreira, você ganha cada característica da subclasse igual ou inferior ao seu nível de Bárbaro.</p>
+			<p>VocÃª adquire uma subclasse de BÃ¡rbaro da sua escolha. Uma subclasse Ã© uma especializaÃ§Ã£o que lhe concede caracterÃ­sticas em determinados nÃ­veis. Pelo restante da sua carreira, vocÃª ganha cada caracterÃ­stica da subclasse igual ou inferior ao seu nÃ­vel de BÃ¡rbaro.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<select type="Archetype" name="Subclasse de Bárbaro" supports="Primal Path||Barbarian Subclass" level="3"/>
+			<select type="Archetype" name="Subclasse de BÃ¡rbaro" supports="Primal Path||Barbarian Subclass" level="3"/>
 		</rules>
 	</element>
-	<element name="Nível 3: Conhecimento Primitivo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE">
+	<element name="NÃ­vel 3: Conhecimento Primitivo" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_PRIMAL_KNOWLEDGE</requirements>
 		<description>
-			<p>Você ganha proficiência em outra perícia da sua escolha da lista de perícias disponíveis a Bárbaros no nível 1.</p>
-			<p class="indent">Além disso, enquanto a sua Fúria estiver ativa, você pode canalizar o poder primitivo ao realizar certas tarefas; sempre que fizer um teste de habilidade usando uma das perícias a seguir, pode fazê-lo como um teste de Força, mesmo que normalmente use um atributo diferente: Acrobacia, Intimidação, Percepção, Sobrevivência ou Furtividade. Quando usar esta habilidade, a sua Força representa o poder primitivo fluindo por você, aguçando sua agilidade, postura e sentidos.</p>
+			<p>VocÃª ganha proficiÃªncia em outra perÃ­cia da sua escolha da lista de perÃ­cias disponÃ­veis a BÃ¡rbaros no nÃ­vel 1.</p>
+			<p class="indent">AlÃ©m disso, enquanto a sua FÃºria estiver ativa, vocÃª pode canalizar o poder primitivo ao realizar certas tarefas; sempre que fizer um teste de habilidade usando uma das perÃ­cias a seguir, pode fazÃª-lo como um teste de ForÃ§a, mesmo que normalmente use um atributo diferente: Acrobacia, IntimidaÃ§Ã£o, PercepÃ§Ã£o, SobrevivÃªncia ou Furtividade. Quando usar esta habilidade, a sua ForÃ§a representa o poder primitivo fluindo por vocÃª, aguÃ§ando sua agilidade, postura e sentidos.</p>
 		</description>
 		<sheet alt="Conhecimento Primitivo">
-			<description>Sempre que fizer um teste usando Acrobacia, Intimidação, Percepção, Furtividade ou Sobrevivência enquanto a sua Fúria estiver ativa, você pode usar Força para esse teste, mesmo que normalmente use um atributo diferente.</description>
+			<description>Sempre que fizer um teste usando Acrobacia, IntimidaÃ§Ã£o, PercepÃ§Ã£o, Furtividade ou SobrevivÃªncia enquanto a sua FÃºria estiver ativa, vocÃª pode usar ForÃ§a para esse teste, mesmo que normalmente use um atributo diferente.</description>
 		</sheet>
 		<rules>
-			<select type="Proficiency" name="Conhecimento Primitivo (Bárbaro)" supports="Skill,Barbarian" level="3" />
+			<select type="Proficiency" name="Conhecimento Primitivo (BÃ¡rbaro)" supports="Skill,Barbarian" level="3" />
 		</rules>
 	</element>
 
-	<element name="Nível 4: Melhoria no Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_ABILITY_SCORE_IMPROVEMENT">
+	<element name="NÃ­vel 4: Melhoria no Valor de Habilidade" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_ABILITY_SCORE_IMPROVEMENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Você ganha o talento de Melhoria no Valor de Habilidade ou outro talento da sua escolha ao qual se qualifique. Você ganha essa característica novamente nos níveis 8, 12 e 16 de Bárbaro.</p>
+			<p>VocÃª ganha o talento de Melhoria no Valor de Habilidade ou outro talento da sua escolha ao qual se qualifique. VocÃª ganha essa caracterÃ­stica novamente nos nÃ­veis 8, 12 e 16 de BÃ¡rbaro.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="Melhoria no Valor de Habilidade (Bárbaro 4)" />
-			<select type="Feat" name="Melhoria no Valor de Habilidade (Bárbaro 8)" level="8" />
-			<select type="Feat" name="Melhoria no Valor de Habilidade (Bárbaro 12)" level="12" />
-			<select type="Feat" name="Melhoria no Valor de Habilidade (Bárbaro 16)" level="16" />
+			<select type="Feat" name="Melhoria no Valor de Habilidade (BÃ¡rbaro 4)" />
+			<select type="Feat" name="Melhoria no Valor de Habilidade (BÃ¡rbaro 8)" level="8" />
+			<select type="Feat" name="Melhoria no Valor de Habilidade (BÃ¡rbaro 12)" level="12" />
+			<select type="Feat" name="Melhoria no Valor de Habilidade (BÃ¡rbaro 16)" level="16" />
 		</rules>
 	</element>
 
-	<element name="Nível 5: Ataque Extra" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK">
+	<element name="NÃ­vel 5: Ataque Extra" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_EXTRA_ATTACK</requirements>
 		<description>
-			<p>Você pode atacar duas vezes, em vez de uma, sempre que usar a ação de Ataque no seu turno.</p>
+			<p>VocÃª pode atacar duas vezes, em vez de uma, sempre que usar a aÃ§Ã£o de Ataque no seu turno.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<stat name="extra attack:count" value="2" bonus="extra attack" />
 		</rules>
 	</element>
-	<element name="Nível 5: Movimento Rápido" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT">
+	<element name="NÃ­vel 5: Movimento RÃ¡pido" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_FAST_MOVEMENT</requirements>
 		<description>
-			<p>O seu Deslocamento aumenta em 3 metros (10 pés) enquanto você não estiver vestindo armadura Pesada.</p>
+			<p>O seu Deslocamento aumenta em 3 metros (10 pÃ©s) enquanto vocÃª nÃ£o estiver vestindo armadura Pesada.</p>
 		</description>
-		<sheet alt="Movimento Rápido">
-			<description>O seu Deslocamento aumenta em 3 metros enquanto não estiver vestindo armadura Pesada.</description>
+		<sheet alt="Movimento RÃ¡pido">
+			<description>O seu Deslocamento aumenta em 3 metros enquanto nÃ£o estiver vestindo armadura Pesada.</description>
 		</sheet>
 		<rules>
 			<stat name="innate speed:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:1]" />
@@ -290,60 +290,60 @@
 		</rules>
 	</element>
 
-	<element name="Nível 7: Instinto Selvagem" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT">
+	<element name="NÃ­vel 7: Instinto Selvagem" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_FERAL_INSTINCT</requirements>
 		<description>
-			<p>Os seus instintos estão tão aguçados que você possui Vantagem em rolagens de Iniciativa.</p>
+			<p>Os seus instintos estÃ£o tÃ£o aguÃ§ados que vocÃª possui Vantagem em rolagens de Iniciativa.</p>
 		</description>
 		<sheet alt="Instinto Selvagem">
-			<description>Você tem Vantagem em rolagens de Iniciativa.</description>
+			<description>VocÃª tem Vantagem em rolagens de Iniciativa.</description>
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
 		</rules>
 	</element>
-	<element name="Nível 7: Salto Instintivo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE">
+	<element name="NÃ­vel 7: Salto Instintivo" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_INSTINCTIVE_POUNCE</requirements>
 		<description>
-			<p>Como parte da Ação Bônus gasta para entrar em Fúria, você pode mover-se até metade do seu Deslocamento.</p>
+			<p>Como parte da AÃ§Ã£o BÃ´nus gasta para entrar em FÃºria, vocÃª pode mover-se atÃ© metade do seu Deslocamento.</p>
 		</description>
 		<sheet alt="Salto Instintivo">
-			<description>Ao entrar em Fúria, você pode mover-se até metade do seu Deslocamento.</description>
+			<description>Ao entrar em FÃºria, vocÃª pode mover-se atÃ© metade do seu Deslocamento.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 9: Golpe Brutal" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_BRUTAL_STRIKE">
+	<element name="NÃ­vel 9: Golpe Brutal" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_BRUTAL_STRIKE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_BRUTAL_STRIKE</requirements>
 		<description>
-			<p>Se você usar o Ataque Temerário, você pode abrir mão da Vantagem em uma jogada de ataque com Força à sua escolha durante o seu turno. A jogada escolhida não pode ter Desvantagem. Se a jogada escolhida acertar, o alvo sofre 1d10 de dano extra do mesmo tipo causado pela arma ou Ataque Desarmado, e você pode causar um efeito de Golpe Brutal de sua escolha. As suas opções são as seguintes.</p>
-			<p class="indent"><em><strong>Golpe Impactante.</strong></em> O alvo é empurrado 4,5 metros (15 pés) diretamente para longe de você. Você pode então se mover até metade do seu Deslocamento em linha reta na direção do alvo sem provocar Ataques de Oportunidade.</p>
-			<p class="indent"><em><strong>Golpe no Tendão.</strong></em> O Deslocamento do alvo é reduzido em 4,5 metros (15 pés) até o início do seu próximo turno. O alvo só pode ser afetado por um Golpe no Tendão por vez — o mais recente.</p>
+			<p>Se vocÃª usar o Ataque TemerÃ¡rio, vocÃª pode abrir mÃ£o da Vantagem em uma jogada de ataque com ForÃ§a Ã  sua escolha durante o seu turno. A jogada escolhida nÃ£o pode ter Desvantagem. Se a jogada escolhida acertar, o alvo sofre 1d10 de dano extra do mesmo tipo causado pela arma ou Ataque Desarmado, e vocÃª pode causar um efeito de Golpe Brutal de sua escolha. As suas opÃ§Ãµes sÃ£o as seguintes.</p>
+			<p class="indent"><em><strong>Golpe Impactante.</strong></em> O alvo Ã© empurrado 4,5 metros (15 pÃ©s) diretamente para longe de vocÃª. VocÃª pode entÃ£o se mover atÃ© metade do seu Deslocamento em linha reta na direÃ§Ã£o do alvo sem provocar Ataques de Oportunidade.</p>
+			<p class="indent"><em><strong>Golpe no TendÃ£o.</strong></em> O Deslocamento do alvo Ã© reduzido em 4,5 metros (15 pÃ©s) atÃ© o inÃ­cio do seu prÃ³ximo turno. O alvo sÃ³ pode ser afetado por um Golpe no TendÃ£o por vez â€” o mais recente.</p>
 		</description>
 		<sheet alt="Golpe Brutal">
-			<description>Você pode abdicar de Vantagem por Ataque Temerário em uma jogada de ataque sua no turno (desde que não tenha Desvantagem). Se o ataque acertar, o alvo toma 1d10 de dano extra e você aplica um efeito de Golpe Brutal: &#13;
-			• Golpe Impactante. O alvo é empurrado 4,5m de você. Você pode então mover-se até metade do seu Deslocamento até o alvo sem provocar Ataques de Oportunidade. &#13;
-			• Golpe no Tendão. O Deslocamento do alvo é reduzido em 4,5m até o início do seu próximo turno.</description>
-			<description level="13">Você pode abdicar de Vantagem por Ataque Temerário em uma jogada de ataque sua no turno (desde que não tenha Desvantagem). Se o ataque acertar, o alvo toma 1d10 de dano extra e você aplica um efeito de Golpe Brutal: &#13;
-			• Golpe Impactante. O alvo é empurrado 4,5m de você. Você pode então mover-se até metade do seu Deslocamento até o alvo sem provocar Ataques de Oportunidade. &#13;
-			• Golpe no Tendão. O Deslocamento do alvo é reduzido em 4,5m até o início do seu próximo turno. &#13;
-			• Golpe Atordoante. O alvo tem Desvantagem no próximo teste de resistência e não pode fazer Ataques de Oportunidade até o início do seu próximo turno. &#13;
-			• Golpe Demolidor. Antes do início do seu próximo turno, a próxima jogada de ataque contra esse alvo por outra criatura tem bônus de +5.</description>
-			<description level="17">Você pode abdicar de Vantagem por Ataque Temerário em uma jogada de ataque sua no turno (desde que não tenha Desvantagem). Se o ataque acertar, o alvo toma 2d10 de dano extra e você aplica até dois efeitos de Golpe Brutal: &#13;
-			• Golpe Impactante. O alvo é empurrado 4,5m de você. Você pode então mover-se até metade do seu Deslocamento até o alvo sem provocar Ataques de Oportunidade. &#13;
-			• Golpe no Tendão. O Deslocamento do alvo é reduzido em 4,5m até o início do seu próximo turno. &#13;
-			• Golpe Atordoante. O alvo tem Desvantagem no próximo teste de resistência e não pode fazer Ataques de Oportunidade até o início do seu próximo turno. &#13;
-			• Golpe Demolidor. Antes do início do seu próximo turno, a próxima jogada de ataque contra esse alvo por outra criatura tem bônus de +5.</description>
+			<description>VocÃª pode abdicar de Vantagem por Ataque TemerÃ¡rio em uma jogada de ataque sua no turno (desde que nÃ£o tenha Desvantagem). Se o ataque acertar, o alvo toma 1d10 de dano extra e vocÃª aplica um efeito de Golpe Brutal: &#13;
+			â€¢ Golpe Impactante. O alvo Ã© empurrado 4,5m de vocÃª. VocÃª pode entÃ£o mover-se atÃ© metade do seu Deslocamento atÃ© o alvo sem provocar Ataques de Oportunidade. &#13;
+			â€¢ Golpe no TendÃ£o. O Deslocamento do alvo Ã© reduzido em 4,5m atÃ© o inÃ­cio do seu prÃ³ximo turno.</description>
+			<description level="13">VocÃª pode abdicar de Vantagem por Ataque TemerÃ¡rio em uma jogada de ataque sua no turno (desde que nÃ£o tenha Desvantagem). Se o ataque acertar, o alvo toma 1d10 de dano extra e vocÃª aplica um efeito de Golpe Brutal: &#13;
+			â€¢ Golpe Impactante. O alvo Ã© empurrado 4,5m de vocÃª. VocÃª pode entÃ£o mover-se atÃ© metade do seu Deslocamento atÃ© o alvo sem provocar Ataques de Oportunidade. &#13;
+			â€¢ Golpe no TendÃ£o. O Deslocamento do alvo Ã© reduzido em 4,5m atÃ© o inÃ­cio do seu prÃ³ximo turno. &#13;
+			â€¢ Golpe Atordoante. O alvo tem Desvantagem no prÃ³ximo teste de resistÃªncia e nÃ£o pode fazer Ataques de Oportunidade atÃ© o inÃ­cio do seu prÃ³ximo turno. &#13;
+			â€¢ Golpe Demolidor. Antes do inÃ­cio do seu prÃ³ximo turno, a prÃ³xima jogada de ataque contra esse alvo por outra criatura tem bÃ´nus de +5.</description>
+			<description level="17">VocÃª pode abdicar de Vantagem por Ataque TemerÃ¡rio em uma jogada de ataque sua no turno (desde que nÃ£o tenha Desvantagem). Se o ataque acertar, o alvo toma 2d10 de dano extra e vocÃª aplica atÃ© dois efeitos de Golpe Brutal: &#13;
+			â€¢ Golpe Impactante. O alvo Ã© empurrado 4,5m de vocÃª. VocÃª pode entÃ£o mover-se atÃ© metade do seu Deslocamento atÃ© o alvo sem provocar Ataques de Oportunidade. &#13;
+			â€¢ Golpe no TendÃ£o. O Deslocamento do alvo Ã© reduzido em 4,5m atÃ© o inÃ­cio do seu prÃ³ximo turno. &#13;
+			â€¢ Golpe Atordoante. O alvo tem Desvantagem no prÃ³ximo teste de resistÃªncia e nÃ£o pode fazer Ataques de Oportunidade atÃ© o inÃ­cio do seu prÃ³ximo turno. &#13;
+			â€¢ Golpe Demolidor. Antes do inÃ­cio do seu prÃ³ximo turno, a prÃ³xima jogada de ataque contra esse alvo por outra criatura tem bÃ´nus de +5.</description>
 			</sheet>
 	</element>
 
-	<element name="Nível 11: Fúria Implacável" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE">
+	<element name="NÃ­vel 11: FÃºria ImplacÃ¡vel" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_RELENTLESS_RAGE</requirements>
 		<description>
-			<p>A sua Fúria pode mantê-lo lutando mesmo sob ferimentos graves. Se você cair a 0 Pontos de Vida enquanto estiver em Fúria e não morrer imediatamente, você pode fazer um teste de resistência de Constituição CD 10. Se for bem-sucedido, os seus Pontos de Vida mudam para um número igual ao dobro do seu nível de Bárbaro.</p>
-			<p class="indent">Cada vez que usar esta característica após a primeira, a CD aumenta em 5. Quando você termina um Descanso Curto ou Longo, a CD reseta para 10.</p>
+			<p>A sua FÃºria pode mantÃª-lo lutando mesmo sob ferimentos graves. Se vocÃª cair a 0 Pontos de Vida enquanto estiver em FÃºria e nÃ£o morrer imediatamente, vocÃª pode fazer um teste de resistÃªncia de ConstituiÃ§Ã£o CD 10. Se for bem-sucedido, os seus Pontos de Vida mudam para um nÃºmero igual ao dobro do seu nÃ­vel de BÃ¡rbaro.</p>
+			<p class="indent">Cada vez que usar esta caracterÃ­stica apÃ³s a primeira, a CD aumenta em 5. Quando vocÃª termina um Descanso Curto ou Longo, a CD reseta para 10.</p>
 		</description>
-		<sheet alt="Fúria Implacável">
-			<description>Se você cair para 0 PV enquanto sua Fúria estiver ativa e não morrer imediatamente, pode fazer um teste de resistência de Constituição CD 10. Num sucesso, seus PV mudam para {{hp:relentless rage}}. Cada uso subsequente aumenta a CD em 5. A CD reinicia para 10 após um Descanso Curto ou Longo.</description>
+		<sheet alt="FÃºria ImplacÃ¡vel">
+			<description>Se vocÃª cair para 0 PV enquanto sua FÃºria estiver ativa e nÃ£o morrer imediatamente, pode fazer um teste de resistÃªncia de ConstituiÃ§Ã£o CD 10. Num sucesso, seus PV mudam para {{hp:relentless rage}}. Cada uso subsequente aumenta a CD em 5. A CD reinicia para 10 apÃ³s um Descanso Curto ou Longo.</description>
 		</sheet>
 		<rules>
 			<stat name="hp:relentless rage" value="level:barbarian" />
@@ -351,65 +351,65 @@
 		</rules>
 	</element>
 
-	<element name="Nível 13: Golpe Brutal Aprimorado (Opções)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_IMPROVED_BRUTAL_STRIKE_OPTIONS">
+	<element name="NÃ­vel 13: Golpe Brutal Aprimorado (OpÃ§Ãµes)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_IMPROVED_BRUTAL_STRIKE_OPTIONS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_IMPROVED_BRUTAL_STRIKE_OPTIONS</requirements>
 		<description>
-			<p>Você aprimorou novas formas de atacar com fúria. Os seguintes efeitos agora estão entre suas opções do Golpe Brutal.</p>
-			<p class="indent"><em><strong>Golpe Atordoante.</strong></em> O alvo tem Desvantagem em seu próximo teste de resistência e não pode fazer Ataques de Oportunidade até o início do seu próximo turno.</p>
-			<p class="indent"><em><strong>Golpe Demolidor.</strong></em> Antes do início do seu próximo turno, a próxima jogada de ataque feita por outra criatura contra o alvo ganha um bônus de +5. Uma jogada de ataque só pode receber o benefício de Golpe Demolidor uma vez.</p>
+			<p>VocÃª aprimorou novas formas de atacar com fÃºria. Os seguintes efeitos agora estÃ£o entre suas opÃ§Ãµes do Golpe Brutal.</p>
+			<p class="indent"><em><strong>Golpe Atordoante.</strong></em> O alvo tem Desvantagem em seu prÃ³ximo teste de resistÃªncia e nÃ£o pode fazer Ataques de Oportunidade atÃ© o inÃ­cio do seu prÃ³ximo turno.</p>
+			<p class="indent"><em><strong>Golpe Demolidor.</strong></em> Antes do inÃ­cio do seu prÃ³ximo turno, a prÃ³xima jogada de ataque feita por outra criatura contra o alvo ganha um bÃ´nus de +5. Uma jogada de ataque sÃ³ pode receber o benefÃ­cio de Golpe Demolidor uma vez.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="Nível 15: Fúria Persistente" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PERSISTENT_RAGE">
+	<element name="NÃ­vel 15: FÃºria Persistente" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PERSISTENT_RAGE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_PERSISTANT_RAGE</requirements>
 		<description>
-			<p>Quando jogar Iniciativa, você pode recuperar todos os usos gastos de Fúria. Após recuperar usos desta forma, você não pode fazê-lo de novo até terminar um Descanso Longo.</p>
-			<p class="indent">Além disso, a sua Fúria é tão feroz que agora ela dura 10 minutos sem a necessidade de você fazer qualquer coisa para estendê-la entre rodadas. A sua Fúria termina prematuramente se você adquirir a condição Inconsciente (não apenas a Incapacitado) ou vestir armadura Pesada.</p>
+			<p>Quando jogar Iniciativa, vocÃª pode recuperar todos os usos gastos de FÃºria. ApÃ³s recuperar usos desta forma, vocÃª nÃ£o pode fazÃª-lo de novo atÃ© terminar um Descanso Longo.</p>
+			<p class="indent">AlÃ©m disso, a sua FÃºria Ã© tÃ£o feroz que agora ela dura 10 minutos sem a necessidade de vocÃª fazer qualquer coisa para estendÃª-la entre rodadas. A sua FÃºria termina prematuramente se vocÃª adquirir a condiÃ§Ã£o Inconsciente (nÃ£o apenas a Incapacitado) ou vestir armadura Pesada.</p>
 		</description>
-		<sheet alt="Fúria Persistente" usage="1/Descanso Longo">
-			<description>Quando você joga Iniciativa, pode recuperar todos os usos de Fúria gastos.</description>
+		<sheet alt="FÃºria Persistente" usage="1/Descanso Longo">
+			<description>Quando vocÃª joga Iniciativa, pode recuperar todos os usos de FÃºria gastos.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 17: Golpe Brutal Aprimorado (Quantidade)" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_IMPROVED_BRUTAL_STRIKE_COUNT">
+	<element name="NÃ­vel 17: Golpe Brutal Aprimorado (Quantidade)" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_IMPROVED_BRUTAL_STRIKE_COUNT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_IMPROVED_BRUTAL_STRIKE_COUNT</requirements>
 		<description>
-			<p>O dano extra do seu Golpe Brutal aumenta para 2d10. Além disso, você pode usar dois efeitos de Golpe Brutal diferentes sempre que usar a sua característica Golpe Brutal.</p>
+			<p>O dano extra do seu Golpe Brutal aumenta para 2d10. AlÃ©m disso, vocÃª pode usar dois efeitos de Golpe Brutal diferentes sempre que usar a sua caracterÃ­stica Golpe Brutal.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="Nível 18: Poder Indomável" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT">
+	<element name="NÃ­vel 18: Poder IndomÃ¡vel" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_INDOMITABLE_MIGHT</requirements>
 		<description>
-			<p>Se o total do seu teste de habilidade de Força ou de um teste de resistência de Força for inferior ao seu valor de Força, você pode usar esse valor no lugar do total.</p>
+			<p>Se o total do seu teste de habilidade de ForÃ§a ou de um teste de resistÃªncia de ForÃ§a for inferior ao seu valor de ForÃ§a, vocÃª pode usar esse valor no lugar do total.</p>
 		</description>
-		<sheet alt="Poder Indomável">
-			<description>Se o total do seu teste ou teste de resistência de Força for inferior a {{strength:score}}, você pode usar esse valor como o seu total.</description>
+		<sheet alt="Poder IndomÃ¡vel">
+			<description>Se o total do seu teste ou teste de resistÃªncia de ForÃ§a for inferior a {{strength:score}}, vocÃª pode usar esse valor como o seu total.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_EPIC_BOON">
+	<element name="NÃ­vel 19: DÃ¡diva Ã‰pica" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_EPIC_BOON">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_EPIC_BOON</requirements>
 		<description>
-			<p>Você adquire um talento de Dádiva Épica ou outro talento da sua escolha ao qual atenda os pré-requisitos. A Dádiva da Ofensiva Irresistível é recomendada.</p>
+			<p>VocÃª adquire um talento de DÃ¡diva Ã‰pica ou outro talento da sua escolha ao qual atenda os prÃ©-requisitos. A DÃ¡diva da Ofensiva IrresistÃ­vel Ã© recomendada.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="Dádiva Épica (Bárbaro 19)" level="19" />
+			<select type="Feat" name="DÃ¡diva Ã‰pica (BÃ¡rbaro 19)" level="19" />
 		</rules>
 	</element>
 
-	<element name="Nível 20: Campeão Primitivo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION">
+	<element name="NÃ­vel 20: CampeÃ£o Primitivo" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_PRIMAL_CHAMPION</requirements>
 		<description>
-			<p>Você incorpora o poder primitivo. Os seus valores de Força e Constituição aumentam em 4, com um limite máximo de 25.</p>
+			<p>VocÃª incorpora o poder primitivo. Os seus valores de ForÃ§a e ConstituiÃ§Ã£o aumentam em 4, com um limite mÃ¡ximo de 25.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="strength" value="4" alt="Campeão Primitivo" />
-			<stat name="constitution" value="4" alt="Campeão Primitivo" />
+			<stat name="strength" value="4" alt="CampeÃ£o Primitivo" />
+			<stat name="constitution" value="4" alt="CampeÃ£o Primitivo" />
 			<stat name="strength:max:extra" value="5" bonus="base" />
 			<stat name="constitution:max:extra" value="5" bonus="base" />
 		</rules>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Caminho da Árvore do Mundo</name>
-		<description>A subclasse Caminho da Árvore do Mundo do Livro do Jogador de 2024.</description>
+		<name>Caminho da Ãrvore do Mundo</name>
+		<description>A subclasse Caminho da Ãrvore do Mundo do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="barbarian-world-tree.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/barbarian-world-tree.xml" />
+			<file name="barbarian-world-tree.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/barbarian-world-tree.xml" />
 		</update>
 	</info>
 
-	<element name="Caminho da Árvore do Mundo" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARBARIAN_WORLD_TREE">
+	<element name="Caminho da Ãrvore do Mundo" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARBARIAN_WORLD_TREE">
 		<supports>Barbarian Subclass</supports>
 		<description>
-			<p class="flavor">Rastreie as Raízes e Ramos do Multiverso</p>
-			<p>Bárbaros que seguem o Caminho da Árvore do Mundo se conectam com a árvore cósmica Yggdrasil através de sua Fúria. Esta árvore cresce entre os Planos Exteriores, conectando-os uns aos outros e ao Plano Material. Estes Bárbaros extraem a magia da árvore para obter vitalidade e como um meio de viagem dimensional.</p>
+			<p class="flavor">Rastreie as RaÃ­zes e Ramos do Multiverso</p>
+			<p>BÃ¡rbaros que seguem o Caminho da Ãrvore do Mundo se conectam com a Ã¡rvore cÃ³smica Yggdrasil atravÃ©s de sua FÃºria. Esta Ã¡rvore cresce entre os Planos Exteriores, conectando-os uns aos outros e ao Plano Material. Estes BÃ¡rbaros extraem a magia da Ã¡rvore para obter vitalidade e como um meio de viagem dimensional.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WORLD_TREE_VITALITY_OF_THE_TREE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WORLD_TREE_BRANCHES_OF_THE_TREE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WORLD_TREE_BATTERING_ROOTS" />
@@ -28,25 +28,25 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Vitalidade da Árvore" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WORLD_TREE_VITALITY_OF_THE_TREE">
+	<element name="NÃ­vel 3: Vitalidade da Ãrvore" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WORLD_TREE_VITALITY_OF_THE_TREE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WORLD_TREE_VITALITY_OF_THE_TREE</requirements>
 		<description>
-			<p>Sua Fúria se conecta à força vital da Árvore do Mundo. Você ganha os seguintes benefícios.</p>
-			<p class="indent"><em><strong>Surto de Vitalidade.</strong></em> Quando você ativa sua Fúria, você ganha um número de Pontos de Vida Temporários igual ao seu nível de Bárbaro.</p>
-			<p class="indent"><em><strong>Força Doadora de Vida.</strong></em> No início de cada um dos seus turnos enquanto sua Fúria estiver ativa, você pode escolher outra criatura a até 3 metros (10 pés) de você para ganhar Pontos de Vida Temporários. Para determinar o número de Pontos de Vida Temporários, role um número de d6s igual ao seu bônus de Dano de Fúria e some-os. Se qualquer um desses Pontos de Vida Temporários permanecer quando sua Fúria terminar, eles desaparecem.</p>
+			<p>Sua FÃºria se conecta Ã  forÃ§a vital da Ãrvore do Mundo. VocÃª ganha os seguintes benefÃ­cios.</p>
+			<p class="indent"><em><strong>Surto de Vitalidade.</strong></em> Quando vocÃª ativa sua FÃºria, vocÃª ganha um nÃºmero de Pontos de Vida TemporÃ¡rios igual ao seu nÃ­vel de BÃ¡rbaro.</p>
+			<p class="indent"><em><strong>ForÃ§a Doadora de Vida.</strong></em> No inÃ­cio de cada um dos seus turnos enquanto sua FÃºria estiver ativa, vocÃª pode escolher outra criatura a atÃ© 3 metros (10 pÃ©s) de vocÃª para ganhar Pontos de Vida TemporÃ¡rios. Para determinar o nÃºmero de Pontos de Vida TemporÃ¡rios, role um nÃºmero de d6s igual ao seu bÃ´nus de Dano de FÃºria e some-os. Se qualquer um desses Pontos de Vida TemporÃ¡rios permanecer quando sua FÃºria terminar, eles desaparecem.</p>
 		</description>
-		<sheet alt="Vitalidade da Árvore">
-			<description>Quando você ativa sua Fúria, você ganha {{level:barbarian}} PVTs. No início de cada um dos seus turnos enquanto sua Fúria estiver ativa, você pode conceder a outra criatura a até 3m de você {{barbarian rage:damage}}d6 PVTs, que duram até a sua Fúria terminar.</description>
+		<sheet alt="Vitalidade da Ãrvore">
+			<description>Quando vocÃª ativa sua FÃºria, vocÃª ganha {{level:barbarian}} PVTs. No inÃ­cio de cada um dos seus turnos enquanto sua FÃºria estiver ativa, vocÃª pode conceder a outra criatura a atÃ© 3m de vocÃª {{barbarian rage:damage}}d6 PVTs, que duram atÃ© a sua FÃºria terminar.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 6: Ramos da Árvore" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WORLD_TREE_BRANCHES_OF_THE_TREE">
+	<element name="NÃ­vel 6: Ramos da Ãrvore" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WORLD_TREE_BRANCHES_OF_THE_TREE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WORLD_TREE_BRANCHES_OF_THE_TREE</requirements>
 		<description>
-			<p>Sempre que uma criatura que você possa ver começar o turno dela a até 9 metros (30 pés) de você enquanto sua Fúria estiver ativa, você pode usar uma Reação para invocar ramos espectrais da Árvore do Mundo ao redor dela. O alvo deve ser bem-sucedido em um teste de resistência de Força (CD 8 mais seu modificador de Força e Bônus de Proficiência) ou será teletransportado para um espaço desocupado que você possa ver a até 1,5 metro (5 pés) de você ou para o espaço desocupado mais próximo que você possa ver. Depois que o alvo se teletransportar, você pode reduzir o Deslocamento dele a 0 até o final do turno atual.</p>
+			<p>Sempre que uma criatura que vocÃª possa ver comeÃ§ar o turno dela a atÃ© 9 metros (30 pÃ©s) de vocÃª enquanto sua FÃºria estiver ativa, vocÃª pode usar uma ReaÃ§Ã£o para invocar ramos espectrais da Ãrvore do Mundo ao redor dela. O alvo deve ser bem-sucedido em um teste de resistÃªncia de ForÃ§a (CD 8 mais seu modificador de ForÃ§a e BÃ´nus de ProficiÃªncia) ou serÃ¡ teletransportado para um espaÃ§o desocupado que vocÃª possa ver a atÃ© 1,5 metro (5 pÃ©s) de vocÃª ou para o espaÃ§o desocupado mais prÃ³ximo que vocÃª possa ver. Depois que o alvo se teletransportar, vocÃª pode reduzir o Deslocamento dele a 0 atÃ© o final do turno atual.</p>
 		</description>
-		<sheet alt="Ramos da Árvore" action="Reaction">
-			<description>Sempre que uma criatura que você possa ver começar o turno dela a até 9m de você enquanto sua Fúria estiver ativa, você a força a fazer um teste de resistência de Força CD {{branches of the tree:dc}}. Em uma falha, ela é teletransportada para um espaço a até 1,5m de você e você pode reduzir o Deslocamento dela para 0 até o final do turno atual.</description>
+		<sheet alt="Ramos da Ãrvore" action="Reaction">
+			<description>Sempre que uma criatura que vocÃª possa ver comeÃ§ar o turno dela a atÃ© 9m de vocÃª enquanto sua FÃºria estiver ativa, vocÃª a forÃ§a a fazer um teste de resistÃªncia de ForÃ§a CD {{branches of the tree:dc}}. Em uma falha, ela Ã© teletransportada para um espaÃ§o a atÃ© 1,5m de vocÃª e vocÃª pode reduzir o Deslocamento dela para 0 atÃ© o final do turno atual.</description>
 		</sheet>
 		<rules>
 			<stat name="branches of the tree:dc" value="8" bonus="base" />
@@ -55,25 +55,25 @@
 		</rules>
 	</element>
 
-	<element name="Nível 10: Raízes Esmagadoras" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WORLD_TREE_BATTERING_ROOTS">
+	<element name="NÃ­vel 10: RaÃ­zes Esmagadoras" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WORLD_TREE_BATTERING_ROOTS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WORLD_TREE_BATTERING_ROOTS</requirements>
 		<description>
-			<p>Durante o seu turno, seu alcance é 3 metros (10 pés) maior com qualquer arma Corpo a Corpo que tenha a propriedade Pesada ou Versátil, conforme gavinhas da Árvore do Mundo se estendem de você. Quando você atinge com tal arma no seu turno, você pode ativar a propriedade de maestria Empurrar ou Derrubar em adição a uma propriedade de maestria diferente que você esteja usando com aquela arma.</p>
+			<p>Durante o seu turno, seu alcance Ã© 3 metros (10 pÃ©s) maior com qualquer arma Corpo a Corpo que tenha a propriedade Pesada ou VersÃ¡til, conforme gavinhas da Ãrvore do Mundo se estendem de vocÃª. Quando vocÃª atinge com tal arma no seu turno, vocÃª pode ativar a propriedade de maestria Empurrar ou Derrubar em adiÃ§Ã£o a uma propriedade de maestria diferente que vocÃª esteja usando com aquela arma.</p>
 		</description>
-		<sheet alt="Raízes Esmagadoras">
-			<description>Nos seus turnos, seu alcance é 3 metros maior com qualquer arma Corpo a Corpo com a propriedade Pesada ou Versátil, e quando você atinge com ela, pode ativar a propriedade de maestria Empurrar ou Derrubar em adição a uma propriedade de maestria diferente que esteja usando com a arma.</description>
+		<sheet alt="RaÃ­zes Esmagadoras">
+			<description>Nos seus turnos, seu alcance Ã© 3 metros maior com qualquer arma Corpo a Corpo com a propriedade Pesada ou VersÃ¡til, e quando vocÃª atinge com ela, pode ativar a propriedade de maestria Empurrar ou Derrubar em adiÃ§Ã£o a uma propriedade de maestria diferente que esteja usando com a arma.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 14: Viagem Pela Árvore" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WORLD_TREE_TRAVEL_ALONG_THE_TREE">
+	<element name="NÃ­vel 14: Viagem Pela Ãrvore" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WORLD_TREE_TRAVEL_ALONG_THE_TREE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WORLD_TREE_TRAVEL_ALONG_THE_TREE</requirements>
 		<description>
-			<p>Quando você ativa sua Fúria e como uma Ação Bônus enquanto sua Fúria está ativa, você pode se teletransportar a até 18 metros (60 pés) para um espaço desocupado que possa ver.</p>
-			<p class="indent">Além disso, uma vez por Fúria, você pode aumentar o alcance desse teletransporte para 45 metros (150 pés). Ao fazer isso, você também pode levar até seis criaturas dispostas que estejam a até 3 metros (10 pés) de você. Cada criatura se teletransporta para um espaço desocupado de sua escolha a até 3 metros (10 pés) do seu espaço de destino.</p>
+			<p>Quando vocÃª ativa sua FÃºria e como uma AÃ§Ã£o BÃ´nus enquanto sua FÃºria estÃ¡ ativa, vocÃª pode se teletransportar a atÃ© 18 metros (60 pÃ©s) para um espaÃ§o desocupado que possa ver.</p>
+			<p class="indent">AlÃ©m disso, uma vez por FÃºria, vocÃª pode aumentar o alcance desse teletransporte para 45 metros (150 pÃ©s). Ao fazer isso, vocÃª tambÃ©m pode levar atÃ© seis criaturas dispostas que estejam a atÃ© 3 metros (10 pÃ©s) de vocÃª. Cada criatura se teletransporta para um espaÃ§o desocupado de sua escolha a atÃ© 3 metros (10 pÃ©s) do seu espaÃ§o de destino.</p>
 		</description>
-		<sheet alt="Viagem Pela Árvore" action="Bonus Action">
-			<description>Quando você ativa sua Fúria, e enquanto sua Fúria estiver ativa, você pode se teletransportar até 18m para um espaço desocupado que possa ver. &#13;
-			Uma vez por Fúria, você pode aumentar o alcance deste teletransporte para 45m, e pode levar até 6 criaturas dispostas a até 3m de você. Essas criaturas se teletransportam para um espaço desocupado de sua escolha a até 3m do seu espaço de destino.</description>
+		<sheet alt="Viagem Pela Ãrvore" action="Bonus Action">
+			<description>Quando vocÃª ativa sua FÃºria, e enquanto sua FÃºria estiver ativa, vocÃª pode se teletransportar atÃ© 18m para um espaÃ§o desocupado que possa ver. &#13;
+			Uma vez por FÃºria, vocÃª pode aumentar o alcance deste teletransporte para 45m, e pode levar atÃ© 6 criaturas dispostas a atÃ© 3m de vocÃª. Essas criaturas se teletransportam para um espaÃ§o desocupado de sua escolha a atÃ© 3m do seu espaÃ§o de destino.</description>
 		</sheet>
 	</element>
 

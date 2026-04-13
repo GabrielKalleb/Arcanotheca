@@ -1,29 +1,29 @@
 <elements>
 	<info>
-		<name>Veículos</name>
+		<name>VeÃ­culos</name>
 		<update version="0.0.5">
-			<file name="items-vehicle.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide/items/items-vehicle.xml" /> <!-- file name is explained in the DMG.index file -->
+			<file name="items-vehicle.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/dungeon-masters-guide/items/items-vehicle.xml" /> <!-- file name is explained in the DMG.index file -->
 		</update>
 	</info>
 	
 	<element name="Airship" type="Item" source="Guia do Mestre" id="ID_WOTC_DMG_ITEM_AIRSHIP">
-		<supports>Aéreo</supports>
+		<supports>AÃ©reo</supports>
 		<description>
 			<ul class="unstyled">
 				<li><strong>Velocidade.</strong> 8 milhas por hora</li>
-				<li><strong>Tripulação.</strong> 10</li>
+				<li><strong>TripulaÃ§Ã£o.</strong> 10</li>
 				<li><strong>Passageiros.</strong> 20</li>
 				<li><strong>Carga (toneladas).</strong> 1</li>
 				<li><strong>CA.</strong> 13</li>
 				<li><strong>HP.</strong> 300</li>
-				<li><strong>Limite de Dano.</strong> —</li>
+				<li><strong>Limite de Dano.</strong> â€”</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="categoria">Veículos e Montarias</set>
+			<set name="categoria">VeÃ­culos e Montarias</set>
 			<set name="custo" currency="gp">20000</set>
 			<set name="peso" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="tipo">Veículo</set>
+			<set name="tipo">VeÃ­culo</set>
 		</setters>
 	</element> 
 
@@ -31,8 +31,8 @@
 		<description>
 			<ul class="unstyled">
 				<li><strong>Velocidade.</strong> 4 milhas por hora</li>
-				<li><strong>Tripulação.</strong> 80</li>
-				<li><strong>Passageiros.</strong> —</li>
+				<li><strong>TripulaÃ§Ã£o.</strong> 80</li>
+				<li><strong>Passageiros.</strong> â€”</li>
 				<li><strong>Carga (toneladas).</strong> 150</li>
 				<li><strong>CA.</strong> 15</li>
 				<li><strong>HP.</strong> 500</li>
@@ -40,10 +40,10 @@
 			</ul>
 		</description>
 		<setters>
-			<set name="categoria">Veículos e Montarias</set>
+			<set name="categoria">VeÃ­culos e Montarias</set>
 			<set name="custo" currency="gp">30000</set>
 			<set name="peso" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="tipo">Veículo</set>
+			<set name="tipo">VeÃ­culo</set>
 		</setters>
 	</element>
 
@@ -51,7 +51,7 @@
 		<description>
 			<ul class="unstyled">
 				<li><strong>Velocidade.</strong> 1 milha por hora</li>
-				<li><strong>Tripulação.</strong> 1</li>
+				<li><strong>TripulaÃ§Ã£o.</strong> 1</li>
 				<li><strong>Passageiros.</strong> 6</li>
 				<li><strong>Carga (toneladas).</strong> 1/2</li>
 				<li><strong>CA.</strong> 15</li>
@@ -60,10 +60,10 @@
 			</ul>
 		</description>
 		<setters>
-			<set name="categoria">Veículos e Montarias</set>
+			<set name="categoria">VeÃ­culos e Montarias</set>
 			<set name="custo" currency="gp">3000</set>
 			<set name="peso" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="tipo">Veículo</set>
+			<set name="tipo">VeÃ­culo</set>
 		</setters>
 	</element>
 
@@ -71,7 +71,7 @@
 		<description>
 			<ul class="unstyled">
 				<li><strong>Velocidade.</strong> 3 milhas por hora</li>
-				<li><strong>Tripulação.</strong> 40</li>
+				<li><strong>TripulaÃ§Ã£o.</strong> 40</li>
 				<li><strong>Passageiros.</strong> 150</li>
 				<li><strong>Carga (toneladas).</strong> 10</li>
 				<li><strong>CA.</strong> 15</li>
@@ -80,10 +80,10 @@
 			</ul>
 		</description>
 		<setters>
-			<set name="categoria">Veículos e Montarias</set>
+			<set name="categoria">VeÃ­culos e Montarias</set>
 			<set name="custo" currency="gp">10000</set>
 			<set name="peso" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="tipo">Veículo</set>
+			<set name="tipo">VeÃ­culo</set>
 		</setters>
 	</element>
 
@@ -91,19 +91,19 @@
 		<description>
 			<ul class="unstyled">
 				<li><strong>Velocidade.</strong> 1,5 milhas por hora</li>
-				<li><strong>Tripulação.</strong> 1</li>
+				<li><strong>TripulaÃ§Ã£o.</strong> 1</li>
 				<li><strong>Passageiros.</strong> 3</li>
-				<li><strong>Carga (toneladas).</strong> —</li>
+				<li><strong>Carga (toneladas).</strong> â€”</li>
 				<li><strong>CA.</strong> 11</li>
 				<li><strong>HP.</strong> 50</li>
-				<li><strong>Limite de Dano.</strong> —</li>
+				<li><strong>Limite de Dano.</strong> â€”</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="categoria">Veículos e Montarias</set>
+			<set name="categoria">VeÃ­culos e Montarias</set>
 			<set name="custo" currency="gp">50</set>
 			<set name="peso" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="tipo">Veículo</set>
+			<set name="tipo">VeÃ­culo</set>
 		</setters>
 	</element>
 
@@ -111,7 +111,7 @@
 		<description>
 			<ul class="unstyled">
 				<li><strong>Velocidade.</strong> 2 milhas por hora</li>
-				<li><strong>Tripulação.</strong> 20</li>
+				<li><strong>TripulaÃ§Ã£o.</strong> 20</li>
 				<li><strong>Passageiros.</strong> 20</li>
 				<li><strong>Carga (toneladas).</strong> 100</li>
 				<li><strong>CA.</strong> 15</li>
@@ -120,10 +120,10 @@
 			</ul>
 		</description>
 		<setters>
-			<set name="categoria">Veículos e Montarias</set>
+			<set name="categoria">VeÃ­culos e Montarias</set>
 			<set name="custo" currency="gp">10000</set>
 			<set name="peso" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="tipo">Veículo</set>
+			<set name="tipo">VeÃ­culo</set>
 		</setters>
 	</element>
 
@@ -131,7 +131,7 @@
 		<description>
 			<ul class="unstyled">
 				<li><strong>Velocidade.</strong> 2,5 milhas por hora</li>
-				<li><strong>Tripulação.</strong> 60</li>
+				<li><strong>TripulaÃ§Ã£o.</strong> 60</li>
 				<li><strong>Passageiros.</strong> 60</li>
 				<li><strong>Carga (toneladas).</strong> 200</li>
 				<li><strong>CA.</strong> 15</li>
@@ -140,10 +140,10 @@
 			</ul>
 		</description>
 		<setters>
-			<set name="categoria">Veículos e Montarias</set>
+			<set name="categoria">VeÃ­culos e Montarias</set>
 			<set name="custo" currency="gp">25000</set>
 			<set name="peso" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="tipo">Veículo</set>
+			<set name="tipo">VeÃ­culo</set>
 		</setters>
 	</element>
 

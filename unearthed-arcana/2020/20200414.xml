@@ -3,12 +3,12 @@
 	<info>
 		<name>Unearthed Arcana: Psionic Options Revisited</name>
 		<update version="0.0.4">
-			<file name="20200414.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2020/20200414.xml" />
+			<file name="20200414.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2020/20200414.xml" />
 		</update>
 	</info>	
 	<element name="Unearthed Arcana: Psionic Options Revisited" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20200414">
 		<description>
-			<p>Shine with the power of the mind in this installment of Unearthed Arcana! Today we revisit several psi-themed options that we released in the past few months. Studying your feedback on those options, we’ve crafted this new collection of subclasses, spells, and feats.</p>
+			<p>Shine with the power of the mind in this installment of Unearthed Arcana! Today we revisit several psi-themed options that we released in the past few months. Studying your feedback on those options, weâ€™ve crafted this new collection of subclasses, spells, and feats.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">UA20200414</set>
@@ -24,7 +24,7 @@
 		<supports>Martial Archetype</supports>
 		<description>
 			<p>Awake to the psionic power within, a Psi Knight is a fighter who augments their physical might with psi-infused weapon strikes, telekinetic lashes, and barriers of mental force. Many githyanki train to become such knights, as do some of the most disciplined high elves. In the world of Athas, renowned gladiators in the arenas of the Sorcerer-Kings are often Psi Knights, and in Eberron, the psionic kalashtar view membership in this knighthood as a special honor.</p>
-			<p class="indent">As a Psi Knight, you might have honed your psionic abilities through solo discipline, unlocked it under the tutelage of a master, or refined it at an academy dedicated to wielding the mind’s power as both weapon and shield.</p>
+			<p class="indent">As a Psi Knight, you might have honed your psionic abilities through solo discipline, unlocked it under the tutelage of a master, or refined it at an academy dedicated to wielding the mindâ€™s power as both weapon and shield.</p>
 			<div element="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_PSI_KNIGHT_PSIONIC_TALENT" />
 			<div element="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_PSI_KNIGHT_TELEKINETIC_ADEPT" />
 			<div element="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_PSI_KNIGHT_PSI_ENHANCED_METABOLISM" />
@@ -51,13 +51,13 @@
 				<li><strong>Telekinetic Strike.</strong> You can propel your attacks with telekinetic force. Once on each of your turns, immediately after you deal damage to a target within 30 feet of you with a weapon attack, you can roll your Psionic Talent die and also deal force damage to the target equal to the number rolled.</li>
 			</ul>
 			<br />
-			<p class="indent"><strong><em>Changing the Die’s Size.</em></strong> If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a d6 and you roll a 6, it becomes a d4. If it’s a d4 and you roll a 4, it becomes unusable until you finish a long rest.</p>
+			<p class="indent"><strong><em>Changing the Dieâ€™s Size.</em></strong> If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a d6 and you roll a 6, it becomes a d4. If itâ€™s a d4 and you roll a 4, it becomes unusable until you finish a long rest.</p>
 			<p class="indent">Conversely, if you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size. This represents you conserving psionic energy for later use. For example, if you roll a 1 on a d4, the die then becomes a d6.</p>
 			<p class="indent">Whenever you finish a long rest, your Psionic Talent die resets to its starting size. When you reach certain levels in this class, the starting size of your Psionic Talent die increases: at 5th level (d8), 11th level (d10), and 17th level (d12).</p>
-			<p class="indent"><strong><em>Psi Replenishment.</em></strong> As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can’t use Psi Replenishment again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Psi Replenishment.</em></strong> As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then canâ€™t use Psi Replenishment again until you finish a long rest.</p>
 		</description>
 		<sheet>
-			<description>Your Psionic Talent die is a d{{ua:psionic-talent-die:size}}. If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. If it’s a d4 and you roll a 4, it becomes unusable until you finish a long rest.
+			<description>Your Psionic Talent die is a d{{ua:psionic-talent-die:size}}. If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. If itâ€™s a d4 and you roll a 4, it becomes unusable until you finish a long rest.
 			If you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size.
 			Whenever you finish a long rest, your Psionic Talent die resets to its starting size.</description>
 		</sheet>
@@ -117,7 +117,7 @@
 	<element name="Psi Replenishment" type="Archetype Feature" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_PSI_KNIGHT_PSI_REPLENISHMENT">
 		<compendium display="false" />
 		<description>
-			<p>As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can’t use Psi Replenishment again until you finish a long rest.</p>
+			<p>As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then canâ€™t use Psi Replenishment again until you finish a long rest.</p>
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest">
 			<description>You restore your Psionic Talent die to its starting size (d{{ua:psionic-talent-die:size}}).</description>
@@ -180,11 +180,11 @@
 	<element name="Bulwark of Force" type="Archetype Feature" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_PSI_KNIGHT_BULWARK_OF_FORCE">
 		<description>
 			<p><em>15th-level Psi Knight feature</em></p>
-			<p>You can shield yourself and others with telekinetic force. As a bonus action, you can choose creatures, which can include you, that you can see within 30 feet of you, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures is protected by half cover for 1 minute or until you’re incapacitated.</p>
-			<p class="indent">Once you use this feature, you can’t do so again until you finish a long rest, unless you decrease your Psionic Talent die by one die size to use this feature again.</p>
+			<p>You can shield yourself and others with telekinetic force. As a bonus action, you can choose creatures, which can include you, that you can see within 30 feet of you, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures is protected by half cover for 1 minute or until youâ€™re incapacitated.</p>
+			<p class="indent">Once you use this feature, you canâ€™t do so again until you finish a long rest, unless you decrease your Psionic Talent die by one die size to use this feature again.</p>
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest">
-			<description>You can choose up to {{bulwark of force:creatures}} creatures, which can include you, that you can see within 30 feet of you. Each of the chosen creatures is protected by half cover for 1 minute or until you’re incapacitated.
+			<description>You can choose up to {{bulwark of force:creatures}} creatures, which can include you, that you can see within 30 feet of you. Each of the chosen creatures is protected by half cover for 1 minute or until youâ€™re incapacitated.
 			Decrease your Psionic Talent die by one die size to use this feature again.</description>
 		</sheet>
 		<rules>
@@ -209,8 +209,8 @@
 	<element name="Soulknife" type="Archetype" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_ARCHETYPE_SOULKNIFE">
 		<supports>Roguish Archetype</supports>
 		<description>
-			<p>Most assassins strike with physical weapons, and many burglars and spies use thieves’ tools to infiltrate secure locations, whereas a Soulknife strikes and infiltrates with the mind, cutting through barriers both physical and psychic. These rogues discover psionic power within themselves and channel it to do their roguish work. They find easy employment as members of thieves’ guilds, though they are often mistrusted by rogues who are leery of anyone using strange mind powers to conduct their business, and most governments would be happy to employ a Soulknife as a spy.</p>
-			<p class="indent">Amid the trees of ancient forests on the Material Plane and in the Feywild, some wood elves walk the path of the Soulknife, serving as silent, lethal guardians of their woods. In the endless war among the gith, a githzerai is encouraged to become a Soulknife when stealth is required against the githyanki foe, and in the world of Athas, a Sorcerer-King often turns to a Soulknife to eliminate an enemy, just as an insurgent Soulknife seeks to undermine that Sorcerer-King’s rule.</p>
+			<p>Most assassins strike with physical weapons, and many burglars and spies use thievesâ€™ tools to infiltrate secure locations, whereas a Soulknife strikes and infiltrates with the mind, cutting through barriers both physical and psychic. These rogues discover psionic power within themselves and channel it to do their roguish work. They find easy employment as members of thievesâ€™ guilds, though they are often mistrusted by rogues who are leery of anyone using strange mind powers to conduct their business, and most governments would be happy to employ a Soulknife as a spy.</p>
+			<p class="indent">Amid the trees of ancient forests on the Material Plane and in the Feywild, some wood elves walk the path of the Soulknife, serving as silent, lethal guardians of their woods. In the endless war among the gith, a githzerai is encouraged to become a Soulknife when stealth is required against the githyanki foe, and in the world of Athas, a Sorcerer-King often turns to a Soulknife to eliminate an enemy, just as an insurgent Soulknife seeks to undermine that Sorcerer-Kingâ€™s rule.</p>
 			<p class="indent">As a Soulknife, your psionic abilities might have haunted you since you were a child, only revealing their potential as you experienced the stress of adventure. Or you might have sought out a reclusive order of psionic adepts and spent years learning how to manifest your power.</p>
 			<div element="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_SOULKNIFE_PSIONIC_TALENT" />
 			<div element="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_SOULKNIFE_PSYCHIC_BLADES" />
@@ -235,16 +235,16 @@
 			<p class="indent"><strong><em>Psionic Talent Options.</em></strong> You can use your Psionic Talent die in the following ways:</p>
 			<ul class="unstyled mb">
 				<li><strong>Psi-Bolstered Knack.</strong> When your non-psionic training fails you, you can tap into your psionic power to help: if you fail an ability check using a skill or tool with which you have proficiency, you can roll your Psionic Talent die and add the number rolled to the check, potentially turning failure into success.</li>
-				<li><strong>Psychic Whispers.</strong> You can use your psychic abilities to establish telepathic communication between yourself and others—perfect for quiet infiltration. As an action, you give yourself and at least one other creature the ability to speak telepathically with each other. When you do so, roll your Psionic Talent die, and choose creatures you can see, up to a number of creatures equal to the number rolled. For 1 hour, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can’t use this telepathy if it can’t speak any languages, and a creature can end the telepathic connection at any time (no action required). You and the creature don’t need to speak a common language to understand each other.</li>
+				<li><strong>Psychic Whispers.</strong> You can use your psychic abilities to establish telepathic communication between yourself and othersâ€”perfect for quiet infiltration. As an action, you give yourself and at least one other creature the ability to speak telepathically with each other. When you do so, roll your Psionic Talent die, and choose creatures you can see, up to a number of creatures equal to the number rolled. For 1 hour, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature canâ€™t use this telepathy if it canâ€™t speak any languages, and a creature can end the telepathic connection at any time (no action required). You and the creature donâ€™t need to speak a common language to understand each other.</li>
 			</ul>
 			<br />
-			<p class="indent"><strong><em>Changing the Die’s Size.</em></strong> If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a d6 and you roll a 6, it becomes a d4. If it’s a d4 and you roll a 4, it becomes unusable until you finish a long rest.</p>
+			<p class="indent"><strong><em>Changing the Dieâ€™s Size.</em></strong> If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a d6 and you roll a 6, it becomes a d4. If itâ€™s a d4 and you roll a 4, it becomes unusable until you finish a long rest.</p>
 			<p class="indent">Conversely, if you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size. This represents you conserving psionic energy for later use. For example, if you roll a 1 on a d4, the die then becomes a d6.</p>
 			<p class="indent">Whenever you finish a long rest, your Psionic Talent die resets to its starting size. When you reach certain levels in this class, the starting size of your Psionic Talent die increases: at 5th level (d8), 11th level (d10), and 17th level (d12).</p>
-			<p class="indent"><strong><em>Psi Replenishment.</em></strong> As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can’t use Psi Replenishment again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Psi Replenishment.</em></strong> As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then canâ€™t use Psi Replenishment again until you finish a long rest.</p>
 		</description>
 		<sheet>
-			<description>Your Psionic Talent die is a d{{ua:psionic-talent-die:size}}. If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. If it’s a d4 and you roll a 4, it becomes unusable until you finish a long rest.
+			<description>Your Psionic Talent die is a d{{ua:psionic-talent-die:size}}. If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. If itâ€™s a d4 and you roll a 4, it becomes unusable until you finish a long rest.
 			If you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size.
 			Whenever you finish a long rest, your Psionic Talent die resets to its starting size.</description>
 		</sheet>
@@ -273,17 +273,17 @@
 	<element name="Psychic Whispers" type="Archetype Feature" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_SOULKNIFE_PSYCHIC_WHISPERS">
 		<compendium display="false" />
 		<description>
-			<p>You can use your psychic abilities to establish telepathic communication between yourself and others—perfect for quiet infiltration. As an action, you give yourself and at least one other creature the ability to speak telepathically with each other. When you do so, roll your Psionic Talent die, and choose creatures you can see, up to a number of creatures equal to the number rolled. For 1 hour, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can’t use this telepathy if it can’t speak any languages, and a creature can end the telepathic connection at any time (no action required). You and the creature don’t need to speak a common language to understand each other.</p>
+			<p>You can use your psychic abilities to establish telepathic communication between yourself and othersâ€”perfect for quiet infiltration. As an action, you give yourself and at least one other creature the ability to speak telepathically with each other. When you do so, roll your Psionic Talent die, and choose creatures you can see, up to a number of creatures equal to the number rolled. For 1 hour, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature canâ€™t use this telepathy if it canâ€™t speak any languages, and a creature can end the telepathic connection at any time (no action required). You and the creature donâ€™t need to speak a common language to understand each other.</p>
 		</description>
 		<sheet action="Action" usage="Psionic Talent">
-			<description>You give yourself and at least one other creature the ability to speak telepathically with each other. When you do so, roll your Psionic Talent die, and choose creatures you can see, up to a number of creatures equal to the number rolled. For 1 hour, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message, you and the other creature must be within 1 mile of each other. A creature can’t use this telepathy if it can’t speak any languages, and a creature can end the telepathic connection at any time. You and the creature don’t need to speak a common language to understand each other.</description>
+			<description>You give yourself and at least one other creature the ability to speak telepathically with each other. When you do so, roll your Psionic Talent die, and choose creatures you can see, up to a number of creatures equal to the number rolled. For 1 hour, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message, you and the other creature must be within 1 mile of each other. A creature canâ€™t use this telepathy if it canâ€™t speak any languages, and a creature can end the telepathic connection at any time. You and the creature donâ€™t need to speak a common language to understand each other.</description>
 		</sheet>
 	</element>
 
 	<element name="Psi Replenishment" type="Archetype Feature" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_SOULKNIFE_PSI_REPLENISHMENT">
 		<compendium display="false" />
 		<description>
-			<p>As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can’t use Psi Replenishment again until you finish a long rest.</p>
+			<p>As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then canâ€™t use Psi Replenishment again until you finish a long rest.</p>
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest">
 			<description>You restore your Psionic Talent die to its starting size (d{{ua:psionic-talent-die:size}}).</description>
@@ -342,7 +342,7 @@
 		<description>
 			<p><em>13th-level Soulknife feature</em></p>
 			<p>You can weave a veil of psychic static to mask yourself. As an action, you can magically become invisible, along with anything you are wearing or carrying, for 10 minutes or until you dismiss this effect (no action required). This invisibility ends if you deal damage to a creature or if you force a creature to make a saving throw.</p>
-			<p class="indent">Once you use this feature, you can’t do so again until you finish a long rest, unless you decrease your Psionic Talent die by one die size to use this feature again.</p>
+			<p class="indent">Once you use this feature, you canâ€™t do so again until you finish a long rest, unless you decrease your Psionic Talent die by one die size to use this feature again.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
 			<description>You can magically become invisible, along with anything you are wearing or carrying, for 10 minutes or until you dismiss this effect. This invisibility ends if you deal damage to a creature or if you force a creature to make a saving throw.
@@ -353,8 +353,8 @@
 	<element name="Rend Mind" type="Archetype Feature" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_SOULKNIFE_REND_MIND">
 		<description>
 			<p><em>17th-level Soulknife feature</em></p>
-			<p>You can sweep your Psychic Blades directly through a creature’s mind. When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier). Unless the save succeeds, the target is stunned until the end of your next turn.</p>
-			<p class="indent">Once you use this feature, you can’t do so again until you finish a long rest, unless you decrease your Psionic Talent die by one die size to use this feature again.</p>
+			<p>You can sweep your Psychic Blades directly through a creatureâ€™s mind. When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier). Unless the save succeeds, the target is stunned until the end of your next turn.</p>
+			<p class="indent">Once you use this feature, you canâ€™t do so again until you finish a long rest, unless you decrease your Psionic Talent die by one die size to use this feature again.</p>
 		</description>
 		<sheet>
 			<description>When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom save (DC {{ua:rend mind:dc}}). Unless the save succeeds, the target is stunned until the end of your next turn.
@@ -370,18 +370,18 @@
 	<element name="Psionic Soul" type="Archetype" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_ARCHETYPE_SORCERER_PSIONIC_SOUL">
 		<supports>Sorcerous Origin</supports>
 		<description>
-			<p>One day a light blazed forth within you—the illumination of psionic power. Your mind now simmers with this power, the full extent of which you won’t fully grasp for years to come. You can touch other minds with it and alter the world around you by using it to control the magical energy of the multiverse. Will this power shine from you as a hopeful beacon to others? Or will you be a source of terror to those who feel the stab of your mind and witness the strange manifestations of your might?</p>
-			<p class="indent">Among githyanki and githzerai, the powers of Psionic Soul sorcerers are revered and marshaled on both sides of the gith war. In Eberron, many kalashtar dream of discovering this origin’s abilities within themselves, and in Athas, more sorcerers are born with a Psionic Soul than with any other source of power. In the glades of primeval woods touched by the Feywild, children sometimes awaken to the wonders of psionic power. And in communities that survive Far Realm incursions, some folk are mutated into horrific aberrations, while a lucky few not only remain themselves, but also discover that psionic energy now suffuses their minds.</p>
+			<p>One day a light blazed forth within youâ€”the illumination of psionic power. Your mind now simmers with this power, the full extent of which you wonâ€™t fully grasp for years to come. You can touch other minds with it and alter the world around you by using it to control the magical energy of the multiverse. Will this power shine from you as a hopeful beacon to others? Or will you be a source of terror to those who feel the stab of your mind and witness the strange manifestations of your might?</p>
+			<p class="indent">Among githyanki and githzerai, the powers of Psionic Soul sorcerers are revered and marshaled on both sides of the gith war. In Eberron, many kalashtar dream of discovering this originâ€™s abilities within themselves, and in Athas, more sorcerers are born with a Psionic Soul than with any other source of power. In the glades of primeval woods touched by the Feywild, children sometimes awaken to the wonders of psionic power. And in communities that survive Far Realm incursions, some folk are mutated into horrific aberrations, while a lucky few not only remain themselves, but also discover that psionic energy now suffuses their minds.</p>
 			<p class="indent">As a Psionic Soul sorcerer, you decide how you acquired your powers. Were you born with them, and did they manifest throughout childhood? Or did an extraordinary event later in life leave you shining with psionic awareness? Consult the Psionic Origins table for a possible origin of your power.</p>
 			<h5 class="caption">Psionic Origins</h5>
 			<table>
 				<thead>
 					<tr><td>d10</td><td>Origin</td></tr>
 				</thead>
-				<tr><td>1</td><td>You were exposed to the Far Realm’s warping influence. You can now use your mind in ways you never thought possible, and you’re also convinced that a tendril is growing upon you.</td></tr>
+				<tr><td>1</td><td>You were exposed to the Far Realmâ€™s warping influence. You can now use your mind in ways you never thought possible, and youâ€™re also convinced that a tendril is growing upon you.</td></tr>
 				<tr><td>2</td><td>A psychic wind from the Astral Plane carried psionic energy into your being. When you use your powers now, faint motes of light sparkle around you.</td></tr>
 				<tr><td>3</td><td>You or your ancestor were trained by a githzerai monk to unlock the psionic potential within yourself.</td></tr>
-				<tr><td>4</td><td>A spirit haunts your mind, lending incredible power to your thoughts. When you sleep, the spirit’s memories invade your dreams.</td></tr>
+				<tr><td>4</td><td>A spirit haunts your mind, lending incredible power to your thoughts. When you sleep, the spiritâ€™s memories invade your dreams.</td></tr>
 				<tr><td>5</td><td>Deep in a forest touched by the Feywild, you drank from a glimmering stream, and now your mind shines with power. Beasts and fey creatures are often now friendly to you, as if they can sense the light within you.</td></tr>
 				<tr><td>6</td><td>Upon recovering from a near-fatal injury, you found yourself with psionic powers. Whenever you use them, your old wound tingles.</td></tr>
 				<tr><td>7</td><td>You were implanted with a mind flayer tadpole, but the ceremorphosis never completed. And now the psionic power is yours. When you use it, your flesh shines with a strange mucus.</td></tr>
@@ -409,18 +409,18 @@
 			<p>You harbor a wellspring of psionic power within yourself, an energy that ebbs and flows as you channel it in various ways. This power is represented by your Psionic Talent die, the starting size of which is a d6.</p>
 			<p class="indent"><strong><em>Psionic Talent Options.</em></strong> You can use your Psionic Talent die in the following ways:</p>
 			<ul class="unstyled mb">
-				<li><strong>Psionic Discovery.</strong> You can unlock the ability to cast a mind-oriented sorcerer spell you don’t already know. After meditating for 10 minutes (which can be done during a rest), roll your Psionic Talent die, and choose a sorcerer spell of a level for which you have spell slots and that is in the school of divination or enchantment. You know the chosen spell for a number of hours equal to the number you rolled.</li>
-				<li><strong>Psychic Sorcery.</strong> When you cast a spell, you can use your mind to form it, rather than relying on words, gestures, and materials. To do so, roll your Psionic Talent die. The spell then requires no verbal component, and if you rolled the level of the spell or higher, the spell doesn’t require somatic or material components either.</li>
+				<li><strong>Psionic Discovery.</strong> You can unlock the ability to cast a mind-oriented sorcerer spell you donâ€™t already know. After meditating for 10 minutes (which can be done during a rest), roll your Psionic Talent die, and choose a sorcerer spell of a level for which you have spell slots and that is in the school of divination or enchantment. You know the chosen spell for a number of hours equal to the number you rolled.</li>
+				<li><strong>Psychic Sorcery.</strong> When you cast a spell, you can use your mind to form it, rather than relying on words, gestures, and materials. To do so, roll your Psionic Talent die. The spell then requires no verbal component, and if you rolled the level of the spell or higher, the spell doesnâ€™t require somatic or material components either.</li>
 				<li><strong>Telepathic Speech.</strong> You can form a telepathic connection between your mind and the mind of another. As a bonus action, choose one creature you can see, and roll your Psionic Talent die. For a number of hours equal to the number you rolled, you and the chosen creature can speak telepathically with each other while the two of you are within a number of miles of each other equal to the number you rolled. To understand each other, you each must speak mentally in a language the other knows. The telepathic connection ends early if you use this ability to form a connection with a different creature.</li>
 			</ul>
 			<br />
-			<p class="indent"><strong><em>Changing the Die’s Size.</em></strong> If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a d6 and you roll a 6, it becomes a d4. If it’s a d4 and you roll a 4, it becomes unusable until you finish a long rest.</p>
+			<p class="indent"><strong><em>Changing the Dieâ€™s Size.</em></strong> If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a d6 and you roll a 6, it becomes a d4. If itâ€™s a d4 and you roll a 4, it becomes unusable until you finish a long rest.</p>
 			<p class="indent">Conversely, if you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size. This represents you conserving psionic energy for later use. For example, if you roll a 1 on a d4, the die then becomes a d6.</p>
 			<p class="indent">Whenever you finish a long rest, your Psionic Talent die resets to its starting size. When you reach certain levels in this class, the starting size of your Psionic Talent die increases: at 5th level (d8), 11th level (d10), and 17th level (d12).</p>
-			<p class="indent"><strong><em>Psi Replenishment.</em></strong> As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can’t use Psi Replenishment again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Psi Replenishment.</em></strong> As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then canâ€™t use Psi Replenishment again until you finish a long rest.</p>
 		</description>
 		<sheet>
-			<description>Your Psionic Talent die is a d{{ua:psionic-talent-die:size}}. If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. If it’s a d4 and you roll a 4, it becomes unusable until you finish a long rest.
+			<description>Your Psionic Talent die is a d{{ua:psionic-talent-die:size}}. If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. If itâ€™s a d4 and you roll a 4, it becomes unusable until you finish a long rest.
 			If you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size.
 			Whenever you finish a long rest, your Psionic Talent die resets to its starting size.</description>
 		</sheet>
@@ -440,7 +440,7 @@
 	<element name="Psionic Discovery" type="Archetype Feature" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_PSIONIC_SOUL_PSIONIC_DISCOVERY">
 		<compendium display="false" />
 		<description>
-			<p>You can unlock the ability to cast a mind-oriented sorcerer spell you don’t already know. After meditating for 10 minutes (which can be done during a rest), roll your Psionic Talent die, and choose a sorcerer spell of a level for which you have spell slots and that is in the school of divination or enchantment. You know the chosen spell for a number of hours equal to the number you rolled.</p>
+			<p>You can unlock the ability to cast a mind-oriented sorcerer spell you donâ€™t already know. After meditating for 10 minutes (which can be done during a rest), roll your Psionic Talent die, and choose a sorcerer spell of a level for which you have spell slots and that is in the school of divination or enchantment. You know the chosen spell for a number of hours equal to the number you rolled.</p>
 		</description>
 		<sheet usage="Psionic Talent">
 			<description>After meditating for 10 minutes, roll your Psionic Talent die, and choose a sorcerer spell of a level for which you have spell slots and that is in the school of divination or enchantment. You know the chosen spell for a number of hours equal to the number you rolled.</description>
@@ -450,10 +450,10 @@
 	<element name="Psychic Sorcery" type="Archetype Feature" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_PSIONIC_SOUL_PSYCHIC_SORCERY">
 		<compendium display="false" />
 		<description>
-			<p>When you cast a spell, you can use your mind to form it, rather than relying on words, gestures, and materials. To do so, roll your Psionic Talent die. The spell then requires no verbal component, and if you rolled the level of the spell or higher, the spell doesn’t require somatic or material components either.</p>
+			<p>When you cast a spell, you can use your mind to form it, rather than relying on words, gestures, and materials. To do so, roll your Psionic Talent die. The spell then requires no verbal component, and if you rolled the level of the spell or higher, the spell doesnâ€™t require somatic or material components either.</p>
 		</description>
 		<sheet usage="Psionic Talent">
-			<description>When you cast a spell, you can use your mind to form it. To do so, roll your Psionic Talent die. The spell then requires no verbal component, and if you rolled the level of the spell or higher, the spell doesn’t require somatic or material components either.</description>
+			<description>When you cast a spell, you can use your mind to form it. To do so, roll your Psionic Talent die. The spell then requires no verbal component, and if you rolled the level of the spell or higher, the spell doesnâ€™t require somatic or material components either.</description>
 		</sheet>
 	</element>
 
@@ -470,7 +470,7 @@
 	<element name="Psi Replenishment" type="Archetype Feature" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_PSIONIC_SOUL_PSI_REPLENISHMENT">
 		<compendium display="false" />
 		<description>
-			<p>As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can’t use Psi Replenishment again until you finish a long rest.</p>
+			<p>As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then canâ€™t use Psi Replenishment again until you finish a long rest.</p>
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest">
 			<description>You restore your Psionic Talent die to its starting size (d{{ua:psionic-talent-die:size}}).</description>
@@ -492,7 +492,7 @@
 			<p><em>14th-level Psionic Soul feature</em></p>
 			<p>You can now use the psi that flows through you to give your body extraordinary abilities. As a bonus action, you can roll your Psionic Talent die and spend 1 or more sorcery points to magically transform yourself for a number of hours equal to the number rolled. Until the transformation ends, you gain one of the following benefits of your choice for each sorcery point you spent, choosing a different benefit for each point:</p>
 			<ul>
-				<li>You can see any invisible creature within 60 feet of you, provided it isn’t behind total cover.</li>
+				<li>You can see any invisible creature within 60 feet of you, provided it isnâ€™t behind total cover.</li>
 				<li>You gain a flying speed equal to your walking speed, and you can hover.</li>
 				<li>You gain a swimming speed equal to twice your walking speed, and you can breathe underwater.</li>
 				<li>Your body, along with any equipment you are wearing or carrying, becomes pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being grappled.</li>
@@ -500,10 +500,10 @@
 		</description>
 		<sheet action="Bonus Action">
 			<description>You can roll your Psionic Talent die and spend 1 or more sorcery points to magically transform yourself for a number of hours equal to the number rolled. Until the transformation ends, you gain one of the following benefits of your choice for each sorcery point you spent, choosing a different benefit for each point: &#13;
-			• You can see any invisible creature within 60 feet of you, provided it isn’t behind total cover. &#13;
-			• You gain a {{speed}}ft. flying speed, and you can hover. &#13;
-			• You gain a {{mind over body:swimming speed}}ft swimming speed, and you can breathe underwater. &#13;
-			• Your body, along with any equipment you are wearing or carrying, becomes pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being grappled.</description>
+			â€¢ You can see any invisible creature within 60 feet of you, provided it isnâ€™t behind total cover. &#13;
+			â€¢ You gain a {{speed}}ft. flying speed, and you can hover. &#13;
+			â€¢ You gain a {{mind over body:swimming speed}}ft swimming speed, and you can breathe underwater. &#13;
+			â€¢ Your body, along with any equipment you are wearing or carrying, becomes pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being grappled.</description>
 		</sheet>
 		<rules>
 			<stat name="mind over body:swimming speed" value="speed" />
@@ -514,11 +514,11 @@
 	<element name="Psychic Aura" type="Archetype Feature" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_ARCHETYPE_FEATURE_PSIONIC_SOUL_PSYCHIC_AURA">
 		<description>
 			<p><em>18th-level Psionic Soul feature</em></p>
-			<p>If your Psionic Talent die is available, you can unleash your psionic power in a crackling aura of psychic energy; as a bonus action, you can magically radiate this transparent, 30-foot radius aura for 1 minute or until you’re incapacitated or lose the use of your Psionic Talent die.</p>
+			<p>If your Psionic Talent die is available, you can unleash your psionic power in a crackling aura of psychic energy; as a bonus action, you can magically radiate this transparent, 30-foot radius aura for 1 minute or until youâ€™re incapacitated or lose the use of your Psionic Talent die.</p>
 			<p class="indent">Whenever a creature starts its turn in the aura or moves into it for the first time on a turn, you can roll your Psionic Talent die and deal psychic damage to the creature, equaling the number rolled plus your Charisma modifier. If the creature takes any of this damage, its speed is halved until the start of its next turn.</p>
 		</description>
 		<sheet action="Bonus Action">
-			<description>If your Psionic Talent die is available, you can magically radiate this transparent, 30-foot radius aura for 1 minute or until you’re incapacitated or lose the use of your Psionic Talent die.
+			<description>If your Psionic Talent die is available, you can magically radiate this transparent, 30-foot radius aura for 1 minute or until youâ€™re incapacitated or lose the use of your Psionic Talent die.
 			Whenever a creature starts its turn in the aura or moves into it for the first time on a turn, you can roll your Psionic Talent die and deal psychic damage to the creature, equaling the number rolled plus {{charisma:modifier}}. If the creature takes any of this damage, its speed is halved until the start of its next turn.</description>
 		</sheet>
 	</element>
@@ -549,7 +549,7 @@
 		<supports>Sorcerer,Warlock,Wizard</supports>
 		<description>
 			<p>You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must make an Intelligence saving throw. Unless the saving throw is successful, the target takes 1d6 psychic damage, and the first time it makes a saving throw before the end of your next turn, it must roll a d4 and subtract the number rolled from the save.</p>
-			<p class="indent">This spell’s damage increases by 1d6 when you reach certain levels: 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+			<p class="indent">This spellâ€™s damage increases by 1d6 when you reach certain levels: 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
 		</description>
 		<setters>
 			<set name="keywords">psychic</set>
@@ -570,7 +570,7 @@
 	<element name="Mind Thrust" type="Spell" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_SPELL_MIND_THRUST">
 		<supports>Sorcerer,Wizard</supports>
 		<description>
-			<p>You thrust a lance of psychic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 3d6 psychic damage, and it can’t take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell’s other effects.</p>
+			<p>You thrust a lance of psychic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 3d6 psychic damage, and it canâ€™t take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spellâ€™s other effects.</p>
 			<p class="indent">When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.</p>
 		</description>
 		<setters>
@@ -594,16 +594,16 @@
 		<requirements>ID_WOTC_UA20200414_GRANTS_PSIONIC_TALENT_FEATURE||ID_WOTC_UA20200414_FEAT_WILD_TALENT</requirements>
 		<description>
 			<p><em>Prerequisite: Psionic Talent feature or Wild Talent feat</em></p>
-			<p>You have refined psionic control over your body’s functions. You gain the following benefits:</p>
+			<p>You have refined psionic control over your bodyâ€™s functions. You gain the following benefits:</p>
 			<ul>
 				<li>Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.</li>
 				<li>If your Psionic Talent die is available, you can take an action to channel your psionic power to nourish yourself for the next 24 hours, as if you consumed sufficient food and water for a day. When you take this action, your Psionic Talent die decreases by one die size.</li>
-				<li>If your Psionic Talent die is available, you can meditate for 1 minute, at the end of which you gain the benefits of finishing a short rest, and your Psionic Talent die decreases by one die size. You can’t meditate in this way again until you finish a long rest.</li>
+				<li>If your Psionic Talent die is available, you can meditate for 1 minute, at the end of which you gain the benefits of finishing a short rest, and your Psionic Talent die decreases by one die size. You canâ€™t meditate in this way again until you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet>
 			<description>If your Psionic Talent die is available, you can take an action to channel your psionic power to nourish yourself for the next 24 hours, as if you consumed sufficient food and water for a day. When you take this action, your Psionic Talent die decreases by one die size.
-			If your Psionic Talent die is available, you can meditate for 1 minute, at the end of which you gain the benefits of finishing a short rest, and your Psionic Talent die decreases by one die size. You can’t meditate in this way again until you finish a long rest.</description>
+			If your Psionic Talent die is available, you can meditate for 1 minute, at the end of which you gain the benefits of finishing a short rest, and your Psionic Talent die decreases by one die size. You canâ€™t meditate in this way again until you finish a long rest.</description>
 		</sheet>
 		<rules>
 			<select type="Ability Score Improvement" name="Ability Score Increase, Metabolic Control" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
@@ -693,7 +693,7 @@
 			<p>You awaken the ability to mentally connect with others. You gain the following benefits:</p>
 			<ul>
 				<li>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
-				<li>You can speak telepathically to any creature you can see within 30 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn’t give the creature the ability to respond to you telepathically.</li>
+				<li>You can speak telepathically to any creature you can see within 30 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesnâ€™t give the creature the ability to respond to you telepathically.</li>
 				<li>If your Psionic Talent die is available, you can cast the detect thoughts spell, requiring no components. When you start casting the spell, your Psionic Talent die decreases by one die size. Your spellcasting ability for the spell is the ability increased by this feat.</li>
 			</ul>
 			<div class="reference">
@@ -714,7 +714,7 @@
 			</div>
 		</description>
 		<sheet alt="Telepathic">
-			<description>You can speak telepathically to any creature you can see within 30 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn’t give the creature the ability to respond to you telepathically. &#13;
+			<description>You can speak telepathically to any creature you can see within 30 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesnâ€™t give the creature the ability to respond to you telepathically. &#13;
 			If your Psionic Talent die is available, you can cast the detect thoughts spell, requiring no components. When you start casting the spell, your Psionic Talent die decreases by one die size. Your spellcasting ability for the spell is Intelligence.</description>
 		</sheet>
 		<rules>
@@ -730,7 +730,7 @@
 			</div>
 		</description>
 		<sheet alt="Telepathic">
-			<description>You can speak telepathically to any creature you can see within 30 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn’t give the creature the ability to respond to you telepathically. &#13;
+			<description>You can speak telepathically to any creature you can see within 30 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesnâ€™t give the creature the ability to respond to you telepathically. &#13;
 			If your Psionic Talent die is available, you can cast the detect thoughts spell, requiring no components. When you start casting the spell, your Psionic Talent die decreases by one die size. Your spellcasting ability for the spell is Wisdom.</description>
 		</sheet>
 		<rules>
@@ -746,7 +746,7 @@
 			</div>
 		</description>
 		<sheet alt="Telepathic">
-			<description>You can speak telepathically to any creature you can see within 30 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn’t give the creature the ability to respond to you telepathically. &#13;
+			<description>You can speak telepathically to any creature you can see within 30 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesnâ€™t give the creature the ability to respond to you telepathically. &#13;
 			If your Psionic Talent die is available, you can cast the detect thoughts spell, requiring no components. When you start casting the spell, your Psionic Talent die decreases by one die size. Your spellcasting ability for the spell is Charisma.</description>
 		</sheet>
 		<rules>
@@ -759,7 +759,7 @@
 		<requirements>ID_WOTC_UA20200414_GRANTS_PSIONIC_TALENT_FEATURE||ID_WOTC_UA20200414_FEAT_WILD_TALENT</requirements>
 		<description>
 			<p><em>Prerequisite: Psionic Talent feature or Wild Talent feat</em></p>
-			<p>Your mind’s defenses are formidable. After you or another creature you can see within 30 feet of you fails a saving throw, you can use your reaction to roll your Psionic Talent die and add the number rolled to the saving throw, potentially causing it to succeed.</p>
+			<p>Your mindâ€™s defenses are formidable. After you or another creature you can see within 30 feet of you fails a saving throw, you can use your reaction to roll your Psionic Talent die and add the number rolled to the saving throw, potentially causing it to succeed.</p>
 		</description>
 		<sheet action="Reaction">
 			<description>After you or another creature you can see within 30 feet of you fails a saving throw, you can roll your Psionic Talent die and add the number rolled to the saving throw, potentially causing it to succeed.</description>
@@ -776,14 +776,14 @@
 				<li><strong>Psi-Guided Strike.</strong> Once on each of your turns when you hit with an attack roll that uses the ability increased by this feat, you can roll your Psionic Talent die after you make the damage roll and then replace one of the damage dice with the number rolled on the Psionic Talent die.</li>
 			</ul>
 			<br />
-			<p class="indent"><strong><em>Changing the Die’s Size.</em></strong> If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a d6 and you roll a 6, it becomes a d4. If it’s a d4 and you roll a 4, it becomes unusable until you finish a long rest.</p>
+			<p class="indent"><strong><em>Changing the Dieâ€™s Size.</em></strong> If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a d6 and you roll a 6, it becomes a d4. If itâ€™s a d4 and you roll a 4, it becomes unusable until you finish a long rest.</p>
 			<p class="indent">Conversely, if you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size. This represents you conserving psionic energy for later use. For example, if you roll a 1 on a d4, the die then becomes a d6.</p>
 			<p class="indent">Whenever you finish a long rest, your Psionic Talent die resets to its starting size. When you reach certain levels, the starting size of your Psionic Talent die increases: at 5th level (d8), 11th level (d10), and 17th level (d12).</p>
-			<p class="indent">If you have a Psionic Talent die from another source, such as a class feature, you don’t get more than one die; use only the one with the largest starting size.</p>
-			<p class="indent"><strong><em>Psi Replenishment.</em></strong> As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can’t use Psi Replenishment again until you finish a long rest.</p>
+			<p class="indent">If you have a Psionic Talent die from another source, such as a class feature, you donâ€™t get more than one die; use only the one with the largest starting size.</p>
+			<p class="indent"><strong><em>Psi Replenishment.</em></strong> As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then canâ€™t use Psi Replenishment again until you finish a long rest.</p>
 		</description>
 		<sheet>
-			<description>Your Psionic Talent die is a d{{ua:psionic-talent-die:size}}. If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. If it’s a d4 and you roll a 4, it becomes unusable until you finish a long rest.
+			<description>Your Psionic Talent die is a d{{ua:psionic-talent-die:size}}. If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. If itâ€™s a d4 and you roll a 4, it becomes unusable until you finish a long rest.
 			If you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size.
 			Whenever you finish a long rest, your Psionic Talent die resets to its starting size.</description>
 		</sheet>
@@ -822,7 +822,7 @@
 	<element name="Psi Replenishment" type="Feat Feature" source="Unearthed Arcana: Psionic Options Revisited" id="ID_WOTC_UA20200414_FEAT_FEATURE_WILD_TALENT_PSI_REPLENISHMENT">
 		<compendium display="false" />
 		<description>
-			<p>As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can’t use Psi Replenishment again until you finish a long rest.</p>
+			<p>As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then canâ€™t use Psi Replenishment again until you finish a long rest.</p>
 		</description>
 		<sheet usage="1/Long Rest">
 			<description>You restore your Psionic Talent die to its starting size (d{{ua:psionic-talent-die:size}}).</description>

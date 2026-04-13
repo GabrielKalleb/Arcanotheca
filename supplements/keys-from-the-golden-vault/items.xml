@@ -3,7 +3,7 @@
 	<info>
 		<name>Magic Items from Keys From The Golden Vault</name>
 		<update version="0.0.2">
-			<file name="items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/keys-from-the-golden-vault/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/keys-from-the-golden-vault/items.xml" />
 		</update>
 	</info>
 
@@ -14,9 +14,9 @@
 			<p class="indent"><i><b>Sentience.</b> Constantori's Portrait</i> is a sentient, lawful evil item with an Intelligence score of 14, a Wisdom score of 12, and a Charisma score of 8. It can hear within a range of 120 feet and has darkvision within a range of 60 feet, but it can't see anything behind itself.</p>
 			<p class="indent">The painting can converse in Common, Draconic, and Elvish as if it were a living person, though Constantori's mouth doesn't move. Whenever conversation occurs within the portrait's auditory range, the painting eagerly gathers secrets, the names of secret tellers, significant events, or any political conversations.</p>
 			<p class="indent"><i><b>Personality.</b> Constantori's Portrait</i> is demanding, condescending, and vain. It doesn't like being covered or placed out of sight, and it loudly condemns anyone who tries to remove it from its gold-leaf frame.</p>
-			<p class="indent"><i><b>Wealth of Information.</b></i> The painting's primary purpose is to observe and recall conversations. Over the past few decades, <i>Constantori's Portrait</i> has quietly observed countless conversations and now possesses an unquantifiable amount of lore—everything from criminal conspiracies to secret passwords. The DM decides what the painting knows and what it doesn't.</p>
+			<p class="indent"><i><b>Wealth of Information.</b></i> The painting's primary purpose is to observe and recall conversations. Over the past few decades, <i>Constantori's Portrait</i> has quietly observed countless conversations and now possesses an unquantifiable amount of loreâ€”everything from criminal conspiracies to secret passwords. The DM decides what the painting knows and what it doesn't.</p>
 			<p class="indent">While attuned to the painting, you can take an action to telepathically contact it over any distance, provided you and the painting are on the same plane of existence. The painting can't telepathically contact you, however. Maintaining telepathic contact with the painting requires your concentration (as if concentrating on a spell).</p>
-			<p class="indent"><i><b>Guardian Portrait.</b></i> The painting's primary purpose is to observe and recall conversations. Over the past few decades, <i>Constantori's Portrait</i> has quietly observed countless conversations and now possesses an unquantifiable amount of lore—everything from criminal conspiracies to secret passwords. The DM decides what the painting knows and what it doesn't.</p>
+			<p class="indent"><i><b>Guardian Portrait.</b></i> The painting's primary purpose is to observe and recall conversations. Over the past few decades, <i>Constantori's Portrait</i> has quietly observed countless conversations and now possesses an unquantifiable amount of loreâ€”everything from criminal conspiracies to secret passwords. The DM decides what the painting knows and what it doesn't.</p>
 			<p class="indent">While you are attuned to the painting, you can command it to guard its location against one or more creatures you identify as the painting's enemies. The painting performs this function until you command it to stop or until your attunement to the painting ends.</p>
 			<p class="indent">The painting has 3 charges. When a creature the painting identifies as its enemy starts its turn in a space the painting can see, the painting expends 1 of its charges to cast <i>magic missile</i> (3 missiles), targeting that creature. The painting regains all expended charges daily at dawn.</p>
 			<p class="indent">The painting is a Small object with AC 12, 20 hit points, and immunity to poison damage. In its gold-leaf frame, the painting weighs 15 pounds. If the painting has at least 1 hit point and is targeted by a <i>mending</i> spell, it regains 2d6 hit points.</p>
@@ -43,7 +43,7 @@
 					<tr><td>d6</td><td>Misfortune</td></tr>
 				</thead>
 				<tr><td>1</td><td>You accidentally cut yourself with the shard and are poisoned until the next dawn.</td></tr>
-				<tr><td>2</td><td>You experience a vision of an ancient calamity—a beautiful city threatened by crumbling mountains and erupting volcanoes—and are stunned until the end of your next turn.</td></tr>
+				<tr><td>2</td><td>You experience a vision of an ancient calamityâ€”a beautiful city threatened by crumbling mountains and erupting volcanoesâ€”and are stunned until the end of your next turn.</td></tr>
 				<tr><td>3</td><td>For a few seconds, the ground shakes under you. You and each creature within 10 feet of you must succeed on a DC 16 Dexterity saving throw or be knocked prone.</td></tr>
 				<tr><td>4</td><td>The shard releases three glowing darts of magical force that target one random creature within 30 feet of you. If no such target exists, you become the target. Each dart hits automatically and deals 3 (1d4 + 1) force damage to the target.</td></tr>
 				<tr><td>5</td><td>Until the next dawn, Beasts with an Intelligence score of 3 or lower are hostile to you.</td></tr>
@@ -241,7 +241,7 @@
 			<p class="indent"><i><b>Dark Speech.</b></i> While you carry the <em>Book of Vile Darkness</em> and are attuned to it, you can use an action to recite word from its pages in a foul language known as Dark Speech. Each time you do so, you take 1d12 psychic damage, and each non-evil creature within 15 feet of you takes 3d6 psychic damage.</p>
 			<p class="indent"><i><b>Destroying the Book.</b></i> The <em>Book of Vile Darkness</em> allows pages to be torn from it, but any evil lore contained on those pages finds its way back into the book eventually, usually when a new author adds pages to the tome.</p>
 			<p class="indent">If a solar tears the book in two, the book is destroyed for 1d100 years, after which it reforms in some dark corner of the multiverse.</p>
-			<p class="indent">A creature attuned to the book for one hundred years can unearth a phrase hidden in the original text that, when translated to Celestial and spoken aloud, destroys both the speaker and the book in a blinding flash of radiance. However, as long as evil exists in the multiverse, the book reforms 1d10 × 100 years later.</p>
+			<p class="indent">A creature attuned to the book for one hundred years can unearth a phrase hidden in the original text that, when translated to Celestial and spoken aloud, destroys both the speaker and the book in a blinding flash of radiance. However, as long as evil exists in the multiverse, the book reforms 1d10 Ã— 100 years later.</p>
 			<p class="indent">If all evil in the multiverse is wiped out, the book turns to dust and is forever destroyed.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_CIRCLE_OF_DEATH" />

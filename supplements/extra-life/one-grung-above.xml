@@ -3,19 +3,19 @@
 	<info>
 		<name>One Grung Above</name>
 		<update version="0.0.9">
-			<file name="one-grung-above.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/extra-life/one-grung-above.xml" />
+			<file name="one-grung-above.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/extra-life/one-grung-above.xml" />
 		</update>
 	</info>
 
 	<element name="One Grung Above" type="Source" source="Core" id="ID_WOTC_SOURCE_ONE_GRUNG_ABOVE">
 		<description>
 			<p>From the depths of the jungles of Chult they're here!</p>
-			<p><em>Disclaimer: Outside of a certain surrogate character, this document in no way makes grung a legal, playable race in the D&amp;D Adventurers League, or any other campaign where the Dungeon Master hates amphibians with an excess of apostrophes in their names… and yes if you’re not immune to poison and you must touch the grung to heal it… you get to make a saving throw.</em></p>
+			<p><em>Disclaimer: Outside of a certain surrogate character, this document in no way makes grung a legal, playable race in the D&amp;D Adventurers League, or any other campaign where the Dungeon Master hates amphibians with an excess of apostrophes in their namesâ€¦ and yes if youâ€™re not immune to poison and you must touch the grung to heal itâ€¦ you get to make a saving throw.</em></p>
 		</description>
 		<setters>
 			<set name="abbreviation">OGA</set>
 			<set name="url">https://www.dmsguild.com/product/223738/One-Grung-Above-5eg</set>
-			<set name="image">https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/extra-life/EL-OGA.png</set>
+			<set name="image">https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/extra-life/EL-OGA.png</set>
 			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
 			<set name="official">true</set>
 			<set name="supplement">true</set>
@@ -36,11 +36,11 @@
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2 and your Constitution score increases by 1.</p>
 			<p class="indent"><strong><em>Age.</em></strong> Grungs mature to adulthood in a single year, but have been known to live up to 50 years.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Most grungs are lawful, having been raised in a strict caste system. They tend toward evil as well, coming from a culture where social advancement occurs rarely, and most often because another member of your army has died and there is no one else of that caste to fill the vacancy.</p>
-			<p class="indent"><strong><em>Size.</em></strong> Grungs stand between 2 ½ and 3 ½ feet tall and average about 30 pounds. Your size is Small.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Grungs stand between 2 Â½ and 3 Â½ feet tall and average about 30 pounds. Your size is Small.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet, and you have a climbing speed of 25 feet.</p>
 			<p class="indent"><strong><em>Arboreal Alertness.</em></strong> You have proficiency in the Perception skill.</p>
 			<p class="indent"><strong><em>Amphibious.</em></strong> You can breathe air and water.</p>
-			<p class="indent"><strong><em>Poison Immunity.</em></strong> You’re immune to poison damage and the poisoned condition.</p>
+			<p class="indent"><strong><em>Poison Immunity.</em></strong> Youâ€™re immune to poison damage and the poisoned condition.</p>
 			<p class="indent"><strong><em>Poisonous Skin.</em></strong> Any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with you can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
 			<p class="indent">You can also apply this poison to any piercing weapon as part of an attack with that weapon, though when you hit the poison reacts differently. The target must succeed on a DC 12 Constitution saving throw or take 2d4 poison damage.</p>
 			<p class="indent"><strong><em>Standing Leap.</em></strong> Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start.</p>
@@ -49,7 +49,7 @@
 		</description>
 		<sheet display="false" />
 		<setters>
-			<set name="names" type="custom">D’Ahten’khan, B’Ang’r’Ang, B'Leep, Mee’Yah-Ghee</set>
+			<set name="names" type="custom">Dâ€™Ahtenâ€™khan, Bâ€™Angâ€™râ€™Ang, B'Leep, Meeâ€™Yah-Ghee</set>
 			<set name="names-format">{{custom}}</set>
 			<set name="height" modifier="1d10">2'6"</set>
 			<set name="weight" modifier="1">30 lb.</set>
@@ -95,7 +95,7 @@
 	</element>
 	<element name="Poison Immunity" type="Racial Trait" source="One Grung Above" id="ID_WOTC_OGA_RACIAL_TRAIT_GRUNG_POISON_IMMUNITY">
 		<description>
-			<p>You’re immune to poison damage and the poisoned condition.</p>
+			<p>Youâ€™re immune to poison damage and the poisoned condition.</p>
 		</description>
 		<sheet>
 			<description>You are immune to the poisoned condition.</description>
@@ -148,8 +148,8 @@
 	<element name="Whistle-Stick" type="Item" source="One Grung Above" id="ID_WOTC_OGA_ITEM_WHISTLE_STICK">
 		<supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
 		<description>
-			<p>This is a hollow tube with holes cut throughout, much like a flute. You can play music with it for entertainment, but the grung also swing it about by a sturdy cord (attached) to create a sound recognizable by other grung, so they know each other’s approximate location.</p>
-			<p class="indent">Additionally, grung that know Thieves’ Cant can use a whistle stick in this manner to communicate over distance.</p>
+			<p>This is a hollow tube with holes cut throughout, much like a flute. You can play music with it for entertainment, but the grung also swing it about by a sturdy cord (attached) to create a sound recognizable by other grung, so they know each otherâ€™s approximate location.</p>
+			<p class="indent">Additionally, grung that know Thievesâ€™ Cant can use a whistle stick in this manner to communicate over distance.</p>
 		</description>
 		<setters>
 			<set name="category">Musical Instruments</set>
@@ -163,8 +163,8 @@
 	<element name="Tool Proficiency (Whistle-Stick)" type="Proficiency" source="One Grung Above" id="ID_WOTC_OGA_PROFICIENCY_TOOL_PROFICIENCY_WHISTLE_STICK">
 		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
 		<description>
-			<p>This is a hollow tube with holes cut throughout, much like a flute. You can play music with it for entertainment, but the grung also swing it about by a sturdy cord (attached) to create a sound recognizable by other grung, so they know each other’s approximate location.</p>
-			<p class="indent">Additionally, grung that know Thieves’ Cant can use a whistle stick in this manner to communicate over distance.</p>
+			<p>This is a hollow tube with holes cut throughout, much like a flute. You can play music with it for entertainment, but the grung also swing it about by a sturdy cord (attached) to create a sound recognizable by other grung, so they know each otherâ€™s approximate location.</p>
+			<p class="indent">Additionally, grung that know Thievesâ€™ Cant can use a whistle stick in this manner to communicate over distance.</p>
 		</description>
 		<sheet alt="Whistle-Stick" />
 	</element>

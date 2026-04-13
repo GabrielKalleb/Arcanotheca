@@ -2,36 +2,36 @@
 <elements>
 	<info>
 		<name>Gnomo</name>
-		<description>A espécie Gnomo do Livro do Jogador 2024.</description>
+		<description>A espÃ©cie Gnomo do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="race-gnome.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/races/race-gnome.xml" />
+			<file name="race-gnome.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/races/race-gnome.xml" />
 		</update>
 	</info>
 	
-	<element name="Gnomo" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_GNOME">
+	<element name="Gnomo" type="Race" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACE_GNOME">
 		<description>
-			<p>Gnomos são um povo mágico criado por deuses da invenção, ilusões e da vida subterrânea. Os primeiros gnomos raramente eram vistos por outros povos devido à sua natureza reservada e sua propensão a viver em florestas e tocas. O que lhes faltava em tamanho, eles compensavam em esperteza. Eles confundiam predadores com armadilhas e túneis labirínticos. Eles também aprenderam magia de deuses como Garl Ouro Cintilante, Baervan Andarilho Selvagem e Baravar Manto das Sombras, que os visitavam disfarçados. Essa magia acabou criando as linhagens dos gnomos da floresta e gnomos das rochas.</p>
-			<p class="indent">Gnomos são pessoas pequenas com olhos grandes e orelhas pontudas, que vivem cerca de 425 anos. Muitos gnomos gostam da sensação de ter um teto sobre suas cabeças, mesmo que esse "teto" não seja nada mais do que um chapéu.</p>
-			<h5>CARACTERÍSTICAS DO GNOMO</h5>
+			<p>Gnomos sÃ£o um povo mÃ¡gico criado por deuses da invenÃ§Ã£o, ilusÃµes e da vida subterrÃ¢nea. Os primeiros gnomos raramente eram vistos por outros povos devido Ã  sua natureza reservada e sua propensÃ£o a viver em florestas e tocas. O que lhes faltava em tamanho, eles compensavam em esperteza. Eles confundiam predadores com armadilhas e tÃºneis labirÃ­nticos. Eles tambÃ©m aprenderam magia de deuses como Garl Ouro Cintilante, Baervan Andarilho Selvagem e Baravar Manto das Sombras, que os visitavam disfarÃ§ados. Essa magia acabou criando as linhagens dos gnomos da floresta e gnomos das rochas.</p>
+			<p class="indent">Gnomos sÃ£o pessoas pequenas com olhos grandes e orelhas pontudas, que vivem cerca de 425 anos. Muitos gnomos gostam da sensaÃ§Ã£o de ter um teto sobre suas cabeÃ§as, mesmo que esse "teto" nÃ£o seja nada mais do que um chapÃ©u.</p>
+			<h5>CARACTERÃSTICAS DO GNOMO</h5>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
 				<li><strong>Tipo de Criatura:</strong> Humanoide</li>
 				<li><strong>Tamanho:</strong> Pequeno (cerca de 0,90 a 1,20 metros de altura)</li>
-				<li><strong>Deslocamento:</strong> 9 metros (30 pés)</li>
+				<li><strong>Deslocamento:</strong> 9 metros (30 pÃ©s)</li>
 			</ul>
-			<p>Como um Gnomo, você possui estas características especiais.</p>
-			<p class="indent"><strong><em>Visão no Escuro.</em></strong> Você possui Visão no Escuro com um alcance de 18 metros (60 pés).</p> 
-			<p class="indent"><strong><em>Astúcia Gnômica.</em></strong> Você tem Vantagem em testes de resistência de Inteligência, Sabedoria e Carisma.</p> 
-			<p class="indent" style="margin-bottom:5px"><strong><em>Linhagem Gnômica.</em></strong> Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais. Escolha uma das opções a seguir; seja qual for a sua escolha, Inteligência, Sabedoria ou Carisma será sua habilidade de conjuração para as magias que você conjurar com esta característica (escolha a habilidade ao selecionar a linhagem):</p>
+			<p>Como um Gnomo, vocÃª possui estas caracterÃ­sticas especiais.</p>
+			<p class="indent"><strong><em>VisÃ£o no Escuro.</em></strong> VocÃª possui VisÃ£o no Escuro com um alcance de 18 metros (60 pÃ©s).</p> 
+			<p class="indent"><strong><em>AstÃºcia GnÃ´mica.</em></strong> VocÃª tem Vantagem em testes de resistÃªncia de InteligÃªncia, Sabedoria e Carisma.</p> 
+			<p class="indent" style="margin-bottom:5px"><strong><em>Linhagem GnÃ´mica.</em></strong> VocÃª faz parte de uma linhagem que lhe concede habilidades sobrenaturais. Escolha uma das opÃ§Ãµes a seguir; seja qual for a sua escolha, InteligÃªncia, Sabedoria ou Carisma serÃ¡ sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjurar com esta caracterÃ­stica (escolha a habilidade ao selecionar a linhagem):</p>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em">
-				<li><strong>Gnomo da Floresta.</strong> Você conhece o truque <i>Ilusão Menor</i>. Você também tem sempre a magia <i>Falar com Animais</i> preparada. Você pode conjurá-la sem usar um espaço de magia um número de vezes igual ao seu Bônus de Proficiência, e você recupera todos os usos gastos ao terminar um Descanso Longo. Você também pode usar quaisquer espaços de magia que possua para conjurar a magia.</li>
-				<li><strong>Gnomo das Rochas.</strong> Você conhece os truques <i>Consertar</i> e <i>Prestidigitação</i>. Além disso, você pode gastar 10 minutos conjurando <i>Prestidigitação</i> para criar um dispositivo mecânico Miúdo (CA 5, 1 PV), como um brinquedo, um iniciador de fogo ou uma caixa de música. Ao criar o dispositivo, você determina sua função escolhendo um efeito de <i>Prestidigitação</i>; o dispositivo produz aquele efeito sempre que você ou outra criatura usar uma Ação Bônus para ativá-lo com um toque. Se o efeito escolhido tiver opções, você escolhe apenas uma dessas opções para o dispositivo ao criá-lo. Por exemplo, se você escolher o efeito de acender-apagar da magia, você determina se o dispositivo acende ou apaga o fogo; o dispositivo não faz ambos. Você pode ter até três desses dispositivos existindo ao mesmo tempo, e cada um se desfaz 8 horas após a sua criação ou quando você o desmontar com um toque como uma ação de Utilizar.</li>
+				<li><strong>Gnomo da Floresta.</strong> VocÃª conhece o truque <i>IlusÃ£o Menor</i>. VocÃª tambÃ©m tem sempre a magia <i>Falar com Animais</i> preparada. VocÃª pode conjurÃ¡-la sem usar um espaÃ§o de magia um nÃºmero de vezes igual ao seu BÃ´nus de ProficiÃªncia, e vocÃª recupera todos os usos gastos ao terminar um Descanso Longo. VocÃª tambÃ©m pode usar quaisquer espaÃ§os de magia que possua para conjurar a magia.</li>
+				<li><strong>Gnomo das Rochas.</strong> VocÃª conhece os truques <i>Consertar</i> e <i>PrestidigitaÃ§Ã£o</i>. AlÃ©m disso, vocÃª pode gastar 10 minutos conjurando <i>PrestidigitaÃ§Ã£o</i> para criar um dispositivo mecÃ¢nico MiÃºdo (CA 5, 1 PV), como um brinquedo, um iniciador de fogo ou uma caixa de mÃºsica. Ao criar o dispositivo, vocÃª determina sua funÃ§Ã£o escolhendo um efeito de <i>PrestidigitaÃ§Ã£o</i>; o dispositivo produz aquele efeito sempre que vocÃª ou outra criatura usar uma AÃ§Ã£o BÃ´nus para ativÃ¡-lo com um toque. Se o efeito escolhido tiver opÃ§Ãµes, vocÃª escolhe apenas uma dessas opÃ§Ãµes para o dispositivo ao criÃ¡-lo. Por exemplo, se vocÃª escolher o efeito de acender-apagar da magia, vocÃª determina se o dispositivo acende ou apaga o fogo; o dispositivo nÃ£o faz ambos. VocÃª pode ter atÃ© trÃªs desses dispositivos existindo ao mesmo tempo, e cada um se desfaz 8 horas apÃ³s a sua criaÃ§Ã£o ou quando vocÃª o desmontar com um toque como uma aÃ§Ã£o de Utilizar.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_GNOME" />
-			<select type="Ability Score Improvement" name="Opção de Melhoria de Valor de Habilidade (Gnomo)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Ability Score Improvement" name="OpÃ§Ã£o de Melhoria de Valor de Habilidade (Gnomo)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
 			<grant type="Size" id="ID_SIZE_SMALL" />
 			<stat name="innate speed" value="30" bonus="base" />
 
@@ -45,74 +45,74 @@
 		</rules>
 	</element>
 
-	<element name="Astúcia Gnômica" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_CUNNING">
+	<element name="AstÃºcia GnÃ´mica" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_CUNNING">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GNOME_GNOMISH_CUNNING</requirements>
 		<description>
-			<p>Você tem Vantagem em testes de resistência de Inteligência, Sabedoria e Carisma.</p> 
+			<p>VocÃª tem Vantagem em testes de resistÃªncia de InteligÃªncia, Sabedoria e Carisma.</p> 
 		</description>
 		<sheet>
-			<description>Você tem Vantagem em testes de resistência de Inteligência, Sabedoria e Carisma.</description>
+			<description>VocÃª tem Vantagem em testes de resistÃªncia de InteligÃªncia, Sabedoria e Carisma.</description>
 		</sheet>
 	</element>
 
-	<element name="Linhagem Gnômica" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE">
+	<element name="Linhagem GnÃ´mica" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GNOME_GNOMISH_LINEAGE</requirements>
 		<description>
-			<p>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais. Escolha uma das opções a seguir; seja qual for a sua escolha, Inteligência, Sabedoria ou Carisma será sua habilidade de conjuração para as magias que você conjurar com esta característica (escolha a habilidade ao selecionar a linhagem):</p>
+			<p>VocÃª faz parte de uma linhagem que lhe concede habilidades sobrenaturais. Escolha uma das opÃ§Ãµes a seguir; seja qual for a sua escolha, InteligÃªncia, Sabedoria ou Carisma serÃ¡ sua habilidade de conjuraÃ§Ã£o para as magias que vocÃª conjurar com esta caracterÃ­stica (escolha a habilidade ao selecionar a linhagem):</p>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em">
-				<li><strong>Gnomo da Floresta.</strong> Você conhece o truque <i>Ilusão Menor</i>. Você também tem sempre a magia <i>Falar com Animais</i> preparada. Você pode conjurá-la sem usar um espaço de magia um número de vezes igual ao seu Bônus de Proficiência, e você recupera todos os usos gastos ao terminar um Descanso Longo. Você também pode usar quaisquer espaços de magia que possua para conjurar a magia.</li>
-				<li><strong>Gnomo das Rochas.</strong> Você conhece os truques <i>Consertar</i> e <i>Prestidigitação</i>. Além disso, você pode gastar 10 minutos conjurando <i>Prestidigitação</i> para criar um dispositivo mecânico Miúdo (CA 5, 1 PV), como um brinquedo, um iniciador de fogo ou uma caixa de música. Ao criar o dispositivo, você determina sua função escolhendo um efeito de <i>Prestidigitação</i>; o dispositivo produz aquele efeito sempre que você ou outra criatura usar uma Ação Bônus para ativá-lo com um toque. Se o efeito escolhido tiver opções, você escolhe apenas uma dessas opções para o dispositivo ao criá-lo. Por exemplo, se você escolher o efeito de acender-apagar da magia, você determina se o dispositivo acende ou apaga o fogo; o dispositivo não faz ambos. Você pode ter até três desses dispositivos existindo ao mesmo tempo, e cada um se desfaz 8 horas após a sua criação ou quando você o desmontar com um toque como uma ação de Utilizar.</li>
+				<li><strong>Gnomo da Floresta.</strong> VocÃª conhece o truque <i>IlusÃ£o Menor</i>. VocÃª tambÃ©m tem sempre a magia <i>Falar com Animais</i> preparada. VocÃª pode conjurÃ¡-la sem usar um espaÃ§o de magia um nÃºmero de vezes igual ao seu BÃ´nus de ProficiÃªncia, e vocÃª recupera todos os usos gastos ao terminar um Descanso Longo. VocÃª tambÃ©m pode usar quaisquer espaÃ§os de magia que possua para conjurar a magia.</li>
+				<li><strong>Gnomo das Rochas.</strong> VocÃª conhece os truques <i>Consertar</i> e <i>PrestidigitaÃ§Ã£o</i>. AlÃ©m disso, vocÃª pode gastar 10 minutos conjurando <i>PrestidigitaÃ§Ã£o</i> para criar um dispositivo mecÃ¢nico MiÃºdo (CA 5, 1 PV), como um brinquedo, um iniciador de fogo ou uma caixa de mÃºsica. Ao criar o dispositivo, vocÃª determina sua funÃ§Ã£o escolhendo um efeito de <i>PrestidigitaÃ§Ã£o</i>; o dispositivo produz aquele efeito sempre que vocÃª ou outra criatura usar uma AÃ§Ã£o BÃ´nus para ativÃ¡-lo com um toque. Se o efeito escolhido tiver opÃ§Ãµes, vocÃª escolhe apenas uma dessas opÃ§Ãµes para o dispositivo ao criÃ¡-lo. Por exemplo, se vocÃª escolher o efeito de acender-apagar da magia, vocÃª determina se o dispositivo acende ou apaga o fogo; o dispositivo nÃ£o faz ambos. VocÃª pode ter atÃ© trÃªs desses dispositivos existindo ao mesmo tempo, e cada um se desfaz 8 horas apÃ³s a sua criaÃ§Ã£o ou quando vocÃª o desmontar com um toque como uma aÃ§Ã£o de Utilizar.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Racial Trait" name="Linhagem Gnômica" supports="Gnomish Lineage 2024" />
+			<select type="Racial Trait" name="Linhagem GnÃ´mica" supports="Gnomish Lineage 2024" />
 		</rules>
 	</element>
 
-	<element name="Gnomo da Floresta" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME">
+	<element name="Gnomo da Floresta" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME">
 		<supports>Gnomish Lineage 2024</supports>
 		<description>
-			<p>Você conhece o truque <i>Ilusão Menor</i>. Você também tem sempre a magia <i>Falar com Animais</i> preparada. Você pode conjurá-la sem usar um espaço de magia um número de vezes igual ao seu Bônus de Proficiência, e você recupera todos os usos gastos ao terminar um Descanso Longo. Você também pode usar quaisquer espaços de magia que possua para conjurar a magia.</p>
+			<p>VocÃª conhece o truque <i>IlusÃ£o Menor</i>. VocÃª tambÃ©m tem sempre a magia <i>Falar com Animais</i> preparada. VocÃª pode conjurÃ¡-la sem usar um espaÃ§o de magia um nÃºmero de vezes igual ao seu BÃ´nus de ProficiÃªncia, e vocÃª recupera todos os usos gastos ao terminar um Descanso Longo. VocÃª tambÃ©m pode usar quaisquer espaÃ§os de magia que possua para conjurar a magia.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Racial Trait" name="Habilidade de Conjuração (Linhagem Gnômica)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_CHARISMA" />
+			<select type="Racial Trait" name="Habilidade de ConjuraÃ§Ã£o (Linhagem GnÃ´mica)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_CHARISMA" />
 		</rules>
 	</element>
-	<element name="Inteligência" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_INTELLIGENCE">
+	<element name="InteligÃªncia" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Inteligência é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Gnômica.</p>
+			<p>InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s da caracterÃ­stica Linhagem GnÃ´mica.</p>
 		</description>
-		<sheet alt="Linhagem Gnômica (Gnomo da Floresta)">
-			<description>Você conhece o truque Ilusão Menor, e pode conjurar a magia Falar com Animais {{proficiency}} vezes por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias conjuradas através desta característica. Você também pode conjurar esta magia usando quaisquer espaços de magia que possuir do nível apropriado.</description>
+		<sheet alt="Linhagem GnÃ´mica (Gnomo da Floresta)">
+			<description>VocÃª conhece o truque IlusÃ£o Menor, e pode conjurar a magia Falar com Animais {{proficiency}} vezes por Descanso Longo. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s desta caracterÃ­stica. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que possuir do nÃ­vel apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MINOR_ILLUSION" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_ANIMALS" />
 		</rules>
 	</element>
-	<element name="Sabedoria" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_WISDOM">
+	<element name="Sabedoria" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Sabedoria é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Gnômica.</p>
+			<p>Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s da caracterÃ­stica Linhagem GnÃ´mica.</p>
 		</description>
-		<sheet alt="Linhagem Gnômica (Gnomo da Floresta)">
-			<description>Você conhece o truque Ilusão Menor, e pode conjurar a magia Falar com Animais {{proficiency}} vezes por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias conjuradas através desta característica. Você também pode conjurar esta magia usando quaisquer espaços de magia que possuir do nível apropriado.</description>
+		<sheet alt="Linhagem GnÃ´mica (Gnomo da Floresta)">
+			<description>VocÃª conhece o truque IlusÃ£o Menor, e pode conjurar a magia Falar com Animais {{proficiency}} vezes por Descanso Longo. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s desta caracterÃ­stica. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que possuir do nÃ­vel apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MINOR_ILLUSION" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_ANIMALS" />
 		</rules>
 	</element>
-	<element name="Carisma" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_CHARISMA">
+	<element name="Carisma" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_FOREST_GNOME_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Carisma é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Gnômica.</p>
+			<p>Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s da caracterÃ­stica Linhagem GnÃ´mica.</p>
 		</description>
-		<sheet alt="Linhagem Gnômica (Gnomo da Floresta)">
-			<description>Você conhece o truque Ilusão Menor, e pode conjurar a magia Falar com Animais {{proficiency}} vezes por Descanso Longo. Carisma é sua habilidade de conjuração para as magias conjuradas através desta característica. Você também pode conjurar esta magia usando quaisquer espaços de magia que possuir do nível apropriado.</description>
+		<sheet alt="Linhagem GnÃ´mica (Gnomo da Floresta)">
+			<description>VocÃª conhece o truque IlusÃ£o Menor, e pode conjurar a magia Falar com Animais {{proficiency}} vezes por Descanso Longo. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s desta caracterÃ­stica. VocÃª tambÃ©m pode conjurar esta magia usando quaisquer espaÃ§os de magia que possuir do nÃ­vel apropriado.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MINOR_ILLUSION" />
@@ -120,52 +120,52 @@
 		</rules>
 	</element>
 
-	<element name="Gnomo das Rochas" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME">
+	<element name="Gnomo das Rochas" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME">
 		<supports>Gnomish Lineage 2024</supports>
 		<description>
-			<p>Você conhece os truques <i>Consertar</i> e <i>Prestidigitação</i>. Além disso, você pode gastar 10 minutos conjurando <i>Prestidigitação</i> para criar um dispositivo mecânico Miúdo (CA 5, 1 PV), como um brinquedo, um iniciador de fogo ou uma caixa de música. Ao criar o dispositivo, você determina sua função escolhendo um efeito de <i>Prestidigitação</i>; o dispositivo produz aquele efeito sempre que você ou outra criatura usar uma Ação Bônus para ativá-lo com um toque. Se o efeito escolhido tiver opções, você escolhe apenas uma dessas opções para o dispositivo ao criá-lo. Por exemplo, se você escolher o efeito de acender-apagar da magia, você determina se o dispositivo acende ou apaga o fogo; o dispositivo não faz ambos. Você pode ter até três desses dispositivos existindo ao mesmo tempo, e cada um se desfaz 8 horas após a sua criação ou quando você o desmontar com um toque como uma ação de Utilizar.</p> 
+			<p>VocÃª conhece os truques <i>Consertar</i> e <i>PrestidigitaÃ§Ã£o</i>. AlÃ©m disso, vocÃª pode gastar 10 minutos conjurando <i>PrestidigitaÃ§Ã£o</i> para criar um dispositivo mecÃ¢nico MiÃºdo (CA 5, 1 PV), como um brinquedo, um iniciador de fogo ou uma caixa de mÃºsica. Ao criar o dispositivo, vocÃª determina sua funÃ§Ã£o escolhendo um efeito de <i>PrestidigitaÃ§Ã£o</i>; o dispositivo produz aquele efeito sempre que vocÃª ou outra criatura usar uma AÃ§Ã£o BÃ´nus para ativÃ¡-lo com um toque. Se o efeito escolhido tiver opÃ§Ãµes, vocÃª escolhe apenas uma dessas opÃ§Ãµes para o dispositivo ao criÃ¡-lo. Por exemplo, se vocÃª escolher o efeito de acender-apagar da magia, vocÃª determina se o dispositivo acende ou apaga o fogo; o dispositivo nÃ£o faz ambos. VocÃª pode ter atÃ© trÃªs desses dispositivos existindo ao mesmo tempo, e cada um se desfaz 8 horas apÃ³s a sua criaÃ§Ã£o ou quando vocÃª o desmontar com um toque como uma aÃ§Ã£o de Utilizar.</p> 
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Racial Trait" name="Habilidade de Conjuração (Linhagem Gnômica)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_CHARISMA" />
+			<select type="Racial Trait" name="Habilidade de ConjuraÃ§Ã£o (Linhagem GnÃ´mica)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_CHARISMA" />
 		</rules>
 	</element>
-	<element name="Inteligência " type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_INTELLIGENCE">
+	<element name="InteligÃªncia " type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Inteligência é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Gnômica.</p>
+			<p>InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s da caracterÃ­stica Linhagem GnÃ´mica.</p>
 		</description>
-		<sheet alt="Linhagem Gnômica (Gnomo das Rochas)">
-			<description>Você conhece os truques Consertar e Prestidigitação. Inteligência é sua habilidade de conjuração para as magias conjuradas através desta característica. &#13;
-			Além disso, você pode gastar 10 minutos conjurando Prestidigitação para criar um dispositivo mecânico Miúdo (CA 5, 1 PV). Você determina a função do dispositivo escolhendo um efeito de Prestidigitação; o dispositivo produz aquele efeito sempre que uma criatura usar uma Ação Bônus para ativá-lo com um toque. Se o efeito escolhido tiver opções, você pode escolher apenas uma dessas opções ao criá-lo. Você pode ter até 3 desses dispositivos ao mesmo tempo, e cada um se desfaz 8 horas após sua criação ou quando desmontado com um toque como uma ação Utilizar.</description>
+		<sheet alt="Linhagem GnÃ´mica (Gnomo das Rochas)">
+			<description>VocÃª conhece os truques Consertar e PrestidigitaÃ§Ã£o. InteligÃªncia Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s desta caracterÃ­stica. &#13;
+			AlÃ©m disso, vocÃª pode gastar 10 minutos conjurando PrestidigitaÃ§Ã£o para criar um dispositivo mecÃ¢nico MiÃºdo (CA 5, 1 PV). VocÃª determina a funÃ§Ã£o do dispositivo escolhendo um efeito de PrestidigitaÃ§Ã£o; o dispositivo produz aquele efeito sempre que uma criatura usar uma AÃ§Ã£o BÃ´nus para ativÃ¡-lo com um toque. Se o efeito escolhido tiver opÃ§Ãµes, vocÃª pode escolher apenas uma dessas opÃ§Ãµes ao criÃ¡-lo. VocÃª pode ter atÃ© 3 desses dispositivos ao mesmo tempo, e cada um se desfaz 8 horas apÃ³s sua criaÃ§Ã£o ou quando desmontado com um toque como uma aÃ§Ã£o Utilizar.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MENDING" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PRESTIDIGITATION" />
 		</rules>
 	</element>
-	<element name="Sabedoria " type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_WISDOM">
+	<element name="Sabedoria " type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Sabedoria é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Gnômica.</p>
+			<p>Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s da caracterÃ­stica Linhagem GnÃ´mica.</p>
 		</description>
-		<sheet alt="Linhagem Gnômica (Gnomo das Rochas)">
-			<description>Você conhece os truques Consertar e Prestidigitação. Sabedoria é sua habilidade de conjuração para as magias conjuradas através desta característica. &#13;
-			Além disso, você pode gastar 10 minutos conjurando Prestidigitação para criar um dispositivo mecânico Miúdo (CA 5, 1 PV). Você determina a função do dispositivo escolhendo um efeito de Prestidigitação; o dispositivo produz aquele efeito sempre que uma criatura usar uma Ação Bônus para ativá-lo com um toque. Se o efeito escolhido tiver opções, você pode escolher apenas uma dessas opções ao criá-lo. Você pode ter até 3 desses dispositivos ao mesmo tempo, e cada um se desfaz 8 horas após sua criação ou quando desmontado com um toque como uma ação Utilizar.</description>
+		<sheet alt="Linhagem GnÃ´mica (Gnomo das Rochas)">
+			<description>VocÃª conhece os truques Consertar e PrestidigitaÃ§Ã£o. Sabedoria Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s desta caracterÃ­stica. &#13;
+			AlÃ©m disso, vocÃª pode gastar 10 minutos conjurando PrestidigitaÃ§Ã£o para criar um dispositivo mecÃ¢nico MiÃºdo (CA 5, 1 PV). VocÃª determina a funÃ§Ã£o do dispositivo escolhendo um efeito de PrestidigitaÃ§Ã£o; o dispositivo produz aquele efeito sempre que uma criatura usar uma AÃ§Ã£o BÃ´nus para ativÃ¡-lo com um toque. Se o efeito escolhido tiver opÃ§Ãµes, vocÃª pode escolher apenas uma dessas opÃ§Ãµes ao criÃ¡-lo. VocÃª pode ter atÃ© 3 desses dispositivos ao mesmo tempo, e cada um se desfaz 8 horas apÃ³s sua criaÃ§Ã£o ou quando desmontado com um toque como uma aÃ§Ã£o Utilizar.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MENDING" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PRESTIDIGITATION" />
 		</rules>
 	</element>
-	<element name="Carisma " type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_CHARISMA">
+	<element name="Carisma " type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GNOME_GNOMISH_LINEAGE_ROCK_GNOME_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Carisma é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Gnômica.</p>
+			<p>Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s da caracterÃ­stica Linhagem GnÃ´mica.</p>
 		</description>
-		<sheet alt="Linhagem Gnômica (Gnomo das Rochas)">
-			<description>Você conhece os truques Consertar e Prestidigitação. Carisma é sua habilidade de conjuração para as magias conjuradas através desta característica. &#13;
-			Além disso, você pode gastar 10 minutos conjurando Prestidigitação para criar um dispositivo mecânico Miúdo (CA 5, 1 PV). Você determina a função do dispositivo escolhendo um efeito de Prestidigitação; o dispositivo produz aquele efeito sempre que uma criatura usar uma Ação Bônus para ativá-lo com um toque. Se o efeito escolhido tiver opções, você pode escolher apenas uma dessas opções ao criá-lo. Você pode ter até 3 desses dispositivos ao mesmo tempo, e cada um se desfaz 8 horas após sua criação ou quando desmontado com um toque como uma ação Utilizar.</description>
+		<sheet alt="Linhagem GnÃ´mica (Gnomo das Rochas)">
+			<description>VocÃª conhece os truques Consertar e PrestidigitaÃ§Ã£o. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para as magias conjuradas atravÃ©s desta caracterÃ­stica. &#13;
+			AlÃ©m disso, vocÃª pode gastar 10 minutos conjurando PrestidigitaÃ§Ã£o para criar um dispositivo mecÃ¢nico MiÃºdo (CA 5, 1 PV). VocÃª determina a funÃ§Ã£o do dispositivo escolhendo um efeito de PrestidigitaÃ§Ã£o; o dispositivo produz aquele efeito sempre que uma criatura usar uma AÃ§Ã£o BÃ´nus para ativÃ¡-lo com um toque. Se o efeito escolhido tiver opÃ§Ãµes, vocÃª pode escolher apenas uma dessas opÃ§Ãµes ao criÃ¡-lo. VocÃª pode ter atÃ© 3 desses dispositivos ao mesmo tempo, e cada um se desfaz 8 horas apÃ³s sua criaÃ§Ã£o ou quando desmontado com um toque como uma aÃ§Ã£o Utilizar.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MENDING" />
@@ -173,8 +173,8 @@
 		</rules>
 	</element>
 
-	<element name="Substituição da Característica Visão no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GNOME_DARKVISION" />
-	<element name="Substituição da Característica Astúcia Gnômica" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GNOME_GNOMISH_CUNNING" />
-	<element name="Substituição da Característica Linhagem Gnômica" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GNOME_GNOMISH_LINEAGE" />
+	<element name="SubstituiÃ§Ã£o da CaracterÃ­stica VisÃ£o no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GNOME_DARKVISION" />
+	<element name="SubstituiÃ§Ã£o da CaracterÃ­stica AstÃºcia GnÃ´mica" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GNOME_GNOMISH_CUNNING" />
+	<element name="SubstituiÃ§Ã£o da CaracterÃ­stica Linhagem GnÃ´mica" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GNOME_GNOMISH_LINEAGE" />
 
 </elements>

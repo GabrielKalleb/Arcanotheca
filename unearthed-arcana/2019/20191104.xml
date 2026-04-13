@@ -3,13 +3,13 @@
     <info>
         <name>Unearthed Arcana: Class Feature Variants</name>
         <update version="0.0.2">
-            <file name="20191104.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2019/20191104.xml" />
+            <file name="20191104.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2019/20191104.xml" />
         </update>
     </info>
     
     <element name="Unearthed Arcana: Class Feature Variants" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20191104">
 		<description>
-			<p>Every character class in D&amp;D has features, and every class gets one or more class feature variants in today’s Unearthed Arcana! These variants replace or enhance a class’s normal features, giving you new ways to enjoy your character’s class.</p>
+			<p>Every character class in D&amp;D has features, and every class gets one or more class feature variants in todayâ€™s Unearthed Arcana! These variants replace or enhance a classâ€™s normal features, giving you new ways to enjoy your characterâ€™s class.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">UA20191104</set>

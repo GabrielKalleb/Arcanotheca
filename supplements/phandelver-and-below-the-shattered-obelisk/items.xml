@@ -3,7 +3,7 @@
 	<info>
 		<name>Magic Items and Blessings from Phandelver and Below: The Shattered Obelisk</name>
 		<update version="0.0.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/phandelver-and-below-the-shattered-obelisk/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/phandelver-and-below-the-shattered-obelisk/items.xml" />
 		</update>
 	</info>
 
@@ -37,7 +37,7 @@
 			<p>Ancient runes are stitched in silver thread along the hem of this grayish-purple cape.</p>
 			<p class="indent">The cape has 3 charges. As a bonus action while wearing the cape, you can expend 1 of its charges to enlarge yourself, granting yourself the following benefits:</p>
 			<ul>
-				<li>Your size increases by one category—from Medium to Large, for example. If there isn't enough room for your size to increase by one category, you instead become the maximum possible size in the space available.</li>
+				<li>Your size increases by one categoryâ€”from Medium to Large, for example. If there isn't enough room for your size to increase by one category, you instead become the maximum possible size in the space available.</li>
 				<li>You have advantage on Strength checks and Strength saving throws.</li>
 				<li>When you hit with an attack roll using a weapon or an unarmed strike, you can add your proficiency bonus to the attack's damage.</li>
 			</ul>

@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Montarias e Veículos</name>
-		<description>Montarias e Veículos do Livro do Jogador 2024.</description>
+		<name>Montarias e VeÃ­culos</name>
+		<description>Montarias e VeÃ­culos do Livro do Jogador 2024.</description>
 		<update version="0.0.1">
-			<file name="items-mounts-vehicles.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/items/items-mounts-vehicles.xml" />
+			<file name="items-mounts-vehicles.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/items/items-mounts-vehicles.xml" />
 		</update>
 	</info>
 
-	<element name="Barda" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BARDING">
+	<element name="Barda" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BARDING">
 		<description>
-			<p>Barda é uma armadura projetada para uma montaria. Qualquer tipo de armadura na tabela de Armaduras deste capítulo pode ser comprada como barda. O custo é quatro vezes o custo normal, e ela pesa o dobro.</p>
+			<p>Barda Ã© uma armadura projetada para uma montaria. Qualquer tipo de armadura na tabela de Armaduras deste capÃ­tulo pode ser comprada como barda. O custo Ã© quatro vezes o custo normal, e ela pesa o dobro.</p>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">—</set>
+			<set name="weight" lb="0">â€”</set>
 		</setters>
 	</element>
 
-	<element name="Camelo" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CAMEL">
+	<element name="Camelo" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CAMEL">
 		<description>
 			<h4 style="margin-top:0px" />
-			<p><em>Besta Grande, Sem Tendência</em></p>
+			<p><em>Besta Grande, Sem TendÃªncia</em></p>
 			<ul class="unstyled mb">
 				<li style="margin-bottom:-1em"><strong>CA</strong> 10</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Iniciativa</strong> -1 (9)</li>
 				<li style="margin-bottom:-1em"><strong>PV</strong> 17 (2d10 + 6)</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Capacidade de Carga</strong> 450 lb.</li>
-				<li><strong>Deslocamento</strong> 50 pés</li>
+				<li><strong>Deslocamento</strong> 50 pÃ©s</li>
 			</ul>
 			<table style="text-align:center">
 				<thead><tr><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td></tr></thead>
@@ -36,33 +36,33 @@
 				<tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>SAB</td><td>11</td><td>+0</td><td>+0</td><td>CAR</td><td>5</td><td>-3</td><td>-3</td></tr>
 			</table>
 			<ul class="unstyled">
-				<li><strong>Sentidos</strong> Visão no Escuro 60 pés; Percepção Passiva 10</li>
+				<li><strong>Sentidos</strong> VisÃ£o no Escuro 60 pÃ©s; PercepÃ§Ã£o Passiva 10</li>
 				<li><strong>Idiomas</strong> Nenhum</li>
-				<li><strong>Desafio</strong> 1/8 (25 XP; Bônus de Prof. +2)</li>
+				<li><strong>Desafio</strong> 1/8 (25 XP; BÃ´nus de Prof. +2)</li>
 			</ul>
-			<h4 style="margin-top:10px">Ações</h4>
+			<h4 style="margin-top:10px">AÃ§Ãµes</h4>
 			<ul class="unstyled">
-				<li><strong><em>Mordida. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +4, alcance 5 pés. <em>Acerto:</em> 4 (1d4 + 2) de dano de Concussão.</li>
+				<li><strong><em>Mordida. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +4, alcance 5 pÃ©s. <em>Acerto:</em> 4 (1d4 + 2) de dano de ConcussÃ£o.</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">50</set>
-			<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">â€”</set>
 			<set name="type">Montaria</set>
 		</setters>
 	</element>
 
-	<element name="Elefante" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ELEPHANT">
+	<element name="Elefante" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ELEPHANT">
 		<description>
 			<h4 style="margin-top:0px" />
-			<p><em>Besta Enorme, Sem Tendência</em></p>
+			<p><em>Besta Enorme, Sem TendÃªncia</em></p>
 			<ul class="unstyled mb">
 				<li style="margin-bottom:-1em"><strong>CA</strong> 12</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Iniciativa</strong> -1 (9)</li>
 				<li style="margin-bottom:-1em"><strong>PV</strong> 76 (8d12 + 24)</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Capacidade de Carga</strong> 1320 lb.</li>
-				<li><strong>Deslocamento</strong> 40 pés</li>
+				<li><strong>Deslocamento</strong> 40 pÃ©s</li>
 			</ul>
 			<table style="text-align:center">
 				<thead><tr><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td></tr></thead>
@@ -70,38 +70,38 @@
 				<tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>SAB</td><td>11</td><td>+0</td><td>+0</td><td>CAR</td><td>6</td><td>-2</td><td>-2</td></tr>
 			</table>
 			<ul class="unstyled">
-				<li><strong>Sentidos</strong> Percepção Passiva 10</li>
+				<li><strong>Sentidos</strong> PercepÃ§Ã£o Passiva 10</li>
 				<li><strong>Idiomas</strong> Nenhum</li>
-				<li><strong>Desafio</strong> 4 (1.100 XP; Bônus de Prof. +2)</li>
+				<li><strong>Desafio</strong> 4 (1.100 XP; BÃ´nus de Prof. +2)</li>
 			</ul>
-			<h4 style="margin-top:10px">Ações</h4>
+			<h4 style="margin-top:10px">AÃ§Ãµes</h4>
 			<ul class="unstyled">
-				<li><strong><em>Ataques Múltiplos. </em></strong> O elefante realiza duas vezes o ataque de Chifrada.</li>
-				<li><strong><em>Chifrada. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +8, alcance 5 pés. <em>Acerto:</em> 15 (2d8 + 6) de dano Perfurante. Se o elefante se moveu pelo menos 20 pés em linha reta em direção ao alvo imediatamente antes do acerto, o alvo também recebe a condição Caído.</li>
+				<li><strong><em>Ataques MÃºltiplos. </em></strong> O elefante realiza duas vezes o ataque de Chifrada.</li>
+				<li><strong><em>Chifrada. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +8, alcance 5 pÃ©s. <em>Acerto:</em> 15 (2d8 + 6) de dano Perfurante. Se o elefante se moveu pelo menos 20 pÃ©s em linha reta em direÃ§Ã£o ao alvo imediatamente antes do acerto, o alvo tambÃ©m recebe a condiÃ§Ã£o CaÃ­do.</li>
 			</ul>
-			<h4 style="margin-top:10px">Ações Bônus</h4>
+			<h4 style="margin-top:10px">AÃ§Ãµes BÃ´nus</h4>
 			<ul class="unstyled">
-				<li><strong><em>Atropelar. </em></strong><em>Teste de Resistência de Destreza:</em> CD 16, uma criatura a até 5 pés que possua a condição Caído. <em>Falha:</em> 17 (2d10 + 6) de dano de Concussão. <em>Sucesso:</em> Metade do dano.</li>
+				<li><strong><em>Atropelar. </em></strong><em>Teste de ResistÃªncia de Destreza:</em> CD 16, uma criatura a atÃ© 5 pÃ©s que possua a condiÃ§Ã£o CaÃ­do. <em>Falha:</em> 17 (2d10 + 6) de dano de ConcussÃ£o. <em>Sucesso:</em> Metade do dano.</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">200</set>
-			<set name="weight" lb="0">—</set>
+			<set name="weight" lb="0">â€”</set>
 			<set name="type">Montaria</set>
 		</setters>
 	</element>
 
-	<element name="Cavalo de Tração" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_HORSE_DRAFT">
+	<element name="Cavalo de TraÃ§Ã£o" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_HORSE_DRAFT">
 		<description>
 			<h4 style="margin-top:0px" />
-			<p><em>Besta Grande, Sem Tendência</em></p>
+			<p><em>Besta Grande, Sem TendÃªncia</em></p>
 			<ul class="unstyled mb">
 				<li style="margin-bottom:-1em"><strong>CA</strong> 10</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Iniciativa</strong> +0 (10)</li>
 				<li style="margin-bottom:-1em"><strong>PV</strong> 15 (2d10 + 4)</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Capacidade de Carga</strong> 540 lb.</li>
-				<li><strong>Deslocamento</strong> 40 pés</li>
+				<li><strong>Deslocamento</strong> 40 pÃ©s</li>
 			</ul>
 			<table style="text-align:center">
 				<thead><tr><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td></tr></thead>
@@ -109,33 +109,33 @@
 				<tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>SAB</td><td>11</td><td>+0</td><td>+0</td><td>CAR</td><td>7</td><td>-2</td><td>-2</td></tr>
 			</table>
 			<ul class="unstyled">
-				<li><strong>Sentidos</strong> Percepção Passiva 10</li>
+				<li><strong>Sentidos</strong> PercepÃ§Ã£o Passiva 10</li>
 				<li><strong>Idiomas</strong> Nenhum</li>
-				<li><strong>Desafio</strong> 1/4 (50 XP; Bônus de Prof. +2)</li>
+				<li><strong>Desafio</strong> 1/4 (50 XP; BÃ´nus de Prof. +2)</li>
 			</ul>
-			<h4 style="margin-top:10px">Ações</h4>
+			<h4 style="margin-top:10px">AÃ§Ãµes</h4>
 			<ul class="unstyled">
-				<li><strong><em>Cascos. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +6, alcance 5 pés. <em>Acerto:</em> 6 (1d4 + 4) de dano de Concussão.</li>
+				<li><strong><em>Cascos. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +6, alcance 5 pÃ©s. <em>Acerto:</em> 6 (1d4 + 4) de dano de ConcussÃ£o.</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">50</set>
-			<set name="weight" lb="0">—</set>
+			<set name="weight" lb="0">â€”</set>
 			<set name="type">Montaria</set>
 		</setters>
 	</element>
 
-	<element name="Cavalo de Montaria" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_HORSE_RIDING">
+	<element name="Cavalo de Montaria" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_HORSE_RIDING">
 		<description>
 			<h4 style="margin-top:0px" />
-			<p><em>Besta Grande, Sem Tendência</em></p>
+			<p><em>Besta Grande, Sem TendÃªncia</em></p>
 			<ul class="unstyled mb">
 				<li style="margin-bottom:-1em"><strong>CA</strong> 11</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Iniciativa</strong> +1 (11)</li>
 				<li style="margin-bottom:-1em"><strong>PV</strong> 13 (2d10 + 2)</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Capacidade de Carga</strong> 480 lb.</li>
-				<li><strong>Deslocamento</strong> 60 pés</li>
+				<li><strong>Deslocamento</strong> 60 pÃ©s</li>
 			</ul>
 			<table style="text-align:center">
 				<thead><tr><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td></tr></thead>
@@ -143,33 +143,33 @@
 				<tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>SAB</td><td>11</td><td>+0</td><td>+0</td><td>CAR</td><td>7</td><td>-2</td><td>-2</td></tr>
 			</table>
 			<ul class="unstyled">
-				<li><strong>Sentidos</strong> Percepção Passiva 10</li>
+				<li><strong>Sentidos</strong> PercepÃ§Ã£o Passiva 10</li>
 				<li><strong>Idiomas</strong> Nenhum</li>
-				<li><strong>Desafio</strong> 1/4 (50 XP; Bônus de Prof. +2)</li>
+				<li><strong>Desafio</strong> 1/4 (50 XP; BÃ´nus de Prof. +2)</li>
 			</ul>
-			<h4 style="margin-top:10px">Ações</h4>
+			<h4 style="margin-top:10px">AÃ§Ãµes</h4>
 			<ul class="unstyled">
-				<li><strong><em>Cascos. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +5, alcance 5 pés. <em>Acerto:</em> 7 (1d8 + 3) de dano de Concussão.</li>
+				<li><strong><em>Cascos. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +5, alcance 5 pÃ©s. <em>Acerto:</em> 7 (1d8 + 3) de dano de ConcussÃ£o.</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">75</set>
-			<set name="weight" lb="0">—</set>
+			<set name="weight" lb="0">â€”</set>
 			<set name="type">Montaria</set>
 		</setters>
 	</element>
 
-	<element name="Mastim" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_MASTIFF">
+	<element name="Mastim" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_MASTIFF">
 		<description>
 			<h4 style="margin-top:0px" />
-			<p><em>Besta Média, Sem Tendência</em></p>
+			<p><em>Besta MÃ©dia, Sem TendÃªncia</em></p>
 			<ul class="unstyled mb">
 				<li style="margin-bottom:-1em"><strong>CA</strong> 12</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Iniciativa</strong> +2 (12)</li>
 				<li style="margin-bottom:-1em"><strong>PV</strong> 5 (1d8 + 1)</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Capacidade de Carga</strong> 195 lb.</li>
-				<li><strong>Deslocamento</strong> 40 pés</li>
+				<li><strong>Deslocamento</strong> 40 pÃ©s</li>
 			</ul>
 			<table style="text-align:center">
 				<thead><tr><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td></tr></thead>
@@ -177,34 +177,34 @@
 				<tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>SAB</td><td>12</td><td>+1</td><td>+3</td><td>CAR</td><td>7</td><td>-2</td><td>-2</td></tr>
 			</table>
 			<ul class="unstyled">
-				<li><strong>Perícias</strong> Percepção +5</li>
-				<li><strong>Sentidos</strong> Visão no Escuro 60 pés; Percepção Passiva 15</li>
+				<li><strong>PerÃ­cias</strong> PercepÃ§Ã£o +5</li>
+				<li><strong>Sentidos</strong> VisÃ£o no Escuro 60 pÃ©s; PercepÃ§Ã£o Passiva 15</li>
 				<li><strong>Idiomas</strong> Nenhum</li>
-				<li><strong>Desafio</strong> 1/8 (25 XP; Bônus de Prof. +2)</li>
+				<li><strong>Desafio</strong> 1/8 (25 XP; BÃ´nus de Prof. +2)</li>
 			</ul>
-			<h4 style="margin-top:10px">Ações</h4>
+			<h4 style="margin-top:10px">AÃ§Ãµes</h4>
 			<ul class="unstyled">
-				<li><strong><em>Mordida. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +2, alcance 5 pés. <em>Acerto:</em> 1 de dano Perfurante.</li>
+				<li><strong><em>Mordida. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +2, alcance 5 pÃ©s. <em>Acerto:</em> 1 de dano Perfurante.</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">25</set>
-			<set name="weight" lb="0">—</set>
+			<set name="weight" lb="0">â€”</set>
 			<set name="type">Montaria</set>
 		</setters>
 	</element>
 
-	<element name="Mula" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_MULE">
+	<element name="Mula" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_MULE">
 		<description>
 			<h4 style="margin-top:0px" />
-			<p><em>Besta Média, Sem Tendência</em></p>
+			<p><em>Besta MÃ©dia, Sem TendÃªncia</em></p>
 			<ul class="unstyled mb">
 				<li style="margin-bottom:-1em"><strong>CA</strong> 10</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Iniciativa</strong> +0 (10)</li>
 				<li style="margin-bottom:-1em"><strong>PV</strong> 11 (2d8 + 2)</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Capacidade de Carga</strong> 420 lb.</li>
-				<li><strong>Deslocamento</strong> 40 pés</li>
+				<li><strong>Deslocamento</strong> 40 pÃ©s</li>
 			</ul>
 			<table style="text-align:center">
 				<thead><tr><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td></tr></thead>
@@ -212,37 +212,37 @@
 				<tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>SAB</td><td>10</td><td>+0</td><td>+0</td><td>CAR</td><td>5</td><td>-3</td><td>-3</td></tr>
 			</table>
 			<ul class="unstyled">
-				<li><strong>Sentidos</strong> Percepção Passiva 10</li>
+				<li><strong>Sentidos</strong> PercepÃ§Ã£o Passiva 10</li>
 				<li><strong>Idiomas</strong> Nenhum</li>
-				<li><strong>Desafio</strong> 1/8 (25 XP; Bônus de Prof. +2)</li>
+				<li><strong>Desafio</strong> 1/8 (25 XP; BÃ´nus de Prof. +2)</li>
 			</ul>
-			<h4 style="margin-top:10px">Características</h4>
+			<h4 style="margin-top:10px">CaracterÃ­sticas</h4>
 			<ul class="unstyled">
-				<li><strong><em>Besta de Carga. </em></strong> A mula conta como um tamanho maior para o propósito de determinar sua capacidade de carga.</li>
+				<li><strong><em>Besta de Carga. </em></strong> A mula conta como um tamanho maior para o propÃ³sito de determinar sua capacidade de carga.</li>
 			</ul>
-			<h4 style="margin-top:10px">Ações</h4>
+			<h4 style="margin-top:10px">AÃ§Ãµes</h4>
 			<ul class="unstyled">
-				<li><strong><em>Cascos. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +4, alcance 5 pés. <em>Acerto:</em> 4 (1d4 + 2) de dano de Concussão.</li>
+				<li><strong><em>Cascos. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +4, alcance 5 pÃ©s. <em>Acerto:</em> 4 (1d4 + 2) de dano de ConcussÃ£o.</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">8</set>
-			<set name="weight" lb="0">—</set>
+			<set name="weight" lb="0">â€”</set>
 			<set name="type">Montaria</set>
 		</setters>
 	</element>
 
-	<element name="Pônei" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_PONY">
+	<element name="PÃ´nei" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_PONY">
 		<description>
 			<h4 style="margin-top:0px" />
-			<p><em>Besta Média, Sem Tendência</em></p>
+			<p><em>Besta MÃ©dia, Sem TendÃªncia</em></p>
 			<ul class="unstyled mb">
 				<li style="margin-bottom:-1em"><strong>CA</strong> 10</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Iniciativa</strong> +0 (10)</li>
 				<li style="margin-bottom:-1em"><strong>PV</strong> 11 (2d8 + 2)</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Capacidade de Carga</strong> 225 lb.</li>
-				<li><strong>Deslocamento</strong> 40 pés</li>
+				<li><strong>Deslocamento</strong> 40 pÃ©s</li>
 			</ul>
 			<table style="text-align:center">
 				<thead><tr><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td></tr></thead>
@@ -250,33 +250,33 @@
 				<tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>SAB</td><td>11</td><td>+0</td><td>+0</td><td>CAR</td><td>7</td><td>-2</td><td>-2</td></tr>
 			</table>
 			<ul class="unstyled">
-				<li><strong>Sentidos</strong> Percepção Passiva 10</li>
+				<li><strong>Sentidos</strong> PercepÃ§Ã£o Passiva 10</li>
 				<li><strong>Idiomas</strong> Nenhum</li>
-				<li><strong>Desafio</strong> 1/8 (25 XP; Bônus de Prof. +2)</li>
+				<li><strong>Desafio</strong> 1/8 (25 XP; BÃ´nus de Prof. +2)</li>
 			</ul>
-			<h4 style="margin-top:10px">Ações</h4>
+			<h4 style="margin-top:10px">AÃ§Ãµes</h4>
 			<ul class="unstyled">
-				<li><strong><em>Cascos. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +4, alcance 5 pés. <em>Acerto:</em> 4 (1d4 + 2) de dano de Concussão.</li>
+				<li><strong><em>Cascos. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +4, alcance 5 pÃ©s. <em>Acerto:</em> 4 (1d4 + 2) de dano de ConcussÃ£o.</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">30</set>
-			<set name="weight" lb="0">—</set>
+			<set name="weight" lb="0">â€”</set>
 			<set name="type">Montaria</set>
 		</setters>
 	</element>
 
-	<element name="Cavalo de Guerra" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_WARHORSE">
+	<element name="Cavalo de Guerra" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_WARHORSE">
 		<description>
 			<h4 style="margin-top:0px" />
-			<p><em>Besta Grande, Sem Tendência</em></p>
+			<p><em>Besta Grande, Sem TendÃªncia</em></p>
 			<ul class="unstyled mb">
 				<li style="margin-bottom:-1em"><strong>CA</strong> 11</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Iniciativa</strong> +1 (11)</li>
 				<li style="margin-bottom:-1em"><strong>PV</strong> 19 (3d10 + 3)</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Capacidade de Carga</strong> 540 lb.</li>
-				<li><strong>Deslocamento</strong> 60 pés</li>
+				<li><strong>Deslocamento</strong> 60 pÃ©s</li>
 			</ul>
 			<table style="text-align:center">
 				<thead><tr><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td><td> </td><td> </td><td>MOD</td><td>TESTE</td></tr></thead>
@@ -284,137 +284,137 @@
 				<tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>SAB</td><td>12</td><td>+1</td><td>+3</td><td>CAR</td><td>7</td><td>-2</td><td>-2</td></tr>
 			</table>
 			<ul class="unstyled">
-				<li><strong>Sentidos</strong> Percepção Passiva 11</li>
+				<li><strong>Sentidos</strong> PercepÃ§Ã£o Passiva 11</li>
 				<li><strong>Idiomas</strong> Nenhum</li>
-				<li><strong>Desafio</strong> 1/2 (100 XP; Bônus de Prof. +2)</li>
+				<li><strong>Desafio</strong> 1/2 (100 XP; BÃ´nus de Prof. +2)</li>
 			</ul>
-			<h4 style="margin-top:10px">Ações</h4>
+			<h4 style="margin-top:10px">AÃ§Ãµes</h4>
 			<ul class="unstyled">
-				<li><strong><em>Cascos. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +6, alcance 5 pés. <em>Acerto:</em> 9 (2d4 + 4) de dano de Concussão. Se o cavalo se moveu pelo menos 20 pés em linha reta em direção ao alvo imediatamente antes do acerto, o alvo sofre 5 (2d4) de dano de Concussão extra e, se for Enorme ou menor, recebe a condição Caído.</li>
+				<li><strong><em>Cascos. </em></strong><em>Ataque com Arma Corpo a Corpo:</em> +6, alcance 5 pÃ©s. <em>Acerto:</em> 9 (2d4 + 4) de dano de ConcussÃ£o. Se o cavalo se moveu pelo menos 20 pÃ©s em linha reta em direÃ§Ã£o ao alvo imediatamente antes do acerto, o alvo sofre 5 (2d4) de dano de ConcussÃ£o extra e, se for Enorme ou menor, recebe a condiÃ§Ã£o CaÃ­do.</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">400</set>
-			<set name="weight" lb="0">—</set>
+			<set name="weight" lb="0">â€”</set>
 			<set name="type">Montaria</set>
 		</setters>
 	</element>
 
-	<element name="Carruagem" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CARRIAGE">
+	<element name="Carruagem" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CARRIAGE">
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">100</set>
 			<set name="weight" lb="600" excludeEncumbrance="true">600 lb.</set>
-			<set name="type">Veículo</set>
+			<set name="type">VeÃ­culo</set>
 		</setters>
 	</element>
 
-	<element name="Carroça" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CART">
+	<element name="CarroÃ§a" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CART">
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">15</set>
 			<set name="weight" lb="200" excludeEncumbrance="true">200 lb.</set>
-			<set name="type">Veículo</set>
+			<set name="type">VeÃ­culo</set>
 		</setters>
 	</element>
 
-	<element name="Biga" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CHARIOT">
+	<element name="Biga" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CHARIOT">
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">250</set>
 			<set name="weight" lb="100" excludeEncumbrance="true">100 lb.</set>
-			<set name="type">Veículo</set>
+			<set name="type">VeÃ­culo</set>
 		</setters>
 	</element>
 
-	<element name="Ração de Animal (por dia)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_FEED_PER_DAY">
+	<element name="RaÃ§Ã£o de Animal (por dia)" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_FEED_PER_DAY">
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="cp">5</set>
 			<set name="weight" lb="10">10 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
 
-	<element name="Sela Exótica" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SADDLE_EXOTIC">
+	<element name="Sela ExÃ³tica" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SADDLE_EXOTIC">
 		<description>
-			<p>Uma sela acompanha freio, rédeas e qualquer outro equipamento necessário para usá-la. Uma Sela Exótica permite cavalgar uma montaria aquática ou voadora.</p>
+			<p>Uma sela acompanha freio, rÃ©deas e qualquer outro equipamento necessÃ¡rio para usÃ¡-la. Uma Sela ExÃ³tica permite cavalgar uma montaria aquÃ¡tica ou voadora.</p>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">60</set>
 			<set name="weight" lb="40" excludeEncumbrance="true">40 lb.</set>
 		</setters>
 	</element>
 
-	<element name="Sela Militar" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SADDLE_MILITARY">
+	<element name="Sela Militar" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SADDLE_MILITARY">
 		<description>
-			<p>Uma sela acompanha freio, rédeas e qualquer outro equipamento necessário para usá-la. Uma Sela Militar concede Vantagem em qualquer teste de habilidade que você fizer para permanecer montado.</p>
+			<p>Uma sela acompanha freio, rÃ©deas e qualquer outro equipamento necessÃ¡rio para usÃ¡-la. Uma Sela Militar concede Vantagem em qualquer teste de habilidade que vocÃª fizer para permanecer montado.</p>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">20</set>
 			<set name="weight" lb="30" excludeEncumbrance="true">30 lb.</set>
 		</setters>
 	</element>
 
-	<element name="Sela de Montaria" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SADDLE_RIDING">
+	<element name="Sela de Montaria" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SADDLE_RIDING">
 		<description>
-			<p>Uma sela acompanha freio, rédeas e qualquer outro equipamento necessário para usá-la.</p>
+			<p>Uma sela acompanha freio, rÃ©deas e qualquer outro equipamento necessÃ¡rio para usÃ¡-la.</p>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="25" excludeEncumbrance="true">25 lb.</set>
 		</setters>
 	</element>
 
-	<element name="Trenó" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SLED">
+	<element name="TrenÃ³" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SLED">
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">20</set>
 			<set name="weight" lb="300" excludeEncumbrance="true">300 lb.</set>
-			<set name="type">Veículo</set>
+			<set name="type">VeÃ­culo</set>
 		</setters>
 	</element>
 
-	<element name="Carroção" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_WAGON">
+	<element name="CarroÃ§Ã£o" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_WAGON">
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">35</set>
 			<set name="weight" lb="400" excludeEncumbrance="true">400 lb.</set>
-			<set name="type">Veículo</set>
+			<set name="type">VeÃ­culo</set>
 		</setters>
 	</element> 
 
-	<element name="Dirigível" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_AIRSHIP">
+	<element name="DirigÃ­vel" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_AIRSHIP">
 		<supports>Airborne</supports>
 		<description>
 			<ul class="unstyled">
 				<li><b>Deslocamento.</b> 8 mph</li>
-				<li><b>Tripulação.</b> 10</li>
+				<li><b>TripulaÃ§Ã£o.</b> 10</li>
 				<li><b>Passageiros.</b> 20</li>
 				<li><b>Carga (toneladas).</b> 1</li>
 				<li><b>CA.</b> 13</li>
 				<li><b>PV.</b> 300</li>
-				<li><b>Limiar de Dano.</b> —</li>
+				<li><b>Limiar de Dano.</b> â€”</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">40000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Veículo</set>			
+			<set name="type">VeÃ­culo</set>			
 		</setters>
 	</element>
 
-	<element name="Galé" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_GALLEY">
+	<element name="GalÃ©" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_GALLEY">
 		<description>
 			<ul class="unstyled">
 				<li><b>Deslocamento.</b> 4 mph</li>
-				<li><b>Tripulação.</b> 80</li>
-				<li><b>Passageiros.</b> —</li>
+				<li><b>TripulaÃ§Ã£o.</b> 80</li>
+				<li><b>Passageiros.</b> â€”</li>
 				<li><b>Carga (toneladas).</b> 150</li>
 				<li><b>CA.</b> 15</li>
 				<li><b>PV.</b> 500</li>
@@ -422,18 +422,18 @@
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">30000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Veículo</set>
+			<set name="type">VeÃ­culo</set>
 		</setters>
 	</element>
 
-	<element name="Barco de Quilha" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_KEELBOAT">
+	<element name="Barco de Quilha" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_KEELBOAT">
 		<description>
 			<ul class="unstyled">
 				<li><b>Deslocamento.</b> 1 mph</li>
-				<li><b>Tripulação.</b> 1</li>
+				<li><b>TripulaÃ§Ã£o.</b> 1</li>
 				<li><b>Passageiros.</b> 6</li>
 				<li><b>Carga (toneladas).</b> 1/2</li>
 				<li><b>CA.</b> 15</li>
@@ -442,18 +442,18 @@
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">3000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Veículo</set>
+			<set name="type">VeÃ­culo</set>
 		</setters>
 	</element>
 
-	<element name="Drácar" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_LONGSHIP">
+	<element name="DrÃ¡car" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_LONGSHIP">
 		<description>
 			<ul class="unstyled">
 				<li><b>Deslocamento.</b> 3 mph</li>
-				<li><b>Tripulação.</b> 40</li>
+				<li><b>TripulaÃ§Ã£o.</b> 40</li>
 				<li><b>Passageiros.</b> 150</li>
 				<li><b>Carga (toneladas).</b> 10</li>
 				<li><b>CA.</b> 15</li>
@@ -462,38 +462,38 @@
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">10000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Veículo</set>
+			<set name="type">VeÃ­culo</set>
 		</setters>
 	</element>
 
-	<element name="Barco a Remo" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ROWBOAT">
+	<element name="Barco a Remo" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ROWBOAT">
 		<description>
 			<ul class="unstyled">
-				<li><b>Deslocamento.</b> 1½ mph</li>
-				<li><b>Tripulação.</b> 1</li>
+				<li><b>Deslocamento.</b> 1Â½ mph</li>
+				<li><b>TripulaÃ§Ã£o.</b> 1</li>
 				<li><b>Passageiros.</b> 3</li>
-				<li><b>Carga (toneladas).</b> —</li>
+				<li><b>Carga (toneladas).</b> â€”</li>
 				<li><b>CA.</b> 11</li>
 				<li><b>PV.</b> 50</li>
-				<li><b>Limiar de Dano.</b> —</li>
+				<li><b>Limiar de Dano.</b> â€”</li>
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">50</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Veículo</set>
+			<set name="type">VeÃ­culo</set>
 		</setters>
 	</element>
 
-	<element name="Navio a Vela" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SAILING_SHIP">
+	<element name="Navio a Vela" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SAILING_SHIP">
 		<description>
 			<ul class="unstyled">
 				<li><b>Deslocamento.</b> 2 mph</li>
-				<li><b>Tripulação.</b> 20</li>
+				<li><b>TripulaÃ§Ã£o.</b> 20</li>
 				<li><b>Passageiros.</b> 20</li>
 				<li><b>Carga (toneladas).</b> 100</li>
 				<li><b>CA.</b> 15</li>
@@ -502,18 +502,18 @@
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">10000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Veículo</set>
+			<set name="type">VeÃ­culo</set>
 		</setters>
 	</element>
 
-	<element name="Navio de Guerra" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_WARSHIP">
+	<element name="Navio de Guerra" type="Item" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_WARSHIP">
 		<description>
 			<ul class="unstyled">
-				<li><b>Deslocamento.</b> 2½ mph</li>
-				<li><b>Tripulação.</b> 60</li>
+				<li><b>Deslocamento.</b> 2Â½ mph</li>
+				<li><b>TripulaÃ§Ã£o.</b> 60</li>
 				<li><b>Passageiros.</b> 60</li>
 				<li><b>Carga (toneladas).</b> 200</li>
 				<li><b>CA.</b> 15</li>
@@ -522,10 +522,10 @@
 			</ul>
 		</description>
 		<setters>
-			<set name="category">Montarias e Veículos</set>
+			<set name="category">Montarias e VeÃ­culos</set>
 			<set name="cost" currency="gp">25000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Veículo</set>
+			<set name="type">VeÃ­culo</set>
 		</setters>
 	</element>
 </elements>

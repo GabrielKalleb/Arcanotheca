@@ -3,13 +3,13 @@
 	<info>
 		<name>Unearthed Arcana: Gothic Heroes</name>
 		<update version="0.0.5">
-			<file name="20160404.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2016/20160404.xml" />
+			<file name="20160404.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2016/20160404.xml" />
 		</update>
 	</info>
 
 	<element name="Unearthed Arcana: Gothic Heroes" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20160404">
 		<description>
-			<p>This month, Unearthed Arcana takes a look at a few new character options appropriate to gothic horror. The revenant subrace provides an interesting way to bring a character back from the dead—a useful option if you’ve lost a character in the mists of Barovia. The Monster Hunter and the Inquisitive are two new archetypes for the fighter and rogue, respectively, well suited to the challenges of Ravenloft or any other gothic horror campaign.</p>
+			<p>This month, Unearthed Arcana takes a look at a few new character options appropriate to gothic horror. The revenant subrace provides an interesting way to bring a character back from the deadâ€”a useful option if youâ€™ve lost a character in the mists of Barovia. The Monster Hunter and the Inquisitive are two new archetypes for the fighter and rogue, respectively, well suited to the challenges of Ravenloft or any other gothic horror campaign.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">UA20160404</set>
@@ -28,7 +28,7 @@
 		<supports></supports>
 		<requirements />
 		<description>
-			<p>Your DM assigns a goal to you — typically, one related to your character's death. The goal must be specific task you can complete, such as slaying an enemy or liberating an area and its people. Until you fulfill that goal, you gain following benefits:</p>
+			<p>Your DM assigns a goal to you â€” typically, one related to your character's death. The goal must be specific task you can complete, such as slaying an enemy or liberating an area and its people. Until you fulfill that goal, you gain following benefits:</p>
 			<ul>
 				<li>If you are below half your hit point maximum at the start of your turn, you regain 1 hit point.</li>
 				<li>If you die, you return to life 24 hours after death. If your body is destroyed, you reform within 1 mile of the place of your death at a spot determined by the DM. If your equipment was also destroyed, you do not regain it.</li>
@@ -44,11 +44,11 @@
 		<supports>Dragonborn</supports>
 		<requirements />
 		<description>
-			<p>If you want to play a dragonborn revenant, modify the dragonborn’s Ability Score Increase trait to the following: Your Strength score increases by 1, and your Charisma score increases by 1. Additionally, your Draconic Ancestry trait uses necrotic damage as its damage type, replacing the damage type that applies to your breath weapon and your damage resistance.</p>
+			<p>If you want to play a dragonborn revenant, modify the dragonbornâ€™s Ability Score Increase trait to the following: Your Strength score increases by 1, and your Charisma score increases by 1. Additionally, your Draconic Ancestry trait uses necrotic damage as its damage type, replacing the damage type that applies to your breath weapon and your damage resistance.</p>
 			<p>
 				<span class="feature">Ability Score Increase.</span>Your Strength score, Constitution score and your Charisma score increases by 1.<br />
 				<span class="feature">Draconic Ancestry.</span>Your draconic ancestry uses necrotic damage as its damage type, replacing the damage type that applies to your breath weapon and your damage resistance.<br />
-				<span class="feature">Relentless Nature.</span>Your DM assigns a goal to you — typically, one related to your character's death. The goal must be specific task you can complete, such as slaying an enemy or liberating an area and its people. Until you fulfill that goal, you gain following benefits:<br />
+				<span class="feature">Relentless Nature.</span>Your DM assigns a goal to you â€” typically, one related to your character's death. The goal must be specific task you can complete, such as slaying an enemy or liberating an area and its people. Until you fulfill that goal, you gain following benefits:<br />
 				<ul>
 					<li>If you are below half your hit point maximum at the start of your turn, you regain 1 hit point.</li>
 					<li>If you die, you return to life 24 hours after death. If your body is destroyed, you reform within 1 mile of the place of your death at a spot determined by the DM. If your equipment was also destroyed, you do not regain it.</li>
@@ -75,11 +75,11 @@
 		<supports>Dwarf</supports>
 		<requirements />
 		<description>
-			<p>If you want to play a dragonborn revenant, modify the dragonborn’s Ability Score Increase trait to the following: Your Strength score increases by 1, and your Charisma score increases by 1. Additionally, your Draconic Ancestry trait uses necrotic damage as its damage type, replacing the damage type that applies to your breath weapon and your damage resistance.</p>
+			<p>If you want to play a dragonborn revenant, modify the dragonbornâ€™s Ability Score Increase trait to the following: Your Strength score increases by 1, and your Charisma score increases by 1. Additionally, your Draconic Ancestry trait uses necrotic damage as its damage type, replacing the damage type that applies to your breath weapon and your damage resistance.</p>
 			<p>
 				<span class="feature">Ability Score Increase.</span>Your Strength score, Constitution score and your Charisma score increases by 1.<br />
 				<span class="feature">Draconic Ancestry.</span>Your draconic ancestry uses necrotic damage as its damage type, replacing the damage type that applies to your breath weapon and your damage resistance.<br />
-				<span class="feature">Relentless Nature.</span>Your DM assigns a goal to you — typically, one related to your character's death. The goal must be specific task you can complete, such as slaying an enemy or liberating an area and its people. Until you fulfill that goal, you gain following benefits:<br />
+				<span class="feature">Relentless Nature.</span>Your DM assigns a goal to you â€” typically, one related to your character's death. The goal must be specific task you can complete, such as slaying an enemy or liberating an area and its people. Until you fulfill that goal, you gain following benefits:<br />
 				<ul>
 					<li>If you are below half your hit point maximum at the start of your turn, you regain 1 hit point.</li>
 					<li>If you die, you return to life 24 hours after death. If your body is destroyed, you reform within 1 mile of the place of your death at a spot determined by the DM. If your equipment was also destroyed, you do not regain it.</li>

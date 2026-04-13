@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Juramento dos Anciões</name>
-		<description>A subclasse Juramento dos Anciões do Livro do Jogador de 2024.</description>
+		<name>Juramento dos AnciÃµes</name>
+		<description>A subclasse Juramento dos AnciÃµes do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="paladin-ancients.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/paladin-ancients.xml" />
+			<file name="paladin-ancients.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/paladin-ancients.xml" />
 		</update>
 	</info>
 
-	<element name="Juramento dos Anciões" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_PALADIN_OATH_OF_THE_ANCIENTS">
+	<element name="Juramento dos AnciÃµes" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_PALADIN_OATH_OF_THE_ANCIENTS">
 		<supports>Paladin Subclass</supports>
 		<description>
 			<p class="flavor">Preserve a Vida e a Luz no Mundo</p>
-			<p>O Juramento dos Anciões é tão antigo quanto os primeiros elfos. Paladinos que fazem este juramento valorizam a luz; eles amam as coisas belas e vivas do mundo mais do que qualquer princípio de honra, coragem e justiça. Eles frequentemente adornam suas armaduras e roupas com imagens de coisas que crescem — folhas, chifres ou flores — para refletir seu compromisso em preservar a vida e a luz.</p>
+			<p>O Juramento dos AnciÃµes Ã© tÃ£o antigo quanto os primeiros elfos. Paladinos que fazem este juramento valorizam a luz; eles amam as coisas belas e vivas do mundo mais do que qualquer princÃ­pio de honra, coragem e justiÃ§a. Eles frequentemente adornam suas armaduras e roupas com imagens de coisas que crescem â€” folhas, chifres ou flores â€” para refletir seu compromisso em preservar a vida e a luz.</p>
 			<p class="indent">Estes paladinos compartilham os seguintes dogmas:</p>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
-				<li>Acenda a luz da esperança.</li>
+				<li>Acenda a luz da esperanÃ§a.</li>
 				<li>Abrigue a vida.</li>
 				<li>Deleite-se na arte e no riso.</li>
 			</ul>
@@ -36,30 +36,30 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Ira da Natureza" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS_NATURES_WRATH">
+	<element name="NÃ­vel 3: Ira da Natureza" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS_NATURES_WRATH">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_THE_ANCIENTS_NATURES_WRATH</requirements>
 		<description>
-			<p>Como uma Ação Mágica, você pode gastar um uso da sua Canalizar Divindade para conjurar vinhas espectrais ao redor de criaturas próximas. Cada criatura de sua escolha que você possa ver a até 4,5 metros (15 pés) de você deve ser bem-sucedida em um teste de resistência de Força ou receber a condição Impedido por 1 minuto. Uma criatura Impedida repete o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.</p>
+			<p>Como uma AÃ§Ã£o MÃ¡gica, vocÃª pode gastar um uso da sua Canalizar Divindade para conjurar vinhas espectrais ao redor de criaturas prÃ³ximas. Cada criatura de sua escolha que vocÃª possa ver a atÃ© 4,5 metros (15 pÃ©s) de vocÃª deve ser bem-sucedida em um teste de resistÃªncia de ForÃ§a ou receber a condiÃ§Ã£o Impedido por 1 minuto. Uma criatura Impedida repete o teste de resistÃªncia no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.</p>
 		</description>
-		<sheet alt="Ira da Natureza" action="Ação" usage="Canalizar Divindade">
-			<description>Cada criatura à sua escolha a até 4,5m (15 pés) de você deve passar num teste de resistência de Força CD{{paladin:spellcasting:dc}} ou ficará Impedida por 1 minuto. A criatura repete o teste no final de cada turno dela, encerrando o efeito num sucesso.</description>
+		<sheet alt="Ira da Natureza" action="AÃ§Ã£o" usage="Canalizar Divindade">
+			<description>Cada criatura Ã  sua escolha a atÃ© 4,5m (15 pÃ©s) de vocÃª deve passar num teste de resistÃªncia de ForÃ§a CD{{paladin:spellcasting:dc}} ou ficarÃ¡ Impedida por 1 minuto. A criatura repete o teste no final de cada turno dela, encerrando o efeito num sucesso.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 3: Magias de Juramento" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS_OATH_SPELLS">
+	<element name="NÃ­vel 3: Magias de Juramento" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS_OATH_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_THE_ANCIENTS_OATH_SPELLS</requirements>
 		<description>
-			<p>A magia do seu juramento garante que você sempre tenha certas magias preparadas; quando você atinge um nível de Paladino especificado na tabela de Magias do Juramento dos Anciões, você passa a ter as magias listadas sempre preparadas.</p>
-			<h5>Magias do Juramento dos Anciões</h5>
+			<p>A magia do seu juramento garante que vocÃª sempre tenha certas magias preparadas; quando vocÃª atinge um nÃ­vel de Paladino especificado na tabela de Magias do Juramento dos AnciÃµes, vocÃª passa a ter as magias listadas sempre preparadas.</p>
+			<h5>Magias do Juramento dos AnciÃµes</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-25">Nível de Paladino</td><td class="left">Magias</td></tr>
+					<tr><td class="col-25">NÃ­vel de Paladino</td><td class="left">Magias</td></tr>
 				</thead>
 				<tr><td>3</td><td class="left"><em>Ataque Constritor, Falar com Animais</em></td></tr>
 				<tr><td>5</td><td class="left"><em>Passo Nebuloso, Raio de Lua</em></td></tr>
-				<tr><td>9</td><td class="left"><em>Ampliar Plantas, Proteção contra Energia</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Ampliar Plantas, ProteÃ§Ã£o contra Energia</em></td></tr>
 				<tr><td>13</td><td class="left"><em>Tempestade de Gelo, Pele de Pedra</em></td></tr>
-				<tr><td>17</td><td class="left"><em>Comunhão com a Natureza, Caminhar em Árvores</em></td></tr>
+				<tr><td>17</td><td class="left"><em>ComunhÃ£o com a Natureza, Caminhar em Ãrvores</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -77,25 +77,25 @@
 		</rules>
 	</element>
 
-	<element name="Nível 7: Aura de Vigilância" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS_AURA_OF_WARDING">
+	<element name="NÃ­vel 7: Aura de VigilÃ¢ncia" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS_AURA_OF_WARDING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_THE_ANCIENTS_AURA_OF_WARDING</requirements>
 		<description>
-			<p>A magia antiga paira tão densamente sobre você que forma uma proteção mística, atenuando as energias vindas de fora do Plano Material; você e seus aliados têm Resistência a dano Necrótico, Psíquico e Radiante enquanto estiverem em sua Aura de Proteção.</p>
+			<p>A magia antiga paira tÃ£o densamente sobre vocÃª que forma uma proteÃ§Ã£o mÃ­stica, atenuando as energias vindas de fora do Plano Material; vocÃª e seus aliados tÃªm ResistÃªncia a dano NecrÃ³tico, PsÃ­quico e Radiante enquanto estiverem em sua Aura de ProteÃ§Ã£o.</p>
 		</description>
-		<sheet alt="Aura de Vigilância">
-			<description>Você e seus aliados possuem Resistência a dano Necrótico, Psíquico e Radiante dentro de sua Aura de Proteção.</description>
+		<sheet alt="Aura de VigilÃ¢ncia">
+			<description>VocÃª e seus aliados possuem ResistÃªncia a dano NecrÃ³tico, PsÃ­quico e Radiante dentro de sua Aura de ProteÃ§Ã£o.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 15: Sentinela Imortal" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS_UNDYING_SENTINEL">
+	<element name="NÃ­vel 15: Sentinela Imortal" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS_UNDYING_SENTINEL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_THE_ANCIENTS_UNDYING_SENTINEL</requirements>
 		<description>
-			<p>Quando você é reduzido a 0 Pontos de Vida e não é morto instantaneamente, pode escolher cair para 1 Ponto de Vida, e você recupera uma quantidade de Pontos de Vida igual a três vezes o seu nível de Paladino. Depois de usar essa característica, você não pode usá-la novamente até terminar um Descanso Longo.</p>
-			<p class="indent">Além disso, você não pode envelhecer magicamente e para de envelhecer visivelmente.</p>
+			<p>Quando vocÃª Ã© reduzido a 0 Pontos de Vida e nÃ£o Ã© morto instantaneamente, pode escolher cair para 1 Ponto de Vida, e vocÃª recupera uma quantidade de Pontos de Vida igual a trÃªs vezes o seu nÃ­vel de Paladino. Depois de usar essa caracterÃ­stica, vocÃª nÃ£o pode usÃ¡-la novamente atÃ© terminar um Descanso Longo.</p>
+			<p class="indent">AlÃ©m disso, vocÃª nÃ£o pode envelhecer magicamente e para de envelhecer visivelmente.</p>
 		</description>
 		<sheet alt="Sentinela Imortal" usage="1/Descanso Longo">
-			<description>Quando for reduzido a 0 PV e não for morto instantaneamente, você pode cair para 1 PV, e recuperar {{undying sentinel:hp}} PVs.
-			Você para de envelhecer visivelmente e não pode ser envelhecido magicamente.</description>
+			<description>Quando for reduzido a 0 PV e nÃ£o for morto instantaneamente, vocÃª pode cair para 1 PV, e recuperar {{undying sentinel:hp}} PVs.
+			VocÃª para de envelhecer visivelmente e nÃ£o pode ser envelhecido magicamente.</description>
 		</sheet>
 		<rules>
 			<stat name="undying sentinel:hp" value="level:paladin" />
@@ -104,20 +104,20 @@
 		</rules>
 	</element>
 
-	<element name="Nível 20: Campeão Ancião" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS_ELDER_CHAMPION">
+	<element name="NÃ­vel 20: CampeÃ£o AnciÃ£o" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_THE_ANCIENTS_ELDER_CHAMPION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_THE_ANCIENTS_ELDER_CHAMPION</requirements>
 		<description>
-			<p>Como uma Ação Bônus, você pode imbuir sua Aura de Proteção com poder primordial, concedendo os benefícios abaixo por 1 minuto ou até que você os encerre (nenhuma ação exigida). Uma vez que você use esta característica, não poderá usá-la novamente até terminar um Descanso Longo. Você também pode restaurar um uso gastando um espaço de magia de 5º nível (nenhuma ação exigida).</p>
-			<p class="indent"><b><i>Reduzir Resistência.</i></b> Inimigos na aura têm Desvantagem nos testes de resistência contra suas magias e opções de Canalizar Divindade.</p>
-			<p class="indent"><b><i>Regeneração.</i></b> No início de cada um dos seus turnos, você recupera 10 Pontos de Vida.</p>
-			<p class="indent"><b><i>Magias Rápidas.</i></b> Sempre que conjurar uma magia com tempo de conjuração de uma ação, você pode conjurá-la usando uma Ação Bônus em vez disso.</p>
+			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode imbuir sua Aura de ProteÃ§Ã£o com poder primordial, concedendo os benefÃ­cios abaixo por 1 minuto ou atÃ© que vocÃª os encerre (nenhuma aÃ§Ã£o exigida). Uma vez que vocÃª use esta caracterÃ­stica, nÃ£o poderÃ¡ usÃ¡-la novamente atÃ© terminar um Descanso Longo. VocÃª tambÃ©m pode restaurar um uso gastando um espaÃ§o de magia de 5Âº nÃ­vel (nenhuma aÃ§Ã£o exigida).</p>
+			<p class="indent"><b><i>Reduzir ResistÃªncia.</i></b> Inimigos na aura tÃªm Desvantagem nos testes de resistÃªncia contra suas magias e opÃ§Ãµes de Canalizar Divindade.</p>
+			<p class="indent"><b><i>RegeneraÃ§Ã£o.</i></b> No inÃ­cio de cada um dos seus turnos, vocÃª recupera 10 Pontos de Vida.</p>
+			<p class="indent"><b><i>Magias RÃ¡pidas.</i></b> Sempre que conjurar uma magia com tempo de conjuraÃ§Ã£o de uma aÃ§Ã£o, vocÃª pode conjurÃ¡-la usando uma AÃ§Ã£o BÃ´nus em vez disso.</p>
 		</description>
-		<sheet alt="Campeão Ancião" action="Ação Bônus" usage="1/Descanso Longo">
-			<description>Por 1 minuto ou até encerrar, sua Aura de Proteção ganha os benefícios: &#13;
-			• Inimigos na aura têm Desvantagem nas resistências contra suas magias e Canalizar Divindade. &#13;
-			• Você recupera 10 PVs no início de seu turno. &#13;
-			• Você pode conjurar magias de ação como Ação Bônus. &#13;
-			Você pode gastar um espaço de magia de 5º nível para usar esta característica novamente.</description>
+		<sheet alt="CampeÃ£o AnciÃ£o" action="AÃ§Ã£o BÃ´nus" usage="1/Descanso Longo">
+			<description>Por 1 minuto ou atÃ© encerrar, sua Aura de ProteÃ§Ã£o ganha os benefÃ­cios: &#13;
+			â€¢ Inimigos na aura tÃªm Desvantagem nas resistÃªncias contra suas magias e Canalizar Divindade. &#13;
+			â€¢ VocÃª recupera 10 PVs no inÃ­cio de seu turno. &#13;
+			â€¢ VocÃª pode conjurar magias de aÃ§Ã£o como AÃ§Ã£o BÃ´nus. &#13;
+			VocÃª pode gastar um espaÃ§o de magia de 5Âº nÃ­vel para usar esta caracterÃ­stica novamente.</description>
 		</sheet>
 	</element>
 

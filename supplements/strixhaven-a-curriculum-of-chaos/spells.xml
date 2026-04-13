@@ -3,13 +3,13 @@
 	<info>
 		<name>Spells from Strixhaven: A Curriculum Of Chaos</name>
 		<update version="0.0.1">
-			<file name="spells.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/strixhaven-a-curriculum-of-chaos/spells.xml" />
+			<file name="spells.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/strixhaven-a-curriculum-of-chaos/spells.xml" />
 		</update>
 	</info>
 	<element name="Borrowed Knowledge" type="Spell" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_SPELL_BORROWED_KNOWLEDGE">
 		<supports>Bard, Cleric, Warlock, Wizard</supports>
 		<description>
-			<p>You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell’s duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.</p>
+			<p>You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spellâ€™s duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.</p>
 		</description>
 		<setters>
 			<set name="keywords">skill, proficiency</set>
@@ -30,8 +30,8 @@
 			<p>You magically empower your movement with dance-like steps, giving yourself the following benefits for the duration:</p>
 			<ul>
 				<li>Your walking speed increases by 10 feet.</li>
-				<li>You don’t provoke opportunity attacks.</li>
-				<li>You can move through the space of another creature, and it doesn’t count as difficult terrain. If you end your turn in another creature’s space, you are shunted to the last unoccupied space you occupied, and you take 1d8 force damage</li>
+				<li>You donâ€™t provoke opportunity attacks.</li>
+				<li>You can move through the space of another creature, and it doesnâ€™t count as difficult terrain. If you end your turn in another creatureâ€™s space, you are shunted to the last unoccupied space you occupied, and you take 1d8 force damage</li>
 			</ul>
 		</description>
 		<setters>

@@ -5,10 +5,10 @@
 		<description></description>
 		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
 		<update version="0.2.1">
-			<file name="race-firbolg.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/volos-guide-to-monsters/race-firbolg.xml" />
+			<file name="race-firbolg.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/volos-guide-to-monsters/race-firbolg.xml" />
 		</update>
 	</info>
-	<element name="Firbolg" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_FIRBOLG">
+	<element name="Firbolg" type="Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACE_FIRBOLG">
 		<description>
 			<p class="flavor">Firbolg tribes cloister in remote forest strongholds, preferring to spend their days in quiet harmony with the woods. When provoked, firbolgs demonstrate formidable skills with weapons and druidic magic.</p>
 			<h4>HUMBLE GUARDIANS</h4>
@@ -77,7 +77,7 @@
 		</rules>
 	</element>
 
-	<element name="Firbolg Magic" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_FIRBOLG_MAGIC">
+	<element name="Firbolg Magic" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_FIRBOLG_MAGIC">
 		<description>
 			<p>You can cast detect magic and disguise self with this trait, using Wisdom as your spell casting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves.</p>
 		</description>
@@ -86,7 +86,7 @@
 		</sheet>
 	</element>
 
-	<element name="Hidden Step" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_HIDDEN_STEP">
+	<element name="Hidden Step" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_HIDDEN_STEP">
 		<description>
 			<p>As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.</p>
 		</description>
@@ -95,7 +95,7 @@
 		</sheet>
 	</element>
 
-	<element name="Powerful Build" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_POWERFUL_BUILD">
+	<element name="Powerful Build" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_POWERFUL_BUILD">
 		<description>
 			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
 		</description>
@@ -107,7 +107,7 @@
 		</rules>
 	</element>
 
-	<element name="Speech of Beast and Leaf" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_SPEECH_OF_BEAST_AND_LEAF">
+	<element name="Speech of Beast and Leaf" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_SPEECH_OF_BEAST_AND_LEAF">
 		<description>
 			<p>You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</p>
 		</description>

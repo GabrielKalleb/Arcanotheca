@@ -3,17 +3,17 @@
 	<info>
 		<name></name>
 		<update version="0.0.2">
-			<file name="background-haunted-one.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-haunted-one.xml" />
+			<file name="background-haunted-one.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-haunted-one.xml" />
 		</update>
 	</info>
 	
 	<element name="Haunted One" type="Background" source="Van Richten's Guide To Ravenloft" id="ID_WOTC_VRGTR_BACKGROUND_HAUNTED_ONE">
 		<description>
-			<p>You are haunted by something so terrible that you dare not speak of it. You’ve tried to bury it and run away from it, to no avail. Whatever this thing is that haunts you can’t be slain with a sword or banished with a spell. It might come to you as a shadow on the wall, a bloodcurdling nightmare, a memory that refuses to die, or a demonic whisper in the dark. The burden has taken its toll, isolating you from most people and making you question your sanity. You must find a way to overcome it before it destroys you.</p>
+			<p>You are haunted by something so terrible that you dare not speak of it. Youâ€™ve tried to bury it and run away from it, to no avail. Whatever this thing is that haunts you canâ€™t be slain with a sword or banished with a spell. It might come to you as a shadow on the wall, a bloodcurdling nightmare, a memory that refuses to die, or a demonic whisper in the dark. The burden has taken its toll, isolating you from most people and making you question your sanity. You must find a way to overcome it before it destroys you.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Choose two from among Arcana, Investigation, Religion, or Survival</li>
 				<li><strong>Languages:</strong> Choose two, one of which must be Abyssal, Celestial, Deep Speech, Draconic, Infernal, Primordial, Sylvan, or Undercommon</li>
-				<li><strong>Equipment:</strong> A monster hunter’s pack (containing a chest, a crowbar, a hammer, three wooden stakes, a holy symbol, a flask of holy water, a set of manacles, a steel mirror, a flask of oil, a tinderbox, and 3 torches), one trinket of special significance, a set of common clothes, and 1 sp.</li>
+				<li><strong>Equipment:</strong> A monster hunterâ€™s pack (containing a chest, a crowbar, a hammer, three wooden stakes, a holy symbol, a flask of holy water, a set of manacles, a steel mirror, a flask of oil, a tinderbox, and 3 torches), one trinket of special significance, a set of common clothes, and 1 sp.</li>
 			</ul>
 			<h5>HARROWING EVENT</h5>
 			<p>Prior to becoming an adventurer, your path in life was defined by one dark moment, one fateful decision, or one tragedy. Now you feel a darkness threatening to consume you, and you fear there may be no hope of escape. Choose a harrowing event that haunts you, or roll one on the Harrowing Events table.</p>
@@ -22,9 +22,9 @@
 				<thead>
 					<tr><td>d10</td><td>Event</td></tr>
 				</thead>
-				<tr><td>1</td><td>A monster that slaughtered dozens of innocent people spared your life, and you don’t know why.</td></tr>
+				<tr><td>1</td><td>A monster that slaughtered dozens of innocent people spared your life, and you donâ€™t know why.</td></tr>
 				<tr><td>2</td><td>You were born under a dark star. You can feel it watching you, coldly and distantly. Sometimes it beckons you in the dead of night.</td></tr>
-				<tr><td>3</td><td>An apparition that has haunted your family for generations now haunts you. You don’t know what it wants, and it won’t leave you alone.</td></tr>
+				<tr><td>3</td><td>An apparition that has haunted your family for generations now haunts you. You donâ€™t know what it wants, and it wonâ€™t leave you alone.</td></tr>
 				<tr><td>4</td><td>Your family has a history of practicing the dark arts. You dabbled once and felt something horrible clutch at your soul, whereupon you fled in terror.</td></tr>
 				<tr><td>5</td><td>An oni took your sibling one cold, dark night, and you were unable to stop it.</td></tr>
 				<tr><td>6</td><td>You were cursed with lycanthropy and later cured. You are now haunted by the innocents you slaughtered.</td></tr>
@@ -42,9 +42,9 @@
 			<grant type="Background Feature" id="ID_WOTC_VRGTR_BACKGROUND_FEATURE_HEART_OF_DARKNESS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Harrowing Event">
-				<item id="1">A monster that slaughtered dozens of innocent people spared your life, and you don’t know why.</item>
+				<item id="1">A monster that slaughtered dozens of innocent people spared your life, and you donâ€™t know why.</item>
 				<item id="2">You were born under a dark star. You can feel it watching you, coldly and distantly. Sometimes it beckons you in the dead of night.</item>
-				<item id="3">An apparition that has haunted your family for generations now haunts you. You don’t know what it wants, and it won’t leave you alone.</item>
+				<item id="3">An apparition that has haunted your family for generations now haunts you. You donâ€™t know what it wants, and it wonâ€™t leave you alone.</item>
 				<item id="4">Your family has a history of practicing the dark arts. You dabbled once and felt something horrible clutch at your soul, whereupon you fled in terror.</item>
 				<item id="5">An oni took your sibling one cold, dark night, and you were unable to stop it.</item>
 				<item id="6">You were cursed with lycanthropy and later cured. You are now haunted by the innocents you slaughtered.</item>

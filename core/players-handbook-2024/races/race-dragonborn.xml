@@ -2,46 +2,46 @@
 <elements>
 	<info>
 		<name>Draconato</name>
-		<description>A espécie Draconato do Player’s Handbook 2024.</description>
+		<description>A espÃ©cie Draconato do Playerâ€™s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/races/race-dragonborn.xml" />
+			<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/races/race-dragonborn.xml" />
 		</update>
 	</info>
 	
-	<element name="Draconato" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_DRAGONBORN">
+	<element name="Draconato" type="Race" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACE_DRAGONBORN">
 		<description>
-			<p>Os ancestrais dos draconatos eclodiram dos ovos de dragões cromáticos e metálicos. Uma história defende que esses ovos foram abençoados pelos deuses dragões Bahamut e Tiamat, que queriam povoar o multiverso com pessoas criadas à sua imagem. Outra história afirma que os dragões criaram os primeiros draconatos sem as bênçãos dos deuses. Qualquer que seja sua origem, os draconatos criaram seus lares no Plano Material.</p>
-			<p class="indent">Os draconatos se parecem com dragões bípedes sem asas — escamosos, de olhos brilhantes e ossos grossos, com chifres na cabeça — e sua coloração e outras características são reminiscências de seus ancestrais dracônicos.</p>
-			<h5>TRAÇOS DE DRACONATO</h5>
+			<p>Os ancestrais dos draconatos eclodiram dos ovos de dragÃµes cromÃ¡ticos e metÃ¡licos. Uma histÃ³ria defende que esses ovos foram abenÃ§oados pelos deuses dragÃµes Bahamut e Tiamat, que queriam povoar o multiverso com pessoas criadas Ã  sua imagem. Outra histÃ³ria afirma que os dragÃµes criaram os primeiros draconatos sem as bÃªnÃ§Ã£os dos deuses. Qualquer que seja sua origem, os draconatos criaram seus lares no Plano Material.</p>
+			<p class="indent">Os draconatos se parecem com dragÃµes bÃ­pedes sem asas â€” escamosos, de olhos brilhantes e ossos grossos, com chifres na cabeÃ§a â€” e sua coloraÃ§Ã£o e outras caracterÃ­sticas sÃ£o reminiscÃªncias de seus ancestrais dracÃ´nicos.</p>
+			<h5>TRAÃ‡OS DE DRACONATO</h5>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
 				<li><strong>Tipo de Criatura:</strong> Humanoide</li>
-				<li><strong>Tamanho:</strong> Médio (cerca de 1,5 a 2,1 metros de altura)</li>
+				<li><strong>Tamanho:</strong> MÃ©dio (cerca de 1,5 a 2,1 metros de altura)</li>
 				<li><strong>Deslocamento:</strong> 9 metros</li>
 			</ul>
-			<p>Como um Draconato, você possui estes traços especiais.</p>
-			<p class="indent"><strong><em>Ancestralidade Dracônica.</em></strong> A sua linhagem deriva de um dragão progenitor. Escolha o tipo de dragão na tabela Ancestrais Dracônicos. A sua escolha afeta seus traços Arma de Sopro e Resistência a Dano, bem como a sua aparência.</p>
-			<h5>ANCESTRAIS DRACÔNICOS</h5>
+			<p>Como um Draconato, vocÃª possui estes traÃ§os especiais.</p>
+			<p class="indent"><strong><em>Ancestralidade DracÃ´nica.</em></strong> A sua linhagem deriva de um dragÃ£o progenitor. Escolha o tipo de dragÃ£o na tabela Ancestrais DracÃ´nicos. A sua escolha afeta seus traÃ§os Arma de Sopro e ResistÃªncia a Dano, bem como a sua aparÃªncia.</p>
+			<h5>ANCESTRAIS DRACÃ”NICOS</h5>
 			<table>
 				<thead>
-					<tr><td>Dragão</td><td>Tipo de Dano</td><td>Dragão</td><td>Tipo de Dano</td></tr>
+					<tr><td>DragÃ£o</td><td>Tipo de Dano</td><td>DragÃ£o</td><td>Tipo de Dano</td></tr>
 				</thead>
-				<tr><td>Preto</td><td>Ácido</td><td>Ouro</td><td>Fogo</td></tr>
-				<tr><td>Azul</td><td>Elétrico</td><td>Verde</td><td>Veneno</td></tr>
-				<tr><td>Latão</td><td>Fogo</td><td>Vermelho</td><td>Fogo</td></tr>
-				<tr><td>Bronze</td><td>Elétrico</td><td>Prata</td><td>Frio</td></tr>
-				<tr><td>Cobre</td><td>Ácido</td><td>Branco</td><td>Frio</td></tr>
+				<tr><td>Preto</td><td>Ãcido</td><td>Ouro</td><td>Fogo</td></tr>
+				<tr><td>Azul</td><td>ElÃ©trico</td><td>Verde</td><td>Veneno</td></tr>
+				<tr><td>LatÃ£o</td><td>Fogo</td><td>Vermelho</td><td>Fogo</td></tr>
+				<tr><td>Bronze</td><td>ElÃ©trico</td><td>Prata</td><td>Frio</td></tr>
+				<tr><td>Cobre</td><td>Ãcido</td><td>Branco</td><td>Frio</td></tr>
 			</table>
-			<p class="indent"><strong><em>Arma de Sopro.</em></strong> Quando você realiza a ação de Ataque no seu turno, você pode substituir um dos seus ataques por uma exalação de energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura nessa área deve fazer uma salvaguarda de Destreza (CD 8 mais o seu modificador de Constituição e Bônus de Proficiência). Em uma falha, a criatura sofre 1d10 de dano do tipo determinado pelo seu traço Ancestralidade Dracônica. Em um sucesso, a criatura sofre metade desse dano. Esse dano aumenta em 1d10 quando você atinge os níveis de personagem 5 (2d10), 11 (3d10) e 17 (4d10).</p> 
-			<p class="indent">Você pode usar esta Arma de Sopro um número de vezes igual ao seu Bônus de Proficiência, e você recupera todos os usos gastos quando terminar um Descanso Longo.</p>
-			<p class="indent"><strong><em>Resistência a Dano.</em></strong> Você tem Resistência ao tipo de dano determinado pelo seu traço Ancestralidade Dracônica.</p>
-			<p class="indent"><strong><em>Visão no Escuro.</em></strong> Você tem Visão no Escuro com um alcance de 18 metros.</p>
-			<p class="indent"><strong><em>Voo Dracônico.</em></strong> Quando você alcançar o 5º nível de personagem, você pode canalizar a magia dracônica para conceder a si mesmo voo temporário. Como uma Ação Bônus, asas espectrais brotam de suas costas e duram por 10 minutos, ou até você recolhê-las (nenhuma ação exigida) ou ficar com a condição Incapacitado. Durante esse período, você tem um Deslocamento de Voo igual ao seu Deslocamento. As suas asas parecem ser feitas da mesma energia da sua Arma de Sopro. Uma vez que você use este traço, você não pode usá-lo novamente até terminar um Descanso Longo.</p>
+			<p class="indent"><strong><em>Arma de Sopro.</em></strong> Quando vocÃª realiza a aÃ§Ã£o de Ataque no seu turno, vocÃª pode substituir um dos seus ataques por uma exalaÃ§Ã£o de energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura nessa Ã¡rea deve fazer uma salvaguarda de Destreza (CD 8 mais o seu modificador de ConstituiÃ§Ã£o e BÃ´nus de ProficiÃªncia). Em uma falha, a criatura sofre 1d10 de dano do tipo determinado pelo seu traÃ§o Ancestralidade DracÃ´nica. Em um sucesso, a criatura sofre metade desse dano. Esse dano aumenta em 1d10 quando vocÃª atinge os nÃ­veis de personagem 5 (2d10), 11 (3d10) e 17 (4d10).</p> 
+			<p class="indent">VocÃª pode usar esta Arma de Sopro um nÃºmero de vezes igual ao seu BÃ´nus de ProficiÃªncia, e vocÃª recupera todos os usos gastos quando terminar um Descanso Longo.</p>
+			<p class="indent"><strong><em>ResistÃªncia a Dano.</em></strong> VocÃª tem ResistÃªncia ao tipo de dano determinado pelo seu traÃ§o Ancestralidade DracÃ´nica.</p>
+			<p class="indent"><strong><em>VisÃ£o no Escuro.</em></strong> VocÃª tem VisÃ£o no Escuro com um alcance de 18 metros.</p>
+			<p class="indent"><strong><em>Voo DracÃ´nico.</em></strong> Quando vocÃª alcanÃ§ar o 5Âº nÃ­vel de personagem, vocÃª pode canalizar a magia dracÃ´nica para conceder a si mesmo voo temporÃ¡rio. Como uma AÃ§Ã£o BÃ´nus, asas espectrais brotam de suas costas e duram por 10 minutos, ou atÃ© vocÃª recolhÃª-las (nenhuma aÃ§Ã£o exigida) ou ficar com a condiÃ§Ã£o Incapacitado. Durante esse perÃ­odo, vocÃª tem um Deslocamento de Voo igual ao seu Deslocamento. As suas asas parecem ser feitas da mesma energia da sua Arma de Sopro. Uma vez que vocÃª use este traÃ§o, vocÃª nÃ£o pode usÃ¡-lo novamente atÃ© terminar um Descanso Longo.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DRAGONBORN"/>
-			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade (Draconato)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Ability Score Improvement" name="OpÃ§Ã£o de Melhoria no Valor de Habilidade (Draconato)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 
@@ -57,134 +57,134 @@
 		</rules>
 	</element>
 
-	<element name="Ancestralidade Dracônica" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY">
+	<element name="Ancestralidade DracÃ´nica" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_DRACONIC_ANCESTRY</requirements>
 		<description>
-			<p>A sua linhagem deriva de um dragão progenitor. Escolha o tipo de dragão na tabela Ancestrais Dracônicos. A sua escolha afeta seus traços Arma de Sopro e Resistência a Dano, bem como a sua aparência.</p>
-			<h5>ANCESTRAIS DRACÔNICOS</h5>
+			<p>A sua linhagem deriva de um dragÃ£o progenitor. Escolha o tipo de dragÃ£o na tabela Ancestrais DracÃ´nicos. A sua escolha afeta seus traÃ§os Arma de Sopro e ResistÃªncia a Dano, bem como a sua aparÃªncia.</p>
+			<h5>ANCESTRAIS DRACÃ”NICOS</h5>
 			<table>
 				<thead>
-					<tr><td>Dragão</td><td>Tipo de Dano</td><td>Dragão</td><td>Tipo de Dano</td></tr>
+					<tr><td>DragÃ£o</td><td>Tipo de Dano</td><td>DragÃ£o</td><td>Tipo de Dano</td></tr>
 				</thead>
-				<tr><td>Preto</td><td>Ácido</td><td>Ouro</td><td>Fogo</td></tr>
-				<tr><td>Azul</td><td>Elétrico</td><td>Verde</td><td>Veneno</td></tr>
-				<tr><td>Latão</td><td>Fogo</td><td>Vermelho</td><td>Fogo</td></tr>
-				<tr><td>Bronze</td><td>Elétrico</td><td>Prata</td><td>Frio</td></tr>
-				<tr><td>Cobre</td><td>Ácido</td><td>Branco</td><td>Frio</td></tr>
+				<tr><td>Preto</td><td>Ãcido</td><td>Ouro</td><td>Fogo</td></tr>
+				<tr><td>Azul</td><td>ElÃ©trico</td><td>Verde</td><td>Veneno</td></tr>
+				<tr><td>LatÃ£o</td><td>Fogo</td><td>Vermelho</td><td>Fogo</td></tr>
+				<tr><td>Bronze</td><td>ElÃ©trico</td><td>Prata</td><td>Frio</td></tr>
+				<tr><td>Cobre</td><td>Ãcido</td><td>Branco</td><td>Frio</td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Racial Trait" name="Ancestralidade Dracônica" supports="Draconic Ancestry 2024" />
+			<select type="Racial Trait" name="Ancestralidade DracÃ´nica" supports="Draconic Ancestry 2024" />
 		</rules>
 	</element>
-	<element name="Preto" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_BLACK">
+	<element name="Preto" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_BLACK">
 		<supports>Draconic Ancestry 2024</supports>
 		<compendium display="false" />
 		<description>
-			<p>A sua linhagem deriva de um Dragão Preto. Você tem resistência a dano de Ácido, e sua Arma de Sopro usa Ácido como o seu tipo de dano.</p>
+			<p>A sua linhagem deriva de um DragÃ£o Preto. VocÃª tem resistÃªncia a dano de Ãcido, e sua Arma de Sopro usa Ãcido como o seu tipo de dano.</p>
 		</description>
-		<sheet alt="Ancestralidade Dracônica">
-			<description>A sua linhagem deriva de um Dragão Preto. O tipo de dano da sua Ancestralidade Dracônica é Ácido.</description>
+		<sheet alt="Ancestralidade DracÃ´nica">
+			<description>A sua linhagem deriva de um DragÃ£o Preto. O tipo de dano da sua Ancestralidade DracÃ´nica Ã© Ãcido.</description>
 		</sheet>
 	</element>
-	<element name="Azul" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_BLUE">
+	<element name="Azul" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_BLUE">
 		<supports>Draconic Ancestry 2024</supports>
 		<compendium display="false" />
 		<description>
-			<p>A sua linhagem deriva de um Dragão Azul. Você tem resistência a dano Elétrico, e sua Arma de Sopro usa Elétrico como o seu tipo de dano.</p>
+			<p>A sua linhagem deriva de um DragÃ£o Azul. VocÃª tem resistÃªncia a dano ElÃ©trico, e sua Arma de Sopro usa ElÃ©trico como o seu tipo de dano.</p>
 		</description>
-		<sheet alt="Ancestralidade Dracônica">
-			<description>A sua linhagem deriva de um Dragão Azul. O tipo de dano da sua Ancestralidade Dracônica é Elétrico.</description>
-		</sheet>
-	</element>
-
-	<element name="Latão" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_BRASS">
-		<supports>Draconic Ancestry 2024</supports>
-		<compendium display="false" />
-		<description>
-			<p>A sua linhagem deriva de um Dragão de Latão. Você tem resistência a dano de Fogo, e sua Arma de Sopro usa Fogo como o seu tipo de dano.</p>
-		</description>
-		<sheet alt="Ancestralidade Dracônica">
-			<description>A sua linhagem deriva de um Dragão de Latão. O tipo de dano da sua Ancestralidade Dracônica é Fogo.</description>
-		</sheet>
-	</element>
-	<element name="Bronze" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_BRONZE">
-		<supports>Draconic Ancestry 2024</supports>
-		<compendium display="false" />
-		<description>
-			<p>A sua linhagem deriva de um Dragão de Bronze. Você tem resistência a dano Elétrico, e sua Arma de Sopro usa Elétrico como o seu tipo de dano.</p>
-		</description>
-		<sheet alt="Ancestralidade Dracônica">
-			<description>A sua linhagem deriva de um Dragão de Bronze. O tipo de dano da sua Ancestralidade Dracônica é Elétrico.</description>
-		</sheet>
-	</element>
-	<element name="Cobre" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_COPPER">
-		<supports>Draconic Ancestry 2024</supports>
-		<compendium display="false" />
-		<description>
-			<p>A sua linhagem deriva de um Dragão de Cobre. Você tem resistência a dano de Ácido, e sua Arma de Sopro usa Ácido como o seu tipo de dano.</p>
-		</description>
-		<sheet alt="Ancestralidade Dracônica">
-			<description>A sua linhagem deriva de um Dragão de Cobre. O tipo de dano da sua Ancestralidade Dracônica é Ácido.</description>
-		</sheet>
-	</element>
-	<element name="Ouro" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_GOLD">
-		<supports>Draconic Ancestry 2024</supports>
-		<compendium display="false" />
-		<description>
-			<p>A sua linhagem deriva de um Dragão de Ouro. Você tem resistência a dano de Fogo, e sua Arma de Sopro usa Fogo como o seu tipo de dano.</p>
-		</description>
-		<sheet alt="Ancestralidade Dracônica">
-			<description>A sua linhagem deriva de um Dragão de Ouro. O tipo de dano da sua Ancestralidade Dracônica é Fogo.</description>
-		</sheet>
-	</element>
-	<element name="Verde" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_GREEN">
-		<supports>Draconic Ancestry 2024</supports>
-		<compendium display="false" />
-		<description>
-			<p>A sua linhagem deriva de um Dragão Verde. Você tem resistência a dano de Veneno, e sua Arma de Sopro usa Veneno como o seu tipo de dano.</p>
-		</description>
-		<sheet alt="Ancestralidade Dracônica">
-			<description>A sua linhagem deriva de um Dragão Verde. O tipo de dano da sua Ancestralidade Dracônica é Veneno.</description>
-		</sheet>
-	</element>
-	<element name="Vermelho" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_RED">
-		<supports>Draconic Ancestry 2024</supports>
-		<compendium display="false" />
-		<description>
-			<p>A sua linhagem deriva de um Dragão Vermelho. Você tem resistência a dano de Fogo, e sua Arma de Sopro usa Fogo como o seu tipo de dano.</p>
-		</description>
-		<sheet alt="Ancestralidade Dracônica">
-			<description>A sua linhagem deriva de um Dragão Vermelho. O tipo de dano da sua Ancestralidade Dracônica é Fogo.</description>
-		</sheet>
-	</element>
-	<element name="Prata" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_SILVER">
-		<supports>Draconic Ancestry 2024</supports>
-		<compendium display="false" />
-		<description>
-			<p>A sua linhagem deriva de um Dragão de Prata. Você tem resistência a dano de Frio, e sua Arma de Sopro usa Frio como o seu tipo de dano.</p>
-		</description>
-		<sheet alt="Ancestralidade Dracônica">
-			<description>A sua linhagem deriva de um Dragão de Prata. O tipo de dano da sua Ancestralidade Dracônica é Frio.</description>
-		</sheet>
-	</element>
-	<element name="Branco" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_WHITE">
-		<supports>Draconic Ancestry 2024</supports>
-		<compendium display="false" />
-		<description>
-			<p>A sua linhagem deriva de um Dragão Branco. Você tem resistência a dano de Frio, e sua Arma de Sopro usa Frio como o seu tipo de dano.</p>
-		</description>
-		<sheet alt="Ancestralidade Dracônica">
-			<description>A sua linhagem deriva de um Dragão Branco. O tipo de dano da sua Ancestralidade Dracônica é Frio.</description>
+		<sheet alt="Ancestralidade DracÃ´nica">
+			<description>A sua linhagem deriva de um DragÃ£o Azul. O tipo de dano da sua Ancestralidade DracÃ´nica Ã© ElÃ©trico.</description>
 		</sheet>
 	</element>
 
-	<element name="Arma de Sopro" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON">
+	<element name="LatÃ£o" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_BRASS">
+		<supports>Draconic Ancestry 2024</supports>
+		<compendium display="false" />
+		<description>
+			<p>A sua linhagem deriva de um DragÃ£o de LatÃ£o. VocÃª tem resistÃªncia a dano de Fogo, e sua Arma de Sopro usa Fogo como o seu tipo de dano.</p>
+		</description>
+		<sheet alt="Ancestralidade DracÃ´nica">
+			<description>A sua linhagem deriva de um DragÃ£o de LatÃ£o. O tipo de dano da sua Ancestralidade DracÃ´nica Ã© Fogo.</description>
+		</sheet>
+	</element>
+	<element name="Bronze" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_BRONZE">
+		<supports>Draconic Ancestry 2024</supports>
+		<compendium display="false" />
+		<description>
+			<p>A sua linhagem deriva de um DragÃ£o de Bronze. VocÃª tem resistÃªncia a dano ElÃ©trico, e sua Arma de Sopro usa ElÃ©trico como o seu tipo de dano.</p>
+		</description>
+		<sheet alt="Ancestralidade DracÃ´nica">
+			<description>A sua linhagem deriva de um DragÃ£o de Bronze. O tipo de dano da sua Ancestralidade DracÃ´nica Ã© ElÃ©trico.</description>
+		</sheet>
+	</element>
+	<element name="Cobre" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_COPPER">
+		<supports>Draconic Ancestry 2024</supports>
+		<compendium display="false" />
+		<description>
+			<p>A sua linhagem deriva de um DragÃ£o de Cobre. VocÃª tem resistÃªncia a dano de Ãcido, e sua Arma de Sopro usa Ãcido como o seu tipo de dano.</p>
+		</description>
+		<sheet alt="Ancestralidade DracÃ´nica">
+			<description>A sua linhagem deriva de um DragÃ£o de Cobre. O tipo de dano da sua Ancestralidade DracÃ´nica Ã© Ãcido.</description>
+		</sheet>
+	</element>
+	<element name="Ouro" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_GOLD">
+		<supports>Draconic Ancestry 2024</supports>
+		<compendium display="false" />
+		<description>
+			<p>A sua linhagem deriva de um DragÃ£o de Ouro. VocÃª tem resistÃªncia a dano de Fogo, e sua Arma de Sopro usa Fogo como o seu tipo de dano.</p>
+		</description>
+		<sheet alt="Ancestralidade DracÃ´nica">
+			<description>A sua linhagem deriva de um DragÃ£o de Ouro. O tipo de dano da sua Ancestralidade DracÃ´nica Ã© Fogo.</description>
+		</sheet>
+	</element>
+	<element name="Verde" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_GREEN">
+		<supports>Draconic Ancestry 2024</supports>
+		<compendium display="false" />
+		<description>
+			<p>A sua linhagem deriva de um DragÃ£o Verde. VocÃª tem resistÃªncia a dano de Veneno, e sua Arma de Sopro usa Veneno como o seu tipo de dano.</p>
+		</description>
+		<sheet alt="Ancestralidade DracÃ´nica">
+			<description>A sua linhagem deriva de um DragÃ£o Verde. O tipo de dano da sua Ancestralidade DracÃ´nica Ã© Veneno.</description>
+		</sheet>
+	</element>
+	<element name="Vermelho" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_RED">
+		<supports>Draconic Ancestry 2024</supports>
+		<compendium display="false" />
+		<description>
+			<p>A sua linhagem deriva de um DragÃ£o Vermelho. VocÃª tem resistÃªncia a dano de Fogo, e sua Arma de Sopro usa Fogo como o seu tipo de dano.</p>
+		</description>
+		<sheet alt="Ancestralidade DracÃ´nica">
+			<description>A sua linhagem deriva de um DragÃ£o Vermelho. O tipo de dano da sua Ancestralidade DracÃ´nica Ã© Fogo.</description>
+		</sheet>
+	</element>
+	<element name="Prata" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_SILVER">
+		<supports>Draconic Ancestry 2024</supports>
+		<compendium display="false" />
+		<description>
+			<p>A sua linhagem deriva de um DragÃ£o de Prata. VocÃª tem resistÃªncia a dano de Frio, e sua Arma de Sopro usa Frio como o seu tipo de dano.</p>
+		</description>
+		<sheet alt="Ancestralidade DracÃ´nica">
+			<description>A sua linhagem deriva de um DragÃ£o de Prata. O tipo de dano da sua Ancestralidade DracÃ´nica Ã© Frio.</description>
+		</sheet>
+	</element>
+	<element name="Branco" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_ANCESTRY_WHITE">
+		<supports>Draconic Ancestry 2024</supports>
+		<compendium display="false" />
+		<description>
+			<p>A sua linhagem deriva de um DragÃ£o Branco. VocÃª tem resistÃªncia a dano de Frio, e sua Arma de Sopro usa Frio como o seu tipo de dano.</p>
+		</description>
+		<sheet alt="Ancestralidade DracÃ´nica">
+			<description>A sua linhagem deriva de um DragÃ£o Branco. O tipo de dano da sua Ancestralidade DracÃ´nica Ã© Frio.</description>
+		</sheet>
+	</element>
+
+	<element name="Arma de Sopro" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_BREATH_WEAPON</requirements>
 		<description>
-			<p>Quando você realiza a ação de Ataque no seu turno, você pode substituir um dos seus ataques por uma exalação de energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura nessa área deve fazer uma salvaguarda de Destreza (CD 8 mais o seu modificador de Constituição e Bônus de Proficiência). Em uma falha, a criatura sofre 1d10 de dano do tipo determinado pelo seu traço Ancestralidade Dracônica. Em um sucesso, a criatura sofre metade desse dano. Esse dano aumenta em 1d10 quando você atinge os níveis de personagem 5 (2d10), 11 (3d10) e 17 (4d10).</p> 
-			<p class="indent">Você pode usar esta Arma de Sopro um número de vezes igual ao seu Bônus de Proficiência, e você recupera todos os usos gastos quando terminar um Descanso Longo.</p>
+			<p>Quando vocÃª realiza a aÃ§Ã£o de Ataque no seu turno, vocÃª pode substituir um dos seus ataques por uma exalaÃ§Ã£o de energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura nessa Ã¡rea deve fazer uma salvaguarda de Destreza (CD 8 mais o seu modificador de ConstituiÃ§Ã£o e BÃ´nus de ProficiÃªncia). Em uma falha, a criatura sofre 1d10 de dano do tipo determinado pelo seu traÃ§o Ancestralidade DracÃ´nica. Em um sucesso, a criatura sofre metade desse dano. Esse dano aumenta em 1d10 quando vocÃª atinge os nÃ­veis de personagem 5 (2d10), 11 (3d10) e 17 (4d10).</p> 
+			<p class="indent">VocÃª pode usar esta Arma de Sopro um nÃºmero de vezes igual ao seu BÃ´nus de ProficiÃªncia, e vocÃª recupera todos os usos gastos quando terminar um Descanso Longo.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -208,71 +208,71 @@
 		</rules>
 	</element>
 
-	<element name="Arma de Sopro (Preto)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_BLACK">
+	<element name="Arma de Sopro (Preto)" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_BLACK">
 		<compendium display="false" />
 		<sheet alt="Arma de Sopro" action="Ataque" usage="{{proficiency}}/Descanso Longo">
-			<description>Você exala energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na área deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Ácido, ou metade do dano em um sucesso.</description>
+			<description>VocÃª exala energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na Ã¡rea deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Ãcido, ou metade do dano em um sucesso.</description>
 		</sheet>
 	</element>
-	<element name="Arma de Sopro (Azul)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_BLUE">
+	<element name="Arma de Sopro (Azul)" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_BLUE">
 		<compendium display="false" />
 		<sheet alt="Arma de Sopro" action="Ataque" usage="{{proficiency}}/Descanso Longo">
-			<description>Você exala energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na área deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano Elétrico, ou metade do dano em um sucesso.</description>
+			<description>VocÃª exala energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na Ã¡rea deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano ElÃ©trico, ou metade do dano em um sucesso.</description>
 		</sheet>
 	</element>
-	<element name="Arma de Sopro (Latão)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_BRASS">
+	<element name="Arma de Sopro (LatÃ£o)" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_BRASS">
 		<compendium display="false" />
 		<sheet alt="Arma de Sopro" action="Ataque" usage="{{proficiency}}/Descanso Longo">
-			<description>Você exala energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na área deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Fogo, ou metade do dano em um sucesso.</description>
+			<description>VocÃª exala energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na Ã¡rea deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Fogo, ou metade do dano em um sucesso.</description>
 		</sheet>
 	</element>
-	<element name="Arma de Sopro (Bronze)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_BRONZE">
+	<element name="Arma de Sopro (Bronze)" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_BRONZE">
 		<compendium display="false" />
 		<sheet alt="Arma de Sopro" action="Ataque" usage="{{proficiency}}/Descanso Longo">
-			<description>Você exala energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na área deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano Elétrico, ou metade do dano em um sucesso.</description>
+			<description>VocÃª exala energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na Ã¡rea deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano ElÃ©trico, ou metade do dano em um sucesso.</description>
 		</sheet>
 	</element>
-	<element name="Arma de Sopro (Cobre)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_COPPER">
+	<element name="Arma de Sopro (Cobre)" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_COPPER">
 		<compendium display="false" />
 		<sheet alt="Arma de Sopro" action="Ataque" usage="{{proficiency}}/Descanso Longo">
-			<description>Você exala energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na área deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Ácido, ou metade do dano em um sucesso.</description>
+			<description>VocÃª exala energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na Ã¡rea deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Ãcido, ou metade do dano em um sucesso.</description>
 		</sheet>
 	</element>
-	<element name="Arma de Sopro (Ouro)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_GOLD">
+	<element name="Arma de Sopro (Ouro)" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_GOLD">
 		<compendium display="false" />
 		<sheet alt="Arma de Sopro" action="Ataque" usage="{{proficiency}}/Descanso Longo">
-			<description>Você exala energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na área deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Fogo, ou metade do dano em um sucesso.</description>
+			<description>VocÃª exala energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na Ã¡rea deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Fogo, ou metade do dano em um sucesso.</description>
 		</sheet>
 	</element>
-	<element name="Arma de Sopro (Verde)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_GREEN">
+	<element name="Arma de Sopro (Verde)" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_GREEN">
 		<compendium display="false" />
 		<sheet alt="Arma de Sopro" action="Ataque" usage="{{proficiency}}/Descanso Longo">
-			<description>Você exala energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na área deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Veneno, ou metade do dano em um sucesso.</description>
+			<description>VocÃª exala energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na Ã¡rea deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Veneno, ou metade do dano em um sucesso.</description>
 		</sheet>
 	</element>
-	<element name="Arma de Sopro (Vermelho)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_RED">
+	<element name="Arma de Sopro (Vermelho)" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_RED">
 		<compendium display="false" />
 		<sheet alt="Arma de Sopro" action="Ataque" usage="{{proficiency}}/Descanso Longo">
-			<description>Você exala energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na área deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Fogo, ou metade do dano em um sucesso.</description>
+			<description>VocÃª exala energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na Ã¡rea deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Fogo, ou metade do dano em um sucesso.</description>
 		</sheet>
 	</element>
-	<element name="Arma de Sopro (Prata)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_SILVER">
+	<element name="Arma de Sopro (Prata)" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_SILVER">
 		<compendium display="false" />
 		<sheet alt="Arma de Sopro" action="Ataque" usage="{{proficiency}}/Descanso Longo">
-			<description>Você exala energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na área deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Frio, ou metade do dano em um sucesso.</description>
+			<description>VocÃª exala energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na Ã¡rea deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Frio, ou metade do dano em um sucesso.</description>
 		</sheet>
 	</element>
-	<element name="Arma de Sopro (Branco)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_WHITE">
+	<element name="Arma de Sopro (Branco)" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_BREATH_WEAPON_WHITE">
 		<compendium display="false" />
 		<sheet alt="Arma de Sopro" action="Ataque" usage="{{proficiency}}/Descanso Longo">
-			<description>Você exala energia mágica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na área deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Frio, ou metade do dano em um sucesso.</description>
+			<description>VocÃª exala energia mÃ¡gica em um Cone de 4,5 metros ou uma Linha de 9 metros de comprimento e 1,5 metro de largura (escolha a forma cada vez). Cada criatura na Ã¡rea deve fazer uma salvaguarda de Destreza contra CD {{breath weapon:dc}}. Em uma falha, a criatura sofre {{breath weapon:dice count}}d10 de dano de Frio, ou metade do dano em um sucesso.</description>
 		</sheet>
 	</element>
 
-	<element name="Resistência Dracônica" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DAMAGE_RESISTANCE">
+	<element name="ResistÃªncia DracÃ´nica" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DAMAGE_RESISTANCE">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_DAMAGE_RESISTANCE</requirements>
 		<description>
-			<p>Você tem Resistência ao tipo de dano determinado pelo seu traço Ancestralidade Dracônica.</p>
+			<p>VocÃª tem ResistÃªncia ao tipo de dano determinado pelo seu traÃ§o Ancestralidade DracÃ´nica.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -289,20 +289,20 @@
 		</rules>
 	</element>
 
-	<element name="Voo Dracônico" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_FLIGHT">
+	<element name="Voo DracÃ´nico" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_DRAGONBORN_DRACONIC_FLIGHT">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_DRACONIC_FLIGHT</requirements>
 		<description>
-			<p>Quando você alcançar o 5º nível de personagem, você pode canalizar a magia dracônica para conceder a si mesmo voo temporário. Como uma Ação Bônus, asas espectrais brotam de suas costas e duram por 10 minutos, ou até você recolhê-las (nenhuma ação exigida) ou ficar com a condição Incapacitado. Durante esse período, você tem um Deslocamento de Voo igual ao seu Deslocamento. As suas asas parecem ser feitas da mesma energia da sua Arma de Sopro. Uma vez que você use este traço, você não pode usá-lo novamente até terminar um Descanso Longo.</p>
+			<p>Quando vocÃª alcanÃ§ar o 5Âº nÃ­vel de personagem, vocÃª pode canalizar a magia dracÃ´nica para conceder a si mesmo voo temporÃ¡rio. Como uma AÃ§Ã£o BÃ´nus, asas espectrais brotam de suas costas e duram por 10 minutos, ou atÃ© vocÃª recolhÃª-las (nenhuma aÃ§Ã£o exigida) ou ficar com a condiÃ§Ã£o Incapacitado. Durante esse perÃ­odo, vocÃª tem um Deslocamento de Voo igual ao seu Deslocamento. As suas asas parecem ser feitas da mesma energia da sua Arma de Sopro. Uma vez que vocÃª use este traÃ§o, vocÃª nÃ£o pode usÃ¡-lo novamente atÃ© terminar um Descanso Longo.</p>
 		</description>
-		<sheet action="Ação Bônus" usage="{{proficiency}}/Descanso Longo">
-			<description>Asas espectrais brotam de suas costas e duram por 10 minutos, ou até você recolhê-las (nenhuma ação exigida) ou ficar com a condição Incapacitado. Durante esse período, você tem um Deslocamento de Voo de {{speed}} ft. (converta para metros na ficha).</description>
+		<sheet action="AÃ§Ã£o BÃ´nus" usage="{{proficiency}}/Descanso Longo">
+			<description>Asas espectrais brotam de suas costas e duram por 10 minutos, ou atÃ© vocÃª recolhÃª-las (nenhuma aÃ§Ã£o exigida) ou ficar com a condiÃ§Ã£o Incapacitado. Durante esse perÃ­odo, vocÃª tem um Deslocamento de Voo de {{speed}} ft. (converta para metros na ficha).</description>
 		</sheet>
 	</element>
 
-	<element name="Substituição de Traço Visão no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_DARKVISION" />
-	<element name="Substituição de Traço Ancestralidade Dracônica" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_DRACONIC_ANCESTRY" />
-	<element name="Substituição de Traço Arma de Sopro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_BREATH_WEAPON" />
-	<element name="Substituição de Traço Resistência a Dano" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_DAMAGE_RESISTANCE" />
-	<element name="Substituição de Traço Voo Dracônico" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_DRACONIC_FLIGHT" />
+	<element name="SubstituiÃ§Ã£o de TraÃ§o VisÃ£o no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_DARKVISION" />
+	<element name="SubstituiÃ§Ã£o de TraÃ§o Ancestralidade DracÃ´nica" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_DRACONIC_ANCESTRY" />
+	<element name="SubstituiÃ§Ã£o de TraÃ§o Arma de Sopro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_BREATH_WEAPON" />
+	<element name="SubstituiÃ§Ã£o de TraÃ§o ResistÃªncia a Dano" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_DAMAGE_RESISTANCE" />
+	<element name="SubstituiÃ§Ã£o de TraÃ§o Voo DracÃ´nico" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_DRAGONBORN_DRACONIC_FLIGHT" />
 
 </elements>

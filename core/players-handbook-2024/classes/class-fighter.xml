@@ -5,65 +5,65 @@
 		<description>A classe Guerreiro do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="class-fighter.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-fighter.xml" />
+			<file name="class-fighter.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/classes/class-fighter.xml" />
 		</update>
 	</info>
 
-	<element name="Guerreiro" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FIGHTER">
+	<element name="Guerreiro" type="Class" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FIGHTER">
 		<description>
-			<p>Os Guerreiros dominam muitos campos de batalha. Cavaleiros em missões, campeões reais, soldados de elite e mercenários endurecidos — como Guerreiros, todos eles compartilham uma proeza inigualável com armas e armaduras. E eles estão bem familiarizados com a morte, tanto em causá-la quanto em desafiá-la.</p>
-			<p class="indent">Os Guerreiros dominam várias técnicas de armas, e um Guerreiro bem equipado sempre tem a ferramenta certa à mão para qualquer situação de combate. Da mesma forma, um Guerreiro é adepto de todas as formas de armadura. Além desse grau básico de familiaridade, cada Guerreiro se especializa em certos estilos de combate. Alguns se concentram em arquearia, outros em lutar com duas armas ao mesmo tempo, e outros em aumentar suas habilidades marciais com magia. Esta combinação de ampla habilidade e extensa especialização torna os Guerreiros combatentes superiores.</p>
+			<p>Os Guerreiros dominam muitos campos de batalha. Cavaleiros em missÃµes, campeÃµes reais, soldados de elite e mercenÃ¡rios endurecidos â€” como Guerreiros, todos eles compartilham uma proeza inigualÃ¡vel com armas e armaduras. E eles estÃ£o bem familiarizados com a morte, tanto em causÃ¡-la quanto em desafiÃ¡-la.</p>
+			<p class="indent">Os Guerreiros dominam vÃ¡rias tÃ©cnicas de armas, e um Guerreiro bem equipado sempre tem a ferramenta certa Ã  mÃ£o para qualquer situaÃ§Ã£o de combate. Da mesma forma, um Guerreiro Ã© adepto de todas as formas de armadura. AlÃ©m desse grau bÃ¡sico de familiaridade, cada Guerreiro se especializa em certos estilos de combate. Alguns se concentram em arquearia, outros em lutar com duas armas ao mesmo tempo, e outros em aumentar suas habilidades marciais com magia. Esta combinaÃ§Ã£o de ampla habilidade e extensa especializaÃ§Ã£o torna os Guerreiros combatentes superiores.</p>
 			<div class="sidebar">
-				<h5>TRAÇOS PRINCIPAIS DO GUERREIRO</h5>
+				<h5>TRAÃ‡OS PRINCIPAIS DO GUERREIRO</h5>
 				<table>
-					<tr><td><b>Habilidade Principal</b></td><td class="left">Força ou Destreza</td></tr>
-					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D10 por nível de Guerreiro</td></tr>
-					<tr><td><b>Proficiências em Testes de Resistência</b></td><td class="left">Força e Constituição</td></tr>
-					<tr><td><b>Proficiências em Perícias</b></td><td class="left"><i>Escolha 2:</i> Acrobacia, Adestrar Animais, Atletismo, História, Intuição, Intimidação, Persuasão, Percepção ou Sobrevivência</td></tr>
-					<tr><td><b>Proficiências com Armas</b></td><td class="left">Armas simples e armas marciais</td></tr>
-					<tr><td><b>Treinamento com Armaduras</b></td><td class="left">Armaduras Leves, Médias, Pesadas e Escudos</td></tr>
+					<tr><td><b>Habilidade Principal</b></td><td class="left">ForÃ§a ou Destreza</td></tr>
+					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D10 por nÃ­vel de Guerreiro</td></tr>
+					<tr><td><b>ProficiÃªncias em Testes de ResistÃªncia</b></td><td class="left">ForÃ§a e ConstituiÃ§Ã£o</td></tr>
+					<tr><td><b>ProficiÃªncias em PerÃ­cias</b></td><td class="left"><i>Escolha 2:</i> Acrobacia, Adestrar Animais, Atletismo, HistÃ³ria, IntuiÃ§Ã£o, IntimidaÃ§Ã£o, PersuasÃ£o, PercepÃ§Ã£o ou SobrevivÃªncia</td></tr>
+					<tr><td><b>ProficiÃªncias com Armas</b></td><td class="left">Armas simples e armas marciais</td></tr>
+					<tr><td><b>Treinamento com Armaduras</b></td><td class="left">Armaduras Leves, MÃ©dias, Pesadas e Escudos</td></tr>
 					<tr><td><b>Equipamento Inicial</b></td><td class="left"><i>Escolha A, B ou C:</i> (A) Cota de Malha, Espada Grande, Mangual, 8 Azagaias, Pacote de Explorador e 4 PO; (B) Armadura de Couro Batido, Cimitarra, Espada Curta, Arco Longo, 20 Flechas, Aljava, Pacote de Explorador e 11 PO; ou (C) 155 PO</td></tr>
 				</table>
 			</div>
 			<h4>TORNANDO-SE UM GUERREIRO ...</h4>
-			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÃVEL 1</h5>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
-				<li>Você ganha todos os traços na tabela de Traços Principais do Guerreiro.</li>
-				<li>Você ganha as características de nível 1 do Guerreiro, que estão listadas na tabela Características de Guerreiro.</li>
+				<li>VocÃª ganha todos os traÃ§os na tabela de TraÃ§os Principais do Guerreiro.</li>
+				<li>VocÃª ganha as caracterÃ­sticas de nÃ­vel 1 do Guerreiro, que estÃ£o listadas na tabela CaracterÃ­sticas de Guerreiro.</li>
 			</ul>
 			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
 			<ul style="margin-top:-1em">
-				<li>Você ganha os seguintes traços da tabela de Traços Principais do Guerreiro: Dado de Pontos de Vida, proficiência com armas Marciais e treinamento com Armaduras Leves, Médias e Escudos.</li>
-				<li>Você ganha as características de nível 1 do Guerreiro, que estão listadas na tabela Características de Guerreiro.</li>
+				<li>VocÃª ganha os seguintes traÃ§os da tabela de TraÃ§os Principais do Guerreiro: Dado de Pontos de Vida, proficiÃªncia com armas Marciais e treinamento com Armaduras Leves, MÃ©dias e Escudos.</li>
+				<li>VocÃª ganha as caracterÃ­sticas de nÃ­vel 1 do Guerreiro, que estÃ£o listadas na tabela CaracterÃ­sticas de Guerreiro.</li>
 			</ul>
-			<h5>CARACTERÍSTICAS DE GUERREIRO</h5>
+			<h5>CARACTERÃSTICAS DE GUERREIRO</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Nível</td><td>Bônus de Proficiência</td><td class="left">Características</td><td>Retomar o Fôlego</td><td>Maestria em Armas</td></tr>
+					<tr><td class="col-5">NÃ­vel</td><td>BÃ´nus de ProficiÃªncia</td><td class="left">CaracterÃ­sticas</td><td>Retomar o FÃ´lego</td><td>Maestria em Armas</td></tr>
 				</thead>
-				<tr><td> 1</td><td>+2</td><td class="left">Estilo de Luta, Retomar o Fôlego, Maestria em Armas</td><td>2</td><td>3</td></tr>
-				<tr><td> 2</td><td>+2</td><td class="left">Surto de Ação (um uso), Mente Tática</td><td>2</td><td>3</td></tr>
+				<tr><td> 1</td><td>+2</td><td class="left">Estilo de Luta, Retomar o FÃ´lego, Maestria em Armas</td><td>2</td><td>3</td></tr>
+				<tr><td> 2</td><td>+2</td><td class="left">Surto de AÃ§Ã£o (um uso), Mente TÃ¡tica</td><td>2</td><td>3</td></tr>
 				<tr><td> 3</td><td>+2</td><td class="left">Subclasse de Guerreiro</td><td>2</td><td>3</td></tr>
 				<tr><td> 4</td><td>+2</td><td class="left">Aumento no Valor de Habilidade</td><td>3</td><td>4</td></tr>
-				<tr><td> 5</td><td>+3</td><td class="left">Ataque Extra, Deslocamento Tático</td><td>3</td><td>4</td></tr>
+				<tr><td> 5</td><td>+3</td><td class="left">Ataque Extra, Deslocamento TÃ¡tico</td><td>3</td><td>4</td></tr>
 				<tr><td> 6</td><td>+3</td><td class="left">Aumento no Valor de Habilidade</td><td>3</td><td>4</td></tr>
-				<tr><td> 7</td><td>+3</td><td class="left">Característica de Subclasse</td><td>3</td><td>4</td></tr>
+				<tr><td> 7</td><td>+3</td><td class="left">CaracterÃ­stica de Subclasse</td><td>3</td><td>4</td></tr>
 				<tr><td> 8</td><td>+3</td><td class="left">Aumento no Valor de Habilidade</td><td>3</td><td>4</td></tr>
-				<tr><td> 9</td><td>+4</td><td class="left">Indomável (um uso), Mestre Tático</td><td>3</td><td>4</td></tr>
-				<tr><td>10</td><td>+4</td><td class="left">Característica de Subclasse</td><td>4</td><td>5</td></tr>
+				<tr><td> 9</td><td>+4</td><td class="left">IndomÃ¡vel (um uso), Mestre TÃ¡tico</td><td>3</td><td>4</td></tr>
+				<tr><td>10</td><td>+4</td><td class="left">CaracterÃ­stica de Subclasse</td><td>4</td><td>5</td></tr>
 				<tr><td>11</td><td>+4</td><td class="left">Dois Ataques Extras</td><td>4</td><td>5</td></tr>
 				<tr><td>12</td><td>+4</td><td class="left">Aumento no Valor de Habilidade</td><td>4</td><td>5</td></tr>
-				<tr><td>13</td><td>+5</td><td class="left">Indomável (dois usos), Ataques Estudados</td><td>4</td><td>5</td></tr>
+				<tr><td>13</td><td>+5</td><td class="left">IndomÃ¡vel (dois usos), Ataques Estudados</td><td>4</td><td>5</td></tr>
 				<tr><td>14</td><td>+5</td><td class="left">Aumento no Valor de Habilidade</td><td>4</td><td>5</td></tr>
-				<tr><td>15</td><td>+5</td><td class="left">Característica de Subclasse</td><td>4</td><td>5</td></tr>
+				<tr><td>15</td><td>+5</td><td class="left">CaracterÃ­stica de Subclasse</td><td>4</td><td>5</td></tr>
 				<tr><td>16</td><td>+5</td><td class="left">Aumento no Valor de Habilidade</td><td>4</td><td>6</td></tr>
-				<tr><td>17</td><td>+6</td><td class="left">Surto de Ação (dois usos), Indomável (três usos)</td><td>4</td><td>6</td></tr>
-				<tr><td>18</td><td>+6</td><td class="left">Característica de Subclasse</td><td>4</td><td>6</td></tr>
-				<tr><td>19</td><td>+6</td><td class="left">Dádiva Épica</td><td>4</td><td>6</td></tr>
-				<tr><td>20</td><td>+6</td><td class="left">Três Ataques Extras</td><td>4</td><td>6</td></tr>
+				<tr><td>17</td><td>+6</td><td class="left">Surto de AÃ§Ã£o (dois usos), IndomÃ¡vel (trÃªs usos)</td><td>4</td><td>6</td></tr>
+				<tr><td>18</td><td>+6</td><td class="left">CaracterÃ­stica de Subclasse</td><td>4</td><td>6</td></tr>
+				<tr><td>19</td><td>+6</td><td class="left">DÃ¡diva Ã‰pica</td><td>4</td><td>6</td></tr>
+				<tr><td>20</td><td>+6</td><td class="left">TrÃªs Ataques Extras</td><td>4</td><td>6</td></tr>
 			</table>
-			<h4>CARACTERÍSTICAS DA CLASSE GUERREIRO</h4>
-			<p>Como Guerreiro, você ganha as seguintes características de classe quando atinge os níveis de Guerreiro especificados. Estas características estão listadas na tabela Características de Guerreiro.</p>
+			<h4>CARACTERÃSTICAS DA CLASSE GUERREIRO</h4>
+			<p>Como Guerreiro, vocÃª ganha as seguintes caracterÃ­sticas de classe quando atinge os nÃ­veis de Guerreiro especificados. Estas caracterÃ­sticas estÃ£o listadas na tabela CaracterÃ­sticas de Guerreiro.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_SECOND_WIND" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_WEAPON_MASTERY" />
@@ -94,7 +94,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB24_MULTICLASS_FIGHTER"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB24_MULTICLASS_FIGHTER"/>
-			<select type="Proficiency" name="Proficiência em Perícia (Guerreiro)" supports="Skill,PHB24 Fighter" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_FIGHTER"/>
+			<select type="Proficiency" name="ProficiÃªncia em PerÃ­cia (Guerreiro)" supports="Skill,PHB24 Fighter" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_FIGHTER"/>
 
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_SECOND_WIND" />
@@ -113,10 +113,10 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_THREE_EXTRA_ATTACKS" level="20" />
 		</rules>
 		<multiclass id="ID_WOTC_PHB24_MULTICLASS_FIGHTER">
-			<prerequisite>Força 13 ou Destreza 13</prerequisite>
+			<prerequisite>ForÃ§a 13 ou Destreza 13</prerequisite>
 			<requirements>(([str:13]||[dex:13]),!(ID_WOTC_PHB_CLASS_FIGHTER||ID_WOTC_PHB_MULTICLASS_FIGHTER))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
-				<set name="multiclass proficiencies">Armas Marciais, Armaduras Leves, Armaduras Médias, Escudos</set>
+				<set name="multiclass proficiencies">Armas Marciais, Armaduras Leves, Armaduras MÃ©dias, Escudos</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
@@ -124,11 +124,11 @@
 		</multiclass>
 	</element>
 
-	<element name="Nível 1: Estilo de Luta" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE">
+	<element name="NÃ­vel 1: Estilo de Luta" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_FIGHTING_STYLE</requirements>
 		<description>
-			<p>Você aprimorou suas proezas marciais e ganha um talento de Estilo de Luta à sua escolha. O estilo Defesa é recomendado.</p>
-			<p class="indent">Sempre que ganhar um nível de Guerreiro, você pode substituir o talento que escolheu por um talento de Estilo de Luta diferente.</p>
+			<p>VocÃª aprimorou suas proezas marciais e ganha um talento de Estilo de Luta Ã  sua escolha. O estilo Defesa Ã© recomendado.</p>
+			<p class="indent">Sempre que ganhar um nÃ­vel de Guerreiro, vocÃª pode substituir o talento que escolheu por um talento de Estilo de Luta diferente.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -137,18 +137,18 @@
 		</rules>
 	</element>
 
-	<element name="Nível 1: Retomar o Fôlego" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_SECOND_WIND">
+	<element name="NÃ­vel 1: Retomar o FÃ´lego" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_SECOND_WIND">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_SECOND_WIND</requirements>
 		<description>
-			<p>Você possui uma fonte limitada de vigor físico e mental que pode acessar. Como uma Ação Bônus, você pode usá-lo para recuperar Pontos de Vida iguais a 1d10 mais o seu nível de Guerreiro.</p>
-			<p class="indent">Você pode usar esta característica duas vezes. Você recupera um uso gasto quando termina um Descanso Curto, e recupera todos os usos gastos ao terminar um Descanso Longo.</p>
-			<p class="indent">Quando atinge determinados níveis de Guerreiro, você ganha mais usos desta característica, como mostrado na coluna Retomar o Fôlego da tabela Características de Guerreiro.</p>
+			<p>VocÃª possui uma fonte limitada de vigor fÃ­sico e mental que pode acessar. Como uma AÃ§Ã£o BÃ´nus, vocÃª pode usÃ¡-lo para recuperar Pontos de Vida iguais a 1d10 mais o seu nÃ­vel de Guerreiro.</p>
+			<p class="indent">VocÃª pode usar esta caracterÃ­stica duas vezes. VocÃª recupera um uso gasto quando termina um Descanso Curto, e recupera todos os usos gastos ao terminar um Descanso Longo.</p>
+			<p class="indent">Quando atinge determinados nÃ­veis de Guerreiro, vocÃª ganha mais usos desta caracterÃ­stica, como mostrado na coluna Retomar o FÃ´lego da tabela CaracterÃ­sticas de Guerreiro.</p>
 		</description>
-		<sheet alt="Retomar o Fôlego" action="Ação Bônus" usage="{{second wind:usage}}/Descanso Longo">
-			<description>Você recupera 1d10+{{level:fighter}} PVs. &#13;
-			Você recupera um uso gasto quando termina um Descanso Curto.</description>
-			<description level="5">Você recupera 1d10+{{level:fighter}} PVs e pode mover-se até {{speed}} sem provocar Ataques de Oportunidade. &#13;
-			Você recupera um uso gasto quando termina um Descanso Curto.</description>
+		<sheet alt="Retomar o FÃ´lego" action="AÃ§Ã£o BÃ´nus" usage="{{second wind:usage}}/Descanso Longo">
+			<description>VocÃª recupera 1d10+{{level:fighter}} PVs. &#13;
+			VocÃª recupera um uso gasto quando termina um Descanso Curto.</description>
+			<description level="5">VocÃª recupera 1d10+{{level:fighter}} PVs e pode mover-se atÃ© {{speed}} sem provocar Ataques de Oportunidade. &#13;
+			VocÃª recupera um uso gasto quando termina um Descanso Curto.</description>
 		</sheet>
 		<rules>
 			<stat name="second wind:usage" value="2" bonus="base" />
@@ -157,14 +157,14 @@
 		</rules>
 	</element>
 
-	<element name="Nível 1: Maestria em Armas" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_WEAPON_MASTERY">
+	<element name="NÃ­vel 1: Maestria em Armas" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_WEAPON_MASTERY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_WEAPON_MASTERY</requirements>
 		<description>
-			<p>Seu treinamento com armas permite que você use as propriedades de maestria de três tipos de armas Simples ou Marciais à sua escolha. Sempre que você terminar um Descanso Longo, pode praticar exercícios com armas e alterar uma dessas escolhas de armas.</p>
-			<p class="indent">Quando atinge determinados níveis de Guerreiro, você ganha a habilidade de usar as propriedades de maestria de mais tipos de armas, como mostrado na coluna Maestria em Armas da tabela Características de Guerreiro.</p>
+			<p>Seu treinamento com armas permite que vocÃª use as propriedades de maestria de trÃªs tipos de armas Simples ou Marciais Ã  sua escolha. Sempre que vocÃª terminar um Descanso Longo, pode praticar exercÃ­cios com armas e alterar uma dessas escolhas de armas.</p>
+			<p class="indent">Quando atinge determinados nÃ­veis de Guerreiro, vocÃª ganha a habilidade de usar as propriedades de maestria de mais tipos de armas, como mostrado na coluna Maestria em Armas da tabela CaracterÃ­sticas de Guerreiro.</p>
 		</description>
 		<sheet alt="Maestria em Armas">
-			<description>Sempre que terminar um Descanso Longo, você pode trocar uma das armas que escolheu anteriormente por uma diferente.</description>
+			<description>Sempre que terminar um Descanso Longo, vocÃª pode trocar uma das armas que escolheu anteriormente por uma diferente.</description>
 		</sheet>
 		<rules>
 			<select type="Class Feature" name="Maestria em Armas (Guerreiro 1)" level="1" supports="Weapon Mastery" number="3"/>
@@ -174,32 +174,32 @@
 		</rules>
 	</element>
 
-	<element name="Nível 2: Surto de Ação" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_ACTION_SURGE">
+	<element name="NÃ­vel 2: Surto de AÃ§Ã£o" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_ACTION_SURGE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ACTION_SURGE</requirements>
 		<description>
-			<p>Você pode ultrapassar seus limites normais por um momento. No seu turno, você pode realizar uma ação adicional, exceto a Ação Mágica.</p>
-			<p class="indent">Depois de usar esta característica, você não pode usá-la novamente até terminar um Descanso Curto ou Longo. A partir do nível 17, você pode usá-la duas vezes antes de um descanso, mas apenas uma vez por turno.</p>
+			<p>VocÃª pode ultrapassar seus limites normais por um momento. No seu turno, vocÃª pode realizar uma aÃ§Ã£o adicional, exceto a AÃ§Ã£o MÃ¡gica.</p>
+			<p class="indent">Depois de usar esta caracterÃ­stica, vocÃª nÃ£o pode usÃ¡-la novamente atÃ© terminar um Descanso Curto ou Longo. A partir do nÃ­vel 17, vocÃª pode usÃ¡-la duas vezes antes de um descanso, mas apenas uma vez por turno.</p>
 		</description>
-		<sheet alt="Surto de Ação" usage="1/Descanso Curto">
-			<description>No seu turno, você pode realizar uma ação adicional além da sua ação regular, exceto a Ação Mágica.</description>
-			<description usage="2/Descanso Curto" level="17">No seu turno, você pode realizar uma ação adicional além da sua ação regular, exceto a Ação Mágica.</description>
+		<sheet alt="Surto de AÃ§Ã£o" usage="1/Descanso Curto">
+			<description>No seu turno, vocÃª pode realizar uma aÃ§Ã£o adicional alÃ©m da sua aÃ§Ã£o regular, exceto a AÃ§Ã£o MÃ¡gica.</description>
+			<description usage="2/Descanso Curto" level="17">No seu turno, vocÃª pode realizar uma aÃ§Ã£o adicional alÃ©m da sua aÃ§Ã£o regular, exceto a AÃ§Ã£o MÃ¡gica.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 2: Mente Tática" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICAL_MIND">
+	<element name="NÃ­vel 2: Mente TÃ¡tica" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICAL_MIND">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_TACTICAL_MIND</requirements>
 		<description>
-			<p>Você tem uma mente voltada para táticas dentro e fora do campo de batalha. Quando você falha em um teste de habilidade, pode gastar um uso de seu Retomar o Fôlego para impulsionar a si mesmo em direção ao sucesso. Em vez de recuperar Pontos de Vida, você rola 1d10 e adiciona o número rolado ao teste de habilidade, potencialmente transformando-o em um sucesso. Se o teste ainda falhar, este uso do Retomar o Fôlego não é gasto.</p>
+			<p>VocÃª tem uma mente voltada para tÃ¡ticas dentro e fora do campo de batalha. Quando vocÃª falha em um teste de habilidade, pode gastar um uso de seu Retomar o FÃ´lego para impulsionar a si mesmo em direÃ§Ã£o ao sucesso. Em vez de recuperar Pontos de Vida, vocÃª rola 1d10 e adiciona o nÃºmero rolado ao teste de habilidade, potencialmente transformando-o em um sucesso. Se o teste ainda falhar, este uso do Retomar o FÃ´lego nÃ£o Ã© gasto.</p>
 		</description>
-		<sheet alt="Mente Tática" usage="Retomar o Fôlego">
-			<description>Quando falhar em um teste de habilidade, você pode gastar um uso do seu Retomar o Fôlego para rolar 1d10 e adicionar o número ao teste. Se o teste falhar mesmo assim, o uso do Retomar o Fôlego não é gasto.</description>
+		<sheet alt="Mente TÃ¡tica" usage="Retomar o FÃ´lego">
+			<description>Quando falhar em um teste de habilidade, vocÃª pode gastar um uso do seu Retomar o FÃ´lego para rolar 1d10 e adicionar o nÃºmero ao teste. Se o teste falhar mesmo assim, o uso do Retomar o FÃ´lego nÃ£o Ã© gasto.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 3: Subclasse de Guerreiro" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTER_SUBCLASS">
+	<element name="NÃ­vel 3: Subclasse de Guerreiro" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTER_SUBCLASS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_FIGHTER_SUBCLASS</requirements>
 		<description>
-			<p>Você ganha uma subclasse de Guerreiro à sua escolha. Uma subclasse é uma especialização que concede a você características em certos níveis de Guerreiro. Pelo resto da sua carreira, você ganha as características da sua subclasse que forem equivalentes ao seu nível de Guerreiro ou menor.</p>
+			<p>VocÃª ganha uma subclasse de Guerreiro Ã  sua escolha. Uma subclasse Ã© uma especializaÃ§Ã£o que concede a vocÃª caracterÃ­sticas em certos nÃ­veis de Guerreiro. Pelo resto da sua carreira, vocÃª ganha as caracterÃ­sticas da sua subclasse que forem equivalentes ao seu nÃ­vel de Guerreiro ou menor.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -207,11 +207,11 @@
 		</rules>
 	</element>
 
-	<element name="Nível 4: Aumento no Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_ABILITY_SCORE_IMPROVEMENT">
+	<element name="NÃ­vel 4: Aumento no Valor de Habilidade" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_ABILITY_SCORE_IMPROVEMENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Você ganha o talento Aumento no Valor de Habilidade ou outro talento de sua escolha para o qual possua os pré-requisitos. Você ganha esta característica novamente nos níveis de Guerreiro 6, 8, 12, 14 e 16.</p>
+			<p>VocÃª ganha o talento Aumento no Valor de Habilidade ou outro talento de sua escolha para o qual possua os prÃ©-requisitos. VocÃª ganha esta caracterÃ­stica novamente nos nÃ­veis de Guerreiro 6, 8, 12, 14 e 16.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -224,10 +224,10 @@
 		</rules>
 	</element>
 
-	<element name="Nível 5: Ataque Extra" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_EXTRA_ATTACK">
+	<element name="NÃ­vel 5: Ataque Extra" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_EXTRA_ATTACK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_EXTRA_ATTACK</requirements>
 		<description>
-			<p>Você pode atacar duas vezes, em vez de uma, sempre que realizar a ação de Ataque no seu turno.</p>
+			<p>VocÃª pode atacar duas vezes, em vez de uma, sempre que realizar a aÃ§Ã£o de Ataque no seu turno.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -235,22 +235,22 @@
 		</rules>
 	</element>
 
-	<element name="Nível 5: Deslocamento Tático" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICAL_SHIFT">
+	<element name="NÃ­vel 5: Deslocamento TÃ¡tico" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICAL_SHIFT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_TACTICAL_SHIFT</requirements>
 		<description>
-			<p>Sempre que ativar o seu Retomar o Fôlego com uma Ação Bônus, você pode se mover até metade do seu deslocamento sem provocar Ataques de Oportunidade.</p>
+			<p>Sempre que ativar o seu Retomar o FÃ´lego com uma AÃ§Ã£o BÃ´nus, vocÃª pode se mover atÃ© metade do seu deslocamento sem provocar Ataques de Oportunidade.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="Nível 9: Indomável" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_INDOMITABLE">
+	<element name="NÃ­vel 9: IndomÃ¡vel" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_INDOMITABLE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_INDOMITABLE</requirements>
 		<description>
-			<p>Se você falhar em um teste de resistência, pode rolar novamente o dado com um bônus igual ao seu nível de Guerreiro. Você deve usar a nova rolagem, e não pode usar esta característica novamente até terminar um Descanso Longo.</p>
-			<p class="indent">Você pode usar esta característica duas vezes antes de um Descanso Longo a partir do nível 13, e três vezes antes de um Descanso Longo a partir do nível 17.</p>
+			<p>Se vocÃª falhar em um teste de resistÃªncia, pode rolar novamente o dado com um bÃ´nus igual ao seu nÃ­vel de Guerreiro. VocÃª deve usar a nova rolagem, e nÃ£o pode usar esta caracterÃ­stica novamente atÃ© terminar um Descanso Longo.</p>
+			<p class="indent">VocÃª pode usar esta caracterÃ­stica duas vezes antes de um Descanso Longo a partir do nÃ­vel 13, e trÃªs vezes antes de um Descanso Longo a partir do nÃ­vel 17.</p>
 		</description>
-		<sheet alt="Indomável" usage="{{indomitable:usage}}/Descanso Longo">
-			<description>Você pode rolar novamente um teste de resistência que falhou com um bônus de +{{indomitable:bonus}}. Ao fazer isso, você deve usar a nova rolagem.</description>
+		<sheet alt="IndomÃ¡vel" usage="{{indomitable:usage}}/Descanso Longo">
+			<description>VocÃª pode rolar novamente um teste de resistÃªncia que falhou com um bÃ´nus de +{{indomitable:bonus}}. Ao fazer isso, vocÃª deve usar a nova rolagem.</description>
 		</sheet>
 		<rules>
 			<stat name="indomitable:usage" value="1" level="9" bonus="base" />
@@ -260,20 +260,20 @@
 		</rules>
 	</element>
 
-	<element name="Nível 9: Mestre Tático" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICAL_MASTER">
+	<element name="NÃ­vel 9: Mestre TÃ¡tico" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICAL_MASTER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_TACTICAL_MASTER</requirements>
 		<description>
-			<p>Quando você ataca com uma arma cuja propriedade de maestria você pode usar, você pode substituir essa propriedade pela propriedade Empurrar, Debilitar ou Lentidão para aquele ataque.</p>
+			<p>Quando vocÃª ataca com uma arma cuja propriedade de maestria vocÃª pode usar, vocÃª pode substituir essa propriedade pela propriedade Empurrar, Debilitar ou LentidÃ£o para aquele ataque.</p>
 		</description>
-		<sheet alt="Mestre Tático">
-			<description>Quando ataca com uma arma cuja propriedade de maestria você possa usar, você pode substituir essa propriedade pela propriedade Empurrar, Debilitar ou Lentidão para aquele ataque.</description>
+		<sheet alt="Mestre TÃ¡tico">
+			<description>Quando ataca com uma arma cuja propriedade de maestria vocÃª possa usar, vocÃª pode substituir essa propriedade pela propriedade Empurrar, Debilitar ou LentidÃ£o para aquele ataque.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 11: Dois Ataques Extras" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TWO_EXTRA_ATTACKS">
+	<element name="NÃ­vel 11: Dois Ataques Extras" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TWO_EXTRA_ATTACKS">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_EXTRA_ATTACK||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_TWO_EXTRA_ATTACKS)</requirements>
 		<description>
-			<p>Você pode atacar três vezes, em vez de uma, sempre que realizar a ação de Ataque no seu turno.</p>
+			<p>VocÃª pode atacar trÃªs vezes, em vez de uma, sempre que realizar a aÃ§Ã£o de Ataque no seu turno.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -281,32 +281,32 @@
 		</rules>
 	</element>
 
-	<element name="Nível 13: Ataques Estudados" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_STUDIED_ATTACKS">
+	<element name="NÃ­vel 13: Ataques Estudados" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_STUDIED_ATTACKS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_STUDIED_ATTACKS</requirements>
 		<description>
-			<p>Você estuda seus oponentes e aprende com cada ataque que faz. Se você fizer uma jogada de ataque contra uma criatura e errar, terá Vantagem na sua próxima jogada de ataque contra aquela criatura antes do final do seu próximo turno.</p>
+			<p>VocÃª estuda seus oponentes e aprende com cada ataque que faz. Se vocÃª fizer uma jogada de ataque contra uma criatura e errar, terÃ¡ Vantagem na sua prÃ³xima jogada de ataque contra aquela criatura antes do final do seu prÃ³ximo turno.</p>
 		</description>
 		<sheet alt="Ataques Estudados">
-			<description>Quando você erra uma jogada de ataque, ganha Vantagem na sua próxima jogada de ataque contra aquela criatura antes do final do seu próximo turno.</description>
+			<description>Quando vocÃª erra uma jogada de ataque, ganha Vantagem na sua prÃ³xima jogada de ataque contra aquela criatura antes do final do seu prÃ³ximo turno.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_EPIC_BOON">
+	<element name="NÃ­vel 19: DÃ¡diva Ã‰pica" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_EPIC_BOON">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_EPIC_BOON</requirements>
 		<description>
-			<p>Você ganha o talento Dádiva Épica ou outro talento de sua escolha para o qual possua os pré-requisitos. O talento Dádiva da Destreza em Combate é recomendado.</p>
+			<p>VocÃª ganha o talento DÃ¡diva Ã‰pica ou outro talento de sua escolha para o qual possua os prÃ©-requisitos. O talento DÃ¡diva da Destreza em Combate Ã© recomendado.</p>
 		</description>
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Feat" name="Dádiva Épica (Guerreiro 19)" level="19" />
+			<select type="Feat" name="DÃ¡diva Ã‰pica (Guerreiro 19)" level="19" />
 		</rules>
 	</element>
 
-	<element name="Nível 20: Três Ataques Extras" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_THREE_EXTRA_ATTACKS">
+	<element name="NÃ­vel 20: TrÃªs Ataques Extras" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_THREE_EXTRA_ATTACKS">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_EXTRA_ATTACK||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_TWO_EXTRA_ATTACKS||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_THREE_EXTRA_ATTACKS)</requirements>
 		<description>
-			<p>Você pode atacar quatro vezes, em vez de uma, sempre que realizar a ação de Ataque no seu turno.</p>
+			<p>VocÃª pode atacar quatro vezes, em vez de uma, sempre que realizar a aÃ§Ã£o de Ataque no seu turno.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

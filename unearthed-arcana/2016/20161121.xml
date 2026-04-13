@@ -5,7 +5,7 @@
 		<description>Clerics are blessed with new Divine Domain options in this week's Unearthed Arcana: the domains of the Forge, the Grave, and Protection. We invite you to read their descriptions, make characters with them, and see whether you like them.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/cleric-divine-domains">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="20161121.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2016/20161121.xml" />
+			<file name="20161121.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2016/20161121.xml" />
 		</update>
 	</info>
 
@@ -26,7 +26,7 @@
 	<element name="Protection Domain" type="Archetype" source="Unearthed Arcana: Cleric: Divine Domains" id="ID_UA20161121_ARCHETYPE_CLERIC_PROTECTION_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
-			<p>The protection domain is the purview of deities who charge their followers to shield the weak from the strong. The gods’ faithful dwell in villages and towns on the borderlands, where they help bolster defenses and seek out evils to defeat. These gods believe that a strong shield and a suit of armor is the best defense against evil, second only to a stout mace on hand to respond to any attacks in kind. Deities who grant this domain include Helm, Ilmater, Torm, Tyr, Heironeous, St. Cuthbert, Paladine, Dol Dorn, the Silver Flame, Bahamut, Yondalla, Athena, and Odin.</p>
+			<p>The protection domain is the purview of deities who charge their followers to shield the weak from the strong. The godsâ€™ faithful dwell in villages and towns on the borderlands, where they help bolster defenses and seek out evils to defeat. These gods believe that a strong shield and a suit of armor is the best defense against evil, second only to a stout mace on hand to respond to any attacks in kind. Deities who grant this domain include Helm, Ilmater, Torm, Tyr, Heironeous, St. Cuthbert, Paladine, Dol Dorn, the Silver Flame, Bahamut, Yondalla, Athena, and Odin.</p>
 			<div element="ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_DOMAIN_SPELLS" />
 			<div element="ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_BONUS_PROFICIENCY" />
 			<div element="ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_SHIELD_OF_THE_FAITHFUL" />
@@ -58,7 +58,7 @@
 				<tr><td>1st</td><td><em>compelled duel, protection from evil and good</em></td></tr>
 				<tr><td>3rd</td><td><em>aid, protection from poison</em></td></tr>
 				<tr><td>5th</td><td><em>protection from energy, slow</em></td></tr>
-				<tr><td>7th</td><td><em>guardian of faith, Otiluke’s resilient sphere</em></td></tr> 
+				<tr><td>7th</td><td><em>guardian of faith, Otilukeâ€™s resilient sphere</em></td></tr> 
 				<tr><td>9th</td><td><em>antilife shell, wall of force</em></td></tr>
 			</table>
 		</description>
@@ -104,10 +104,10 @@
 	</element> 
 	<element name="Blessed Healer" type="Archetype Feature" source="Unearthed Arcana: Cleric: Divine Domains" id="ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_BLESSED_HEALER">
 		<description>
-			<p>Beginning at 6th level, the healing spells you cast on others can heal you as well. When you cast a spell with a spell slot and it restores hit points to any creature other than you this turn, you regain hit points equal to 2 + the spell’s level.</p>
+			<p>Beginning at 6th level, the healing spells you cast on others can heal you as well. When you cast a spell with a spell slot and it restores hit points to any creature other than you this turn, you regain hit points equal to 2 + the spellâ€™s level.</p>
 		</description>
 		<sheet>
-			<description>You regain hit points equal to 2 + the spell’s level when casting a healing spell on another creature with a spell slot.</description>
+			<description>You regain hit points equal to 2 + the spellâ€™s level when casting a healing spell on another creature with a spell slot.</description>
 		</sheet>
 	</element> 
 	<element name="Divine Strike" type="Archetype Feature" source="Unearthed Arcana: Cleric: Divine Domains" id="ID_WOTC_UA20161121_ARCHETYPE_FEATURE_PROTECTION_DOMAIN_DIVINE_STRIKE">

@@ -2,15 +2,15 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-		<file name="wizard-evoker.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/wizard-evoker.xml" />
+		<file name="wizard-evoker.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/wizard-evoker.xml" />
 		</update>
 	</info>
 
-	<element name="Evocador" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER">
+	<element name="Evocador" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER">
 		<supports>Wizard Subclass</supports>
 		<description>
 			<p class="flavor">Crie Efeitos Elementais Explosivos</p>
-			<p>Seus estudos se concentram em magia que cria poderosos efeitos elementais, como um frio intenso, chamas ardentes, trovões retumbantes, relâmpagos crepitantes e ácido corrosivo. Alguns Evocadores encontram emprego em forças militares, servindo como artilharia para explodir exércitos de longe. Outros usam seu poder para proteger os outros, enquanto alguns buscam benefício próprio.</p>
+			<p>Seus estudos se concentram em magia que cria poderosos efeitos elementais, como um frio intenso, chamas ardentes, trovÃµes retumbantes, relÃ¢mpagos crepitantes e Ã¡cido corrosivo. Alguns Evocadores encontram emprego em forÃ§as militares, servindo como artilharia para explodir exÃ©rcitos de longe. Outros usam seu poder para proteger os outros, enquanto alguns buscam benefÃ­cio prÃ³prio.</p>
             <div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_EVOCATION_SAVANT" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_POTENT_CANTRIP" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_SCULPT_SPELLS" />
@@ -27,11 +27,11 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Sábio da Evocação" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_EVOCATION_SAVANT">
+	<element name="NÃ­vel 3: SÃ¡bio da EvocaÃ§Ã£o" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_EVOCATION_SAVANT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_EVOCATION_SAVANT</requirements>
 		<description>
-			<p>Escolha duas magias de Mago da escola de Evocação, cada uma não podendo ser de um nível maior que o 2, e adicione-as ao seu grimório gratuitamente.</p>
-			<p class="indent">Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você pode adicionar gratuitamente uma magia de Mago da escola de Evocação ao seu grimório. A magia escolhida deve ser de um nível para o qual você tenha espaços de magia.</p>
+			<p>Escolha duas magias de Mago da escola de EvocaÃ§Ã£o, cada uma nÃ£o podendo ser de um nÃ­vel maior que o 2, e adicione-as ao seu grimÃ³rio gratuitamente.</p>
+			<p class="indent">AlÃ©m disso, sempre que vocÃª ganhar acesso a um novo nÃ­vel de espaÃ§os de magia nesta classe, vocÃª pode adicionar gratuitamente uma magia de Mago da escola de EvocaÃ§Ã£o ao seu grimÃ³rio. A magia escolhida deve ser de um nÃ­vel para o qual vocÃª tenha espaÃ§os de magia.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -46,45 +46,45 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Truque Potente" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_POTENT_CANTRIP">
+	<element name="NÃ­vel 3: Truque Potente" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_POTENT_CANTRIP">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_POTENT_CANTRIP</requirements>
 		<description>
-			<p>Seus truques de dano afetam até criaturas que evitam o impacto total do efeito. Quando você conjura um truque em uma criatura e erra a jogada de ataque ou o alvo obtém sucesso em um teste de resistência contra o truque, o alvo sofre metade do dano do truque (se houver), mas não sofre nenhum efeito adicional do truque.</p>
+			<p>Seus truques de dano afetam atÃ© criaturas que evitam o impacto total do efeito. Quando vocÃª conjura um truque em uma criatura e erra a jogada de ataque ou o alvo obtÃ©m sucesso em um teste de resistÃªncia contra o truque, o alvo sofre metade do dano do truque (se houver), mas nÃ£o sofre nenhum efeito adicional do truque.</p>
 		</description>
 		<sheet alt="Truque Potente">
-			<description>Quando conjura um truque numa criatura e você erra o ataque ou ela passa na resistência, o alvo sofre metade do dano do truque, mas não sofre nenhum efeito adicional.</description>
+			<description>Quando conjura um truque numa criatura e vocÃª erra o ataque ou ela passa na resistÃªncia, o alvo sofre metade do dano do truque, mas nÃ£o sofre nenhum efeito adicional.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 6: Esculpir Magias" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_SCULPT_SPELLS">
+	<element name="NÃ­vel 6: Esculpir Magias" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_SCULPT_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_SCULPT_SPELLS</requirements>
 		<description>
-			<p>Você pode criar bolsões de segurança relativa dentro dos efeitos das suas evocações. Quando você conjura uma magia de Evocação que afeta outras criaturas que possa ver, você pode escolher um número delas igual a 1 mais o nível da magia. As criaturas escolhidas obtêm sucesso automaticamente em seus testes de resistência contra a magia e não sofrem dano se normalmente sofreriam metade do dano num teste bem-sucedido.</p>
+			<p>VocÃª pode criar bolsÃµes de seguranÃ§a relativa dentro dos efeitos das suas evocaÃ§Ãµes. Quando vocÃª conjura uma magia de EvocaÃ§Ã£o que afeta outras criaturas que possa ver, vocÃª pode escolher um nÃºmero delas igual a 1 mais o nÃ­vel da magia. As criaturas escolhidas obtÃªm sucesso automaticamente em seus testes de resistÃªncia contra a magia e nÃ£o sofrem dano se normalmente sofreriam metade do dano num teste bem-sucedido.</p>
 		</description>
 		<sheet alt="Esculpir Magias">
-			<description>Quando conjura uma Evocação que afeta outras criaturas que vê, pode escolher um número delas igual a 1 + o nível da magia. Elas passam automaticamente no teste de resistência e não sofrem dano (mesmo se sofreriam metade).</description>
+			<description>Quando conjura uma EvocaÃ§Ã£o que afeta outras criaturas que vÃª, pode escolher um nÃºmero delas igual a 1 + o nÃ­vel da magia. Elas passam automaticamente no teste de resistÃªncia e nÃ£o sofrem dano (mesmo se sofreriam metade).</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 10: Evocação Potencializada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_EMPOWERED_EVOCATION">
+	<element name="NÃ­vel 10: EvocaÃ§Ã£o Potencializada" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_EMPOWERED_EVOCATION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_EMPOWERED_EVOCATION</requirements>
 		<description>
-			<p>Sempre que você conjurar uma magia de Mago da escola de Evocação, pode adicionar seu modificador de Inteligência a uma jogada de dano daquela magia.</p>
+			<p>Sempre que vocÃª conjurar uma magia de Mago da escola de EvocaÃ§Ã£o, pode adicionar seu modificador de InteligÃªncia a uma jogada de dano daquela magia.</p>
 		</description>
-		<sheet alt="Evocação Potencializada">
-			<description>Quando você conjura uma magia de Evocação de Mago, pode adicionar {{intelligence:modifier}} a uma rolagem de dano da magia.</description>
+		<sheet alt="EvocaÃ§Ã£o Potencializada">
+			<description>Quando vocÃª conjura uma magia de EvocaÃ§Ã£o de Mago, pode adicionar {{intelligence:modifier}} a uma rolagem de dano da magia.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 14: Sobrecarga" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_OVERCHANNEL">
+	<element name="NÃ­vel 14: Sobrecarga" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_OVERCHANNEL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_OVERCHANNEL</requirements>
 		<description>
-			<p>Você pode aumentar o poder de suas magias. Quando você conjura uma magia de Mago usando um espaço de magia de nível 1 a 5 que causa dano, pode causar o dano máximo com aquela magia no turno em que a conjura.</p>
-			<p class="indent">A primeira vez que o fizer, não sofrerá efeito adverso. Se você usar esta característica de novo antes de terminar um Descanso Longo, sofrerá 2d12 de dano Necrótico por cada nível do espaço de magia imediatamente após conjurá-la. Esse dano ignora Resistência e Imunidade.</p>
-			<p class="indent">A cada vez que você usar esta característica novamente antes de terminar um Descanso Longo, o dano Necrótico por nível de magia aumenta em 1d12.</p>
+			<p>VocÃª pode aumentar o poder de suas magias. Quando vocÃª conjura uma magia de Mago usando um espaÃ§o de magia de nÃ­vel 1 a 5 que causa dano, pode causar o dano mÃ¡ximo com aquela magia no turno em que a conjura.</p>
+			<p class="indent">A primeira vez que o fizer, nÃ£o sofrerÃ¡ efeito adverso. Se vocÃª usar esta caracterÃ­stica de novo antes de terminar um Descanso Longo, sofrerÃ¡ 2d12 de dano NecrÃ³tico por cada nÃ­vel do espaÃ§o de magia imediatamente apÃ³s conjurÃ¡-la. Esse dano ignora ResistÃªncia e Imunidade.</p>
+			<p class="indent">A cada vez que vocÃª usar esta caracterÃ­stica novamente antes de terminar um Descanso Longo, o dano NecrÃ³tico por nÃ­vel de magia aumenta em 1d12.</p>
 		</description>
 		<sheet alt="Sobrecarga">
-			<description>Ao conjurar uma magia de Mago de nível 1 a 5 que cause dano, você pode maximizar o dano no turno em que a conjura. Na 1ª vez, nenhum efeito adverso. A partir da 2ª antes de um Descanso Longo, você sofre 2d12 de dano Necrótico (ignora Resistência/Imunidade) por nível da magia conjurada. Cada uso adicional antes de um Descanso Longo aumenta o dano Necrótico em 1d12 por nível.</description>
+			<description>Ao conjurar uma magia de Mago de nÃ­vel 1 a 5 que cause dano, vocÃª pode maximizar o dano no turno em que a conjura. Na 1Âª vez, nenhum efeito adverso. A partir da 2Âª antes de um Descanso Longo, vocÃª sofre 2d12 de dano NecrÃ³tico (ignora ResistÃªncia/Imunidade) por nÃ­vel da magia conjurada. Cada uso adicional antes de um Descanso Longo aumenta o dano NecrÃ³tico em 1d12 por nÃ­vel.</description>
 		</sheet>
 	</element>
 	

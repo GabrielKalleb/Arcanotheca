@@ -2,16 +2,16 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="grinner.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/explorers-guide-to-wildemount/backgrounds/grinner.xml" />
+			<file name="grinner.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/explorers-guide-to-wildemount/backgrounds/grinner.xml" />
 		</update>
 	</info>
-	<element name="Grinner" type="Background" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_BACKGROUND_GRINNER">
+	<element name="Grinner" type="Background" source="Explorerâ€™s Guide to Wildemount" id="ID_WOTC_EGTW_BACKGROUND_GRINNER">
 		<description>
-			<p>The Golden Grin began in the far-off land of Tal’Dorei, trading secret messages through a network of bards and minstrels to undermine an iron-fisted king’s authoritarian rule. Today, Tal’Dorei is a relatively peaceful republic, and some Grinners have grown restless while waiting for tyranny to raise its ugly head again. A contingent of such Grinners traveled to the Menagerie Coast and set up a network of secret bases in the cities of the Clovis Concord, from which they are presently working their way into the highest echelons of the Dwendalian Empire.</p>			
-			<p class="indent">You are a Grinner. Your goals are to spread freedom and inspire hope—or, in time, revolution—in the hearts of the oppressed.</p>
+			<p>The Golden Grin began in the far-off land of Talâ€™Dorei, trading secret messages through a network of bards and minstrels to undermine an iron-fisted kingâ€™s authoritarian rule. Today, Talâ€™Dorei is a relatively peaceful republic, and some Grinners have grown restless while waiting for tyranny to raise its ugly head again. A contingent of such Grinners traveled to the Menagerie Coast and set up a network of secret bases in the cities of the Clovis Concord, from which they are presently working their way into the highest echelons of the Dwendalian Empire.</p>			
+			<p class="indent">You are a Grinner. Your goals are to spread freedom and inspire hopeâ€”or, in time, revolutionâ€”in the hearts of the oppressed.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Deception, Performance</li>
-				<li><strong>Tool Proficiencies:</strong> One type of musical instrument, thieves’ tools</li>
+				<li><strong>Tool Proficiencies:</strong> One type of musical instrument, thievesâ€™ tools</li>
 				<li><strong>Equipment:</strong> A set of fine clothes, a disguise kit, a musical instrument of your choice, a gold-plated ring depicting a smiling face, and a pouch containing 15 gp</li>
 			</ul>
 			<h5>FAVORITE CODE-SONGS</h5>
@@ -21,11 +21,11 @@
 				<thead>
 					<tr><td>d6</td><td>Favorite Code-Song</td></tr>
 				</thead>
-				<tr><td>1</td><td>Zan’s Comin’ Back. This hopeful Tal’Dorei folk song declares the inevitable return of a just ruler. Use it to seek out potential allies.</td></tr>
+				<tr><td>1</td><td>Zanâ€™s Cominâ€™ Back. This hopeful Talâ€™Dorei folk song declares the inevitable return of a just ruler. Use it to seek out potential allies.</td></tr>
 				<tr><td>2</td><td>Blow Fire Down the Coast. A rowdy fighting song from the Clovis Concord, this ditty talks of blasting up pirate ships. Use it to encourage battle.</td></tr>
-				<tr><td>3</td><td>Hush! Onward Come the Dragons. This Tal’Dorei folk song recounts the terror in the days after the invasion of the red dragon called the Cinder King. Use it to encourage caution in speech and deed.</td></tr>
+				<tr><td>3</td><td>Hush! Onward Come the Dragons. This Talâ€™Dorei folk song recounts the terror in the days after the invasion of the red dragon called the Cinder King. Use it to encourage caution in speech and deed.</td></tr>
 				<tr><td>4</td><td>Let the Sword Grow Rust. An antiwar anthem from Marquet, this song has uncertain origins. Use it to help quell violent encounters.</td></tr>
-				<tr><td>5</td><td>Drink Deep, Li’l Hummingbird. A drinking rondo from the Menagerie Coast. this song tells the tale of a young person who drinks so heavily that they awaken to find they’ve stowed away on a ship. Use it to encourage alertness in social situations.</td></tr>
+				<tr><td>5</td><td>Drink Deep, Liâ€™l Hummingbird. A drinking rondo from the Menagerie Coast. this song tells the tale of a young person who drinks so heavily that they awaken to find theyâ€™ve stowed away on a ship. Use it to encourage alertness in social situations.</td></tr>
 				<tr><td>6</td><td>Dirge for the Emerald Fire. This elven song supposedly has thousands of obscure verses. Use the first two verses to spread news of death or defeat.</td></tr>
 			</table>
 			<div element="ID_WOTC_EGTW_BACKGROUND_FEATURE_BALLAD_OF_THE_GRINNING_FOOL" />
@@ -33,7 +33,7 @@
 			<p>Grinners are trained in the art of secrecy and innuendo, and are skilled at hiding in plain sight by being the loudest and brightest person in the room. Their skills in subterfuge and combat lend themselves well to an adventuring lifestyle, and traveling with mercenaries and treasure hunters creatures a convenient excuse to journey through lands bent under tyranny.</p>
 		</description>
 		<setters>
-			<set name="short">Deception, Performance, Musical Instrument, Thieves’ Tools</set>
+			<set name="short">Deception, Performance, Musical Instrument, Thievesâ€™ Tools</set>
 		</setters>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
@@ -44,13 +44,13 @@
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" number="2">
 				<item id="1">I love the spotlight. Everyone, look at me!</item>
-				<item id="2">Give me a drink and I’m your friend.</item>
-				<item id="3">Talk to me about yourself. I’m a hell of a listener.</item>
+				<item id="2">Give me a drink and Iâ€™m your friend.</item>
+				<item id="3">Talk to me about yourself. Iâ€™m a hell of a listener.</item>
 				<item id="4">I hate to start fights, but I love to finish them.</item>
-				<item id="5">I can’t sit still.</item>
-				<item id="6">I’m always humming an old tune from my past.</item>
-				<item id="7">When I don’t have a reason to smile, I’m miserable.</item>
-				<item id="8">I’m lucky like you wouldn’t believe.</item>
+				<item id="5">I canâ€™t sit still.</item>
+				<item id="6">Iâ€™m always humming an old tune from my past.</item>
+				<item id="7">When I donâ€™t have a reason to smile, Iâ€™m miserable.</item>
+				<item id="8">Iâ€™m lucky like you wouldnâ€™t believe.</item>
 			</select>
 			<select type="List" name="Ideal">
 				<item id="1">Revolution. Tyrants must fall, no matter the cost. (Chaotic}</item>
@@ -63,25 +63,25 @@
 			<select type="List" name="Bond">
 				<item id="1">I lost someone important to an agent of the Dwendalian Empire. That regime will fall.</item>
 				<item id="2">The first people to be hurt by this war will be the common folk. I need to protect them.</item>
-				<item id="3">Music helped me through a dark time in my life. Now, I’ll use music to change the world.</item>
+				<item id="3">Music helped me through a dark time in my life. Now, Iâ€™ll use music to change the world.</item>
 				<item id="4">I will be known as the greatest spy who ever lived.</item>
 				<item id="5">All life is precious to me. I know i can change the world without taking a humanoid life.</item>
-				<item id="6">The elite in their ivory towers don’t understand how we suffer. I intend to show them.</item>
+				<item id="6">The elite in their ivory towers donâ€™t understand how we suffer. I intend to show them.</item>
 			</select>
 			<select type="List" name="Flaw">
-				<item id="1">I’ve never lied once in my life. What? No, I’m not crossing my fingers!</item>
-				<item id="2">I do everything big! Subtlety? I don’t know the meaning of subtlety! Oh, that’s a problem?</item>
-				<item id="3">Being a spy in wartime is painful. I’ve seen so much suffering, I think I’m losing my mind.</item>
-				<item id="4">I can’t focus on my mission. I just want to carouse and sing and play!</item>
-				<item id="5">Yeah, that’s my name. Yeah, I’m a Grinner spy. Who cares about staying undercover?</item>
-				<item id="6">I can’t afford to trust anyone. Not. Anyone.</item>
+				<item id="1">Iâ€™ve never lied once in my life. What? No, Iâ€™m not crossing my fingers!</item>
+				<item id="2">I do everything big! Subtlety? I donâ€™t know the meaning of subtlety! Oh, thatâ€™s a problem?</item>
+				<item id="3">Being a spy in wartime is painful. Iâ€™ve seen so much suffering, I think Iâ€™m losing my mind.</item>
+				<item id="4">I canâ€™t focus on my mission. I just want to carouse and sing and play!</item>
+				<item id="5">Yeah, thatâ€™s my name. Yeah, Iâ€™m a Grinner spy. Who cares about staying undercover?</item>
+				<item id="6">I canâ€™t afford to trust anyone. Not. Anyone.</item>
 			</select>
 		</rules>
 	</element>
-	<element name="Feature: Ballad of the Grinning Fool" type="Background Feature" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_BACKGROUND_FEATURE_BALLAD_OF_THE_GRINNING_FOOL">
+	<element name="Feature: Ballad of the Grinning Fool" type="Background Feature" source="Explorerâ€™s Guide to Wildemount" id="ID_WOTC_EGTW_BACKGROUND_FEATURE_BALLAD_OF_THE_GRINNING_FOOL">
 		<supports>Background Feature</supports>
 		<description>
-			<p>Like every Grinner, you know how to find a hideout. In any city of 10,000 people or more on the Menagerie Coast or in the lands of the Dwendalian Empire, you can play the “Ballad of the Grinning Fool” in a major tavern of inn. A member of the Golden Grin will find you and give shelter to you and any companions you vouch for. This shelter might be discontinued if it becomes too dangerous to hide you, at the DM’s Discretion.</p>
+			<p>Like every Grinner, you know how to find a hideout. In any city of 10,000 people or more on the Menagerie Coast or in the lands of the Dwendalian Empire, you can play the â€œBallad of the Grinning Foolâ€ in a major tavern of inn. A member of the Golden Grin will find you and give shelter to you and any companions you vouch for. This shelter might be discontinued if it becomes too dangerous to hide you, at the DMâ€™s Discretion.</p>
 			<p class="indent">This feature must be used with caution, for not all who know the ballad are your friends. Some are traitors, counterspies, or agents of tyranny.</p>
 		</description>
 		<sheet alt="Ballad of the Grinning Fool" />

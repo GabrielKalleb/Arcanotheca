@@ -2,16 +2,16 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="cleric-life.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/cleric-life.xml" />
+			<file name="cleric-life.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/cleric-life.xml" />
 		</update>
 	</info>
 
-	<element name="Domínio da Vida" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_LIFE_DOMAIN">
+	<element name="DomÃ­nio da Vida" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_LIFE_DOMAIN">
 		<supports>Cleric Subclass</supports>
 		<description>
 			<p class="flavor">Alivie as Dores do Mundo</p>
-			<p>O Domínio da Vida se concentra na energia positiva que ajuda a sustentar toda a vida no multiverso. Clérigos que acessam este domínio são mestres da cura, usando essa força vital para curar muitas dores.</p>
-			<p class="indent">A própria existência depende da energia positiva associada a este domínio, então um Clérigo de quase qualquer tradição religiosa pode escolhê-lo. Este domínio é particularmente associado a divindades agrícolas, deuses da cura ou resistência, e deuses do lar e da comunidade. Ordens religiosas de cura também buscam a magia deste domínio.</p>
+			<p>O DomÃ­nio da Vida se concentra na energia positiva que ajuda a sustentar toda a vida no multiverso. ClÃ©rigos que acessam este domÃ­nio sÃ£o mestres da cura, usando essa forÃ§a vital para curar muitas dores.</p>
+			<p class="indent">A prÃ³pria existÃªncia depende da energia positiva associada a este domÃ­nio, entÃ£o um ClÃ©rigo de quase qualquer tradiÃ§Ã£o religiosa pode escolhÃª-lo. Este domÃ­nio Ã© particularmente associado a divindades agrÃ­colas, deuses da cura ou resistÃªncia, e deuses do lar e da comunidade. Ordens religiosas de cura tambÃ©m buscam a magia deste domÃ­nio.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_LIFE_DOMAIN_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_PRESERVE_LIFE" />
@@ -28,29 +28,29 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Discípulo da Vida" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE">
+	<element name="NÃ­vel 3: DiscÃ­pulo da Vida" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_DISCIPLE_OF_LIFE</requirements>
 		<description>
-			<p>Quando uma magia que você conjura com um espaço de magia restaura Pontos de Vida a uma criatura, essa criatura recupera Pontos de Vida adicionais no turno em que você conjura a magia. Os Pontos de Vida adicionais são iguais a 2 mais o nível do espaço de magia.</p>
+			<p>Quando uma magia que vocÃª conjura com um espaÃ§o de magia restaura Pontos de Vida a uma criatura, essa criatura recupera Pontos de Vida adicionais no turno em que vocÃª conjura a magia. Os Pontos de Vida adicionais sÃ£o iguais a 2 mais o nÃ­vel do espaÃ§o de magia.</p>
 		</description>
-		<sheet alt="Discípulo da Vida">
-			<description>Quando uma magia que você conjura com um espaço de magia restaura PVs a uma criatura, a criatura recupera PVs adicionais iguais a 2 + o nível da magia.</description>
+		<sheet alt="DiscÃ­pulo da Vida">
+			<description>Quando uma magia que vocÃª conjura com um espaÃ§o de magia restaura PVs a uma criatura, a criatura recupera PVs adicionais iguais a 2 + o nÃ­vel da magia.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 3: Magias do Domínio da Vida" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_LIFE_DOMAIN_SPELLS">
+	<element name="NÃ­vel 3: Magias do DomÃ­nio da Vida" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_LIFE_DOMAIN_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_LIFE_DOMAIN_SPELLS</requirements>
 		<description>
-			<p>Sua conexão com este domínio divino garante que você sempre tenha certas magias prontas. Quando você atinge um nível de Clérigo especificado na tabela Magias do Domínio da Vida, você a partir de então sempre tem as magias listadas preparadas.</p>
-			<h5>MAGIAS DO DOMÍNIO DA VIDA</h5>
+			<p>Sua conexÃ£o com este domÃ­nio divino garante que vocÃª sempre tenha certas magias prontas. Quando vocÃª atinge um nÃ­vel de ClÃ©rigo especificado na tabela Magias do DomÃ­nio da Vida, vocÃª a partir de entÃ£o sempre tem as magias listadas preparadas.</p>
+			<h5>MAGIAS DO DOMÃNIO DA VIDA</h5>
 			<table>
 				<thead>
-					<tr><td class="col-15" style="text-align:center">Nível de Clérigo</td><td>Magias Preparadas</td></tr>
+					<tr><td class="col-15" style="text-align:center">NÃ­vel de ClÃ©rigo</td><td>Magias Preparadas</td></tr>
 				</thead>
-				<tr><td style="text-align:center">3</td><td><i>Ajuda, Abençoar, Curar Ferimentos, Restauração Menor</i></td></tr>
+				<tr><td style="text-align:center">3</td><td><i>Ajuda, AbenÃ§oar, Curar Ferimentos, RestauraÃ§Ã£o Menor</i></td></tr>
 				<tr><td style="text-align:center">5</td><td><i>Palavra Curativa em Massa, Reviver</i></td></tr>
-				<tr><td style="text-align:center">7</td><td><i>Aura de Vida, Proteção contra a Morte</i></td></tr>
-				<tr><td style="text-align:center">9</td><td><i>Restauração Maior, Curar Ferimentos em Massa</i></td></tr>
+				<tr><td style="text-align:center">7</td><td><i>Aura de Vida, ProteÃ§Ã£o contra a Morte</i></td></tr>
+				<tr><td style="text-align:center">9</td><td><i>RestauraÃ§Ã£o Maior, Curar Ferimentos em Massa</i></td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -68,13 +68,13 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Preservar a Vida" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_PRESERVE_LIFE">
+	<element name="NÃ­vel 3: Preservar a Vida" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_PRESERVE_LIFE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_PRESERVE_LIFE</requirements>
 		<description>
-			<p>Como uma ação Mágica, você apresenta seu Símbolo Sagrado e gasta um uso do seu Canalizar Divindade para evocar energia de cura que pode restaurar um número de Pontos de Vida igual a cinco vezes o seu nível de Clérigo. Escolha criaturas Ensanguentadas a até 9 metros (30 pés) de você (que pode incluir você mesmo), e divida esses Pontos de Vida entre elas. Esta característica pode restaurar uma criatura a não mais do que metade do seu máximo de Pontos de Vida.</p>
+			<p>Como uma aÃ§Ã£o MÃ¡gica, vocÃª apresenta seu SÃ­mbolo Sagrado e gasta um uso do seu Canalizar Divindade para evocar energia de cura que pode restaurar um nÃºmero de Pontos de Vida igual a cinco vezes o seu nÃ­vel de ClÃ©rigo. Escolha criaturas Ensanguentadas a atÃ© 9 metros (30 pÃ©s) de vocÃª (que pode incluir vocÃª mesmo), e divida esses Pontos de Vida entre elas. Esta caracterÃ­stica pode restaurar uma criatura a nÃ£o mais do que metade do seu mÃ¡ximo de Pontos de Vida.</p>
 		</description>
-		<sheet alt="Preservar a Vida" action="Ação" usage="Canalizar Divindade">
-			<description>Você restaura {{preserve-life:hp}} PVs a criaturas Ensanguentadas a até 9 metros de você (o que pode incluir você mesmo). Você divide esses PVs entre elas, embora esta característica possa restaurar uma criatura a não mais do que metade do seu PV máximo.</description>
+		<sheet alt="Preservar a Vida" action="AÃ§Ã£o" usage="Canalizar Divindade">
+			<description>VocÃª restaura {{preserve-life:hp}} PVs a criaturas Ensanguentadas a atÃ© 9 metros de vocÃª (o que pode incluir vocÃª mesmo). VocÃª divide esses PVs entre elas, embora esta caracterÃ­stica possa restaurar uma criatura a nÃ£o mais do que metade do seu PV mÃ¡ximo.</description>
 		</sheet>
 		<rules>
 			<stat name="preserve-life:hp" value="level:cleric" />
@@ -85,23 +85,23 @@
 		</rules>
 	</element>
 	
-	<element name="Nível 6: Curandeiro Abençoado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_BLESSED_HEALER">
+	<element name="NÃ­vel 6: Curandeiro AbenÃ§oado" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_BLESSED_HEALER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_BLESSED_HEALER</requirements>
 		<description>
-			<p>As magias de cura que você conjura nos outros curam você também. Imediatamente após você conjurar uma magia com um espaço de magia que restaura Pontos de Vida a uma ou mais criaturas que não seja você mesmo, você recupera Pontos de Vida iguais a 2 mais o nível do espaço de magia.</p>
+			<p>As magias de cura que vocÃª conjura nos outros curam vocÃª tambÃ©m. Imediatamente apÃ³s vocÃª conjurar uma magia com um espaÃ§o de magia que restaura Pontos de Vida a uma ou mais criaturas que nÃ£o seja vocÃª mesmo, vocÃª recupera Pontos de Vida iguais a 2 mais o nÃ­vel do espaÃ§o de magia.</p>
 		</description>
-		<sheet alt="Curandeiro Abençoado">
-			<description>Após você conjurar uma magia com um espaço de magia que restaura PVs a 1 ou mais criaturas que não seja você mesmo, você recupera PVs iguais a 2 + o nível do espaço de magia.</description>
+		<sheet alt="Curandeiro AbenÃ§oado">
+			<description>ApÃ³s vocÃª conjurar uma magia com um espaÃ§o de magia que restaura PVs a 1 ou mais criaturas que nÃ£o seja vocÃª mesmo, vocÃª recupera PVs iguais a 2 + o nÃ­vel do espaÃ§o de magia.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 17: Cura Suprema" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_SUPREME_HEALING">
+	<element name="NÃ­vel 17: Cura Suprema" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_SUPREME_HEALING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_SUPREME_HEALER</requirements>
 		<description>
-			<p>Quando você normalmente rolaria um ou mais dados para restaurar Pontos de Vida a uma criatura com uma magia ou Canalizar Divindade, você não rola esses dados para a cura; em vez disso, usa o maior número possível para cada dado. Por exemplo, em vez de restaurar 2d6 Pontos de Vida a uma criatura com uma magia, você restaura 12.</p>
+			<p>Quando vocÃª normalmente rolaria um ou mais dados para restaurar Pontos de Vida a uma criatura com uma magia ou Canalizar Divindade, vocÃª nÃ£o rola esses dados para a cura; em vez disso, usa o maior nÃºmero possÃ­vel para cada dado. Por exemplo, em vez de restaurar 2d6 Pontos de Vida a uma criatura com uma magia, vocÃª restaura 12.</p>
 		</description>
 		<sheet alt="Cura Suprema">
-			<description>Quando você restaura PVs a uma criatura com uma magia ou Canalizar Divindade, você usa o maior número possível para cada dado.</description>
+			<description>Quando vocÃª restaura PVs a uma criatura com uma magia ou Canalizar Divindade, vocÃª usa o maior nÃºmero possÃ­vel para cada dado.</description>
 		</sheet>
 	</element>
 	

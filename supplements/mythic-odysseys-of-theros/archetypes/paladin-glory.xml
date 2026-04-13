@@ -3,7 +3,7 @@
 	<info>
 		<name>Oath of Glory</name>
 		<update version="0.0.1">
-			<file name="paladin-glory.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/mythic-odysseys-of-theros/archetypes/paladin-glory.xml" />
+			<file name="paladin-glory.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/mythic-odysseys-of-theros/archetypes/paladin-glory.xml" />
 		</update>
 	</info>
 	<element name="Oath of Glory" type="Archetype" source="Mythic Odysseys of Theros" id="ID_WOTC_MOOT_ARCHETYPE_PALADIN_OATH_OF_GLORY">
@@ -125,7 +125,7 @@
 	<element name="Living Legend" type="Archetype Feature" source="Mythic Odysseys of Theros" id="ID_WOTC_MOOT_ARCHETYPE_FEATURE_GLORY_LIVING_LEGEND">
 		<description>
 			<p><em>20th-level Oath of Glory feature</em></p>
-			<p>You can empower yourself with the legends—whether true or exaggerated—of your great deeds. As a bonus action, you gain the following benefits for 1 minute:</p>
+			<p>You can empower yourself with the legendsâ€”whether true or exaggeratedâ€”of your great deeds. As a bonus action, you gain the following benefits for 1 minute:</p>
 			<ul>
 				<li>You are blessed with an otherworldly presence, gaining advantage on all Charisma checks.</li>
 				<li>Once on each of your turns when you make a weapon attack and miss, you can cause that attack to hit instead.</li>

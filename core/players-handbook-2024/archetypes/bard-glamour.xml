@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Colégio do Fascínio</name>
-		<description>A subclasse Colégio do Fascínio do Livro do Jogador de 2024.</description>
+		<name>ColÃ©gio do FascÃ­nio</name>
+		<description>A subclasse ColÃ©gio do FascÃ­nio do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="bard-glamour.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/bard-glamour.xml" />
+			<file name="bard-glamour.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/bard-glamour.xml" />
 		</update>
 	</info>
 
-	<element name="Colégio do Fascínio" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_GLAMOUR">
+	<element name="ColÃ©gio do FascÃ­nio" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_GLAMOUR">
 		<supports>Bard Subclass</supports>
 		<description>
-			<p class="flavor">Tecer Magia Feérica Sedutora</p>
-			<p>O Colégio do Fascínio traça suas origens à magia sedutora da Agrestia das Fadas. Bardos que estudam esta magia tecem fios de beleza e terror em suas canções e histórias, e os mais poderosos entre eles podem se cobrir com uma majestade de outro mundo. Suas apresentações despertam uma saudade melancólica pela inocência esquecida, evocam memórias inconscientes de medos há muito guardados e mexem com as emoções até mesmo dos ouvintes mais duros de coração.</p>
+			<p class="flavor">Tecer Magia FeÃ©rica Sedutora</p>
+			<p>O ColÃ©gio do FascÃ­nio traÃ§a suas origens Ã  magia sedutora da Agrestia das Fadas. Bardos que estudam esta magia tecem fios de beleza e terror em suas canÃ§Ãµes e histÃ³rias, e os mais poderosos entre eles podem se cobrir com uma majestade de outro mundo. Suas apresentaÃ§Ãµes despertam uma saudade melancÃ³lica pela inocÃªncia esquecida, evocam memÃ³rias inconscientes de medos hÃ¡ muito guardados e mexem com as emoÃ§Ãµes atÃ© mesmo dos ouvintes mais duros de coraÃ§Ã£o.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_BEGUILING_MAGIC" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_MANTLE_OF_INSPIRATION" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_MANTLE_OF_MAJESTY" />
@@ -28,16 +28,16 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Magia Sedutora" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_BEGUILING_MAGIC">
+	<element name="NÃ­vel 3: Magia Sedutora" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_BEGUILING_MAGIC">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_GLAMOUR_BEGUILING_MAGIC</requirements>
 		<description>
-			<p>Você sempre tem as magias <i>Enfeitiçar Pessoa</i> e <i>Reflexos</i> preparadas.</p>
-			<p class="indent">Além disso, imediatamente após você conjurar uma magia de Encantamento ou Ilusão usando um espaço de magia, você pode fazer com que uma criatura que possa ver a até 18 metros (60 pés) de você faça um teste de resistência de Sabedoria contra a CD de resistência das suas magias. Em uma falha, o alvo fica com a condição Enfeitiçado ou Amedrontado (à sua escolha) por 1 minuto. O alvo repete o teste de resistência no final de cada um dos turnos dele, encerrando o efeito sobre si mesmo num sucesso.</p>
-			<p class="indent">Uma vez que você usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. Você também pode restaurar seu uso ao gastar um uso de sua Inspiração de Bardo (nenhuma ação necessária).</p>
+			<p>VocÃª sempre tem as magias <i>EnfeitiÃ§ar Pessoa</i> e <i>Reflexos</i> preparadas.</p>
+			<p class="indent">AlÃ©m disso, imediatamente apÃ³s vocÃª conjurar uma magia de Encantamento ou IlusÃ£o usando um espaÃ§o de magia, vocÃª pode fazer com que uma criatura que possa ver a atÃ© 18 metros (60 pÃ©s) de vocÃª faÃ§a um teste de resistÃªncia de Sabedoria contra a CD de resistÃªncia das suas magias. Em uma falha, o alvo fica com a condiÃ§Ã£o EnfeitiÃ§ado ou Amedrontado (Ã  sua escolha) por 1 minuto. O alvo repete o teste de resistÃªncia no final de cada um dos turnos dele, encerrando o efeito sobre si mesmo num sucesso.</p>
+			<p class="indent">Uma vez que vocÃª usar este benefÃ­cio, vocÃª nÃ£o pode usÃ¡-lo novamente atÃ© terminar um Descanso Longo. VocÃª tambÃ©m pode restaurar seu uso ao gastar um uso de sua InspiraÃ§Ã£o de Bardo (nenhuma aÃ§Ã£o necessÃ¡ria).</p>
 		</description>
 		<sheet alt="Magia Sedutora" usage="1/Descanso Longo">
-			<description>Imediatamente após conjurar uma magia de Encantamento ou Ilusão usando um espaço de magia, você pode fazer uma criatura que possa ver a até 18m de você realizar um teste de resistência de Sabedoria CD {{bard:spellcasting:dc}}. Numa falha, o alvo fica Enfeitiçado ou Amedrontado (à sua escolha) por 1 minuto. O alvo repete o teste no final de cada um dos turnos dele, encerrando o efeito sobre si mesmo num sucesso. &#13;
-			Você pode restaurar um uso desta característica ao gastar um uso da sua Inspiração de Bardo.</description>
+			<description>Imediatamente apÃ³s conjurar uma magia de Encantamento ou IlusÃ£o usando um espaÃ§o de magia, vocÃª pode fazer uma criatura que possa ver a atÃ© 18m de vocÃª realizar um teste de resistÃªncia de Sabedoria CD {{bard:spellcasting:dc}}. Numa falha, o alvo fica EnfeitiÃ§ado ou Amedrontado (Ã  sua escolha) por 1 minuto. O alvo repete o teste no final de cada um dos turnos dele, encerrando o efeito sobre si mesmo num sucesso. &#13;
+			VocÃª pode restaurar um uso desta caracterÃ­stica ao gastar um uso da sua InspiraÃ§Ã£o de Bardo.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHARM_PERSON" spellcasting="Bard" allowReplace="false" />
@@ -45,13 +45,13 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Manto da Inspiração" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_MANTLE_OF_INSPIRATION">
+	<element name="NÃ­vel 3: Manto da InspiraÃ§Ã£o" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_MANTLE_OF_INSPIRATION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_GLAMOUR_MANTLE_OF_INSPIRATION</requirements>
 		<description>
-			<p>Você pode tecer magia feérica em uma canção ou dança para encher os outros com vigor. Como uma Ação Bônus, você pode gastar um uso de Inspiração de Bardo, rolando um dado de Inspiração de Bardo. Quando você o faz, escolha um número de outras criaturas a até 18 metros (60 pés) de você, até um número igual ao seu modificador de Carisma (mínimo de uma criatura). Cada uma dessas criaturas ganha um número de Pontos de Vida Temporários igual a duas vezes o número rolado no dado de Inspiração de Bardo, e então cada uma pode usar sua Reação para se mover até seu Deslocamento sem provocar Ataques de Oportunidade.</p>
+			<p>VocÃª pode tecer magia feÃ©rica em uma canÃ§Ã£o ou danÃ§a para encher os outros com vigor. Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um uso de InspiraÃ§Ã£o de Bardo, rolando um dado de InspiraÃ§Ã£o de Bardo. Quando vocÃª o faz, escolha um nÃºmero de outras criaturas a atÃ© 18 metros (60 pÃ©s) de vocÃª, atÃ© um nÃºmero igual ao seu modificador de Carisma (mÃ­nimo de uma criatura). Cada uma dessas criaturas ganha um nÃºmero de Pontos de Vida TemporÃ¡rios igual a duas vezes o nÃºmero rolado no dado de InspiraÃ§Ã£o de Bardo, e entÃ£o cada uma pode usar sua ReaÃ§Ã£o para se mover atÃ© seu Deslocamento sem provocar Ataques de Oportunidade.</p>
 		</description>
-		<sheet alt="Manto da Inspiração" action="Bonus Action" usage="Inspiração de Bardo">
-			<description>Role o dado de Inspiração de Bardo, e escolha até {{mantle of inspiration:count}} outras criaturas a até 18m de você. Cada uma delas ganha PVTs iguais ao dobro do valor rolado, e elas podem usar suas Reações para se mover até seus Deslocamentos sem provocar Ataques de Oportunidade.</description>
+		<sheet alt="Manto da InspiraÃ§Ã£o" action="Bonus Action" usage="InspiraÃ§Ã£o de Bardo">
+			<description>Role o dado de InspiraÃ§Ã£o de Bardo, e escolha atÃ© {{mantle of inspiration:count}} outras criaturas a atÃ© 18m de vocÃª. Cada uma delas ganha PVTs iguais ao dobro do valor rolado, e elas podem usar suas ReaÃ§Ãµes para se mover atÃ© seus Deslocamentos sem provocar Ataques de Oportunidade.</description>
 		</sheet>
 		<rules>
 			<stat name="mantle of inspiration:count" value="1" bonus="base" />
@@ -59,31 +59,31 @@
 		</rules>
 	</element>
 
-	<element name="Nível 6: Manto da Majestade" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_MANTLE_OF_MAJESTY">
+	<element name="NÃ­vel 6: Manto da Majestade" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_MANTLE_OF_MAJESTY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_GLAMOUR_MANTLE_OF_MAJESTY</requirements>
 		<description>
-			<p>Você sempre tem a magia <i>Comando</i> preparada.</p>
-			<p class="indent">Como uma Ação Bônus, você conjura <i>Comando</i> sem gastar um espaço de magia, e assume uma aparência de outro mundo por 1 minuto ou até a sua Concentração terminar. Durante este tempo, você pode conjurar <i>Comando</i> como uma Ação Bônus sem gastar um espaço de magia.</p>
-			<p class="indent">Qualquer criatura Enfeitiçada por você falha automaticamente no teste de resistência dela contra o <i>Comando</i> que você conjurar com esta característica.</p>
-			<p class="indent">Uma vez que você usar esta característica, não pode usá-la novamente até terminar um Descanso Longo. Você também pode restaurar o uso dela ao gastar um espaço de magia de nível 3+ (nenhuma ação necessária).</p>
+			<p>VocÃª sempre tem a magia <i>Comando</i> preparada.</p>
+			<p class="indent">Como uma AÃ§Ã£o BÃ´nus, vocÃª conjura <i>Comando</i> sem gastar um espaÃ§o de magia, e assume uma aparÃªncia de outro mundo por 1 minuto ou atÃ© a sua ConcentraÃ§Ã£o terminar. Durante este tempo, vocÃª pode conjurar <i>Comando</i> como uma AÃ§Ã£o BÃ´nus sem gastar um espaÃ§o de magia.</p>
+			<p class="indent">Qualquer criatura EnfeitiÃ§ada por vocÃª falha automaticamente no teste de resistÃªncia dela contra o <i>Comando</i> que vocÃª conjurar com esta caracterÃ­stica.</p>
+			<p class="indent">Uma vez que vocÃª usar esta caracterÃ­stica, nÃ£o pode usÃ¡-la novamente atÃ© terminar um Descanso Longo. VocÃª tambÃ©m pode restaurar o uso dela ao gastar um espaÃ§o de magia de nÃ­vel 3+ (nenhuma aÃ§Ã£o necessÃ¡ria).</p>
 		</description>
 		<sheet alt="Manto da Majestade" action="Bonus Action" usage="1/Descanso Longo">
-			<description>Pelo próximo minuto como se estivesse se Concentrando em uma magia, você pode conjurar Comando como Ação Bônus em cada um dos seus turnos sem gastar um espaço de magia. Criaturas Enfeitiçadas por você falham automaticamente nos testes de resistência delas contra a magia Comando conjurada com esta característica. &#13;
-			Você pode restaurar um uso desta característica gastando um espaço de magia de nível 3+ (nenhuma ação necessária).</description>
+			<description>Pelo prÃ³ximo minuto como se estivesse se Concentrando em uma magia, vocÃª pode conjurar Comando como AÃ§Ã£o BÃ´nus em cada um dos seus turnos sem gastar um espaÃ§o de magia. Criaturas EnfeitiÃ§adas por vocÃª falham automaticamente nos testes de resistÃªncia delas contra a magia Comando conjurada com esta caracterÃ­stica. &#13;
+			VocÃª pode restaurar um uso desta caracterÃ­stica gastando um espaÃ§o de magia de nÃ­vel 3+ (nenhuma aÃ§Ã£o necessÃ¡ria).</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMAND" spellcasting="Bard" allowReplace="false" />
 		</rules>
 	</element>
 
-	<element name="Nível 14: Majestade Inquebrável" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_UNBREAKABLE_MAJESTY">
+	<element name="NÃ­vel 14: Majestade InquebrÃ¡vel" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_UNBREAKABLE_MAJESTY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_GLAMOUR_UNBREAKABLE_MAJESTY</requirements>
 		<description>
-			<p>Como uma Ação Bônus, você pode assumir uma presença magicamente majestosa por 1 minuto ou até ter a condição Incapacitado. Pela duração, sempre que qualquer criatura atingir você com uma jogada de ataque pela primeira vez em um turno, o atacante deve ser bem-sucedido em um teste de resistência de Carisma contra a CD de resistência das suas magias, ou o ataque errará em vez disso, conforme a criatura recua perante sua majestade.</p>
-			<p class="indent">Uma vez que você assumir esta presença majestosa, não pode fazê-lo novamente até terminar um Descanso Curto ou Longo.</p>
+			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode assumir uma presenÃ§a magicamente majestosa por 1 minuto ou atÃ© ter a condiÃ§Ã£o Incapacitado. Pela duraÃ§Ã£o, sempre que qualquer criatura atingir vocÃª com uma jogada de ataque pela primeira vez em um turno, o atacante deve ser bem-sucedido em um teste de resistÃªncia de Carisma contra a CD de resistÃªncia das suas magias, ou o ataque errarÃ¡ em vez disso, conforme a criatura recua perante sua majestade.</p>
+			<p class="indent">Uma vez que vocÃª assumir esta presenÃ§a majestosa, nÃ£o pode fazÃª-lo novamente atÃ© terminar um Descanso Curto ou Longo.</p>
 		</description>
-		<sheet alt="Majestade Inquebrável" action="Bonus Action" usage="1/Descanso Curto">
-			<description>Por 1 minuto ou até você ficar Incapacitado, sempre que uma criatura atingir você pela primeira vez em um turno, ela deve obter sucesso em um teste de resistência de Carisma CD {{bard:spellcasting:dc}} ou o ataque errará em vez disso.</description>
+		<sheet alt="Majestade InquebrÃ¡vel" action="Bonus Action" usage="1/Descanso Curto">
+			<description>Por 1 minuto ou atÃ© vocÃª ficar Incapacitado, sempre que uma criatura atingir vocÃª pela primeira vez em um turno, ela deve obter sucesso em um teste de resistÃªncia de Carisma CD {{bard:spellcasting:dc}} ou o ataque errarÃ¡ em vez disso.</description>
 		</sheet>
 	</element>
 

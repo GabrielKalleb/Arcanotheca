@@ -3,58 +3,58 @@
 	<info>
 		<name>Talentos de Origem</name>
 		<update version="0.0.1">
-			<file name="feats-origin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/feats/feats-origin.xml" />
+			<file name="feats-origin.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/feats/feats-origin.xml" />
 		</update>
 	</info>
-	<element name="Alerta" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ALERT">
+	<element name="Alerta" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ALERT">
 		<supports>Origin</supports>
 		<requirements>!ID_PHB_FEAT_ALERT||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>Você ganha os seguintes benefícios.</p>
+			<p>VocÃª ganha os seguintes benefÃ­cios.</p>
 			<p class="indent">
 				<b>
-					<i>Proficiência em Iniciativa.</i>
-				</b> Quando você rola Iniciativa, você pode adicionar seu Bônus de Proficiência à rolagem.
+					<i>ProficiÃªncia em Iniciativa.</i>
+				</b> Quando vocÃª rola Iniciativa, vocÃª pode adicionar seu BÃ´nus de ProficiÃªncia Ã  rolagem.
 			</p>
 			<p class="indent">
 				<b>
 					<i>Troca de Iniciativa.</i>
-				</b> Imediatamente após rolar a Iniciativa, você pode trocar a sua Iniciativa com a de um aliado voluntário no mesmo combate. Você não pode fazer essa troca se você ou o aliado tiverem a condição Incapacitado.
+				</b> Imediatamente apÃ³s rolar a Iniciativa, vocÃª pode trocar a sua Iniciativa com a de um aliado voluntÃ¡rio no mesmo combate. VocÃª nÃ£o pode fazer essa troca se vocÃª ou o aliado tiverem a condiÃ§Ã£o Incapacitado.
 			</p>
 		</description>
 		<sheet>
-			<description>Imediatamente após rolar Iniciativa, você pode trocar a sua com a de um aliado voluntário no mesmo combate. Você não pode fazer essa troca se você ou o aliado estiver Incapacitado.</description>
+			<description>Imediatamente apÃ³s rolar Iniciativa, vocÃª pode trocar a sua com a de um aliado voluntÃ¡rio no mesmo combate. VocÃª nÃ£o pode fazer essa troca se vocÃª ou o aliado estiver Incapacitado.</description>
 		</sheet>
 		<rules>
 			<stat name="initiative" value="proficiency" bonus="proficiency" />
 		</rules>
 	</element>
-	<element name="Artesão" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_CRAFTER">
+	<element name="ArtesÃ£o" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_CRAFTER">
 		<supports>Origin</supports>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>Você ganha os seguintes benefícios.</p>
+			<p>VocÃª ganha os seguintes benefÃ­cios.</p>
 			<p class="indent">
 				<b>
-					<i>Proficiência com Ferramentas.</i>
-				</b> Você ganha proficiência com três Ferramentas de Artesão diferentes à sua escolha da tabela de Criação Rápida.
+					<i>ProficiÃªncia com Ferramentas.</i>
+				</b> VocÃª ganha proficiÃªncia com trÃªs Ferramentas de ArtesÃ£o diferentes Ã  sua escolha da tabela de CriaÃ§Ã£o RÃ¡pida.
 			</p>
 			<p class="indent">
 				<b>
 					<i>Desconto.</i>
-				</b> Sempre que comprar um item não mágico, você recebe 20% de desconto nele.
+				</b> Sempre que comprar um item nÃ£o mÃ¡gico, vocÃª recebe 20% de desconto nele.
 			</p>
 			<p class="indent">
 				<b>
-					<i>Criação Rápida.</i>
-				</b> Quando você termina um Descanso Longo, pode criar uma peça de equipamento da tabela de Criação Rápida, desde que tenha as Ferramentas de Artesão associadas a esse item e tenha proficiência com elas. O item dura até você terminar outro Descanso Longo, momento em que ele se desfaz.
+					<i>CriaÃ§Ã£o RÃ¡pida.</i>
+				</b> Quando vocÃª termina um Descanso Longo, pode criar uma peÃ§a de equipamento da tabela de CriaÃ§Ã£o RÃ¡pida, desde que tenha as Ferramentas de ArtesÃ£o associadas a esse item e tenha proficiÃªncia com elas. O item dura atÃ© vocÃª terminar outro Descanso Longo, momento em que ele se desfaz.
 			</p>
-			<h5>CRIAÇÃO RÁPIDA</h5>
+			<h5>CRIAÃ‡ÃƒO RÃPIDA</h5>
 			<table>
 				<thead>
 					<tr>
-						<td>Ferramentas de Artesão</td>
+						<td>Ferramentas de ArtesÃ£o</td>
 						<td>Equipamento Criado</td>
 					</tr>
 				</thead>
@@ -72,67 +72,67 @@
 				</tr>
 				<tr>
 					<td>Ferramentas de Oleiro</td>
-					<td>Jarro, Lampião</td>
+					<td>Jarro, LampiÃ£o</td>
 				</tr>
 				<tr>
 					<td>Ferramentas de Ferreiro</td>
-					<td>Esferas de Metal, Balde, Estrepes, Arpéu, Panela de Ferro</td>
+					<td>Esferas de Metal, Balde, Estrepes, ArpÃ©u, Panela de Ferro</td>
 				</tr>
 				<tr>
 					<td>Ferramentas de Funileiro</td>
-					<td>Sino, Pá, Caixa de Fogo</td>
+					<td>Sino, PÃ¡, Caixa de Fogo</td>
 				</tr>
 				<tr>
-					<td>Ferramentas de Tecelão</td>
+					<td>Ferramentas de TecelÃ£o</td>
 					<td>Cesto, Corda, Rede, Tenda</td>
 				</tr>
 				<tr>
 					<td>Ferramentas de Entalhador</td>
-					<td>Clava, Clava Grande, Bordão</td>
+					<td>Clava, Clava Grande, BordÃ£o</td>
 				</tr>
 			</table>
 		</description>
 		<setters>
-			<set name="keywords">criação rápida</set>
+			<set name="keywords">criaÃ§Ã£o rÃ¡pida</set>
 		</setters>
 		<sheet>
-			<description>Sempre que comprar um item não mágico, você recebe 20% de desconto. Ao terminar um Descanso Longo, você pode criar uma peça de equipamento da tabela de Criação Rápida, desde que tenha as ferramentas e proficiência associadas. O item dura até você terminar outro Descanso Longo.</description>
+			<description>Sempre que comprar um item nÃ£o mÃ¡gico, vocÃª recebe 20% de desconto. Ao terminar um Descanso Longo, vocÃª pode criar uma peÃ§a de equipamento da tabela de CriaÃ§Ã£o RÃ¡pida, desde que tenha as ferramentas e proficiÃªncia associadas. O item dura atÃ© vocÃª terminar outro Descanso Longo.</description>
 		</sheet>
 		<rules>
-			<select type="Proficiency" name="Proficiência com Ferramentas (Artesão)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" number="3"/>
+			<select type="Proficiency" name="ProficiÃªncia com Ferramentas (ArtesÃ£o)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" number="3"/>
 		</rules>
 	</element>
-	<element name="Curandeiro" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_HEALER">
+	<element name="Curandeiro" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_HEALER">
 		<supports>Origin</supports>
 		<requirements>!ID_PHB_FEAT_HEALER||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>Você ganha os seguintes benefícios.</p>
+			<p>VocÃª ganha os seguintes benefÃ­cios.</p>
 			<p class="indent">
 				<b>
-					<i>Médico de Batalha.</i>
-				</b> Se você tiver um Kit de Curandeiro, pode gastar um uso dele e tratar de uma criatura a até 5 pés de você como uma ação de Utilizar. Essa criatura pode gastar um de seus Dados de Vida, e então você rola esse dado. A criatura recupera um número de Pontos de Vida igual à rolagem mais o seu Bônus de Proficiência.
+					<i>MÃ©dico de Batalha.</i>
+				</b> Se vocÃª tiver um Kit de Curandeiro, pode gastar um uso dele e tratar de uma criatura a atÃ© 5 pÃ©s de vocÃª como uma aÃ§Ã£o de Utilizar. Essa criatura pode gastar um de seus Dados de Vida, e entÃ£o vocÃª rola esse dado. A criatura recupera um nÃºmero de Pontos de Vida igual Ã  rolagem mais o seu BÃ´nus de ProficiÃªncia.
 			</p>
 			<p class="indent">
 				<b>
 					<i>Rolagens de Cura Refeitas.</i>
-				</b> Sempre que você rolar um dado para determinar a quantidade de Pontos de Vida restaurados com uma magia ou com o benefício Médico de Batalha deste talento, você pode rerrolar o dado se o resultado for 1, devendo usar a nova rolagem.
+				</b> Sempre que vocÃª rolar um dado para determinar a quantidade de Pontos de Vida restaurados com uma magia ou com o benefÃ­cio MÃ©dico de Batalha deste talento, vocÃª pode rerrolar o dado se o resultado for 1, devendo usar a nova rolagem.
 			</p>
 		</description>
 		<sheet>
-			<description>Você ganha os seguintes benefícios: &#13; • Pode gastar um uso de um Kit de Curandeiro para tratar de uma criatura a até 5 pés de você. Ela pode gastar um de seus Dados de Vida e você o rola. Ela recupera PV igual à rolagem + {{proficiency}}. &#13; • Sempre que rolar um 1 num dado para curar PV com uma magia ou o benefício acima, pode rerrolar e deve usar o novo resultado.</description>
+			<description>VocÃª ganha os seguintes benefÃ­cios: &#13; â€¢ Pode gastar um uso de um Kit de Curandeiro para tratar de uma criatura a atÃ© 5 pÃ©s de vocÃª. Ela pode gastar um de seus Dados de Vida e vocÃª o rola. Ela recupera PV igual Ã  rolagem + {{proficiency}}. &#13; â€¢ Sempre que rolar um 1 num dado para curar PV com uma magia ou o benefÃ­cio acima, pode rerrolar e deve usar o novo resultado.</description>
 		</sheet>
 	</element>
-	<element name="Sortudo" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_LUCKY">
+	<element name="Sortudo" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_LUCKY">
 		<supports>Origin</supports>
 		<requirements>!ID_PHB_FEAT_LUCKY||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>Você ganha os seguintes benefícios.</p>
+			<p>VocÃª ganha os seguintes benefÃ­cios.</p>
 			<p class="indent">
 				<b>
 					<i>Pontos de Sorte.</i>
-				</b> Você tem um número de Pontos de Sorte igual ao seu Bônus de Proficiência e pode gastá-los nos benefícios abaixo. Você recupera seus Pontos de Sorte gastos ao terminar um Descanso Longo.
+				</b> VocÃª tem um nÃºmero de Pontos de Sorte igual ao seu BÃ´nus de ProficiÃªncia e pode gastÃ¡-los nos benefÃ­cios abaixo. VocÃª recupera seus Pontos de Sorte gastos ao terminar um Descanso Longo.
 			</p>
 			<p class="indent">
 				<b>
@@ -142,38 +142,38 @@
 			<p class="indent">
 				<b>
 					<i>Desvantagem.</i>
-				</b> Quando uma criatura rolar um d20 para uma rolagem de ataque contra você, pode gastar 1 Ponto de Sorte para impor Desvantagem a essa rolagem.
+				</b> Quando uma criatura rolar um d20 para uma rolagem de ataque contra vocÃª, pode gastar 1 Ponto de Sorte para impor Desvantagem a essa rolagem.
 			</p>
 		</description>
 		<sheet usage="{{proficiency}}/Long Rest">
-			<description>Quando rolar um d20 para um Teste de d20, pode dar Vantagem a si mesmo na rolagem.&#13; Alternativamente, quando uma criatura rolar um d20 para um ataque contra você, pode impor Desvantagem àquela rolagem.</description>
+			<description>Quando rolar um d20 para um Teste de d20, pode dar Vantagem a si mesmo na rolagem.&#13; Alternativamente, quando uma criatura rolar um d20 para um ataque contra vocÃª, pode impor Desvantagem Ã quela rolagem.</description>
 		</sheet>
 	</element>
-	<element name="Iniciado em Magia" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE">
+	<element name="Iniciado em Magia" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE">
 		<supports>Origin</supports>
 		<requirements>!ID_PHB_FEAT_MAGICINITIATE||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>Você ganha os seguintes benefícios.</p>
+			<p>VocÃª ganha os seguintes benefÃ­cios.</p>
 			<p class="indent">
 				<b>
 					<i>Dois Truques.</i>
-				</b> Você aprende dois truques à sua escolha da lista de magias do Clérigo, Druida ou Mago. Inteligência, Sabedoria ou Carisma é a sua habilidade de conjuração para as magias deste talento (escolha ao selecionar este talento).
+				</b> VocÃª aprende dois truques Ã  sua escolha da lista de magias do ClÃ©rigo, Druida ou Mago. InteligÃªncia, Sabedoria ou Carisma Ã© a sua habilidade de conjuraÃ§Ã£o para as magias deste talento (escolha ao selecionar este talento).
 			</p>
 			<p class="indent">
 				<b>
-					<i>Magia de Nível 1.</i>
-				</b> Escolha uma magia de nível 1 da mesma lista selecionada para os truques. Você sempre tem essa magia preparada. Pode conjurá-la uma vez sem gastar um espaço de magia, recuperando a capacidade de fazê-lo ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que possua.
+					<i>Magia de NÃ­vel 1.</i>
+				</b> Escolha uma magia de nÃ­vel 1 da mesma lista selecionada para os truques. VocÃª sempre tem essa magia preparada. Pode conjurÃ¡-la uma vez sem gastar um espaÃ§o de magia, recuperando a capacidade de fazÃª-lo ao terminar um Descanso Longo. VocÃª tambÃ©m pode conjurÃ¡-la usando quaisquer espaÃ§os de magia que possua.
 			</p>
 			<p class="indent">
 				<b>
 					<i>Troca de Magia.</i>
-				</b> Sempre que ganhar um novo nível, pode substituir uma das magias escolhidas por outra do mesmo nível da lista escolhida.
+				</b> Sempre que ganhar um novo nÃ­vel, pode substituir uma das magias escolhidas por outra do mesmo nÃ­vel da lista escolhida.
 			</p>
 			<p class="indent">
 				<b>
-					<i>Repetível.</i>
-				</b> Você pode pegar este talento mais de uma vez, mas deve escolher uma lista de magias diferente a cada vez.
+					<i>RepetÃ­vel.</i>
+				</b> VocÃª pode pegar este talento mais de uma vez, mas deve escolher uma lista de magias diferente a cada vez.
 			</p>
 		</description>
 		<sheet display="false" />
@@ -181,212 +181,212 @@
 			<select type="Feat Feature" name="Lista de Magias (Iniciado em Magia)" supports="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD"/>
 		</rules>
 	</element>
-	<element name="Iniciado em Magia" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_2">
+	<element name="Iniciado em Magia" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_2">
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_MAGIC_INITIATE</requirements>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>Benefícios conforme o talento original.</p>
+			<p>BenefÃ­cios conforme o talento original.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Feat Feature" name="Lista de Magias (Iniciado em Magia)" supports="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD"/>
 		</rules>
 	</element>
-	<element name="Iniciado em Magia" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_3">
+	<element name="Iniciado em Magia" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_3">
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_2</requirements>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>Benefícios conforme o talento original.</p>
+			<p>BenefÃ­cios conforme o talento original.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Feat Feature" name="Lista de Magias (Iniciado em Magia)" supports="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD"/>
 		</rules>
 	</element>
-	<element name="Clérigo" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC">
+	<element name="ClÃ©rigo" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC">
 		<compendium display="false" />
 		<description>
-			<p>Você aprende dois truques à sua escolha da lista de magias do Clérigo.</p>
-			<p class="indent">Escolha uma magia de nível 1 da mesma lista. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem espaço de magia e recupera o uso ao terminar um Descanso Longo. Você também pode conjurá-la usando espaços de magia que possua.</p>
+			<p>VocÃª aprende dois truques Ã  sua escolha da lista de magias do ClÃ©rigo.</p>
+			<p class="indent">Escolha uma magia de nÃ­vel 1 da mesma lista. VocÃª sempre tem essa magia preparada. VocÃª pode conjurÃ¡-la uma vez sem espaÃ§o de magia e recupera o uso ao terminar um Descanso Longo. VocÃª tambÃ©m pode conjurÃ¡-la usando espaÃ§os de magia que possua.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Habilidade de Conjuração (Iniciado em Magia)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_CHARISMA" />
+			<select type="Feat Feature" name="Habilidade de ConjuraÃ§Ã£o (Iniciado em Magia)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_CHARISMA" />
 			<select type="Spell" name="Truque (Iniciado em Magia)" supports="0,Cleric" number="2" />
-			<select type="Spell" name="Magia Nível 1 (Iniciado em Magia)" supports="1,Cleric" />
+			<select type="Spell" name="Magia NÃ­vel 1 (Iniciado em Magia)" supports="1,Cleric" />
 		</rules>
 	</element>
-	<element name="Inteligência" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_INTELLIGENCE">
+	<element name="InteligÃªncia" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Sua habilidade de conjuração para as magias deste talento é Inteligência.</p>
+			<p>Sua habilidade de conjuraÃ§Ã£o para as magias deste talento Ã© InteligÃªncia.</p>
 		</description>
-		<sheet alt="Iniciado em Magia (Clérigo)">
-			<description>Você pode conjurar a magia de nível 1 escolhida sem um espaço de magia. Também pode usar seus espaços de magia. Sua habilidade é Inteligência. &#13; A cada novo nível, você pode trocar uma das magias deste talento.</description>
+		<sheet alt="Iniciado em Magia (ClÃ©rigo)">
+			<description>VocÃª pode conjurar a magia de nÃ­vel 1 escolhida sem um espaÃ§o de magia. TambÃ©m pode usar seus espaÃ§os de magia. Sua habilidade Ã© InteligÃªncia. &#13; A cada novo nÃ­vel, vocÃª pode trocar uma das magias deste talento.</description>
 		</sheet>
 	</element>
-	<element name="Sabedoria" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_WISDOM">
+	<element name="Sabedoria" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Sua habilidade de conjuração para as magias deste talento é Sabedoria.</p>
+			<p>Sua habilidade de conjuraÃ§Ã£o para as magias deste talento Ã© Sabedoria.</p>
 		</description>
-		<sheet alt="Iniciado em Magia (Clérigo)">
-			<description>Você pode conjurar a magia de nível 1 escolhida sem um espaço de magia. Também pode usar seus espaços de magia. Sua habilidade é Sabedoria. &#13; A cada novo nível, você pode trocar uma das magias deste talento.</description>
+		<sheet alt="Iniciado em Magia (ClÃ©rigo)">
+			<description>VocÃª pode conjurar a magia de nÃ­vel 1 escolhida sem um espaÃ§o de magia. TambÃ©m pode usar seus espaÃ§os de magia. Sua habilidade Ã© Sabedoria. &#13; A cada novo nÃ­vel, vocÃª pode trocar uma das magias deste talento.</description>
 		</sheet>
 	</element>
-	<element name="Carisma" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_CHARISMA">
+	<element name="Carisma" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Sua habilidade de conjuração para as magias deste talento é Carisma.</p>
+			<p>Sua habilidade de conjuraÃ§Ã£o para as magias deste talento Ã© Carisma.</p>
 		</description>
-		<sheet alt="Iniciado em Magia (Clérigo)">
-			<description>Você pode conjurar a magia de nível 1 escolhida sem um espaço de magia. Também pode usar seus espaços de magia. Sua habilidade é Carisma. &#13; A cada novo nível, você pode trocar uma das magias deste talento.</description>
+		<sheet alt="Iniciado em Magia (ClÃ©rigo)">
+			<description>VocÃª pode conjurar a magia de nÃ­vel 1 escolhida sem um espaÃ§o de magia. TambÃ©m pode usar seus espaÃ§os de magia. Sua habilidade Ã© Carisma. &#13; A cada novo nÃ­vel, vocÃª pode trocar uma das magias deste talento.</description>
 		</sheet>
 	</element>
-	<element name="Druida" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID">
+	<element name="Druida" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID">
 		<compendium display="false" />
 		<description>
-			<p>Você aprende dois truques à sua escolha da lista de magias do Druida.</p>
-			<p class="indent">Regras idênticas ao talento base.</p>
+			<p>VocÃª aprende dois truques Ã  sua escolha da lista de magias do Druida.</p>
+			<p class="indent">Regras idÃªnticas ao talento base.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Habilidade de Conjuração (Iniciado em Magia)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_CHARISMA" />
+			<select type="Feat Feature" name="Habilidade de ConjuraÃ§Ã£o (Iniciado em Magia)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_CHARISMA" />
 			<select type="Spell" name="Truque (Iniciado em Magia)" supports="0,Druid" number="2" />
-			<select type="Spell" name="Magia Nível 1 (Iniciado em Magia)" supports="1,Druid" />
+			<select type="Spell" name="Magia NÃ­vel 1 (Iniciado em Magia)" supports="1,Druid" />
 		</rules>
 	</element>
-	<element name="Inteligência" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_INTELLIGENCE">
+	<element name="InteligÃªncia" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Sua habilidade é Inteligência.</p>
+			<p>Sua habilidade Ã© InteligÃªncia.</p>
 		</description>
 		<sheet alt="Iniciado em Magia (Druida)">
-			<description>Você pode conjurar a magia de nível 1 escolhida sem um espaço de magia. Também pode usar seus espaços de magia. Sua habilidade é Inteligência.</description>
+			<description>VocÃª pode conjurar a magia de nÃ­vel 1 escolhida sem um espaÃ§o de magia. TambÃ©m pode usar seus espaÃ§os de magia. Sua habilidade Ã© InteligÃªncia.</description>
 		</sheet>
 	</element>
-	<element name="Sabedoria" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_WISDOM">
+	<element name="Sabedoria" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Sua habilidade é Sabedoria.</p>
+			<p>Sua habilidade Ã© Sabedoria.</p>
 		</description>
 		<sheet alt="Iniciado em Magia (Druida)">
-			<description>Você pode conjurar a magia de nível 1 escolhida sem um espaço de magia. Também pode usar seus espaços de magia. Sua habilidade é Sabedoria.</description>
+			<description>VocÃª pode conjurar a magia de nÃ­vel 1 escolhida sem um espaÃ§o de magia. TambÃ©m pode usar seus espaÃ§os de magia. Sua habilidade Ã© Sabedoria.</description>
 		</sheet>
 	</element>
-	<element name="Carisma" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_CHARISMA">
+	<element name="Carisma" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Sua habilidade é Carisma.</p>
+			<p>Sua habilidade Ã© Carisma.</p>
 		</description>
 		<sheet alt="Iniciado em Magia (Druida)">
-			<description>Você pode conjurar a magia de nível 1 escolhida sem um espaço de magia. Também pode usar seus espaços de magia. Sua habilidade é Carisma.</description>
+			<description>VocÃª pode conjurar a magia de nÃ­vel 1 escolhida sem um espaÃ§o de magia. TambÃ©m pode usar seus espaÃ§os de magia. Sua habilidade Ã© Carisma.</description>
 		</sheet>
 	</element>
-	<element name="Mago" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD">
+	<element name="Mago" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD">
 		<compendium display="false" />
 		<description>
-			<p>Você aprende dois truques à sua escolha da lista de magias do Mago.</p>
+			<p>VocÃª aprende dois truques Ã  sua escolha da lista de magias do Mago.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Habilidade de Conjuração (Iniciado em Magia)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_CHARISMA" />
+			<select type="Feat Feature" name="Habilidade de ConjuraÃ§Ã£o (Iniciado em Magia)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_CHARISMA" />
 			<select type="Spell" name="Truque (Iniciado em Magia)" supports="0,Wizard" number="2" />
-			<select type="Spell" name="Magia Nível 1 (Iniciado em Magia)" supports="1,Wizard" />
+			<select type="Spell" name="Magia NÃ­vel 1 (Iniciado em Magia)" supports="1,Wizard" />
 		</rules>
 	</element>
-	<element name="Inteligência" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_INTELLIGENCE">
+	<element name="InteligÃªncia" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Sua habilidade é Inteligência.</p>
+			<p>Sua habilidade Ã© InteligÃªncia.</p>
 		</description>
 		<sheet alt="Iniciado em Magia (Mago)">
-			<description>Você pode conjurar a magia de nível 1 escolhida sem um espaço de magia. Também pode usar seus espaços de magia. Sua habilidade é Inteligência.</description>
+			<description>VocÃª pode conjurar a magia de nÃ­vel 1 escolhida sem um espaÃ§o de magia. TambÃ©m pode usar seus espaÃ§os de magia. Sua habilidade Ã© InteligÃªncia.</description>
 		</sheet>
 	</element>
-	<element name="Sabedoria" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_WISDOM">
+	<element name="Sabedoria" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Sua habilidade é Sabedoria.</p>
+			<p>Sua habilidade Ã© Sabedoria.</p>
 		</description>
 		<sheet alt="Iniciado em Magia (Mago)">
-			<description>Você pode conjurar a magia de nível 1 escolhida sem um espaço de magia. Também pode usar seus espaços de magia. Sua habilidade é Sabedoria.</description>
+			<description>VocÃª pode conjurar a magia de nÃ­vel 1 escolhida sem um espaÃ§o de magia. TambÃ©m pode usar seus espaÃ§os de magia. Sua habilidade Ã© Sabedoria.</description>
 		</sheet>
 	</element>
-	<element name="Carisma" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_CHARISMA">
+	<element name="Carisma" type="Feat Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Sua habilidade é Carisma.</p>
+			<p>Sua habilidade Ã© Carisma.</p>
 		</description>
 		<sheet alt="Iniciado em Magia (Mago)">
-			<description>Você pode conjurar a magia de nível 1 escolhida sem um espaço de magia. Também pode usar seus espaços de magia. Sua habilidade é Carisma.</description>
+			<description>VocÃª pode conjurar a magia de nÃ­vel 1 escolhida sem um espaÃ§o de magia. TambÃ©m pode usar seus espaÃ§os de magia. Sua habilidade Ã© Carisma.</description>
 		</sheet>
 	</element>
-	<element name="Músico" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MUSICIAN">
+	<element name="MÃºsico" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MUSICIAN">
 		<supports>Origin</supports>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>Você ganha os seguintes benefícios.</p>
+			<p>VocÃª ganha os seguintes benefÃ­cios.</p>
 			<p class="indent">
 				<b>
 					<i>Treinamento com Instrumento.</i>
-				</b> Você ganha proficiência com três Instrumentos Musicais de sua escolha.
+				</b> VocÃª ganha proficiÃªncia com trÃªs Instrumentos Musicais de sua escolha.
 			</p>
 			<p class="indent">
 				<b>
-					<i>Canção Encorajadora.</i>
-				</b> Ao terminar um Descanso Curto ou Longo, você pode tocar uma música em um Instrumento Musical com o qual seja proficiente e dar Inspiração Heroica aos aliados que ouvirem a música. O número de aliados que você pode afetar é igual ao seu Bônus de Proficiência.
+					<i>CanÃ§Ã£o Encorajadora.</i>
+				</b> Ao terminar um Descanso Curto ou Longo, vocÃª pode tocar uma mÃºsica em um Instrumento Musical com o qual seja proficiente e dar InspiraÃ§Ã£o Heroica aos aliados que ouvirem a mÃºsica. O nÃºmero de aliados que vocÃª pode afetar Ã© igual ao seu BÃ´nus de ProficiÃªncia.
 			</p>
 		</description>
 		<sheet>
-			<description>Ao terminar um Descanso Curto ou Longo, você pode tocar uma canção em um Instrumento Musical no qual tenha proficiência e dar Inspiração Heroica para até {{proficiency}} aliados que a ouvirem.</description>
+			<description>Ao terminar um Descanso Curto ou Longo, vocÃª pode tocar uma canÃ§Ã£o em um Instrumento Musical no qual tenha proficiÃªncia e dar InspiraÃ§Ã£o Heroica para atÃ© {{proficiency}} aliados que a ouvirem.</description>
 		</sheet>
 		<rules>
-			<select type="Proficiency" name="Instrumento Musical (Músico)" supports="Musical Instrument" number="3" />
+			<select type="Proficiency" name="Instrumento Musical (MÃºsico)" supports="Musical Instrument" number="3" />
 		</rules>
 	</element>
-	<element name="Atacante Selvagem" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SAVAGE_ATTACKER">
+	<element name="Atacante Selvagem" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SAVAGE_ATTACKER">
 		<supports>Origin</supports>
 		<requirements>!ID_PHB_FEAT_SAVAGEATTACKER||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>Você treinou para causar golpes particularmente danosos. Uma vez por turno, ao acertar um alvo com uma arma, pode rolar os dados de dano da arma duas vezes e usar qualquer um dos resultados contra o alvo.</p>
+			<p>VocÃª treinou para causar golpes particularmente danosos. Uma vez por turno, ao acertar um alvo com uma arma, pode rolar os dados de dano da arma duas vezes e usar qualquer um dos resultados contra o alvo.</p>
 		</description>
 		<sheet usage="1/Turn">
 			<description>Ao acertar um alvo com uma arma, pode rolar os dados de dano duas vezes e usar qualquer um dos resultados.</description>
 		</sheet>
 	</element>
-	<element name="Perito" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SKILLED">
+	<element name="Perito" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SKILLED">
 		<supports>Origin</supports>
 		<requirements>!ID_PHB_FEAT_SKILLED||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>Você ganha proficiência em qualquer combinação de três perícias ou ferramentas à sua escolha.</p>
+			<p>VocÃª ganha proficiÃªncia em qualquer combinaÃ§Ã£o de trÃªs perÃ­cias ou ferramentas Ã  sua escolha.</p>
 			<p class="indent">
 				<b>
-					<i>Repetível.</i>
-				</b> Você pode pegar este talento mais de uma vez.
+					<i>RepetÃ­vel.</i>
+				</b> VocÃª pode pegar este talento mais de uma vez.
 			</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Proficiência em Perícia ou Ferramenta (Perito)" supports="Skill||Tool" number="3" />
+			<select type="Proficiency" name="ProficiÃªncia em PerÃ­cia ou Ferramenta (Perito)" supports="Skill||Tool" number="3" />
 		</rules>
 	</element>
-	<element name="Brigão de Taverna" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_TAVERN_BRAWLER">
+	<element name="BrigÃ£o de Taverna" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_TAVERN_BRAWLER">
 		<supports>Origin</supports>
 		<requirements>!ID_PHB_FEAT_TAVERNBRAWLER||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>Você ganha os seguintes benefícios.</p>
+			<p>VocÃª ganha os seguintes benefÃ­cios.</p>
 			<p class="indent">
 				<b>
 					<i>Ataque Desarmado Aprimorado.</i>
-				</b> Quando acertar seu Ataque Desarmado e causar dano, pode causar dano de Concussão igual a 1d4 mais seu modificador de Força em vez do dano normal.
+				</b> Quando acertar seu Ataque Desarmado e causar dano, pode causar dano de ConcussÃ£o igual a 1d4 mais seu modificador de ForÃ§a em vez do dano normal.
 			</p>
 			<p class="indent">
 				<b>
@@ -396,27 +396,27 @@
 			<p class="indent">
 				<b>
 					<i>Armamento Improvisado.</i>
-				</b> Você tem proficiência com armas improvisadas.
+				</b> VocÃª tem proficiÃªncia com armas improvisadas.
 			</p>
 			<p class="indent">
 				<b>
 					<i>Empurrar.</i>
-				</b> Quando atingir uma criatura com um Ataque Desarmado como parte da ação de Ataque, pode causar dano e empurrá-la 5 pés para longe. Uso restrito a uma vez por turno.
+				</b> Quando atingir uma criatura com um Ataque Desarmado como parte da aÃ§Ã£o de Ataque, pode causar dano e empurrÃ¡-la 5 pÃ©s para longe. Uso restrito a uma vez por turno.
 			</p>
 		</description>
 		<sheet>
-			<description>Você ganha os seguintes benefícios: &#13; • Ao acertar um Ataque Desarmado e causar dano, pode causar 1d4+{{strength:modifier}} de dano de Concussão e, uma vez por turno, pode empurrar o alvo 5 pés para longe. &#13; • Se rolar um 1 no dano do seu Ataque Desarmado, pode rerrolar, usando o novo resultado.</description>
+			<description>VocÃª ganha os seguintes benefÃ­cios: &#13; â€¢ Ao acertar um Ataque Desarmado e causar dano, pode causar 1d4+{{strength:modifier}} de dano de ConcussÃ£o e, uma vez por turno, pode empurrar o alvo 5 pÃ©s para longe. &#13; â€¢ Se rolar um 1 no dano do seu Ataque Desarmado, pode rerrolar, usando o novo resultado.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_ALE_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS" />
 		</rules>
 	</element>
-	<element name="Robusto" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_TOUGH">
+	<element name="Robusto" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_TOUGH">
 		<supports>Origin</supports>
 		<requirements>!ID_PHB_FEAT_TOUGH||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p class="flavor">Talento de Origem</p>
-			<p>O seu máximo de Pontos de Vida aumenta em um montante igual ao dobro do seu nível de personagem ao ganhar este talento. Sempre que ganhar um nível depois disso, seu máximo de Pontos de Vida aumenta em 2 PV adicionais.</p>
+			<p>O seu mÃ¡ximo de Pontos de Vida aumenta em um montante igual ao dobro do seu nÃ­vel de personagem ao ganhar este talento. Sempre que ganhar um nÃ­vel depois disso, seu mÃ¡ximo de Pontos de Vida aumenta em 2 PV adicionais.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

@@ -5,40 +5,40 @@
 		<description>A subclasse Trapaceiro Arcano do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="rogue-arcane-trickster.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/rogue-arcane-trickster.xml" />
+			<file name="rogue-arcane-trickster.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/rogue-arcane-trickster.xml" />
 		</update>
 	</info>
 
-	<element name="Trapaceiro Arcano" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_ARCANE_TRICKSTER">
+	<element name="Trapaceiro Arcano" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_ARCANE_TRICKSTER">
 		<supports>Rogue Subclass</supports>
 		<description>
 			<p class="flavor">Aprimore a Furtividade com Magias Arcanas</p>
-			<p>Alguns Ladinos melhoram suas habilidades já lapidadas de furtividade e agilidade com feitiços, aprendendo truques mágicos para ajudá-los na profissão. Alguns Trapaceiros Arcanos utilizam seus talentos como batedores de carteiras e arrombadores, enquanto outros são piadistas.</p>
+			<p>Alguns Ladinos melhoram suas habilidades jÃ¡ lapidadas de furtividade e agilidade com feitiÃ§os, aprendendo truques mÃ¡gicos para ajudÃ¡-los na profissÃ£o. Alguns Trapaceiros Arcanos utilizam seus talentos como batedores de carteiras e arrombadores, enquanto outros sÃ£o piadistas.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_SPELLCASTING" />
-			<h5>CONJURAÇÃO DO TRAPACEIRO ARCANO</h5>
+			<h5>CONJURAÃ‡ÃƒO DO TRAPACEIRO ARCANO</h5>
 			<table class="class-features">
 				<tr style="font-weight: bold">
-					<td class="col-20" rowspan="2">Nível de<br />Ladino</td>
+					<td class="col-20" rowspan="2">NÃ­vel de<br />Ladino</td>
 					<td class="col-20" rowspan="2">Magias<br />Preparadas</td>
-					<td colspan="4" style="vertical-align:bottom; border-bottom: 0px">Espaços de Magia por Nível de Magia</td>
+					<td colspan="4" style="vertical-align:bottom; border-bottom: 0px">EspaÃ§os de Magia por NÃ­vel de Magia</td>
 				</tr>
 				<tr style="font-weight: bold"><td>1</td><td>2</td><td>3</td><td>4</td></tr>
-				<tr><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>6</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>7</td><td>5</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>8</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>9</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>10</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>11</td><td>8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>12</td><td>8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>13</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>14</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>15</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>16</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
-				<tr><td>17</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
-				<tr><td>18</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>3</td><td>3</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>4</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>5</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>6</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>7</td><td>5</td><td>4</td><td>2</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>8</td><td>6</td><td>4</td><td>2</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>9</td><td>6</td><td>4</td><td>2</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>10</td><td>7</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>11</td><td>8</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>12</td><td>8</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>13</td><td>9</td><td>4</td><td>3</td><td>2</td><td>â€”</td></tr>
+				<tr><td>14</td><td>10</td><td>4</td><td>3</td><td>2</td><td>â€”</td></tr>
+				<tr><td>15</td><td>10</td><td>4</td><td>3</td><td>2</td><td>â€”</td></tr>
+				<tr><td>16</td><td>11</td><td>4</td><td>3</td><td>3</td><td>â€”</td></tr>
+				<tr><td>17</td><td>11</td><td>4</td><td>3</td><td>3</td><td>â€”</td></tr>
+				<tr><td>18</td><td>11</td><td>4</td><td>3</td><td>3</td><td>â€”</td></tr>
 				<tr><td>19</td><td>12</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
 				<tr><td>20</td><td>13</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
 			</table>
@@ -57,26 +57,26 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Conjuração" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_SPELLCASTING">
+	<element name="NÃ­vel 3: ConjuraÃ§Ã£o" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_SPELLCASTING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_SPELLCASTING</requirements>
 		<description>
-			<p>Você aprendeu a conjurar magias.</p>
-			<p class="indent"><em><strong>Truques.</strong></em> Você conhece três truques: <i>Mãos Mágicas</i> e mais dois outros truques da sua escolha da lista de magias de Mago. <i>Lasca Mental</i> e <i>Ilusão Menor</i> são recomendadas.</p>
-			<p class="indent">Sempre que você ganhar um nível de Ladino, pode substituir um dos seus truques, exceto <i>Mãos Mágicas</i>, por outro truque de Mago da sua escolha.</p>
-			<p class="indent">Quando atingir o nível 10 de Ladino, você aprende outro truque de Mago de sua escolha.</p>
-			<p class="indent"><em><strong>Espaços de Magia.</strong></em> A tabela Conjuração do Trapaceiro Arcano mostra quantos espaços de magia você possui para conjurar magias de nível 1+. Você recupera todos os espaços gastos ao terminar um Descanso Longo.</p>
-			<p class="indent"><em><strong>Magias Preparadas de Nível 1+.</strong></em> Você prepara a lista de magias de nível 1+ disponíveis para você conjurar com esta característica. Para começar, escolha três magias de Mago de nível 1. <i>Enfeitiçar Pessoa</i>, <i>Disfarçar-se</i> e <i>Névoa Obscurecente</i> são recomendadas.</p>
-			<p class="indent">O número de magias em sua lista aumenta conforme você ganha níveis de Ladino, como mostrado na coluna Magias Preparadas da tabela. Sempre que o número aumentar, escolha magias adicionais de Mago até o número na lista equivaler ao da tabela. As magias escolhidas devem ser de um nível que você possua espaços. Por exemplo, se for Ladino nível 7, a sua lista pode ter cinco magias de nível 1 ou 2 em qualquer combinação.</p>
-			<p class="indent"><em><strong>Alterando Magias Preparadas.</strong></em> Sempre que você ganha um nível de Ladino, pode substituir uma magia na sua lista por outra de Mago que você possua espaço para conjurar.</p>
-			<p class="indent"><em><strong>Habilidade de Conjuração.</strong></em> Inteligência é a sua habilidade de conjuração para suas magias de Mago.</p>
-			<p class="indent"><em><strong>Foco de Conjuração.</strong></em> Você pode usar um Foco Arcano como seu Foco de Conjuração para suas magias de Mago.</p>
+			<p>VocÃª aprendeu a conjurar magias.</p>
+			<p class="indent"><em><strong>Truques.</strong></em> VocÃª conhece trÃªs truques: <i>MÃ£os MÃ¡gicas</i> e mais dois outros truques da sua escolha da lista de magias de Mago. <i>Lasca Mental</i> e <i>IlusÃ£o Menor</i> sÃ£o recomendadas.</p>
+			<p class="indent">Sempre que vocÃª ganhar um nÃ­vel de Ladino, pode substituir um dos seus truques, exceto <i>MÃ£os MÃ¡gicas</i>, por outro truque de Mago da sua escolha.</p>
+			<p class="indent">Quando atingir o nÃ­vel 10 de Ladino, vocÃª aprende outro truque de Mago de sua escolha.</p>
+			<p class="indent"><em><strong>EspaÃ§os de Magia.</strong></em> A tabela ConjuraÃ§Ã£o do Trapaceiro Arcano mostra quantos espaÃ§os de magia vocÃª possui para conjurar magias de nÃ­vel 1+. VocÃª recupera todos os espaÃ§os gastos ao terminar um Descanso Longo.</p>
+			<p class="indent"><em><strong>Magias Preparadas de NÃ­vel 1+.</strong></em> VocÃª prepara a lista de magias de nÃ­vel 1+ disponÃ­veis para vocÃª conjurar com esta caracterÃ­stica. Para comeÃ§ar, escolha trÃªs magias de Mago de nÃ­vel 1. <i>EnfeitiÃ§ar Pessoa</i>, <i>DisfarÃ§ar-se</i> e <i>NÃ©voa Obscurecente</i> sÃ£o recomendadas.</p>
+			<p class="indent">O nÃºmero de magias em sua lista aumenta conforme vocÃª ganha nÃ­veis de Ladino, como mostrado na coluna Magias Preparadas da tabela. Sempre que o nÃºmero aumentar, escolha magias adicionais de Mago atÃ© o nÃºmero na lista equivaler ao da tabela. As magias escolhidas devem ser de um nÃ­vel que vocÃª possua espaÃ§os. Por exemplo, se for Ladino nÃ­vel 7, a sua lista pode ter cinco magias de nÃ­vel 1 ou 2 em qualquer combinaÃ§Ã£o.</p>
+			<p class="indent"><em><strong>Alterando Magias Preparadas.</strong></em> Sempre que vocÃª ganha um nÃ­vel de Ladino, pode substituir uma magia na sua lista por outra de Mago que vocÃª possua espaÃ§o para conjurar.</p>
+			<p class="indent"><em><strong>Habilidade de ConjuraÃ§Ã£o.</strong></em> InteligÃªncia Ã© a sua habilidade de conjuraÃ§Ã£o para suas magias de Mago.</p>
+			<p class="indent"><em><strong>Foco de ConjuraÃ§Ã£o.</strong></em> VocÃª pode usar um Foco Arcano como seu Foco de ConjuraÃ§Ã£o para suas magias de Mago.</p>
 			<center>
-				<p><strong>CD de salvamento de Magia</strong> = 8 + seu bônus de proficiência + seu modificador de Inteligência</p>
-				<p><strong>Modificador de ataque de Magia</strong> = seu bônus de proficiência + seu modificador de Inteligência</p>
+				<p><strong>CD de salvamento de Magia</strong> = 8 + seu bÃ´nus de proficiÃªncia + seu modificador de InteligÃªncia</p>
+				<p><strong>Modificador de ataque de Magia</strong> = seu bÃ´nus de proficiÃªncia + seu modificador de InteligÃªncia</p>
 			</center>
 		</description>
-		<sheet alt="Conjuração">
-			<description>Sempre que ganhar um nível de Ladino, você pode substituir um dos seus truques por outro truque de Mago à sua escolha.</description>
+		<sheet alt="ConjuraÃ§Ã£o">
+			<description>Sempre que ganhar um nÃ­vel de Ladino, vocÃª pode substituir um dos seus truques por outro truque de Mago Ã  sua escolha.</description>
 		</sheet>
 		<spellcasting name="Arcane Trickster" ability="Intelligence" allowReplace="true">
 			<list>Wizard</list>
@@ -110,45 +110,45 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Prestidigitação com Mãos Mágicas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN">
+	<element name="NÃ­vel 3: PrestidigitaÃ§Ã£o com MÃ£os MÃ¡gicas" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN</requirements>
 		<description>
-			<p>Quando conjurar <i>Mãos Mágicas</i>, você pode conjurar como uma Ação Bônus e pode tornar a mão espectral Invisível. Você pode controlar a mão como uma Ação Bônus e através dela pode fazer testes de Destreza (Prestidigitação).</p>
+			<p>Quando conjurar <i>MÃ£os MÃ¡gicas</i>, vocÃª pode conjurar como uma AÃ§Ã£o BÃ´nus e pode tornar a mÃ£o espectral InvisÃ­vel. VocÃª pode controlar a mÃ£o como uma AÃ§Ã£o BÃ´nus e atravÃ©s dela pode fazer testes de Destreza (PrestidigitaÃ§Ã£o).</p>
 		</description>
-		<sheet alt="Prestidigitação com Mãos Mágicas">
-			<description>Você pode conjurar e controlar as Mãos Mágicas como Ação Bônus, e pode tornar a mão espectral Invisível. Você pode fazer testes de Destreza (Prestidigitação) com ela.</description>
+		<sheet alt="PrestidigitaÃ§Ã£o com MÃ£os MÃ¡gicas">
+			<description>VocÃª pode conjurar e controlar as MÃ£os MÃ¡gicas como AÃ§Ã£o BÃ´nus, e pode tornar a mÃ£o espectral InvisÃ­vel. VocÃª pode fazer testes de Destreza (PrestidigitaÃ§Ã£o) com ela.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 9: Emboscada Mágica" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_MAGICAL_AMBUSH">
+	<element name="NÃ­vel 9: Emboscada MÃ¡gica" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_MAGICAL_AMBUSH">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_MAGICAL_AMBUSH</requirements>
 		<description>
-			<p>Se você tiver a condição Invisível ao conjurar uma magia em uma criatura, ela terá Desvantagem em qualquer teste de resistência feito contra a magia no mesmo turno.</p>
+			<p>Se vocÃª tiver a condiÃ§Ã£o InvisÃ­vel ao conjurar uma magia em uma criatura, ela terÃ¡ Desvantagem em qualquer teste de resistÃªncia feito contra a magia no mesmo turno.</p>
 		</description>
-		<sheet alt="Emboscada Mágica">
-			<description>Quando você estiver Invisível e conjurar uma magia contra uma criatura, ela sofre Desvantagem em qualquer teste de resistência contra a magia no mesmo turno.</description>
+		<sheet alt="Emboscada MÃ¡gica">
+			<description>Quando vocÃª estiver InvisÃ­vel e conjurar uma magia contra uma criatura, ela sofre Desvantagem em qualquer teste de resistÃªncia contra a magia no mesmo turno.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 13: Trapaceiro Versátil" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER">
+	<element name="NÃ­vel 13: Trapaceiro VersÃ¡til" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER</requirements>
 		<description>
-			<p>Você ganha a habilidade de distrair os alvos com a sua Mão Mágica. Quando utilizar a opção Derrubar do seu Ataque Astuto em uma criatura, pode também utilizar essa mesma opção noutra criatura num raio de 1,5 metro da mão espectral.</p>
+			<p>VocÃª ganha a habilidade de distrair os alvos com a sua MÃ£o MÃ¡gica. Quando utilizar a opÃ§Ã£o Derrubar do seu Ataque Astuto em uma criatura, pode tambÃ©m utilizar essa mesma opÃ§Ã£o noutra criatura num raio de 1,5 metro da mÃ£o espectral.</p>
 		</description>
-		<sheet alt="Trapaceiro Versátil">
-			<description>Ao usar a opção Derrubar do Ataque Astuto em uma criatura, você pode aplicar a mesma opção a outra criatura a até 1,5m da sua Mão Mágica.</description>
+		<sheet alt="Trapaceiro VersÃ¡til">
+			<description>Ao usar a opÃ§Ã£o Derrubar do Ataque Astuto em uma criatura, vocÃª pode aplicar a mesma opÃ§Ã£o a outra criatura a atÃ© 1,5m da sua MÃ£o MÃ¡gica.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 17: Ladrão de Magias" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_SPELL_THIEF">
+	<element name="NÃ­vel 17: LadrÃ£o de Magias" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_SPELL_THIEF">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_SPELL_THIEF</requirements>
 		<description>
-			<p>Você ganha a habilidade de magicamente roubar o conhecimento sobre como conjurar a magia de outro conjurador.</p>
-			<p class="indent">Imediatamente após uma criatura conjurar uma magia cujo alvo seja você ou que o inclua na área de efeito, você pode usar uma Reação para forçar a criatura a fazer um teste de resistência de Inteligência. A CD é igual a sua CD de salvamento de magia. Numa falha, você nega os efeitos da magia em você e rouba o conhecimento da magia caso ela seja de pelo menos nível 1 e de um nível que você consiga conjurar (não precisa ser uma magia de Mago). Pelas próximas 8 horas, você tem essa magia preparada. A criatura não poderá conjurá-la de novo até as 8 horas terem passado.</p>
-			<p class="indent">Após roubar uma magia dessa forma, não pode usar esta característica novamente até terminar um Descanso Longo.</p>
+			<p>VocÃª ganha a habilidade de magicamente roubar o conhecimento sobre como conjurar a magia de outro conjurador.</p>
+			<p class="indent">Imediatamente apÃ³s uma criatura conjurar uma magia cujo alvo seja vocÃª ou que o inclua na Ã¡rea de efeito, vocÃª pode usar uma ReaÃ§Ã£o para forÃ§ar a criatura a fazer um teste de resistÃªncia de InteligÃªncia. A CD Ã© igual a sua CD de salvamento de magia. Numa falha, vocÃª nega os efeitos da magia em vocÃª e rouba o conhecimento da magia caso ela seja de pelo menos nÃ­vel 1 e de um nÃ­vel que vocÃª consiga conjurar (nÃ£o precisa ser uma magia de Mago). Pelas prÃ³ximas 8 horas, vocÃª tem essa magia preparada. A criatura nÃ£o poderÃ¡ conjurÃ¡-la de novo atÃ© as 8 horas terem passado.</p>
+			<p class="indent">ApÃ³s roubar uma magia dessa forma, nÃ£o pode usar esta caracterÃ­stica novamente atÃ© terminar um Descanso Longo.</p>
 		</description>
-		<sheet alt="Ladrão de Magias" action="Reação" usage="1/Descanso Longo">
-			<description>Logo após alguém conjurar uma magia cujo alvo ou a área de efeito inclua você, você pode forçar a criatura a fazer um teste de resistência de Inteligência CD {{arcane trickster:spellcasting:dc}}. Numa falha, você anula o efeito em você e aprende a magia (se for Nível 1+ e de nível que possa conjurar). Pelas próximas 8h, você tem ela preparada, e a criatura não pode conjurá-la de novo até as 8h acabarem.</description>
+		<sheet alt="LadrÃ£o de Magias" action="ReaÃ§Ã£o" usage="1/Descanso Longo">
+			<description>Logo apÃ³s alguÃ©m conjurar uma magia cujo alvo ou a Ã¡rea de efeito inclua vocÃª, vocÃª pode forÃ§ar a criatura a fazer um teste de resistÃªncia de InteligÃªncia CD {{arcane trickster:spellcasting:dc}}. Numa falha, vocÃª anula o efeito em vocÃª e aprende a magia (se for NÃ­vel 1+ e de nÃ­vel que possa conjurar). Pelas prÃ³ximas 8h, vocÃª tem ela preparada, e a criatura nÃ£o pode conjurÃ¡-la de novo atÃ© as 8h acabarem.</description>
 		</sheet>
 	</element>
 

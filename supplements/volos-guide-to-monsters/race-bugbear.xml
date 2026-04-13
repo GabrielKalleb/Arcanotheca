@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Bugbear</name>
-		<description>The monstrous-adventurers from Volo’s Guide to Monsters.</description>
+		<description>The monstrous-adventurers from Voloâ€™s Guide to Monsters.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="race-bugbear.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/volos-guide-to-monsters/race-bugbear.xml" />
+			<file name="race-bugbear.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/volos-guide-to-monsters/race-bugbear.xml" />
 		</update>
 	</info>
 
-	<element name="Bugbear" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_BUGBEAR">
+	<element name="Bugbear" type="Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACE_BUGBEAR">
 		<description>
 			<p class="flavor">In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. This section is aimed at those who wish to expand the race selections for their campaigns beyond the typical folk of D&amp;D.</p>
 			<h4>BUGBEAR TRAITS</h4>
@@ -53,7 +53,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_BUGBEAR_SURPRISE_ATTACK" />
 		</rules>
 	</element>
-	<element name="Long-Limbed" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_BUGBEAR_LONG_LIMBED">
+	<element name="Long-Limbed" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_BUGBEAR_LONG_LIMBED">
 		<description>
 			<p>When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</p>
 		</description>
@@ -61,7 +61,7 @@
 			<description>When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</description>
 		</sheet>
 	</element>
-	<element name="Powerful Build" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_BUGBEAR_POWERFUL_BUILD">
+	<element name="Powerful Build" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_BUGBEAR_POWERFUL_BUILD">
 		<description>
 			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
 		</description>
@@ -72,7 +72,7 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
 		</rules>
 	</element>
-	<element name="Sneaky" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_BUGBEAR_SNEAKY">
+	<element name="Sneaky" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_BUGBEAR_SNEAKY">
 		<description>
 			<p>You are proficient in the Stealth skill.</p>
 		</description>
@@ -84,7 +84,7 @@
 			<select type="Proficiency" name="Customized Skill Proficiency, Sneaky" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
-	<element name="Surprise Attack" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_BUGBEAR_SURPRISE_ATTACK">
+	<element name="Surprise Attack" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_BUGBEAR_SURPRISE_ATTACK">
 		<description>
 			<p>If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.</p>
 		</description>

@@ -5,18 +5,18 @@
 		<description></description>
 		<author url="https://dnd.wizards.com/products/spelljammer">Astral Adventurer's Guide</author>
 		<update version="0.0.2">
-			<file name="background-astral-drifter.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/astral-adventurers-guide/backgrounds/background-astral-drifter.xml" />
+			<file name="background-astral-drifter.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/astral-adventurers-guide/backgrounds/background-astral-drifter.xml" />
 		</update>
 	</info>
 
 	<element name="Astral Drifter" type="Background" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_BACKGROUND_ASTRAL_DRIFTER">
 		<description>
 			<p>For longer than you can remember, you have traversed the Astral Sea. There, you experienced first hand the wonders of the Silver Void: you stopped aging and no longer felt hunger or thirst. Driven by wanderlust, you drifted from one part of the Astral Sea to another, like a mote of dust on the wind. You have lost count of the decades that have passed since you arrived here.</p>			
-			<p class="indent">In your travels, you have camped on the petrified hulks of dead gods and narrowly escaped the psychic winds that sweep across the Astral Sea while also avoiding prolonged contact with the plane’s most dangerous denizens.</p>			
+			<p class="indent">In your travels, you have camped on the petrified hulks of dead gods and narrowly escaped the psychic winds that sweep across the Astral Sea while also avoiding prolonged contact with the planeâ€™s most dangerous denizens.</p>			
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Insight, Religion</li>
 				<li><strong>Languages:</strong> Two of your choice (Celestial or Gith recommended)</li>
-				<li><strong>Equipment:</strong> A set of traveler’s clothes, a diary, an ink pen, a bottle of ink, and a pouch containing 10 gp</li>
+				<li><strong>Equipment:</strong> A set of travelerâ€™s clothes, a diary, an ink pen, a bottle of ink, and a pouch containing 10 gp</li>
 			</ul>
 			<h3>Longevity</h3>
 			<p>You are 20d6 years older than you look, because you have spent that much time in the Astral Sea without aging.</p>			
@@ -40,7 +40,7 @@
 	<element name="Feature: Divine Contact" type="Background Feature" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_BACKGROUND_FEATURE_ASTRAL_DRIFTER_DIVINE_CONTACT">
 		<supports>Background Feature</supports>
 		<description>
-			<p>You gain the Magic Initiate feat from the <i>Player’s Handbook</i> and must choose cleric for the feat.</p>
+			<p>You gain the Magic Initiate feat from the <i>Playerâ€™s Handbook</i> and must choose cleric for the feat.</p>
 			<p>In the Astral Sea, you crossed paths with a wandering deity. The encounter was brief and nonviolent, yet it made a lasting impression on you. This deity saw fit to share one secret or obscure bit of cosmic lore with you. Work with your DM to determine the details of this knowledge and its impact on the campaign.</p>
 			<p>Roll on the Divine Contact table to determine which deity you encountered, or work with your DM to identify a more suitable choice.</p>
 			<h5>Longevity</h5>

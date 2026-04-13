@@ -2,16 +2,16 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Feats for Races</name>
-		<description>Today we're offering another batch of feats to playtest. This time, the feats are associated with the races in the <i>Player’s Handbook</i>.</description>
+		<description>Today we're offering another batch of feats to playtest. This time, the feats are associated with the races in the <i>Playerâ€™s Handbook</i>.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/feats-races">Wizards of the Coast</author>
 		<update version="0.0.6">
-			<file name="20170424.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2017/20170424.xml" />
+			<file name="20170424.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2017/20170424.xml" />
 		</update>
 	</info>
 
 	<element name="Unearthed Arcana: Feats for Races" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170424">
 		<description>
-			<p>Today we're offering another batch of feats to playtest. This time, the feats are associated with the races in the <i>Player’s Handbook</i>.</p>
+			<p>Today we're offering another batch of feats to playtest. This time, the feats are associated with the races in the <i>Playerâ€™s Handbook</i>.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">UA20170424</set>
@@ -32,7 +32,7 @@
             <ul>
                 <li>Increase your Constitution or Charisma score by 1, to a maximum of 20.</li>
                 <li>As a bonus action, you can cause small barbs to protrude all over your body or cause them to retract. At the start of each of your turns while the barbs are out, you deal 1d6 piercing damage to any creature grappling you or any creature grappled by you.</li>
-                <li>You gain proficiency in the Intimidation skill. If you’re already proficient in it, your proficiency bonus is doubled for any check you make with it.</li>
+                <li>You gain proficiency in the Intimidation skill. If youâ€™re already proficient in it, your proficiency bonus is doubled for any check you make with it.</li>
             </ul>
         </description>
         <sheet action="Bonus Action">
@@ -51,7 +51,7 @@
             <p><i>Prerequisite: Gnome (forest)</i></p>
             <p>Your friendship with animals mystically deepens. You gain the following benefits:</p>
             <ul>
-                <li>You gain proficiency in the Animal Handling skill. If you’re already proficient in it, your proficiency bonus is doubled for any check you make with it.</li>
+                <li>You gain proficiency in the Animal Handling skill. If youâ€™re already proficient in it, your proficiency bonus is doubled for any check you make with it.</li>
                 <li>You learn the <i>speak with animals</i> spell and can cast it at will, without expending a spell slot. You also learn the <i>animal friendship</i> spell, and you can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Intelligence is your spellcasting ability for these spells.</li>
             </ul>
         </description>
@@ -69,10 +69,10 @@
         <requirements>ID_RACE_DRAGONBORN||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
         <description>
             <p><i>Prerequisite: Dragonborn</i></p>
-            <p>You sprout draconic wings. With your wings, you have a flying speed of 20 feet if you aren’t wearing heavy armor and aren’t exceeding your carrying capacity.</p>
+            <p>You sprout draconic wings. With your wings, you have a flying speed of 20 feet if you arenâ€™t wearing heavy armor and arenâ€™t exceeding your carrying capacity.</p>
         </description>
         <sheet>
-            <description>With your wings, you have a flying speed of 20 feet if you aren’t wearing heavy armor and aren’t exceeding your carrying capacity.</description>
+            <description>With your wings, you have a flying speed of 20 feet if you arenâ€™t wearing heavy armor and arenâ€™t exceeding your carrying capacity.</description>
         </sheet>
         <rules>
 			<stat name="speed:fly" value="20" bonus="base" equipped="![armor:heavy]" />
@@ -87,7 +87,7 @@
             <p>You develop your magnetic personality to ease your way through the world. You gain the following benefits:</p>
             <ul>
                 <li>Increase your Charisma score by 1, to a maximum of 20.</li>
-                <li>You gain proficiency in the Deception and Persuasion skills. If you’re already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</li>
+                <li>You gain proficiency in the Deception and Persuasion skills. If youâ€™re already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</li>
             </ul>
         </description>
         <sheet display="false" />
@@ -108,11 +108,11 @@
                 <li>Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.</li>
                 <li>During the first round of any combat against your chosen foes, your attack rolls against any of them have advantage.</li>
                 <li>When any of your chosen foes makes an opportunity attack against you, it makes the attack roll with disadvantage.</li>
-                <li>Whenever you make an Intelligence (Arcana, History, Nature, or Religion) check to recall information about your chosen foes, you add double your proficiency bonus to the check, even if you’re not normally proficient.</li>
+                <li>Whenever you make an Intelligence (Arcana, History, Nature, or Religion) check to recall information about your chosen foes, you add double your proficiency bonus to the check, even if youâ€™re not normally proficient.</li>
             </ul>
         </description>
         <sheet>
-            <description>During the first round of any combat against your chosen foes, your attack rolls against any of them have advantage. When any of your chosen foes makes an opportunity attack against you, it makes the attack roll with disadvantage. And whenever you make an Intelligence (Arcana, History, Nature, or Religion) check to recall information about your chosen foes, you add double your proficiency bonus to the check, even if you’re not normally proficient.</description>
+            <description>During the first round of any combat against your chosen foes, your attack rolls against any of them have advantage. When any of your chosen foes makes an opportunity attack against you, it makes the attack roll with disadvantage. And whenever you make an Intelligence (Arcana, History, Nature, or Religion) check to recall information about your chosen foes, you add double your proficiency bonus to the check, even if youâ€™re not normally proficient.</description>
         </sheet>
         <rules>
             <select type="Ability Score Improvement" name="Grudge-Bearer" supports="ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_WISDOM" />
@@ -252,7 +252,7 @@
         <compendium display="false" />
         <supports>Monster Type</supports>
         <description>
-            <p>Humanoids are the main peoples of the D&amp;D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (golblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds. A variety of humanoids appear throughout this book, but the races detailed in the Player's Handbook- with the exception of drow-are dealt with in appendix B. That appendix gives you a number of stat blocks that you·can use to make various members of those races.</p>
+            <p>Humanoids are the main peoples of the D&amp;D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (golblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds. A variety of humanoids appear throughout this book, but the races detailed in the Player's Handbook- with the exception of drow-are dealt with in appendix B. That appendix gives you a number of stat blocks that youÂ·can use to make various members of those races.</p>
         </description>
         <sheet>
             <description></description>
@@ -267,11 +267,11 @@
             <p>You are filled with a determination that can draw the unreachable within your reach. You gain the following benefits:</p>
             <ul>
                 <li>Increase one ability score of your choice by 1, to a maximum of 20.</li>
-                <li>When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can’t use it again until you finish a short or long rest.</li>
+                <li>When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you canâ€™t use it again until you finish a short or long rest.</li>
             </ul>
         </description>
         <sheet>
-            <description>When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can’t use it again until you finish a short or long rest.</description>
+            <description>When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you canâ€™t use it again until you finish a short or long rest.</description>
         </sheet>
         <rules>
             <select type="Ability Score Improvement" name="Human Determination" supports="Feat" />
@@ -298,7 +298,7 @@
             <p>You master the tinker techniques of your people. You gain the following benefits:</p>
             <ul>
                 <li>Increase your Dexterity or Intelligence score by 1, to a maximum of 20.</li>
-                <li>When you make a check using your proficiency with tinker’s tools, you add double your proficiency bonus to the check.</li>
+                <li>When you make a check using your proficiency with tinkerâ€™s tools, you add double your proficiency bonus to the check.</li>
                 <li>When you make a device with your Tinker trait, you have the following additional options for what you make:</li>
             </ul>
             <p style="margin-left:20px;">
@@ -310,7 +310,7 @@
             </p>
         </description>
         <sheet>
-            <description>When you make a check using your proficiency with tinker’s tools, you add double your proficiency bonus to the check. When you make a device with your Tinker trait, you have the following additional options for what you make: Alarm, Calculator, Lifter, Timekeeper or Weather Sensor.</description>
+            <description>When you make a check using your proficiency with tinkerâ€™s tools, you add double your proficiency bonus to the check. When you make a device with your Tinker trait, you have the following additional options for what you make: Alarm, Calculator, Lifter, Timekeeper or Weather Sensor.</description>
         </sheet>
         <rules>
             <select type="Ability Score Improvement" name="Wonder Maker" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE" />

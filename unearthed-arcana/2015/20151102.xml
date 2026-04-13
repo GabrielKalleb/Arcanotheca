@@ -5,7 +5,7 @@
 		<description>Two new fighting styles for fighters, paladins, and rangers; the Deep Stalker ranger archetype; the shadow sorcerer; and the warlock pact of the Undying Light all offer exciting options for adventuring in the endless gloom of the Underdark.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/light-dark-underdark">Wizards of the Coast</author>
 		<update version="0.0.6">
-			<file name="20151102.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2015/20151102.xml" />
+			<file name="20151102.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2015/20151102.xml" />
 		</update>
 	</info>
 
@@ -65,7 +65,7 @@
 				<tr><td>2</td><td>You have a nervous compulsion to keep a bright light in even the barest shadow.</td></tr>
 				<tr><td>3</td><td>You have a compulsion to enter and illuminate dark areas.</td></tr>
 				<tr><td>4</td><td>You have an overwhelming hatred of undead creatures.</td></tr>
-				<tr><td>5</td><td>You fidget and are irritable when you can’t see the sun.</td></tr>
+				<tr><td>5</td><td>You fidget and are irritable when you canâ€™t see the sun.</td></tr>
 				<tr><td>6</td><td>In a dark area, you always carry a lit torch or lantern. Putting it down is an unbearable thought.</td></tr>
 			</table>
 			<div element="ID_WOTC_UA20151102_ARCHETYPE_FEATURE_UNDYING_LIGHT_EXPANDED_SPELL_LIST" />
@@ -116,7 +116,7 @@
 	</element>
 	<element name="Radiant Soul" type="Archetype Feature" source="Unearthed Arcana: Light, Dark, Underdark!" id="ID_WOTC_UA20151102_ARCHETYPE_FEATURE_UNDYING_LIGHT_RADIANT_SOUL">
 		<description>
-			<p>Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the sacred flame and light cantrips and can cast them at will. They don’t count against your number of cantrips known.</p>
+			<p>Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the sacred flame and light cantrips and can cast them at will. They donâ€™t count against your number of cantrips known.</p>
 		</description>
 		<sheet>
 			<description>When you cast a spell that deals radiant damage or fire damage, you add {{charisma:modifier}} to that damage.</description>
@@ -130,7 +130,7 @@
 	<element name="Searing Vengeance" type="Archetype Feature" source="Unearthed Arcana: Light, Dark, Underdark!" id="ID_WOTC_UA20151102_ARCHETYPE_FEATURE_UNDYING_LIGHT_SEARING_VENGEANCE">
 		<description>
 			<p>Starting at 6th level, the radiant energy you channel allows you to overcome grievous injuries. When you would make a death saving throw, you can instead spring back to your feet with a burst of radiant energy. You immediately stand up (if you so choose), and you regain hit points equal to half your hit point maximum. All hostile creatures within 30 feet of you take 10 + your Charisma modifier radiant damage and are blinded until the end of your turn.</p>
-			<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+			<p class="indent">Once you use this feature, you canâ€™t use it again until you finish a long rest.</p>
 		</description>
 		<sheet usage="1/Long Rest">
 			<description>When you would make a death saving throw, you can instead spring back to your feet with a burst of radiant energy. You immediately stand up (if you so choose), and you regain hps equal to half your hp maximum. All hostile creatures within 30 feet of you take {{ua:searing vengeance:damage}} radiant damage and are blinded until the end of your turn.</description>

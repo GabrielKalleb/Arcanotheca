@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Escrivão</name>
-		<description>Antecedente Escrivão do Livro do Jogador de 2024.</description>
+		<name>EscrivÃ£o</name>
+		<description>Antecedente EscrivÃ£o do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="background-scribe.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/background-scribe.xml" />
+			<file name="background-scribe.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/backgrounds/background-scribe.xml" />
 		</update>
 	</info>
 
-	<element name="Escrivão" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_SCRIBE">
+	<element name="EscrivÃ£o" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_SCRIBE">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> Destreza, Inteligência, Sabedoria</li>
+				<li><strong>Valores de Habilidade:</strong> Destreza, InteligÃªncia, Sabedoria</li>
 				<li><strong>Talento:</strong> Perito</li>
-				<li><strong>Proficiências em Perícias:</strong> Investigação e Percepção</li>
-				<li><strong>Proficiência em Ferramenta:</strong> Suprimentos de Calígrafo</li>
-				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Suprimentos de Calígrafo, Roupas Finas, Lâmpada, Óleo (3 frascos), Pergaminho (12 folhas), 23 PO; ou (B) 50 PO</li>
+				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> InvestigaÃ§Ã£o e PercepÃ§Ã£o</li>
+				<li><strong>ProficiÃªncia em Ferramenta:</strong> Suprimentos de CalÃ­grafo</li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Suprimentos de CalÃ­grafo, Roupas Finas, LÃ¢mpada, Ã“leo (3 frascos), Pergaminho (12 folhas), 23 PO; ou (B) 50 PO</li>
 			</ul>
-			<p>Você passou seus anos de formação em um scriptorium, um monastério dedicado à preservação do conhecimento, ou em uma agência governamental, onde aprendeu a escrever com uma caligrafia clara e produzir textos finamente redigidos. Talvez você tenha escrito documentos do governo ou copiado tomos de literatura. Você pode ter alguma habilidade como escritor de poesia, narrativa ou pesquisa acadêmica. Acima de tudo, você tem uma atenção cuidadosa aos detalhes, o que ajuda a evitar a introdução de erros nos documentos que copia e cria.</p>
+			<p>VocÃª passou seus anos de formaÃ§Ã£o em um scriptorium, um monastÃ©rio dedicado Ã  preservaÃ§Ã£o do conhecimento, ou em uma agÃªncia governamental, onde aprendeu a escrever com uma caligrafia clara e produzir textos finamente redigidos. Talvez vocÃª tenha escrito documentos do governo ou copiado tomos de literatura. VocÃª pode ter alguma habilidade como escritor de poesia, narrativa ou pesquisa acadÃªmica. Acima de tudo, vocÃª tem uma atenÃ§Ã£o cuidadosa aos detalhes, o que ajuda a evitar a introduÃ§Ã£o de erros nos documentos que copia e cria.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_SKILLED" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">Destreza, Inteligência, Sabedoria, Talento Perito, Perícias Investigação e Percepção, Suprimentos de Calígrafo</set>
+			<set name="short">Destreza, InteligÃªncia, Sabedoria, Talento Perito, PerÃ­cias InvestigaÃ§Ã£o e PercepÃ§Ã£o, Suprimentos de CalÃ­grafo</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_WIS" />

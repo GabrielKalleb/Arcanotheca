@@ -5,26 +5,26 @@
 		<description>O antecedente Fazendeiro do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="background-farmer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/background-farmer.xml" />
+			<file name="background-farmer.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/backgrounds/background-farmer.xml" />
 		</update>
 	</info>
 
-	<element name="Fazendeiro" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_FARMER">
+	<element name="Fazendeiro" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_FARMER">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> Força, Constituição, Sabedoria</li>
+				<li><strong>Valores de Habilidade:</strong> ForÃ§a, ConstituiÃ§Ã£o, Sabedoria</li>
 				<li><strong>Talento:</strong> Robusto</li>
-				<li><strong>Proficiências em Perícias:</strong> Adestrar Animais e Natureza</li>
-				<li><strong>Proficiência em Ferramenta:</strong> Ferramentas de Carpinteiro</li>
-				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Foice Curta, Ferramentas de Carpinteiro, Kit de Curandeiro, Panela de Ferro, Pá, Roupas de Viajante, 30 PO; ou (B) 50 PO</li>
+				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> Adestrar Animais e Natureza</li>
+				<li><strong>ProficiÃªncia em Ferramenta:</strong> Ferramentas de Carpinteiro</li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Foice Curta, Ferramentas de Carpinteiro, Kit de Curandeiro, Panela de Ferro, PÃ¡, Roupas de Viajante, 30 PO; ou (B) 50 PO</li>
 			</ul>
-			<p>Você cresceu perto da terra. Anos cuidando de animais e cultivando a terra o recompensaram com paciência e boa saúde. Você tem um profundo apreço pela generosidade da natureza, acompanhado de um respeito saudável pela ira da natureza.</p>
+			<p>VocÃª cresceu perto da terra. Anos cuidando de animais e cultivando a terra o recompensaram com paciÃªncia e boa saÃºde. VocÃª tem um profundo apreÃ§o pela generosidade da natureza, acompanhado de um respeito saudÃ¡vel pela ira da natureza.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_TOUGH" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">Força, Constituição, Sabedoria, Talento Robusto, Perícias Adestrar Animais e Natureza, Ferramentas de Carpinteiro</set>
+			<set name="short">ForÃ§a, ConstituiÃ§Ã£o, Sabedoria, Talento Robusto, PerÃ­cias Adestrar Animais e Natureza, Ferramentas de Carpinteiro</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_WIS" />

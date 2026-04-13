@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Juramento de Vingança</name>
-		<description>A subclasse Juramento de Vingança do Livro do Jogador de 2024.</description>
+		<name>Juramento de VinganÃ§a</name>
+		<description>A subclasse Juramento de VinganÃ§a do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="paladin-vengeance.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/paladin-vengeance.xml" />
+			<file name="paladin-vengeance.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/paladin-vengeance.xml" />
 		</update>
 	</info>
 
-	<element name="Juramento de Vingança" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_PALADIN_OATH_OF_VENGEANCE">
+	<element name="Juramento de VinganÃ§a" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_PALADIN_OATH_OF_VENGEANCE">
 		<supports>Paladin Subclass</supports>
 		<description>
 			<p class="flavor">Puna Malfeitores a Qualquer Custo</p>
-			<p>O Juramento de Vingança é um compromisso solene para punir aqueles que cometeram atos de extrema maldade. Quando exércitos do mal abatem aldeões indefesos, quando um tirano desafia a vontade dos deuses, quando uma guilda de ladrões se torna violenta demais, quando um dragão causa destruição pelo campo—em momentos assim, paladinos se erguem e prestam um Juramento de Vingança para consertar o que deu errado.</p>
-			<p class="indent">Estes paladinos compartilham os seguintes princípios:</p>
+			<p>O Juramento de VinganÃ§a Ã© um compromisso solene para punir aqueles que cometeram atos de extrema maldade. Quando exÃ©rcitos do mal abatem aldeÃµes indefesos, quando um tirano desafia a vontade dos deuses, quando uma guilda de ladrÃµes se torna violenta demais, quando um dragÃ£o causa destruiÃ§Ã£o pelo campoâ€”em momentos assim, paladinos se erguem e prestam um Juramento de VinganÃ§a para consertar o que deu errado.</p>
+			<p class="indent">Estes paladinos compartilham os seguintes princÃ­pios:</p>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
-				<li>Não mostre misericórdia aos perversos.</li>
-				<li>Lute contra a injustiça e suas causas.</li>
-				<li>Ajude aqueles prejudicados pela injustiça.</li>
+				<li>NÃ£o mostre misericÃ³rdia aos perversos.</li>
+				<li>Lute contra a injustiÃ§a e suas causas.</li>
+				<li>Ajude aqueles prejudicados pela injustiÃ§a.</li>
 			</ul>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_OATH_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_VOW_OF_ENMITY" />
@@ -36,20 +36,20 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Magias de Juramento" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_OATH_SPELLS">
+	<element name="NÃ­vel 3: Magias de Juramento" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_OATH_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_OATH_SPELLS</requirements>
 		<description>
-			<p>A magia de seu juramento garante que você sempre tenha certas magias prontas; quando você atinge um nível de Paladino especificado na tabela Magias do Juramento de Vingança, você a partir de então sempre tem as magias listadas preparadas.</p>
-			<h5>Magias do Juramento de Vingança</h5>
+			<p>A magia de seu juramento garante que vocÃª sempre tenha certas magias prontas; quando vocÃª atinge um nÃ­vel de Paladino especificado na tabela Magias do Juramento de VinganÃ§a, vocÃª a partir de entÃ£o sempre tem as magias listadas preparadas.</p>
+			<h5>Magias do Juramento de VinganÃ§a</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-25">Nível de Paladino</td><td class="left">Magias</td></tr>
+					<tr><td class="col-25">NÃ­vel de Paladino</td><td class="left">Magias</td></tr>
 				</thead>
-				<tr><td>3</td><td class="left"><em>Perdição, Marca do Caçador</em></td></tr>
+				<tr><td>3</td><td class="left"><em>PerdiÃ§Ã£o, Marca do CaÃ§ador</em></td></tr>
 				<tr><td>5</td><td class="left"><em>Imobilizar Pessoa, Passo Nebuloso</em></td></tr>
-				<tr><td>9</td><td class="left"><em>Velocidade, Proteção contra Energia</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Velocidade, ProteÃ§Ã£o contra Energia</em></td></tr>
 				<tr><td>13</td><td class="left"><em>Banimento, Porta Dimensional</em></td></tr>
-				<tr><td>17</td><td class="left"><em>Imobilizar Monstro, Vidência</em></td></tr>
+				<tr><td>17</td><td class="left"><em>Imobilizar Monstro, VidÃªncia</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -67,50 +67,50 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Voto de Inimizade" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_VOW_OF_ENMITY">
+	<element name="NÃ­vel 3: Voto de Inimizade" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_VOW_OF_ENMITY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_VOW_OF_ENMITY</requirements>
 		<description>
-			<p>Quando você realiza a ação de Ataque, pode gastar um uso de Canalizar Divindade para proferir um voto de inimizade contra uma criatura que você possa ver a até 9 metros (30 pés) de você. Você tem Vantagem nas jogadas de ataque contra a criatura por 1 minuto ou até usar esta característica novamente.</p>
-			<p class="indent">Se a criatura cair a 0 Pontos de Vida antes do final do voto, você pode transferir o voto para uma criatura diferente a até 9 metros (30 pés) de você (nenhuma ação necessária).</p>
+			<p>Quando vocÃª realiza a aÃ§Ã£o de Ataque, pode gastar um uso de Canalizar Divindade para proferir um voto de inimizade contra uma criatura que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) de vocÃª. VocÃª tem Vantagem nas jogadas de ataque contra a criatura por 1 minuto ou atÃ© usar esta caracterÃ­stica novamente.</p>
+			<p class="indent">Se a criatura cair a 0 Pontos de Vida antes do final do voto, vocÃª pode transferir o voto para uma criatura diferente a atÃ© 9 metros (30 pÃ©s) de vocÃª (nenhuma aÃ§Ã£o necessÃ¡ria).</p>
 		</description>
 		<sheet alt="Voto de Inimizade" usage="Canalizar Divindade">
-			<description>Quando toma a ação de Ataque, você jura inimizade contra uma criatura a até 9m. Você ganha Vantagem em ataques contra ela por 1 min. ou até usar novamente. Se ela cair a 0 PV, você pode transferir o voto para outra a até 9m.</description>
+			<description>Quando toma a aÃ§Ã£o de Ataque, vocÃª jura inimizade contra uma criatura a atÃ© 9m. VocÃª ganha Vantagem em ataques contra ela por 1 min. ou atÃ© usar novamente. Se ela cair a 0 PV, vocÃª pode transferir o voto para outra a atÃ© 9m.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 7: Vingador Implacável" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_RELENTLESS_AVENGER">
+	<element name="NÃ­vel 7: Vingador ImplacÃ¡vel" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_RELENTLESS_AVENGER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_RELENTLESS_AVENGER</requirements>
 		<description>
-			<p>Seu foco sobrenatural o ajuda a bloquear a retirada de um inimigo. Quando você atinge uma criatura com um Ataque de Oportunidade, você pode reduzir o Deslocamento da criatura para 0 até o final do turno atual. Você pode então se mover até a metade do seu Deslocamento como parte da mesma Reação. Este movimento não provoca Ataques de Oportunidade.</p>
+			<p>Seu foco sobrenatural o ajuda a bloquear a retirada de um inimigo. Quando vocÃª atinge uma criatura com um Ataque de Oportunidade, vocÃª pode reduzir o Deslocamento da criatura para 0 atÃ© o final do turno atual. VocÃª pode entÃ£o se mover atÃ© a metade do seu Deslocamento como parte da mesma ReaÃ§Ã£o. Este movimento nÃ£o provoca Ataques de Oportunidade.</p>
 		</description>
-		<sheet alt="Vingador Implacável">
-			<description>Quando atinge com Ataque de Oportunidade, você pode reduzir o Deslocamento do alvo para 0 até o fim do turno. Então, pode mover metade do seu Deslocamento na mesma Reação sem provocar Ataques de Oportunidade.</description>
+		<sheet alt="Vingador ImplacÃ¡vel">
+			<description>Quando atinge com Ataque de Oportunidade, vocÃª pode reduzir o Deslocamento do alvo para 0 atÃ© o fim do turno. EntÃ£o, pode mover metade do seu Deslocamento na mesma ReaÃ§Ã£o sem provocar Ataques de Oportunidade.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 15: Alma da Vingança" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_SOUL_OF_VENGEANCE">
+	<element name="NÃ­vel 15: Alma da VinganÃ§a" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_SOUL_OF_VENGEANCE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_SOUL_OF_VENGEANCE</requirements>
 		<description>
-			<p>Imediatamente após uma criatura sob o efeito do seu Voto de Inimizade acertar ou errar uma jogada de ataque, você pode usar uma Reação para fazer um ataque corpo a corpo contra aquela criatura se ela estiver no alcance.</p>
+			<p>Imediatamente apÃ³s uma criatura sob o efeito do seu Voto de Inimizade acertar ou errar uma jogada de ataque, vocÃª pode usar uma ReaÃ§Ã£o para fazer um ataque corpo a corpo contra aquela criatura se ela estiver no alcance.</p>
 		</description>
-		<sheet alt="Alma da Vingança" action="Reaction">
-			<description>Quando o alvo de seu Voto ataca, você pode fazer um ataque corpo a corpo nele se no alcance.</description>
+		<sheet alt="Alma da VinganÃ§a" action="Reaction">
+			<description>Quando o alvo de seu Voto ataca, vocÃª pode fazer um ataque corpo a corpo nele se no alcance.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 20: Anjo Vingador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_AVENGING_ANGEL">
+	<element name="NÃ­vel 20: Anjo Vingador" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_AVENGING_ANGEL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_AVENGING_ANGEL</requirements>
 		<description>
-			<p>Como uma Ação Bônus, você ganha os benefícios abaixo por 10 minutos ou até você terminá-los (nenhuma ação necessária). Uma vez que você usar esta característica, não poderá usá-la novamente até terminar um Descanso Longo. Você também pode restaurar o uso dela gastando um espaço de magia de 5º nível (nenhuma ação necessária).</p>
-			<p class="indent"><b><i>Voo.</i></b> Você brota asas espectrais em suas costas, tem um Deslocamento de Voo de 18 metros (60 pés) e pode pairar.</p>
-			<p class="indent"><b><i>Aura Assustadora.</i></b> Sempre que um inimigo começar o turno dele na sua Aura de Proteção, aquela criatura deve ser bem-sucedida num teste de resistência de Sabedoria ou ficará com a condição Amedrontado por 1 minuto ou até sofrer qualquer dano. Jogadas de ataque contra a criatura Amedrontada têm Vantagem.</p>
+			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª ganha os benefÃ­cios abaixo por 10 minutos ou atÃ© vocÃª terminÃ¡-los (nenhuma aÃ§Ã£o necessÃ¡ria). Uma vez que vocÃª usar esta caracterÃ­stica, nÃ£o poderÃ¡ usÃ¡-la novamente atÃ© terminar um Descanso Longo. VocÃª tambÃ©m pode restaurar o uso dela gastando um espaÃ§o de magia de 5Âº nÃ­vel (nenhuma aÃ§Ã£o necessÃ¡ria).</p>
+			<p class="indent"><b><i>Voo.</i></b> VocÃª brota asas espectrais em suas costas, tem um Deslocamento de Voo de 18 metros (60 pÃ©s) e pode pairar.</p>
+			<p class="indent"><b><i>Aura Assustadora.</i></b> Sempre que um inimigo comeÃ§ar o turno dele na sua Aura de ProteÃ§Ã£o, aquela criatura deve ser bem-sucedida num teste de resistÃªncia de Sabedoria ou ficarÃ¡ com a condiÃ§Ã£o Amedrontado por 1 minuto ou atÃ© sofrer qualquer dano. Jogadas de ataque contra a criatura Amedrontada tÃªm Vantagem.</p>
 		</description>
 		<sheet alt="Anjo Vingador" action="Bonus Action" usage="1/Descanso Longo">
-			<description>Por 10 minutos (ou até encerrar), você ganha: &#13;
-			• Asas espectrais com Voo 18m e pode pairar. &#13;
-			• Inimigo que inicie o turno em sua Aura de Proteção faz teste de Sabedoria CD {{paladin:spellcasting:dc}} ou fica Amedrontado (dura 1 min. ou até sofrer dano). &#13;
-			• Ataques contra a criatura Amedrontada por isso têm Vantagem. &#13;
-			Pode restaurar uso gastando espaço nível 5.</description>
+			<description>Por 10 minutos (ou atÃ© encerrar), vocÃª ganha: &#13;
+			â€¢ Asas espectrais com Voo 18m e pode pairar. &#13;
+			â€¢ Inimigo que inicie o turno em sua Aura de ProteÃ§Ã£o faz teste de Sabedoria CD {{paladin:spellcasting:dc}} ou fica Amedrontado (dura 1 min. ou atÃ© sofrer dano). &#13;
+			â€¢ Ataques contra a criatura Amedrontada por isso tÃªm Vantagem. &#13;
+			Pode restaurar uso gastando espaÃ§o nÃ­vel 5.</description>
 		</sheet>
 	</element>
 

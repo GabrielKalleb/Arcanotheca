@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Charlatão</name>
-		<description>Antecedente Charlatão do Livro do Jogador 2024.</description>
+		<name>CharlatÃ£o</name>
+		<description>Antecedente CharlatÃ£o do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="background-charlatan.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/background-charlatan.xml" />
+			<file name="background-charlatan.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/backgrounds/background-charlatan.xml" />
 		</update>
 	</info>
 
-	<element name="Charlatão" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_CHARLATAN">
+	<element name="CharlatÃ£o" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_CHARLATAN">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> Destreza, Constituição, Carisma</li>
+				<li><strong>Valores de Habilidade:</strong> Destreza, ConstituiÃ§Ã£o, Carisma</li>
 				<li><strong>Talento:</strong> Perito</li>
-				<li><strong>Proficiências em Perícias:</strong> Enganação e Prestidigitação</li>
-				<li><strong>Proficiência em Ferramenta:</strong> Kit de Falsificação</li>
-				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Kit de Falsificação, Fantasia, Roupas Finas, 15 PO; ou (B) 50 PO</li>
+				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> EnganaÃ§Ã£o e PrestidigitaÃ§Ã£o</li>
+				<li><strong>ProficiÃªncia em Ferramenta:</strong> Kit de FalsificaÃ§Ã£o</li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Kit de FalsificaÃ§Ã£o, Fantasia, Roupas Finas, 15 PO; ou (B) 50 PO</li>
 			</ul>
-			<p>Assim que você teve idade suficiente para pedir uma cerveja, logo tinha um banco favorito em todas as tavernas a menos de dezesseis quilômetros de onde nasceu. Ao viajar pelo circuito de casas públicas a bebedouros, você aprendeu a se aproveitar dos desafortunados que estavam no mercado por uma ou duas mentiras confortáveis — talvez uma poção falsa ou registros de ancestralidade forjados.</p>
+			<p>Assim que vocÃª teve idade suficiente para pedir uma cerveja, logo tinha um banco favorito em todas as tavernas a menos de dezesseis quilÃ´metros de onde nasceu. Ao viajar pelo circuito de casas pÃºblicas a bebedouros, vocÃª aprendeu a se aproveitar dos desafortunados que estavam no mercado por uma ou duas mentiras confortÃ¡veis â€” talvez uma poÃ§Ã£o falsa ou registros de ancestralidade forjados.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_SKILLED" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">Destreza, Constituição, Carisma, Talento Perito, Perícias Enganação e Prestidigitação, Kit de Falsificação</set>
+			<set name="short">Destreza, ConstituiÃ§Ã£o, Carisma, Talento Perito, PerÃ­cias EnganaÃ§Ã£o e PrestidigitaÃ§Ã£o, Kit de FalsificaÃ§Ã£o</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_CHA" />

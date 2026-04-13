@@ -3,13 +3,13 @@
 	<info>
 		<name>Triton from Monsters of the Multiverse</name>
 		<update version="0.0.2">
-			<file name="race-triton.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/monsters-of-the-multiverse/race-triton.xml" />
+			<file name="race-triton.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/monsters-of-the-multiverse/race-triton.xml" />
 		</update>
 	</info>
 
 	<element name="Triton" type="Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_TRITON">
 		<description>
-			<p>Originally from the Elemental Plane of Water, many tritons entered the Material Plane centuries ago in response to the growing threat of evil elementals. Those tritons spread across the worlds’ oceans, protecting the surface from terrors in the deep. Over time, triton have extended their stewardship over the sea floor to the ocean’s surface</p>
+			<p>Originally from the Elemental Plane of Water, many tritons entered the Material Plane centuries ago in response to the growing threat of evil elementals. Those tritons spread across the worldsâ€™ oceans, protecting the surface from terrors in the deep. Over time, triton have extended their stewardship over the sea floor to the oceanâ€™s surface</p>
 			<p class="indent">Tritons have webbed hands and feet, small fins on their calves, and coloration that favors blues and greens.</p>
 			<h4>TRITON TRAITS</h4>
 			<p>As a triton, you have the following racial traits.</p>
@@ -17,7 +17,7 @@
 			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
 			<p class="indent"><strong><em>Amphibious.</em></strong> You can breathe air and water.</p>
-			<p class="indent"><strong><em>Control Air and Water.</em></strong> You can cast <i>fog cloud</i> with this trait. Starting at 3rd level, you can cast the <i>gust of wind</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with it. Once you cast any of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent"><strong><em>Control Air and Water.</em></strong> You can cast <i>fog cloud</i> with this trait. Starting at 3rd level, you can cast the <i>gust of wind</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with it. Once you cast any of these spells with this trait, you canâ€™t cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
 			<p class="indent"><strong><em>Emissary of the Sea.</em></strong> You can communicate simple ideas to any Beast, Elemental, or Monstrosity that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>
@@ -54,7 +54,7 @@
 
 	<element name="Control Air and Water" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_CONTROL_AIR_AND_WATER">
 		<description>
-			<p>You can cast <i>fog cloud</i> with this trait. Starting at 3rd level, you can cast the <i>gust of wind</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with it. Once you cast any of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.</p>
+			<p>You can cast <i>fog cloud</i> with this trait. Starting at 3rd level, you can cast the <i>gust of wind</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with it. Once you cast any of these spells with this trait, you canâ€™t cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 		</description>
 		<sheet display="false" />

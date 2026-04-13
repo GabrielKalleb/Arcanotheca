@@ -2,18 +2,18 @@
 <elements>
 	<info>
 		<update version="0.0.3">
-			<file name="mark-of-finding.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-finding.xml" />
+			<file name="mark-of-finding.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-finding.xml" />
 		</update>
 	</info>
 	<element name="Mark of Finding" type="Race Variant" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACE_VARIANT_MARK_OF_FINDING">
 		<supports>Human</supports>
 		<description>
 			<p>The Mark of Finding sharpens the senses, guiding the hunter to prey. Alone among the dragonmarks, the Mark of Finding is carried by two races: humans and half-orcs. It first appeared in the Shadow Marches, where clan hunters used it to find their prey.</p>
-			<p>If your half-orc or human character has the Mark of Finding, the following traits replace the character’s racial traits in the Player’s Handbook, aside from age, alignment, size, and speed.</p>
+			<p>If your half-orc or human character has the Mark of Finding, the following traits replace the characterâ€™s racial traits in the Playerâ€™s Handbook, aside from age, alignment, size, and speed.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 2, and your Constitution score increases by 1.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
-			<p class="indent"><strong><em>Hunter’s Intuition.</em></strong> When you make a Wisdom (Perception) or Wisdom (Survival) check, you can roll a d4 and add the number rolled to the ability check.</p>
-			<p class="indent"><strong><em>Finder’s Magic.</em></strong> You can cast the hunter’s mark spell with this trait. Starting at 3rd level, you can also cast the locate object spell with it. Once you cast either spell with this trait, you can’t cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You canâ€™t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Hunterâ€™s Intuition.</em></strong> When you make a Wisdom (Perception) or Wisdom (Survival) check, you can roll a d4 and add the number rolled to the ability check.</p>
+			<p class="indent"><strong><em>Finderâ€™s Magic.</em></strong> You can cast the hunterâ€™s mark spell with this trait. Starting at 3rd level, you can also cast the locate object spell with it. Once you cast either spell with this trait, you canâ€™t cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Goblin.</p>
 			<p class="indent"><strong><em>Spells of the Mark.</em></strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Finding Spells table are added to the spell list of your spellcasting class.</p>
 			<p><strong>MARK OF FINDING SPELLS</strong></p>
@@ -44,7 +44,7 @@
 			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 		</rules>
 	</element>
-	<element name="Hunter’s Intuition" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_FINDING_HUNTERS_INTUITION">
+	<element name="Hunterâ€™s Intuition" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_FINDING_HUNTERS_INTUITION">
 		<description>
 			<p>When you make a Wisdom (Perception) or Wisdom (Survival) check, you can roll a d4 and add the number rolled to the ability check.</p>
 		</description>
@@ -52,13 +52,13 @@
 			<description>When you make a Perception or Survival check, you can roll a d4 and add the number rolled to the ability check.</description>
 		</sheet>
 	</element>
-	<element name="Finder’s Magic" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_FINDING_FINDERS_MAGIC">
+	<element name="Finderâ€™s Magic" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_FINDING_FINDERS_MAGIC">
 		<description>
-			<p>You can cast the hunter’s mark spell with this trait. Starting at 3rd level, you can also cast the locate object spell with it. Once you cast either spell with this trait, you can’t cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
+			<p>You can cast the hunterâ€™s mark spell with this trait. Starting at 3rd level, you can also cast the locate object spell with it. Once you cast either spell with this trait, you canâ€™t cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
 		</description>
 		<sheet usage="1/Long Rest">
-			<description>You can cast the hunter’s mark spell with this trait using Wisdom as your spellcasting ability.</description>
-			<description level="3">You can cast the hunter’s mark and locate object spells with this trait using Wisdom as your spellcasting ability.</description>
+			<description>You can cast the hunterâ€™s mark spell with this trait using Wisdom as your spellcasting ability.</description>
+			<description level="3">You can cast the hunterâ€™s mark and locate object spells with this trait using Wisdom as your spellcasting ability.</description>
 		</sheet>
 	</element>
 	<element name="Spells of the Mark" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_FINDING_SPELLS_OF_THE_MARK">
@@ -98,11 +98,11 @@
 		<supports>Half-Orc Variant</supports>
 		<description>
 			<p>The Mark of Finding sharpens the senses, guiding the hunter to prey. Alone among the dragonmarks, the Mark of Finding is carried by two races: humans and half-orcs. It first appeared in the Shadow Marches, where clan hunters used it to find their prey.</p>
-			<p>If your half-orc or human character has the Mark of Finding, the following traits replace the character’s racial traits in the Player’s Handbook, aside from age, alignment, size, and speed.</p>
+			<p>If your half-orc or human character has the Mark of Finding, the following traits replace the characterâ€™s racial traits in the Playerâ€™s Handbook, aside from age, alignment, size, and speed.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 2, and your Constitution score increases by 1.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
-			<p class="indent"><strong><em>Hunter’s Intuition.</em></strong> When you make a Wisdom (Perception) or Wisdom (Survival) check, you can roll a d4 and add the number rolled to the ability check.</p>
-			<p class="indent"><strong><em>Finder’s Magic.</em></strong> You can cast the hunter’s mark spell with this trait. Starting at 3rd level, you can also cast the locate object spell with it. Once you cast either spell with this trait, you can’t cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You canâ€™t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Hunterâ€™s Intuition.</em></strong> When you make a Wisdom (Perception) or Wisdom (Survival) check, you can roll a d4 and add the number rolled to the ability check.</p>
+			<p class="indent"><strong><em>Finderâ€™s Magic.</em></strong> You can cast the hunterâ€™s mark spell with this trait. Starting at 3rd level, you can also cast the locate object spell with it. Once you cast either spell with this trait, you canâ€™t cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Goblin.</p>
 			<p class="indent"><strong><em>Spells of the Mark.</em></strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Finding Spells table are added to the spell list of your spellcasting class.</p>
 			<p><strong>MARK OF FINDING SPELLS</strong></p>

@@ -2,16 +2,16 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="cleric-trickery.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/cleric-trickery.xml" />
+			<file name="cleric-trickery.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/cleric-trickery.xml" />
 		</update>
 	</info>
 
-	<element name="Domínio da Trapaça" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_TRICKERY_DOMAIN">
+	<element name="DomÃ­nio da TrapaÃ§a" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_TRICKERY_DOMAIN">
 		<supports>Cleric Subclass</supports>
 		<description>
-			<p class="flavor">Faça Travessuras e Desafie a Autoridade</p>
-			<p>O Domínio da Trapaça oferece magia de engano, ilusão e furtividade. Clérigos que empunham essa magia são uma força disruptiva no mundo, perfurando o orgulho, zombando de tiranos, libertando cativos e desrespeitando tradições vazias. Eles preferem subterfúgios e pegadinhas a confrontos diretos.</p>
-			<p class="indent">Deuses da trapaça são encrenqueiros e instigadores que permanecem como um desafio constante à ordem estabelecida entre deuses e mortais. Eles personificam forças de mudança e convulsão social, e são patronos de ladrões, canalhas, apostadores, rebeldes e libertadores. Ordens religiosas que operam em segredo, especialmente as que buscam minar governos ou hierarquias opressoras, também buscam no poder do Domínio da Trapaça.</p>
+			<p class="flavor">FaÃ§a Travessuras e Desafie a Autoridade</p>
+			<p>O DomÃ­nio da TrapaÃ§a oferece magia de engano, ilusÃ£o e furtividade. ClÃ©rigos que empunham essa magia sÃ£o uma forÃ§a disruptiva no mundo, perfurando o orgulho, zombando de tiranos, libertando cativos e desrespeitando tradiÃ§Ãµes vazias. Eles preferem subterfÃºgios e pegadinhas a confrontos diretos.</p>
+			<p class="indent">Deuses da trapaÃ§a sÃ£o encrenqueiros e instigadores que permanecem como um desafio constante Ã  ordem estabelecida entre deuses e mortais. Eles personificam forÃ§as de mudanÃ§a e convulsÃ£o social, e sÃ£o patronos de ladrÃµes, canalhas, apostadores, rebeldes e libertadores. Ordens religiosas que operam em segredo, especialmente as que buscam minar governos ou hierarquias opressoras, tambÃ©m buscam no poder do DomÃ­nio da TrapaÃ§a.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_INVOKE_DUPLICITY" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKERY_DOMAIN_SPELLS" />
@@ -28,54 +28,54 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Bênção do Trapaceiro" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER">
+	<element name="NÃ­vel 3: BÃªnÃ§Ã£o do Trapaceiro" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER</requirements>
 		<description>
-			<p>Como uma ação Mágica, você pode escolher a si mesmo ou uma criatura disposta a até 9 metros (30 pés) de você para ter Vantagem em testes de Destreza (Furtividade). Esta bênção dura até você terminar um Descanso Longo ou usar esta característica novamente.</p>
+			<p>Como uma aÃ§Ã£o MÃ¡gica, vocÃª pode escolher a si mesmo ou uma criatura disposta a atÃ© 9 metros (30 pÃ©s) de vocÃª para ter Vantagem em testes de Destreza (Furtividade). Esta bÃªnÃ§Ã£o dura atÃ© vocÃª terminar um Descanso Longo ou usar esta caracterÃ­stica novamente.</p>
 		</description>
-		<sheet alt="Bênção do Trapaceiro" action="Action">
-			<description>Magicamente dá a si mesmo ou a aliado disposto a até 9m Vantagem em testes de Destreza (Furtividade). Dura até terminar Descanso Longo ou usar a característica de novo.</description>
+		<sheet alt="BÃªnÃ§Ã£o do Trapaceiro" action="Action">
+			<description>Magicamente dÃ¡ a si mesmo ou a aliado disposto a atÃ© 9m Vantagem em testes de Destreza (Furtividade). Dura atÃ© terminar Descanso Longo ou usar a caracterÃ­stica de novo.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 3: Invocar Duplicidade" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_INVOKE_DUPLICITY">
+	<element name="NÃ­vel 3: Invocar Duplicidade" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_INVOKE_DUPLICITY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_INVOKE_DUPLICITY</requirements>
 		<description>
-			<p>Como uma Ação Bônus, você pode gastar um uso de Canalizar Divindade para criar uma ilusão visual perfeita de si mesmo num espaço desocupado que você possa ver a até 9 metros (30 pés) de você. A ilusão é intangível e não ocupa seu espaço. Ela dura por 1 minuto, mas termina mais cedo se você a dissipar (nenhuma ação necessária) ou ficar Incapacitado. A ilusão é animada e imita suas expressões e gestos. Enquanto persiste, você ganha os seguintes benefícios.</p>
-			<p class="indent"><i><b>Conjurar Magias.</b></i> Você pode conjurar magias como se estivesse no espaço da ilusão, mas deve usar seus próprios sentidos.</p>
-			<p class="indent"><i><b>Distrair.</b></i> Quando tanto você quanto sua ilusão estiverem a até 1,5 metro (5 pés) de uma criatura que possa ver a ilusão, você tem Vantagem nas jogadas de ataque contra essa criatura, dado o quão perturbadora a ilusão é para o alvo.</p>
-			<p class="indent"><i><b>Mover.</b></i> Como uma Ação Bônus, você pode mover a ilusão até 9 metros (30 pés) para um espaço desocupado que possa ver e que esteja a até 36 metros (120 pés) de você.</p>
+			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um uso de Canalizar Divindade para criar uma ilusÃ£o visual perfeita de si mesmo num espaÃ§o desocupado que vocÃª possa ver a atÃ© 9 metros (30 pÃ©s) de vocÃª. A ilusÃ£o Ã© intangÃ­vel e nÃ£o ocupa seu espaÃ§o. Ela dura por 1 minuto, mas termina mais cedo se vocÃª a dissipar (nenhuma aÃ§Ã£o necessÃ¡ria) ou ficar Incapacitado. A ilusÃ£o Ã© animada e imita suas expressÃµes e gestos. Enquanto persiste, vocÃª ganha os seguintes benefÃ­cios.</p>
+			<p class="indent"><i><b>Conjurar Magias.</b></i> VocÃª pode conjurar magias como se estivesse no espaÃ§o da ilusÃ£o, mas deve usar seus prÃ³prios sentidos.</p>
+			<p class="indent"><i><b>Distrair.</b></i> Quando tanto vocÃª quanto sua ilusÃ£o estiverem a atÃ© 1,5 metro (5 pÃ©s) de uma criatura que possa ver a ilusÃ£o, vocÃª tem Vantagem nas jogadas de ataque contra essa criatura, dado o quÃ£o perturbadora a ilusÃ£o Ã© para o alvo.</p>
+			<p class="indent"><i><b>Mover.</b></i> Como uma AÃ§Ã£o BÃ´nus, vocÃª pode mover a ilusÃ£o atÃ© 9 metros (30 pÃ©s) para um espaÃ§o desocupado que possa ver e que esteja a atÃ© 36 metros (120 pÃ©s) de vocÃª.</p>
 		</description>
 		<sheet alt="Invocar Duplicidade" action="Bonus Action" usage="Canalizar Divindade">
-			<description>Cria ilusão de si mesmo em espaço desocupado visível a até 9m de você. Dura 1 min, ou até dissipar ou ficar Incapacitado. Você ganha: &#13;
-			• Pode conjurar magias do espaço da ilusão (usa seus sentidos). &#13;
-			• Vantagem em ataques se ambos (você e ilusão) estiverem a até 1,5m de uma criatura que a veja. &#13;
-			• Ação Bônus: mover ilusão até 9m para um espaço a até 36m de você.</description>
-			<description level="6">Cria ilusão em espaço a até 9m. Dura 1 min. Ganha: &#13;
-			• Conjura do espaço da ilusão. &#13;
-			• Vantagem em ataques se ambos a até 1,5m do alvo. &#13;
-			• Ação Bônus: move ilusão até 9m (limite 36m). Pode se teletransportar trocando de lugar com ela ao criá-la ou movê-la.</description>
-			<description level="17">Cria ilusão em espaço a até 9m. Dura 1 min. Ganha: &#13;
-			• Conjura do espaço da ilusão. &#13;
-			• Você e aliados têm Vantagem contra criatura a até 1,5m da ilusão. &#13;
-			• Ação Bônus: move ilusão até 9m (limite 36m) e pode trocar de lugar via teleporte. &#13;
-			• Fim da ilusão: você ou criatura a 1,5m recupera {{level:cleric}} PV.</description>
+			<description>Cria ilusÃ£o de si mesmo em espaÃ§o desocupado visÃ­vel a atÃ© 9m de vocÃª. Dura 1 min, ou atÃ© dissipar ou ficar Incapacitado. VocÃª ganha: &#13;
+			â€¢ Pode conjurar magias do espaÃ§o da ilusÃ£o (usa seus sentidos). &#13;
+			â€¢ Vantagem em ataques se ambos (vocÃª e ilusÃ£o) estiverem a atÃ© 1,5m de uma criatura que a veja. &#13;
+			â€¢ AÃ§Ã£o BÃ´nus: mover ilusÃ£o atÃ© 9m para um espaÃ§o a atÃ© 36m de vocÃª.</description>
+			<description level="6">Cria ilusÃ£o em espaÃ§o a atÃ© 9m. Dura 1 min. Ganha: &#13;
+			â€¢ Conjura do espaÃ§o da ilusÃ£o. &#13;
+			â€¢ Vantagem em ataques se ambos a atÃ© 1,5m do alvo. &#13;
+			â€¢ AÃ§Ã£o BÃ´nus: move ilusÃ£o atÃ© 9m (limite 36m). Pode se teletransportar trocando de lugar com ela ao criÃ¡-la ou movÃª-la.</description>
+			<description level="17">Cria ilusÃ£o em espaÃ§o a atÃ© 9m. Dura 1 min. Ganha: &#13;
+			â€¢ Conjura do espaÃ§o da ilusÃ£o. &#13;
+			â€¢ VocÃª e aliados tÃªm Vantagem contra criatura a atÃ© 1,5m da ilusÃ£o. &#13;
+			â€¢ AÃ§Ã£o BÃ´nus: move ilusÃ£o atÃ© 9m (limite 36m) e pode trocar de lugar via teleporte. &#13;
+			â€¢ Fim da ilusÃ£o: vocÃª ou criatura a 1,5m recupera {{level:cleric}} PV.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 3: Magias do Domínio da Trapaça" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKERY_DOMAIN_SPELLS">
+	<element name="NÃ­vel 3: Magias do DomÃ­nio da TrapaÃ§a" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKERY_DOMAIN_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_TRICKERY_DOMAIN_SPELLS</requirements>
 		<description>
-			<p>Quando você atinge um nível de Clérigo especificado na tabela Magias do Domínio da Trapaça, você a partir de então sempre tem as magias listadas preparadas.</p>
-			<h5>MAGIAS DO DOMÍNIO DA TRAPAÇA</h5>
+			<p>Quando vocÃª atinge um nÃ­vel de ClÃ©rigo especificado na tabela Magias do DomÃ­nio da TrapaÃ§a, vocÃª a partir de entÃ£o sempre tem as magias listadas preparadas.</p>
+			<h5>MAGIAS DO DOMÃNIO DA TRAPAÃ‡A</h5>
 			<table>
 				<thead>
-					<tr><td class="col-15" style="text-align:center">Nível de Clérigo</td><td>Magias Preparadas</td></tr>
+					<tr><td class="col-15" style="text-align:center">NÃ­vel de ClÃ©rigo</td><td>Magias Preparadas</td></tr>
 				</thead>
-				<tr><td style="text-align:center">3</td><td><em>Enfeitiçar Pessoa, Disfarçar-se, Invisibilidade, Passos sem Pegadas</em></td></tr>
-				<tr><td style="text-align:center">5</td><td><em>Padrão Hipnótico, Dificultar Detecção</em></td></tr>
-				<tr><td style="text-align:center">7</td><td><em>Confusão, Porta Dimensional</em></td></tr>
-				<tr><td style="text-align:center">9</td><td><em>Dominar Pessoa, Modificar Memória</em></td></tr>
+				<tr><td style="text-align:center">3</td><td><em>EnfeitiÃ§ar Pessoa, DisfarÃ§ar-se, Invisibilidade, Passos sem Pegadas</em></td></tr>
+				<tr><td style="text-align:center">5</td><td><em>PadrÃ£o HipnÃ³tico, Dificultar DetecÃ§Ã£o</em></td></tr>
+				<tr><td style="text-align:center">7</td><td><em>ConfusÃ£o, Porta Dimensional</em></td></tr>
+				<tr><td style="text-align:center">9</td><td><em>Dominar Pessoa, Modificar MemÃ³ria</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -93,20 +93,20 @@
 		</rules>
 	</element>
 
-	<element name="Nível 6: Transposição do Trapaceiro" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTERS_TRANSPOSITION">
+	<element name="NÃ­vel 6: TransposiÃ§Ã£o do Trapaceiro" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTERS_TRANSPOSITION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_TRICKSTERS_TRANSPOSITION</requirements>
 		<description>
-			<p>Sempre que tomar a Ação Bônus para criar ou mover a ilusão da sua Invocar Duplicidade, você pode se teletransportar, trocando de lugar com a ilusão.</p>
+			<p>Sempre que tomar a AÃ§Ã£o BÃ´nus para criar ou mover a ilusÃ£o da sua Invocar Duplicidade, vocÃª pode se teletransportar, trocando de lugar com a ilusÃ£o.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="Nível 17: Duplicidade Aprimorada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY">
+	<element name="NÃ­vel 17: Duplicidade Aprimorada" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_IMPROVED_DUPLICITY</requirements>
 		<description>
-			<p>A ilusão do seu Invocar Duplicidade cresceu mais poderosa nas seguintes formas.</p>
-			<p class="indent"><b><i>Distração Compartilhada.</i></b> Quando você e seus aliados fazem ataques contra uma criatura a até 1,5 metro (5 pés) da ilusão, os ataques têm Vantagem.</p>
-			<p class="indent"><b><i>Ilusão Curativa.</i></b> Quando a ilusão termina, você ou uma criatura de sua escolha a até 1,5 metro (5 pés) dela recupera um número de Pontos de Vida igual ao seu nível de Clérigo.</p>
+			<p>A ilusÃ£o do seu Invocar Duplicidade cresceu mais poderosa nas seguintes formas.</p>
+			<p class="indent"><b><i>DistraÃ§Ã£o Compartilhada.</i></b> Quando vocÃª e seus aliados fazem ataques contra uma criatura a atÃ© 1,5 metro (5 pÃ©s) da ilusÃ£o, os ataques tÃªm Vantagem.</p>
+			<p class="indent"><b><i>IlusÃ£o Curativa.</i></b> Quando a ilusÃ£o termina, vocÃª ou uma criatura de sua escolha a atÃ© 1,5 metro (5 pÃ©s) dela recupera um nÃºmero de Pontos de Vida igual ao seu nÃ­vel de ClÃ©rigo.</p>
 		</description>
 		<sheet display="false" />
 	</element>

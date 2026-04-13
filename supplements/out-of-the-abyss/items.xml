@@ -4,7 +4,7 @@
 		<name>Items</name>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/outoftheabyss">Wizards of the Coast</author>
 		<update version="0.1.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/out-of-the-abyss/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/out-of-the-abyss/items.xml" />
 		</update>
 	</info>
 
@@ -29,7 +29,7 @@
 	<element name="Piwafwi" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_PIWAFWI">		
 		<description>
 			<p>This dark spider-silk cloak is made by drow. It is a cloak of elvenkind. It loses its magic if exposed to sunlight for 1 hour without interruption.</p>
-			<p>While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak’s color shifts to camouflage you. Pulling the hood up or down requires an action.</p>
+			<p>While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloakâ€™s color shifts to camouflage you. Pulling the hood up or down requires an action.</p>
 			<!-- <div element="ID_WOTC_DMG_ITEM_CLOAK_OF_ELVENKIND" /> -->
 		</description>
 		<setters>
@@ -46,7 +46,7 @@
 	<element name="Piwafwi of Fire Resistance" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_PIWAFWI_OF_FIRE_RESISTANCE">		
 		<description>
 			<p>This dark spider-silk cloak is made by drow. It is a cloak of elvenkind. It also grants you resistance to fire damage while you wear it. It loses its magic if exposed to sunlight for 1 hour without interruption.</p>			
-			<p>While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak’s color shifts to camouflage you. Pulling the hood up or down requires an action.</p>
+			<p>While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloakâ€™s color shifts to camouflage you. Pulling the hood up or down requires an action.</p>
 		</description>
 		<setters>
 			<set name="keywords">cloak, elvenkind, perception, stealth, resistance, fire</set>
@@ -64,11 +64,11 @@
 	</element>
 	<element name="Spell Gem, Obsidian" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_SPELL_GEM_OBSIDIAN">		
 		<description>	
-			<p>A spell gem can contain one spell from any class’s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesn’t require any components and doesn’t require attunement. The spell then disappears from the gem.</p>
-			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the gem with no other effect.</p>
-			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spell’s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
-			<p class="indent">You can imbue the gem with a spell if you’re attuned to it and it’s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell’s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
-			<p class="indent">Once imbued with a spell. the gem can’t be imbued again until the next dawn.</p>
+			<p>A spell gem can contain one spell from any classâ€™s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesnâ€™t require any components and doesnâ€™t require attunement. The spell then disappears from the gem.</p>
+			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spellâ€™s level. On a failed check, the spell disappears from the gem with no other effect.</p>
+			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spellâ€™s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
+			<p class="indent">You can imbue the gem with a spell if youâ€™re attuned to it and itâ€™s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spellâ€™s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
+			<p class="indent">Once imbued with a spell. the gem canâ€™t be imbued again until the next dawn.</p>
 			<p class="indent">Deep gnomes created these magic gemstones and keep the creation process a secret.</p>
 			<table>
 			<thead>
@@ -97,11 +97,11 @@
 	</element>
 	<element name="Spell Gem, Lapis Lazuli" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_SPELL_GEM_LAPIS_LAZULI">		
 		<description>	
-			<p>A spell gem can contain one spell from any class’s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesn’t require any components and doesn’t require attunement. The spell then disappears from the gem.</p>
-			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the gem with no other effect.</p>
-			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spell’s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
-			<p class="indent">You can imbue the gem with a spell if you’re attuned to it and it’s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell’s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
-			<p class="indent">Once imbued with a spell. the gem can’t be imbued again until the next dawn.</p>
+			<p>A spell gem can contain one spell from any classâ€™s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesnâ€™t require any components and doesnâ€™t require attunement. The spell then disappears from the gem.</p>
+			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spellâ€™s level. On a failed check, the spell disappears from the gem with no other effect.</p>
+			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spellâ€™s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
+			<p class="indent">You can imbue the gem with a spell if youâ€™re attuned to it and itâ€™s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spellâ€™s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
+			<p class="indent">Once imbued with a spell. the gem canâ€™t be imbued again until the next dawn.</p>
 			<p class="indent">Deep gnomes created these magic gemstones and keep the creation process a secret.</p>
 			<table>
 			<thead>
@@ -130,11 +130,11 @@
 	</element>
 	<element name="Spell Gem, Quartz" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_SPELL_GEM_QUARTZ">		
 		<description>	
-			<p>A spell gem can contain one spell from any class’s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesn’t require any components and doesn’t require attunement. The spell then disappears from the gem.</p>
-			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the gem with no other effect.</p>
-			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spell’s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
-			<p class="indent">You can imbue the gem with a spell if you’re attuned to it and it’s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell’s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
-			<p class="indent">Once imbued with a spell. the gem can’t be imbued again until the next dawn.</p>
+			<p>A spell gem can contain one spell from any classâ€™s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesnâ€™t require any components and doesnâ€™t require attunement. The spell then disappears from the gem.</p>
+			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spellâ€™s level. On a failed check, the spell disappears from the gem with no other effect.</p>
+			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spellâ€™s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
+			<p class="indent">You can imbue the gem with a spell if youâ€™re attuned to it and itâ€™s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spellâ€™s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
+			<p class="indent">Once imbued with a spell. the gem canâ€™t be imbued again until the next dawn.</p>
 			<p class="indent">Deep gnomes created these magic gemstones and keep the creation process a secret.</p>
 			<table>
 			<thead>
@@ -163,11 +163,11 @@
 	</element>
 	<element name="Spell Gem, Bloodstone" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_SPELL_GEM_BLOODSTONE">		
 		<description>	
-			<p>A spell gem can contain one spell from any class’s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesn’t require any components and doesn’t require attunement. The spell then disappears from the gem.</p>
-			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the gem with no other effect.</p>
-			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spell’s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
-			<p class="indent">You can imbue the gem with a spell if you’re attuned to it and it’s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell’s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
-			<p class="indent">Once imbued with a spell. the gem can’t be imbued again until the next dawn.</p>
+			<p>A spell gem can contain one spell from any classâ€™s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesnâ€™t require any components and doesnâ€™t require attunement. The spell then disappears from the gem.</p>
+			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spellâ€™s level. On a failed check, the spell disappears from the gem with no other effect.</p>
+			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spellâ€™s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
+			<p class="indent">You can imbue the gem with a spell if youâ€™re attuned to it and itâ€™s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spellâ€™s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
+			<p class="indent">Once imbued with a spell. the gem canâ€™t be imbued again until the next dawn.</p>
 			<p class="indent">Deep gnomes created these magic gemstones and keep the creation process a secret.</p>
 			<table>
 			<thead>
@@ -196,11 +196,11 @@
 	</element>
 	<element name="Spell Gem, Amber" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_SPELL_GEM_AMBER">		
 		<description>	
-			<p>A spell gem can contain one spell from any class’s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesn’t require any components and doesn’t require attunement. The spell then disappears from the gem.</p>
-			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the gem with no other effect.</p>
-			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spell’s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
-			<p class="indent">You can imbue the gem with a spell if you’re attuned to it and it’s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell’s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
-			<p class="indent">Once imbued with a spell. the gem can’t be imbued again until the next dawn.</p>
+			<p>A spell gem can contain one spell from any classâ€™s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesnâ€™t require any components and doesnâ€™t require attunement. The spell then disappears from the gem.</p>
+			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spellâ€™s level. On a failed check, the spell disappears from the gem with no other effect.</p>
+			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spellâ€™s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
+			<p class="indent">You can imbue the gem with a spell if youâ€™re attuned to it and itâ€™s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spellâ€™s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
+			<p class="indent">Once imbued with a spell. the gem canâ€™t be imbued again until the next dawn.</p>
 			<p class="indent">Deep gnomes created these magic gemstones and keep the creation process a secret.</p>
 			<table>
 			<thead>
@@ -229,11 +229,11 @@
 	</element>
 	<element name="Spell Gem, Jade" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_SPELL_GEM_JADE">		
 		<description>	
-			<p>A spell gem can contain one spell from any class’s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesn’t require any components and doesn’t require attunement. The spell then disappears from the gem.</p>
-			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the gem with no other effect.</p>
-			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spell’s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
-			<p class="indent">You can imbue the gem with a spell if you’re attuned to it and it’s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell’s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
-			<p class="indent">Once imbued with a spell. the gem can’t be imbued again until the next dawn.</p>
+			<p>A spell gem can contain one spell from any classâ€™s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesnâ€™t require any components and doesnâ€™t require attunement. The spell then disappears from the gem.</p>
+			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spellâ€™s level. On a failed check, the spell disappears from the gem with no other effect.</p>
+			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spellâ€™s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
+			<p class="indent">You can imbue the gem with a spell if youâ€™re attuned to it and itâ€™s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spellâ€™s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
+			<p class="indent">Once imbued with a spell. the gem canâ€™t be imbued again until the next dawn.</p>
 			<p class="indent">Deep gnomes created these magic gemstones and keep the creation process a secret.</p>
 			<table>
 			<thead>
@@ -262,11 +262,11 @@
 	</element>
 	<element name="Spell Gem, Topaz" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_SPELL_GEM_TOPAZ">		
 		<description>	
-			<p>A spell gem can contain one spell from any class’s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesn’t require any components and doesn’t require attunement. The spell then disappears from the gem.</p>
-			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the gem with no other effect.</p>
-			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spell’s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
-			<p class="indent">You can imbue the gem with a spell if you’re attuned to it and it’s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell’s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
-			<p class="indent">Once imbued with a spell. the gem can’t be imbued again until the next dawn.</p>
+			<p>A spell gem can contain one spell from any classâ€™s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesnâ€™t require any components and doesnâ€™t require attunement. The spell then disappears from the gem.</p>
+			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spellâ€™s level. On a failed check, the spell disappears from the gem with no other effect.</p>
+			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spellâ€™s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
+			<p class="indent">You can imbue the gem with a spell if youâ€™re attuned to it and itâ€™s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spellâ€™s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
+			<p class="indent">Once imbued with a spell. the gem canâ€™t be imbued again until the next dawn.</p>
 			<p class="indent">Deep gnomes created these magic gemstones and keep the creation process a secret.</p>
 			<table>
 			<thead>
@@ -295,11 +295,11 @@
 	</element>
 	<element name="Spell Gem, Star Ruby" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_SPELL_GEM_STAR_RUBY">		
 		<description>	
-			<p>A spell gem can contain one spell from any class’s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesn’t require any components and doesn’t require attunement. The spell then disappears from the gem.</p>
-			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the gem with no other effect.</p>
-			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spell’s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
-			<p class="indent">You can imbue the gem with a spell if you’re attuned to it and it’s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell’s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
-			<p class="indent">Once imbued with a spell. the gem can’t be imbued again until the next dawn.</p>
+			<p>A spell gem can contain one spell from any classâ€™s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesnâ€™t require any components and doesnâ€™t require attunement. The spell then disappears from the gem.</p>
+			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spellâ€™s level. On a failed check, the spell disappears from the gem with no other effect.</p>
+			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spellâ€™s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
+			<p class="indent">You can imbue the gem with a spell if youâ€™re attuned to it and itâ€™s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spellâ€™s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
+			<p class="indent">Once imbued with a spell. the gem canâ€™t be imbued again until the next dawn.</p>
 			<p class="indent">Deep gnomes created these magic gemstones and keep the creation process a secret.</p>
 			<table>
 			<thead>
@@ -328,11 +328,11 @@
 	</element>
 	<element name="Spell Gem, Ruby" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_SPELL_GEM_RUBY">		
 		<description>	
-			<p>A spell gem can contain one spell from any class’s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesn’t require any components and doesn’t require attunement. The spell then disappears from the gem.</p>
-			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the gem with no other effect.</p>
-			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spell’s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
-			<p class="indent">You can imbue the gem with a spell if you’re attuned to it and it’s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell’s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
-			<p class="indent">Once imbued with a spell. the gem can’t be imbued again until the next dawn.</p>
+			<p>A spell gem can contain one spell from any classâ€™s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesnâ€™t require any components and doesnâ€™t require attunement. The spell then disappears from the gem.</p>
+			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spellâ€™s level. On a failed check, the spell disappears from the gem with no other effect.</p>
+			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spellâ€™s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
+			<p class="indent">You can imbue the gem with a spell if youâ€™re attuned to it and itâ€™s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spellâ€™s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
+			<p class="indent">Once imbued with a spell. the gem canâ€™t be imbued again until the next dawn.</p>
 			<p class="indent">Deep gnomes created these magic gemstones and keep the creation process a secret.</p>
 			<table>
 			<thead>
@@ -361,11 +361,11 @@
 	</element>
 	<element name="Spell Gem, Diamond" type="Magic Item" source="Out of the Abyss" id="ID_WOTC_OOTA_MAGIC_ITEM_SPELL_GEM_DIAMOND">		
 		<description>	
-			<p>A spell gem can contain one spell from any class’s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesn’t require any components and doesn’t require attunement. The spell then disappears from the gem.</p>
-			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the gem with no other effect.</p>
-			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spell’s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
-			<p class="indent">You can imbue the gem with a spell if you’re attuned to it and it’s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell’s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
-			<p class="indent">Once imbued with a spell. the gem can’t be imbued again until the next dawn.</p>
+			<p>A spell gem can contain one spell from any classâ€™s spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your classs spell list. Doing so doesnâ€™t require any components and doesnâ€™t require attunement. The spell then disappears from the gem.</p>
+			<p class="indent">If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spellâ€™s level. On a failed check, the spell disappears from the gem with no other effect.</p>
+			<p class="indent">Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spellâ€™s saving throw DC and attack bonus, as shown in the Spell Gem table.</p>
+			<p class="indent">You can imbue the gem with a spell if youâ€™re attuned to it and itâ€™s empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spellâ€™s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them, but they can be worth half as much as normal.</p>
+			<p class="indent">Once imbued with a spell. the gem canâ€™t be imbued again until the next dawn.</p>
 			<p class="indent">Deep gnomes created these magic gemstones and keep the creation process a secret.</p>
 			<table>
 			<thead>

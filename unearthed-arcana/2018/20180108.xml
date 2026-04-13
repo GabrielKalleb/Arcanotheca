@@ -5,7 +5,7 @@
 		<description>We kick off 2018 with three new subclasses to try out in Unearthed Arcana: the Circle of Spores for the druid, the Brute for the fighter, and the School of Invention for the wizard.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/three-subclasses">Wizards of the Coast</author>
 		<update version="0.0.9">
-			<file name="20180108.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2018/20180108.xml" />
+			<file name="20180108.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2018/20180108.xml" />
 		</update>
 	</info>
 
@@ -157,7 +157,7 @@
 	</element>
 	<element name="Brute Force" type="Archetype Feature" source="Unearthed Arcana: Three Subclasses" id="ID_WOTC_UA_ARCHETYPE_FEATURE_BRUTE_BRUTE_FORCE">
 		<description>
-			<p>Starting at 3rd level, you’re able to strike with your weapons with especially brutal force. Whenever you hit with a weapon that you’re proficient with and deal damage, the weapon’s damage increases by an amount based on your level in this class, as shown on the Brute Bonus Damage table.</p>
+			<p>Starting at 3rd level, youâ€™re able to strike with your weapons with especially brutal force. Whenever you hit with a weapon that youâ€™re proficient with and deal damage, the weaponâ€™s damage increases by an amount based on your level in this class, as shown on the Brute Bonus Damage table.</p>
 			<h5>BRUTE BONUS DAMAGE</h5>
 			<table>
 				<thead>
@@ -170,7 +170,7 @@
 			</table>
 		</description>
 		<sheet>
-			<description>Whenever you hit with a weapon that you’re proficient with and deal damage, the weapon’s damage increases by 1d{{brute force:damage}}.</description>
+			<description>Whenever you hit with a weapon that youâ€™re proficient with and deal damage, the weaponâ€™s damage increases by 1d{{brute force:damage}}.</description>
 		</sheet>
 		<rules>
 			<stat name="brute force:damage" value="4" bonus="brute force" level="3" />
@@ -201,18 +201,18 @@
 	</element>
 	<element name="Devastating Critical" type="Archetype Feature" source="Unearthed Arcana: Three Subclasses" id="ID_WOTC_UA_ARCHETYPE_FEATURE_BRUTE_DEVASTATING_CRITICAL">
 		<description>
-			<p>Starting at 15th level, when you score a critical hit with a weapon attack, you gain a bonus to that weapon’s damage roll equal to your level in this class.</p>
+			<p>Starting at 15th level, when you score a critical hit with a weapon attack, you gain a bonus to that weaponâ€™s damage roll equal to your level in this class.</p>
 		</description>
 		<sheet>
-			<description>When you score a critical hit with a weapon attack, you gain a +{{level:fighter}} bonus to that weapon’s damage roll.</description>
+			<description>When you score a critical hit with a weapon attack, you gain a +{{level:fighter}} bonus to that weaponâ€™s damage roll.</description>
 		</sheet>
 	</element>
 	<element name="Survivor" type="Archetype Feature" source="Unearthed Arcana: Three Subclasses" id="ID_WOTC_UA_ARCHETYPE_FEATURE_BRUTE_SURVIVOR">
 		<description>
-			<p>At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns in combat, you regain hit points equal to 5 + your Constitution modifier (minimum of 1 hit point). You don’t gain this benefit if you have 0 hit points or if you have more than half of your hit points left.</p>
+			<p>At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns in combat, you regain hit points equal to 5 + your Constitution modifier (minimum of 1 hit point). You donâ€™t gain this benefit if you have 0 hit points or if you have more than half of your hit points left.</p>
 		</description>
 		<sheet>
-			<description>At the start of each of your turns in combat, you regain {{survivor:hp}} hit points. You don’t gain this benefit if you have 0 hit points or if you have more than half of your hit points left.</description>
+			<description>At the start of each of your turns in combat, you regain {{survivor:hp}} hit points. You donâ€™t gain this benefit if you have 0 hit points or if you have more than half of your hit points left.</description>
 		</sheet>
 		<rules>
 			<stat name="survivor:hp:mod" value="1" bonus="mod" />

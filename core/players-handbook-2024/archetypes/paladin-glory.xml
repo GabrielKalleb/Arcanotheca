@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Juramento da Glória</name>
-		<description>A subclasse Juramento da Glória do Livro do Jogador de 2024.</description>
+		<name>Juramento da GlÃ³ria</name>
+		<description>A subclasse Juramento da GlÃ³ria do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="paladin-glory.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/paladin-glory.xml" />
+			<file name="paladin-glory.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/paladin-glory.xml" />
 		</update>
 	</info>
 
-	<element name="Juramento da Glória" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_PALADIN_OATH_OF_GLORY">
+	<element name="Juramento da GlÃ³ria" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_PALADIN_OATH_OF_GLORY">
 		<supports>Paladin Subclass</supports>
 		<description>
-			<p class="flavor">Busque o Ápice do Heroísmo</p>
-			<p>Paladinos que prestam o Juramento da Glória acreditam que eles e seus companheiros estão destinados a alcançar a glória através de atos de heroísmo. Eles treinam diligentemente e encorajam seus companheiros, para que todos estejam prontos quando o destino chamar.</p>
+			<p class="flavor">Busque o Ãpice do HeroÃ­smo</p>
+			<p>Paladinos que prestam o Juramento da GlÃ³ria acreditam que eles e seus companheiros estÃ£o destinados a alcanÃ§ar a glÃ³ria atravÃ©s de atos de heroÃ­smo. Eles treinam diligentemente e encorajam seus companheiros, para que todos estejam prontos quando o destino chamar.</p>
 			<p class="indent">Estes paladinos compartilham os seguintes dogmas:</p>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
 				<li>Esforce-se para ser conhecido por seus feitos.</li>
 				<li>Enfrente as dificuldades com coragem.</li>
-				<li>Inspire os outros a buscar a glória.</li>
+				<li>Inspire os outros a buscar a glÃ³ria.</li>
 			</ul>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_INSPIRING_SMITE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_OATH_SPELLS" />
@@ -38,30 +38,30 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Destruição Inspiradora" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_INSPIRING_SMITE">
+	<element name="NÃ­vel 3: DestruiÃ§Ã£o Inspiradora" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_INSPIRING_SMITE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_GLORY_INSPIRING_SMITE</requirements>
 		<description>
-			<p>Imediatamente após conjurar <i>Destruição Divina</i>, você pode gastar um uso de sua Canalizar Divindade e distribuir Pontos de Vida Temporários para criaturas de sua escolha a até 9 metros (30 pés) de você, o que pode incluir você mesmo. O número total de Pontos de Vida Temporários é igual a 2d8 mais seu nível de Paladino, divididos entre as criaturas escolhidas da forma que desejar.</p>
+			<p>Imediatamente apÃ³s conjurar <i>DestruiÃ§Ã£o Divina</i>, vocÃª pode gastar um uso de sua Canalizar Divindade e distribuir Pontos de Vida TemporÃ¡rios para criaturas de sua escolha a atÃ© 9 metros (30 pÃ©s) de vocÃª, o que pode incluir vocÃª mesmo. O nÃºmero total de Pontos de Vida TemporÃ¡rios Ã© igual a 2d8 mais seu nÃ­vel de Paladino, divididos entre as criaturas escolhidas da forma que desejar.</p>
 		</description>
-		<sheet alt="Destruição Inspiradora" usage="Canalizar Divindade">
-			<description>Imediatamente após conjurar Destruição Divina, você pode dividir até 2d8+{{level:paladin}} PVs Temporários entre criaturas de sua escolha a até 9m (30 pés) de você.</description>
+		<sheet alt="DestruiÃ§Ã£o Inspiradora" usage="Canalizar Divindade">
+			<description>Imediatamente apÃ³s conjurar DestruiÃ§Ã£o Divina, vocÃª pode dividir atÃ© 2d8+{{level:paladin}} PVs TemporÃ¡rios entre criaturas de sua escolha a atÃ© 9m (30 pÃ©s) de vocÃª.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 3: Magias de Juramento" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_OATH_SPELLS">
+	<element name="NÃ­vel 3: Magias de Juramento" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_OATH_SPELLS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_GLORY_OATH_SPELLS</requirements>
 		<description>
-			<p>A magia do seu juramento garante que você sempre tenha certas magias preparadas; quando você atinge um nível de Paladino especificado na tabela de Magias do Juramento da Glória, você passa a ter as magias listadas sempre preparadas.</p>
-			<h5>Magias do Juramento da Glória</h5>
+			<p>A magia do seu juramento garante que vocÃª sempre tenha certas magias preparadas; quando vocÃª atinge um nÃ­vel de Paladino especificado na tabela de Magias do Juramento da GlÃ³ria, vocÃª passa a ter as magias listadas sempre preparadas.</p>
+			<h5>Magias do Juramento da GlÃ³ria</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-25">Nível de Paladino</td><td class="left">Magias</td></tr>
+					<tr><td class="col-25">NÃ­vel de Paladino</td><td class="left">Magias</td></tr>
 				</thead>
-				<tr><td>3</td><td class="left"><em>Raio Guiador, Heroísmo</em></td></tr>
-				<tr><td>5</td><td class="left"><em>Melhorar Habilidade, Arma Mágica</em></td></tr>
-				<tr><td>9</td><td class="left"><em>Velocidade, Proteção contra Energia</em></td></tr>
-				<tr><td>13</td><td class="left"><em>Compulsão, Movimentação Livre</em></td></tr>
-				<tr><td>17</td><td class="left"><em>Conhecimento Lendário, Presença Majestosa de Yolande</em></td></tr>
+				<tr><td>3</td><td class="left"><em>Raio Guiador, HeroÃ­smo</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Melhorar Habilidade, Arma MÃ¡gica</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Velocidade, ProteÃ§Ã£o contra Energia</em></td></tr>
+				<tr><td>13</td><td class="left"><em>CompulsÃ£o, MovimentaÃ§Ã£o Livre</em></td></tr>
+				<tr><td>17</td><td class="left"><em>Conhecimento LendÃ¡rio, PresenÃ§a Majestosa de Yolande</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -79,38 +79,38 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Atleta Inigualável" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_PEERLESS_ATHLETE">
+	<element name="NÃ­vel 3: Atleta InigualÃ¡vel" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_PEERLESS_ATHLETE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_GLORY_PEERLESS_ATHLETE</requirements>
 		<description>
-			<p>Como uma Ação Bônus, você pode gastar um uso da sua Canalizar Divindade para aumentar seu atletismo. Por 1 hora, você tem Vantagem em testes de Força (Atletismo) e Destreza (Acrobacia), e a distância de seus Saltos em Distância e em Altura aumenta em 3 metros/10 pés (essa distância extra custa movimento normalmente).</p>
+			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode gastar um uso da sua Canalizar Divindade para aumentar seu atletismo. Por 1 hora, vocÃª tem Vantagem em testes de ForÃ§a (Atletismo) e Destreza (Acrobacia), e a distÃ¢ncia de seus Saltos em DistÃ¢ncia e em Altura aumenta em 3 metros/10 pÃ©s (essa distÃ¢ncia extra custa movimento normalmente).</p>
 		</description>
-		<sheet alt="Atleta Inigualável" action="Ação Bônus" usage="Canalizar Divindade">
-			<description>Por 1 hora, você tem Vantagem em testes de Força (Atletismo) e Destreza (Acrobacia), e a distância de seus Saltos em Distância e Altura aumenta em 3m/10 pés (essa distância extra custa movimento normalmente).</description>
+		<sheet alt="Atleta InigualÃ¡vel" action="AÃ§Ã£o BÃ´nus" usage="Canalizar Divindade">
+			<description>Por 1 hora, vocÃª tem Vantagem em testes de ForÃ§a (Atletismo) e Destreza (Acrobacia), e a distÃ¢ncia de seus Saltos em DistÃ¢ncia e Altura aumenta em 3m/10 pÃ©s (essa distÃ¢ncia extra custa movimento normalmente).</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 7: Aura de Vivacidade" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_AURA_OF_ALACRITY">
+	<element name="NÃ­vel 7: Aura de Vivacidade" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_AURA_OF_ALACRITY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_GLORY_AURA_OF_ALACRITY</requirements>
 		<description>
-			<p>Seu Deslocamento aumenta em 3 metros (10 pés).</p>
-			<p class="indent">Além disso, sempre que um aliado entra na sua Aura de Proteção pela primeira vez em um turno ou começa o turno dele lá, o Deslocamento do aliado aumenta em 3 metros (10 pés) até o final do próximo turno dele.</p>
+			<p>Seu Deslocamento aumenta em 3 metros (10 pÃ©s).</p>
+			<p class="indent">AlÃ©m disso, sempre que um aliado entra na sua Aura de ProteÃ§Ã£o pela primeira vez em um turno ou comeÃ§a o turno dele lÃ¡, o Deslocamento do aliado aumenta em 3 metros (10 pÃ©s) atÃ© o final do prÃ³ximo turno dele.</p>
 		</description>
 		<sheet alt="Aura de Vivacidade">
-			<description>Sempre que um aliado entra na sua Aura de Proteção pela primeira vez em um turno ou começa o turno dele lá, o Deslocamento do aliado aumenta em 3m (10 pés) até o final do próximo turno dele.</description>
+			<description>Sempre que um aliado entra na sua Aura de ProteÃ§Ã£o pela primeira vez em um turno ou comeÃ§a o turno dele lÃ¡, o Deslocamento do aliado aumenta em 3m (10 pÃ©s) atÃ© o final do prÃ³ximo turno dele.</description>
 		</sheet>
 		<rules>
 			<stat name="innate speed" value="10" />
 		</rules>
 	</element>
 
-	<element name="Nível 15: Defesa Gloriosa" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_GLORIOUS_DEFENSE">
+	<element name="NÃ­vel 15: Defesa Gloriosa" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_GLORIOUS_DEFENSE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_GLORY_GLORIOUS_DEFENSE</requirements>
 		<description>
-			<p>Você pode transformar sua defesa em um ataque súbito. Quando você ou outra criatura que você possa ver a até 3 metros (10 pés) de você for atingido por uma jogada de ataque, você pode usar uma Reação para conceder um bônus à CA do alvo contra aquele ataque, potencialmente fazendo-o errar. O bônus é igual ao seu modificador de Carisma (mínimo de +1). Se o ataque errar, você pode fazer um ataque com arma contra o atacante como parte desta Reação, caso o atacante esteja dentro do alcance da sua arma.</p>
-			<p class="indent">Você pode usar esta característica um número de vezes igual ao seu modificador de Carisma (mínimo de uma vez), e recupera todos os usos gastos ao terminar um Descanso Longo.</p>
+			<p>VocÃª pode transformar sua defesa em um ataque sÃºbito. Quando vocÃª ou outra criatura que vocÃª possa ver a atÃ© 3 metros (10 pÃ©s) de vocÃª for atingido por uma jogada de ataque, vocÃª pode usar uma ReaÃ§Ã£o para conceder um bÃ´nus Ã  CA do alvo contra aquele ataque, potencialmente fazendo-o errar. O bÃ´nus Ã© igual ao seu modificador de Carisma (mÃ­nimo de +1). Se o ataque errar, vocÃª pode fazer um ataque com arma contra o atacante como parte desta ReaÃ§Ã£o, caso o atacante esteja dentro do alcance da sua arma.</p>
+			<p class="indent">VocÃª pode usar esta caracterÃ­stica um nÃºmero de vezes igual ao seu modificador de Carisma (mÃ­nimo de uma vez), e recupera todos os usos gastos ao terminar um Descanso Longo.</p>
 		</description>
-		<sheet alt="Defesa Gloriosa" action="Reação" usage="{{glorious defense:usage}}/Descanso Longo">
-			<description>Quando você ou outra criatura a até 3m (10 pés) de você for atingido por um ataque, você pode conceder um bônus de +{{glorious defense:bonus}} à CA do alvo contra o ataque, podendo fazê-lo errar. Se o ataque errar, você pode fazer um ataque com arma contra o atacante como parte desta Reação, desde que ele esteja no alcance da sua arma.</description>
+		<sheet alt="Defesa Gloriosa" action="ReaÃ§Ã£o" usage="{{glorious defense:usage}}/Descanso Longo">
+			<description>Quando vocÃª ou outra criatura a atÃ© 3m (10 pÃ©s) de vocÃª for atingido por um ataque, vocÃª pode conceder um bÃ´nus de +{{glorious defense:bonus}} Ã  CA do alvo contra o ataque, podendo fazÃª-lo errar. Se o ataque errar, vocÃª pode fazer um ataque com arma contra o atacante como parte desta ReaÃ§Ã£o, desde que ele esteja no alcance da sua arma.</description>
 		</sheet>
 		<rules>
 			<stat name="glorious defense:bonus" value="1" bonus="base" />
@@ -120,20 +120,20 @@
 		</rules>
 	</element>
 
-	<element name="Nível 20: Lenda Viva" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_LIVING_LEGEND">
+	<element name="NÃ­vel 20: Lenda Viva" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_GLORY_LIVING_LEGEND">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_GLORY_LIVING_LEGEND</requirements>
 		<description>
-			<p>Você pode se fortalecer com as lendas — sejam verdadeiras ou exageradas — de seus grandes feitos. Como uma Ação Bônus, você ganha os benefícios abaixo por 10 minutos. Após usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo. Você também pode restaurar o uso dela gastando um espaço de magia de 5º nível (nenhuma ação necessária).</p>
-			<p class="indent"><b><i>Carismático.</i></b> Você é abençoado com uma presença de outro mundo e tem Vantagem em todos os testes de Carisma.</p>
-			<p class="indent"><b><i>Rolar Novamente.</i></b> Se você falhar em um teste de resistência, pode usar uma Reação para rolagem novamente. Você deve usar a nova rolagem.</p>
-			<p class="indent"><b><i>Ataque Certeiro.</i></b> Uma vez em cada um de seus turnos, quando você fizer uma jogada de ataque com uma arma e errar, você pode fazer com que o ataque atinja o alvo.</p>
+			<p>VocÃª pode se fortalecer com as lendas â€” sejam verdadeiras ou exageradas â€” de seus grandes feitos. Como uma AÃ§Ã£o BÃ´nus, vocÃª ganha os benefÃ­cios abaixo por 10 minutos. ApÃ³s usar esta caracterÃ­stica, vocÃª nÃ£o pode usÃ¡-la novamente atÃ© terminar um Descanso Longo. VocÃª tambÃ©m pode restaurar o uso dela gastando um espaÃ§o de magia de 5Âº nÃ­vel (nenhuma aÃ§Ã£o necessÃ¡ria).</p>
+			<p class="indent"><b><i>CarismÃ¡tico.</i></b> VocÃª Ã© abenÃ§oado com uma presenÃ§a de outro mundo e tem Vantagem em todos os testes de Carisma.</p>
+			<p class="indent"><b><i>Rolar Novamente.</i></b> Se vocÃª falhar em um teste de resistÃªncia, pode usar uma ReaÃ§Ã£o para rolagem novamente. VocÃª deve usar a nova rolagem.</p>
+			<p class="indent"><b><i>Ataque Certeiro.</i></b> Uma vez em cada um de seus turnos, quando vocÃª fizer uma jogada de ataque com uma arma e errar, vocÃª pode fazer com que o ataque atinja o alvo.</p>
 		</description>
-		<sheet alt="Lenda Viva" action="Ação Bônus" usage="1/Descanso Longo">
-			<description>Por 10 minutos, você ganha os seguintes benefícios: &#13;
-			• Você tem Vantagem em todos os testes de Carisma. &#13;
-			• Se falhar em um teste de resistência, pode usar uma Reação para rolar novamente. Deve usar a nova rolagem. &#13;
-			• Uma vez em cada um dos seus turnos, ao errar um ataque com arma, você pode fazer o ataque acertar. &#13;
-			Você pode gastar um espaço de magia de 5º nível para usar esta característica novamente.</description>
+		<sheet alt="Lenda Viva" action="AÃ§Ã£o BÃ´nus" usage="1/Descanso Longo">
+			<description>Por 10 minutos, vocÃª ganha os seguintes benefÃ­cios: &#13;
+			â€¢ VocÃª tem Vantagem em todos os testes de Carisma. &#13;
+			â€¢ Se falhar em um teste de resistÃªncia, pode usar uma ReaÃ§Ã£o para rolar novamente. Deve usar a nova rolagem. &#13;
+			â€¢ Uma vez em cada um dos seus turnos, ao errar um ataque com arma, vocÃª pode fazer o ataque acertar. &#13;
+			VocÃª pode gastar um espaÃ§o de magia de 5Âº nÃ­vel para usar esta caracterÃ­stica novamente.</description>
 		</sheet>
 	</element>	
 

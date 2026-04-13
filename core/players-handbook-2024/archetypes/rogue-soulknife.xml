@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Lâmina da Alma</name>
-		<description>A subclasse Lâmina da Alma do Livro do Jogador 2024.</description>
+		<name>LÃ¢mina da Alma</name>
+		<description>A subclasse LÃ¢mina da Alma do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="rogue-soulknife.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/rogue-soulknife.xml" />
+			<file name="rogue-soulknife.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/rogue-soulknife.xml" />
 		</update>
 	</info>
 
-	<element name="Lâmina da Alma" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_SOULKNIFE">
+	<element name="LÃ¢mina da Alma" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_SOULKNIFE">
 		<supports>Rogue Subclass</supports>
 		<description>
-			<p class="flavor">Atinja Inimigos com Lâminas Psiônicas</p>
-			<p>Um Lâmina da Alma ataca com a mente, cortando barreiras físicas e psíquicas. Estes Ladinos descobrem poder psiônico dentro de si e o canalizam para fazer o seu trabalho furtivo. Como um Lâmina da Alma, suas habilidades psíquicas podem tê-lo assombrado desde a infância, revelando seu potencial total apenas quando você vivenciou o estresse da aventura. Ou você pode ter procurado uma ordem de adeptos psíquicos e passado anos aprendendo como manifestar seu poder.</p>
+			<p class="flavor">Atinja Inimigos com LÃ¢minas PsiÃ´nicas</p>
+			<p>Um LÃ¢mina da Alma ataca com a mente, cortando barreiras fÃ­sicas e psÃ­quicas. Estes Ladinos descobrem poder psiÃ´nico dentro de si e o canalizam para fazer o seu trabalho furtivo. Como um LÃ¢mina da Alma, suas habilidades psÃ­quicas podem tÃª-lo assombrado desde a infÃ¢ncia, revelando seu potencial total apenas quando vocÃª vivenciou o estresse da aventura. Ou vocÃª pode ter procurado uma ordem de adeptos psÃ­quicos e passado anos aprendendo como manifestar seu poder.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSIONIC_POWER" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSYCHIC_BLADES" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_SOUL_BLADES" />
@@ -30,14 +30,14 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Poder Psiônico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSIONIC_POWER">
+	<element name="NÃ­vel 3: Poder PsiÃ´nico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSIONIC_POWER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_PSIONIC_POWER</requirements>
 		<description>
-			<p>Você abriga um poço de energia psiônica dentro de si. Ela é representada pelos seus Dados de Energia Psiônica, que abastecem certos poderes que você possui desta subclasse. A tabela Dados de Energia do Lâmina da Alma mostra o número desses dados que você tem ao atingir certos níveis de Ladino, e a tabela mostra o tamanho do dado.</p>
-			<h5>Dados de Energia do Lâmina da Alma</h5>
+			<p>VocÃª abriga um poÃ§o de energia psiÃ´nica dentro de si. Ela Ã© representada pelos seus Dados de Energia PsiÃ´nica, que abastecem certos poderes que vocÃª possui desta subclasse. A tabela Dados de Energia do LÃ¢mina da Alma mostra o nÃºmero desses dados que vocÃª tem ao atingir certos nÃ­veis de Ladino, e a tabela mostra o tamanho do dado.</p>
+			<h5>Dados de Energia do LÃ¢mina da Alma</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td>Nível de Ladino</td><td>Tamanho do Dado</td><td>Quantidade</td></tr>
+					<tr><td>NÃ­vel de Ladino</td><td>Tamanho do Dado</td><td>Quantidade</td></tr>
 				</thead>
 				<tr><td>3</td><td>D6</td><td>4</td></tr>
 				<tr><td>5</td><td>D8</td><td>6</td></tr>
@@ -46,14 +46,14 @@
 				<tr><td>13</td><td>D10</td><td>10</td></tr>
 				<tr><td>17</td><td>D12</td><td>12</td></tr>
 			</table>
-			<p>Quaisquer características nesta subclasse que usem um Dado de Energia Psiônica utilizam apenas os dados desta subclasse. Alguns de seus poderes gastam um Dado de Energia Psiônica, conforme especificado na descrição de um poder, e você não pode usar um poder se ele exigir que você use um dado quando todos os seus Dados de Energia Psiônica estiverem gastos.</p>
-			<p class="indent">Você recupera um de seus Dados de Energia Psiônica gastos ao terminar um Descanso Curto e recupera todos eles ao terminar um Descanso Longo.</p>
-			<p class="indent"><em><strong>Talento Impulsionado por Psi.</strong></em> Se você falhar em um teste de habilidade usando uma perícia ou ferramenta com a qual tenha proficiência, você pode rolar um Dado de Energia Psiônica e adicionar o número rolado ao teste, potencialmente transformando a falha em sucesso. O dado só é gasto se a rolagem for bem-sucedida.</p>
-			<p class="indent"><em><strong>Sussurros Psíquicos.</strong></em> Você pode estabelecer comunicação telepática entre você e os outros. Como uma Ação Mágica, escolha uma ou mais criaturas que você possa ver, até um número de criaturas igual ao seu Bônus de Proficiência, e então role um Dado de Energia Psiônica. Por um número de horas igual ao número rolado, as criaturas escolhidas podem falar telepaticamente com você, e você pode falar telepaticamente com elas. Para enviar ou receber uma mensagem (não requer ação), você e a outra criatura devem estar a até 1,5 km (1 milha) um do outro. Uma criatura pode encerrar a conexão telepática a qualquer momento (não requer ação).</p>
-			<p class="indent">A primeira vez que usar este poder após cada Descanso Longo, você não gasta o Dado de Energia Psiônica. Todas as outras vezes que usar o poder, você gasta o dado.</p>
+			<p>Quaisquer caracterÃ­sticas nesta subclasse que usem um Dado de Energia PsiÃ´nica utilizam apenas os dados desta subclasse. Alguns de seus poderes gastam um Dado de Energia PsiÃ´nica, conforme especificado na descriÃ§Ã£o de um poder, e vocÃª nÃ£o pode usar um poder se ele exigir que vocÃª use um dado quando todos os seus Dados de Energia PsiÃ´nica estiverem gastos.</p>
+			<p class="indent">VocÃª recupera um de seus Dados de Energia PsiÃ´nica gastos ao terminar um Descanso Curto e recupera todos eles ao terminar um Descanso Longo.</p>
+			<p class="indent"><em><strong>Talento Impulsionado por Psi.</strong></em> Se vocÃª falhar em um teste de habilidade usando uma perÃ­cia ou ferramenta com a qual tenha proficiÃªncia, vocÃª pode rolar um Dado de Energia PsiÃ´nica e adicionar o nÃºmero rolado ao teste, potencialmente transformando a falha em sucesso. O dado sÃ³ Ã© gasto se a rolagem for bem-sucedida.</p>
+			<p class="indent"><em><strong>Sussurros PsÃ­quicos.</strong></em> VocÃª pode estabelecer comunicaÃ§Ã£o telepÃ¡tica entre vocÃª e os outros. Como uma AÃ§Ã£o MÃ¡gica, escolha uma ou mais criaturas que vocÃª possa ver, atÃ© um nÃºmero de criaturas igual ao seu BÃ´nus de ProficiÃªncia, e entÃ£o role um Dado de Energia PsiÃ´nica. Por um nÃºmero de horas igual ao nÃºmero rolado, as criaturas escolhidas podem falar telepaticamente com vocÃª, e vocÃª pode falar telepaticamente com elas. Para enviar ou receber uma mensagem (nÃ£o requer aÃ§Ã£o), vocÃª e a outra criatura devem estar a atÃ© 1,5 km (1 milha) um do outro. Uma criatura pode encerrar a conexÃ£o telepÃ¡tica a qualquer momento (nÃ£o requer aÃ§Ã£o).</p>
+			<p class="indent">A primeira vez que usar este poder apÃ³s cada Descanso Longo, vocÃª nÃ£o gasta o Dado de Energia PsiÃ´nica. Todas as outras vezes que usar o poder, vocÃª gasta o dado.</p>
 		</description>
-		<sheet alt="Poder Psiônico" usage="{{rogue:psionic power:dice amount}}d{{rogue:psionic power:dice size}}/Descanso Longo">
-			<description>Você recupera 1 dado gasto quando termina um Descanso Curto.</description>
+		<sheet alt="Poder PsiÃ´nico" usage="{{rogue:psionic power:dice amount}}d{{rogue:psionic power:dice size}}/Descanso Longo">
+			<description>VocÃª recupera 1 dado gasto quando termina um Descanso Curto.</description>
 		</sheet>
 		<rules>
 			<stat name="rogue:psionic power:dice size" value="6" bonus="base" />
@@ -73,48 +73,48 @@
 			<select type="Archetype Feature" name="Psychic Whispers" supports="PHB24 Psychic Whispers" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSIONIC_POWER_PSYCHIC_WHISPERS" />
 		</rules>
 	</element>
-	<element name="Talento Impulsionado por Psi" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSIONIC_POWER_PSI_BOLSTERED_KNACK">
+	<element name="Talento Impulsionado por Psi" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSIONIC_POWER_PSI_BOLSTERED_KNACK">
 		<supports>PHB24 Psi-Bolstered Knack</supports>
 		<compendium display="false" />
 		<description>
-			<p>Se você falhar em um teste de habilidade usando uma perícia ou ferramenta com a qual tenha proficiência, você pode rolar um Dado de Energia Psiônica e adicionar o número rolado ao teste, potencialmente transformando a falha em sucesso. O dado só é gasto se a rolagem for bem-sucedida.</p>
+			<p>Se vocÃª falhar em um teste de habilidade usando uma perÃ­cia ou ferramenta com a qual tenha proficiÃªncia, vocÃª pode rolar um Dado de Energia PsiÃ´nica e adicionar o nÃºmero rolado ao teste, potencialmente transformando a falha em sucesso. O dado sÃ³ Ã© gasto se a rolagem for bem-sucedida.</p>
 		</description>
-		<sheet usage="Dado de Energia Psiônica">
-			<description>Se falhar num teste de habilidade usando uma perícia ou ferramenta com a qual tenha proficiência, adicione 1d{{rogue:psionic power:dice size}} ao teste, potencialmente o tornando um sucesso. O dado só é gasto se tiver sucesso.</description>
+		<sheet usage="Dado de Energia PsiÃ´nica">
+			<description>Se falhar num teste de habilidade usando uma perÃ­cia ou ferramenta com a qual tenha proficiÃªncia, adicione 1d{{rogue:psionic power:dice size}} ao teste, potencialmente o tornando um sucesso. O dado sÃ³ Ã© gasto se tiver sucesso.</description>
 		</sheet>
 	</element>
-	<element name="Sussurros Psíquicos" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSIONIC_POWER_PSYCHIC_WHISPERS">
+	<element name="Sussurros PsÃ­quicos" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSIONIC_POWER_PSYCHIC_WHISPERS">
 		<supports>PHB24 Psychic Whispers</supports>
 		<compendium display="false" />
 		<description>
-			<p>Você pode estabelecer comunicação telepática entre você e os outros. Como uma Ação Mágica, escolha uma ou mais criaturas que você possa ver, até um número de criaturas igual ao seu Bônus de Proficiência, e então role um Dado de Energia Psiônica. Por um número de horas igual ao número rolado, as criaturas escolhidas podem falar telepaticamente com você, e você pode falar telepaticamente com elas. Para enviar ou receber uma mensagem (não requer ação), você e a outra criatura devem estar a até 1,5 km (1 milha) um do outro. Uma criatura pode encerrar a conexão telepática a qualquer momento (não requer ação).</p>
-			<p class="indent">A primeira vez que usar este poder após cada Descanso Longo, você não gasta o Dado de Energia Psiônica. Todas as outras vezes que usar o poder, você gasta o dado.</p>
+			<p>VocÃª pode estabelecer comunicaÃ§Ã£o telepÃ¡tica entre vocÃª e os outros. Como uma AÃ§Ã£o MÃ¡gica, escolha uma ou mais criaturas que vocÃª possa ver, atÃ© um nÃºmero de criaturas igual ao seu BÃ´nus de ProficiÃªncia, e entÃ£o role um Dado de Energia PsiÃ´nica. Por um nÃºmero de horas igual ao nÃºmero rolado, as criaturas escolhidas podem falar telepaticamente com vocÃª, e vocÃª pode falar telepaticamente com elas. Para enviar ou receber uma mensagem (nÃ£o requer aÃ§Ã£o), vocÃª e a outra criatura devem estar a atÃ© 1,5 km (1 milha) um do outro. Uma criatura pode encerrar a conexÃ£o telepÃ¡tica a qualquer momento (nÃ£o requer aÃ§Ã£o).</p>
+			<p class="indent">A primeira vez que usar este poder apÃ³s cada Descanso Longo, vocÃª nÃ£o gasta o Dado de Energia PsiÃ´nica. Todas as outras vezes que usar o poder, vocÃª gasta o dado.</p>
 		</description>
-		<sheet action="Ação" usage="Dado de Energia Psiônica">
-			<description>Escolha até {{proficiency}} criaturas visíveis e role 1d{{rogue:psionic power:dice size}}. Por esse número em horas, vocês podem se falar telepaticamente a até 1,5 km. Uma criatura pode encerrar a conexão a qualquer momento. &#13;
-			A 1ª vez que usar isso após um Descanso Longo, você não gasta o dado.</description>
+		<sheet action="AÃ§Ã£o" usage="Dado de Energia PsiÃ´nica">
+			<description>Escolha atÃ© {{proficiency}} criaturas visÃ­veis e role 1d{{rogue:psionic power:dice size}}. Por esse nÃºmero em horas, vocÃªs podem se falar telepaticamente a atÃ© 1,5 km. Uma criatura pode encerrar a conexÃ£o a qualquer momento. &#13;
+			A 1Âª vez que usar isso apÃ³s um Descanso Longo, vocÃª nÃ£o gasta o dado.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 3: Lâminas Psíquicas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSYCHIC_BLADES">
+	<element name="NÃ­vel 3: LÃ¢minas PsÃ­quicas" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSYCHIC_BLADES">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_PSYCHIC_BLADES||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_SOUL_BLADES)</requirements>
 		<description>
-			<p style="margin-bottom: 5px">Você pode manifestar lâminas cintilantes de energia psíquica. Sempre que realizar a ação de Ataque ou fizer um Ataque de Oportunidade, você pode manifestar uma Lâmina Psíquica em sua mão livre e fazer o ataque com essa lâmina. Essa arma mágica tem as seguintes características:</p>
+			<p style="margin-bottom: 5px">VocÃª pode manifestar lÃ¢minas cintilantes de energia psÃ­quica. Sempre que realizar a aÃ§Ã£o de Ataque ou fizer um Ataque de Oportunidade, vocÃª pode manifestar uma LÃ¢mina PsÃ­quica em sua mÃ£o livre e fazer o ataque com essa lÃ¢mina. Essa arma mÃ¡gica tem as seguintes caracterÃ­sticas:</p>
 			<ul class="unstyled" style="text-indent: -1em; margin-left: 1em; margin-bottom: 5px">
 				<li><strong>Categoria da Arma:</strong> Corpo a Corpo Simples</li>
-				<li><strong>Dano ao Acertar:</strong> 1d6 Psíquico mais o modificador de habilidade usado na jogada de ataque</li>
+				<li><strong>Dano ao Acertar:</strong> 1d6 PsÃ­quico mais o modificador de habilidade usado na jogada de ataque</li>
 				<li><strong>Propriedades:</strong> Acuidade, Arremesso (alcance 18/36 metros)</li>
-				<li><strong>Maestria:</strong> Oprimir (você pode usar esta propriedade e ela não conta no limite de propriedades que você pode usar com Maestria em Armas)</li>
+				<li><strong>Maestria:</strong> Oprimir (vocÃª pode usar esta propriedade e ela nÃ£o conta no limite de propriedades que vocÃª pode usar com Maestria em Armas)</li>
 			</ul>
-			<p>A lâmina desaparece imediatamente após atingir ou errar o alvo e não deixa marcas se causar dano.</p>
-			<p class="indent">Após atacar com a lâmina em seu turno, você pode fazer um ataque corpo a corpo ou à distância com uma segunda lâmina psíquica como Ação Bônus no mesmo turno, se sua outra mão estiver livre para criá-la. O dado de dano deste ataque bônus é 1d4 em vez de 1d6.</p>
+			<p>A lÃ¢mina desaparece imediatamente apÃ³s atingir ou errar o alvo e nÃ£o deixa marcas se causar dano.</p>
+			<p class="indent">ApÃ³s atacar com a lÃ¢mina em seu turno, vocÃª pode fazer um ataque corpo a corpo ou Ã  distÃ¢ncia com uma segunda lÃ¢mina psÃ­quica como AÃ§Ã£o BÃ´nus no mesmo turno, se sua outra mÃ£o estiver livre para criÃ¡-la. O dado de dano deste ataque bÃ´nus Ã© 1d4 em vez de 1d6.</p>
 		</description>
-		<sheet alt="Lâminas Psíquicas">
-			<description>Sempre que realizar a ação de Ataque ou fizer um Ataque de Oportunidade, você pode manifestar uma lâmina psíquica em sua mão livre e usá-la. A lâmina é uma arma Corpo a Corpo Simples com as propriedades Acuidade e Arremesso (alcance 18/36m). Ela causa 1d6+{{psychic blades:modifier}} de dano Psíquico ao acertar, e desaparece após o ataque, sem deixar marcas. Seus ataques com a lâmina podem usar a maestria Oprimir. &#13;
-			Após atacar com a lâmina no seu turno, você pode fazer outro ataque com uma segunda lâmina como uma Ação Bônus se a outra mão estiver livre. Este ataque bônus causa 1d4+{{psychic blades:modifier}} de dano Psíquico ao acertar.</description>
-			<description level="9">Sempre que realizar a ação de Ataque ou fizer um Ataque de Oportunidade, você pode manifestar uma lâmina psíquica em sua mão livre e usá-la. A lâmina é uma arma Corpo a Corpo Simples com as propriedades Acuidade e Arremesso (alcance 18/36m). Ela causa 1d6+{{psychic blades:modifier}} de dano Psíquico ao acertar, e desaparece após o ataque, sem deixar marcas. Seus ataques com a lâmina podem usar a maestria Oprimir. &#13;
-			Após atacar com a lâmina no seu turno, você pode fazer outro ataque com uma segunda lâmina como uma Ação Bônus se a outra mão estiver livre. Este ataque bônus causa 1d4+{{psychic blades:modifier}} de dano Psíquico ao acertar. &#13;
-			Você pode usar os seguintes poderes com suas Lâminas Psíquicas:</description>
+		<sheet alt="LÃ¢minas PsÃ­quicas">
+			<description>Sempre que realizar a aÃ§Ã£o de Ataque ou fizer um Ataque de Oportunidade, vocÃª pode manifestar uma lÃ¢mina psÃ­quica em sua mÃ£o livre e usÃ¡-la. A lÃ¢mina Ã© uma arma Corpo a Corpo Simples com as propriedades Acuidade e Arremesso (alcance 18/36m). Ela causa 1d6+{{psychic blades:modifier}} de dano PsÃ­quico ao acertar, e desaparece apÃ³s o ataque, sem deixar marcas. Seus ataques com a lÃ¢mina podem usar a maestria Oprimir. &#13;
+			ApÃ³s atacar com a lÃ¢mina no seu turno, vocÃª pode fazer outro ataque com uma segunda lÃ¢mina como uma AÃ§Ã£o BÃ´nus se a outra mÃ£o estiver livre. Este ataque bÃ´nus causa 1d4+{{psychic blades:modifier}} de dano PsÃ­quico ao acertar.</description>
+			<description level="9">Sempre que realizar a aÃ§Ã£o de Ataque ou fizer um Ataque de Oportunidade, vocÃª pode manifestar uma lÃ¢mina psÃ­quica em sua mÃ£o livre e usÃ¡-la. A lÃ¢mina Ã© uma arma Corpo a Corpo Simples com as propriedades Acuidade e Arremesso (alcance 18/36m). Ela causa 1d6+{{psychic blades:modifier}} de dano PsÃ­quico ao acertar, e desaparece apÃ³s o ataque, sem deixar marcas. Seus ataques com a lÃ¢mina podem usar a maestria Oprimir. &#13;
+			ApÃ³s atacar com a lÃ¢mina no seu turno, vocÃª pode fazer outro ataque com uma segunda lÃ¢mina como uma AÃ§Ã£o BÃ´nus se a outra mÃ£o estiver livre. Este ataque bÃ´nus causa 1d4+{{psychic blades:modifier}} de dano PsÃ­quico ao acertar. &#13;
+			VocÃª pode usar os seguintes poderes com suas LÃ¢minas PsÃ­quicas:</description>
 		</sheet>
 		<rules>
 			<stat name="psychic blades:modifier" value="strength:modifier" bonus="base" />
@@ -125,57 +125,57 @@
 		</rules>
 	</element>
 
-	<element name="Nível 9: Lâminas da Alma" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_SOUL_BLADES">
+	<element name="NÃ­vel 9: LÃ¢minas da Alma" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_SOUL_BLADES">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_SOUL_BLADES</requirements>
 		<description>
-			<p>Você agora pode usar os seguintes poderes com suas Lâminas Psíquicas.</p>
-			<p class="indent"><strong><em>Golpes Teleguiados.</em></strong> Se você fizer uma jogada de ataque com sua Lâmina Psíquica e errar o alvo, você pode rolar um Dado de Energia Psiônica e adicionar o número rolado ao ataque. Se isso fizer o ataque acertar, o dado é gasto.</p>
-			<p class="indent"><strong><em>Teletransporte Psíquico.</em></strong> Como uma Ação Bônus, você manifesta uma Lâmina Psíquica, gasta um Dado de Energia Psiônica e rola-o, e atira a lâmina num espaço desocupado que você possa ver a uma distância de até 3 metros (10 pés) vezes o número rolado. Você então se teletransporta para aquele espaço, e a lâmina desaparece.</p>
+			<p>VocÃª agora pode usar os seguintes poderes com suas LÃ¢minas PsÃ­quicas.</p>
+			<p class="indent"><strong><em>Golpes Teleguiados.</em></strong> Se vocÃª fizer uma jogada de ataque com sua LÃ¢mina PsÃ­quica e errar o alvo, vocÃª pode rolar um Dado de Energia PsiÃ´nica e adicionar o nÃºmero rolado ao ataque. Se isso fizer o ataque acertar, o dado Ã© gasto.</p>
+			<p class="indent"><strong><em>Teletransporte PsÃ­quico.</em></strong> Como uma AÃ§Ã£o BÃ´nus, vocÃª manifesta uma LÃ¢mina PsÃ­quica, gasta um Dado de Energia PsiÃ´nica e rola-o, e atira a lÃ¢mina num espaÃ§o desocupado que vocÃª possa ver a uma distÃ¢ncia de atÃ© 3 metros (10 pÃ©s) vezes o nÃºmero rolado. VocÃª entÃ£o se teletransporta para aquele espaÃ§o, e a lÃ¢mina desaparece.</p>
 		</description>
 		<sheet display="false" />
 	</element>
-	<element name="Golpes Teleguiados" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_SOUL_BLADES_HOMING_STRIKES">
+	<element name="Golpes Teleguiados" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_SOUL_BLADES_HOMING_STRIKES">
 		<supports>PHB24 Homing Strikes</supports>
 		<compendium display="false" />
 		<description>
-			<p>Se você fizer uma jogada de ataque com sua Lâmina Psíquica e errar o alvo, você pode rolar um Dado de Energia Psiônica e adicionar o número rolado ao ataque. Se isso fizer o ataque acertar, o dado é gasto.</p>
+			<p>Se vocÃª fizer uma jogada de ataque com sua LÃ¢mina PsÃ­quica e errar o alvo, vocÃª pode rolar um Dado de Energia PsiÃ´nica e adicionar o nÃºmero rolado ao ataque. Se isso fizer o ataque acertar, o dado Ã© gasto.</p>
 		</description>
-		<sheet usage="Dado de Energia Psiônica">
-			<description>Se fizer uma jogada de ataque e errar, você pode adicionar 1d{{rogue:psionic power:dice size}} ao ataque. Se ainda assim errar, o dado não é gasto.</description>
+		<sheet usage="Dado de Energia PsiÃ´nica">
+			<description>Se fizer uma jogada de ataque e errar, vocÃª pode adicionar 1d{{rogue:psionic power:dice size}} ao ataque. Se ainda assim errar, o dado nÃ£o Ã© gasto.</description>
 		</sheet>
 	</element>
-	<element name="Teletransporte Psíquico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_SOUL_BLADES_PSYCHIC_TELEPORTATION">
+	<element name="Teletransporte PsÃ­quico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_SOUL_BLADES_PSYCHIC_TELEPORTATION">
 		<supports>PHB24 Psychic Teleportation</supports>
 		<compendium display="false" />
 		<description>
-			<p>Como uma Ação Bônus, você manifesta uma Lâmina Psíquica, gasta um Dado de Energia Psiônica e rola-o, e atira a lâmina num espaço desocupado que você possa ver a uma distância de até 3 metros (10 pés) vezes o número rolado. Você então se teletransporta para aquele espaço, e a lâmina desaparece.</p>
+			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª manifesta uma LÃ¢mina PsÃ­quica, gasta um Dado de Energia PsiÃ´nica e rola-o, e atira a lÃ¢mina num espaÃ§o desocupado que vocÃª possa ver a uma distÃ¢ncia de atÃ© 3 metros (10 pÃ©s) vezes o nÃºmero rolado. VocÃª entÃ£o se teletransporta para aquele espaÃ§o, e a lÃ¢mina desaparece.</p>
 		</description>
-		<sheet action="Ação Bônus" usage="Dado de Energia Psiônica">
-			<description>Você atira a lâmina num espaço desocupado que você possa ver a até 1d{{rogue:psionic power:dice size}} x 3 metros de distância, e então se teletransporta para lá.</description>
+		<sheet action="AÃ§Ã£o BÃ´nus" usage="Dado de Energia PsiÃ´nica">
+			<description>VocÃª atira a lÃ¢mina num espaÃ§o desocupado que vocÃª possa ver a atÃ© 1d{{rogue:psionic power:dice size}} x 3 metros de distÃ¢ncia, e entÃ£o se teletransporta para lÃ¡.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 13: Véu Psíquico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSYCHIC_VEIL">
+	<element name="NÃ­vel 13: VÃ©u PsÃ­quico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSYCHIC_VEIL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_PSYCHIC_VEIL</requirements>
 		<description>
-			<p>Você pode tecer um véu de estática psíquica para se mascarar. Como uma Ação Mágica, você ganha a condição Invisível por 1 hora ou até você encerrar este efeito (não requer ação). Essa invisibilidade termina mais cedo imediatamente após você causar dano a uma criatura ou forçar uma criatura a fazer um teste de resistência.</p>
-			<p class="indent">Depois de usar esta característica, você não pode fazê-lo novamente até terminar um Descanso Longo, a não ser que gaste um Dado de Energia Psiônica (não requer ação) para restaurar o seu uso.</p>
+			<p>VocÃª pode tecer um vÃ©u de estÃ¡tica psÃ­quica para se mascarar. Como uma AÃ§Ã£o MÃ¡gica, vocÃª ganha a condiÃ§Ã£o InvisÃ­vel por 1 hora ou atÃ© vocÃª encerrar este efeito (nÃ£o requer aÃ§Ã£o). Essa invisibilidade termina mais cedo imediatamente apÃ³s vocÃª causar dano a uma criatura ou forÃ§ar uma criatura a fazer um teste de resistÃªncia.</p>
+			<p class="indent">Depois de usar esta caracterÃ­stica, vocÃª nÃ£o pode fazÃª-lo novamente atÃ© terminar um Descanso Longo, a nÃ£o ser que gaste um Dado de Energia PsiÃ´nica (nÃ£o requer aÃ§Ã£o) para restaurar o seu uso.</p>
 		</description>
-		<sheet alt="Véu Psíquico" action="Ação" usage="1/Descanso Longo">
-			<description>Você magicamente ganha a condição Invisível por 1 hora ou até você encerrar. A invisibilidade acaba caso você cause dano a uma criatura ou force-a a fazer um teste de resistência. &#13;
-			Você pode gastar um Dado de Energia Psiônica para restaurar o uso.</description>
+		<sheet alt="VÃ©u PsÃ­quico" action="AÃ§Ã£o" usage="1/Descanso Longo">
+			<description>VocÃª magicamente ganha a condiÃ§Ã£o InvisÃ­vel por 1 hora ou atÃ© vocÃª encerrar. A invisibilidade acaba caso vocÃª cause dano a uma criatura ou force-a a fazer um teste de resistÃªncia. &#13;
+			VocÃª pode gastar um Dado de Energia PsiÃ´nica para restaurar o uso.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 17: Dilacerar Mente" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_REND_MIND">
+	<element name="NÃ­vel 17: Dilacerar Mente" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_REND_MIND">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_REND_MIND</requirements>
 		<description>
-			<p>Você pode passar suas Lâminas Psíquicas pela mente de uma criatura. Quando você usa suas Lâminas Psíquicas para causar dano de Ataque Furtivo a uma criatura, você pode forçar aquele alvo a fazer um teste de resistência de Sabedoria (CD 8 mais o seu modificador de Destreza e Bônus de Proficiência). Se falhar na resistência, o alvo ganha a condição Atordoado por 1 minuto. O alvo Atordoado repete o teste de resistência no final de cada um dos turnos dele, encerrando o efeito em si mesmo em um sucesso.</p>
-			<p class="indent">Depois de usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo a não ser que gaste três Dados de Energia Psiônica (não requer ação) para restaurar o seu uso.</p>
+			<p>VocÃª pode passar suas LÃ¢minas PsÃ­quicas pela mente de uma criatura. Quando vocÃª usa suas LÃ¢minas PsÃ­quicas para causar dano de Ataque Furtivo a uma criatura, vocÃª pode forÃ§ar aquele alvo a fazer um teste de resistÃªncia de Sabedoria (CD 8 mais o seu modificador de Destreza e BÃ´nus de ProficiÃªncia). Se falhar na resistÃªncia, o alvo ganha a condiÃ§Ã£o Atordoado por 1 minuto. O alvo Atordoado repete o teste de resistÃªncia no final de cada um dos turnos dele, encerrando o efeito em si mesmo em um sucesso.</p>
+			<p class="indent">Depois de usar esta caracterÃ­stica, vocÃª nÃ£o pode usÃ¡-la novamente atÃ© terminar um Descanso Longo a nÃ£o ser que gaste trÃªs Dados de Energia PsiÃ´nica (nÃ£o requer aÃ§Ã£o) para restaurar o seu uso.</p>
 		</description>
 		<sheet alt="Dilacerar Mente" usage="1/Descanso Longo">
-			<description>Quando causar dano de Ataque Furtivo com as Lâminas Psíquicas a uma criatura, você pode forçá-la a fazer um teste de resistência de Sabedoria CD {{rend mind:dc}}. Em uma falha, o alvo fica Atordoado por 1 minuto. Ele pode repetir o teste no final de cada turno dele. &#13;
-			Você pode gastar 3 Dados de Energia Psiônica para restaurar um uso.</description>
+			<description>Quando causar dano de Ataque Furtivo com as LÃ¢minas PsÃ­quicas a uma criatura, vocÃª pode forÃ§Ã¡-la a fazer um teste de resistÃªncia de Sabedoria CD {{rend mind:dc}}. Em uma falha, o alvo fica Atordoado por 1 minuto. Ele pode repetir o teste no final de cada turno dele. &#13;
+			VocÃª pode gastar 3 Dados de Energia PsiÃ´nica para restaurar um uso.</description>
 		</sheet>
 		<rules>
 			<stat name="rend mind:dc" value="8" bonus="base" />

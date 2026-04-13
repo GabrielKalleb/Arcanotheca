@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/warlock-archfey.xml" />
+			<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook/archetypes/warlock-archfey.xml" />
 		</update>
 	</info>
 
-	<element name="The Archfey" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_ARCHFEY">
+	<element name="The Archfey" type="Archetype" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_ARCHFEY">
 		<supports>Otherworldly Patron</supports>
 		<description>
-			<p>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being’s motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.</p>
+			<p>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This beingâ€™s motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.</p>
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST"/>
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE"/>
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE"/>
@@ -27,7 +27,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM" level="14" />
 		</rules>
 	</element>
-	<element name="Expanded Spell List" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST">
+	<element name="Expanded Spell List" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_EXPANDED_SPELL_LIST</requirements>
 		<description>
 			<p>The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
@@ -59,17 +59,17 @@
 			<extend>ID_PHB_SPELL_SEEMING</extend>
 		</spellcasting>
 	</element>
-	<element name="Fey Presence" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE">
+	<element name="Fey Presence" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_FEY_PRESENCE</requirements>
 		<description>
 			<p>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.</p>
-			<p class="indent">Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
+			<p class="indent">Once you use this feature, you canâ€™t use it again until you finish a short or long rest.</p>
 		</description>
 		<sheet action="Action" usage="1/Short Rest">
 			<description>You can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw. The creatures that fail their saving throws are all charmed or frightened by you until the end of your next turn.</description>
 		</sheet>
 	</element>
-	<element name="Misty Escape" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE">
+	<element name="Misty Escape" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_MISTY_ESCAPE</requirements>
 		<description>
 			<p>Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.</p>
@@ -79,7 +79,7 @@
 			<description>When you take damage, you can turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.</description>
 		</sheet>
 	</element>
-	<element name="Beguiling Defenses" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES">
+	<element name="Beguiling Defenses" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_BEGUILING_DEFENSES</requirements>
 		<description>
 			<p>Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed by you for 1 minute or until the creature takes any damage.</p>
@@ -88,7 +88,7 @@
 			<description>You are immune to being charmed, and when another creature attempts to charm you, you can attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw or be charmed by you for 1 minute or until the creature takes any damage.</description>
 		</sheet>
 	</element>
-	<element name="Dark Delirium" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM">
+	<element name="Dark Delirium" type="Archetype Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_DARK_DELIRIUM</requirements>
 		<description>
 			<p>Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage.</p>

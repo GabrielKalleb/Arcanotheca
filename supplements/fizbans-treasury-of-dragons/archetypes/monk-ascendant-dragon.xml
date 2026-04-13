@@ -5,7 +5,7 @@
 		<description>The Way of the Ascendant Dragon from Fizban's Treasury of Dragons</description>
 		<author url="https://dnd.wizards.com/products/treasury-dragons">Fizban's Treasury of Dragons</author>
 		<update version="0.0.1">
-			<file name="monk-ascendant-dragon.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/fizbans-treasury-of-dragons/archetypes/monk-ascendant-dragon.xml" />
+			<file name="monk-ascendant-dragon.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/fizbans-treasury-of-dragons/archetypes/monk-ascendant-dragon.xml" />
 		</update>
 	</info>
 	<element name="Way of the Ascendant Dragon" type="Archetype" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_ARCHETYPE_MONK_WAY_OF_THE_ASCENDANT_DRAGON">
@@ -18,10 +18,10 @@
 				<thead>
 					<tr><td class="col-10">d6</td><td>Origin</td></tr>
 				</thead>
-				<tr><td>1</td><td>You honed your abilities by aligning your spirit with a dragon’s world-altering power.</td></tr>
+				<tr><td>1</td><td>You honed your abilities by aligning your spirit with a dragonâ€™s world-altering power.</td></tr>
 				<tr><td>2</td><td>A dragon personally took an active role in shaping your inner energy.</td></tr>
-				<tr><td>3</td><td>You studied at a monastery that traces its teachings back centuries or more to a single dragon’s instruction, or one that is devoted to a dragon god.</td></tr>
-				<tr><td>4</td><td>You spent long stretches meditating in the region around an ancient dragon’s lair, absorbing that lair’s ambient magic.</td></tr>
+				<tr><td>3</td><td>You studied at a monastery that traces its teachings back centuries or more to a single dragonâ€™s instruction, or one that is devoted to a dragon god.</td></tr>
+				<tr><td>4</td><td>You spent long stretches meditating in the region around an ancient dragonâ€™s lair, absorbing that lairâ€™s ambient magic.</td></tr>
 				<tr><td>5</td><td>You found a scroll written in Draconic that contained inspiring new techniques.</td></tr>
 				<tr><td>6</td><td>After a dream featuring a five-handed dragonborn, you awoke with the mystical breath of dragons.</td></tr>
 			</table>
@@ -44,8 +44,8 @@
 	<element name="Draconic Disciple" type="Archetype Feature" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_ARCHETYPE_FEATURE_WAY_OF_THE_ASCENDANT_DRAGON_DRACONIC_DISCIPLE">
 		<description>
 			<p><em>3rd-Level Way of the Ascendant Dragon Feature</em></p>
-			<p>You can channel draconic power to magnify your presence and imbue your unarmed strikes with the essence of a dragon’s breath. You gain the following benefits:</p>
-			<p style="text-indent: -1em; margin-left: 1em"><b>Draconic Presence.</b> If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check, as you tap into the mighty presence of dragons. Once this feature turns a failure into a success, you can’t use it again until you finish a long rest.</p>
+			<p>You can channel draconic power to magnify your presence and imbue your unarmed strikes with the essence of a dragonâ€™s breath. You gain the following benefits:</p>
+			<p style="text-indent: -1em; margin-left: 1em"><b>Draconic Presence.</b> If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check, as you tap into the mighty presence of dragons. Once this feature turns a failure into a success, you canâ€™t use it again until you finish a long rest.</p>
 			<p class="indent" style="text-indent: -1em; margin-left: 1em"><b>Draconic Strike.</b> When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.</p>
 			<p class="indent" style="text-indent: -1em; margin-left: 1em"><b>Tongue of Dragons.</b> You learn to speak, read, and write Draconic or one other language of your choice.</p>
 		</description>
@@ -59,10 +59,10 @@
 	<element name="Draconic Presence" type="Archetype Feature" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_ARCHETYPE_FEATURE_WAY_OF_THE_ASCENDANT_DRAGON_DRACONIC_DISCIPLE_DRACONIC_PRESENCE">
 		<compendium display="false" />
 		<description>
-			<p><b>Draconic Presence.</b> If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check, as you tap into the mighty presence of dragons. Once this feature turns a failure into a success, you can’t use it again until you finish a long rest.</p>
+			<p><b>Draconic Presence.</b> If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check, as you tap into the mighty presence of dragons. Once this feature turns a failure into a success, you canâ€™t use it again until you finish a long rest.</p>
 		</description>
 		<sheet action="Reaction">
-			<description>If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can reroll the check. Once this feature turns a failure into a success, you can’t use it again until you finish a long rest.</description>
+			<description>If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can reroll the check. Once this feature turns a failure into a success, you canâ€™t use it again until you finish a long rest.</description>
 		</sheet>
 	</element>
 	<element name="Draconic Strike" type="Archetype Feature" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_ARCHETYPE_FEATURE_WAY_OF_THE_ASCENDANT_DRAGON_DRACONIC_DISCIPLE_DRACONIC_STRIKE">
@@ -110,16 +110,16 @@
 			<p>The power of your draconic spirit now radiates from you, warding your allies or inspiring fear in your enemies. As a bonus action, you can create an aura of draconic power that radiates 10 feet from you for 1 minute. For the duration, you gain one of the following effects of your choice:</p>
 			<p style="text-indent: -1em; margin-left: 1em"><b>Frightful Presence.</b> When you create this aura, and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw against your ki save DC or become frightened of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.</p>
 			<p class="indent" style="text-indent: -1em; margin-left: 1em"><b>Resistance.</b> Choose a damage type when you activate this aura: acid, cold, fire, lightning, or poison. You and your allies within the aura have resistance to that damage.</p>
-			<p>Once you create this aura, you can’t create it again until you finish a long rest, unless you expend 3 ki points to create it again.</p>
+			<p>Once you create this aura, you canâ€™t create it again until you finish a long rest, unless you expend 3 ki points to create it again.</p>
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest">
 			<description>You can create an aura of draconic power that radiates 10 feet from you for 1 minute. For the duration, you gain one of the following effects of your choice: &#13;
-			• Frightful Presence. When you create this aura, and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw against DC{{ki:dc}} or become frightened of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save. &#13;
-			• Resistance. Choose a damage type when you activate this aura: acid, cold, fire, lightning, or poison. You and your allies within the aura have resistance to that damage. &#13;
+			â€¢ Frightful Presence. When you create this aura, and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw against DC{{ki:dc}} or become frightened of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save. &#13;
+			â€¢ Resistance. Choose a damage type when you activate this aura: acid, cold, fire, lightning, or poison. You and your allies within the aura have resistance to that damage. &#13;
 			You can also expend 3 ki points to use this feature again.</description>
 			<description level="17">You can create an aura of draconic power that radiates 10 feet from you. When you do so choose any number of creatures you can see in your aura, each of those creatures must succeed on a Dexterity saving throw against your DC{{ki:dc}} or take 3d10 acid, cold, fire, lightning, or poison damage (your choice). For 1 minute, you gain one of the following effects of your choice: &#13;
-			• Frightful Presence. When you create this aura, and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw DC{{ki:dc}} or become frightened of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save. &#13;
-			• Resistance. Choose a damage type when you activate this aura: acid, cold, fire, lightning, or poison. You and your allies within the aura have resistance to that damage. &#13;
+			â€¢ Frightful Presence. When you create this aura, and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw DC{{ki:dc}} or become frightened of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save. &#13;
+			â€¢ Resistance. Choose a damage type when you activate this aura: acid, cold, fire, lightning, or poison. You and your allies within the aura have resistance to that damage. &#13;
 			You can also expend 3 ki points to use this feature again.</description>
 		</sheet>
 	</element>
@@ -129,7 +129,7 @@
 			<p><em>17th-Level Way of the Ascendant Dragon Feature</em></p>
 			<p>Your draconic spirit reaches its peak. You gain the following benefits:</p>
 			<p style="text-indent: -1em; margin-left: 1em"><b>Augment Breath.</b> When you use your Breath of the Dragon, you can spend 1 ki point to augment its shape and power. The exhalation of draconic energy becomes either a 60-foot cone or a 90-foot line that is 5 feet wide (your choice), and each creature in that area takes damage equal to four rolls of your Martial Arts die on a failed save, or half as much damage on a successful one.</p>
-			<p class="indent" style="text-indent: -1em; margin-left: 1em"><b>Blindsight.</b> You gain blindsight out to 10 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</p>
+			<p class="indent" style="text-indent: -1em; margin-left: 1em"><b>Blindsight.</b> You gain blindsight out to 10 feet. Within that range, you can effectively see anything that isnâ€™t behind total cover, even if youâ€™re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</p>
 			<p class="indent" style="text-indent: -1em; margin-left: 1em"><b>Explosive Fury.</b> When you activate your Aspect of the Wyrm, draconic fury explodes from you. Choose any number of creatures you can see in your aura. Each of those creatures must succeed on a Dexterity saving throw against your ki save DC or take 3d10 acid, cold, fire, lightning, or poison damage (your choice).</p>
 		</description>
 		<sheet display="false" />

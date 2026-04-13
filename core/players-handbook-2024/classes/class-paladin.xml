@@ -5,71 +5,71 @@
 		<description>A classe Paladino do Livro do Jogador 2024.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="class-paladin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-paladin.xml" />
+			<file name="class-paladin.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/classes/class-paladin.xml" />
 		</update>
 	</info>
 
-	<element name="Paladino" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_PALADIN">
+	<element name="Paladino" type="Class" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_PALADIN">
 		<description>
-			<p class="flavor">Paladinos são unidos por seus juramentos de se oporem às forças da aniquilação e corrupção. Seja jurado diante do altar de um deus, em uma clareira sagrada diante dos espíritos da natureza, ou em um momento de desespero e luto apenas com os mortos como testemunhas, o juramento de um Paladino é um vínculo poderoso. É uma fonte de poder que transforma um guerreiro devoto em um campeão abençoado.</p>
-			<p class="indent">Os Paladinos treinam para aprender as habilidades de combate, dominando uma variedade de armas e armaduras. Mesmo assim, suas habilidades marciais são secundárias ao poder mágico que eles empunham: poder para curar os feridos, destruir seus inimigos e proteger os indefesos e aqueles que lutam ao seu lado.</p>
-			<p class="indent">Quase por definição, a vida de um Paladino é uma vida de aventuras, pois todo Paladino vive na linha de frente da luta cósmica contra a aniquilação. Guerreiros já são raros o suficiente nas fileiras dos exércitos do mundo, mas ainda menos pessoas podem reivindicar o chamado de um Paladino. Quando eles recebem o chamado, essas pessoas abençoadas abandonam suas antigas ocupações e empunham armas e magia.</p>
+			<p class="flavor">Paladinos sÃ£o unidos por seus juramentos de se oporem Ã s forÃ§as da aniquilaÃ§Ã£o e corrupÃ§Ã£o. Seja jurado diante do altar de um deus, em uma clareira sagrada diante dos espÃ­ritos da natureza, ou em um momento de desespero e luto apenas com os mortos como testemunhas, o juramento de um Paladino Ã© um vÃ­nculo poderoso. Ã‰ uma fonte de poder que transforma um guerreiro devoto em um campeÃ£o abenÃ§oado.</p>
+			<p class="indent">Os Paladinos treinam para aprender as habilidades de combate, dominando uma variedade de armas e armaduras. Mesmo assim, suas habilidades marciais sÃ£o secundÃ¡rias ao poder mÃ¡gico que eles empunham: poder para curar os feridos, destruir seus inimigos e proteger os indefesos e aqueles que lutam ao seu lado.</p>
+			<p class="indent">Quase por definiÃ§Ã£o, a vida de um Paladino Ã© uma vida de aventuras, pois todo Paladino vive na linha de frente da luta cÃ³smica contra a aniquilaÃ§Ã£o. Guerreiros jÃ¡ sÃ£o raros o suficiente nas fileiras dos exÃ©rcitos do mundo, mas ainda menos pessoas podem reivindicar o chamado de um Paladino. Quando eles recebem o chamado, essas pessoas abenÃ§oadas abandonam suas antigas ocupaÃ§Ãµes e empunham armas e magia.</p>
 			<div class="sidebar">
-				<h5>CARACTERÍSTICAS CENTRAIS DO PALADINO</h5>
+				<h5>CARACTERÃSTICAS CENTRAIS DO PALADINO</h5>
 				<table>
-					<tr><td><b>Habilidade Primária</b></td><td>Força e Carisma</td></tr>
-					<tr><td><b>Dado de Pontos de Vida</b></td><td>D10 por nível de Paladino</td></tr>
-					<tr><td><b>Proficiências em Testes de Resistência</b></td><td>Sabedoria e Carisma</td></tr>
-					<tr><td><b>Proficiências em Perícias</b></td><td><i>Escolha 2:</i> Atletismo, Intuição, Intimidação, Medicina, Persuasão ou Religião</td></tr>
-					<tr><td><b>Proficiências em Armas</b></td><td>Armas Simples e Marciais</td></tr>
-					<tr><td><b>Treinamento em Armaduras</b></td><td>Armaduras Leves, Médias e Pesadas, e Escudos</td></tr>
-					<tr><td><b>Equipamento Inicial</b></td><td><i>Escolha A ou B:</i> (A) Cota de Malha, Escudo, Espada Longa, 6 Azagaias, Símbolo Sagrado, Pacote de Sacerdote e 9 PO; ou (B) 150 PO</td></tr>
+					<tr><td><b>Habilidade PrimÃ¡ria</b></td><td>ForÃ§a e Carisma</td></tr>
+					<tr><td><b>Dado de Pontos de Vida</b></td><td>D10 por nÃ­vel de Paladino</td></tr>
+					<tr><td><b>ProficiÃªncias em Testes de ResistÃªncia</b></td><td>Sabedoria e Carisma</td></tr>
+					<tr><td><b>ProficiÃªncias em PerÃ­cias</b></td><td><i>Escolha 2:</i> Atletismo, IntuiÃ§Ã£o, IntimidaÃ§Ã£o, Medicina, PersuasÃ£o ou ReligiÃ£o</td></tr>
+					<tr><td><b>ProficiÃªncias em Armas</b></td><td>Armas Simples e Marciais</td></tr>
+					<tr><td><b>Treinamento em Armaduras</b></td><td>Armaduras Leves, MÃ©dias e Pesadas, e Escudos</td></tr>
+					<tr><td><b>Equipamento Inicial</b></td><td><i>Escolha A ou B:</i> (A) Cota de Malha, Escudo, Espada Longa, 6 Azagaias, SÃ­mbolo Sagrado, Pacote de Sacerdote e 9 PO; ou (B) 150 PO</td></tr>
 				</table>
 			</div>
 			<h4>TORNANDO-SE UM PALADINO...</h4>
-			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÃVEL 1</h5>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
-				<li>Ganhe todas as características da tabela de Características Centrais do Paladino.</li>
-				<li>Ganhe as características de nível 1 do Paladino, que estão listadas na tabela de Características do Paladino.</li>
+				<li>Ganhe todas as caracterÃ­sticas da tabela de CaracterÃ­sticas Centrais do Paladino.</li>
+				<li>Ganhe as caracterÃ­sticas de nÃ­vel 1 do Paladino, que estÃ£o listadas na tabela de CaracterÃ­sticas do Paladino.</li>
 			</ul>
 			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
 			<ul style="margin-top:-1em">
-				<li>Ganhe as seguintes características da tabela de Características Centrais do Paladino: Dado de Pontos de Vida, proficiência com armas Marciais e treinamento com Armaduras Leves e Médias e Escudos.</li>
-				<li>Ganhe as características de nível 1 do Paladino, que estão listadas na tabela de Características do Paladino.</li>
+				<li>Ganhe as seguintes caracterÃ­sticas da tabela de CaracterÃ­sticas Centrais do Paladino: Dado de Pontos de Vida, proficiÃªncia com armas Marciais e treinamento com Armaduras Leves e MÃ©dias e Escudos.</li>
+				<li>Ganhe as caracterÃ­sticas de nÃ­vel 1 do Paladino, que estÃ£o listadas na tabela de CaracterÃ­sticas do Paladino.</li>
 			</ul>
-			<h5>CARACTERÍSTICAS DO PALADINO</h5>
+			<h5>CARACTERÃSTICAS DO PALADINO</h5>
 			<table class="class-features">
 				<tr style="font-weight: bold">
-					<td rowspan="2">Nível</td>
-					<td class="col-30 left" rowspan="2">Características de Classe</td>
+					<td rowspan="2">NÃ­vel</td>
+					<td class="col-30 left" rowspan="2">CaracterÃ­sticas de Classe</td>
 					<td rowspan="2">Canalizar<br />Divindade</td>
 					<td rowspan="2">Magias<br />Preparadas</td>
-					<td colspan="5" style="vertical-align:bottom; border-bottom: 0px">Espaços de Magia por Nível de Magia</td>
+					<td colspan="5" style="vertical-align:bottom; border-bottom: 0px">EspaÃ§os de Magia por NÃ­vel de Magia</td>
 				</tr>
 				<tr style="font-weight: bold"><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
-				<tr><td> 1</td><td class="left">Cura pelas Mãos, Conjuração, Maestria em Armas</td><td>—</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 2</td><td class="left">Estilo de Luta, Destruição do Paladino</td><td>—</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 3</td><td class="left">Canalizar Divindade, Subclasse de Paladino</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4</td><td class="left">Melhoria no Valor de Habilidade</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5</td><td class="left">Ataque Extra, Montaria Fiel</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6</td><td class="left">Aura de Proteção</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7</td><td class="left">Característica de Subclasse</td><td>2</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 8</td><td class="left">Melhoria no Valor de Habilidade</td><td>2</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 9</td><td class="left">Abjurar Inimigos</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>10</td><td class="left">Aura de Coragem</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>11</td><td class="left">Golpes Radiantes</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>12</td><td class="left">Melhoria no Valor de Habilidade</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>13</td><td class="left">—</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>14</td><td class="left">Toque Restaurador</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>15</td><td class="left">Característica de Subclasse</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>16</td><td class="left">Melhoria no Valor de Habilidade</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>17</td><td class="left">—</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>18</td><td class="left">Expansão de Aura</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>19</td><td class="left">Dádiva Épica</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
-				<tr><td>20</td><td class="left">Característica de Subclasse</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td> 1</td><td class="left">Cura pelas MÃ£os, ConjuraÃ§Ã£o, Maestria em Armas</td><td>â€”</td><td>2</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 2</td><td class="left">Estilo de Luta, DestruiÃ§Ã£o do Paladino</td><td>â€”</td><td>3</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 3</td><td class="left">Canalizar Divindade, Subclasse de Paladino</td><td>2</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 4</td><td class="left">Melhoria no Valor de Habilidade</td><td>2</td><td>5</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 5</td><td class="left">Ataque Extra, Montaria Fiel</td><td>2</td><td>6</td><td>4</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 6</td><td class="left">Aura de ProteÃ§Ã£o</td><td>2</td><td>6</td><td>4</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 7</td><td class="left">CaracterÃ­stica de Subclasse</td><td>2</td><td>7</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 8</td><td class="left">Melhoria no Valor de Habilidade</td><td>2</td><td>7</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 9</td><td class="left">Abjurar Inimigos</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>10</td><td class="left">Aura de Coragem</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>11</td><td class="left">Golpes Radiantes</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>12</td><td class="left">Melhoria no Valor de Habilidade</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>13</td><td class="left">â€”</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>â€”</td></tr>
+				<tr><td>14</td><td class="left">Toque Restaurador</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>â€”</td></tr>
+				<tr><td>15</td><td class="left">CaracterÃ­stica de Subclasse</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>â€”</td></tr>
+				<tr><td>16</td><td class="left">Melhoria no Valor de Habilidade</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>â€”</td></tr>
+				<tr><td>17</td><td class="left">â€”</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>18</td><td class="left">ExpansÃ£o de Aura</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>19</td><td class="left">DÃ¡diva Ã‰pica</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>20</td><td class="left">CaracterÃ­stica de Subclasse</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 			</table>
-			<h4>CARACTERÍSTICAS DE CLASSE DO PALADINO</h4>
-			<p>Como um Paladino, você ganha as seguintes características de classe quando atinge os níveis especificados de Paladino. Estas características estão listadas na tabela Características do Paladino.</p>
+			<h4>CARACTERÃSTICAS DE CLASSE DO PALADINO</h4>
+			<p>Como um Paladino, vocÃª ganha as seguintes caracterÃ­sticas de classe quando atinge os nÃ­veis especificados de Paladino. Estas caracterÃ­sticas estÃ£o listadas na tabela CaracterÃ­sticas do Paladino.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_LAY_ON_HANDS" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_SPELLCASTING" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_WEAPON_MASTERY" />
@@ -123,10 +123,10 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_EPIC_BOON" level="19" />
 		</rules>
 		<multiclass id="ID_WOTC_PHB24_MULTICLASS_PALADIN">
-			<prerequisite>Força 13 e Carisma 13</prerequisite>
+			<prerequisite>ForÃ§a 13 e Carisma 13</prerequisite>
 			<requirements>(([str:13],[cha:13]),!(ID_WOTC_PHB_CLASS_PALADIN||ID_WOTC_PHB_MULTICLASS_PALADIN))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
-				<set name="multiclass proficiencies">Armas Marciais, Armaduras Leves, Armaduras Médias, Escudos</set>
+				<set name="multiclass proficiencies">Armas Marciais, Armaduras Leves, Armaduras MÃ©dias, Escudos</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
@@ -134,16 +134,16 @@
 		</multiclass>
 	</element>
 
-	<element name="Nível 1: Cura pelas Mãos" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_LAY_ON_HANDS">
+	<element name="NÃ­vel 1: Cura pelas MÃ£os" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_LAY_ON_HANDS">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_LAY_ON_HANDS||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_RESTORING_TOUCH)</requirements>
 		<description>
-			<p>Seu toque abençoado pode curar ferimentos. Você tem uma reserva de poder de cura que se reabastece quando você termina um Descanso Longo. Com essa reserva, você pode restaurar um número total de Pontos de Vida igual a cinco vezes o seu nível de Paladino.</p>
-			<p class="indent">Como uma Ação Bônus, você pode tocar uma criatura (que pode ser você mesmo) e extrair poder da sua reserva de cura para restaurar um número de Pontos de Vida àquela criatura, até o valor máximo restante na reserva.</p>
-			<p class="indent">Você também pode gastar 5 Pontos de Vida da sua reserva de cura para remover a condição Envenenado da criatura; esses pontos não restauram Pontos de Vida adicionais para a criatura.</p>
+			<p>Seu toque abenÃ§oado pode curar ferimentos. VocÃª tem uma reserva de poder de cura que se reabastece quando vocÃª termina um Descanso Longo. Com essa reserva, vocÃª pode restaurar um nÃºmero total de Pontos de Vida igual a cinco vezes o seu nÃ­vel de Paladino.</p>
+			<p class="indent">Como uma AÃ§Ã£o BÃ´nus, vocÃª pode tocar uma criatura (que pode ser vocÃª mesmo) e extrair poder da sua reserva de cura para restaurar um nÃºmero de Pontos de Vida Ã quela criatura, atÃ© o valor mÃ¡ximo restante na reserva.</p>
+			<p class="indent">VocÃª tambÃ©m pode gastar 5 Pontos de Vida da sua reserva de cura para remover a condiÃ§Ã£o Envenenado da criatura; esses pontos nÃ£o restauram Pontos de Vida adicionais para a criatura.</p>
 		</description>
-		<sheet alt="Cura pelas Mãos" action="Ação Bônus" usage="{{lay on hands:hp pool}} PV/Descanso Longo">
-			<description>Você pode tocar uma criatura e usar o poder da reserva para restaurar um número de PVs à criatura, até o máximo restante em sua reserva. Alternativamente, pode gastar 5 PV de sua reserva de cura para remover a condição Envenenado da criatura; esses pontos não restauram PVs para a criatura.</description>
-			<description level="14">Você pode tocar uma criatura e usar o poder da reserva para restaurar um número de PVs à criatura, até o máximo restante em sua reserva. Alternativamente, você pode gastar 5 PVs da reserva de cura para cada uma das seguintes condições que remover da criatura: Envenenado, Cego, Enfeitiçado, Surdo, Amedrontado, Paralisado ou Atordoado; esses pontos não restauram PVs para a criatura.</description>
+		<sheet alt="Cura pelas MÃ£os" action="AÃ§Ã£o BÃ´nus" usage="{{lay on hands:hp pool}} PV/Descanso Longo">
+			<description>VocÃª pode tocar uma criatura e usar o poder da reserva para restaurar um nÃºmero de PVs Ã  criatura, atÃ© o mÃ¡ximo restante em sua reserva. Alternativamente, pode gastar 5 PV de sua reserva de cura para remover a condiÃ§Ã£o Envenenado da criatura; esses pontos nÃ£o restauram PVs para a criatura.</description>
+			<description level="14">VocÃª pode tocar uma criatura e usar o poder da reserva para restaurar um nÃºmero de PVs Ã  criatura, atÃ© o mÃ¡ximo restante em sua reserva. Alternativamente, vocÃª pode gastar 5 PVs da reserva de cura para cada uma das seguintes condiÃ§Ãµes que remover da criatura: Envenenado, Cego, EnfeitiÃ§ado, Surdo, Amedrontado, Paralisado ou Atordoado; esses pontos nÃ£o restauram PVs para a criatura.</description>
 		</sheet>
 		<rules>
 			<stat name="lay on hands:hp pool" value="level:paladin" />
@@ -154,24 +154,24 @@
 		</rules>
 	</element>
 
-	<element name="Nível 1: Conjuração" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_SPELLCASTING">
+	<element name="NÃ­vel 1: ConjuraÃ§Ã£o" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_SPELLCASTING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_SPELLCASTING</requirements>
 		<description>
-			<p>Você aprendeu a conjurar magias através de orações e meditação.</p>
-			<p class="indent"><i><b>Espaços de Magia.</b></i> A tabela de Características do Paladino mostra quantos espaços de magia você possui para conjurar magias de nível 1+. Você recupera todos os espaços gastos quando termina um Descanso Longo.</p>
-			<p class="indent"><i><b>Magias Preparadas de Nível 1+.</b></i> Você prepara a lista de magias de nível 1+ que estão disponíveis para conjurar com esta característica. Para começar, escolha duas magias de Paladino de nível 1. <i>Heroísmo</i> e <i>Destruição Calcinante</i> são recomendadas.</p>
-			<p class="indent">O número de magias na sua lista aumenta conforme você ganha níveis de Paladino, conforme mostrado na coluna Magias Preparadas da tabela Características do Paladino. Sempre que esse número aumentar, escolha magias de Paladino adicionais até que o número de magias em sua lista corresponda ao número na tabela. As magias escolhidas devem ser de um nível para o qual você possui espaços de magia. Por exemplo, se você for um Paladino de nível 5, a sua lista de magias preparadas pode incluir seis magias de Paladino de nível 1 ou 2 em qualquer combinação.</p>
-			<p class="indent">Se outra característica de Paladino lhe der magias que você sempre tem preparadas, essas magias não contam no limite de magias que você pode preparar com esta característica, mas ainda contam como magias de Paladino para você.</p>
-			<p class="indent"><i><b>Alterando suas Magias Preparadas.</b></i> Sempre que terminar um Descanso Longo, você pode substituir uma magia da sua lista por outra magia de Paladino para a qual possua espaços de magia.</p>
-			<p class="indent"><i><b>Habilidade de Conjuração.</b></i> Carisma é a sua habilidade de conjuração para as magias de Paladino.</p>
-			<p class="indent"><i><b>Foco de Conjuração.</b></i> Você pode usar um Símbolo Sagrado como um Foco de Conjuração para as suas magias de Paladino.</p>
+			<p>VocÃª aprendeu a conjurar magias atravÃ©s de oraÃ§Ãµes e meditaÃ§Ã£o.</p>
+			<p class="indent"><i><b>EspaÃ§os de Magia.</b></i> A tabela de CaracterÃ­sticas do Paladino mostra quantos espaÃ§os de magia vocÃª possui para conjurar magias de nÃ­vel 1+. VocÃª recupera todos os espaÃ§os gastos quando termina um Descanso Longo.</p>
+			<p class="indent"><i><b>Magias Preparadas de NÃ­vel 1+.</b></i> VocÃª prepara a lista de magias de nÃ­vel 1+ que estÃ£o disponÃ­veis para conjurar com esta caracterÃ­stica. Para comeÃ§ar, escolha duas magias de Paladino de nÃ­vel 1. <i>HeroÃ­smo</i> e <i>DestruiÃ§Ã£o Calcinante</i> sÃ£o recomendadas.</p>
+			<p class="indent">O nÃºmero de magias na sua lista aumenta conforme vocÃª ganha nÃ­veis de Paladino, conforme mostrado na coluna Magias Preparadas da tabela CaracterÃ­sticas do Paladino. Sempre que esse nÃºmero aumentar, escolha magias de Paladino adicionais atÃ© que o nÃºmero de magias em sua lista corresponda ao nÃºmero na tabela. As magias escolhidas devem ser de um nÃ­vel para o qual vocÃª possui espaÃ§os de magia. Por exemplo, se vocÃª for um Paladino de nÃ­vel 5, a sua lista de magias preparadas pode incluir seis magias de Paladino de nÃ­vel 1 ou 2 em qualquer combinaÃ§Ã£o.</p>
+			<p class="indent">Se outra caracterÃ­stica de Paladino lhe der magias que vocÃª sempre tem preparadas, essas magias nÃ£o contam no limite de magias que vocÃª pode preparar com esta caracterÃ­stica, mas ainda contam como magias de Paladino para vocÃª.</p>
+			<p class="indent"><i><b>Alterando suas Magias Preparadas.</b></i> Sempre que terminar um Descanso Longo, vocÃª pode substituir uma magia da sua lista por outra magia de Paladino para a qual possua espaÃ§os de magia.</p>
+			<p class="indent"><i><b>Habilidade de ConjuraÃ§Ã£o.</b></i> Carisma Ã© a sua habilidade de conjuraÃ§Ã£o para as magias de Paladino.</p>
+			<p class="indent"><i><b>Foco de ConjuraÃ§Ã£o.</b></i> VocÃª pode usar um SÃ­mbolo Sagrado como um Foco de ConjuraÃ§Ã£o para as suas magias de Paladino.</p>
 			<center>
-				<p><strong>CD de salvamento de Magia</strong> = 8 + seu bônus de proficiência + seu modificador de Carisma</p>
-				<p><strong>Modificador de ataque de Magia</strong> = seu bônus de proficiência + seu modificador de Carisma</p>
+				<p><strong>CD de salvamento de Magia</strong> = 8 + seu bÃ´nus de proficiÃªncia + seu modificador de Carisma</p>
+				<p><strong>Modificador de ataque de Magia</strong> = seu bÃ´nus de proficiÃªncia + seu modificador de Carisma</p>
 			</center>
 		</description>
-		<sheet alt="Conjuração">
-			<description>Sempre que terminar um Descanso Longo, você pode substituir uma magia de sua lista por outra magia de Paladino.</description>
+		<sheet alt="ConjuraÃ§Ã£o">
+			<description>Sempre que terminar um Descanso Longo, vocÃª pode substituir uma magia de sua lista por outra magia de Paladino.</description>
 		</sheet>
 		<spellcasting name="Paladin" ability="Charisma" allowReplace="true">
 			<list>Paladin</list>
@@ -207,25 +207,25 @@
 		</rules>
 	</element>
 
-	<element name="Nível 1: Maestria em Armas" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_WEAPON_MASTERY">
+	<element name="NÃ­vel 1: Maestria em Armas" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_WEAPON_MASTERY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_WEAPON_MASTERY</requirements>
 		<description>
-			<p>O seu treinamento com armas permite a você usar as propriedades de maestria de dois tipos de armas da sua escolha nas quais tenha proficiência, como Espadas Longas e Azagaias.</p>
-			<p class="indent">Sempre que terminar um Descanso Longo, você pode trocar os tipos de armas que escolheu. Por exemplo, você pode passar a usar as propriedades de maestria de Alabardas e Manguais.</p>
+			<p>O seu treinamento com armas permite a vocÃª usar as propriedades de maestria de dois tipos de armas da sua escolha nas quais tenha proficiÃªncia, como Espadas Longas e Azagaias.</p>
+			<p class="indent">Sempre que terminar um Descanso Longo, vocÃª pode trocar os tipos de armas que escolheu. Por exemplo, vocÃª pode passar a usar as propriedades de maestria de Alabardas e Manguais.</p>
 		</description>
 		<sheet alt="Maestria em Armas">
-			<description>Sempre que terminar um Descanso Longo, você pode trocar uma das armas que escolheu antes por uma diferente.</description>
+			<description>Sempre que terminar um Descanso Longo, vocÃª pode trocar uma das armas que escolheu antes por uma diferente.</description>
 		</sheet>
 		<rules>
 			<select type="Class Feature" name="Maestria em Armas (Paladino)" supports="Weapon Mastery" number="2"/>
 		</rules>
 	</element>
 
-	<element name="Nível 2: Estilo de Luta" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE">
+	<element name="NÃ­vel 2: Estilo de Luta" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_FIGHTING_STYLE</requirements>
 		<description>
-			<p>Você ganha um talento de Estilo de Luta da sua escolha. Em vez de escolher um desses talentos, você pode escolher a opção abaixo.</p>
-			<p class="indent"><b><i>Guerreiro Abençoado.</i></b> Você aprende dois truques de Clérigo da sua escolha. <i>Orientação</i> e <i>Chama Sagrada</i> são recomendadas. Os truques escolhidos contam como magias de Paladino para você, e Carisma é a sua habilidade de conjuração para eles. Sempre que você ganhar um nível de Paladino, pode substituir um desses truques por outro truque de Clérigo.</p>
+			<p>VocÃª ganha um talento de Estilo de Luta da sua escolha. Em vez de escolher um desses talentos, vocÃª pode escolher a opÃ§Ã£o abaixo.</p>
+			<p class="indent"><b><i>Guerreiro AbenÃ§oado.</i></b> VocÃª aprende dois truques de ClÃ©rigo da sua escolha. <i>OrientaÃ§Ã£o</i> e <i>Chama Sagrada</i> sÃ£o recomendadas. Os truques escolhidos contam como magias de Paladino para vocÃª, e Carisma Ã© a sua habilidade de conjuraÃ§Ã£o para eles. Sempre que vocÃª ganhar um nÃ­vel de Paladino, pode substituir um desses truques por outro truque de ClÃ©rigo.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -233,44 +233,44 @@
 			<select type="Feat" name="Estilo de Luta (Paladino 2)" supports="Fighting Style||PHB24 Blessed Warrior Fighting Style" />
 		</rules>
 	</element>
-	<element name="Guerreiro Abençoado" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_BLESSED_WARRIOR">
+	<element name="Guerreiro AbenÃ§oado" type="Feat" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_BLESSED_WARRIOR">
 		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
 		<supports>PHB24 Blessed Warrior Fighting Style</supports>
-		<prerequisite>Característica de Estilo de Luta do Paladino</prerequisite>
+		<prerequisite>CaracterÃ­stica de Estilo de Luta do Paladino</prerequisite>
 		<description>
-			<p>Você aprende dois truques de Clérigo da sua escolha. <i>Orientação</i> e <i>Chama Sagrada</i> são recomendadas. Os truques escolhidos contam como magias de Paladino para você, e Carisma é a sua habilidade de conjuração para eles. Sempre que ganhar um nível de Paladino, você pode substituir um desses truques por outro truque de Clérigo.</p>
+			<p>VocÃª aprende dois truques de ClÃ©rigo da sua escolha. <i>OrientaÃ§Ã£o</i> e <i>Chama Sagrada</i> sÃ£o recomendadas. Os truques escolhidos contam como magias de Paladino para vocÃª, e Carisma Ã© a sua habilidade de conjuraÃ§Ã£o para eles. Sempre que ganhar um nÃ­vel de Paladino, vocÃª pode substituir um desses truques por outro truque de ClÃ©rigo.</p>
 		</description>
 		<sheet>
-			<description>Sempre que ganhar um nível de Paladino, você pode substituir um dos truques escolhidos por outro truque de Clérigo.</description>
+			<description>Sempre que ganhar um nÃ­vel de Paladino, vocÃª pode substituir um dos truques escolhidos por outro truque de ClÃ©rigo.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="Magia (Guerreiro Abençoado)" number="2" supports="0, Cleric" spellcasting="Paladin" />
+			<select type="Spell" name="Magia (Guerreiro AbenÃ§oado)" number="2" supports="0, Cleric" spellcasting="Paladin" />
 		</rules>
 	</element>
 
-	<element name="Nível 2: Destruição do Paladino" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADINS_SMITE">
+	<element name="NÃ­vel 2: DestruiÃ§Ã£o do Paladino" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADINS_SMITE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_PALADINS_SMITE</requirements>
 		<description>
-			<p>Você sempre tem a magia <i>Destruição Divina</i> preparada. Além disso, você pode conjurá-la sem gastar um espaço de magia, mas precisa terminar um Descanso Longo antes de poder conjurá-la dessa forma de novo.</p>
+			<p>VocÃª sempre tem a magia <i>DestruiÃ§Ã£o Divina</i> preparada. AlÃ©m disso, vocÃª pode conjurÃ¡-la sem gastar um espaÃ§o de magia, mas precisa terminar um Descanso Longo antes de poder conjurÃ¡-la dessa forma de novo.</p>
 		</description>
-		<sheet alt="Destruição do Paladino" usage="1/Descanso Longo">
-			<description>Você pode conjurar Destruição Divina sem gastar um espaço de magia.</description>
+		<sheet alt="DestruiÃ§Ã£o do Paladino" usage="1/Descanso Longo">
+			<description>VocÃª pode conjurar DestruiÃ§Ã£o Divina sem gastar um espaÃ§o de magia.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DIVINE_SMITE" spellcasting="Paladin" />
 		</rules>
 	</element>
 
-	<element name="Nível 3: Canalizar Divindade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_CHANNEL_DIVINITY">
+	<element name="NÃ­vel 3: Canalizar Divindade" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_CHANNEL_DIVINITY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_CHANNEL_DIVINITY</requirements>
 		<description>
-			<p>Você pode canalizar a energia divina diretamente dos Planos Exteriores, utilizando-a para alimentar efeitos mágicos. Você começa com um desses efeitos: Sentido Divino, o qual é descrito abaixo. Outras características de Paladino fornecem opções adicionais de efeito do Canalizar Divindade. Cada vez que usar a característica Canalizar Divindade da classe, você escolhe qual efeito da classe irá criar.</p>
-			<p class="indent">Você pode utilizar o Canalizar Divindade da classe duas vezes. Você recupera um de seus usos gastos quando termina um Descanso Curto, e recupera todos os usos gastos quando termina um Descanso Longo. Você ganha um uso adicional quando atingir o nível 11 de Paladino.</p>
-			<p class="indent">Se um efeito do Canalizar Divindade exigir um teste de resistência, a CD é igual à CD de salvamento de magia da característica Conjuração dessa classe.</p>
-			<p class="indent"><b><i>Sentido Divino.</i></b> Como uma Ação Bônus, você pode abrir sua percepção para detectar Celestiais, Corruptores e Mortos-Vivos. Pelos próximos 10 minutos ou até você sofrer a condição Incapacitado, você sabe a localização de qualquer criatura desses tipos a até 18 metros (60 pés) de você, e sabe o seu tipo de criatura. Dentro desse mesmo raio, você também detecta a presença de qualquer lugar ou objeto que foi consagrado ou profanado, como se por meio da magia <i>Santificar</i>.</p>
+			<p>VocÃª pode canalizar a energia divina diretamente dos Planos Exteriores, utilizando-a para alimentar efeitos mÃ¡gicos. VocÃª comeÃ§a com um desses efeitos: Sentido Divino, o qual Ã© descrito abaixo. Outras caracterÃ­sticas de Paladino fornecem opÃ§Ãµes adicionais de efeito do Canalizar Divindade. Cada vez que usar a caracterÃ­stica Canalizar Divindade da classe, vocÃª escolhe qual efeito da classe irÃ¡ criar.</p>
+			<p class="indent">VocÃª pode utilizar o Canalizar Divindade da classe duas vezes. VocÃª recupera um de seus usos gastos quando termina um Descanso Curto, e recupera todos os usos gastos quando termina um Descanso Longo. VocÃª ganha um uso adicional quando atingir o nÃ­vel 11 de Paladino.</p>
+			<p class="indent">Se um efeito do Canalizar Divindade exigir um teste de resistÃªncia, a CD Ã© igual Ã  CD de salvamento de magia da caracterÃ­stica ConjuraÃ§Ã£o dessa classe.</p>
+			<p class="indent"><b><i>Sentido Divino.</i></b> Como uma AÃ§Ã£o BÃ´nus, vocÃª pode abrir sua percepÃ§Ã£o para detectar Celestiais, Corruptores e Mortos-Vivos. Pelos prÃ³ximos 10 minutos ou atÃ© vocÃª sofrer a condiÃ§Ã£o Incapacitado, vocÃª sabe a localizaÃ§Ã£o de qualquer criatura desses tipos a atÃ© 18 metros (60 pÃ©s) de vocÃª, e sabe o seu tipo de criatura. Dentro desse mesmo raio, vocÃª tambÃ©m detecta a presenÃ§a de qualquer lugar ou objeto que foi consagrado ou profanado, como se por meio da magia <i>Santificar</i>.</p>
 		</description>
 		<sheet alt="Canalizar Divindade" usage="{{channel divinity:usage}}/Descanso Longo">
-			<description>Você recupera 1 uso gasto dessa característica quando termina um Descanso Curto.</description>
+			<description>VocÃª recupera 1 uso gasto dessa caracterÃ­stica quando termina um Descanso Curto.</description>
 		</sheet>
 		<rules>
 			<stat name="channel divinity:usage" value="2" />
@@ -278,21 +278,21 @@
 			<select type="Class Feature" name="Sentido Divino (Canalizar Divindade)" supports="PHB24 Divine Sense" default="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_CHANNEL_DIVINITY_DIVINE_SENSE" requirements="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_CHANNEL_DIVINITY_DIVINE_SENSE" />
 		</rules>
 	</element>
-	<element name="Sentido Divino" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_CHANNEL_DIVINITY_DIVINE_SENSE">
+	<element name="Sentido Divino" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_CHANNEL_DIVINITY_DIVINE_SENSE">
 		<supports>PHB24 Divine Sense</supports>
 		<compendium display="false" />
 		<description>
-			<p>Como uma Ação Bônus, você pode abrir sua percepção para detectar Celestiais, Corruptores e Mortos-Vivos. Pelos próximos 10 minutos ou até você sofrer a condição Incapacitado, você sabe a localização de qualquer criatura desses tipos a até 18 metros (60 pés) de você, e sabe o seu tipo de criatura. Dentro desse mesmo raio, você também detecta a presença de qualquer lugar ou objeto que foi consagrado ou profanado, como se por meio da magia <i>Santificar</i>.</p>
+			<p>Como uma AÃ§Ã£o BÃ´nus, vocÃª pode abrir sua percepÃ§Ã£o para detectar Celestiais, Corruptores e Mortos-Vivos. Pelos prÃ³ximos 10 minutos ou atÃ© vocÃª sofrer a condiÃ§Ã£o Incapacitado, vocÃª sabe a localizaÃ§Ã£o de qualquer criatura desses tipos a atÃ© 18 metros (60 pÃ©s) de vocÃª, e sabe o seu tipo de criatura. Dentro desse mesmo raio, vocÃª tambÃ©m detecta a presenÃ§a de qualquer lugar ou objeto que foi consagrado ou profanado, como se por meio da magia <i>Santificar</i>.</p>
 		</description>
-		<sheet action="Ação Bônus" usage="Canalizar Divindade">
-			<description>Pelos próximos 10 minutos ou até você sofrer a condição Incapacitado, você sabe a localização de qualquer Celestial, Corruptor e Morto-Vivo a até 18m de você, e sabe seu tipo de criatura. No mesmo raio, você também detecta a presença de lugares ou objetos consagrados ou profanados.</description>
+		<sheet action="AÃ§Ã£o BÃ´nus" usage="Canalizar Divindade">
+			<description>Pelos prÃ³ximos 10 minutos ou atÃ© vocÃª sofrer a condiÃ§Ã£o Incapacitado, vocÃª sabe a localizaÃ§Ã£o de qualquer Celestial, Corruptor e Morto-Vivo a atÃ© 18m de vocÃª, e sabe seu tipo de criatura. No mesmo raio, vocÃª tambÃ©m detecta a presenÃ§a de lugares ou objetos consagrados ou profanados.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 3: Subclasse de Paladino" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADIN_SUBCLASS">
+	<element name="NÃ­vel 3: Subclasse de Paladino" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADIN_SUBCLASS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_SUBCLASS</requirements>
 		<description>
-			<p>Você adquire uma subclasse de Paladino de sua escolha. Uma subclasse é uma especialização que lhe concede características em determinados níveis de Paladino. Pelo resto da sua carreira, você adquire cada característica de sua subclasse que seja do seu nível de Paladino ou inferior.</p>
+			<p>VocÃª adquire uma subclasse de Paladino de sua escolha. Uma subclasse Ã© uma especializaÃ§Ã£o que lhe concede caracterÃ­sticas em determinados nÃ­veis de Paladino. Pelo resto da sua carreira, vocÃª adquire cada caracterÃ­stica de sua subclasse que seja do seu nÃ­vel de Paladino ou inferior.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -300,10 +300,10 @@
 		</rules>
 	</element>
 
-	<element name="Nível 4: Melhoria no Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_ABILITY_SCORE_IMPROVEMENT">
+	<element name="NÃ­vel 4: Melhoria no Valor de Habilidade" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_ABILITY_SCORE_IMPROVEMENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<description>
-			<p>Você ganha o talento Melhoria no Valor de Habilidade ou outro talento de sua escolha ao qual se qualifique. Você ganha essa característica novamente nos níveis 8, 12 e 16 de Paladino.</p>
+			<p>VocÃª ganha o talento Melhoria no Valor de Habilidade ou outro talento de sua escolha ao qual se qualifique. VocÃª ganha essa caracterÃ­stica novamente nos nÃ­veis 8, 12 e 16 de Paladino.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -314,10 +314,10 @@
 		</rules>
 	</element>
 
-	<element name="Nível 5: Ataque Extra" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_EXTRA_ATTACK">
+	<element name="NÃ­vel 5: Ataque Extra" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_EXTRA_ATTACK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_EXTRA_ATTACK</requirements>
 		<description>
-			<p>Você pode atacar duas vezes em vez de uma sempre que usar a ação de Ataque no seu turno.</p>
+			<p>VocÃª pode atacar duas vezes em vez de uma sempre que usar a aÃ§Ã£o de Ataque no seu turno.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -325,29 +325,29 @@
 		</rules>
 	</element>
 
-	<element name="Nível 5: Montaria Fiel" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FAITHFUL_STEED">
+	<element name="NÃ­vel 5: Montaria Fiel" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FAITHFUL_STEED">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_FAITHFUL_STEED</requirements>
 		<description>
-			<p>Você pode invocar o auxílio de uma montaria de outro mundo. Você sempre tem a magia <i>Encontrar Montaria</i> preparada.</p>
-			<p class="indent">Você também pode conjurar a magia uma vez sem gastar um espaço de magia, e recupera a habilidade de fazê-lo ao terminar um Descanso Longo.</p>
+			<p>VocÃª pode invocar o auxÃ­lio de uma montaria de outro mundo. VocÃª sempre tem a magia <i>Encontrar Montaria</i> preparada.</p>
+			<p class="indent">VocÃª tambÃ©m pode conjurar a magia uma vez sem gastar um espaÃ§o de magia, e recupera a habilidade de fazÃª-lo ao terminar um Descanso Longo.</p>
 		</description>
 		<sheet alt="Montaria Fiel" usage="1/Descanso Longo">
-			<description>Você conjura Encontrar Montaria sem gastar um espaço de magia.</description>
+			<description>VocÃª conjura Encontrar Montaria sem gastar um espaÃ§o de magia.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIND_STEED" spellcasting="Paladin" />
 		</rules>
 	</element>
 
-	<element name="Nível 6: Aura de Proteção" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION">
+	<element name="NÃ­vel 6: Aura de ProteÃ§Ã£o" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_AURA_OF_PROTECTION</requirements>
 		<description>
-			<p>Você irradia uma aura protetora e invisível em uma Emanação de 3 metros (10 pés) originada em você. A aura fica inativa enquanto você estiver com a condição Incapacitado.</p>
-			<p class="indent">Você e seus aliados dentro da aura ganham um bônus nos testes de resistência igual ao seu modificador de Carisma (bônus mínimo de +1).</p>
-			<p class="indent">Se outro Paladino estiver presente, uma criatura pode se beneficiar de apenas uma Aura de Proteção por vez; a criatura escolhe qual aura quando estiver dentro delas.</p>
+			<p>VocÃª irradia uma aura protetora e invisÃ­vel em uma EmanaÃ§Ã£o de 3 metros (10 pÃ©s) originada em vocÃª. A aura fica inativa enquanto vocÃª estiver com a condiÃ§Ã£o Incapacitado.</p>
+			<p class="indent">VocÃª e seus aliados dentro da aura ganham um bÃ´nus nos testes de resistÃªncia igual ao seu modificador de Carisma (bÃ´nus mÃ­nimo de +1).</p>
+			<p class="indent">Se outro Paladino estiver presente, uma criatura pode se beneficiar de apenas uma Aura de ProteÃ§Ã£o por vez; a criatura escolhe qual aura quando estiver dentro delas.</p>
 		</description>
-		<sheet alt="Aura de Proteção">
-			<description>Você e os aliados num raio de {{aura of protection:range}} metros ao seu redor recebem um bônus de +{{aura of protection:save bonus}} nos testes de resistência. Uma criatura pode se beneficiar de apenas uma Aura de Proteção por vez; a criatura escolhe de qual aura se beneficiará se estiver em ambas. A aura fica inativa enquanto você tiver a condição Incapacitado.</description>
+		<sheet alt="Aura de ProteÃ§Ã£o">
+			<description>VocÃª e os aliados num raio de {{aura of protection:range}} metros ao seu redor recebem um bÃ´nus de +{{aura of protection:save bonus}} nos testes de resistÃªncia. Uma criatura pode se beneficiar de apenas uma Aura de ProteÃ§Ã£o por vez; a criatura escolhe de qual aura se beneficiarÃ¡ se estiver em ambas. A aura fica inativa enquanto vocÃª tiver a condiÃ§Ã£o Incapacitado.</description>
 		</sheet>
 		<rules>
 			<stat name="aura of protection:range" value="3" bonus="base" />
@@ -356,13 +356,13 @@
 		</rules>
 	</element>
 
-	<element name="Nível 9: Abjurar Inimigos" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_ABJURE_FOES">
+	<element name="NÃ­vel 9: Abjurar Inimigos" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_ABJURE_FOES">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_ABJURE_FOES</requirements>
 		<description>
-			<p>Como uma Ação Mágica, você pode gastar um uso de Canalizar Divindade desta classe para sobrepujar seus inimigos com admiração aterradora. Ao apresentar seu Símbolo Sagrado ou arma, você pode designar um número de criaturas igual ao seu modificador de Carisma (mínimo de uma criatura) que você possa ver a até 18 metros (60 pés) de você. Cada alvo deve ter sucesso em um teste de resistência de Sabedoria ou ficará com a condição Amedrontado por 1 minuto ou até sofrer qualquer dano. Enquanto estiver Amedrontado desta forma, o alvo pode fazer apenas uma das seguintes coisas em seus turnos: se mover, realizar uma ação ou realizar uma Ação Bônus.</p>
+			<p>Como uma AÃ§Ã£o MÃ¡gica, vocÃª pode gastar um uso de Canalizar Divindade desta classe para sobrepujar seus inimigos com admiraÃ§Ã£o aterradora. Ao apresentar seu SÃ­mbolo Sagrado ou arma, vocÃª pode designar um nÃºmero de criaturas igual ao seu modificador de Carisma (mÃ­nimo de uma criatura) que vocÃª possa ver a atÃ© 18 metros (60 pÃ©s) de vocÃª. Cada alvo deve ter sucesso em um teste de resistÃªncia de Sabedoria ou ficarÃ¡ com a condiÃ§Ã£o Amedrontado por 1 minuto ou atÃ© sofrer qualquer dano. Enquanto estiver Amedrontado desta forma, o alvo pode fazer apenas uma das seguintes coisas em seus turnos: se mover, realizar uma aÃ§Ã£o ou realizar uma AÃ§Ã£o BÃ´nus.</p>
 		</description>
-		<sheet alt="Abjurar Inimigos" action="Ação" usage="Canalizar Divindade">
-			<description>Você pode magicamente focar em {{abjure foes:amount}} criaturas que possa ver a até 18m de você. Cada alvo deve ter sucesso num teste de resistência de Sabedoria CD{{paladin:spellcasting:dc}} ou ficará Amedrontado por 1 minuto ou até sofrer qualquer dano. Enquanto Amedrontado dessa forma, o alvo só pode fazer uma destas coisas no seu turno: mover-se, agir ou usar uma Ação Bônus.</description>
+		<sheet alt="Abjurar Inimigos" action="AÃ§Ã£o" usage="Canalizar Divindade">
+			<description>VocÃª pode magicamente focar em {{abjure foes:amount}} criaturas que possa ver a atÃ© 18m de vocÃª. Cada alvo deve ter sucesso num teste de resistÃªncia de Sabedoria CD{{paladin:spellcasting:dc}} ou ficarÃ¡ Amedrontado por 1 minuto ou atÃ© sofrer qualquer dano. Enquanto Amedrontado dessa forma, o alvo sÃ³ pode fazer uma destas coisas no seu turno: mover-se, agir ou usar uma AÃ§Ã£o BÃ´nus.</description>
 		</sheet>
 		<rules>
 			<stat name="abjure foes:amount" value="1" bonus="base" />
@@ -370,38 +370,38 @@
 		</rules>
 	</element>
 
-	<element name="Nível 10: Aura de Coragem" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE">
+	<element name="NÃ­vel 10: Aura de Coragem" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_AURA_OF_COURAGE</requirements>
 		<description>
-			<p>Você e seus aliados possuem Imunidade à condição Amedrontado enquanto estiverem na sua Aura de Proteção. Se um aliado Amedrontado entrar na aura, essa condição não terá efeito sobre ele enquanto estiver lá.</p>
+			<p>VocÃª e seus aliados possuem Imunidade Ã  condiÃ§Ã£o Amedrontado enquanto estiverem na sua Aura de ProteÃ§Ã£o. Se um aliado Amedrontado entrar na aura, essa condiÃ§Ã£o nÃ£o terÃ¡ efeito sobre ele enquanto estiver lÃ¡.</p>
 		</description>
 		<sheet alt="Aura de Coragem">
-			<description>Você e seus aliados têm Imunidade à condição Amedrontado enquanto estiverem na sua Aura de Proteção. Se um aliado Amedrontado entrar na aura, a condição não tem efeito nele lá dentro.</description>
+			<description>VocÃª e seus aliados tÃªm Imunidade Ã  condiÃ§Ã£o Amedrontado enquanto estiverem na sua Aura de ProteÃ§Ã£o. Se um aliado Amedrontado entrar na aura, a condiÃ§Ã£o nÃ£o tem efeito nele lÃ¡ dentro.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 11: Golpes Radiantes" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_RADIANT_STRIKES">
+	<element name="NÃ­vel 11: Golpes Radiantes" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_RADIANT_STRIKES">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_RADIANT_STRIKES</requirements>
 		<description>
-			<p>Seus golpes agora carregam poder sobrenatural. Quando você atinge um alvo com uma jogada de ataque usando uma arma Corpo a Corpo ou um Ataque Desarmado, o alvo sofre 1d8 de dano Radiante extra.</p>
+			<p>Seus golpes agora carregam poder sobrenatural. Quando vocÃª atinge um alvo com uma jogada de ataque usando uma arma Corpo a Corpo ou um Ataque Desarmado, o alvo sofre 1d8 de dano Radiante extra.</p>
 		</description>
 		<sheet alt="Golpes Radiantes">
 			<description>Os seus ataques com arma Corpo a Corpo e Ataques Desarmados causam 1d8 de dano Radiante adicional.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 14: Toque Restaurador" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_RESTORING_TOUCH">
+	<element name="NÃ­vel 14: Toque Restaurador" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_RESTORING_TOUCH">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_RESTORING_TOUCH</requirements>
 		<description>
-			<p>Quando você usar Cura pelas Mãos em uma criatura, você pode também remover uma ou mais das seguintes condições da criatura: Cego, Enfeitiçado, Surdo, Amedrontado, Paralisado ou Atordoado. Você deve gastar 5 Pontos de Vida da sua reserva de Cura pelas Mãos para cada uma dessas condições que você remover; esses pontos não restauram Pontos de Vida adicionais para a criatura.</p>
+			<p>Quando vocÃª usar Cura pelas MÃ£os em uma criatura, vocÃª pode tambÃ©m remover uma ou mais das seguintes condiÃ§Ãµes da criatura: Cego, EnfeitiÃ§ado, Surdo, Amedrontado, Paralisado ou Atordoado. VocÃª deve gastar 5 Pontos de Vida da sua reserva de Cura pelas MÃ£os para cada uma dessas condiÃ§Ãµes que vocÃª remover; esses pontos nÃ£o restauram Pontos de Vida adicionais para a criatura.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="Nível 18: Expansão de Aura" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_AURA_EXPANSION">
+	<element name="NÃ­vel 18: ExpansÃ£o de Aura" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_AURA_EXPANSION">
 		<requirements>!ID_INTERNAL_FEATURE_PHB24_REPLACEMENT_PALADIN_AURA_EXPANSION</requirements>
 		<description>
-			<p>A sua Aura de Proteção é agora uma Emanação de 9 metros (30 pés).</p>
+			<p>A sua Aura de ProteÃ§Ã£o Ã© agora uma EmanaÃ§Ã£o de 9 metros (30 pÃ©s).</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -409,14 +409,14 @@
 		</rules>
 	</element>
 
-	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_EPIC_BOON">
+	<element name="NÃ­vel 19: DÃ¡diva Ã‰pica" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_EPIC_BOON">
 		<requirements>!ID_INTERNAL_FEATURE_PHB24_REPLACEMENT_PALADIN_EPIC_BOON</requirements>
 		<description>
-			<p>Você ganha o talento Dádiva Épica ou outro talento da sua escolha ao qual atenda os pré-requisitos. A Dádiva da Visão Verdadeira é recomendada.</p>
+			<p>VocÃª ganha o talento DÃ¡diva Ã‰pica ou outro talento da sua escolha ao qual atenda os prÃ©-requisitos. A DÃ¡diva da VisÃ£o Verdadeira Ã© recomendada.</p>
 		</description>
 		<sheet display="false"/>
 		<rules> 
-			<select type="Feat" name="Dádiva Épica (Paladino 19)" />
+			<select type="Feat" name="DÃ¡diva Ã‰pica (Paladino 19)" />
 		</rules>
 	</element>
 

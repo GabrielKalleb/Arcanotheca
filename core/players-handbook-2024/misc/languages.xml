@@ -2,25 +2,25 @@
 <elements>
 	<info>
 		<name>Idiomas</name>
-		<description>Idiomas do Player’s Handbook 2024.</description>
+		<description>Idiomas do Playerâ€™s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="languages.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/misc/languages.xml" />
+			<file name="languages.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/misc/languages.xml" />
 		</update>
 	</info>
 
-	<element name="Língua de Sinais Comum" type="Language" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_LANGUAGE_COMMON_SIGN">
+	<element name="LÃ­ngua de Sinais Comum" type="Language" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_LANGUAGE_COMMON_SIGN">
 		<supports>Standard</supports>
 		<description>
-			<p>Originada na metrópole planar de Sigil, o centro do multiverso.</p>
+			<p>Originada na metrÃ³pole planar de Sigil, o centro do multiverso.</p>
 		</description>
 	</element>
 
-	<element name="Dracônico" type="Language" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_LANGUAGE_DRACONIC">
+	<element name="DracÃ´nico" type="Language" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_LANGUAGE_DRACONIC">
 		<requirements>!ID_LANGUAGE_DRACONIC</requirements>
 		<supports>Standard</supports>
 		<description>
-			<p>Tipicamente falado por dragões e draconatos.</p>
+			<p>Tipicamente falado por dragÃµes e draconatos.</p>
 		</description>
 	</element>
 

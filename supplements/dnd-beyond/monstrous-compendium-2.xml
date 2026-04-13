@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="monstrous-compendium-2.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/dnd-beyond/monstrous-compendium-2.xml" />
+			<file name="monstrous-compendium-2.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/dnd-beyond/monstrous-compendium-2.xml" />
 		</update>
 	</info>
 
@@ -13,7 +13,7 @@
 		<setters>
 			<set name="abbreviation">MCV2</set>
 			<set name="url">https://www.dndbeyond.com/claim/source/mcv2</set>
-			<set name="image">https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/dnd-beyond/MCV2.png</set>
+			<set name="image">https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/dnd-beyond/MCV2.png</set>
 			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast, D&amp;D Beyond</set>
 			<set name="official">true</set>
 			<set name="supplement">true</set>
@@ -23,7 +23,7 @@
 	
 	<element name="Nightbringer" type="Magic Item" source="Monstrous Compendium Volume Two: Dragonlance Monsters" id="ID_WOTC_MCV2_MAGIC_ITEM_NIGHTBRINGER">
 		<description>
-			<p>This heavy mace has a dark oaken handle and a head of blackened steel trimmed with gold. In combat, the mace’s head is wreathed in inky black energy.</p>
+			<p>This heavy mace has a dark oaken handle and a head of blackened steel trimmed with gold. In combat, the maceâ€™s head is wreathed in inky black energy.</p>
 			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this weapon. When you hit with an attack roll using it, the target takes an additional 4d4 radiant damage.</p>
 			<p class="indent">If you have an evil alignment, you also gain the following benefits when attuned to Nightbringer:</p>
 			<p class="indent"><strong><em>Blessing of the Dragon Queen.</em></strong> You are immune to the charmed and frightened conditions, and you gain immunity to one of the following damage types (choose when you attune to the weapon): acid, cold, fire, lightning, or poison.</p>

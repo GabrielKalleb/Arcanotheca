@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Goblin</name>
-		<description>The monstrous-adventurers from Volo’s Guide to Monsters.</description>
+		<description>The monstrous-adventurers from Voloâ€™s Guide to Monsters.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="race-goblin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/volos-guide-to-monsters/race-goblin.xml" />
+			<file name="race-goblin.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/volos-guide-to-monsters/race-goblin.xml" />
 		</update>
 	</info>
 
-	<element name="Goblin" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_GOBLIN">
+	<element name="Goblin" type="Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACE_GOBLIN">
 		<description>
 			<p class="flavor">In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. This section is aimed at those who wish to expand the race selections for their campaigns beyond the typical folk of D&amp;D.</p>
 			<h4>GOBLIN TRAITS</h4>
@@ -49,7 +49,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_GOBLIN_NIMBLE_ESCAPE" />
 		</rules>
 	</element>	
-	<element name="Fury of the Small" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_GOBLIN_FURY_OF_THE_SMALL">
+	<element name="Fury of the Small" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_GOBLIN_FURY_OF_THE_SMALL">
 		<description>
 			<p>When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.</p>
 		</description>
@@ -57,7 +57,7 @@
 			<description>When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.</description>
 		</sheet>
 	</element>
-	<element name="Nimble Escape" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_GOBLIN_NIMBLE_ESCAPE">
+	<element name="Nimble Escape" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_GOBLIN_NIMBLE_ESCAPE">
 		<description>
 			<p>You can take the Disengage or Hide action as a bonus action on each of your turns.</p>
 		</description>

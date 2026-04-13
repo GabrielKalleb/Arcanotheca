@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Colégio da Dança</name>
-		<description>A subclasse Colégio da Dança do Livro do Jogador de 2024.</description>
+		<name>ColÃ©gio da DanÃ§a</name>
+		<description>A subclasse ColÃ©gio da DanÃ§a do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="bard-dance.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/bard-dance.xml" />
+			<file name="bard-dance.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/bard-dance.xml" />
 		</update>
 	</info>
 
-	<element name="Colégio da Dança" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_DANCE">
+	<element name="ColÃ©gio da DanÃ§a" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_DANCE">
 		<supports>Bard Subclass</supports>
 		<description>
 			<p class="flavor">Mova-se em Harmonia com o Cosmos</p>
-			<p>Bardos do Colégio da Dança sabem que as Palavras da Criação não podem ser contidas na fala ou no canto; as palavras são pronunciadas pelos movimentos dos corpos celestes e fluem através dos movimentos das menores criaturas. Estes Bardos praticam uma forma de estar em harmonia com o cosmos rodopiante que enfatiza agilidade, velocidade e graça.</p>
+			<p>Bardos do ColÃ©gio da DanÃ§a sabem que as Palavras da CriaÃ§Ã£o nÃ£o podem ser contidas na fala ou no canto; as palavras sÃ£o pronunciadas pelos movimentos dos corpos celestes e fluem atravÃ©s dos movimentos das menores criaturas. Estes Bardos praticam uma forma de estar em harmonia com o cosmos rodopiante que enfatiza agilidade, velocidade e graÃ§a.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_DAZZLING_FOOTWORK" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_INSPIRING_MOVEMENT" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_TANDEM_FOOTWORK" />
@@ -28,18 +28,18 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Trabalho de Pés Deslumbrante" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_DAZZLING_FOOTWORK">
+	<element name="NÃ­vel 3: Trabalho de PÃ©s Deslumbrante" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_DAZZLING_FOOTWORK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_DAZZLING_FOOTWORK</requirements>
 		<description>
-			<p>Enquanto você não estiver usando armadura ou empunhando um Escudo, você ganha os seguintes benefícios:</p>
-			<p class="indent"><em><strong>Virtuoso da Dança.</strong></em> Você tem Vantagem em qualquer teste de Carisma (Atuação) que você fizer que envolva você dançar.</p>
-			<p class="indent"><em><strong>Defesa Sem Armadura.</strong></em> Sua Classe de Armadura base é igual a 10 mais seus modificadores de Destreza e Carisma.</p>
-			<p class="indent"><em><strong>Ataques Ágeis.</strong></em> Quando você gasta um uso de sua Inspiração de Bardo como parte de uma ação, Ação Bônus ou Reação, você pode fazer um Ataque Desarmado como parte dessa ação, Ação Bônus ou Reação.</p>
-			<p class="indent"><em><strong>Dano de Bardo.</strong></em> Você pode usar Destreza em vez de Força para as jogadas de ataque dos seus Ataques Desarmados. Quando você causa dano com um Ataque Desarmado, pode causar dano Contundente igual a uma rolagem do seu dado de Inspiração de Bardo mais o seu modificador de Destreza, em vez do dano normal do golpe. Esta rolagem não gasta o dado.</p>
+			<p>Enquanto vocÃª nÃ£o estiver usando armadura ou empunhando um Escudo, vocÃª ganha os seguintes benefÃ­cios:</p>
+			<p class="indent"><em><strong>Virtuoso da DanÃ§a.</strong></em> VocÃª tem Vantagem em qualquer teste de Carisma (AtuaÃ§Ã£o) que vocÃª fizer que envolva vocÃª danÃ§ar.</p>
+			<p class="indent"><em><strong>Defesa Sem Armadura.</strong></em> Sua Classe de Armadura base Ã© igual a 10 mais seus modificadores de Destreza e Carisma.</p>
+			<p class="indent"><em><strong>Ataques Ãgeis.</strong></em> Quando vocÃª gasta um uso de sua InspiraÃ§Ã£o de Bardo como parte de uma aÃ§Ã£o, AÃ§Ã£o BÃ´nus ou ReaÃ§Ã£o, vocÃª pode fazer um Ataque Desarmado como parte dessa aÃ§Ã£o, AÃ§Ã£o BÃ´nus ou ReaÃ§Ã£o.</p>
+			<p class="indent"><em><strong>Dano de Bardo.</strong></em> VocÃª pode usar Destreza em vez de ForÃ§a para as jogadas de ataque dos seus Ataques Desarmados. Quando vocÃª causa dano com um Ataque Desarmado, pode causar dano Contundente igual a uma rolagem do seu dado de InspiraÃ§Ã£o de Bardo mais o seu modificador de Destreza, em vez do dano normal do golpe. Esta rolagem nÃ£o gasta o dado.</p>
 		</description>
-		<sheet alt="Trabalho de Pés Deslumbrante">
-			<description>Enquanto não estiver usando armadura ou empunhando um Escudo, sua CA base é {{ac:dazzling footwork}}. Você tem Vantagem em qualquer teste de Carisma (Atuação) que fizer que envolva você dançar. &#13;
-			Além disso, você pode usar Destreza no lugar de Força para seus Ataques Desarmados, que podem causar 1d{{bardic-inspiration:dice}}+{{dexterity:modifier}} de dano Contundente em vez da quantidade normal. Sempre que gastar um uso da sua Inspiração de Bardo, você pode fazer um Ataque Desarmado como parte dessa ação, Ação Bônus ou Reação.</description>
+		<sheet alt="Trabalho de PÃ©s Deslumbrante">
+			<description>Enquanto nÃ£o estiver usando armadura ou empunhando um Escudo, sua CA base Ã© {{ac:dazzling footwork}}. VocÃª tem Vantagem em qualquer teste de Carisma (AtuaÃ§Ã£o) que fizer que envolva vocÃª danÃ§ar. &#13;
+			AlÃ©m disso, vocÃª pode usar Destreza no lugar de ForÃ§a para seus Ataques Desarmados, que podem causar 1d{{bardic-inspiration:dice}}+{{dexterity:modifier}} de dano Contundente em vez da quantidade normal. Sempre que gastar um uso da sua InspiraÃ§Ã£o de Bardo, vocÃª pode fazer um Ataque Desarmado como parte dessa aÃ§Ã£o, AÃ§Ã£o BÃ´nus ou ReaÃ§Ã£o.</description>
 		</sheet>
 		<rules>
 			<stat name="ac:dazzling footwork" value="10" bonus="base" />
@@ -49,35 +49,35 @@
 		</rules>
 	</element>
 
-	<element name="Nível 6: Movimento Inspirador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_INSPIRING_MOVEMENT">
+	<element name="NÃ­vel 6: Movimento Inspirador" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_INSPIRING_MOVEMENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_INSPIRING_MOVEMENT</requirements>
 		<description>
-			<p>Quando um inimigo que você possa ver termina o turno dele a até 1,5 metro (5 pés) de você, você pode usar uma Reação e gastar um uso da sua Inspiração de Bardo para se mover até metade do seu Deslocamento. Em seguida, um aliado de sua escolha a até 9 metros (30 pés) de você também pode se mover até metade do Deslocamento dele usando a Reação dele.</p>
-			<p class="indent">Nenhum dos movimentos desta característica provoca Ataques de Oportunidade.</p>
+			<p>Quando um inimigo que vocÃª possa ver termina o turno dele a atÃ© 1,5 metro (5 pÃ©s) de vocÃª, vocÃª pode usar uma ReaÃ§Ã£o e gastar um uso da sua InspiraÃ§Ã£o de Bardo para se mover atÃ© metade do seu Deslocamento. Em seguida, um aliado de sua escolha a atÃ© 9 metros (30 pÃ©s) de vocÃª tambÃ©m pode se mover atÃ© metade do Deslocamento dele usando a ReaÃ§Ã£o dele.</p>
+			<p class="indent">Nenhum dos movimentos desta caracterÃ­stica provoca Ataques de Oportunidade.</p>
 		</description>
-		<sheet alt="Movimento Inspirador" action="Reaction" usage="Inspiração de Bardo">
-			<description>Quando um inimigo que você pode ver termina o turno dele a até 1,5m de você, você pode se mover até metade do seu Deslocamento. Em seguida, um aliado de sua escolha a até 9m de você também pode se mover até metade do Deslocamento dele usando a Reação dele. Nenhum dos movimentos provoca Ataques de Oportunidade.</description>
+		<sheet alt="Movimento Inspirador" action="Reaction" usage="InspiraÃ§Ã£o de Bardo">
+			<description>Quando um inimigo que vocÃª pode ver termina o turno dele a atÃ© 1,5m de vocÃª, vocÃª pode se mover atÃ© metade do seu Deslocamento. Em seguida, um aliado de sua escolha a atÃ© 9m de vocÃª tambÃ©m pode se mover atÃ© metade do Deslocamento dele usando a ReaÃ§Ã£o dele. Nenhum dos movimentos provoca Ataques de Oportunidade.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 6: Trabalho de Pés em Conjunto" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_TANDEM_FOOTWORK">
+	<element name="NÃ­vel 6: Trabalho de PÃ©s em Conjunto" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_TANDEM_FOOTWORK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_TANDEM_FOOTWORK</requirements>
 		<description>
-			<p>Quando você rola Iniciativa, pode gastar um uso de sua Inspiração de Bardo se não estiver com a condição Incapacitado. Quando você o faz, role seu dado de Inspiração de Bardo; você e cada aliado a até 9 metros (30 pés) de você que possa ver ou ouvir você ganha um bônus na Iniciativa igual ao número rolado.</p>
+			<p>Quando vocÃª rola Iniciativa, pode gastar um uso de sua InspiraÃ§Ã£o de Bardo se nÃ£o estiver com a condiÃ§Ã£o Incapacitado. Quando vocÃª o faz, role seu dado de InspiraÃ§Ã£o de Bardo; vocÃª e cada aliado a atÃ© 9 metros (30 pÃ©s) de vocÃª que possa ver ou ouvir vocÃª ganha um bÃ´nus na Iniciativa igual ao nÃºmero rolado.</p>
 		</description>
-		<sheet alt="Trabalho de Pés em Conjunto" usage="Inspiração de Bardo">
-			<description>Quando você rola Iniciativa e não tem a condição Incapacitado, pode conceder a si mesmo e a cada aliado a até 9m de você que possa ver ou ouvir você um bônus de 1d{{bardic-inspiration:dice}} na Iniciativa.</description>
+		<sheet alt="Trabalho de PÃ©s em Conjunto" usage="InspiraÃ§Ã£o de Bardo">
+			<description>Quando vocÃª rola Iniciativa e nÃ£o tem a condiÃ§Ã£o Incapacitado, pode conceder a si mesmo e a cada aliado a atÃ© 9m de vocÃª que possa ver ou ouvir vocÃª um bÃ´nus de 1d{{bardic-inspiration:dice}} na Iniciativa.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 14: Evasão Liderada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_LEADING_EVASION">
+	<element name="NÃ­vel 14: EvasÃ£o Liderada" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_LEADING_EVASION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_LEADING_EVASION</requirements>
 		<description>
-			<p>Quando você é submetido a um efeito que permite fazer um teste de resistência de Destreza para sofrer apenas metade do dano, você em vez disso não sofre dano se obtiver sucesso no teste de resistência, e apenas metade do dano se falhar. Se quaisquer criaturas a até 1,5 metro (5 pés) de você estiverem fazendo o mesmo teste de resistência de Destreza, você pode compartilhar este benefício com elas para esse teste.</p>
-			<p class="indent">Você não pode usar esta característica se estiver com a condição Incapacitado.</p>
+			<p>Quando vocÃª Ã© submetido a um efeito que permite fazer um teste de resistÃªncia de Destreza para sofrer apenas metade do dano, vocÃª em vez disso nÃ£o sofre dano se obtiver sucesso no teste de resistÃªncia, e apenas metade do dano se falhar. Se quaisquer criaturas a atÃ© 1,5 metro (5 pÃ©s) de vocÃª estiverem fazendo o mesmo teste de resistÃªncia de Destreza, vocÃª pode compartilhar este benefÃ­cio com elas para esse teste.</p>
+			<p class="indent">VocÃª nÃ£o pode usar esta caracterÃ­stica se estiver com a condiÃ§Ã£o Incapacitado.</p>
 		</description>
-		<sheet alt="Evasão Liderada">
-			<description>Quando você não está Incapacitado e é submetido a um efeito que lhe permite fazer um teste de resistência de Destreza para sofrer apenas metade do dano, você em vez disso não sofre dano num sucesso e apenas metade numa falha. Se quaisquer criaturas a até 1,5m de você estiverem fazendo o mesmo teste de resistência de Destreza, você pode compartilhar este benefício com elas para esse teste.</description>
+		<sheet alt="EvasÃ£o Liderada">
+			<description>Quando vocÃª nÃ£o estÃ¡ Incapacitado e Ã© submetido a um efeito que lhe permite fazer um teste de resistÃªncia de Destreza para sofrer apenas metade do dano, vocÃª em vez disso nÃ£o sofre dano num sucesso e apenas metade numa falha. Se quaisquer criaturas a atÃ© 1,5m de vocÃª estiverem fazendo o mesmo teste de resistÃªncia de Destreza, vocÃª pode compartilhar este benefÃ­cio com elas para esse teste.</description>
 		</sheet>
 	</element>
 

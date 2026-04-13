@@ -5,20 +5,20 @@
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.2.6">
-			<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/races/race-dragonborn.xml" />
+			<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook/races/race-dragonborn.xml" />
 		</update>
 	</info>
 	
-	<element name="Dragonborn" type="Race" source="Player’s Handbook" id="ID_RACE_DRAGONBORN">
+	<element name="Dragonborn" type="Race" source="Playerâ€™s Handbook" id="ID_RACE_DRAGONBORN">
 		<description>
 			<p class="flavor">Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.</p>
 			<h4>PROUD DRAGONKIN</h4>
 			<p>Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. The first dragonborn had scales of vibrant hues matching the colors of their dragon kin, but generations of interbreeding have created a more uniform appearance. Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6 1/2 feet tall and weighing 300 pounds or more. Their hands and feet are strong, talonlike claws with three fingers and a thumb on each hand.</p>
-			<p class="indent">The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestor—bright red, green, blue, or white, lustrous black, or gleaming metallic gold, silver, brass, copper, or bronze.</p>
+			<p class="indent">The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestorâ€”bright red, green, blue, or white, lustrous black, or gleaming metallic gold, silver, brass, copper, or bronze.</p>
 			<h4>SELF-SUFFICIENT CLANS</h4>
-			<p>To any dragonborn, the clan is more important than life itself. Dragonborn owe their devotion and respect to their clan above all else, even the gods. Each dragonborn’s conduct reflects on the honor of his or her clan, and bringing dishonor to the clan can result in expulsion and exile. Each dragonborn knows his or her station and duties within the clan, and honor demands maintaining the bounds of that position.</p>
+			<p>To any dragonborn, the clan is more important than life itself. Dragonborn owe their devotion and respect to their clan above all else, even the gods. Each dragonbornâ€™s conduct reflects on the honor of his or her clan, and bringing dishonor to the clan can result in expulsion and exile. Each dragonborn knows his or her station and duties within the clan, and honor demands maintaining the bounds of that position.</p>
 			<p class="indent">A continual drive for self-improvement reflects the self-sufficiency of the race as a whole. Dragonborn value skill and excellence in all endeavors. They hate to fail, and they push themselves to extreme efforts before they give up on something. A dragonborn holds mastery of a particular skill as a lifetime goal. Members of other races who share the same commitment find it easy to earn the respect of a dragonborn.</p>
-			<p class="indent">Though all dragonborn strive to be self-sufficient, they recognize that help is sometimes needed in difficult situations. But the best source for such help is the clan, and when a clan needs help, it turns to another dragonborn clan before seeking aid from other races— or even from the gods.</p>
+			<p class="indent">Though all dragonborn strive to be self-sufficient, they recognize that help is sometimes needed in difficult situations. But the best source for such help is the clan, and when a clan needs help, it turns to another dragonborn clan before seeking aid from other racesâ€” or even from the gods.</p>
 			<h4>DRAGONBORN NAMES</h4>
 			<p>Dragonborn have personal names given at birth, but they put their clan names first as a mark of honor. A childhood name or nickname is often used among clutchmates as a descriptive term or a term of endearment. The name might recall an event or center on a habit.</p>
 			<p><b>Male Names:</b> Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn <br/>
@@ -34,7 +34,7 @@
 			<p class="indent"><b><i>Size.</i></b> Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.</p>
 			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
 			<p class="indent"><b><i>Draconic Ancestry.</i></b> You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</p>
-			<p class="indent"><b><i>Breath Weapon.</i></b> You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</p>
+			<p class="indent"><b><i>Breath Weapon.</i></b> You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you canâ€™t use it again until you complete a short or long rest.</p>
 			<p class="indent"><b><i>Damage Resistance.</i></b> You have resistance to the damage type associated with your draconic ancestry.</p>
 			<p class="indent"><b><i>Languages.</i></b> You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.</p>
 		</description>
@@ -65,7 +65,7 @@
 			<select type="Race Variant" name="Dragonborn Variant" supports="Dragonborn" optional="true" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY">
+	<element name="Draconic Ancestry" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY">
 		<description>
 			<p>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</p>
 			<h5>DRACONIC ANCESTRY</h5>
@@ -89,11 +89,11 @@
 			<select type="Racial Trait" name="Draconic Ancestry" supports="Draconic Ancestry" />
 		</rules>
 	</element>
-	<element name="Breath Weapon" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BREATH_WEAPON">
+	<element name="Breath Weapon" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_BREATH_WEAPON">
 		<description>
 			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p>
 			<p>When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
-			<p>After you use your breath weapon, you can’t use it again until you complete a short or long rest.</p>
+			<p>After you use your breath weapon, you canâ€™t use it again until you complete a short or long rest.</p>
 		</description>
 		<sheet action="Action" usage="1/Short Rest">
 			<description>Exhale destructive energy. Your breath weapon does {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} damage in a {{draconic-ancestry:breath}} DC {{breath-weapon:dc}}</description>
@@ -109,7 +109,7 @@
 			<stat name="breath-weapon:dice count" value="1" level="16" />
 		</rules>
 	</element>
-	<element name="Damage Resistance" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+	<element name="Damage Resistance" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
 		<description>
 			<p>You have resistance to the damage type associated with your draconic ancestry.</p>
 		</description>
@@ -125,7 +125,7 @@
 		</rules>
 	</element>
 
-	<element name="Draconic Ancestry (Black)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
+	<element name="Draconic Ancestry (Black)" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -139,7 +139,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Blue)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
+	<element name="Draconic Ancestry (Blue)" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -153,7 +153,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Brass)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
+	<element name="Draconic Ancestry (Brass)" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -167,7 +167,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Bronze)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
+	<element name="Draconic Ancestry (Bronze)" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -181,7 +181,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Copper)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
+	<element name="Draconic Ancestry (Copper)" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -195,7 +195,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Gold)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
+	<element name="Draconic Ancestry (Gold)" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -209,7 +209,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Green)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
+	<element name="Draconic Ancestry (Green)" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -223,7 +223,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Red)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
+	<element name="Draconic Ancestry (Red)" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -237,7 +237,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
+	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -251,7 +251,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (White)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
+	<element name="Draconic Ancestry (White)" type="Racial Trait" source="Playerâ€™s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />

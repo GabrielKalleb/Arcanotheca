@@ -3,12 +3,12 @@
 	<info>
 		<name>Languages</name>
 		<description></description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters’ Guide to Ravnica</author>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmastersâ€™ Guide to Ravnica</author>
 		<update version="0.0.3">
-			<file name="languages.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/guildmasters-guide-to-ravnica/languages.xml" />
+			<file name="languages.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/guildmasters-guide-to-ravnica/languages.xml" />
 		</update>
 	</info>
-	<element name="Kraul" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_KRAUL">
+	<element name="Kraul" type="Language" source="Guildmastersâ€™ Guide to Ravnica" id="ID_GGTR_LANGUAGE_KRAUL">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by Kraul.</p>
@@ -19,7 +19,7 @@
 			<set name="script">Kraul</set>
 		</setters>
 	</element>
-	<element name="Loxodon" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_LOXODON">
+	<element name="Loxodon" type="Language" source="Guildmastersâ€™ Guide to Ravnica" id="ID_GGTR_LANGUAGE_LOXODON">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by Loxodons.</p>
@@ -30,7 +30,7 @@
 			<set name="script">Elvish</set>
 		</setters>
 	</element>
-	<element name="Merfolk" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_MERFOLK">
+	<element name="Merfolk" type="Language" source="Guildmastersâ€™ Guide to Ravnica" id="ID_GGTR_LANGUAGE_MERFOLK">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by Merfolk.</p>
@@ -41,7 +41,7 @@
 			<set name="script">Merfolk</set>
 		</setters>
 	</element>
-	<element name="Minotaur" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_MINOTAUR">
+	<element name="Minotaur" type="Language" source="Guildmastersâ€™ Guide to Ravnica" id="ID_GGTR_LANGUAGE_MINOTAUR">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by Minotaurs.</p>
@@ -52,7 +52,7 @@
 			<set name="script">Minotaur</set>
 		</setters>
 	</element>
-	<element name="Sphinx" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_SPHINX">
+	<element name="Sphinx" type="Language" source="Guildmastersâ€™ Guide to Ravnica" id="ID_GGTR_LANGUAGE_SPHINX">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by Sphinxes.</p>
@@ -63,7 +63,7 @@
 			<set name="script"></set>
 		</setters>
 	</element>
-	<element name="Vedalken" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_VEDALKEN">
+	<element name="Vedalken" type="Language" source="Guildmastersâ€™ Guide to Ravnica" id="ID_GGTR_LANGUAGE_VEDALKEN">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by Vedalken.</p>

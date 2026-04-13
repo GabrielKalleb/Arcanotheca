@@ -2,27 +2,27 @@
 <elements>
 	<info>
 		<name>Fighter</name>
-		<description>The Fighter class from the Player’s Handbook.</description>
+		<description>The Fighter class from the Playerâ€™s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.4.3">
-			<file name="class-fighter.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-fighter.xml" />
+			<file name="class-fighter.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook/classes/class-fighter.xml" />
 		</update>
 	</info>
 
-	<element name="Fighter" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FIGHTER">
+	<element name="Fighter" type="Class" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FIGHTER">
 		<description>
 			<p>A human in clanging plate armor holds her shield before her as she runs toward the massed goblins. An elf behind her, clad in studded leather armor, peppers the goblins with arrows loosed from his exquisite bow. The half-orc nearby shouts orders, helping the two combatants coordinate their assault to the best advantage.</p>
-			<p class="indent">A dwarf in chain mail interposes his shield between the ogre’s club and his companion, knocking the deadly blow aside. His companion, a half-elf in scale armor, swings two scimitars in a blinding whirl as she circles the ogre, looking for a blind spot in its defenses.</p>
-			<p class="indent">A gladiator fights for sport in an arena, a master with his trident and net, skilled at toppling foes and moving them around for the crowd’s delight—and his own tactical advantage. His opponent’s sword flares with blue light an instant before she sends lightning flashing forth to smite him.</p>
-			<p class="indent">All of these heroes are fighters, perhaps the most diverse class of characters in the worlds of Dungeons &amp; Dragons. Questing knights, conquering overlords, royal champions, elite foot soldiers, hardened mercenaries, and bandit kings—as fighters, they all share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. And they are well acquainted with death, both meting it out and staring it defiantly in the face.</p>
+			<p class="indent">A dwarf in chain mail interposes his shield between the ogreâ€™s club and his companion, knocking the deadly blow aside. His companion, a half-elf in scale armor, swings two scimitars in a blinding whirl as she circles the ogre, looking for a blind spot in its defenses.</p>
+			<p class="indent">A gladiator fights for sport in an arena, a master with his trident and net, skilled at toppling foes and moving them around for the crowdâ€™s delightâ€”and his own tactical advantage. His opponentâ€™s sword flares with blue light an instant before she sends lightning flashing forth to smite him.</p>
+			<p class="indent">All of these heroes are fighters, perhaps the most diverse class of characters in the worlds of Dungeons &amp; Dragons. Questing knights, conquering overlords, royal champions, elite foot soldiers, hardened mercenaries, and bandit kingsâ€”as fighters, they all share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. And they are well acquainted with death, both meting it out and staring it defiantly in the face.</p>
 			<h4>WELL-ROUNDED SPECIALISTS</h4>
 			<p>Fighters learn the basics of all combat styles. Every fighter can swing an axe, fence with a rapier, wield a longsword or a greatsword, use a bow, and even trap foes in a net with some degree of skill. Likewise, a fighter is adept with shields and every form of armor. Beyond that basic degree of familiarity, each fighter specializes in a certain style of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad general ability and extensive specialization makes fighters superior combatants on battlefields and in dungeons alike.</p>
 			<h4>TRAINED FOR DANGER</h4>
-			<p>Not every member of the city watch, the village militia, or the queen’s army is a fighter. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge. Veteran soldiers, military officers, trained bodyguards, dedicated knights, and similar figures are fighters.</p>
-			<p class="indent">Some fighters feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a fighter, not all that different from the life he or she left behind. There are greater risks, perhaps, but also much greater rewards—few fighters in the city watch have the opportunity to discover a magic flame tongue sword, for example.</p>
+			<p>Not every member of the city watch, the village militia, or the queenâ€™s army is a fighter. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge. Veteran soldiers, military officers, trained bodyguards, dedicated knights, and similar figures are fighters.</p>
+			<p class="indent">Some fighters feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a fighter, not all that different from the life he or she left behind. There are greater risks, perhaps, but also much greater rewardsâ€”few fighters in the city watch have the opportunity to discover a magic flame tongue sword, for example.</p>
 			<h4>CREATING A FIGHTER</h4>
-			<p>As you build your fighter, think about two related elements of your character’s background: Where did you get your combat training, and what set you apart from the mundane warriors around you? Were you particularly ruthless? Did you get extra help from a mentor, perhaps because of your exceptional dedication? What drove you to this training in the first place? A threat to your homeland, a thirst for revenge, or a need to prove yourself might all have been factors.</p>
-			<p class="indent">You might have enjoyed formal training in a noble’s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self-taught—unpolished but well tested. Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death’s embrace.</p>
+			<p>As you build your fighter, think about two related elements of your characterâ€™s background: Where did you get your combat training, and what set you apart from the mundane warriors around you? Were you particularly ruthless? Did you get extra help from a mentor, perhaps because of your exceptional dedication? What drove you to this training in the first place? A threat to your homeland, a thirst for revenge, or a need to prove yourself might all have been factors.</p>
+			<p class="indent">You might have enjoyed formal training in a nobleâ€™s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self-taughtâ€”unpolished but well tested. Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessionsâ€”the only things that stand between you and deathâ€™s embrace.</p>
 			<h5>QUICK BUILD</h5>
 			<p>You can make a fighter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Constitution. Second, choose the soldier background.</p>
 			<h3>CLASS FEATURES</h3>
@@ -49,7 +49,7 @@
 				<li><i>(a)</i> chain mail or <i>(b)</i> leather armor, longbow, and 20 arrows</li>
 				<li><i>(a)</i> a martial weapon and a shield or <i>(b)</i> two martial weapons</li>
 				<li><i>(a)</i> a light crossbow and 20 bolts or <i>(b)</i> two handaxes</li>
-				<li><i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack</li>
+				<li><i>(a)</i> a dungeoneerâ€™s pack or <i>(b)</i> an explorerâ€™s pack</li>
 			</ul>
 			<h5 class="caption">THE FIGHTER</h5>
 			<table class="class-features">
@@ -126,10 +126,10 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Fighting Style" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE">
+	<element name="Fighting Style" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_FIGHTING_STYLE</requirements>
 		<description>
-			<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
+			<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You canâ€™t take a Fighting Style option more than once, even if you later get to choose again.</p>
 			<h5 class="caption">ARCHERY</h5>
 			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
 			<h5 class="caption">DEFENSE</h5>
@@ -147,7 +147,7 @@
 			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Fighter" level="1"/>
 		</rules>
 	</element>
-	<element name="Second Wind" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND">
+	<element name="Second Wind" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_SECOND_WIND</requirements>
 		<description>
 			<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</p>
@@ -157,7 +157,7 @@
 			<description>You regain 1d10+{{level:fighter}} hp.</description>
 		</sheet>
 	</element>
-	<element name="Action Surge" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ACTIONSURGE">
+	<element name="Action Surge" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ACTIONSURGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_ACTION_SURGE</requirements>
 		<description>
 			<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p>
@@ -168,21 +168,21 @@
 			<description usage="2/Short Rest" level="17">On your turn, you can take one additional action on top of your regular action.</description>
 		</sheet>
 	</element>
-	<element name="Martial Archetype" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_MARTIALARCHETYPE">
+	<element name="Martial Archetype" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_MARTIALARCHETYPE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_MARTIAL_ARCHETYPE</requirements>
 		<description>
-			<p>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. The Champion archetype is detailed at the end of the class description; see the Player’s Handbook for information on other martial archetypes. Your archetype grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</p>
+			<p>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. The Champion archetype is detailed at the end of the class description; see the Playerâ€™s Handbook for information on other martial archetypes. Your archetype grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Archetype" name="Martial Archetype" supports="Martial Archetype" level="3" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER">
+	<element name="Ability Score Improvement" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+			<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you canâ€™t increase an ability score above 20 using this feature.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -195,7 +195,7 @@
 			<select type="Class Feature" name="Improvement Option (Fighter 19)" supports="Improvement Option,Fighter,19" level="19" />
 		</rules>
 	</element>
-	<element name="Extra Attack" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK">
+	<element name="Extra Attack" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_EXTRA_ATTACK</requirements>
 		<description>
 			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
@@ -212,10 +212,10 @@
 			<stat name="extra attack:count" value="4" level="20" bonus="extra attack" />
 		</rules>
 	</element>
-	<element name="Indomitable" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_INDOMITABLE">
+	<element name="Indomitable" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_INDOMITABLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_INDOMITABLE</requirements>
 		<description>
-			<p>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest.</p>
+			<p>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you canâ€™t use this feature again until you finish a long rest.</p>
 			<p class="indent">You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</p>
 		</description>
 		<sheet usage="{{indomitable:usage}}/Long Rest">
@@ -229,7 +229,7 @@
 	</element>
 
 	<!-- Fighting Styles -->
-	<element name="Archery" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY">
+	<element name="Archery" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY">
 		<requirements>!ID_WOTC_PHB24_FEAT_ARCHERY</requirements>
 		<supports>Fighting Style, Fighter, Ranger</supports>
 		<description>
@@ -242,7 +242,7 @@
 			<stat name="ranged:attack" value="2" />
 		</rules>
 	</element>
-	<element name="Defense" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
+	<element name="Defense" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
 		<requirements>!ID_WOTC_PHB24_FEAT_DEFENSE</requirements>
 		<supports>Fighting Style, Fighter, Paladin, Ranger</supports>
 		<description>
@@ -255,7 +255,7 @@
 			<stat name="ac:misc" value="1" bonus="fighting style" equipped="[armor:any]" alt="Defense (Fighting Style)" />
 		</rules>
 	</element>
-	<element name="Dueling" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
+	<element name="Dueling" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
 		<requirements>!ID_WOTC_PHB24_FEAT_DUELING</requirements>
 		<supports>Fighting Style, Fighter, Paladin, Ranger</supports>
 		<description>
@@ -268,7 +268,7 @@
 			<!-- <stat name="melee:damage" value="2" equipped="[primary:any],([secondary:none]||[shield:any])" /> -->
 		</rules>
 	</element>
-	<element name="Great Weapon Fighting" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
+	<element name="Great Weapon Fighting" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
 		<requirements>!ID_WOTC_PHB24_FEAT_GREAT_WEAPON_FIGHTING</requirements>
 		<supports>Fighting Style, Fighter, Paladin</supports>
 		<description>
@@ -278,7 +278,7 @@
 			<description>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</description>
 		</sheet>
 	</element>
-	<element name="Protection" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION">
+	<element name="Protection" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION">
 		<requirements>!ID_WOTC_PHB24_FEAT_PROTECTION</requirements>
 		<supports>Fighting Style, Fighter, Paladin</supports>
 		<description>
@@ -288,7 +288,7 @@
 			<description>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</description>
 		</sheet>
 	</element>
-	<element name="Two-Weapon Fighting" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
+	<element name="Two-Weapon Fighting" type="Class Feature" source="Playerâ€™s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
 		<requirements>!ID_WOTC_PHB24_FEAT_TWOWEAPON_FIGHTING</requirements>
 		<supports>Fighting Style, Fighter, Ranger</supports>
 		<description>

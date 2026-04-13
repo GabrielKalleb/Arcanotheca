@@ -5,66 +5,66 @@
 		<description>A classe Bruxo do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="class-warlock.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-warlock.xml" />
+			<file name="class-warlock.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/classes/class-warlock.xml" />
 		</update>
 	</info>
 
-	<element name="Bruxo" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_WARLOCK">
+	<element name="Bruxo" type="Class" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_WARLOCK">
 		<description>
-			<p>Os Bruxos buscam por conhecimento que jaz oculto na estrutura do multiverso. Eles frequentemente começam sua busca por poder mágico mergulhando em tomos de saber proibido, experimentando invocações destinadas a atrair o poder de seres extraplanares ou buscando lugares de poder onde a influência desses seres pode ser sentida. Em pouco tempo, cada Bruxo é atraído para um pacto vinculativo com um patrono poderoso. Baseando-se no conhecimento antigo de seres como anjos, arquifadas, demônios, diabos, bruxas e entidades alienígenas do Reino Distante, os Bruxos reúnem segredos arcanos para reforçar seu próprio poder.</p>
-			<p class="indent">Os Bruxos veem seus patronos como recursos, como meios para o fim de alcançar o poder mágico. Alguns Bruxos respeitam, reverenciam ou até amam seus patronos; alguns servem aos seus patronos com relutância; e alguns procuram minar seus patronos mesmo enquanto empunham o poder que eles lhes deram.</p>
-			<p class="indent">Uma vez feito o pacto, a sede de conhecimento e poder de um Bruxo não pode ser saciada com mero estudo. A maioria dos Bruxos passa seus dias buscando maior poder e conhecimento mais profundo, o que normalmente significa algum tipo de aventura.</p>
+			<p>Os Bruxos buscam por conhecimento que jaz oculto na estrutura do multiverso. Eles frequentemente comeÃ§am sua busca por poder mÃ¡gico mergulhando em tomos de saber proibido, experimentando invocaÃ§Ãµes destinadas a atrair o poder de seres extraplanares ou buscando lugares de poder onde a influÃªncia desses seres pode ser sentida. Em pouco tempo, cada Bruxo Ã© atraÃ­do para um pacto vinculativo com um patrono poderoso. Baseando-se no conhecimento antigo de seres como anjos, arquifadas, demÃ´nios, diabos, bruxas e entidades alienÃ­genas do Reino Distante, os Bruxos reÃºnem segredos arcanos para reforÃ§ar seu prÃ³prio poder.</p>
+			<p class="indent">Os Bruxos veem seus patronos como recursos, como meios para o fim de alcanÃ§ar o poder mÃ¡gico. Alguns Bruxos respeitam, reverenciam ou atÃ© amam seus patronos; alguns servem aos seus patronos com relutÃ¢ncia; e alguns procuram minar seus patronos mesmo enquanto empunham o poder que eles lhes deram.</p>
+			<p class="indent">Uma vez feito o pacto, a sede de conhecimento e poder de um Bruxo nÃ£o pode ser saciada com mero estudo. A maioria dos Bruxos passa seus dias buscando maior poder e conhecimento mais profundo, o que normalmente significa algum tipo de aventura.</p>
 			<div class="sidebar">
-				<h5>TRAÇOS PRINCIPAIS DO BRUXO</h5>
+				<h5>TRAÃ‡OS PRINCIPAIS DO BRUXO</h5>
 				<table>
 					<tr><td><b>Habilidade Principal</b></td><td class="left">Carisma</td></tr>
-					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D8 por nível de Bruxo</td></tr>
-					<tr><td><b>Proficiências em Testes de Resistência</b></td><td class="left">Sabedoria e Carisma</td></tr>
-					<tr><td><b>Proficiências em Perícias</b></td><td class="left"><i>Escolha 2:</i> Arcanismo, Enganação, História, Intimidação, Investigação, Natureza ou Religião</td></tr>
-					<tr><td><b>Proficiências com Armas</b></td><td class="left">Armas simples</td></tr>
+					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D8 por nÃ­vel de Bruxo</td></tr>
+					<tr><td><b>ProficiÃªncias em Testes de ResistÃªncia</b></td><td class="left">Sabedoria e Carisma</td></tr>
+					<tr><td><b>ProficiÃªncias em PerÃ­cias</b></td><td class="left"><i>Escolha 2:</i> Arcanismo, EnganaÃ§Ã£o, HistÃ³ria, IntimidaÃ§Ã£o, InvestigaÃ§Ã£o, Natureza ou ReligiÃ£o</td></tr>
+					<tr><td><b>ProficiÃªncias com Armas</b></td><td class="left">Armas simples</td></tr>
 					<tr><td><b>Treinamento com Armaduras</b></td><td class="left">Armaduras leves</td></tr>
 					<tr><td><b>Equipamento Inicial</b></td><td class="left"><i> Escolha A ou B:</i> (A) Armadura de Couro, Foice, 2 Adagas, Foco Arcano (orbe), Livro (saber oculto), Pacote de Estudioso e 15 PO; ou (B) 100 PO</td></tr>
 				</table>
 			</div>
 			<h4>TORNANDO-SE UM BRUXO ...</h4>
-			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÃVEL 1</h5>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
-				<li>Você ganha todos os traços na tabela de Traços Principais do Bruxo.</li>
-				<li>Você ganha as características de nível 1 do Bruxo que estão listadas na tabela Características de Bruxo.</li>
+				<li>VocÃª ganha todos os traÃ§os na tabela de TraÃ§os Principais do Bruxo.</li>
+				<li>VocÃª ganha as caracterÃ­sticas de nÃ­vel 1 do Bruxo que estÃ£o listadas na tabela CaracterÃ­sticas de Bruxo.</li>
 			</ul>
 			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
 			<ul style="margin-top:-1em">
-				<li>Você ganha os seguintes traços da tabela de Traços Principais do Bruxo: Dado de Pontos de Vida e treinamento com Armaduras leves.</li>
-				<li>Você ganha as características de nível 1 do Bruxo que estão listadas na tabela Características de Bruxo.</li>
+				<li>VocÃª ganha os seguintes traÃ§os da tabela de TraÃ§os Principais do Bruxo: Dado de Pontos de Vida e treinamento com Armaduras leves.</li>
+				<li>VocÃª ganha as caracterÃ­sticas de nÃ­vel 1 do Bruxo que estÃ£o listadas na tabela CaracterÃ­sticas de Bruxo.</li>
 			</ul>
-			<h5>CARACTERÍSTICAS DE BRUXO</h5>
+			<h5>CARACTERÃSTICAS DE BRUXO</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Nível</td><td>Bônus de Proficiência</td><td class="col-30 left">Características de Classe</td><td>Invocações</td><td>Truques</td><td>Magias Preparadas</td><td>Espaços de Magia</td><td>Nível do Espaço</td></tr>
+					<tr><td class="col-5">NÃ­vel</td><td>BÃ´nus de ProficiÃªncia</td><td class="col-30 left">CaracterÃ­sticas de Classe</td><td>InvocaÃ§Ãµes</td><td>Truques</td><td>Magias Preparadas</td><td>EspaÃ§os de Magia</td><td>NÃ­vel do EspaÃ§o</td></tr>
 				</thead>
-				<tr><td>1</td><td>+2</td><td class="left">Invocações Místicas, Magia de Pacto</td><td>1</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
-				<tr><td>2</td><td>+2</td><td class="left">Astúcia Mágica</td><td>3</td><td>2</td><td>3</td><td>2</td><td>1</td></tr>
+				<tr><td>1</td><td>+2</td><td class="left">InvocaÃ§Ãµes MÃ­sticas, Magia de Pacto</td><td>1</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+				<tr><td>2</td><td>+2</td><td class="left">AstÃºcia MÃ¡gica</td><td>3</td><td>2</td><td>3</td><td>2</td><td>1</td></tr>
 				<tr><td>3</td><td>+2</td><td class="left">Subclasse de Bruxo</td><td>3</td><td>2</td><td>4</td><td>2</td><td>2</td></tr>
 				<tr><td>4</td><td>+2</td><td class="left">Aumento no Valor de Habilidade</td><td>3</td><td>3</td><td>5</td><td>2</td><td>2</td></tr>
-				<tr><td>5</td><td>+3</td><td class="left">—</td><td>5</td><td>3</td><td>6</td><td>2</td><td>3</td></tr>
-				<tr><td>6</td><td>+3</td><td class="left">Característica de Subclasse</td><td>5</td><td>3</td><td>7</td><td>2</td><td>3</td></tr>
-				<tr><td>7</td><td>+3</td><td class="left">—</td><td>6</td><td>3</td><td>8</td><td>2</td><td>4</td></tr>
+				<tr><td>5</td><td>+3</td><td class="left">â€”</td><td>5</td><td>3</td><td>6</td><td>2</td><td>3</td></tr>
+				<tr><td>6</td><td>+3</td><td class="left">CaracterÃ­stica de Subclasse</td><td>5</td><td>3</td><td>7</td><td>2</td><td>3</td></tr>
+				<tr><td>7</td><td>+3</td><td class="left">â€”</td><td>6</td><td>3</td><td>8</td><td>2</td><td>4</td></tr>
 				<tr><td>8</td><td>+3</td><td class="left">Aumento no Valor de Habilidade</td><td>6</td><td>3</td><td>9</td><td>2</td><td>4</td></tr>
 				<tr><td>9</td><td>+4</td><td class="left">Contatar Patrono</td><td>7</td><td>3</td><td>10</td><td>2</td><td>5</td></tr>
-				<tr><td>10</td><td>+4</td><td class="left">Característica de Subclasse</td><td>7</td><td>4</td><td>10</td><td>2</td><td>5</td></tr>
-				<tr><td>11</td><td>+4</td><td class="left">Arcano Místico (magia de nível 6)</td><td>7</td><td>4</td><td>11</td><td>3</td><td>5</td></tr>
+				<tr><td>10</td><td>+4</td><td class="left">CaracterÃ­stica de Subclasse</td><td>7</td><td>4</td><td>10</td><td>2</td><td>5</td></tr>
+				<tr><td>11</td><td>+4</td><td class="left">Arcano MÃ­stico (magia de nÃ­vel 6)</td><td>7</td><td>4</td><td>11</td><td>3</td><td>5</td></tr>
 				<tr><td>12</td><td>+4</td><td class="left">Aumento no Valor de Habilidade</td><td>8</td><td>4</td><td>11</td><td>3</td><td>5</td></tr>
-				<tr><td>13</td><td>+5</td><td class="left">Arcano Místico (magia de nível 7)</td><td>8</td><td>4</td><td>12</td><td>3</td><td>5</td></tr>
-				<tr><td>14</td><td>+5</td><td class="left">Característica de Subclasse</td><td>8</td><td>4</td><td>12</td><td>3</td><td>5</td></tr>
-				<tr><td>15</td><td>+5</td><td class="left">Arcano Místico (magia de nível 8)</td><td>9</td><td>4</td><td>13</td><td>3</td><td>5</td></tr>
+				<tr><td>13</td><td>+5</td><td class="left">Arcano MÃ­stico (magia de nÃ­vel 7)</td><td>8</td><td>4</td><td>12</td><td>3</td><td>5</td></tr>
+				<tr><td>14</td><td>+5</td><td class="left">CaracterÃ­stica de Subclasse</td><td>8</td><td>4</td><td>12</td><td>3</td><td>5</td></tr>
+				<tr><td>15</td><td>+5</td><td class="left">Arcano MÃ­stico (magia de nÃ­vel 8)</td><td>9</td><td>4</td><td>13</td><td>3</td><td>5</td></tr>
 				<tr><td>16</td><td>+5</td><td class="left">Aumento no Valor de Habilidade</td><td>9</td><td>4</td><td>13</td><td>3</td><td>5</td></tr>
-				<tr><td>17</td><td>+6</td><td class="left">Arcano Místico (magia de nível 9)</td><td>9</td><td>4</td><td>14</td><td>4</td><td>5</td></tr>
-				<tr><td>18</td><td>+6</td><td class="left">—</td><td>10</td><td>4</td><td>14</td><td>4</td><td>5</td></tr>
-				<tr><td>19</td><td>+6</td><td class="left">Dádiva Épica</td><td>10</td><td>4</td><td>15</td><td>4</td><td>5</td></tr>
-				<tr><td>20</td><td>+6</td><td class="left">Mestre Místico</td><td>10</td><td>4</td><td>15</td><td>4</td><td>5</td></tr>
+				<tr><td>17</td><td>+6</td><td class="left">Arcano MÃ­stico (magia de nÃ­vel 9)</td><td>9</td><td>4</td><td>14</td><td>4</td><td>5</td></tr>
+				<tr><td>18</td><td>+6</td><td class="left">â€”</td><td>10</td><td>4</td><td>14</td><td>4</td><td>5</td></tr>
+				<tr><td>19</td><td>+6</td><td class="left">DÃ¡diva Ã‰pica</td><td>10</td><td>4</td><td>15</td><td>4</td><td>5</td></tr>
+				<tr><td>20</td><td>+6</td><td class="left">Mestre MÃ­stico</td><td>10</td><td>4</td><td>15</td><td>4</td><td>5</td></tr>
 			</table>
-			<h4>CARACTERÍSTICAS DA CLASSE BRUXO</h4>
-			<p>Como Bruxo, você ganha as seguintes características de classe quando atinge os níveis de Bruxo especificados. Estas características estão listadas na tabela Características de Bruxo.</p>
+			<h4>CARACTERÃSTICAS DA CLASSE BRUXO</h4>
+			<p>Como Bruxo, vocÃª ganha as seguintes caracterÃ­sticas de classe quando atinge os nÃ­veis de Bruxo especificados. Estas caracterÃ­sticas estÃ£o listadas na tabela CaracterÃ­sticas de Bruxo.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_PACT_MAGIC"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING"/>
@@ -85,7 +85,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK"/>
-			<select type="Proficiency" name="Proficiência em Perícia (Bruxo)" supports="Skill,Warlock" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK" />
+			<select type="Proficiency" name="ProficiÃªncia em PerÃ­cia (Bruxo)" supports="Skill,Warlock" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK" />
 
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_PACT_MAGIC" level="1"/>
@@ -109,54 +109,54 @@
 		</multiclass>
 	</element>
 
-	<element name="Nível 1: Invocações Místicas" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
+	<element name="NÃ­vel 1: InvocaÃ§Ãµes MÃ­sticas" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_INVOCATIONS</requirements>
 		<description>
-			<p>Você desenterrou Invocações Místicas, pedaços de conhecimento proibido que infundem você com uma habilidade mágica permanente ou outras lições. Você ganha uma invocação de sua escolha, como o Pacto do Tomo.</p>
-			<p class="indent"><em><strong>Pré-requisitos.</strong></em> Se uma invocação tiver um pré-requisito, você deve atendê-lo para aprender essa invocação. Por exemplo, se uma invocação exigir que você seja um Bruxo de nível 5+, você poderá selecionar a invocação assim que atingir o nível 5 de Bruxo.</p>
-			<p class="indent"><em><strong>Substituindo e Ganhando Invocações.</strong></em> Sempre que você ganhar um nível de Bruxo, poderá substituir uma de suas invocações por outra para a qual você se qualifique. Você não pode substituir uma invocação se ela for um pré-requisito para outra invocação que você possua.</p>
-			<p class="indent">Ao ganhar certos níveis de Bruxo, você ganha mais invocações de sua escolha, conforme mostrado na coluna Invocações da tabela Características de Bruxo.</p>
-			<p class="indent">Você não pode escolher a mesma invocação mais de uma vez, a menos que sua descrição diga o contrário.</p>
+			<p>VocÃª desenterrou InvocaÃ§Ãµes MÃ­sticas, pedaÃ§os de conhecimento proibido que infundem vocÃª com uma habilidade mÃ¡gica permanente ou outras liÃ§Ãµes. VocÃª ganha uma invocaÃ§Ã£o de sua escolha, como o Pacto do Tomo.</p>
+			<p class="indent"><em><strong>PrÃ©-requisitos.</strong></em> Se uma invocaÃ§Ã£o tiver um prÃ©-requisito, vocÃª deve atendÃª-lo para aprender essa invocaÃ§Ã£o. Por exemplo, se uma invocaÃ§Ã£o exigir que vocÃª seja um Bruxo de nÃ­vel 5+, vocÃª poderÃ¡ selecionar a invocaÃ§Ã£o assim que atingir o nÃ­vel 5 de Bruxo.</p>
+			<p class="indent"><em><strong>Substituindo e Ganhando InvocaÃ§Ãµes.</strong></em> Sempre que vocÃª ganhar um nÃ­vel de Bruxo, poderÃ¡ substituir uma de suas invocaÃ§Ãµes por outra para a qual vocÃª se qualifique. VocÃª nÃ£o pode substituir uma invocaÃ§Ã£o se ela for um prÃ©-requisito para outra invocaÃ§Ã£o que vocÃª possua.</p>
+			<p class="indent">Ao ganhar certos nÃ­veis de Bruxo, vocÃª ganha mais invocaÃ§Ãµes de sua escolha, conforme mostrado na coluna InvocaÃ§Ãµes da tabela CaracterÃ­sticas de Bruxo.</p>
+			<p class="indent">VocÃª nÃ£o pode escolher a mesma invocaÃ§Ã£o mais de uma vez, a menos que sua descriÃ§Ã£o diga o contrÃ¡rio.</p>
 		</description>
-		<sheet alt="Invocações Místicas">
-			<description>Sempre que ganhar um nível de Bruxo, você pode substituir uma de suas invocações por outra para a qual se qualifique. Você não pode substituir uma invocação se ela for pré-requisito para outra que você possua.</description>
+		<sheet alt="InvocaÃ§Ãµes MÃ­sticas">
+			<description>Sempre que ganhar um nÃ­vel de Bruxo, vocÃª pode substituir uma de suas invocaÃ§Ãµes por outra para a qual se qualifique. VocÃª nÃ£o pode substituir uma invocaÃ§Ã£o se ela for prÃ©-requisito para outra que vocÃª possua.</description>
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Invocação Mística (Bruxo 1)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="1" />
-			<select type="Class Feature" name="Invocação Mística (Bruxo 2)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="2" number="2" />
-			<select type="Class Feature" name="Invocação Mística (Bruxo 5)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="5" number="2" />
-			<select type="Class Feature" name="Invocação Mística (Bruxo 7)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="7" />
-			<select type="Class Feature" name="Invocação Mística (Bruxo 9)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="9" />
-			<select type="Class Feature" name="Invocação Mística (Bruxo 12)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="12" />
-			<select type="Class Feature" name="Invocação Mística (Bruxo 15)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="15" />
-			<select type="Class Feature" name="Invocação Mística (Bruxo 18)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="18" />
+			<select type="Class Feature" name="InvocaÃ§Ã£o MÃ­stica (Bruxo 1)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="1" />
+			<select type="Class Feature" name="InvocaÃ§Ã£o MÃ­stica (Bruxo 2)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="2" number="2" />
+			<select type="Class Feature" name="InvocaÃ§Ã£o MÃ­stica (Bruxo 5)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="5" number="2" />
+			<select type="Class Feature" name="InvocaÃ§Ã£o MÃ­stica (Bruxo 7)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="7" />
+			<select type="Class Feature" name="InvocaÃ§Ã£o MÃ­stica (Bruxo 9)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="9" />
+			<select type="Class Feature" name="InvocaÃ§Ã£o MÃ­stica (Bruxo 12)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="12" />
+			<select type="Class Feature" name="InvocaÃ§Ã£o MÃ­stica (Bruxo 15)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="15" />
+			<select type="Class Feature" name="InvocaÃ§Ã£o MÃ­stica (Bruxo 18)" supports="Eldritch Invocation||PHB24 Eldritch Invocation" level="18" />
 
-			<select type="Class Feature" name="Invocação Lâmina Sedenta" supports="PHB24 Thirsting Blade Invocation" default="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE_SUBELEMENT" requirements="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE, !ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVOURING_BLADE_SUBELEMENT" />
-			<select type="Class Feature" name="Invocação Lâmina Devoradora" supports="PHB24 Devouring Blade Invocation" default="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVOURING_BLADE_SUBELEMENT" requirements="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVOURING_BLADE" />
+			<select type="Class Feature" name="InvocaÃ§Ã£o LÃ¢mina Sedenta" supports="PHB24 Thirsting Blade Invocation" default="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE_SUBELEMENT" requirements="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE, !ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVOURING_BLADE_SUBELEMENT" />
+			<select type="Class Feature" name="InvocaÃ§Ã£o LÃ¢mina Devoradora" supports="PHB24 Devouring Blade Invocation" default="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVOURING_BLADE_SUBELEMENT" requirements="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVOURING_BLADE" />
 		</rules>
 	</element>
 
-	<element name="Nível 1: Magia de Pacto" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_PACT_MAGIC">
+	<element name="NÃ­vel 1: Magia de Pacto" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_PACT_MAGIC">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_PACT_MAGIC</requirements>
 		<description>
-			<p>Através de uma cerimônia oculta, você formou um pacto com uma entidade misteriosa para ganhar poderes mágicos. A entidade é uma voz nas sombras — sua identidade incerta — mas seu benefício para você é concreto: a habilidade de conjurar magias.</p>
-			<p class="indent"><em><strong>Truques.</strong></em> Você conhece dois truques de Bruxo de sua escolha. <i>Rajada Mística</i> e <i>Prestidigitação</i> são recomendados. Sempre que você ganhar um nível de Bruxo, poderá substituir um de seus truques desta característica por outro truque de Bruxo de sua escolha.</p>
-			<p class="indent">Ao atingir os níveis 4 e 10 de Bruxo, você aprende outro truque de Bruxo de sua escolha, conforme mostrado na coluna Truques da tabela Características de Bruxo.</p>
-			<p class="indent"><i><b>Espaços de Magia.</b></i> A tabela Características de Bruxo mostra quantos espaços de magia você tem para conjurar suas magias de Bruxo de níveis 1 a 5. A tabela também mostra o nível desses espaços, todos os quais são do mesmo nível. Você recupera todos os espaços de magia de Magia de Pacto gastos ao terminar um Descanso Curto ou Longo.</p>
-			<p class="indent">Por exemplo, quando você é um Bruxo de nível 5, você tem dois espaços de magia de nível 3. Para conjurar a magia de nível 1 <i>Relâmpago das Bruxas</i>, você deve gastar um desses espaços e a conjura como uma magia de nível 3.</p>
-			<p class="indent"><i><b>Magias Preparadas de Nível 1+.</b></i> Você prepara a lista de magias de nível 1+ que estão disponíveis para você conjurar com esta característica. Para começar, escolha duas magias de Bruxo de nível 1. <i>Enfeitiçar Pessoa</i> e <i>Bruxaria (Hex)</i> são recomendadas.</p>
-			<p class="indent">O número de magias em sua lista aumenta conforme você ganha níveis de Bruxo, conforme mostrado na coluna Magias Preparadas da tabela Características de Bruxo. Sempre que esse número aumentar, escolha magias de Bruxo adicionais até que o número de magias em sua lista corresponda ao número na tabela. As magias escolhidas não devem ser de nível superior ao mostrado na coluna Nível do Espaço da tabela para o seu nível. Quando atingir o nível 6, por exemplo, você aprende uma nova magia de Bruxo, que pode ser de níveis 1 a 3.</p>
-			<p class="indent">Se outra característica de Bruxo lhe conceder magias que você sempre tem preparadas, essas magias não contam no número de magias que você pode preparar com esta característica, mas essas magias contam como magias de Bruxo para você.</p>
-			<p class="indent"><i><b>Alterando Suas Magias Preparadas.</b></i> Sempre que ganhar um nível de Bruxo, você poderá substituir uma magia da sua lista por outra magia de Bruxo de um nível elegível.</p>
-			<p class="indent"><i><b>Atributo de Conjuração.</b></i> Carisma é o atributo de conjuração para suas magias de Bruxo.</p>
-			<p class="indent"><i><b>Foco de Conjuração.</b></i> Você pode usar um Foco Arcano como Foco de Conjuração para suas magias de Bruxo.</p>
+			<p>AtravÃ©s de uma cerimÃ´nia oculta, vocÃª formou um pacto com uma entidade misteriosa para ganhar poderes mÃ¡gicos. A entidade Ã© uma voz nas sombras â€” sua identidade incerta â€” mas seu benefÃ­cio para vocÃª Ã© concreto: a habilidade de conjurar magias.</p>
+			<p class="indent"><em><strong>Truques.</strong></em> VocÃª conhece dois truques de Bruxo de sua escolha. <i>Rajada MÃ­stica</i> e <i>PrestidigitaÃ§Ã£o</i> sÃ£o recomendados. Sempre que vocÃª ganhar um nÃ­vel de Bruxo, poderÃ¡ substituir um de seus truques desta caracterÃ­stica por outro truque de Bruxo de sua escolha.</p>
+			<p class="indent">Ao atingir os nÃ­veis 4 e 10 de Bruxo, vocÃª aprende outro truque de Bruxo de sua escolha, conforme mostrado na coluna Truques da tabela CaracterÃ­sticas de Bruxo.</p>
+			<p class="indent"><i><b>EspaÃ§os de Magia.</b></i> A tabela CaracterÃ­sticas de Bruxo mostra quantos espaÃ§os de magia vocÃª tem para conjurar suas magias de Bruxo de nÃ­veis 1 a 5. A tabela tambÃ©m mostra o nÃ­vel desses espaÃ§os, todos os quais sÃ£o do mesmo nÃ­vel. VocÃª recupera todos os espaÃ§os de magia de Magia de Pacto gastos ao terminar um Descanso Curto ou Longo.</p>
+			<p class="indent">Por exemplo, quando vocÃª Ã© um Bruxo de nÃ­vel 5, vocÃª tem dois espaÃ§os de magia de nÃ­vel 3. Para conjurar a magia de nÃ­vel 1 <i>RelÃ¢mpago das Bruxas</i>, vocÃª deve gastar um desses espaÃ§os e a conjura como uma magia de nÃ­vel 3.</p>
+			<p class="indent"><i><b>Magias Preparadas de NÃ­vel 1+.</b></i> VocÃª prepara a lista de magias de nÃ­vel 1+ que estÃ£o disponÃ­veis para vocÃª conjurar com esta caracterÃ­stica. Para comeÃ§ar, escolha duas magias de Bruxo de nÃ­vel 1. <i>EnfeitiÃ§ar Pessoa</i> e <i>Bruxaria (Hex)</i> sÃ£o recomendadas.</p>
+			<p class="indent">O nÃºmero de magias em sua lista aumenta conforme vocÃª ganha nÃ­veis de Bruxo, conforme mostrado na coluna Magias Preparadas da tabela CaracterÃ­sticas de Bruxo. Sempre que esse nÃºmero aumentar, escolha magias de Bruxo adicionais atÃ© que o nÃºmero de magias em sua lista corresponda ao nÃºmero na tabela. As magias escolhidas nÃ£o devem ser de nÃ­vel superior ao mostrado na coluna NÃ­vel do EspaÃ§o da tabela para o seu nÃ­vel. Quando atingir o nÃ­vel 6, por exemplo, vocÃª aprende uma nova magia de Bruxo, que pode ser de nÃ­veis 1 a 3.</p>
+			<p class="indent">Se outra caracterÃ­stica de Bruxo lhe conceder magias que vocÃª sempre tem preparadas, essas magias nÃ£o contam no nÃºmero de magias que vocÃª pode preparar com esta caracterÃ­stica, mas essas magias contam como magias de Bruxo para vocÃª.</p>
+			<p class="indent"><i><b>Alterando Suas Magias Preparadas.</b></i> Sempre que ganhar um nÃ­vel de Bruxo, vocÃª poderÃ¡ substituir uma magia da sua lista por outra magia de Bruxo de um nÃ­vel elegÃ­vel.</p>
+			<p class="indent"><i><b>Atributo de ConjuraÃ§Ã£o.</b></i> Carisma Ã© o atributo de conjuraÃ§Ã£o para suas magias de Bruxo.</p>
+			<p class="indent"><i><b>Foco de ConjuraÃ§Ã£o.</b></i> VocÃª pode usar um Foco Arcano como Foco de ConjuraÃ§Ã£o para suas magias de Bruxo.</p>
 			<center>
-				<p><b>CD de resistência de magia</b> = 8 + seu bônus de proficiência + seu modificador de Carisma</p>
-				<p><b>Modificador de ataque de magia</b> = seu bônus de proficiência + seu modificador de Carisma</p>
+				<p><b>CD de resistÃªncia de magia</b> = 8 + seu bÃ´nus de proficiÃªncia + seu modificador de Carisma</p>
+				<p><b>Modificador de ataque de magia</b> = seu bÃ´nus de proficiÃªncia + seu modificador de Carisma</p>
 			</center>
 		</description>
 		<sheet alt="Magia de Pacto">
-			<description>Sempre que ganhar um nível de Bruxo, você pode substituir um de seus truques por outro truque de Bruxo de sua escolha.</description>
+			<description>Sempre que ganhar um nÃ­vel de Bruxo, vocÃª pode substituir um de seus truques por outro truque de Bruxo de sua escolha.</description>
 		</sheet>
 		<spellcasting name="Warlock" ability="Charisma" allowReplace="true">
 			<list>Warlock</list>
@@ -190,39 +190,39 @@
 			<select type="Spell" name="Truque (Bruxo)" supports="$(spellcasting:list),0" level="4" spellcasting="Warlock" />
 			<select type="Spell" name="Truque (Bruxo)" supports="$(spellcasting:list),0" level="10" spellcasting="Warlock" />
 
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Warlock"/>
-			<select type="Spell" name="Conjuração (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Warlock"/>
+			<select type="Spell" name="ConjuraÃ§Ã£o (Bruxo)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Warlock"/>
 		</rules>
 	</element>
 
-	<element name="Nível 2: Astúcia Mágica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING">
+	<element name="NÃ­vel 2: AstÃºcia MÃ¡gica" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_MAGICAL_CUNNING</requirements>
 		<description>
-			<p>Você pode realizar um rito esotérico por 1 minuto. Ao final dele, você recupera espaços de magia de Magia de Pacto gastos, mas não mais do que um número igual à metade do seu máximo (arredondado para cima). Depois de usar esta característica, você não poderá usá-la novamente até terminar um Descanso Longo.</p>
+			<p>VocÃª pode realizar um rito esotÃ©rico por 1 minuto. Ao final dele, vocÃª recupera espaÃ§os de magia de Magia de Pacto gastos, mas nÃ£o mais do que um nÃºmero igual Ã  metade do seu mÃ¡ximo (arredondado para cima). Depois de usar esta caracterÃ­stica, vocÃª nÃ£o poderÃ¡ usÃ¡-la novamente atÃ© terminar um Descanso Longo.</p>
 		</description>
-		<sheet alt="Astúcia Mágica" usage="1/Descanso Longo">
-			<description>Você pode realizar um rito esotérico por 1 minuto para recuperar 1 espaço de magia de Magia de Pacto.</description>
-			<description level="11">Você pode realizar um rito esotérico por 1 minuto para recuperar até 2 espaços de magia de Magia de Pacto.</description>
-			<description level="20">Você pode realizar um rito esotérico por 1 minuto para recuperar todos os seus espaços de magia de Magia de Pacto.</description>
+		<sheet alt="AstÃºcia MÃ¡gica" usage="1/Descanso Longo">
+			<description>VocÃª pode realizar um rito esotÃ©rico por 1 minuto para recuperar 1 espaÃ§o de magia de Magia de Pacto.</description>
+			<description level="11">VocÃª pode realizar um rito esotÃ©rico por 1 minuto para recuperar atÃ© 2 espaÃ§os de magia de Magia de Pacto.</description>
+			<description level="20">VocÃª pode realizar um rito esotÃ©rico por 1 minuto para recuperar todos os seus espaÃ§os de magia de Magia de Pacto.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 3: Subclasse de Bruxo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_WARLOCK_SUBCLASS">
+	<element name="NÃ­vel 3: Subclasse de Bruxo" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_WARLOCK_SUBCLASS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_WARLOCK_SUBCLASS</requirements>
 		<description>
-			<p>Você ganha uma subclasse de Bruxo de sua escolha. Uma subclasse é uma especialização que concede a você características em certos níveis de Bruxo. Pelo resto da sua carreira, você ganha cada uma das características da sua subclasse que forem do seu nível de Bruxo ou inferior.</p>
+			<p>VocÃª ganha uma subclasse de Bruxo de sua escolha. Uma subclasse Ã© uma especializaÃ§Ã£o que concede a vocÃª caracterÃ­sticas em certos nÃ­veis de Bruxo. Pelo resto da sua carreira, vocÃª ganha cada uma das caracterÃ­sticas da sua subclasse que forem do seu nÃ­vel de Bruxo ou inferior.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -230,11 +230,11 @@
 		</rules>
 	</element>
 
-	<element name="Nível 4: Aumento no Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT">
+	<element name="NÃ­vel 4: Aumento no Valor de Habilidade" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Você ganha o talento Aumento no Valor de Habilidade ou outro talento de sua escolha para o qual você se qualifique. Você ganha esta característica novamente nos níveis 8, 12 e 16 de Bruxo.</p>
+			<p>VocÃª ganha o talento Aumento no Valor de Habilidade ou outro talento de sua escolha para o qual vocÃª se qualifique. VocÃª ganha esta caracterÃ­stica novamente nos nÃ­veis 8, 12 e 16 de Bruxo.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -245,57 +245,57 @@
 		</rules>
 	</element>
 
-	<element name="Nível 9: Contatar Patrono" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_CONTACT_PATRON">
+	<element name="NÃ­vel 9: Contatar Patrono" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_CONTACT_PATRON">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_CONTACT_PATRON</requirements>
 		<description>
-			<p>No passado, você costumava contatar seu patrono através de intermediários. Agora você pode se comunicar diretamente; você sempre tem a magia <i>Contatar Outro Plano</i> preparada. Com esta característica, você pode conjurar a magia sem gastar um espaço de magia para contatar seu patrono, e você é bem-sucedido automaticamente no teste de resistência da magia.</p>
-			<p class="indent">Depois de conjurar a magia com esta característica, você não poderá fazê-lo desta forma novamente até terminar um Descanso Longo.</p>
+			<p>No passado, vocÃª costumava contatar seu patrono atravÃ©s de intermediÃ¡rios. Agora vocÃª pode se comunicar diretamente; vocÃª sempre tem a magia <i>Contatar Outro Plano</i> preparada. Com esta caracterÃ­stica, vocÃª pode conjurar a magia sem gastar um espaÃ§o de magia para contatar seu patrono, e vocÃª Ã© bem-sucedido automaticamente no teste de resistÃªncia da magia.</p>
+			<p class="indent">Depois de conjurar a magia com esta caracterÃ­stica, vocÃª nÃ£o poderÃ¡ fazÃª-lo desta forma novamente atÃ© terminar um Descanso Longo.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_SPELL_CONTACT_OTHER_PLANE" />
 			</div>
 		</description>
 		<sheet alt="Contatar Patrono" usage="1/Descanso Longo">
-			<description>Você pode conjurar Contatar Outro Plano sem gastar um espaço de magia para contatar seu patrono. Quando conjurada desta forma, você passa automaticamente no teste de resistência.</description>
+			<description>VocÃª pode conjurar Contatar Outro Plano sem gastar um espaÃ§o de magia para contatar seu patrono. Quando conjurada desta forma, vocÃª passa automaticamente no teste de resistÃªncia.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONTACT_OTHER_PLANE" spellcasting="Warlock"/>
 		</rules>
 	</element>
 
-	<element name="Nível 11: Arcano Místico" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM">
+	<element name="NÃ­vel 11: Arcano MÃ­stico" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_MYSTIC_ARCANUM</requirements>
 		<description>
-			<p>Seu patrono lhe concede um segredo mágico chamado arcano. Escolha uma magia de Bruxo de nível 6 como este arcano.</p>
-			<p class="indent">Você pode conjurar sua magia de arcano uma vez sem gastar um espaço de magia, e deve terminar um Descanso Longo antes de poder conjurá-la desta forma novamente.</p>
-			<p class="indent">Conforme mostrado na tabela Características de Bruxo, você ganha outra magia de Bruxo de sua escolha que pode ser conjurada desta forma quando atingir os níveis 13 (magia de nível 7), 15 (magia de nível 8) e 17 (magia de nível 9) de Bruxo. Você recupera todos os usos do seu Arcano Místico ao terminar um Descanso Longo.</p>
-			<p class="indent">Sempre que você ganhar um nível de Bruxo, poderá substituir uma de suas magias de arcano por outra magia de Bruxo do mesmo nível.</p>
+			<p>Seu patrono lhe concede um segredo mÃ¡gico chamado arcano. Escolha uma magia de Bruxo de nÃ­vel 6 como este arcano.</p>
+			<p class="indent">VocÃª pode conjurar sua magia de arcano uma vez sem gastar um espaÃ§o de magia, e deve terminar um Descanso Longo antes de poder conjurÃ¡-la desta forma novamente.</p>
+			<p class="indent">Conforme mostrado na tabela CaracterÃ­sticas de Bruxo, vocÃª ganha outra magia de Bruxo de sua escolha que pode ser conjurada desta forma quando atingir os nÃ­veis 13 (magia de nÃ­vel 7), 15 (magia de nÃ­vel 8) e 17 (magia de nÃ­vel 9) de Bruxo. VocÃª recupera todos os usos do seu Arcano MÃ­stico ao terminar um Descanso Longo.</p>
+			<p class="indent">Sempre que vocÃª ganhar um nÃ­vel de Bruxo, poderÃ¡ substituir uma de suas magias de arcano por outra magia de Bruxo do mesmo nÃ­vel.</p>
 		</description>
-		<sheet alt="Arcano Místico" usage="1/Descanso Longo">
-			<description>Você pode conjurar cada uma de suas magias de Arcano Místico uma vez sem gastar espaço de magia. Ao ganhar um nível de Bruxo, você pode trocar uma magia de arcano por outra de mesmo nível.</description>
+		<sheet alt="Arcano MÃ­stico" usage="1/Descanso Longo">
+			<description>VocÃª pode conjurar cada uma de suas magias de Arcano MÃ­stico uma vez sem gastar espaÃ§o de magia. Ao ganhar um nÃ­vel de Bruxo, vocÃª pode trocar uma magia de arcano por outra de mesmo nÃ­vel.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="Magia de Nível 6 (Arcano Místico)" supports="Warlock,6" level="11" spellcasting="Warlock" allowReplace="false" />
-			<select type="Spell" name="Magia de Nível 7 (Arcano Místico)" supports="Warlock,7" level="13" spellcasting="Warlock" allowReplace="false" />
-			<select type="Spell" name="Magia de Nível 8 (Arcano Místico)" supports="Warlock,8" level="15" spellcasting="Warlock" allowReplace="false" />
-			<select type="Spell" name="Magia de Nível 9 (Arcano Místico)" supports="Warlock,9" level="17" spellcasting="Warlock" allowReplace="false" />
+			<select type="Spell" name="Magia de NÃ­vel 6 (Arcano MÃ­stico)" supports="Warlock,6" level="11" spellcasting="Warlock" allowReplace="false" />
+			<select type="Spell" name="Magia de NÃ­vel 7 (Arcano MÃ­stico)" supports="Warlock,7" level="13" spellcasting="Warlock" allowReplace="false" />
+			<select type="Spell" name="Magia de NÃ­vel 8 (Arcano MÃ­stico)" supports="Warlock,8" level="15" spellcasting="Warlock" allowReplace="false" />
+			<select type="Spell" name="Magia de NÃ­vel 9 (Arcano MÃ­stico)" supports="Warlock,9" level="17" spellcasting="Warlock" allowReplace="false" />
 		</rules>
 	</element>
 
-	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_EPIC_BOON">
+	<element name="NÃ­vel 19: DÃ¡diva Ã‰pica" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_EPIC_BOON">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_EPIC_BOON</requirements>
 		<description>
-			<p>Você ganha um talento de Dádiva Épica ou outro talento de sua escolha para o qual você se qualifique. A Dádiva do Destino é recomendada.</p>
+			<p>VocÃª ganha um talento de DÃ¡diva Ã‰pica ou outro talento de sua escolha para o qual vocÃª se qualifique. A DÃ¡diva do Destino Ã© recomendada.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="Dádiva Épica (Bruxo 19)" level="19" />
+			<select type="Feat" name="DÃ¡diva Ã‰pica (Bruxo 19)" level="19" />
 		</rules>
 	</element>
 
-	<element name="Nível 20: Mestre Místico" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER">
+	<element name="NÃ­vel 20: Mestre MÃ­stico" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_MASTER</requirements>
 		<description>
-			<p>Quando você usa sua característica Astúcia Mágica, você recupera todos os seus espaços de magia de Magia de Pacto gastos.</p>
+			<p>Quando vocÃª usa sua caracterÃ­stica AstÃºcia MÃ¡gica, vocÃª recupera todos os seus espaÃ§os de magia de Magia de Pacto gastos.</p>
 		</description>
 		<sheet display="false" />
 	</element>

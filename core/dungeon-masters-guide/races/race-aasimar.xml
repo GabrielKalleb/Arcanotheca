@@ -2,25 +2,25 @@
 <elements>
 	<info>
 		<name>Aasimar</name>
-		<description>Exemplo de raça aasimar do Guia do Mestre</description>
+		<description>Exemplo de raÃ§a aasimar do Guia do Mestre</description>
 		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
 		<update version="0.0.3">
-			<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide/races/race-aasimar.xml" />	
+			<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/dungeon-masters-guide/races/race-aasimar.xml" />	
 		</update>
 	</info>
 
 	<element name="Aasimar" type="Race" source="Guia do Mestre" id="ID_WOTC_DMG_RACE_AASIMAR">
 		<description>
-			<p>Enquanto os tieflings tem sangue de corruptor em suas veias, os aasimar são descendentes de seres celestiais. Esse povo geralmente se parecem com humanos gloriosos com cabelo sedoso, pele impecável e olhos penetrantes. Os aasimar frequentemente tentam se passar por humanos a fim de corrigir erros e defender a bondade no Plano Material sem chamar a atenção para sua herança celestial. Eles se esforçam para se encaixar na sociedade, apesar de geralmente ascenderem ao topo, tornando-se lideres venerados e heróis honrados.</p>
+			<p>Enquanto os tieflings tem sangue de corruptor em suas veias, os aasimar sÃ£o descendentes de seres celestiais. Esse povo geralmente se parecem com humanos gloriosos com cabelo sedoso, pele impecÃ¡vel e olhos penetrantes. Os aasimar frequentemente tentam se passar por humanos a fim de corrigir erros e defender a bondade no Plano Material sem chamar a atenÃ§Ã£o para sua heranÃ§a celestial. Eles se esforÃ§am para se encaixar na sociedade, apesar de geralmente ascenderem ao topo, tornando-se lideres venerados e herÃ³is honrados.</p>
 			<p class="indent"><strong><em>Aumento no Valor de Habilidade.</em></strong> Seu valor de Carisma aumenta em 2 e seu valor de Sabedoria aumenta em 1.</p>
 			<p class="indent"><strong><em>Idade.</em></strong> Os aasimar amadurecem ao mesmo tempo que os humanos, mas vivem alguns anos a mais.</p>
-			<p class="indent"><strong><em>Tendência.</em></strong> Devido a sua herança celestial, os aasimar frequentemente são bons. Porém, alguns aasimar sucumbem ao mal, rejeitando sua herança.</p>
-			<p class="indent"><strong><em>Tamanho.</em></strong> Os aasimar possuem o mesmo tamanho e compleição dos humanos. Seu tamanho é Médio.</p>
-			<p class="indent"><strong><em>Deslocamento.</em></strong> Seu deslocamento base de caminhada é 9 metros.</p>
-			<p class="indent"><strong><em>Visão no Escuro.</em></strong> Graças a sua herança celestial, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.</p>
-			<p class="indent"><strong><em>Resistência Celestial.</em></strong> Você possui resistência a dano necrótico e a dano radiante.</p>
-			<p class="indent"><strong><em>Legado Celestial.</em></strong> Você conhece o truque <i>luz</i>. Quando você atingir o 3° nível, você poderá conjurar a magia <i>restauração menor</i> uma vez com esse traço e recupera essa habilidade ao terminar um descanso longo. Quando você atingir o 5° nível, você poderá conjurar a magia <i>luz do dia</i> uma vez por com esse traço, e recupera essa habilidade quando terminar um descanso longo. Sua habilidade de conjuração para estas magias é Carisma.</p>
-			<p class="indent"><strong><em>Idiomas.</em></strong> Você sabe falar, ler e escrever Comum e Celestial.</p>      
+			<p class="indent"><strong><em>TendÃªncia.</em></strong> Devido a sua heranÃ§a celestial, os aasimar frequentemente sÃ£o bons. PorÃ©m, alguns aasimar sucumbem ao mal, rejeitando sua heranÃ§a.</p>
+			<p class="indent"><strong><em>Tamanho.</em></strong> Os aasimar possuem o mesmo tamanho e compleiÃ§Ã£o dos humanos. Seu tamanho Ã© MÃ©dio.</p>
+			<p class="indent"><strong><em>Deslocamento.</em></strong> Seu deslocamento base de caminhada Ã© 9 metros.</p>
+			<p class="indent"><strong><em>VisÃ£o no Escuro.</em></strong> GraÃ§as a sua heranÃ§a celestial, vocÃª tem uma visÃ£o superior no escuro e na penumbra. VocÃª enxerga na penumbra a atÃ© 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. VocÃª nÃ£o pode discernir cores no escuro, apenas tons de cinza.</p>
+			<p class="indent"><strong><em>ResistÃªncia Celestial.</em></strong> VocÃª possui resistÃªncia a dano necrÃ³tico e a dano radiante.</p>
+			<p class="indent"><strong><em>Legado Celestial.</em></strong> VocÃª conhece o truque <i>luz</i>. Quando vocÃª atingir o 3Â° nÃ­vel, vocÃª poderÃ¡ conjurar a magia <i>restauraÃ§Ã£o menor</i> uma vez com esse traÃ§o e recupera essa habilidade ao terminar um descanso longo. Quando vocÃª atingir o 5Â° nÃ­vel, vocÃª poderÃ¡ conjurar a magia <i>luz do dia</i> uma vez por com esse traÃ§o, e recupera essa habilidade quando terminar um descanso longo. Sua habilidade de conjuraÃ§Ã£o para estas magias Ã© Carisma.</p>
+			<p class="indent"><strong><em>Idiomas.</em></strong> VocÃª sabe falar, ler e escrever Comum e Celestial.</p>      
 			<div class="reference">
 				<div element="ID_PHB_SPELL_LIGHT" />
 			</div> 
@@ -51,7 +51,7 @@
 
 	<element name="Celestial Resistance" type="Racial Trait" source="Guia do Mestre" id="ID_WOTC_DMG_RACIAL_TRAIT_AASIMAR_CELESTIAL_RESISTANCE">
 		<description>
-			<p>Você possui resistência a dano necrótico e a dano radiante.</p>
+			<p>VocÃª possui resistÃªncia a dano necrÃ³tico e a dano radiante.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -62,7 +62,7 @@
 
 	<element name="Celestial Legacy" type="Racial Trait" source="Guia do Mestre" id="ID_WOTC_DMG_RACIAL_TRAIT_AASIMAR_CELESTIAL_LEGACY">
 		<description>
-			<p>Você conhece o truque <i>luz</i>. Quando você atingir o 3° nível, você poderá conjurar a magia <i>restauração menor</i> uma vez com esse traço e recupera essa habilidade ao terminar um descanso longo. Quando você atingir o 5° nível, você poderá conjurar a magia <i>luz do dia</i> uma vez por com esse traço, e recupera essa habilidade quando terminar um descanso longo. Sua habilidade de conjuração para estas magias é Carisma.</p>
+			<p>VocÃª conhece o truque <i>luz</i>. Quando vocÃª atingir o 3Â° nÃ­vel, vocÃª poderÃ¡ conjurar a magia <i>restauraÃ§Ã£o menor</i> uma vez com esse traÃ§o e recupera essa habilidade ao terminar um descanso longo. Quando vocÃª atingir o 5Â° nÃ­vel, vocÃª poderÃ¡ conjurar a magia <i>luz do dia</i> uma vez por com esse traÃ§o, e recupera essa habilidade quando terminar um descanso longo. Sua habilidade de conjuraÃ§Ã£o para estas magias Ã© Carisma.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_LIGHT" />
 			</div> 
@@ -74,9 +74,9 @@
 			</div> 
 		</description>
 		<sheet>
-			<description>Você pode conjurar o truque luz. Carisma é sua habilidade de conjuração para esta magia.</description>
-			<description level="3">Você pode conjurar o truque luz. Além disso, você pode conjurar a magia restauração menor uma vez por descanso longo. Carisma é sua habilidade de conjuração para estas magias.</description>
-			<description level="5">Você pode conjurar o truque luz. Além disso, você pode conjurar a magia restauração menor e a magia luz do dia uma vez cada por descanso longo. Carisma é sua habilidade de conjuração para estas magias.</description>
+			<description>VocÃª pode conjurar o truque luz. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para esta magia.</description>
+			<description level="3">VocÃª pode conjurar o truque luz. AlÃ©m disso, vocÃª pode conjurar a magia restauraÃ§Ã£o menor uma vez por descanso longo. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para estas magias.</description>
+			<description level="5">VocÃª pode conjurar o truque luz. AlÃ©m disso, vocÃª pode conjurar a magia restauraÃ§Ã£o menor e a magia luz do dia uma vez cada por descanso longo. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para estas magias.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" />

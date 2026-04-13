@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="feats.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/glory-of-the-giants/feats.xml" />
+			<file name="feats.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/glory-of-the-giants/feats.xml" />
 		</update>
 	</info>
 
@@ -240,8 +240,8 @@
 		</description>
 		<sheet alt="Rune Shaper">
 			<description>You gain following benefits: &#13;
-			• You learn the comprehend languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have. &#13;
-			• You know a number of runes equal to {{rune shaper:usage}}. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn one 1st-level spell based on the rune you choose and you know the spell until you finish a long rest, when the rune fades. &#13;
+			â€¢ You learn the comprehend languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have. &#13;
+			â€¢ You know a number of runes equal to {{rune shaper:usage}}. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn one 1st-level spell based on the rune you choose and you know the spell until you finish a long rest, when the rune fades. &#13;
 			While you are wearing or carrying the rune-marked object, you can cast the chosen spell associated with the rune once without using a spell slot or material components, and you can also cast the spell using any spell slots you have. &#13;
 			Each time you gain a level, you can replace one of the runes you know with another one from the Rune Spells table. &#13;
 			Your spellcasting ability for the benefits of this Feat is Intelligence.</description>
@@ -254,8 +254,8 @@
 		</description>
 		<sheet alt="Rune Shaper">
 			<description>You gain following benefits: &#13;
-			• You learn the comprehend languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have. &#13;
-			• You know a number of runes equal to {{rune shaper:usage}}. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn one 1st-level spell based on the rune you choose and you know the spell until you finish a long rest, when the rune fades. &#13;
+			â€¢ You learn the comprehend languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have. &#13;
+			â€¢ You know a number of runes equal to {{rune shaper:usage}}. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn one 1st-level spell based on the rune you choose and you know the spell until you finish a long rest, when the rune fades. &#13;
 			While you are wearing or carrying the rune-marked object, you can cast the chosen spell associated with the rune once without using a spell slot or material components, and you can also cast the spell using any spell slots you have. &#13;
 			Each time you gain a level, you can replace one of the runes you know with another one from the Rune Spells table. &#13;
 			Your spellcasting ability for the benefits of this Feat is Wisdom.</description>
@@ -268,8 +268,8 @@
 		</description>
 		<sheet alt="Rune Shaper">
 			<description>You gain following benefits: &#13;
-			• You learn the comprehend languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have. &#13;
-			• You know a number of runes equal to {{rune shaper:usage}}. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn one 1st-level spell based on the rune you choose and you know the spell until you finish a long rest, when the rune fades. &#13;
+			â€¢ You learn the comprehend languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have. &#13;
+			â€¢ You know a number of runes equal to {{rune shaper:usage}}. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn one 1st-level spell based on the rune you choose and you know the spell until you finish a long rest, when the rune fades. &#13;
 			While you are wearing or carrying the rune-marked object, you can cast the chosen spell associated with the rune once without using a spell slot or material components, and you can also cast the spell using any spell slots you have. &#13;
 			Each time you gain a level, you can replace one of the runes you know with another one from the Rune Spells table. &#13;
 			Your spellcasting ability for the benefits of this Feat is Charisma.</description>
@@ -429,8 +429,8 @@
 		</description>
 		<sheet>
 			<description>You gain following benefits: &#13;
-			• Bulwark. When you are subjected to an effect that would move you at least 5 feet or give you the prone condition, you can use your reaction to steady yourself, ignoring the effect. &#13;
-			• Iron Stomach. Whenever you eat food as part of a short rest and spend Hit Dice to regain hit points, you regain additional {{iron stomach:hp}} hit points. </description>
+			â€¢ Bulwark. When you are subjected to an effect that would move you at least 5 feet or give you the prone condition, you can use your reaction to steady yourself, ignoring the effect. &#13;
+			â€¢ Iron Stomach. Whenever you eat food as part of a short rest and spend Hit Dice to regain hit points, you regain additional {{iron stomach:hp}} hit points. </description>
 		</sheet>
 		<rules>
 			<select type="Ability Score Improvement" name="Ability Score Increase (Guile of the Cloud Giant)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_WISDOM" />

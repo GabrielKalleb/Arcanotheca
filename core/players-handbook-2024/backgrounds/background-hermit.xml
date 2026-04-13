@@ -5,26 +5,26 @@
 		<description>O antecedente Eremita do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="background-hermit.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/background-hermit.xml" />
+			<file name="background-hermit.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/backgrounds/background-hermit.xml" />
 		</update>
 	</info>
 
-	<element name="Eremita" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_HERMIT">
+	<element name="Eremita" type="Background" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_HERMIT">
 		<description>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
-				<li><strong>Valores de Habilidade:</strong> Constituição, Sabedoria, Carisma</li>
+				<li><strong>Valores de Habilidade:</strong> ConstituiÃ§Ã£o, Sabedoria, Carisma</li>
 				<li><strong>Talento:</strong> Curandeiro</li>
-				<li><strong>Proficiências em Perícias:</strong> Medicina e Religião</li>
-				<li><strong>Proficiência em Ferramenta:</strong> Kit de Herbalismo</li>
-				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Bordão, Kit de Herbalismo, Saco de Dormir, Livro (filosofia), Lâmpada, Óleo (3 frascos), Roupas de Viajante, 16 PC; ou (B) 50 PO</li>
+				<li><strong>ProficiÃªncias em PerÃ­cias:</strong> Medicina e ReligiÃ£o</li>
+				<li><strong>ProficiÃªncia em Ferramenta:</strong> Kit de Herbalismo</li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) BordÃ£o, Kit de Herbalismo, Saco de Dormir, Livro (filosofia), LÃ¢mpada, Ã“leo (3 frascos), Roupas de Viajante, 16 PC; ou (B) 50 PO</li>
 			</ul>
-			<p>Você passou seus primeiros anos isolado em uma cabana ou monastério localizado bem além dos limites do assentamento mais próximo. Naqueles dias, seus únicos companheiros eram as criaturas da floresta e aqueles que ocasionalmente o visitavam para trazer notícias do mundo exterior e suprimentos. A solidão permitiu que você passasse muitas horas ponderando sobre os mistérios da criação.</p>
+			<p>VocÃª passou seus primeiros anos isolado em uma cabana ou monastÃ©rio localizado bem alÃ©m dos limites do assentamento mais prÃ³ximo. Naqueles dias, seus Ãºnicos companheiros eram as criaturas da floresta e aqueles que ocasionalmente o visitavam para trazer notÃ­cias do mundo exterior e suprimentos. A solidÃ£o permitiu que vocÃª passasse muitas horas ponderando sobre os mistÃ©rios da criaÃ§Ã£o.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_FEAT_HEALER" />
 			</div>
 		</description>
 		<setters>
-			<set name="short">Constituição, Sabedoria, Carisma, Talento Curandeiro, Perícias Medicina e Religião, Kit de Herbalismo</set>
+			<set name="short">ConstituiÃ§Ã£o, Sabedoria, Carisma, Talento Curandeiro, PerÃ­cias Medicina e ReligiÃ£o, Kit de Herbalismo</set>
 		</setters>
 		<rules>
 			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_WIS_CHA" />

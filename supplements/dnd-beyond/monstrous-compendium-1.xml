@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="monstrous-compendium-1.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/dnd-beyond/monstrous-compendium-1.xml" />
+			<file name="monstrous-compendium-1.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/dnd-beyond/monstrous-compendium-1.xml" />
 		</update>
 	</info>
 
@@ -13,7 +13,7 @@
 		<setters>
 			<set name="abbreviation">MCV1</set>
 			<set name="url">https://www.dndbeyond.com/sources/mcv1/spelljammer-creatures</set>
-			<set name="image">https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/dnd-beyond/MCV1.png</set>
+			<set name="image">https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/dnd-beyond/MCV1.png</set>
 			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast, D&amp;D Beyond</set>
 			<set name="official">true</set>
 			<set name="supplement">true</set>
@@ -77,26 +77,26 @@
 	</element>
 	<element name="Unusual Nature" type="Companion Trait" source="Monstrous Compendium Volume One: Spelljammer Creatures" id="ID_WOTC_MCV1_COMPANION_TRAIT_PUPPETEER_PARASITE_UNUSUAL_NATURE">
 		<description>
-			<p>The parasite doesn’t require air or sleep.</p>
+			<p>The parasite doesnâ€™t require air or sleep.</p>
 		</description>
 		<sheet>
-			<description>The parasite doesn’t require air or sleep.</description>
+			<description>The parasite doesnâ€™t require air or sleep.</description>
 		</sheet>
 	</element>
 	<element name="Cling" type="Companion Action" source="Monstrous Compendium Volume One: Spelljammer Creatures" id="ID_WOTC_MCV1_COMPANION_ACTION_PUPPETEER_PARASITE_CLING">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one creature. <i>Hit:</i> 12 (3d6 + 2) necrotic damage, and the parasite attaches to the target. While attached, the parasite can’t make Cling attacks. The parasite can detach itself by spending 5 feet of its movement. As an action, a creature within reach of the parasite can try to detach it, doing so with a successful DC 14 Strength check.</p>
+			<p><i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one creature. <i>Hit:</i> 12 (3d6 + 2) necrotic damage, and the parasite attaches to the target. While attached, the parasite canâ€™t make Cling attacks. The parasite can detach itself by spending 5 feet of its movement. As an action, a creature within reach of the parasite can try to detach it, doing so with a successful DC 14 Strength check.</p>
 		</description>
 		<sheet>
-			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 12 (3d6 + 2) necrotic damage, and the parasite attaches to the target. While attached, the parasite can’t make Cling attacks. The parasite can detach itself by spending 5 feet of its movement. As an action, a creature within reach of the parasite can try to detach it, doing so with a successful DC 14 Strength check.</description>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 12 (3d6 + 2) necrotic damage, and the parasite attaches to the target. While attached, the parasite canâ€™t make Cling attacks. The parasite can detach itself by spending 5 feet of its movement. As an action, a creature within reach of the parasite can try to detach it, doing so with a successful DC 14 Strength check.</description>
 		</sheet>
 	</element>
 	<element name="Consume Life" type="Companion Action" source="Monstrous Compendium Volume One: Spelljammer Creatures" id="ID_WOTC_MCV1_COMPANION_ACTION_PUPPETEER_PARASITE_CONSUME_LIFE">
 		<description>
-			<p>The parasite deals 12 (3d6 + 2) necrotic damage to one creature it is physically attached to, provided that creature isn’t a Construct or an Undead. The parasite regains hit points equal to the damage taken.</p>
+			<p>The parasite deals 12 (3d6 + 2) necrotic damage to one creature it is physically attached to, provided that creature isnâ€™t a Construct or an Undead. The parasite regains hit points equal to the damage taken.</p>
 		</description>
 		<sheet>
-			<description>The parasite deals 12 (3d6 + 2) necrotic damage to one creature it is physically attached to, provided that creature isn’t a Construct or an Undead. The parasite regains hit points equal to the damage taken.</description>
+			<description>The parasite deals 12 (3d6 + 2) necrotic damage to one creature it is physically attached to, provided that creature isnâ€™t a Construct or an Undead. The parasite regains hit points equal to the damage taken.</description>
 		</sheet>
 	</element>
 	<element name="Suggestion (Psionics; 1/Day, Bonus Action)" type="Companion Action" source="Monstrous Compendium Volume One: Spelljammer Creatures" id="ID_WOTC_MCV1_COMPANION_ACTION_PUPPETEER_PARASITE_SUGGESTION">

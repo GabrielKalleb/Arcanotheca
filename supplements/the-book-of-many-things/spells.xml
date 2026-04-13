@@ -3,7 +3,7 @@
 	<info>
 		<name>Spells from The Book of Many Things</name>
 		<update version="0.0.1">
-			<file name="spells.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/the-book-of-many-things/spells.xml" />
+			<file name="spells.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/the-book-of-many-things/spells.xml" />
 		</update>
 	</info>
 
@@ -90,7 +90,7 @@
 				<li><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, poisoned</li>
 				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 13</li>
 				<li><strong>Languages</strong> understands the languages you speak</li>
-				<li style="margin-bottom:-1em"><strong>Challenge</strong> —</li>
+				<li style="margin-bottom:-1em"><strong>Challenge</strong> â€”</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Proficiency Bonus (PB)</strong> equals your bonus</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />

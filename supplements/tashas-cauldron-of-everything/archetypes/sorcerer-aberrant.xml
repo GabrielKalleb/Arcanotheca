@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Aberrant Mind</name>
-		<description>The Aberrant Mind from Tasha’s Cauldron of Everything</description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
+		<description>The Aberrant Mind from Tashaâ€™s Cauldron of Everything</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tashaâ€™s Cauldron of Everything</author>
 		<update version="0.0.6">
-			<file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-aberrant.xml" />
+			<file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-aberrant.xml" />
 		</update>
 	</info>
 
-	<element name="Aberrant Mind" type="Archetype" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_SORCERER_ABERRANT_MIND">
+	<element name="Aberrant Mind" type="Archetype" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_SORCERER_ABERRANT_MIND">
 		<supports>Sorcerous Origin</supports>
 		<description>
 			<p>An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you by using it to control the magical energy of the multiverse. Will this power shine from you as a hopeful beacon to others? Or will you be a source of terror to those who feel the stab of your mind and witness the strange manifestations of your might?</p>
@@ -18,7 +18,7 @@
 				<thead>
 					<tr><td>d6</td><td>Aberrant Origins</td></tr>
 				</thead>
-				<tr><td>1</td><td>You were exposed to the Far Realm’s warping influence. You are convinced that a tentacle is now growing on you, but no one else can see it.</td></tr>
+				<tr><td>1</td><td>You were exposed to the Far Realmâ€™s warping influence. You are convinced that a tentacle is now growing on you, but no one else can see it.</td></tr>
 				<tr><td>2</td><td>A psychic wind from the Astral Plane carried psionic energy to you. When you use your powers, faint motes of light sparkle around you.</td></tr>
 				<tr><td>3</td><td>You once suffered the dominating powers of an aboleth, leaving a psychic splinter in your mind.</td></tr>
 				<tr><td>4</td><td>You were implanted with a mind flayer tadpole, but the ceremorphosis never completed. And now its psionic power is yours. When you use it, your flesh shines with a strange mucus.</td></tr>
@@ -42,10 +42,10 @@
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_WARPING_IMPLOSION" level="18" />
 		</rules>
 	</element>
-	<element name="Psionic Spells" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_PSIONIC_SPELLS">
+	<element name="Psionic Spells" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_PSIONIC_SPELLS">
 		<description>
 			<p><em>1st-level Aberrant Mind feature</em></p>
-			<p>You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.</p>
+			<p>You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesnâ€™t count against the number of sorcerer spells you know.</p>
 			<p class="indent">Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a divination or an enchantment spell from the sorcerer, warlock, or wizard spell list.</p>
 			<h5 class="caption">Psionic Spells</h5>
 			<table>
@@ -55,8 +55,8 @@
 				<tr><td>1st</td><td><em>arms of Hadar, dissonant whispers, mind sliver</em></td></tr>
 				<tr><td>3rd</td><td><em>calm emotions, detect thoughts</em></td></tr>
 				<tr><td>5th</td><td><em>hunger of Hadar, sending</em></td></tr>
-				<tr><td>7th</td><td><em>Evard’s black tentacles, summon aberration</em></td></tr>
-				<tr><td>9th</td><td><em>Rary’s telepathic bond, telekinesis</em></td></tr>
+				<tr><td>7th</td><td><em>Evardâ€™s black tentacles, summon aberration</em></td></tr>
+				<tr><td>9th</td><td><em>Raryâ€™s telepathic bond, telekinesis</em></td></tr>
 			</table>
 		</description>
 		<sheet>
@@ -87,7 +87,7 @@
 			<select type="Spell" name="10th Additional Spell (Psionic Spells)" supports="5,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)||Telekinesis" level="9" default="ID_WOTC_PHB24_SPELL_TELEKINESIS" spellcasting="Sorcerer" allowReplace="false" requirements="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCERER_SUBCLASS" />
 		</rules>
 	</element>
-	<element name="Telepathic Speech" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_TELEPATHIC_SPEECH">
+	<element name="Telepathic Speech" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_TELEPATHIC_SPEECH">
 		<description>
 			<p><em>1st-level Aberrant Mind feature</em></p>
 			<p>You can form a telepathic connection between your mind and the mind of another. As a bonus action, choose one creature you can see within 30 feet of you. You and the chosen creature can speak telepathically with each other while the two of you are within a number of miles of each other equal to your Charisma modifier (minimum of 1 mile). To understand each other, you each must speak mentally in a language the other knows.</p>
@@ -104,7 +104,7 @@
 			<stat name="telepathic speech:distance" value="charisma:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Psionic Sorcery" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_PSIONIC_SORCERY">
+	<element name="Psionic Sorcery" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_PSIONIC_SORCERY">
 		<description>
 			<p><em>6th-level Aberrant Mind feature</em></p>
 			<p>When you cast any spell of 1st level or higher from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of sorcery points equal to the spell's level.</p>
@@ -115,7 +115,7 @@
 			If you cast the spell using sorcery points, it requires no verbal or somatic components, and it requires no material components, unless they are consumed by the spell.</description>
 		</sheet>
 	</element>
-	<element name="Psychic Defenses" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_PSYCHIC_DEFENSES">
+	<element name="Psychic Defenses" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_PSYCHIC_DEFENSES">
 		<description>
 			<p><em>6th-level Aberrant Mind feature</em></p>
 			<p>You gain resistance to psychic damage, and you have advantage on saving throws against being charmed or frightened.</p>
@@ -127,12 +127,12 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
 		</rules>
 	</element>
-	<element name="Revelation in Flesh" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_REVELATION_IN_FLESH">
+	<element name="Revelation in Flesh" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_REVELATION_IN_FLESH">
 		<description>
 			<p><em>14th-level Aberrant Mind feature</em></p>
 			<p>You can unleash the aberrant truth hidden within yourself. As a bonus action, you can spend 1 or more sorcery points to magically transform your body for 10 minutes. For each sorcery point you spend, you can gain one of the following benefits of your choice, the effects of which last until the transformation ends:</p>
 			<ul>
-				<li>You can see any invisible creature within 60 feet of you, provided it isn’t behind total cover. Your eyes also turn black or become writhing sensory tendrils.</li>
+				<li>You can see any invisible creature within 60 feet of you, provided it isnâ€™t behind total cover. Your eyes also turn black or become writhing sensory tendrils.</li>
 				<li>You gain a flying speed equal to your walking speed, and you can hover. As you fly, your skin glistens with mucus or shines with an otherworldly light.</li>
 				<li>You gain a swimming speed equal to twice your walking speed, and you can breathe underwater. Moreover, gills grow from your neck or fan out from behind your ears, your fingers become webbed, or you grow writhing cilia that extend through your clothing. </li>
 				<li>Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being grappled.</li>
@@ -140,17 +140,17 @@
 		</description>
 		<sheet action="Bonus Action">
 			<description>You can spend 1 or more sorcery points to magically transform your body for 10 minutes. For each sorcery point you spend, you can gain one of the following benefits of your choice, the effects of which last until the transformation ends: &#13;
-			• You can see any invisible creature within 60 feet of you, provided it isn’t behind total cover. &#13;
-			• You gain a {{speed}}ft flying speed, and you can hover. &#13;
-			• You gain a {{revelation in flesh:swimming speed}}ft swimming speed, and you can breathe underwater. &#13;
-			• Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being grappled.</description>
+			â€¢ You can see any invisible creature within 60 feet of you, provided it isnâ€™t behind total cover. &#13;
+			â€¢ You gain a {{speed}}ft flying speed, and you can hover. &#13;
+			â€¢ You gain a {{revelation in flesh:swimming speed}}ft swimming speed, and you can breathe underwater. &#13;
+			â€¢ Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being grappled.</description>
 		</sheet>
 		<rules>
 			<stat name="revelation in flesh:swimming speed" value="speed" />
 			<stat name="revelation in flesh:swimming speed" value="speed" />
 		</rules>
 	</element>
-	<element name="Warping Implosion" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_WARPING_IMPLOSION">
+	<element name="Warping Implosion" type="Archetype Feature" source="Tashaâ€™s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ABERRANT_MIND_WARPING_IMPLOSION">
 		<description>
 			<p><em>18th-level Aberrant Mind feature</em></p>
 			<p>You can unleash your aberrant power as a space-warping anomaly. As an action, you can teleport to an unoccupied space you can see within 120 feet of you. Immediately after you disappear, each creature within 30 feet of the space you left must make a Strength saving throw against your spell save DC. On a failed save, a creature takes 3d10 force damage and is pulled straight toward the space you left, ending in an unoccupied space as close to your former space as possible. On a successful save, the creature takes half as much damage and isn't pulled.</p>

@@ -5,7 +5,7 @@
 		<description>The Items from Candlekeep Mysteries</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/candlekeep-mysteries">Candlekeep Mysteries</author>
 		<update version="0.0.2">
-			<file name="items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/candlekeep-mysteries/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/candlekeep-mysteries/items.xml" />
 		</update>
 	</info>
 	<element name="Alchemy Jug (Blue)" type="Magic Item" source="Candlekeep Mysteries" id="ID_WOTC_CM_MAGIC_ITEM_ALCHEMY_JUG_BLUE"> <!--pg 144-->
@@ -99,7 +99,7 @@
  
 	<element name="Nether Scroll of Azumar" type="Magic Item" source="Candlekeep Mysteries" id="ID_WOTC_CM_MAGIC_ITEM_NETHER_SCROLL_OF_AZUMAR"> <!--pg 210-->
 		<description>
-			<p>Unlike most scrolls, a Nether Scroll of Azumar is not a consumable magic item. It takes 30 days of concentrated study—at least 8 hours per day—to attempt to understand this scroll. After completing this study, you must make a DC 25 Intelligence (Arcana) check. If this check fails, you take 16d10 psychic damage, and you can attempt the check again after another 30 days of concentrated study.</p>
+			<p>Unlike most scrolls, a Nether Scroll of Azumar is not a consumable magic item. It takes 30 days of concentrated studyâ€”at least 8 hours per dayâ€”to attempt to understand this scroll. After completing this study, you must make a DC 25 Intelligence (Arcana) check. If this check fails, you take 16d10 psychic damage, and you can attempt the check again after another 30 days of concentrated study.</p>
 			<p class="indent">When you succeed on the check, you gain the following benefits:</p>
 			<ul>
 				<li>Your Intelligence score increases by 2, to a maximum of 22. Once you gain this benefit, you can't use this scroll to increase your Intelligence again.</li>
@@ -148,7 +148,7 @@
 			<h5 class="caption">ACTIONS</h5>
 			<p><strong><em>Multiattack.</em></strong> The golem makes two slam attacks.</p>
 			<p><strong><em>Slam.</em></strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage.</p>
-			<p><strong><em>Slow (Recharge 5–6).</em></strong> The golem targets one or more creatures it can see within 10 feet of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+			<p><strong><em>Slow (Recharge 5â€“6).</em></strong> The golem targets one or more creatures it can see within 10 feet of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
 		</description>
 	</element>
 

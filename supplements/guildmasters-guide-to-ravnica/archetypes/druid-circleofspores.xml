@@ -3,13 +3,13 @@
 	<info>
 		<name>Circle of Spores</name>
 		<description></description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters’ Guide to Ravnica</author>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmastersâ€™ Guide to Ravnica</author>
 		<update version="0.0.3">
-			<file name="druid-circleofspores.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/guildmasters-guide-to-ravnica/archetypes/druid-circleofspores.xml" />
+			<file name="druid-circleofspores.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/guildmasters-guide-to-ravnica/archetypes/druid-circleofspores.xml" />
 		</update>
 	</info>
 
-	<element name="Circle of Spores" type="Archetype" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_CIRCLE_SPORES">
+	<element name="Circle of Spores" type="Archetype" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_CIRCLE_SPORES">
 		<supports>Druid Circle</supports>
 		<description>
 			<p>Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the ability to transform lifeless material into abundant, albeit somewhat strange, life.</p>
@@ -34,7 +34,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_FUNGAL_BODY" level="14" />
 		</rules>
 	</element>
-	<element name="Circle Spells" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_CIRCLE_SPELLS">
+	<element name="Circle Spells" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_CIRCLE_SPELLS">
 		<description>
 			<p>Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells. At 2nd level, you learn the chill touch cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Spores Spells table.</p>
 			<p class="indent">Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
@@ -62,7 +62,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_CONTAGION" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="Halo of Spores" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_HALO_OF_SPORES">
+	<element name="Halo of Spores" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_HALO_OF_SPORES">
 		<description>
 			<p>Starting at 2nd level, you are surrounded by invisible, necrotic spores that are harmless until you unleash them on a creature nearby. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d4 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC. The necrotic damage increases to 1d6 at 6th level, 1d8 at 10th level, and 1d1O at 14th level.</p>
 		</description>
@@ -76,7 +76,7 @@
 			<stat name="halo of spores:die" value="10" level="14" bonus="die" />
 		</rules>
 	</element>
-	<element name="Symbiotic Entity" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_SYMBIOTIC_ENTITY">
+	<element name="Symbiotic Entity" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_SYMBIOTIC_ENTITY">
 		<description>
 			<p>At 2nd level, you gain the ability to channel magic into your spores. As an action, you can expend a use of your Wild Shape feature to awaken those spores, rather than transforming into a beast form, and you gain 4 temporary hit points for each level you have in this class. While this feature is active, you gain the following benefits:</p>
 			<ul>
@@ -98,7 +98,7 @@
 			<stat name="symbiotic entity:hp" value="level:druid" />
 		</rules>
 	</element>
-	<element name="Fungal Infestation" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_FUNGAL_INFESTATION">
+	<element name="Fungal Infestation" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_FUNGAL_INFESTATION">
 		<description>
 			<p>At 6th level, your spores gain the ability to infest a corpse and animate it. If a beast or a humanoid that is Small or Medium dies within 10 feet of you, you can use your reaction to animate it, causing it to stand up immediately with 1 hit point. The creature uses the zombie stat block in the Monster Manual. It remains animate for 1 hour, after which time it collapses and dies.</p>
 			<p class="indent">In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the Attack action, making one melee attack.</p>
@@ -113,7 +113,7 @@
 			<stat name="fungal infestation:usages" value="wisdom:modifier" bonus="fungal infestation" />
 		</rules>
 	</element>
-	<element name="Spreading Spores" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_SPREADING_SPORES">
+	<element name="Spreading Spores" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_SPREADING_SPORES">
 		<description>
 			<p>At 10th level, you gain the ability to seed an area with deadly spores. As a bonus action while your Symbiotic Entity feature is active, you can hurl spores up to 30 feet away. where they swirl in a 10-foot cube for 1 minute. The spores disappear early if you use this feature again, if you dismiss them as a bonus action, or if your Symbiotic Entity feature is no longer active.</p>
 			<p class="indent">Whenever a creature moves into the cube or starts its turn there, that creature takes your Halo of Spores damage, unless the creature succeeds on a Constitution saving throw against your spell save DC. A creature can take this damage no more than once per turn.</p>
@@ -125,7 +125,7 @@
 			While the cube of spores persists, you can't use your Halo of Spores reaction.</description>
 		</sheet>
 	</element>
-	<element name="Fungal Body" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_FUNGAL_BODY">
+	<element name="Fungal Body" type="Archetype Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_FUNGAL_BODY">
 		<description>
 			<p>At 14th level, the fungal spores in your body alter you: you can't be blinded, deafened, frightened, or poisoned, and any critical hit against you counts as a normal hit instead, unless you're incapacitated.</p>
 		</description>

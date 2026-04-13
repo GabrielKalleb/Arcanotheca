@@ -5,7 +5,7 @@
 		<description>Human Race Variants from Plane Shift: Innistrad</description>
 		<author url="https://media.wizards.com/2016/dnd/downloads/Plane_Shift_Innistrad.pdf">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="race-human-innistrad.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/planeshift/innistrad/race-human-innistrad.xml" />
+			<file name="race-human-innistrad.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/planeshift/innistrad/race-human-innistrad.xml" />
 		</update>
 	</info>
 
@@ -40,8 +40,8 @@
 				<span class="feature">Languages. </span>You can speak, read, and write Common and one extra language of your choice.<br />
 				<span class="feature">Forest Folk. </span>You have proficiency in the Survival skill. <br />
 				<span class="feature">Fleet of Foot. </span>Your base walking speed is increased by 10 feet. <br />
-				<span class="feature">Sure-Footed. </span>When you use the Dash action, difficult terrain doesn’t cost you extra movement on that turn. <br />
-				<span class="feature">Spring Attack. </span>When you make a melee attack against a creature, you don’t provoke opportunity attacks from that creature for the rest of your turn, whether you hit or not. <br />
+				<span class="feature">Sure-Footed. </span>When you use the Dash action, difficult terrain doesnâ€™t cost you extra movement on that turn. <br />
+				<span class="feature">Spring Attack. </span>When you make a melee attack against a creature, you donâ€™t provoke opportunity attacks from that creature for the rest of your turn, whether you hit or not. <br />
 			</p>
 		</description>
 		<sheet display="false"/>
@@ -61,19 +61,19 @@
 
 	<element name="Spring Attack" type="Racial Trait" source="Plane Shift: Innistrad" id="ID_WOTC_PSI_KESSIG_RACIAL_TRAIT_SPRING_ATTACK">
 		<description>
-			<p>When you make a melee attack against a creature, you don’t provoke opportunity attacks from that creature for the rest of your turn, whether you hit or not.</p>
+			<p>When you make a melee attack against a creature, you donâ€™t provoke opportunity attacks from that creature for the rest of your turn, whether you hit or not.</p>
 		</description>
 		<sheet>
-			<description>When you make a melee attack against a creature, you don’t provoke opportunity attacks from that creature for the rest of your turn, whether you hit or not.</description>
+			<description>When you make a melee attack against a creature, you donâ€™t provoke opportunity attacks from that creature for the rest of your turn, whether you hit or not.</description>
 		</sheet>
 	</element>
 
 	<element name="Sure-Footed" type="Racial Trait" source="Plane Shift: Innistrad" id="ID_WOTC_PSI_KESSIG_RACIAL_TRAIT_SURE_FOOTED">
 		<description>
-			<p>When you use the Dash action, difficult terrain doesn’t cost you extra movement on that turn.</p>
+			<p>When you use the Dash action, difficult terrain doesnâ€™t cost you extra movement on that turn.</p>
 		</description>
 		<sheet>
-			<description>When you use the Dash action, difficult terrain doesn’t cost you extra movement on that turn.</description>
+			<description>When you use the Dash action, difficult terrain doesnâ€™t cost you extra movement on that turn.</description>
 		</sheet>
 	</element>
 
@@ -108,7 +108,7 @@
 	<element name="Stensia Human" type="Race Variant" source="Plane Shift: Innistrad" id="ID_WOTC_PSI_RACE_VARIANT_STENSIA_HUMAN">
 		<supports>Human</supports>
 		<description>
-			<p>Countless generations of hardship and proximity to the vampire strongholds—leading to lost children and neighbors—have taught Stensians to guard their hearts. They are proud and fervent in their beliefs but seem brusque or even cold to the people of other provinces.</p>
+			<p>Countless generations of hardship and proximity to the vampire strongholdsâ€”leading to lost children and neighborsâ€”have taught Stensians to guard their hearts. They are proud and fervent in their beliefs but seem brusque or even cold to the people of other provinces.</p>
 			<p>
 				<span class="feature">Ability Score Increase. </span> Your Strength and your Constitution score each increases by 1.<br />
 				<span class="feature">Age. </span>Humans reach adulthood in their late teens and live less than a century. <br />

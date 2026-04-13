@@ -2,40 +2,40 @@
 <elements>
 	<info>
 		<name>Aasimar</name>
-		<description>A espécie Aasimar do Player’s Handbook 2024.</description>
+		<description>A espÃ©cie Aasimar do Playerâ€™s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/races/race-aasimar.xml" />
+			<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/races/race-aasimar.xml" />
 		</update>
 	</info>
 	
-	<element name="Aasimar" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_AASIMAR">
+	<element name="Aasimar" type="Race" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACE_AASIMAR">
 		<description>
-			<p>Os Aasimar (pronuncia-se AH-si-mar) são mortais que carregam uma centelha dos Planos Superiores em suas almas. Sejam descendentes de um ser angelical ou infundidos com poder celestial, eles podem atiçar essa centelha para trazer luz, cura e fúria divina.</p>
-			<p class="indent">Os aasimar podem surgir em qualquer população de mortais. Eles se assemelham aos seus pais, mas vivem até 160 anos e possuem características que indicam sua herança celestial, como sardas metálicas, olhos luminosos, uma auréola ou a cor da pele de um anjo (prata, verde opalescente ou vermelho acobreado). Essas características começam sutis e se tornam óbvias quando o aasimar aprende a revelar sua verdadeira natureza celestial.</p>
-			<h5>TRAÇOS DE AASIMAR</h5>
+			<p>Os Aasimar (pronuncia-se AH-si-mar) sÃ£o mortais que carregam uma centelha dos Planos Superiores em suas almas. Sejam descendentes de um ser angelical ou infundidos com poder celestial, eles podem atiÃ§ar essa centelha para trazer luz, cura e fÃºria divina.</p>
+			<p class="indent">Os aasimar podem surgir em qualquer populaÃ§Ã£o de mortais. Eles se assemelham aos seus pais, mas vivem atÃ© 160 anos e possuem caracterÃ­sticas que indicam sua heranÃ§a celestial, como sardas metÃ¡licas, olhos luminosos, uma aurÃ©ola ou a cor da pele de um anjo (prata, verde opalescente ou vermelho acobreado). Essas caracterÃ­sticas comeÃ§am sutis e se tornam Ã³bvias quando o aasimar aprende a revelar sua verdadeira natureza celestial.</p>
+			<h5>TRAÃ‡OS DE AASIMAR</h5>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
 				<li><strong>Tipo de Criatura:</strong> Humanoide</li>
-				<li><strong>Tamanho:</strong> Médio (cerca de 1,2 a 2,1 metros de altura) ou Pequeno (cerca de 0,6 a 1,2 metro de altura), escolhido quando você seleciona esta espécie</li>
+				<li><strong>Tamanho:</strong> MÃ©dio (cerca de 1,2 a 2,1 metros de altura) ou Pequeno (cerca de 0,6 a 1,2 metro de altura), escolhido quando vocÃª seleciona esta espÃ©cie</li>
 				<li><strong>Deslocamento:</strong> 9 metros</li>
 			</ul>
-			<p>Como um Aasimar, você possui estes traços especiais.</p>
-			<p class="indent"><strong><em>Resistência Celestial.</em></strong> Você tem Resistência a dano Necrótico e dano Radiante.</p>
-			<p class="indent"><strong><em>Visão no Escuro.</em></strong> Você tem Visão no Escuro com um alcance de 18 metros.</p> 
-			<p class="indent"><strong><em>Mãos Curativas.</em></strong> Como uma ação Mágica, você toca uma criatura e rola um número de d4s igual ao seu Bônus de Proficiência. A criatura recupera uma quantidade de Pontos de Vida igual ao total rolado. Uma vez que você use este traço, você não pode usá-lo novamente até terminar um Descanso Longo.</p>
-			<p class="indent"><strong><em>Portador da Luz.</em></strong> Você conhece o truque <i>Luz</i>. Carisma é sua habilidade de conjuração para ele.</p>
-			<p class="indent"><strong><em>Revelação Celestial.</em></strong> Quando você alcança o 3º nível de personagem, você pode se transformar como uma Ação Bônus usando uma das opções abaixo (escolha a opção cada vez que se transformar). A transformação dura por 1 minuto ou até você encerrá-la (nenhuma ação exigida). Uma vez que você se transforme, você não pode fazê-lo novamente até terminar um Descanso Longo.</p>
-			<p class="indent">Uma vez em cada um dos seus turnos antes da transformação terminar, você pode causar dano extra a um alvo quando causar dano a ele com um ataque ou magia. O dano extra é igual ao seu Bônus de Proficiência, e o tipo de dano extra é Necrótico para Mortalha Necrótica ou Radiante para Asas Celestiais e Radiância Interior.</p>
-			<p class="indent" style="margin-bottom:5px">Aqui estão as opções de transformação:</p>
+			<p>Como um Aasimar, vocÃª possui estes traÃ§os especiais.</p>
+			<p class="indent"><strong><em>ResistÃªncia Celestial.</em></strong> VocÃª tem ResistÃªncia a dano NecrÃ³tico e dano Radiante.</p>
+			<p class="indent"><strong><em>VisÃ£o no Escuro.</em></strong> VocÃª tem VisÃ£o no Escuro com um alcance de 18 metros.</p> 
+			<p class="indent"><strong><em>MÃ£os Curativas.</em></strong> Como uma aÃ§Ã£o MÃ¡gica, vocÃª toca uma criatura e rola um nÃºmero de d4s igual ao seu BÃ´nus de ProficiÃªncia. A criatura recupera uma quantidade de Pontos de Vida igual ao total rolado. Uma vez que vocÃª use este traÃ§o, vocÃª nÃ£o pode usÃ¡-lo novamente atÃ© terminar um Descanso Longo.</p>
+			<p class="indent"><strong><em>Portador da Luz.</em></strong> VocÃª conhece o truque <i>Luz</i>. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para ele.</p>
+			<p class="indent"><strong><em>RevelaÃ§Ã£o Celestial.</em></strong> Quando vocÃª alcanÃ§a o 3Âº nÃ­vel de personagem, vocÃª pode se transformar como uma AÃ§Ã£o BÃ´nus usando uma das opÃ§Ãµes abaixo (escolha a opÃ§Ã£o cada vez que se transformar). A transformaÃ§Ã£o dura por 1 minuto ou atÃ© vocÃª encerrÃ¡-la (nenhuma aÃ§Ã£o exigida). Uma vez que vocÃª se transforme, vocÃª nÃ£o pode fazÃª-lo novamente atÃ© terminar um Descanso Longo.</p>
+			<p class="indent">Uma vez em cada um dos seus turnos antes da transformaÃ§Ã£o terminar, vocÃª pode causar dano extra a um alvo quando causar dano a ele com um ataque ou magia. O dano extra Ã© igual ao seu BÃ´nus de ProficiÃªncia, e o tipo de dano extra Ã© NecrÃ³tico para Mortalha NecrÃ³tica ou Radiante para Asas Celestiais e RadiÃ¢ncia Interior.</p>
+			<p class="indent" style="margin-bottom:5px">Aqui estÃ£o as opÃ§Ãµes de transformaÃ§Ã£o:</p>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em">
-				<li><strong>Asas Celestiais.</strong> Duas asas espectrais brotam das suas costas temporariamente. Até a transformação terminar, você tem um Deslocamento de Voo igual ao seu Deslocamento.</li>
-				<li><strong>Radiância Interior.</strong> Uma luz ofuscante irradia temporariamente dos seus olhos e boca. Pela duração, você emite Luz Plena em um raio de 3 metros e Luz de Penumbra por 3 metros adicionais, e no final de cada um dos seus turnos, cada criatura a até 3 metros de você sofre dano Radiante igual ao seu Bônus de Proficiência.</li>
-				<li><strong>Mortalha Necrótica.</strong> Seus olhos tornam-se brevemente poços de escuridão, e asas não voadoras brotam de suas costas temporariamente. Criaturas que não sejam seus aliados a até 3 metros de você devem ser bem-sucedidas em uma salvaguarda de Carisma (CD 8 mais seu modificador de Carisma e Bônus de Proficiência) ou ficarão com a condição Amedrontado até o final do seu próximo turno.</li>
+				<li><strong>Asas Celestiais.</strong> Duas asas espectrais brotam das suas costas temporariamente. AtÃ© a transformaÃ§Ã£o terminar, vocÃª tem um Deslocamento de Voo igual ao seu Deslocamento.</li>
+				<li><strong>RadiÃ¢ncia Interior.</strong> Uma luz ofuscante irradia temporariamente dos seus olhos e boca. Pela duraÃ§Ã£o, vocÃª emite Luz Plena em um raio de 3 metros e Luz de Penumbra por 3 metros adicionais, e no final de cada um dos seus turnos, cada criatura a atÃ© 3 metros de vocÃª sofre dano Radiante igual ao seu BÃ´nus de ProficiÃªncia.</li>
+				<li><strong>Mortalha NecrÃ³tica.</strong> Seus olhos tornam-se brevemente poÃ§os de escuridÃ£o, e asas nÃ£o voadoras brotam de suas costas temporariamente. Criaturas que nÃ£o sejam seus aliados a atÃ© 3 metros de vocÃª devem ser bem-sucedidas em uma salvaguarda de Carisma (CD 8 mais seu modificador de Carisma e BÃ´nus de ProficiÃªncia) ou ficarÃ£o com a condiÃ§Ã£o Amedrontado atÃ© o final do seu prÃ³ximo turno.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade (Aasimar)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Ability Score Improvement" name="OpÃ§Ã£o de Melhoria no Valor de Habilidade (Aasimar)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
 			<select type="Racial Trait" name="Tamanho (Aasimar)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_AASIMAR" />
@@ -52,10 +52,10 @@
 		</rules>
 	</element>
 
-	<element name="Resistência Celestial" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_AASIMAR_CELESTIAL_RESISTANCE">
+	<element name="ResistÃªncia Celestial" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_AASIMAR_CELESTIAL_RESISTANCE">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_CELESTIAL_RESISTANCE</requirements>
 		<description>
-			<p>Você tem Resistência a dano Necrótico e dano Radiante.</p>
+			<p>VocÃª tem ResistÃªncia a dano NecrÃ³tico e dano Radiante.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -64,46 +64,46 @@
 		</rules>
 	</element>
 
-	<element name="Mãos Curativas" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_AASIMAR_HEALING_HANDS">
+	<element name="MÃ£os Curativas" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_AASIMAR_HEALING_HANDS">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_HEALING_HANDS</requirements>
 		<description>
-			<p>Como uma ação Mágica, você toca uma criatura e rola um número de d4s igual ao seu Bônus de Proficiência. A criatura recupera uma quantidade de Pontos de Vida igual ao total rolado. Uma vez que você use este traço, você não pode usá-lo novamente até terminar um Descanso Longo.</p>
+			<p>Como uma aÃ§Ã£o MÃ¡gica, vocÃª toca uma criatura e rola um nÃºmero de d4s igual ao seu BÃ´nus de ProficiÃªncia. A criatura recupera uma quantidade de Pontos de Vida igual ao total rolado. Uma vez que vocÃª use este traÃ§o, vocÃª nÃ£o pode usÃ¡-lo novamente atÃ© terminar um Descanso Longo.</p>
 		</description>
-		<sheet action="Ação Mágica" usage="1/Descanso Longo">
-			<description>Você pode tocar uma criatura e rolar {{proficiency}}d4. A criatura recupera uma quantidade de Pontos de Vida igual ao total rolado.</description>
+		<sheet action="AÃ§Ã£o MÃ¡gica" usage="1/Descanso Longo">
+			<description>VocÃª pode tocar uma criatura e rolar {{proficiency}}d4. A criatura recupera uma quantidade de Pontos de Vida igual ao total rolado.</description>
 		</sheet>
 	</element>
 
-	<element name="Portador da Luz" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_AASIMAR_LIGHT_BEARER">
+	<element name="Portador da Luz" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_AASIMAR_LIGHT_BEARER">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_LIGHT_BEARER</requirements>
 		<description>
-			<p>Você conhece o truque <i>Luz</i>. Carisma é sua habilidade de conjuração para ele.</p>
+			<p>VocÃª conhece o truque <i>Luz</i>. Carisma Ã© sua habilidade de conjuraÃ§Ã£o para ele.</p>
 		</description>
 		<sheet>
-			<description>Carisma é sua habilidade de conjuração para o truque Luz.</description>
+			<description>Carisma Ã© sua habilidade de conjuraÃ§Ã£o para o truque Luz.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LIGHT" />
 		</rules>
 	</element>
 
-	<element name="Revelação Celestial" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_AASIMAR_CELESTIAL_REVELATION">
+	<element name="RevelaÃ§Ã£o Celestial" type="Racial Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_AASIMAR_CELESTIAL_REVELATION">
 		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_CELESTIAL_REVELATION</requirements>
 		<description>
-			<p>Quando você alcança o 3º nível de personagem, você pode se transformar como uma Ação Bônus usando uma das opções abaixo (escolha a opção cada vez que se transformar). A transformação dura por 1 minuto ou até você encerrá-la (nenhuma ação exigida). Uma vez que você se transforme, você não pode fazê-lo novamente até terminar um Descanso Longo.</p>
-			<p class="indent">Uma vez em cada um dos seus turnos antes da transformação terminar, você pode causar dano extra a um alvo quando causar dano a ele com um ataque ou magia. O dano extra é igual ao seu Bônus de Proficiência, e o tipo de dano extra é Necrótico para Mortalha Necrótica ou Radiante para Asas Celestiais e Radiância Interior.</p>
-			<p class="indent" style="margin-bottom:5px">Aqui estão as opções de transformação:</p>
+			<p>Quando vocÃª alcanÃ§a o 3Âº nÃ­vel de personagem, vocÃª pode se transformar como uma AÃ§Ã£o BÃ´nus usando uma das opÃ§Ãµes abaixo (escolha a opÃ§Ã£o cada vez que se transformar). A transformaÃ§Ã£o dura por 1 minuto ou atÃ© vocÃª encerrÃ¡-la (nenhuma aÃ§Ã£o exigida). Uma vez que vocÃª se transforme, vocÃª nÃ£o pode fazÃª-lo novamente atÃ© terminar um Descanso Longo.</p>
+			<p class="indent">Uma vez em cada um dos seus turnos antes da transformaÃ§Ã£o terminar, vocÃª pode causar dano extra a um alvo quando causar dano a ele com um ataque ou magia. O dano extra Ã© igual ao seu BÃ´nus de ProficiÃªncia, e o tipo de dano extra Ã© NecrÃ³tico para Mortalha NecrÃ³tica ou Radiante para Asas Celestiais e RadiÃ¢ncia Interior.</p>
+			<p class="indent" style="margin-bottom:5px">Aqui estÃ£o as opÃ§Ãµes de transformaÃ§Ã£o:</p>
 			<ul class="unstyled" style="text-indent:-1em; margin-left:1em">
-				<li><strong>Asas Celestiais.</strong> Duas asas espectrais brotam das suas costas temporariamente. Até a transformação terminar, você tem um Deslocamento de Voo igual ao seu Deslocamento.</li>
-				<li><strong>Radiância Interior.</strong> Uma luz ofuscante irradia temporariamente dos seus olhos e boca. Pela duração, você emite Luz Plena em um raio de 3 metros e Luz de Penumbra por 3 metros adicionais, e no final de cada um dos seus turnos, cada criatura a até 3 metros de você sofre dano Radiante igual ao seu Bônus de Proficiência.</li>
-				<li><strong>Mortalha Necrótica.</strong> Seus olhos tornam-se brevemente poços de escuridão, e asas não voadoras brotam de suas costas temporariamente. Criaturas que não sejam seus aliados a até 3 metros de você devem ser bem-sucedidas em uma salvaguarda de Carisma (CD 8 mais seu modificador de Carisma e Bônus de Proficiência) ou ficarão com a condição Amedrontado até o final do seu próximo turno.</li>
+				<li><strong>Asas Celestiais.</strong> Duas asas espectrais brotam das suas costas temporariamente. AtÃ© a transformaÃ§Ã£o terminar, vocÃª tem um Deslocamento de Voo igual ao seu Deslocamento.</li>
+				<li><strong>RadiÃ¢ncia Interior.</strong> Uma luz ofuscante irradia temporariamente dos seus olhos e boca. Pela duraÃ§Ã£o, vocÃª emite Luz Plena em um raio de 3 metros e Luz de Penumbra por 3 metros adicionais, e no final de cada um dos seus turnos, cada criatura a atÃ© 3 metros de vocÃª sofre dano Radiante igual ao seu BÃ´nus de ProficiÃªncia.</li>
+				<li><strong>Mortalha NecrÃ³tica.</strong> Seus olhos tornam-se brevemente poÃ§os de escuridÃ£o, e asas nÃ£o voadoras brotam de suas costas temporariamente. Criaturas que nÃ£o sejam seus aliados a atÃ© 3 metros de vocÃª devem ser bem-sucedidas em uma salvaguarda de Carisma (CD 8 mais seu modificador de Carisma e BÃ´nus de ProficiÃªncia) ou ficarÃ£o com a condiÃ§Ã£o Amedrontado atÃ© o final do seu prÃ³ximo turno.</li>
 			</ul>
 		</description>
-		<sheet action="Ação Bônus" usage="1/Descanso Longo">
-  			<description>Você pode se transformar usando uma das opções abaixo. Esta transformação dura por 1 minuto ou até você encerrá-la. Enquanto transformado, quando você causar dano com um ataque ou uma magia no seu turno, você causa {{proficiency}} de dano extra a um alvo. O tipo de dano é Necrótico para Mortalha Necrótica ou Radiante para Asas Celestiais e Radiância Interior. &#13;
-			• Asas Celestiais. Duas asas espectrais brotam das suas costas temporariamente. Você ganha um Deslocamento de Voo de {{speed}} ft. (converta para metros na ficha). &#13;
-			• Radiância Interior. Pela duração, uma luz ofuscante irradia dos seus olhos e boca, emitindo Luz Plena em um raio de 3 metros e Luz de Penumbra por 3 metros adicionais. No final de cada um dos seus turnos, cada criatura a até 3 metros de você sofre {{proficiency}} de dano Radiante. &#13;
-			• Mortalha Necrótica. Criaturas que não sejam seus aliados a até 3 metros de você devem ser bem-sucedidas em uma salvaguarda de Carisma (CD {{necrotic shroud:dc}}) ou ficarão Amedrontadas até o início do seu próximo turno enquanto seus olhos tornam-se brevemente poços de escuridão, e asas não voadoras brotam de suas costas.</description>
+		<sheet action="AÃ§Ã£o BÃ´nus" usage="1/Descanso Longo">
+  			<description>VocÃª pode se transformar usando uma das opÃ§Ãµes abaixo. Esta transformaÃ§Ã£o dura por 1 minuto ou atÃ© vocÃª encerrÃ¡-la. Enquanto transformado, quando vocÃª causar dano com um ataque ou uma magia no seu turno, vocÃª causa {{proficiency}} de dano extra a um alvo. O tipo de dano Ã© NecrÃ³tico para Mortalha NecrÃ³tica ou Radiante para Asas Celestiais e RadiÃ¢ncia Interior. &#13;
+			â€¢ Asas Celestiais. Duas asas espectrais brotam das suas costas temporariamente. VocÃª ganha um Deslocamento de Voo de {{speed}} ft. (converta para metros na ficha). &#13;
+			â€¢ RadiÃ¢ncia Interior. Pela duraÃ§Ã£o, uma luz ofuscante irradia dos seus olhos e boca, emitindo Luz Plena em um raio de 3 metros e Luz de Penumbra por 3 metros adicionais. No final de cada um dos seus turnos, cada criatura a atÃ© 3 metros de vocÃª sofre {{proficiency}} de dano Radiante. &#13;
+			â€¢ Mortalha NecrÃ³tica. Criaturas que nÃ£o sejam seus aliados a atÃ© 3 metros de vocÃª devem ser bem-sucedidas em uma salvaguarda de Carisma (CD {{necrotic shroud:dc}}) ou ficarÃ£o Amedrontadas atÃ© o inÃ­cio do seu prÃ³ximo turno enquanto seus olhos tornam-se brevemente poÃ§os de escuridÃ£o, e asas nÃ£o voadoras brotam de suas costas.</description>
 		</sheet>
 		<rules>
 			<stat name="necrotic shroud:dc" value="8" bonus="base" />
@@ -112,10 +112,10 @@
 		</rules>
 	</element>
 
-	<element name="Substituição de Traço Visão no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_DARKVISION" />
-	<element name="Substituição de Traço Resistência Celestial" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_CELESTIAL_RESISTANCE" />
-	<element name="Substituição de Traço Mãos Curativas" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_HEALING_HANDS" />
-	<element name="Substituição de Traço Portador da Luz" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_LIGHT_BEARER" />
-	<element name="Substituição de Traço Revelação Celestial" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_CELESTIAL_REVELATION" />
+	<element name="SubstituiÃ§Ã£o de TraÃ§o VisÃ£o no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_DARKVISION" />
+	<element name="SubstituiÃ§Ã£o de TraÃ§o ResistÃªncia Celestial" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_CELESTIAL_RESISTANCE" />
+	<element name="SubstituiÃ§Ã£o de TraÃ§o MÃ£os Curativas" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_HEALING_HANDS" />
+	<element name="SubstituiÃ§Ã£o de TraÃ§o Portador da Luz" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_LIGHT_BEARER" />
+	<element name="SubstituiÃ§Ã£o de TraÃ§o RevelaÃ§Ã£o Celestial" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_AASIMAR_CELESTIAL_REVELATION" />
 
 </elements>

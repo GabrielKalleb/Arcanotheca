@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Orc</name>
-		<description>The monstrous-adventurers from Volo’s Guide to Monsters.</description>
+		<description>The monstrous-adventurers from Voloâ€™s Guide to Monsters.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="race-orc.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/volos-guide-to-monsters/race-orc.xml" />
+			<file name="race-orc.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/volos-guide-to-monsters/race-orc.xml" />
 		</update>
 	</info>
 
-	<element name="Orc" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_ORC">
+	<element name="Orc" type="Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACE_ORC">
 		<description>
 			<p class="flavor">In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. This section is aimed at those who wish to expand the race selections for their campaigns beyond the typical folk of D&amp;D.</p>
 			<h4>ORC TRAITS</h4>
@@ -57,7 +57,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_ORC_POWERFUL_BUILD" />
 		</rules>
 	</element>
-	<element name="Aggressive" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_ORC_AGGRESSIVE">
+	<element name="Aggressive" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_ORC_AGGRESSIVE">
 		<description>
 			<p>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>
 		</description>
@@ -67,7 +67,7 @@
 	</element>
 
 	<!-- Menacing Trait is removed in Errata (as of version 2.0.) and replaced with Primal Intuition Trait -->
-	<!-- <element name="Menacing" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_ORC_MENACING">
+	<!-- <element name="Menacing" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_ORC_MENACING">
 		<description>
 			<p>You are trained in the Intimidation skill.</p>
 		</description>
@@ -79,7 +79,7 @@
 		</rules>
 	</element> -->
 
-	<element name="Primal Intuition" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_ORC_PRIMAL_INTUITION">
+	<element name="Primal Intuition" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_ORC_PRIMAL_INTUITION">
 		<description>
 			<p>You have proficiency in two of the following skills of your choice: Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, and Survival.</p>
 		</description>
@@ -92,7 +92,7 @@
 		</rules>
 	</element>	
 
-	<element name="Powerful Build" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_ORC_POWERFUL_BUILD">
+	<element name="Powerful Build" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_ORC_POWERFUL_BUILD">
 		<description>
 			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
 		</description>

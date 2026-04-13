@@ -5,68 +5,68 @@
 		<description>A classe Monge do Livro do Jogador de 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="class-monk.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-monk.xml" />
+			<file name="class-monk.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/classes/class-monk.xml" />
 		</update>
 	</info>
 
-	<element name="Monge" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_MONK">
+	<element name="Monge" type="Class" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_MONK">
 		<description>
-			<p>Monges usam treinamento de combate rigoroso e disciplina mental para se alinharem com o multiverso e focarem seus reservatórios internos de poder. Diferentes Monges conceituam esse poder de várias maneiras: como fôlego, energia, força vital, essência ou eu, por exemplo. Seja canalizado como uma exibição impressionante de proeza marcial ou como uma manifestação mais sutil de defesa e velocidade, esse poder infunde tudo o que um Monge faz.</p>
-			<p class="indent">Monges focam seu poder interno para criar efeitos extraordinários, até sobrenaturais. Eles canalizam velocidade e força sobrenaturais em seus ataques, com ou sem o uso de armas. Nas mãos de um Monge, mesmo as armas mais básicas podem se tornar implementos sofisticados de maestria em combate.</p>
-			<p class="indent">Muitos Monges descobrem que uma vida estruturada de isolamento ascético os ajuda a cultivar o foco físico e mental que precisam para aproveitar seu poder. Outros Monges acreditam que mergulhar na vibrante confusão da vida ajuda a alimentar sua determinação e disciplina.</p>
-			<p class="indent">Monges geralmente veem as aventuras como testes de seu desenvolvimento físico e mental. Eles são movidos por um desejo de cumprir uma missão maior do que meramente matar monstros e saquear tesouros; eles se esforçam para se transformarem em armas vivas.</p>
+			<p>Monges usam treinamento de combate rigoroso e disciplina mental para se alinharem com o multiverso e focarem seus reservatÃ³rios internos de poder. Diferentes Monges conceituam esse poder de vÃ¡rias maneiras: como fÃ´lego, energia, forÃ§a vital, essÃªncia ou eu, por exemplo. Seja canalizado como uma exibiÃ§Ã£o impressionante de proeza marcial ou como uma manifestaÃ§Ã£o mais sutil de defesa e velocidade, esse poder infunde tudo o que um Monge faz.</p>
+			<p class="indent">Monges focam seu poder interno para criar efeitos extraordinÃ¡rios, atÃ© sobrenaturais. Eles canalizam velocidade e forÃ§a sobrenaturais em seus ataques, com ou sem o uso de armas. Nas mÃ£os de um Monge, mesmo as armas mais bÃ¡sicas podem se tornar implementos sofisticados de maestria em combate.</p>
+			<p class="indent">Muitos Monges descobrem que uma vida estruturada de isolamento ascÃ©tico os ajuda a cultivar o foco fÃ­sico e mental que precisam para aproveitar seu poder. Outros Monges acreditam que mergulhar na vibrante confusÃ£o da vida ajuda a alimentar sua determinaÃ§Ã£o e disciplina.</p>
+			<p class="indent">Monges geralmente veem as aventuras como testes de seu desenvolvimento fÃ­sico e mental. Eles sÃ£o movidos por um desejo de cumprir uma missÃ£o maior do que meramente matar monstros e saquear tesouros; eles se esforÃ§am para se transformarem em armas vivas.</p>
 			<div class="sidebar">
-				<h5>TRAÇOS PRINCIPAIS DO MONGE</h5>
+				<h5>TRAÃ‡OS PRINCIPAIS DO MONGE</h5>
 				<table>
-					<tr><td><b>Habilidade Primária</b></td><td class="left">Destreza e Sabedoria</td></tr>
-					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D8 por nível de Monge</td></tr>
-					<tr><td><b>Proficiências em Testes de Resistência</b></td><td class="left">Força e Destreza</td></tr>
-					<tr><td><b>Proficiências em Perícias</b></td><td class="left"><i>Escolha 2:</i> Acrobacia, Atletismo, Furtividade, História, Intuição ou Religião</td></tr>
-					<tr><td><b>Proficiências em Armas</b></td><td class="left">Armas Simples e armas Marciais que possuam a propriedade Leve</td></tr>
-					<tr><td><b>Proficiências em Ferramentas</b></td><td class="left"><i>Escolha um tipo de Ferramentas de Artesão ou Instrumento Musical</i></td></tr>
+					<tr><td><b>Habilidade PrimÃ¡ria</b></td><td class="left">Destreza e Sabedoria</td></tr>
+					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D8 por nÃ­vel de Monge</td></tr>
+					<tr><td><b>ProficiÃªncias em Testes de ResistÃªncia</b></td><td class="left">ForÃ§a e Destreza</td></tr>
+					<tr><td><b>ProficiÃªncias em PerÃ­cias</b></td><td class="left"><i>Escolha 2:</i> Acrobacia, Atletismo, Furtividade, HistÃ³ria, IntuiÃ§Ã£o ou ReligiÃ£o</td></tr>
+					<tr><td><b>ProficiÃªncias em Armas</b></td><td class="left">Armas Simples e armas Marciais que possuam a propriedade Leve</td></tr>
+					<tr><td><b>ProficiÃªncias em Ferramentas</b></td><td class="left"><i>Escolha um tipo de Ferramentas de ArtesÃ£o ou Instrumento Musical</i></td></tr>
 					<tr><td><b>Treinamento com Armadura</b></td><td class="left">Nenhum</td></tr>
-					<tr><td><b>Equipamento Inicial</b></td><td class="left"><i> Escolha A ou B:</i> (A) Lança, 5 Adagas, Ferramentas de Artesão ou Instrumento Musical escolhido para a proficiência em ferramenta acima, Pacote de Explorador e 11 PO; ou (B) 50 PO</td></tr>
+					<tr><td><b>Equipamento Inicial</b></td><td class="left"><i> Escolha A ou B:</i> (A) LanÃ§a, 5 Adagas, Ferramentas de ArtesÃ£o ou Instrumento Musical escolhido para a proficiÃªncia em ferramenta acima, Pacote de Explorador e 11 PO; ou (B) 50 PO</td></tr>
 				</table>
 			</div>
 			<h4>TORNANDO-SE UM MONGE...</h4>
-			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÃVEL 1</h5>
 			<ul style="margin-top:-1em; margin-bottom: 0.5em">
-				<li>Ganhe todos os traços na tabela de Traços Principais do Monge.</li>
-				<li>Ganhe as características de nível 1 do Monge, que estão listadas na tabela de Características do Monge.</li>
+				<li>Ganhe todos os traÃ§os na tabela de TraÃ§os Principais do Monge.</li>
+				<li>Ganhe as caracterÃ­sticas de nÃ­vel 1 do Monge, que estÃ£o listadas na tabela de CaracterÃ­sticas do Monge.</li>
 			</ul>
 			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
 			<ul style="margin-top:-1em">
-				<li>Ganhe o traço Dado de Pontos de Vida da tabela de Traços Principais do Monge.</li>
-				<li>Ganhe as características de nível 1 do Monge, que estão listadas na tabela de Características do Monge.</li>
+				<li>Ganhe o traÃ§o Dado de Pontos de Vida da tabela de TraÃ§os Principais do Monge.</li>
+				<li>Ganhe as caracterÃ­sticas de nÃ­vel 1 do Monge, que estÃ£o listadas na tabela de CaracterÃ­sticas do Monge.</li>
 			</ul>
-			<h5>CARACTERÍSTICAS DO MONGE</h5>
+			<h5>CARACTERÃSTICAS DO MONGE</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Nível</td><td>Bônus de Proficiência</td><td class="col-45 left">Características de Classe</td><td class="col-10">Artes Marciais</td><td class="col-10">Pontos de Foco</td><td class="col-15">Movimento sem Armadura</td></tr>
+					<tr><td class="col-5">NÃ­vel</td><td>BÃ´nus de ProficiÃªncia</td><td class="col-45 left">CaracterÃ­sticas de Classe</td><td class="col-10">Artes Marciais</td><td class="col-10">Pontos de Foco</td><td class="col-15">Movimento sem Armadura</td></tr>
 				</thead>
-				<tr><td> 1</td><td>+2</td><td class="left">Artes Marciais, Defesa sem Armadura</td><td>1d6</td><td>—</td><td>—</td></tr>
+				<tr><td> 1</td><td>+2</td><td class="left">Artes Marciais, Defesa sem Armadura</td><td>1d6</td><td>â€”</td><td>â€”</td></tr>
 				<tr><td> 2</td><td>+2</td><td class="left">Foco do Monge, Movimento sem Armadura, Metabolismo Incomum</td><td>1d6</td><td>2</td><td>+3 m</td></tr>
 				<tr><td> 3</td><td>+2</td><td class="left">Defletir Ataques, Subclasse de Monge</td><td>1d6</td><td>3</td><td>+3 m</td></tr>
 				<tr><td> 4</td><td>+2</td><td class="left">Melhoria de Valor de Habilidade, Queda Lenta</td><td>1d6</td><td>4</td><td>+3 m</td></tr>
 				<tr><td> 5</td><td>+3</td><td class="left">Ataque Extra, Ataque Atordoante</td><td>1d8</td><td>5</td><td>+3 m</td></tr>
-				<tr><td> 6</td><td>+3</td><td class="left">Golpes Potencializados, Característica de Subclasse</td><td>1d8</td><td>6</td><td>+4,5 m</td></tr>
-				<tr><td> 7</td><td>+3</td><td class="left">Evasão</td><td>1d8</td><td>7</td><td>+4,5 m</td></tr>
+				<tr><td> 6</td><td>+3</td><td class="left">Golpes Potencializados, CaracterÃ­stica de Subclasse</td><td>1d8</td><td>6</td><td>+4,5 m</td></tr>
+				<tr><td> 7</td><td>+3</td><td class="left">EvasÃ£o</td><td>1d8</td><td>7</td><td>+4,5 m</td></tr>
 				<tr><td> 8</td><td>+3</td><td class="left">Melhoria de Valor de Habilidade</td><td>1d8</td><td>8</td><td>+4,5 m</td></tr>
-				<tr><td> 9</td><td>+4</td><td class="left">Movimento Acrobático</td><td>1d8</td><td>9</td><td>+4,5 m</td></tr>
-				<tr><td>10</td><td>+4</td><td class="left">Foco Elevado, Autorrestauração</td><td>1d8</td><td>10</td><td>+6 m</td></tr>
-				<tr><td>11</td><td>+4</td><td class="left">Característica de Subclasse</td><td>1d10</td><td>11</td><td>+6 m</td></tr>
+				<tr><td> 9</td><td>+4</td><td class="left">Movimento AcrobÃ¡tico</td><td>1d8</td><td>9</td><td>+4,5 m</td></tr>
+				<tr><td>10</td><td>+4</td><td class="left">Foco Elevado, AutorrestauraÃ§Ã£o</td><td>1d8</td><td>10</td><td>+6 m</td></tr>
+				<tr><td>11</td><td>+4</td><td class="left">CaracterÃ­stica de Subclasse</td><td>1d10</td><td>11</td><td>+6 m</td></tr>
 				<tr><td>12</td><td>+4</td><td class="left">Melhoria de Valor de Habilidade</td><td>1d10</td><td>12</td><td>+6 m</td></tr>
 				<tr><td>13</td><td>+5</td><td class="left">Defletir Energia</td><td>1d10</td><td>13</td><td>+6 m</td></tr>
 				<tr><td>14</td><td>+5</td><td class="left">Sobrevivente Disciplinado</td><td>1d10</td><td>14</td><td>+7,5 m</td></tr>
 				<tr><td>15</td><td>+5</td><td class="left">Foco Perfeito</td><td>1d10</td><td>15</td><td>+7,5 m</td></tr>
 				<tr><td>16</td><td>+5</td><td class="left">Melhoria de Valor de Habilidade</td><td>1d10</td><td>16</td><td>+7,5 m</td></tr>
-				<tr><td>17</td><td>+6</td><td class="left">Característica de Subclasse</td><td>1d12</td><td>17</td><td>+7,5 m</td></tr>
+				<tr><td>17</td><td>+6</td><td class="left">CaracterÃ­stica de Subclasse</td><td>1d12</td><td>17</td><td>+7,5 m</td></tr>
 				<tr><td>18</td><td>+6</td><td class="left">Defesa Superior</td><td>1d12</td><td>18</td><td>+9 m</td></tr>
-				<tr><td>19</td><td>+6</td><td class="left">Dádiva Épica</td><td>1d12</td><td>19</td><td>+9 m</td></tr>
+				<tr><td>19</td><td>+6</td><td class="left">DÃ¡diva Ã‰pica</td><td>1d12</td><td>19</td><td>+9 m</td></tr>
 				<tr><td>20</td><td>+6</td><td class="left">Corpo e Mente</td><td>1d12</td><td>20</td><td>+9 m</td></tr>
 			</table>
-			<h4>CARACTERÍSTICAS DE CLASSE DO MONGE</h4>
-			<p>Como Monge, você ganha as seguintes características de classe ao atingir os níveis especificados na classe. Estas características estão listadas na tabela de Características do Monge.</p>
+			<h4>CARACTERÃSTICAS DE CLASSE DO MONGE</h4>
+			<p>Como Monge, vocÃª ganha as seguintes caracterÃ­sticas de classe ao atingir os nÃ­veis especificados na classe. Estas caracterÃ­sticas estÃ£o listadas na tabela de CaracterÃ­sticas do Monge.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MARTIAL_ARTS" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONKS_FOCUS" />
@@ -100,10 +100,10 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
-			<select type="Proficiency" name="Proficiência em Ferramenta (Monge)" supports="Musical Instrument||Artisan tools" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
+			<select type="Proficiency" name="ProficiÃªncia em Ferramenta (Monge)" supports="Musical Instrument||Artisan tools" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
-			<select type="Proficiency" name="Proficiência em Perícia (Monge)" supports="Skill,Monk" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
+			<select type="Proficiency" name="ProficiÃªncia em PerÃ­cia (Monge)" supports="Skill,Monk" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
 
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MARTIAL_ARTS" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" level="1" />
@@ -132,7 +132,7 @@
 			<prerequisite>Destreza 13 e Sabedoria 13</prerequisite>
 			<requirements>(([dex:13],[wis:13]),!(ID_WOTC_PHB_CLASS_MONK||ID_WOTC_PHB_MULTICLASS_MONK))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
-				<set name="multiclass proficiencies">—</set>
+				<set name="multiclass proficiencies">â€”</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
@@ -140,24 +140,24 @@
 		</multiclass>
 	</element>
 
-	<element name="Nível 1: Artes Marciais" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MARTIAL_ARTS">
+	<element name="NÃ­vel 1: Artes Marciais" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MARTIAL_ARTS">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MARTIAL_ARTS||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EMPOWERED_STRIKES)</requirements>
 		<description>
-			<p style="margin-bottom: 0.2em">Sua prática de artes marciais lhe dá maestria em estilos de combate que usam seu Golpe Desarmado e armas de Monge, que são as seguintes:</p>
+			<p style="margin-bottom: 0.2em">Sua prÃ¡tica de artes marciais lhe dÃ¡ maestria em estilos de combate que usam seu Golpe Desarmado e armas de Monge, que sÃ£o as seguintes:</p>
 			<ul style="margin-top:0em; margin-bottom: 0.2em">
 				<li>Armas Corpo a Corpo Simples</li>
 				<li>Armas Corpo a Corpo Marciais que possuem a propriedade Leve</li>
 			</ul>
-			<p>Você ganha os seguintes benefícios enquanto estiver desarmado ou empunhando apenas armas de Monge e não estiver usando armadura ou empunhando um Escudo.</p>
-			<p class="indent"><em><strong>Golpe Desarmado Bônus.</strong></em> Você pode fazer um Golpe Desarmado como uma Ação Bônus.</p>
-			<p class="indent"><em><strong>Dado de Artes Marciais.</strong></em> Você pode rolar 1d6 no lugar do dano normal do seu Golpe Desarmado ou armas de Monge. Este dado muda conforme você ganha níveis de Monge, como mostrado na coluna Artes Marciais da tabela de Características do Monge.</p>
-			<p class="indent"><em><strong>Ataques Destros.</strong></em> Você pode usar seu modificador de Destreza em vez de seu modificador de Força para as jogadas de ataque e dano de seus Golpes Desarmados e armas de Monge. Além disso, quando você usa a opção Agarrar ou Empurrar do seu Golpe Desarmado, pode usar seu modificador de Destreza em vez do de Força para determinar a CD do teste de resistência.</p>
+			<p>VocÃª ganha os seguintes benefÃ­cios enquanto estiver desarmado ou empunhando apenas armas de Monge e nÃ£o estiver usando armadura ou empunhando um Escudo.</p>
+			<p class="indent"><em><strong>Golpe Desarmado BÃ´nus.</strong></em> VocÃª pode fazer um Golpe Desarmado como uma AÃ§Ã£o BÃ´nus.</p>
+			<p class="indent"><em><strong>Dado de Artes Marciais.</strong></em> VocÃª pode rolar 1d6 no lugar do dano normal do seu Golpe Desarmado ou armas de Monge. Este dado muda conforme vocÃª ganha nÃ­veis de Monge, como mostrado na coluna Artes Marciais da tabela de CaracterÃ­sticas do Monge.</p>
+			<p class="indent"><em><strong>Ataques Destros.</strong></em> VocÃª pode usar seu modificador de Destreza em vez de seu modificador de ForÃ§a para as jogadas de ataque e dano de seus Golpes Desarmados e armas de Monge. AlÃ©m disso, quando vocÃª usa a opÃ§Ã£o Agarrar ou Empurrar do seu Golpe Desarmado, pode usar seu modificador de Destreza em vez do de ForÃ§a para determinar a CD do teste de resistÃªncia.</p>
 		</description>
 		<sheet alt="Artes Marciais">
-			<description>Você pode fazer um Golpe Desarmado como uma Ação Bônus. &#13;
-			Além disso, seus Golpes Desarmados causam 1d{{martial arts:dice}}+{{martial arts:ability modifier}} de dano Contundente, e sua CD para Agarrar ou Empurrar é {{martial arts:dc}}.</description>
-			<description level="6">Você pode fazer um Golpe Desarmado como uma Ação Bônus. &#13;
-			Além disso, seus Golpes Desarmados causam 1d{{martial arts:dice}}+{{martial arts:ability modifier}} de dano Contundente ou de Energia, e sua CD para Agarrar ou Empurrar é {{martial arts:dc}}.</description>
+			<description>VocÃª pode fazer um Golpe Desarmado como uma AÃ§Ã£o BÃ´nus. &#13;
+			AlÃ©m disso, seus Golpes Desarmados causam 1d{{martial arts:dice}}+{{martial arts:ability modifier}} de dano Contundente, e sua CD para Agarrar ou Empurrar Ã© {{martial arts:dc}}.</description>
+			<description level="6">VocÃª pode fazer um Golpe Desarmado como uma AÃ§Ã£o BÃ´nus. &#13;
+			AlÃ©m disso, seus Golpes Desarmados causam 1d{{martial arts:dice}}+{{martial arts:ability modifier}} de dano Contundente ou de Energia, e sua CD para Agarrar ou Empurrar Ã© {{martial arts:dc}}.</description>
 		</sheet>
 		<rules>
 			<stat name="martial arts:dice" value="6" bonus="martial arts" />
@@ -172,13 +172,13 @@
 		</rules>
 	</element>
 
-	<element name="Nível 1: Defesa sem Armadura" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_DEFENSE">
+	<element name="NÃ­vel 1: Defesa sem Armadura" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_DEFENSE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_UNARMORED_DEFENSE</requirements>
 		<description>
-			<p>Enquanto você não estiver usando armadura ou empunhando um Escudo, sua Classe de Armadura base é igual a 10 mais seus modificadores de Destreza e Sabedoria.</p>
+			<p>Enquanto vocÃª nÃ£o estiver usando armadura ou empunhando um Escudo, sua Classe de Armadura base Ã© igual a 10 mais seus modificadores de Destreza e Sabedoria.</p>
 		</description>
 		<sheet alt="Defesa sem Armadura">
-			<description>Enquanto não estiver usando armadura ou empunhando um Escudo, sua CA base é {{ac:unarmored defense monk}}.</description>
+			<description>Enquanto nÃ£o estiver usando armadura ou empunhando um Escudo, sua CA base Ã© {{ac:unarmored defense monk}}.</description>
 		</sheet>
 		<rules>
 			<stat name="ac:unarmored defense monk" value="10" bonus="base" />
@@ -189,19 +189,19 @@
 		</rules>
 	</element>
 
-	<element name="Nível 2: Foco do Monge" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONKS_FOCUS">
+	<element name="NÃ­vel 2: Foco do Monge" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONKS_FOCUS">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MONKS_FOCUS||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_HEIGHTENED_FOCUS)</requirements>
 		<description>
-			<p>Seu foco e treinamento marcial permitem que você aproveite uma fonte de energia extraordinária dentro de si mesmo. Esta energia é representada pelos Pontos de Foco. Seu nível de Monge determina o número de pontos que você tem, conforme mostrado na coluna Pontos de Foco da tabela Características do Monge.</p>
-			<p class="indent">Você pode gastar estes pontos para aprimorar ou abastecer certas características de Monge. Você começa conhecendo três dessas características: Rajada de Golpes, Defesa Paciente e Passo do Vento, detalhadas abaixo.</p>
-			<p class="indent">Quando você gasta um Ponto de Foco, ele fica indisponível até que você termine um Descanso Curto ou Longo, ao final do qual você recupera todos os pontos gastos.</p>
-			<p class="indent">Algumas características que usam Pontos de Foco exigem que seu alvo faça um teste de resistência. A CD do teste é igual a 8 mais o seu modificador de Sabedoria e seu Bônus de Proficiência.</p>
-			<p class="indent"><em><strong>Rajada de Golpes.</strong></em> Você pode gastar 1 Ponto de Foco para fazer dois Golpes Desarmados como uma Ação Bônus.</p>
-			<p class="indent"><em><strong>Defesa Paciente.</strong></em> Você pode usar a ação Desengajar como uma Ação Bônus. Alternativamente, você pode gastar 1 Ponto de Foco para realizar tanto a ação Desengajar quanto a de Esquivar como uma Ação Bônus.</p>
-			<p class="indent"><em><strong>Passo do Vento.</strong></em> Você pode usar a ação Disparada como uma Ação Bônus. Alternativamente, você pode gastar 1 Ponto de Foco para realizar tanto a ação Desengajar quanto a Disparada como uma Ação Bônus, e sua distância de salto é dobrada durante o turno.</p>
+			<p>Seu foco e treinamento marcial permitem que vocÃª aproveite uma fonte de energia extraordinÃ¡ria dentro de si mesmo. Esta energia Ã© representada pelos Pontos de Foco. Seu nÃ­vel de Monge determina o nÃºmero de pontos que vocÃª tem, conforme mostrado na coluna Pontos de Foco da tabela CaracterÃ­sticas do Monge.</p>
+			<p class="indent">VocÃª pode gastar estes pontos para aprimorar ou abastecer certas caracterÃ­sticas de Monge. VocÃª comeÃ§a conhecendo trÃªs dessas caracterÃ­sticas: Rajada de Golpes, Defesa Paciente e Passo do Vento, detalhadas abaixo.</p>
+			<p class="indent">Quando vocÃª gasta um Ponto de Foco, ele fica indisponÃ­vel atÃ© que vocÃª termine um Descanso Curto ou Longo, ao final do qual vocÃª recupera todos os pontos gastos.</p>
+			<p class="indent">Algumas caracterÃ­sticas que usam Pontos de Foco exigem que seu alvo faÃ§a um teste de resistÃªncia. A CD do teste Ã© igual a 8 mais o seu modificador de Sabedoria e seu BÃ´nus de ProficiÃªncia.</p>
+			<p class="indent"><em><strong>Rajada de Golpes.</strong></em> VocÃª pode gastar 1 Ponto de Foco para fazer dois Golpes Desarmados como uma AÃ§Ã£o BÃ´nus.</p>
+			<p class="indent"><em><strong>Defesa Paciente.</strong></em> VocÃª pode usar a aÃ§Ã£o Desengajar como uma AÃ§Ã£o BÃ´nus. Alternativamente, vocÃª pode gastar 1 Ponto de Foco para realizar tanto a aÃ§Ã£o Desengajar quanto a de Esquivar como uma AÃ§Ã£o BÃ´nus.</p>
+			<p class="indent"><em><strong>Passo do Vento.</strong></em> VocÃª pode usar a aÃ§Ã£o Disparada como uma AÃ§Ã£o BÃ´nus. Alternativamente, vocÃª pode gastar 1 Ponto de Foco para realizar tanto a aÃ§Ã£o Desengajar quanto a Disparada como uma AÃ§Ã£o BÃ´nus, e sua distÃ¢ncia de salto Ã© dobrada durante o turno.</p>
 		</description>
 		<sheet alt="Foco do Monge">
-			<description>Você tem {{monks focus:points}} Pontos de Foco.</description>
+			<description>VocÃª tem {{monks focus:points}} Pontos de Foco.</description>
 		</sheet>
 		<rules>
 			<stat name="monks focus:points" value="level:monk" bonus="base" />
@@ -213,49 +213,49 @@
 			<select type="Class Feature" name="Passo do Vento" supports="PHB24 Step of the Wind" default="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_STEP_OF_THE_WIND" requirements="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MONKS_FOCUS_STEP_OF_THE_WIND"/>
 		</rules>
 	</element>
-	<element name="Rajada de Golpes" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_FLURRY_OF_BLOWS">
+	<element name="Rajada de Golpes" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_FLURRY_OF_BLOWS">
 		<supports>PHB24 Flurry of Blows</supports>
 		<description>
-			<p>Você pode gastar 1 Ponto de Foco para fazer dois Golpes Desarmados como uma Ação Bônus.</p>
+			<p>VocÃª pode gastar 1 Ponto de Foco para fazer dois Golpes Desarmados como uma AÃ§Ã£o BÃ´nus.</p>
 		</description>
 		<sheet action="Bonus Action" usage="Ponto de Foco">
-			<description>Você pode fazer dois Golpes Desarmados.</description>
-			<description level="10">Você pode fazer três Golpes Desarmados.</description>
+			<description>VocÃª pode fazer dois Golpes Desarmados.</description>
+			<description level="10">VocÃª pode fazer trÃªs Golpes Desarmados.</description>
 		</sheet>
 	</element>
-	<element name="Defesa Paciente" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_PATIENT_DEFENSE">
+	<element name="Defesa Paciente" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_PATIENT_DEFENSE">
 		<supports>PHB24 Patient Defense</supports>
 		<description>
-			<p>Você pode usar a ação Desengajar como uma Ação Bônus. Alternativamente, você pode gastar 1 Ponto de Foco para realizar tanto a ação Desengajar quanto a de Esquivar como uma Ação Bônus.</p>
+			<p>VocÃª pode usar a aÃ§Ã£o Desengajar como uma AÃ§Ã£o BÃ´nus. Alternativamente, vocÃª pode gastar 1 Ponto de Foco para realizar tanto a aÃ§Ã£o Desengajar quanto a de Esquivar como uma AÃ§Ã£o BÃ´nus.</p>
 		</description>
 		<sheet action="Bonus Action">
-			<description>Você pode usar a ação Desengajar. &#13;
-			Alternativamente, você pode gastar 1 Ponto de Foco para usar as ações Desengajar e Esquiva.</description>
-			<description level="10">Você pode usar a ação Desengajar. &#13;
-			Alternativamente, você pode gastar 1 Ponto de Foco para usar as ações Desengajar e Esquiva, e ganhar 2d{{martial arts:dice}} PVTs.</description>
+			<description>VocÃª pode usar a aÃ§Ã£o Desengajar. &#13;
+			Alternativamente, vocÃª pode gastar 1 Ponto de Foco para usar as aÃ§Ãµes Desengajar e Esquiva.</description>
+			<description level="10">VocÃª pode usar a aÃ§Ã£o Desengajar. &#13;
+			Alternativamente, vocÃª pode gastar 1 Ponto de Foco para usar as aÃ§Ãµes Desengajar e Esquiva, e ganhar 2d{{martial arts:dice}} PVTs.</description>
 		</sheet>
 	</element>
-	<element name="Passo do Vento" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_STEP_OF_THE_WIND">
+	<element name="Passo do Vento" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_STEP_OF_THE_WIND">
 		<supports>PHB24 Step of the Wind</supports>
 		<description>
-			<p>Você pode usar a ação Disparada como uma Ação Bônus. Alternativamente, você pode gastar 1 Ponto de Foco para realizar tanto a ação Desengajar quanto a Disparada como uma Ação Bônus, e sua distância de salto é dobrada durante o turno.</p>
+			<p>VocÃª pode usar a aÃ§Ã£o Disparada como uma AÃ§Ã£o BÃ´nus. Alternativamente, vocÃª pode gastar 1 Ponto de Foco para realizar tanto a aÃ§Ã£o Desengajar quanto a Disparada como uma AÃ§Ã£o BÃ´nus, e sua distÃ¢ncia de salto Ã© dobrada durante o turno.</p>
 		</description>
 		<sheet action="Bonus Action">
-			<description>Você pode usar a ação Disparada. &#13;
-			Alternativamente, pode gastar 1 Ponto de Foco para usar as ações Desengajar e Disparada, e sua distância de salto é dobrada no turno.</description>
-			<description level="10">Você pode usar a ação Disparada. &#13;
-			Alternativamente, pode gastar 1 Ponto de Foco para usar as ações Desengajar e Disparada, e a distância de salto é dobrada no turno. Ao usar esta opção, pode escolher uma criatura disposta a até 1,5m de você que seja Grande ou menor para mover-se junto até o final do seu turno. O movimento dela não provoca Ataques de Oportunidade.</description>
+			<description>VocÃª pode usar a aÃ§Ã£o Disparada. &#13;
+			Alternativamente, pode gastar 1 Ponto de Foco para usar as aÃ§Ãµes Desengajar e Disparada, e sua distÃ¢ncia de salto Ã© dobrada no turno.</description>
+			<description level="10">VocÃª pode usar a aÃ§Ã£o Disparada. &#13;
+			Alternativamente, pode gastar 1 Ponto de Foco para usar as aÃ§Ãµes Desengajar e Disparada, e a distÃ¢ncia de salto Ã© dobrada no turno. Ao usar esta opÃ§Ã£o, pode escolher uma criatura disposta a atÃ© 1,5m de vocÃª que seja Grande ou menor para mover-se junto atÃ© o final do seu turno. O movimento dela nÃ£o provoca Ataques de Oportunidade.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 2: Movimento sem Armadura" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT">
+	<element name="NÃ­vel 2: Movimento sem Armadura" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_UNARMORED_MOVEMENT||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ACROBATIC_MOVEMENT)</requirements>
 		<description>
-			<p>Seu Deslocamento aumenta em 3 metros (10 pés) enquanto você não estiver usando armadura ou empunhando um Escudo. Esse bônus aumenta conforme você atinge certos níveis de Monge, como mostrado na tabela Características do Monge.</p>
+			<p>Seu Deslocamento aumenta em 3 metros (10 pÃ©s) enquanto vocÃª nÃ£o estiver usando armadura ou empunhando um Escudo. Esse bÃ´nus aumenta conforme vocÃª atinge certos nÃ­veis de Monge, como mostrado na tabela CaracterÃ­sticas do Monge.</p>
 		</description>
 		<sheet alt="Movimento sem Armadura">
-			<description>Seu Deslocamento aumenta em {{monk:unarmored movement}} metros enquanto você não estiver usando armadura ou empunhando um Escudo.</description>
-			<description level="9">Seu Deslocamento aumenta em {{monk:unarmored movement}} metros e você pode se mover ao longo de superfícies verticais e líquidos no seu turno sem cair enquanto não usar armadura ou Escudo.</description>
+			<description>Seu Deslocamento aumenta em {{monk:unarmored movement}} metros enquanto vocÃª nÃ£o estiver usando armadura ou empunhando um Escudo.</description>
+			<description level="9">Seu Deslocamento aumenta em {{monk:unarmored movement}} metros e vocÃª pode se mover ao longo de superfÃ­cies verticais e lÃ­quidos no seu turno sem cair enquanto nÃ£o usar armadura ou Escudo.</description>
 		</sheet>
 		<rules>
 			<stat name="monk:unarmored movement" value="3" bonus="base" />
@@ -272,26 +272,26 @@
 		</rules>
 	</element>
 
-	<element name="Nível 2: Metabolismo Incomum" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNCANNY_METABOLISM">
+	<element name="NÃ­vel 2: Metabolismo Incomum" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNCANNY_METABOLISM">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_UNCANNY_METABOLISM</requirements>
 		<description>
-			<p>Quando você rola a Iniciativa, pode recuperar todos os Pontos de Foco gastos. Ao fazer isso, role o seu dado de Artes Marciais e recupere um número de Pontos de Vida igual ao seu nível de Monge mais o número rolado.</p>
-			<p class="indent">Uma vez que você usar esta característica, não poderá usá-la novamente até terminar um Descanso Longo.</p>
+			<p>Quando vocÃª rola a Iniciativa, pode recuperar todos os Pontos de Foco gastos. Ao fazer isso, role o seu dado de Artes Marciais e recupere um nÃºmero de Pontos de Vida igual ao seu nÃ­vel de Monge mais o nÃºmero rolado.</p>
+			<p class="indent">Uma vez que vocÃª usar esta caracterÃ­stica, nÃ£o poderÃ¡ usÃ¡-la novamente atÃ© terminar um Descanso Longo.</p>
 		</description>
 		<sheet alt="Metabolismo Incomum" usage="1/Descanso Longo">
-			<description>Ao rolar a Iniciativa, você pode recuperar todos os Pontos de Foco e curar 1d{{martial arts:dice}}+{{level:monk}} PVs.</description>
+			<description>Ao rolar a Iniciativa, vocÃª pode recuperar todos os Pontos de Foco e curar 1d{{martial arts:dice}}+{{level:monk}} PVs.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 3: Defletir Ataques" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DEFLECT_ATTACKS">
+	<element name="NÃ­vel 3: Defletir Ataques" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DEFLECT_ATTACKS">
 		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_DEFLECT_ATTACKS||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_DEFLECT_ENERGY)</requirements>
 		<description>
-			<p>Quando uma jogada de ataque atinge você e o dano inclui Contundente, Perfurante ou Cortante, você pode usar uma Reação para reduzir o dano total do ataque contra você. A redução é igual a 1d10 mais o seu modificador de Destreza e nível de Monge.</p>
-			<p class="indent">Se você reduzir o dano a 0, pode gastar 1 Ponto de Foco para redirecionar parte da força do ataque. Se o fizer, escolha uma criatura que você possa ver a até 1,5 metro (5 pés) de si mesmo se o ataque foi corpo a corpo, ou uma criatura que possa ver a até 18 metros (60 pés) de você que não esteja atrás de Cobertura Total se o ataque foi à distância. A criatura alvo deve ser bem-sucedida num teste de resistência de Destreza ou sofrerá dano igual a duas rolagens do seu dado de Artes Marciais mais o seu modificador de Destreza. O dano é do mesmo tipo causado pelo ataque.</p>
+			<p>Quando uma jogada de ataque atinge vocÃª e o dano inclui Contundente, Perfurante ou Cortante, vocÃª pode usar uma ReaÃ§Ã£o para reduzir o dano total do ataque contra vocÃª. A reduÃ§Ã£o Ã© igual a 1d10 mais o seu modificador de Destreza e nÃ­vel de Monge.</p>
+			<p class="indent">Se vocÃª reduzir o dano a 0, pode gastar 1 Ponto de Foco para redirecionar parte da forÃ§a do ataque. Se o fizer, escolha uma criatura que vocÃª possa ver a atÃ© 1,5 metro (5 pÃ©s) de si mesmo se o ataque foi corpo a corpo, ou uma criatura que possa ver a atÃ© 18 metros (60 pÃ©s) de vocÃª que nÃ£o esteja atrÃ¡s de Cobertura Total se o ataque foi Ã  distÃ¢ncia. A criatura alvo deve ser bem-sucedida num teste de resistÃªncia de Destreza ou sofrerÃ¡ dano igual a duas rolagens do seu dado de Artes Marciais mais o seu modificador de Destreza. O dano Ã© do mesmo tipo causado pelo ataque.</p>
 		</description>
 		<sheet alt="Defletir Ataques" action="Reaction">
-			<description>Você pode reduzir o dano de um ataque corpo a corpo ou à distância que cause dano Contundente, Perfurante ou Cortante em 1d10+{{deflect attacks:bonus}}. Se reduzir o dano a 0, você pode gastar 1 Ponto de Foco para redirecionar o dano. Um ataque corpo a corpo pode ser direcionado contra uma criatura a até 1,5m, e um à distância contra uma criatura a até 18m sem Cobertura Total. O alvo deve passar em um teste de Destreza CD {{monks focus:dc}} ou sofrer 2d{{martial arts:dice}}+{{dexterity:modifier}} de dano do mesmo tipo do ataque original.</description>
-			<description level="13">Você pode reduzir o dano de qualquer ataque em 1d10+{{deflect attacks:bonus}}. Se reduzir o dano a 0, você pode gastar 1 Ponto de Foco para redirecionar o dano. Um ataque corpo a corpo pode ser direcionado contra uma criatura a até 1,5m, e um à distância contra uma criatura a até 18m sem Cobertura Total. O alvo deve passar em um teste de Destreza CD {{monks focus:dc}} ou sofrer 2d{{martial arts:dice}}+{{dexterity:modifier}} de dano do tipo do ataque original.</description>
+			<description>VocÃª pode reduzir o dano de um ataque corpo a corpo ou Ã  distÃ¢ncia que cause dano Contundente, Perfurante ou Cortante em 1d10+{{deflect attacks:bonus}}. Se reduzir o dano a 0, vocÃª pode gastar 1 Ponto de Foco para redirecionar o dano. Um ataque corpo a corpo pode ser direcionado contra uma criatura a atÃ© 1,5m, e um Ã  distÃ¢ncia contra uma criatura a atÃ© 18m sem Cobertura Total. O alvo deve passar em um teste de Destreza CD {{monks focus:dc}} ou sofrer 2d{{martial arts:dice}}+{{dexterity:modifier}} de dano do mesmo tipo do ataque original.</description>
+			<description level="13">VocÃª pode reduzir o dano de qualquer ataque em 1d10+{{deflect attacks:bonus}}. Se reduzir o dano a 0, vocÃª pode gastar 1 Ponto de Foco para redirecionar o dano. Um ataque corpo a corpo pode ser direcionado contra uma criatura a atÃ© 1,5m, e um Ã  distÃ¢ncia contra uma criatura a atÃ© 18m sem Cobertura Total. O alvo deve passar em um teste de Destreza CD {{monks focus:dc}} ou sofrer 2d{{martial arts:dice}}+{{dexterity:modifier}} de dano do tipo do ataque original.</description>
 		</sheet>
 		<rules>
 			<stat name="deflect attacks:bonus" value="level:monk" bonus="base" />
@@ -299,10 +299,10 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Subclasse de Monge" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONK_SUBCLASS">
+	<element name="NÃ­vel 3: Subclasse de Monge" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONK_SUBCLASS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MONK_SUBCLASS</requirements>
 		<description>
-			<p>Você ganha uma subclasse de Monge à sua escolha. Uma subclasse é uma especialização que lhe concede características em certos níveis de Monge. Pelo resto da sua carreira, você ganha cada uma das características da subclasse que sejam do seu nível de Monge ou inferior.</p>
+			<p>VocÃª ganha uma subclasse de Monge Ã  sua escolha. Uma subclasse Ã© uma especializaÃ§Ã£o que lhe concede caracterÃ­sticas em certos nÃ­veis de Monge. Pelo resto da sua carreira, vocÃª ganha cada uma das caracterÃ­sticas da subclasse que sejam do seu nÃ­vel de Monge ou inferior.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -310,11 +310,11 @@
 		</rules>
 	</element>
 
-	<element name="Nível 4: Melhoria de Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ABILITY_SCORE_IMPROVEMENT">
+	<element name="NÃ­vel 4: Melhoria de Valor de Habilidade" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ABILITY_SCORE_IMPROVEMENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>Você ganha o talento Melhoria de Valor de Habilidade ou outro talento de sua escolha para o qual você se qualifique. Você ganha esta característica novamente nos níveis de Monge 8, 12 e 16.</p>
+			<p>VocÃª ganha o talento Melhoria de Valor de Habilidade ou outro talento de sua escolha para o qual vocÃª se qualifique. VocÃª ganha esta caracterÃ­stica novamente nos nÃ­veis de Monge 8, 12 e 16.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -325,10 +325,10 @@
 		</rules>
 	</element>
 
-	<element name="Nível 4: Queda Lenta" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SLOW_FALL">
+	<element name="NÃ­vel 4: Queda Lenta" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SLOW_FALL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SLOW_FALL</requirements>
 		<description>
-			<p>Você pode usar uma Reação ao cair para reduzir qualquer dano de queda sofrido em uma quantidade igual a cinco vezes o seu nível de Monge.</p>
+			<p>VocÃª pode usar uma ReaÃ§Ã£o ao cair para reduzir qualquer dano de queda sofrido em uma quantidade igual a cinco vezes o seu nÃ­vel de Monge.</p>
 		</description>
 		<sheet alt="Queda Lenta" usage="Reaction">
 			<description>Reduz o dano de queda sofrido em {{slowfall:amount}}.</description>
@@ -342,10 +342,10 @@
 		</rules>
 	</element>
 
-	<element name="Nível 5: Ataque Extra" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EXTRA_ATTACK">
+	<element name="NÃ­vel 5: Ataque Extra" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EXTRA_ATTACK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EXTRA_ATTACK</requirements>
 		<description>
-			<p>Você pode atacar duas vezes em vez de uma sempre que usar a ação de Ataque no seu turno.</p>
+			<p>VocÃª pode atacar duas vezes em vez de uma sempre que usar a aÃ§Ã£o de Ataque no seu turno.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -353,81 +353,81 @@
 		</rules>
 	</element>
 
-	<element name="Nível 5: Ataque Atordoante" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_STUNNING_STRIKE">
+	<element name="NÃ­vel 5: Ataque Atordoante" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_STUNNING_STRIKE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_STUNNING_STRIKE</requirements>
 		<description>
-			<p>Uma vez por turno, quando você atingir uma criatura com uma arma de Monge ou um Golpe Desarmado, pode gastar 1 Ponto de Foco para tentar um ataque atordoante. O alvo deve fazer um teste de resistência de Constituição. Em uma falha, o alvo fica com a condição Atordoado até o início do seu próximo turno. Em um sucesso, o Deslocamento do alvo é reduzido à metade até o início do seu próximo turno, e a próxima jogada de ataque feita contra ele até lá terá Vantagem.</p>
+			<p>Uma vez por turno, quando vocÃª atingir uma criatura com uma arma de Monge ou um Golpe Desarmado, pode gastar 1 Ponto de Foco para tentar um ataque atordoante. O alvo deve fazer um teste de resistÃªncia de ConstituiÃ§Ã£o. Em uma falha, o alvo fica com a condiÃ§Ã£o Atordoado atÃ© o inÃ­cio do seu prÃ³ximo turno. Em um sucesso, o Deslocamento do alvo Ã© reduzido Ã  metade atÃ© o inÃ­cio do seu prÃ³ximo turno, e a prÃ³xima jogada de ataque feita contra ele atÃ© lÃ¡ terÃ¡ Vantagem.</p>
 		</description>
-		<sheet alt="Ataque Atordoante" usage="Ponto de Foco — 1/Turno">
-			<description>Ao acertar com uma arma de Monge ou Golpe Desarmado, pode forçar o alvo a fazer um teste de Constituição CD {{monks focus:dc}}. Falha: fica Atordoado até o início do seu próximo turno. Sucesso: o Deslocamento do alvo cai pela metade e o próximo ataque contra ele tem Vantagem até o início de seu próximo turno.</description>
+		<sheet alt="Ataque Atordoante" usage="Ponto de Foco â€” 1/Turno">
+			<description>Ao acertar com uma arma de Monge ou Golpe Desarmado, pode forÃ§ar o alvo a fazer um teste de ConstituiÃ§Ã£o CD {{monks focus:dc}}. Falha: fica Atordoado atÃ© o inÃ­cio do seu prÃ³ximo turno. Sucesso: o Deslocamento do alvo cai pela metade e o prÃ³ximo ataque contra ele tem Vantagem atÃ© o inÃ­cio de seu prÃ³ximo turno.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 6: Golpes Potencializados" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EMPOWERED_STRIKES">
+	<element name="NÃ­vel 6: Golpes Potencializados" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EMPOWERED_STRIKES">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EMPOWERED_STRIKES</requirements>
 		<description>
-			<p>Sempre que você causar dano com o seu Golpe Desarmado, pode escolher se ele causará dano de Energia ou seu tipo de dano normal.</p>
+			<p>Sempre que vocÃª causar dano com o seu Golpe Desarmado, pode escolher se ele causarÃ¡ dano de Energia ou seu tipo de dano normal.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="Nível 7: Evasão" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EVASION">
+	<element name="NÃ­vel 7: EvasÃ£o" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EVASION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EVASION</requirements>
 		<description>
-			<p>Quando for submetido a um efeito que permita fazer um teste de resistência de Destreza para sofrer apenas metade do dano, em vez disso você não sofre nenhum dano se for bem-sucedido no teste de resistência e sofre apenas metade do dano se falhar.</p>
-			<p class="indent">Você não se beneficia desta característica se estiver com a condição Incapacitado.</p>
+			<p>Quando for submetido a um efeito que permita fazer um teste de resistÃªncia de Destreza para sofrer apenas metade do dano, em vez disso vocÃª nÃ£o sofre nenhum dano se for bem-sucedido no teste de resistÃªncia e sofre apenas metade do dano se falhar.</p>
+			<p class="indent">VocÃª nÃ£o se beneficia desta caracterÃ­stica se estiver com a condiÃ§Ã£o Incapacitado.</p>
 		</description>
-		<sheet alt="Evasão">
-			<description>Ao ser alvo de um efeito que permita teste de resistência de Destreza para sofrer metade do dano e você não estiver Incapacitado, você não sofre dano se obtiver sucesso e apenas metade se falhar.</description>
+		<sheet alt="EvasÃ£o">
+			<description>Ao ser alvo de um efeito que permita teste de resistÃªncia de Destreza para sofrer metade do dano e vocÃª nÃ£o estiver Incapacitado, vocÃª nÃ£o sofre dano se obtiver sucesso e apenas metade se falhar.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 9: Movimento Acrobático" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ACROBATIC_MOVEMENT">
+	<element name="NÃ­vel 9: Movimento AcrobÃ¡tico" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ACROBATIC_MOVEMENT">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ACROBATIC_MOVEMENT</requirements>
 		<description>
-			<p>Enquanto não estiver usando armadura ou empunhando um Escudo, você ganha a capacidade de mover-se ao longo de superfícies verticais e líquidos no seu turno sem cair durante o deslocamento.</p>
+			<p>Enquanto nÃ£o estiver usando armadura ou empunhando um Escudo, vocÃª ganha a capacidade de mover-se ao longo de superfÃ­cies verticais e lÃ­quidos no seu turno sem cair durante o deslocamento.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="Nível 10: Foco Elevado" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS">
+	<element name="NÃ­vel 10: Foco Elevado" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_HEIGHTENED_FOCUS</requirements>
 		<description>
-			<p>Sua Rajada de Golpes, Defesa Paciente e Passo do Vento ganham os seguintes benefícios.</p>
-			<p class="indent"><em><strong>Rajada de Golpes.</strong></em> Você pode gastar 1 Ponto de Foco para usar a Rajada de Golpes e fazer três Golpes Desarmados com ela em vez de dois.</p>
-			<p class="indent"><em><strong>Defesa Paciente.</strong></em> Quando gasta um Ponto de Foco para usar a Defesa Paciente, você ganha Pontos de Vida Temporários iguais a dois dados de Artes Marciais.</p>
-			<p class="indent"><em><strong>Passo do Vento.</strong></em> Quando gasta um Ponto de Foco para usar o Passo do Vento, você pode escolher uma criatura disposta a até 1,5 metro (5 pés) de você que seja Grande ou menor. Você move a criatura junto consigo até o final do seu turno. O movimento da criatura não provoca Ataques de Oportunidade.</p>
+			<p>Sua Rajada de Golpes, Defesa Paciente e Passo do Vento ganham os seguintes benefÃ­cios.</p>
+			<p class="indent"><em><strong>Rajada de Golpes.</strong></em> VocÃª pode gastar 1 Ponto de Foco para usar a Rajada de Golpes e fazer trÃªs Golpes Desarmados com ela em vez de dois.</p>
+			<p class="indent"><em><strong>Defesa Paciente.</strong></em> Quando gasta um Ponto de Foco para usar a Defesa Paciente, vocÃª ganha Pontos de Vida TemporÃ¡rios iguais a dois dados de Artes Marciais.</p>
+			<p class="indent"><em><strong>Passo do Vento.</strong></em> Quando gasta um Ponto de Foco para usar o Passo do Vento, vocÃª pode escolher uma criatura disposta a atÃ© 1,5 metro (5 pÃ©s) de vocÃª que seja Grande ou menor. VocÃª move a criatura junto consigo atÃ© o final do seu turno. O movimento da criatura nÃ£o provoca Ataques de Oportunidade.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="Nível 10: Autorrestauração" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SELF_RESTORATION">
+	<element name="NÃ­vel 10: AutorrestauraÃ§Ã£o" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SELF_RESTORATION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SELF_RESTORATION</requirements>
 		<description>
-			<p>Através da pura força de vontade, você pode remover uma das seguintes condições de si mesmo no final de cada um dos seus turnos: Enfeitiçado, Amedrontado ou Envenenado.</p>
-			<p class="indent">Além disso, abster-se de comida e bebida não lhe causa níveis de Exaustão.</p>
+			<p>AtravÃ©s da pura forÃ§a de vontade, vocÃª pode remover uma das seguintes condiÃ§Ãµes de si mesmo no final de cada um dos seus turnos: EnfeitiÃ§ado, Amedrontado ou Envenenado.</p>
+			<p class="indent">AlÃ©m disso, abster-se de comida e bebida nÃ£o lhe causa nÃ­veis de ExaustÃ£o.</p>
 		</description>
-		<sheet alt="Autorrestauração">
-			<description>Abster-se de comida e água não causa níveis de Exaustão. Além disso, você pode remover uma destas condições de si mesmo no final de cada turno: Enfeitiçado, Amedrontado e Envenenado.</description>
+		<sheet alt="AutorrestauraÃ§Ã£o">
+			<description>Abster-se de comida e Ã¡gua nÃ£o causa nÃ­veis de ExaustÃ£o. AlÃ©m disso, vocÃª pode remover uma destas condiÃ§Ãµes de si mesmo no final de cada turno: EnfeitiÃ§ado, Amedrontado e Envenenado.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 13: Defletir Energia" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DEFLECT_ENERGY">
+	<element name="NÃ­vel 13: Defletir Energia" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DEFLECT_ENERGY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_DEFLECT_ENERGY</requirements>
 		<description>
-			<p>Agora você pode usar a característica Defletir Ataques contra ataques que causem qualquer tipo de dano, não apenas Contundente, Perfurante ou Cortante.</p>
+			<p>Agora vocÃª pode usar a caracterÃ­stica Defletir Ataques contra ataques que causem qualquer tipo de dano, nÃ£o apenas Contundente, Perfurante ou Cortante.</p>
 		</description>
 		<sheet display="false" />
 	</element>
 
-	<element name="Nível 14: Sobrevivente Disciplinado" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DISCIPLINED_SURVIVOR">
+	<element name="NÃ­vel 14: Sobrevivente Disciplinado" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DISCIPLINED_SURVIVOR">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_DISCIPLINED_SURVIVOR</requirements>
 		<description>
-			<p>Sua disciplina física e mental lhe confere proficiência em todos os testes de resistência.</p>
-			<p class="indent">Além disso, sempre que você fizer um teste de resistência e falhar, pode gastar 1 Ponto de Foco para rolar novamente e deverá usar a nova rolagem.</p>
+			<p>Sua disciplina fÃ­sica e mental lhe confere proficiÃªncia em todos os testes de resistÃªncia.</p>
+			<p class="indent">AlÃ©m disso, sempre que vocÃª fizer um teste de resistÃªncia e falhar, pode gastar 1 Ponto de Foco para rolar novamente e deverÃ¡ usar a nova rolagem.</p>
 		</description>
 		<sheet alt="Sobrevivente Disciplinado" usage="Ponto de Foco">
-			<description>Sempre que falhar em um teste de resistência, pode rolar novamente e aceitar o segundo resultado.</description>
+			<description>Sempre que falhar em um teste de resistÃªncia, pode rolar novamente e aceitar o segundo resultado.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
@@ -439,41 +439,41 @@
 		</rules>
 	</element>
 
-	<element name="Nível 15: Foco Perfeito" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_PERFECT_FOCUS">
+	<element name="NÃ­vel 15: Foco Perfeito" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_PERFECT_FOCUS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_PERFECT_FOCUS</requirements>
 		<description>
-			<p>Quando você rolar a Iniciativa e não usar Metabolismo Incomum, você recupera Pontos de Foco gastos até ter 4 se estiver com 3 ou menos.</p>
+			<p>Quando vocÃª rolar a Iniciativa e nÃ£o usar Metabolismo Incomum, vocÃª recupera Pontos de Foco gastos atÃ© ter 4 se estiver com 3 ou menos.</p>
 		</description>
 		<sheet alt="Foco Perfeito">
-			<description>Ao rolar Iniciativa sem usar Metabolismo Incomum, recupere Pontos de Foco até 4 caso tenha 3 ou menos.</description>
+			<description>Ao rolar Iniciativa sem usar Metabolismo Incomum, recupere Pontos de Foco atÃ© 4 caso tenha 3 ou menos.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 18: Defesa Superior" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SUPERIOR_DEFENSE">
+	<element name="NÃ­vel 18: Defesa Superior" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SUPERIOR_DEFENSE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SUPERIOR_DEFENSE</requirements>
 		<description>
-			<p>No início do seu turno, você pode gastar 3 Pontos de Foco para se fortalecer contra danos por 1 minuto ou até ter a condição Incapacitado. Durante este tempo, você ganha Resistência a todos os danos, exceto dano de Energia.</p>
+			<p>No inÃ­cio do seu turno, vocÃª pode gastar 3 Pontos de Foco para se fortalecer contra danos por 1 minuto ou atÃ© ter a condiÃ§Ã£o Incapacitado. Durante este tempo, vocÃª ganha ResistÃªncia a todos os danos, exceto dano de Energia.</p>
 		</description>
 		<sheet alt="Defesa Superior" usage="3 Pontos de Foco">
-			<description>No início do turno, você ganha Resistência a todos os tipos de dano (exceto Energia) por 1 minuto.</description>
+			<description>No inÃ­cio do turno, vocÃª ganha ResistÃªncia a todos os tipos de dano (exceto Energia) por 1 minuto.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EPIC_BOON">
+	<element name="NÃ­vel 19: DÃ¡diva Ã‰pica" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EPIC_BOON">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EPIC_BOON</requirements>
 		<description>
-			<p>Você ganha um talento de Dádiva Épica ou outro talento de sua escolha para o qual se qualifique. A Dádiva da Ofensiva Irresistível é recomendada.</p>
+			<p>VocÃª ganha um talento de DÃ¡diva Ã‰pica ou outro talento de sua escolha para o qual se qualifique. A DÃ¡diva da Ofensiva IrresistÃ­vel Ã© recomendada.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="Dádiva Épica (Monge 19)" level="19" />
+			<select type="Feat" name="DÃ¡diva Ã‰pica (Monge 19)" level="19" />
 		</rules>
 	</element>
 
-	<element name="Nível 20: Corpo e Mente" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_BODY_AND_MIND">
+	<element name="NÃ­vel 20: Corpo e Mente" type="Class Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_BODY_AND_MIND">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_BODY_AND_MIND</requirements>
 		<description>
-			<p>Você desenvolveu seu corpo e mente para novas alturas. Seus valores de Destreza e Sabedoria aumentam em 4, até um máximo de 25.</p>
+			<p>VocÃª desenvolveu seu corpo e mente para novas alturas. Seus valores de Destreza e Sabedoria aumentam em 4, atÃ© um mÃ¡ximo de 25.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

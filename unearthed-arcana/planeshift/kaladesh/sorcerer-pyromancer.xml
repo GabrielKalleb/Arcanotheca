@@ -5,7 +5,7 @@
 		<description>Pyromancer archetype from Planeshift: Kaladesh.</description>
 		<author url="https://media.wizards.com/2017/downloads/magic/Plane-Shift_Kaladesh.pdf">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="sorcerer-pyromancer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/planeshift/sorcerer-pyromancer.xml" />
+			<file name="sorcerer-pyromancer.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/planeshift/sorcerer-pyromancer.xml" />
 		</update>
 	</info>
 
@@ -48,7 +48,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
 		</rules>
 	</element>
-	<element name="Pyromancer’s Fury" type="Archetype Feature" source="Plane Shift: Kaladesh" id="ID_WOTC_PSK_ARCHETYPE_FEATURE_PYROMANCER_PYROMANCERS_FURY">
+	<element name="Pyromancerâ€™s Fury" type="Archetype Feature" source="Plane Shift: Kaladesh" id="ID_WOTC_PSK_ARCHETYPE_FEATURE_PYROMANCER_PYROMANCERS_FURY">
 		<description>
 			<p>Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal fire damage to the attacker. The damage equals your sorcerer level, and ignores resistance to fire damage.</p>
 		</description>

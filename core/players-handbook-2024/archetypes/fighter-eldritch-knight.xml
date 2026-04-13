@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Cavaleiro Místico</name>
-		<description>A subclasse Cavaleiro Místico do Livro do Jogador 2024.</description>
+		<name>Cavaleiro MÃ­stico</name>
+		<description>A subclasse Cavaleiro MÃ­stico do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="fighter-eldritch-knight.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/fighter-eldritch-knight.xml" />
+			<file name="fighter-eldritch-knight.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/archetypes/fighter-eldritch-knight.xml" />
 		</update>
 	</info>
 
-	<element name="Cavaleiro Místico" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_ELDRITCH_KNIGHT">
+	<element name="Cavaleiro MÃ­stico" type="Archetype" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_ELDRITCH_KNIGHT">
 		<supports>Fighter Subclass</supports>
 		<description>
 			<p class="flavor">Apoie Habilidades de Combate com Magia Arcana</p>
-			<p>Os Cavaleiros Místicos combinam a maestria marcial comum a todos os Guerreiros com um estudo cuidadoso da magia. Suas magias complementam e estendem suas habilidades de combate, fornecendo proteção adicional para reforçar sua armadura e permitindo que enfrentem muitos inimigos ao mesmo tempo com magia explosiva.</p>
+			<p>Os Cavaleiros MÃ­sticos combinam a maestria marcial comum a todos os Guerreiros com um estudo cuidadoso da magia. Suas magias complementam e estendem suas habilidades de combate, fornecendo proteÃ§Ã£o adicional para reforÃ§ar sua armadura e permitindo que enfrentem muitos inimigos ao mesmo tempo com magia explosiva.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING"/>
-			<h5>CONJURAÇÃO DO CAVALEIRO MÍSTICO</h5>
+			<h5>CONJURAÃ‡ÃƒO DO CAVALEIRO MÃSTICO</h5>
 			<table class="class-features">
 				<tr style="font-weight: bold">
-					<td rowspan="2">Nível de Guerreiro</td>
+					<td rowspan="2">NÃ­vel de Guerreiro</td>
 					<td rowspan="2">Magias Preparadas</td>
-					<td colspan="4" style="vertical-align:bottom; border-bottom: 0px">Espaços de Magia por Nível de Magia</td>
+					<td colspan="4" style="vertical-align:bottom; border-bottom: 0px">EspaÃ§os de Magia por NÃ­vel de Magia</td>
 				</tr>
 				<tr style="font-weight: bold"><td>1</td><td>2</td><td>3</td><td>4</td></tr>
-				<tr><td> 3</td><td> 3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7</td><td> 5</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td> 8</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td> 9</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>10</td><td> 7</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>11</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>12</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>13</td><td> 9</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>14</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>15</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>16</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
-				<tr><td>17</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
-				<tr><td>18</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td> 3</td><td> 3</td><td>2</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 4</td><td> 4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 5</td><td> 4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 6</td><td> 4</td><td>3</td><td>â€”</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 7</td><td> 5</td><td>4</td><td>2</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 8</td><td> 6</td><td>4</td><td>2</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td> 9</td><td> 6</td><td>4</td><td>2</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>10</td><td> 7</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>11</td><td> 8</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>12</td><td> 8</td><td>4</td><td>3</td><td>â€”</td><td>â€”</td></tr>
+				<tr><td>13</td><td> 9</td><td>4</td><td>3</td><td>2</td><td>â€”</td></tr>
+				<tr><td>14</td><td>10</td><td>4</td><td>3</td><td>2</td><td>â€”</td></tr>
+				<tr><td>15</td><td>10</td><td>4</td><td>3</td><td>2</td><td>â€”</td></tr>
+				<tr><td>16</td><td>11</td><td>4</td><td>3</td><td>3</td><td>â€”</td></tr>
+				<tr><td>17</td><td>11</td><td>4</td><td>3</td><td>3</td><td>â€”</td></tr>
+				<tr><td>18</td><td>11</td><td>4</td><td>3</td><td>3</td><td>â€”</td></tr>
 				<tr><td>19</td><td>12</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
 				<tr><td>20</td><td>13</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
 			</table>
@@ -59,25 +59,25 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Conjuração" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING">
+	<element name="NÃ­vel 3: ConjuraÃ§Ã£o" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING</requirements>
 		<description>
-			<p>Você aprendeu a conjurar magias.</p>
-			<p class="indent"><strong><em>Truques.</em></strong> Você conhece dois truques de sua escolha da lista de magias de Mago. <i>Raio de Gelo</i> e <i>Toque Chocante</i> são recomendados. Sempre que você ganha um nível de Guerreiro, você pode substituir um desses truques por outro truque de sua escolha da lista de magias de Mago.</p>
-			<p class="indent">Quando você atinge o nível 10 de Guerreiro, você aprende outro truque de Mago de sua escolha.</p>
-			<p class="indent"><strong><em>Espaços de Magia.</em></strong> A tabela Conjuração do Cavaleiro Místico mostra quantos espaços de magia você tem para conjurar suas magias de nível 1+. Você recupera todos os espaços gastos quando termina um Descanso Longo.</p>
-			<p class="indent"><strong><em>Magias Preparadas de Nível 1+.</em></strong> Você prepara a lista de magias de nível 1+ que estão disponíveis para você conjurar com esta característica. Para começar, escolha três magias de nível 1 da lista de magias de Mago. <i>Mãos Flamejantes</i>, <i>Salto</i> e <i>Escudo Arcano</i> são recomendadas.</p>
-			<p class="indent">O número de magias em sua lista aumenta conforme você ganha níveis de Guerreiro, conforme mostrado na coluna Magias Preparadas da tabela Conjuração do Cavaleiro Místico. Sempre que esse número aumentar, escolha magias adicionais da lista de magias de Mago até que o número de magias em sua lista corresponda ao número na tabela. As magias escolhidas devem ser de um nível para o qual você tenha espaços de magia. Por exemplo, se você for um Guerreiro de nível 7, sua lista de magias preparadas pode incluir cinco magias de Mago de níveis 1 e 2 em qualquer combinação.</p>
-			<p class="indent"><strong><em>Alterando suas Magias Preparadas.</em></strong> Sempre que você ganha um nível de Guerreiro, você pode substituir uma magia em sua lista por outra magia de Mago para a qual você tenha espaços de magia.</p>
-			<p class="indent"><strong><em>Habilidade de Conjuração.</em></strong> Inteligência é a sua habilidade de conjuração para as suas magias de Mago.</p>
-			<p class="indent"><strong><em>Foco de Conjuração.</em></strong> Você pode usar um Foco Arcano como um Foco de Conjuração para as suas magias de Mago.</p>
+			<p>VocÃª aprendeu a conjurar magias.</p>
+			<p class="indent"><strong><em>Truques.</em></strong> VocÃª conhece dois truques de sua escolha da lista de magias de Mago. <i>Raio de Gelo</i> e <i>Toque Chocante</i> sÃ£o recomendados. Sempre que vocÃª ganha um nÃ­vel de Guerreiro, vocÃª pode substituir um desses truques por outro truque de sua escolha da lista de magias de Mago.</p>
+			<p class="indent">Quando vocÃª atinge o nÃ­vel 10 de Guerreiro, vocÃª aprende outro truque de Mago de sua escolha.</p>
+			<p class="indent"><strong><em>EspaÃ§os de Magia.</em></strong> A tabela ConjuraÃ§Ã£o do Cavaleiro MÃ­stico mostra quantos espaÃ§os de magia vocÃª tem para conjurar suas magias de nÃ­vel 1+. VocÃª recupera todos os espaÃ§os gastos quando termina um Descanso Longo.</p>
+			<p class="indent"><strong><em>Magias Preparadas de NÃ­vel 1+.</em></strong> VocÃª prepara a lista de magias de nÃ­vel 1+ que estÃ£o disponÃ­veis para vocÃª conjurar com esta caracterÃ­stica. Para comeÃ§ar, escolha trÃªs magias de nÃ­vel 1 da lista de magias de Mago. <i>MÃ£os Flamejantes</i>, <i>Salto</i> e <i>Escudo Arcano</i> sÃ£o recomendadas.</p>
+			<p class="indent">O nÃºmero de magias em sua lista aumenta conforme vocÃª ganha nÃ­veis de Guerreiro, conforme mostrado na coluna Magias Preparadas da tabela ConjuraÃ§Ã£o do Cavaleiro MÃ­stico. Sempre que esse nÃºmero aumentar, escolha magias adicionais da lista de magias de Mago atÃ© que o nÃºmero de magias em sua lista corresponda ao nÃºmero na tabela. As magias escolhidas devem ser de um nÃ­vel para o qual vocÃª tenha espaÃ§os de magia. Por exemplo, se vocÃª for um Guerreiro de nÃ­vel 7, sua lista de magias preparadas pode incluir cinco magias de Mago de nÃ­veis 1 e 2 em qualquer combinaÃ§Ã£o.</p>
+			<p class="indent"><strong><em>Alterando suas Magias Preparadas.</em></strong> Sempre que vocÃª ganha um nÃ­vel de Guerreiro, vocÃª pode substituir uma magia em sua lista por outra magia de Mago para a qual vocÃª tenha espaÃ§os de magia.</p>
+			<p class="indent"><strong><em>Habilidade de ConjuraÃ§Ã£o.</em></strong> InteligÃªncia Ã© a sua habilidade de conjuraÃ§Ã£o para as suas magias de Mago.</p>
+			<p class="indent"><strong><em>Foco de ConjuraÃ§Ã£o.</em></strong> VocÃª pode usar um Foco Arcano como um Foco de ConjuraÃ§Ã£o para as suas magias de Mago.</p>
 			<center>
-				<p><strong>CD de salvamento de Magia</strong> = 8 + seu bônus de proficiência + seu modificador de Inteligência</p>
-				<p><strong>Modificador de ataque de Magia</strong> = seu bônus de proficiência + seu modificador de Inteligência</p>
+				<p><strong>CD de salvamento de Magia</strong> = 8 + seu bÃ´nus de proficiÃªncia + seu modificador de InteligÃªncia</p>
+				<p><strong>Modificador de ataque de Magia</strong> = seu bÃ´nus de proficiÃªncia + seu modificador de InteligÃªncia</p>
 			</center>
 		</description>
-		<sheet alt="Conjuração">
-			<description>Você pode substituir uma de suas magias e/ou truques sempre que ganhar um nível de Guerreiro.</description>
+		<sheet alt="ConjuraÃ§Ã£o">
+			<description>VocÃª pode substituir uma de suas magias e/ou truques sempre que ganhar um nÃ­vel de Guerreiro.</description>
 		</sheet>
 		<spellcasting name="Eldritch Knight" ability="Intelligence" allowReplace="true">
 			<list>Wizard</list>
@@ -111,56 +111,56 @@
 		</rules>
 	</element>
 
-	<element name="Nível 3: Vínculo de Guerra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_WAR_BOND">
+	<element name="NÃ­vel 3: VÃ­nculo de Guerra" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_WAR_BOND">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_WAR_BOND</requirements>
 		<description>
-			<p>Você aprende um ritual que cria um vínculo mágico entre você e uma arma. Você realiza o ritual ao longo de 1 hora, o que pode ser feito durante um Descanso Curto. A arma deve estar ao seu alcance durante todo o ritual, no final do qual você toca a arma e forja o vínculo. O vínculo falha se outro Guerreiro estiver vinculado à arma ou se a arma for um item mágico ao qual outra pessoa já está sintonizada.</p>
-			<p class="indent">Depois de vincular uma arma a você, você não pode ser desarmado dessa arma a menos que tenha a condição Incapacitado. Se estiver no mesmo plano de existência, você pode invocar a arma como uma Ação Bônus, fazendo com que ela teletransporte instantaneamente para sua mão.</p>
-			<p class="indent">Você pode ter até duas armas vinculadas, mas só pode invocar uma de cada vez com uma Ação Bônus. Se tentar criar um vínculo com uma terceira arma, você deve quebrar o vínculo com uma das outras duas.</p>
+			<p>VocÃª aprende um ritual que cria um vÃ­nculo mÃ¡gico entre vocÃª e uma arma. VocÃª realiza o ritual ao longo de 1 hora, o que pode ser feito durante um Descanso Curto. A arma deve estar ao seu alcance durante todo o ritual, no final do qual vocÃª toca a arma e forja o vÃ­nculo. O vÃ­nculo falha se outro Guerreiro estiver vinculado Ã  arma ou se a arma for um item mÃ¡gico ao qual outra pessoa jÃ¡ estÃ¡ sintonizada.</p>
+			<p class="indent">Depois de vincular uma arma a vocÃª, vocÃª nÃ£o pode ser desarmado dessa arma a menos que tenha a condiÃ§Ã£o Incapacitado. Se estiver no mesmo plano de existÃªncia, vocÃª pode invocar a arma como uma AÃ§Ã£o BÃ´nus, fazendo com que ela teletransporte instantaneamente para sua mÃ£o.</p>
+			<p class="indent">VocÃª pode ter atÃ© duas armas vinculadas, mas sÃ³ pode invocar uma de cada vez com uma AÃ§Ã£o BÃ´nus. Se tentar criar um vÃ­nculo com uma terceira arma, vocÃª deve quebrar o vÃ­nculo com uma das outras duas.</p>
 		</description>
-		<sheet alt="Vínculo de Guerra">
-			<description>Você pode passar 1 hora para se vincular a uma arma. A arma deve estar ao seu alcance durante todo o ritual. Você pode estar vinculado a apenas 2 armas de cada vez. O vínculo falha se outro Guerreiro estiver vinculado à arma ou se a arma for um item mágico sintonizado a outra pessoa. &#13;
-			Você pode invocar uma de suas armas vinculadas para sua mão com uma Ação Bônus. Enquanto estiver segurando uma arma vinculada, você não pode ser desarmado dessa arma, a menos que tenha a condição Incapacitado.</description>
+		<sheet alt="VÃ­nculo de Guerra">
+			<description>VocÃª pode passar 1 hora para se vincular a uma arma. A arma deve estar ao seu alcance durante todo o ritual. VocÃª pode estar vinculado a apenas 2 armas de cada vez. O vÃ­nculo falha se outro Guerreiro estiver vinculado Ã  arma ou se a arma for um item mÃ¡gico sintonizado a outra pessoa. &#13;
+			VocÃª pode invocar uma de suas armas vinculadas para sua mÃ£o com uma AÃ§Ã£o BÃ´nus. Enquanto estiver segurando uma arma vinculada, vocÃª nÃ£o pode ser desarmado dessa arma, a menos que tenha a condiÃ§Ã£o Incapacitado.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 7: Magia de Guerra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_WAR_MAGIC">
+	<element name="NÃ­vel 7: Magia de Guerra" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_WAR_MAGIC">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_WAR_MAGIC</requirements>
 		<description>
-			<p>Quando você realiza a ação de Ataque no seu turno, você pode substituir um dos ataques pela conjuração de um de seus truques de Mago que tenha o tempo de conjuração de uma ação.</p>
+			<p>Quando vocÃª realiza a aÃ§Ã£o de Ataque no seu turno, vocÃª pode substituir um dos ataques pela conjuraÃ§Ã£o de um de seus truques de Mago que tenha o tempo de conjuraÃ§Ã£o de uma aÃ§Ã£o.</p>
 		</description>
 		<sheet alt="Magia de Guerra" action="Ataque">
-			<description>Você pode substituir um de seus ataques por um truque de Mago que tenha o tempo de conjuração de uma ação.</description>
+			<description>VocÃª pode substituir um de seus ataques por um truque de Mago que tenha o tempo de conjuraÃ§Ã£o de uma aÃ§Ã£o.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 10: Ataque Místico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_ELDRITCH_STRIKE">
+	<element name="NÃ­vel 10: Ataque MÃ­stico" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_ELDRITCH_STRIKE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_ELDRITCH_STRIKE</requirements>
 		<description>
-			<p>Você aprende a fazer com que seus golpes de arma enfraqueçam a capacidade de uma criatura de resistir às suas magias. Quando você atinge uma criatura com um ataque usando uma arma, essa criatura tem Desvantagem no próximo teste de resistência que ela fizer contra uma magia conjurada por você antes do fim do seu próximo turno.</p>
+			<p>VocÃª aprende a fazer com que seus golpes de arma enfraqueÃ§am a capacidade de uma criatura de resistir Ã s suas magias. Quando vocÃª atinge uma criatura com um ataque usando uma arma, essa criatura tem Desvantagem no prÃ³ximo teste de resistÃªncia que ela fizer contra uma magia conjurada por vocÃª antes do fim do seu prÃ³ximo turno.</p>
 		</description>
-		<sheet alt="Ataque Místico">
-			<description>Quando você atinge uma criatura com uma arma, essa criatura tem Desvantagem no próximo teste de resistência que ela fizer contra uma magia conjurada por você antes do fim do seu próximo turno.</description>
+		<sheet alt="Ataque MÃ­stico">
+			<description>Quando vocÃª atinge uma criatura com uma arma, essa criatura tem Desvantagem no prÃ³ximo teste de resistÃªncia que ela fizer contra uma magia conjurada por vocÃª antes do fim do seu prÃ³ximo turno.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 15: Investida Arcana" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_ARCANE_CHARGE">
+	<element name="NÃ­vel 15: Investida Arcana" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_ARCANE_CHARGE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_ARCANE_CHARGE</requirements>
 		<description>
-			<p>Quando você usa seu Surto de Ação, você pode se teletransportar até 9 metros (30 pés) para um espaço desocupado que possa ver. Você pode se teletransportar antes ou depois da ação adicional.</p>
+			<p>Quando vocÃª usa seu Surto de AÃ§Ã£o, vocÃª pode se teletransportar atÃ© 9 metros (30 pÃ©s) para um espaÃ§o desocupado que possa ver. VocÃª pode se teletransportar antes ou depois da aÃ§Ã£o adicional.</p>
 		</description>
-		<sheet alt="Investida Arcana" action="Surto de Ação">
-			<description>Você pode se teletransportar até 9 metros para um espaço desocupado que possa ver. Você pode fazer isso antes ou depois da ação adicional.</description>
+		<sheet alt="Investida Arcana" action="Surto de AÃ§Ã£o">
+			<description>VocÃª pode se teletransportar atÃ© 9 metros para um espaÃ§o desocupado que possa ver. VocÃª pode fazer isso antes ou depois da aÃ§Ã£o adicional.</description>
 		</sheet>
 	</element>
 
-	<element name="Nível 18: Magia de Guerra Aprimorada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC">
+	<element name="NÃ­vel 18: Magia de Guerra Aprimorada" type="Archetype Feature" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC</requirements>
 		<description>
-			<p>Quando você realiza a ação de Ataque no seu turno, você pode substituir dois dos ataques pela conjuração de uma de suas magias de Mago de nível 1 ou nível 2 que tenha o tempo de conjuração de uma ação.</p>
+			<p>Quando vocÃª realiza a aÃ§Ã£o de Ataque no seu turno, vocÃª pode substituir dois dos ataques pela conjuraÃ§Ã£o de uma de suas magias de Mago de nÃ­vel 1 ou nÃ­vel 2 que tenha o tempo de conjuraÃ§Ã£o de uma aÃ§Ã£o.</p>
 		</description>
 		<sheet alt="Magia de Guerra Aprimorada" action="Ataque">
-			<description>Você pode substituir dois de seus ataques por uma magia de Mago de nível 1 ou 2 que tenha o tempo de conjuração de uma ação.</description>
+			<description>VocÃª pode substituir dois de seus ataques por uma magia de Mago de nÃ­vel 1 ou 2 que tenha o tempo de conjuraÃ§Ã£o de uma aÃ§Ã£o.</description>
 		</sheet>
 	</element>
 

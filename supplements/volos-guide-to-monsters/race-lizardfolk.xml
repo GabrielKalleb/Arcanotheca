@@ -5,10 +5,10 @@
 		<description></description>
 		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
 		<update version="0.1.6">
-			<file name="race-lizardfolk.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/volos-guide-to-monsters/race-lizardfolk.xml" />
+			<file name="race-lizardfolk.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/volos-guide-to-monsters/race-lizardfolk.xml" />
 		</update>
 	</info>
-	<element name="Lizardfolk" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_LIZARDFOLK">
+	<element name="Lizardfolk" type="Race" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACE_LIZARDFOLK">
 		<description>
 			<p class="flavor">Only a fool looks at the lizardfolk and sees nothing more than scaly humanoids. Their physical shape notwithstanding, lizardfolk have more in common with iguanas or dragons than they do with humans, dwarves, or elves. Lizardfolk possess an alien and inscrutable mindset, their desires and thoughts driven by a different set of basic principles than those of warm-blooded creatures. Their dismal swamp homes might lie hundreds of miles from the nearest human settlement, but the gap between their way of thinking and that of the smooth-skins is far greater.</p>
 			<p class="indent flavor">Despite their alien outlook, some lizardfolk make an effort to understand and, in their own manner, befriend people of other races. Such lizardfolk make faithful and skilled allies.</p>
@@ -94,7 +94,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNGRY_JAWS" />
 		</rules>
 	</element>
-	<element name="Bite" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_BITE">
+	<element name="Bite" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_BITE">
 		<description>
 			<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
 		</description>
@@ -105,7 +105,7 @@
 			<stat name="lizardfolk bite:damage" value="strength:modifier" />
 		</rules>
 	</element>
-	<element name="Cunning Artisan" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_CUNNING_ARTISAN">
+	<element name="Cunning Artisan" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_CUNNING_ARTISAN">
 		<description>
 			<p>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.</p>
 		</description>
@@ -113,7 +113,7 @@
 			<description>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature.</description>
 		</sheet>
 	</element>
-	<element name="Hold Breath" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HOLD_BREATH">
+	<element name="Hold Breath" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HOLD_BREATH">
 		<description>
 			<p>You can hold your breath for up to 15 minutes at a time.</p>
 		</description>
@@ -121,7 +121,7 @@
 			<description>You can hold your breath for up to 15 minutes at a time.</description>
 		</sheet>
 	</element>
-	<element name="Hunter's Lore" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNTERS_LORE">
+	<element name="Hunter's Lore" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNTERS_LORE">
 		<description>
 			<p>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</p>
 		</description>
@@ -133,7 +133,7 @@
 			<select type="Proficiency" name="Customized Skill Proficiency, Hunter's Lore" number="2" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
-	<element name="Natural Armor" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_NATURAL_ARMOR">
+	<element name="Natural Armor" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_NATURAL_ARMOR">
 		<description>
 			<p>You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
 		</description>
@@ -148,7 +148,7 @@
 			<stat name="ac:calculation" value="ac:natural armor lizardfolk" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Lizardfolk)" />
 		</rules>
 	</element>
-	<element name="Hungry Jaws" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNGRY_JAWS">
+	<element name="Hungry Jaws" type="Racial Trait" source="Voloâ€™s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNGRY_JAWS">
 		<description>
 			<p>In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.</p>
 		</description>

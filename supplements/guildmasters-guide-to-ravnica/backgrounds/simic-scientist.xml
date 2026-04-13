@@ -3,19 +3,19 @@
 	<info>
 		<name>Simic Scientist</name>
 		<description></description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters’ Guide to Ravnica</author>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmastersâ€™ Guide to Ravnica</author>
 		<update version="0.0.5">
-			<file name="simic-scientist.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/guildmasters-guide-to-ravnica/backgrounds/simic-scientist.xml" />
+			<file name="simic-scientist.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/guildmasters-guide-to-ravnica/backgrounds/simic-scientist.xml" />
 		</update>
 	</info>
     
-	<element name="Simic Scientist" type="Background" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_SIMIC_SCIENTIST">
+	<element name="Simic Scientist" type="Background" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_SIMIC_SCIENTIST">
 		<description>
-			<p>Imagine a perfect world: one in which nature and civilization exist in harmony, adapted to each other; one in which life is shaped to match its environment and the environment is shaped to match life. That’s the world you have been trying to grow in the laboratories of the Simic Combine. Nature is all about adaptation, evolution, and balance- but for it to keep up with the pace of advancing civil ization, nature needs some help from biomancers and ter raformers. If, along the way, you happen to create super-soldiers and mutant monsters that can bolster the combine’s defenses against the schemes and ambitions of the other guilds, so much the better.</p>
+			<p>Imagine a perfect world: one in which nature and civilization exist in harmony, adapted to each other; one in which life is shaped to match its environment and the environment is shaped to match life. Thatâ€™s the world you have been trying to grow in the laboratories of the Simic Combine. Nature is all about adaptation, evolution, and balance- but for it to keep up with the pace of advancing civil ization, nature needs some help from biomancers and ter raformers. If, along the way, you happen to create super-soldiers and mutant monsters that can bolster the combineâ€™s defenses against the schemes and ambitions of the other guilds, so much the better.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Arcana, Medicine</li>
 				<li><strong>Languages:</strong> Two of your choice</li>
-				<li><strong>Equipment:</strong> A Simic insignia, a set of commoner’s clothes, a book of research notes, an ink pen, a bottle of squid ink, a flask of oil (made from blubber), a vial of acid (derived from digestive juices), a vial of fish scales, a vial of seaweed, a vial of jellyfish stingers, a glass bottle of unidentified slime, and a belt pouch containing 10 gp (Azorius 1-zino coins)</li>
+				<li><strong>Equipment:</strong> A Simic insignia, a set of commonerâ€™s clothes, a book of research notes, an ink pen, a bottle of squid ink, a flask of oil (made from blubber), a vial of acid (derived from digestive juices), a vial of fish scales, a vial of seaweed, a vial of jellyfish stingers, a glass bottle of unidentified slime, and a belt pouch containing 10 gp (Azorius 1-zino coins)</li>
 			</ul>
 			<h4>CLADES AND PROJECTS</h4>
 			<p>As a Simic researcher, you are part of a clade-a diverse group of individuals combining disparate talents in pursuit of a common goal- or a researcher on a specialized, short-term project focused on addressing an immediate need. You can roll a d6 or choose from the options in the Research Options table to determine your area of research.</p>
@@ -34,7 +34,7 @@
 			<div element="ID_WOTC_GGTR_BACKGROUND_FEATURE_SIMIC_SCIENTIST_RESEARCHER" />
 			<div element="ID_WOTC_GGTR_BACKGROUND_FEATURE_SIMIC_SCIENTIST_SIMIC_GUILD_SPELLS" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>
-			<p>The bizarre science of the Simic Combine attracts a certain type of personality and encompasses a set of beliefs about the nature of life. Simic members’ bonds and flaws derive from their scientific research-including their creation of new life forms, which they can become very attached to.</p>
+			<p>The bizarre science of the Simic Combine attracts a certain type of personality and encompasses a set of beliefs about the nature of life. Simic membersâ€™ bonds and flaws derive from their scientific research-including their creation of new life forms, which they can become very attached to.</p>
 		</description>
 		<setters>
 			<set name="short">Arcana, Medicine, 2 Languages</set>
@@ -47,13 +47,13 @@
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<grant type="Background Feature" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_SIMIC_SCIENTIST_SIMIC_GUILD_SPELLS" />
 			<select name="Personality Trait" type="List" number="2">
-				<item id="1">I can’t wait to see what I become next!</item>
+				<item id="1">I canâ€™t wait to see what I become next!</item>
 				<item id="2">I am convinced that everything inclines toward constant improvement.</item>
-				<item id="3">I’m eager to explain every detail of my most intricate experiments and theories to anyone who shows the least bit of interest.</item>
+				<item id="3">Iâ€™m eager to explain every detail of my most intricate experiments and theories to anyone who shows the least bit of interest.</item>
 				<item id="4">I assume that everyone needs even the most basic concepts explained to them.</item>
 				<item id="5">I describe everything that happens as if it were going into my research notes (and it often is).</item>
 				<item id="6">I am insatiably curious about the seemingly infinite forms and adaptations of life.</item>
-				<item id="7">I can’t resist prying into anything forbidden, since it must be terribly interesting.</item>
+				<item id="7">I canâ€™t resist prying into anything forbidden, since it must be terribly interesting.</item>
 				<item id="8">I employ a highly technical vocabulary to avoid imprecision and ambiguity in my communication.</item>
 			</select>
 			<select name="Ideal" type="List">
@@ -61,11 +61,11 @@
 				<item id="2">Change. All life is meant to progress toward perfection, and our work is to hurry it along-no matter what must be upended along the way. (Chaotic)</item>
 				<item id="3">Knowledge. Understanding the world is more important than what you do with your knowledge. (Neutral)</item>
 				<item id="4">Greater Good. I want to reshape the world into higher forms of life so that all can enjoy evolution. (Good)</item>
-				<item id="5">Logic. It’s foolish to let emotions and principles interfere with the conclusions of logic. (Lawful)</item>
+				<item id="5">Logic. Itâ€™s foolish to let emotions and principles interfere with the conclusions of logic. (Lawful)</item>
 				<item id="6">Superiority. My vast intellect and strength are directed toward increasing my sway over others. (Evil)</item>
 			</select>
 			<select name="Bond" type="List">
-				<item id="1">I helped create a kras is that I love like a pet and would carry with me everywhere... except it’s the size of a building, and it might eat me.</item>
+				<item id="1">I helped create a kras is that I love like a pet and would carry with me everywhere... except itâ€™s the size of a building, and it might eat me.</item>
 				<item id="2">In my laboratory, I discovered something that I think could eliminate half the life on Ravnica.</item>
 				<item id="3">The other researchers in my clade are my family-a big, eccentric family including members and parts of many species.</item>
 				<item id="4">The laboratory where I did my research contains everything that is precious to me.</item>
@@ -74,25 +74,25 @@
 			</select>
 			<select name="Flaw" type="List">
 				<item id="1">I have a rather embarrassing mutation that I do everything I can to keep hidden.</item>
-				<item id="2">I’m more interested in taking notes on monstrous anatomy than in lighting monsters.</item>
-				<item id="3">Every social situation I’m in seems to lead to my asking rude personal questions.</item>
-				<item id="4">I’m supremely confident in my ability to adapt to any situation and handle any danger.</item>
-				<item id="5">I’ll take any risk to earn recognition for my scientific brilliance.</item>
+				<item id="2">Iâ€™m more interested in taking notes on monstrous anatomy than in lighting monsters.</item>
+				<item id="3">Every social situation Iâ€™m in seems to lead to my asking rude personal questions.</item>
+				<item id="4">Iâ€™m supremely confident in my ability to adapt to any situation and handle any danger.</item>
+				<item id="5">Iâ€™ll take any risk to earn recognition for my scientific brilliance.</item>
 				<item id="6">I have a tendency to take shortcuts in my research and any other tasks I have to complete.</item>
 			</select>
 		</rules>
 	</element>
-	<element name="Feature: Researcher" type="Background Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_SIMIC_SCIENTIST_RESEARCHER">
+	<element name="Feature: Researcher" type="Background Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_SIMIC_SCIENTIST_RESEARCHER">
 		<supports>Background Feature</supports>
 		<description>
-			<p>When you attempt to learn or recall a magical or scientific fact, if you don’t know that information, you know where and from whom you can obtain it. Usually, this in formation comes from a Simic laboratory, or sometimes from an Izzet facility, a library, a university, or an independent scholar or other learned person or creature. Knowing where the information can be found doesn’t automatically enable you to learn it; you might need to offer bribes, favors, or other incentives to induce people to reveal their secrets.</p>
-			<p class="indent">Your DM might rule that the knowledge you seek is secreted away in an inaccessible place, or that it simply can’t be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign.</p>
+			<p>When you attempt to learn or recall a magical or scientific fact, if you donâ€™t know that information, you know where and from whom you can obtain it. Usually, this in formation comes from a Simic laboratory, or sometimes from an Izzet facility, a library, a university, or an independent scholar or other learned person or creature. Knowing where the information can be found doesnâ€™t automatically enable you to learn it; you might need to offer bribes, favors, or other incentives to induce people to reveal their secrets.</p>
+			<p class="indent">Your DM might rule that the knowledge you seek is secreted away in an inaccessible place, or that it simply canâ€™t be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign.</p>
 		</description>
 		<sheet alt="Researcher">
-			<description>When you attempt to learn or recall a magical or scientific fact, if you don’t know that information, you know where and from whom you can obtain it. Usually, this in formation comes from a Simic laboratory, or sometimes from an Izzet facility, a library, a university, or an independent scholar or other learned person or creature. Knowing where the information can be found doesn’t automatically enable you to learn it; you might need to offer bribes, favors, or other incentives to induce people to reveal their secrets.</description>
+			<description>When you attempt to learn or recall a magical or scientific fact, if you donâ€™t know that information, you know where and from whom you can obtain it. Usually, this in formation comes from a Simic laboratory, or sometimes from an Izzet facility, a library, a university, or an independent scholar or other learned person or creature. Knowing where the information can be found doesnâ€™t automatically enable you to learn it; you might need to offer bribes, favors, or other incentives to induce people to reveal their secrets.</description>
 		</sheet>
 	</element>
-	<element name="Simic Guild Spells" type="Background Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_SIMIC_SCIENTIST_SIMIC_GUILD_SPELLS">
+	<element name="Simic Guild Spells" type="Background Feature" source="Guildmastersâ€™ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_SIMIC_SCIENTIST_SIMIC_GUILD_SPELLS">
 		<supports>2nd Background Feature</supports>
 		<description>
 			<p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>

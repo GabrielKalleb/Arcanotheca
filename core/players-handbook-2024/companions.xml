@@ -5,28 +5,28 @@
 		<description>Companheiros do Livro do Jogador 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="companions.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/companions.xml" />
+			<file name="companions.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/core/players-handbook-2024/companions.xml" />
 		</update>
 	</info>
 
-	<element name="Texugo" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_BADGER">
+	<element name="Texugo" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_BADGER">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">11</set>
 			<set name="hp">5 (1d4 + 3)</set>
-			<set name="speed">6 m (20 pés), Escavação 1,5 m (5 pés)</set>
+			<set name="speed">6 m (20 pÃ©s), EscavaÃ§Ã£o 1,5 m (5 pÃ©s)</set>
 			<set name="strength">10</set>
 			<set name="dexterity">11</set>
 			<set name="constitution">16</set>
 			<set name="intelligence">2</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">5</set>
-			<set name="skills">Percepção +3</set>
+			<set name="skills">PercepÃ§Ã£o +3</set>
 			<set name="resistances">Venenoso</set>
-			<set name="senses">Visão no Escuro 9 m (30 pés); Percepção Passiva 13</set>
+			<set name="senses">VisÃ£o no Escuro 9 m (30 pÃ©s); PercepÃ§Ã£o Passiva 13</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -40,32 +40,32 @@
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Mordida" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_BADGER_BITE">
+	<element name="Mordida" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_BADGER_BITE">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pés). Acerto: 1 de dano Perfurante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Perfurante.</description>
 		</sheet>
 	</element>
 
-	<element name="Morcego" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_BAT">
+	<element name="Morcego" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_BAT">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">12</set>
 			<set name="hp">1 (1d4 - 1)</set>
-			<set name="speed">1,5 m (5 pés), Voo 9 m (30 pés)</set>
+			<set name="speed">1,5 m (5 pÃ©s), Voo 9 m (30 pÃ©s)</set>
 			<set name="strength">2</set>
 			<set name="dexterity">15</set>
 			<set name="constitution">8</set>
 			<set name="intelligence">2</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">4</set>
-			<set name="senses">Sentido Cego 18 m (60 pés); Percepção Passiva 11</set>
+			<set name="senses">Sentido Cego 18 m (60 pÃ©s); PercepÃ§Ã£o Passiva 11</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -78,25 +78,25 @@
 			<stat name="companion:speed:fly" value="30" bonus="base" />
 		</rules>
 	</element>
-	<element name="Mordida" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_BAT_BITE">
+	<element name="Mordida" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_BAT_BITE">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pés). Acerto: 1 de dano Perfurante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Perfurante.</description>
 		</sheet>
 	</element>
 
-	<element name="Gato" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_CAT">
+	<element name="Gato" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_CAT">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">12</set>
 			<set name="hp">2 (1d4)</set>
-			<set name="speed">12 m (40 pés), Escalada 12 m (40 pés)</set>
+			<set name="speed">12 m (40 pÃ©s), Escalada 12 m (40 pÃ©s)</set>
 			<set name="strength">3</set>
 			<set name="dexterity">15</set>
 			<set name="constitution">10</set>
@@ -104,8 +104,8 @@
 			<set name="wisdom">12</set>
 			<set name="charisma">7</set>
 			<set name="saves">Des +4</set>
-			<set name="skills">Percepção +3, Furtividade +4</set>
-			<set name="senses">Visão no Escuro 18 m (60 pés); Percepção Passiva 13</set>
+			<set name="skills">PercepÃ§Ã£o +3, Furtividade +4</set>
+			<set name="senses">VisÃ£o no Escuro 18 m (60 pÃ©s); PercepÃ§Ã£o Passiva 13</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -121,34 +121,34 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Saltador" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_CAT_JUMPER">
+	<element name="Saltador" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_CAT_JUMPER">
 		<compendium display="false" />
 		<description>
-			<p>A distância de salto do gato é determinada usando sua Destreza em vez de sua Força.</p>
+			<p>A distÃ¢ncia de salto do gato Ã© determinada usando sua Destreza em vez de sua ForÃ§a.</p>
 		</description>
 		<sheet>
-			<description>A distância de salto do gato é determinada usando sua Destreza em vez de sua Força.</description>
+			<description>A distÃ¢ncia de salto do gato Ã© determinada usando sua Destreza em vez de sua ForÃ§a.</description>
 		</sheet>
 	</element>
-	<element name="Arranhão" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_CAT_SCRATCH">
+	<element name="ArranhÃ£o" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_CAT_SCRATCH">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Cortante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Cortante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pés). Acerto: 1 de dano Cortante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Cortante.</description>
 		</sheet>
 	</element>
 
-	<element name="Caranguejo" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_CRAB">
+	<element name="Caranguejo" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_CRAB">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">11</set>
 			<set name="hp">3 (1d4 + 1)</set>
-			<set name="speed">6 m (20 pés), Natação 6 m (20 pés)</set>
+			<set name="speed">6 m (20 pÃ©s), NataÃ§Ã£o 6 m (20 pÃ©s)</set>
 			<set name="strength">6</set>
 			<set name="dexterity">11</set>
 			<set name="constitution">12</set>
@@ -156,7 +156,7 @@
 			<set name="wisdom">8</set>
 			<set name="charisma">2</set>
 			<set name="skills">Furtividade +2</set>
-			<set name="senses">Sentido Cego 9 m (30 pés); Percepção Passiva 9</set>
+			<set name="senses">Sentido Cego 9 m (30 pÃ©s); PercepÃ§Ã£o Passiva 9</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -171,42 +171,42 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Anfíbio" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_CRAB_AMPHIBIOUS">
+	<element name="AnfÃ­bio" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_CRAB_AMPHIBIOUS">
 		<compendium display="false" />
 		<description>
-			<p>O caranguejo pode respirar ar e água.</p>
+			<p>O caranguejo pode respirar ar e Ã¡gua.</p>
 		</description>
 		<sheet>
-			<description>O caranguejo pode respirar ar e água.</description>
+			<description>O caranguejo pode respirar ar e Ã¡gua.</description>
 		</sheet>
 	</element>
-	<element name="Garra" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_CRAB_CLAW">
+	<element name="Garra" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_CRAB_CLAW">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Contundente.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Contundente.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pés). Acerto: 1 de dano Contundente.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Contundente.</description>
 		</sheet>
 	</element>
 
-	<element name="Sapo" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_FROG">
+	<element name="Sapo" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_FROG">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">11</set>
 			<set name="hp">1 (1d4 - 1)</set>
-			<set name="speed">6 m (20 pés), Natação 6 m (20 pés)</set>
+			<set name="speed">6 m (20 pÃ©s), NataÃ§Ã£o 6 m (20 pÃ©s)</set>
 			<set name="strength">1</set>
 			<set name="dexterity">13</set>
 			<set name="constitution">8</set>
 			<set name="intelligence">1</set>
 			<set name="wisdom">8</set>
 			<set name="charisma">3</set>
-			<set name="skills">Percepção +1, Furtividade +3</set>
-			<set name="senses">Visão no Escuro 9 m (30 pés); Percepção Passiva 11</set>
+			<set name="skills">PercepÃ§Ã£o +1, Furtividade +3</set>
+			<set name="senses">VisÃ£o no Escuro 9 m (30 pÃ©s); PercepÃ§Ã£o Passiva 11</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -222,43 +222,43 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Anfíbio" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_FROG_AMPHIBIOUS">
+	<element name="AnfÃ­bio" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_FROG_AMPHIBIOUS">
 		<compendium display="false" />
 		<description>
-			<p>O sapo pode respirar ar e água.</p>
+			<p>O sapo pode respirar ar e Ã¡gua.</p>
 		</description>
 		<sheet>
-			<description>O sapo pode respirar ar e água.</description>
+			<description>O sapo pode respirar ar e Ã¡gua.</description>
 		</sheet>
 	</element>
-	<element name="Salto Parado" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_FROG_STANDING_LEAP">
+	<element name="Salto Parado" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_FROG_STANDING_LEAP">
 		<compendium display="false" />
 		<description>
-			<p>O Salto em Distância do sapo é de até 3 metros (10 pés) e seu Salto em Altura é de até 1,5 metro (5 pés), com ou sem impulso.</p>
+			<p>O Salto em DistÃ¢ncia do sapo Ã© de atÃ© 3 metros (10 pÃ©s) e seu Salto em Altura Ã© de atÃ© 1,5 metro (5 pÃ©s), com ou sem impulso.</p>
 		</description>
 		<sheet>
-			<description>O Salto em Distância do sapo é de até 3 metros (10 pés) e seu Salto em Altura é de até 1,5 metro (5 pés), com ou sem impulso.</description>
+			<description>O Salto em DistÃ¢ncia do sapo Ã© de atÃ© 3 metros (10 pÃ©s) e seu Salto em Altura Ã© de atÃ© 1,5 metro (5 pÃ©s), com ou sem impulso.</description>
 		</sheet>
 	</element>
-	<element name="Mordida" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_FROG_BITE">
+	<element name="Mordida" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_FROG_BITE">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +3, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +3, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +3, alcance 1,5 m (5 pés). Acerto: 1 de dano Perfurante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +3, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Perfurante.</description>
 		</sheet>
 	</element>
 
-	<element name="Bode" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_GOAT">
+	<element name="Bode" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_GOAT">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Médio</set>
+			<set name="size">MÃ©dio</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">10</set>
 			<set name="hp">4 (1d8)</set>
-			<set name="speed">12 m (40 pés), Escalada 9 m (30 pés)</set>
+			<set name="speed">12 m (40 pÃ©s), Escalada 9 m (30 pÃ©s)</set>
 			<set name="strength">11</set>
 			<set name="dexterity">10</set>
 			<set name="constitution">11</set>
@@ -266,8 +266,8 @@
 			<set name="wisdom">10</set>
 			<set name="charisma">5</set>
 			<set name="saves">For +2</set>
-			<set name="skills">Percepção +2</set>
-			<set name="senses">Visão no Escuro 18 m (60 pés); Percepção Passiva 12</set>
+			<set name="skills">PercepÃ§Ã£o +2</set>
+			<set name="senses">VisÃ£o no Escuro 18 m (60 pÃ©s); PercepÃ§Ã£o Passiva 12</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -281,33 +281,33 @@
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Cabeçada" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_GOAT_RAM">
+	<element name="CabeÃ§ada" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_GOAT_RAM">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Contundente, ou o bode causa 2 (1d4) de dano Contundente se tiver se movido 6 metros (20 pés) ou mais em linha reta na direção do alvo imediatamente antes do acerto.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Contundente, ou o bode causa 2 (1d4) de dano Contundente se tiver se movido 6 metros (20 pÃ©s) ou mais em linha reta na direÃ§Ã£o do alvo imediatamente antes do acerto.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pés). Acerto: 1 de dano Contundente, ou o bode causa 2 (1d4) de dano Contundente se tiver se movido 6 metros (20 pés) ou mais em linha reta na direção do alvo imediatamente antes do acerto.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Contundente, ou o bode causa 2 (1d4) de dano Contundente se tiver se movido 6 metros (20 pÃ©s) ou mais em linha reta na direÃ§Ã£o do alvo imediatamente antes do acerto.</description>
 		</sheet>
 	</element>
 
-	<element name="Falcão" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_HAWK">
+	<element name="FalcÃ£o" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_HAWK">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">13</set>
 			<set name="hp">1 (1d4-1)</set>
-			<set name="speed">3 m (10 pés), Voo 18 m (60 pés)</set>
+			<set name="speed">3 m (10 pÃ©s), Voo 18 m (60 pÃ©s)</set>
 			<set name="strength">5</set>
 			<set name="dexterity">16</set>
 			<set name="constitution">8</set>
 			<set name="intelligence">2</set>
 			<set name="wisdom">14</set>
 			<set name="charisma">6</set>
-			<set name="skills">Percepção +6</set>
-			<set name="senses">Percepção Passiva 16</set>
+			<set name="skills">PercepÃ§Ã£o +6</set>
+			<set name="senses">PercepÃ§Ã£o Passiva 16</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -322,32 +322,32 @@
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="double" />
 		</rules>
 	</element>
-	<element name="Garras" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_HAWK_TALONS">
+	<element name="Garras" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_HAWK_TALONS">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Cortante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Cortante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pés). Acerto: 1 de dano Cortante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Cortante.</description>
 		</sheet>
 	</element>
 
-	<element name="Lagarto" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_LIZARD">
+	<element name="Lagarto" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_LIZARD">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">10</set>
 			<set name="hp">2 (1d4)</set>
-			<set name="speed">6 m (20 pés), Escalada 6 m (20 pés)</set>
+			<set name="speed">6 m (20 pÃ©s), Escalada 6 m (20 pÃ©s)</set>
 			<set name="strength">2</set>
 			<set name="dexterity">11</set>
 			<set name="constitution">10</set>
 			<set name="intelligence">1</set>
 			<set name="wisdom">8</set>
 			<set name="charisma">3</set>
-			<set name="senses">Visão no Escuro 9 m (30 pés); Percepção Passiva 9</set>
+			<set name="senses">VisÃ£o no Escuro 9 m (30 pÃ©s); PercepÃ§Ã£o Passiva 9</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -361,42 +361,42 @@
 			<stat name="companion:speed:climb" value="20" bonus="base" />
 		</rules>
 	</element>
-	<element name="Patas de Aranha" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_LIZARD_SPIDER_CLIMB">
+	<element name="Patas de Aranha" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_LIZARD_SPIDER_CLIMB">
 		<compendium display="false" />
 		<description>
-			<p>O lagarto pode escalar superfícies difíceis, incluindo tetos, sem precisar fazer um teste de habilidade.</p>
+			<p>O lagarto pode escalar superfÃ­cies difÃ­ceis, incluindo tetos, sem precisar fazer um teste de habilidade.</p>
 		</description>
 		<sheet>
-			<description>O lagarto pode escalar superfícies difíceis, incluindo tetos, sem precisar fazer um teste de habilidade.</description>
+			<description>O lagarto pode escalar superfÃ­cies difÃ­ceis, incluindo tetos, sem precisar fazer um teste de habilidade.</description>
 		</sheet>
 	</element>
-	<element name="Mordida" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_LIZARD_BITE">
+	<element name="Mordida" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_LIZARD_BITE">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pés). Acerto: 1 de dano Perfurante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Perfurante.</description>
 		</sheet>
 	</element>
 
-	<element name="Polvo" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_OCTOPUS">
+	<element name="Polvo" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_OCTOPUS">
 		<supports>Familiar</supports>
 		<setters>
 			<set name="size">Pequeno</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">12</set>
 			<set name="hp">3 (1d6)</set>
-			<set name="speed">1,5 m (5 pés), Natação 9 m (30 pés)</set>
+			<set name="speed">1,5 m (5 pÃ©s), NataÃ§Ã£o 9 m (30 pÃ©s)</set>
 			<set name="strength">4</set>
 			<set name="dexterity">15</set>
 			<set name="constitution">11</set>
 			<set name="intelligence">3</set>
 			<set name="wisdom">10</set>
 			<set name="charisma">4</set>
-			<set name="skills">Percepção +2, Furtividade +6</set>
-			<set name="senses">Visão no Escuro 9 m (30 pés); Percepção Passiva 12</set>
+			<set name="skills">PercepÃ§Ã£o +2, Furtividade +6</set>
+			<set name="senses">VisÃ£o no Escuro 9 m (30 pÃ©s); PercepÃ§Ã£o Passiva 12</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -414,60 +414,60 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="double" />
 		</rules>
 	</element>
-	<element name="Compressão" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_OCTOPUS_COMPRESSION">
+	<element name="CompressÃ£o" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_OCTOPUS_COMPRESSION">
 		<compendium display="false" />
 		<description>
-			<p>O polvo pode passar por um espaço tão estreito quanto 2,5 cm (1 polegada) sem gastar deslocamento adicional para isso.</p>
+			<p>O polvo pode passar por um espaÃ§o tÃ£o estreito quanto 2,5 cm (1 polegada) sem gastar deslocamento adicional para isso.</p>
 		</description>
 		<sheet>
-			<description>O polvo pode passar por um espaço tão estreito quanto 2,5 cm (1 polegada) sem gastar deslocamento adicional para isso.</description>
+			<description>O polvo pode passar por um espaÃ§o tÃ£o estreito quanto 2,5 cm (1 polegada) sem gastar deslocamento adicional para isso.</description>
 		</sheet>
 	</element>
-	<element name="Respiração Aquática" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_OCTOPUS_WATER_BREATHING">
+	<element name="RespiraÃ§Ã£o AquÃ¡tica" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_OCTOPUS_WATER_BREATHING">
 		<compendium display="false" />
 		<description>
-			<p>O polvo pode respirar apenas debaixo d'água.</p>
+			<p>O polvo pode respirar apenas debaixo d'Ã¡gua.</p>
 		</description>
 		<sheet>
-			<description>O polvo pode respirar apenas debaixo d'água.</description>
+			<description>O polvo pode respirar apenas debaixo d'Ã¡gua.</description>
 		</sheet>
 	</element>
-	<element name="Tentáculos" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_OCTOPUS_TENTACLES">
+	<element name="TentÃ¡culos" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_OCTOPUS_TENTACLES">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Contundente.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Contundente.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pés). Acerto: 1 de dano Contundente.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Contundente.</description>
 		</sheet>
 	</element>
-	<element name="Nuvem de Tinta (1/Dia)" type="Companion Reaction" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_REACTION_OCTOPUS_INK_CLOUD">
+	<element name="Nuvem de Tinta (1/Dia)" type="Companion Reaction" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_REACTION_OCTOPUS_INK_CLOUD">
 		<compendium display="false" />
 		<description>
-			<p><i>Gatilho:</i> Uma criatura termina seu turno a até 1,5 metro (5 pés) do polvo enquanto debaixo d'água. <i>Resposta:</i> O polvo libera uma tinta que preenche um Cubo de 1,5 metro (5 pés) centrado nele mesmo, e o polvo se move até o seu Deslocamento de Natação. O Cubo é Fortemente Obscurecido por 1 minuto ou até que uma forte correnteza ou efeito similar disperse a tinta.</p>
+			<p><i>Gatilho:</i> Uma criatura termina seu turno a atÃ© 1,5 metro (5 pÃ©s) do polvo enquanto debaixo d'Ã¡gua. <i>Resposta:</i> O polvo libera uma tinta que preenche um Cubo de 1,5 metro (5 pÃ©s) centrado nele mesmo, e o polvo se move atÃ© o seu Deslocamento de NataÃ§Ã£o. O Cubo Ã© Fortemente Obscurecido por 1 minuto ou atÃ© que uma forte correnteza ou efeito similar disperse a tinta.</p>
 		</description>
 		<sheet alt="Nuvem de Tinta" usage="1/Dia">
-			<description>Gatilho: Uma criatura termina seu turno a até 1,5 metro (5 pés) do polvo enquanto debaixo d'água. Resposta: O polvo libera uma tinta que preenche um Cubo de 1,5 metro (5 pés) centrado nele mesmo, e o polvo se move até o seu Deslocamento de Natação. O Cubo é Fortemente Obscurecido por 1 minuto ou até que uma forte correnteza ou efeito similar disperse a tinta.</description>
+			<description>Gatilho: Uma criatura termina seu turno a atÃ© 1,5 metro (5 pÃ©s) do polvo enquanto debaixo d'Ã¡gua. Resposta: O polvo libera uma tinta que preenche um Cubo de 1,5 metro (5 pÃ©s) centrado nele mesmo, e o polvo se move atÃ© o seu Deslocamento de NataÃ§Ã£o. O Cubo Ã© Fortemente Obscurecido por 1 minuto ou atÃ© que uma forte correnteza ou efeito similar disperse a tinta.</description>
 		</sheet>
 	</element>
 
-	<element name="Coruja" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_OWL">
+	<element name="Coruja" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_OWL">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">11</set>
 			<set name="hp">1 (1d4 - 1)</set>
-			<set name="speed">1,5 m (5 pés), Voo 18 m (60 pés)</set>
+			<set name="speed">1,5 m (5 pÃ©s), Voo 18 m (60 pÃ©s)</set>
 			<set name="strength">3</set>
 			<set name="dexterity">13</set>
 			<set name="constitution">8</set>
 			<set name="intelligence">2</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">7</set>
-			<set name="skills">Percepção +5, Furtividade +5</set>
-			<set name="senses">Visão no Escuro 36 m (120 pés); Percepção Passiva 15</set>
+			<set name="skills">PercepÃ§Ã£o +5, Furtividade +5</set>
+			<set name="senses">VisÃ£o no Escuro 36 m (120 pÃ©s); PercepÃ§Ã£o Passiva 15</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -485,42 +485,42 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="double" />
 		</rules>
 	</element>
-	<element name="Sobrevoo" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_OWL_FLYBY">
+	<element name="Sobrevoo" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_OWL_FLYBY">
 		<compendium display="false" />
 		<description>
-			<p>A coruja não provoca Ataques de Oportunidade quando voa para fora do alcance de um inimigo.</p>
+			<p>A coruja nÃ£o provoca Ataques de Oportunidade quando voa para fora do alcance de um inimigo.</p>
 		</description>
 		<sheet>
-			<description>A coruja não provoca Ataques de Oportunidade quando voa para fora do alcance de um inimigo.</description>
+			<description>A coruja nÃ£o provoca Ataques de Oportunidade quando voa para fora do alcance de um inimigo.</description>
 		</sheet>
 	</element>
-	<element name="Garras" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_OWL_TALONS">
+	<element name="Garras" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_OWL_TALONS">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +3, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Cortante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +3, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Cortante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +3, alcance 1,5 m (5 pés). Acerto: 1 de dano Cortante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +3, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Cortante.</description>
 		</sheet>
 	</element>
 
-	<element name="Rato" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_RAT">
+	<element name="Rato" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_RAT">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">10</set>
 			<set name="hp">1 (1d4 - 1)</set>
-			<set name="speed">6 m (20 pés), Escalada 6 m (20 pés)</set>
+			<set name="speed">6 m (20 pÃ©s), Escalada 6 m (20 pÃ©s)</set>
 			<set name="strength">2</set>
 			<set name="dexterity">11</set>
 			<set name="constitution">9</set>
 			<set name="intelligence">2</set>
 			<set name="wisdom">10</set>
 			<set name="charisma">4</set>
-			<set name="skills">Percepção +2</set>
-			<set name="senses">Visão no Escuro 9 m (30 pés); Percepção Passiva 12</set>
+			<set name="skills">PercepÃ§Ã£o +2</set>
+			<set name="senses">VisÃ£o no Escuro 9 m (30 pÃ©s); PercepÃ§Ã£o Passiva 12</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -535,42 +535,42 @@
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Ágil" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_RAT_AGILE">
+	<element name="Ãgil" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_RAT_AGILE">
 		<compendium display="false" />
 		<description>
-			<p>O rato não provoca Ataques de Oportunidade quando se move para fora do alcance de um inimigo.</p>
+			<p>O rato nÃ£o provoca Ataques de Oportunidade quando se move para fora do alcance de um inimigo.</p>
 		</description>
 		<sheet>
-			<description>O rato não provoca Ataques de Oportunidade quando se move para fora do alcance de um inimigo.</description>
+			<description>O rato nÃ£o provoca Ataques de Oportunidade quando se move para fora do alcance de um inimigo.</description>
 		</sheet>
 	</element>
-	<element name="Mordida" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_RAT_BITE">
+	<element name="Mordida" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_RAT_BITE">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pés). Acerto: 1 de dano Perfurante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Perfurante.</description>
 		</sheet>
 	</element>
 
-	<element name="Corvo" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_RAVEN">
+	<element name="Corvo" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_RAVEN">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">12</set>
 			<set name="hp">2 (1d4)</set>
-			<set name="speed">3 m (10 pés), Voo 15 m (50 pés)</set>
+			<set name="speed">3 m (10 pÃ©s), Voo 15 m (50 pÃ©s)</set>
 			<set name="strength">2</set>
 			<set name="dexterity">14</set>
 			<set name="constitution">10</set>
 			<set name="intelligence">5</set>
 			<set name="wisdom">13</set>
 			<set name="charisma">6</set>
-			<set name="skills">Percepção +3</set>
-			<set name="senses">Percepção Passiva 13</set>
+			<set name="skills">PercepÃ§Ã£o +3</set>
+			<set name="senses">PercepÃ§Ã£o Passiva 13</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -585,40 +585,40 @@
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Mimetismo" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_RAVEN_MIMICRY">
+	<element name="Mimetismo" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_RAVEN_MIMICRY">
 		<compendium display="false" />
 		<description>
-			<p>O corvo pode imitar sons simples que tenha ouvido, como um sussurro ou murmúrio. Um ouvinte pode discernir que os sons são imitações sendo bem-sucedido num teste de Sabedoria (Intuição) CD 10.</p>
+			<p>O corvo pode imitar sons simples que tenha ouvido, como um sussurro ou murmÃºrio. Um ouvinte pode discernir que os sons sÃ£o imitaÃ§Ãµes sendo bem-sucedido num teste de Sabedoria (IntuiÃ§Ã£o) CD 10.</p>
 		</description>
 		<sheet>
-			<description>O corvo pode imitar sons simples que tenha ouvido, como um sussurro ou murmúrio. Um ouvinte pode discernir que os sons são imitações sendo bem-sucedido num teste de Sabedoria (Intuição) CD 10.</description>
+			<description>O corvo pode imitar sons simples que tenha ouvido, como um sussurro ou murmÃºrio. Um ouvinte pode discernir que os sons sÃ£o imitaÃ§Ãµes sendo bem-sucedido num teste de Sabedoria (IntuiÃ§Ã£o) CD 10.</description>
 		</sheet>
 	</element>
-	<element name="Bico" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_RAVEN_BEAK">
+	<element name="Bico" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_RAVEN_BEAK">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pés). Acerto: 1 de dano Perfurante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Perfurante.</description>
 		</sheet>
 	</element>
 
-	<element name="Escorpião" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SCORPION">
+	<element name="EscorpiÃ£o" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SCORPION">
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">11</set>
 			<set name="hp">1 (1d4 - 1)</set>
-			<set name="speed">3 m (10 pés)</set>
+			<set name="speed">3 m (10 pÃ©s)</set>
 			<set name="strength">2</set>
 			<set name="dexterity">11</set>
 			<set name="constitution">8</set>
 			<set name="intelligence">1</set>
 			<set name="wisdom">8</set>
 			<set name="charisma">2</set>
-			<set name="senses">Sentido Cego 3 m (10 pés); Percepção Passiva 9</set>
+			<set name="senses">Sentido Cego 3 m (10 pÃ©s); PercepÃ§Ã£o Passiva 9</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -630,25 +630,25 @@
 			<stat name="companion:speed" value="10" bonus="base" />
 		</rules>
 	</element>
-	<element name="Ferrão" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SCORPION_STING">
+	<element name="FerrÃ£o" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SCORPION_STING">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Perfurante mais 3 (1d6) de dano Venenoso.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +2, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Perfurante mais 3 (1d6) de dano Venenoso.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pés). Acerto: 1 de dano Perfurante mais 3 (1d6) de dano Venenoso.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Perfurante mais 3 (1d6) de dano Venenoso.</description>
 		</sheet>
 	</element>
 
-	<element name="Aranha" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SPIDER">
+	<element name="Aranha" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SPIDER">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">12</set>
 			<set name="hp">1 (1d4 - 1)</set>
-			<set name="speed">6 m (20 pés), Escalada 6 m (20 pés)</set>
+			<set name="speed">6 m (20 pÃ©s), Escalada 6 m (20 pÃ©s)</set>
 			<set name="strength">2</set>
 			<set name="dexterity">14</set>
 			<set name="constitution">8</set>
@@ -656,7 +656,7 @@
 			<set name="wisdom">10</set>
 			<set name="charisma">2</set>
 			<set name="skills">Furtividade +4</set>
-			<set name="senses">Visão no Escuro 9 m (30 pés); Percepção Passiva 10</set>
+			<set name="senses">VisÃ£o no Escuro 9 m (30 pÃ©s); PercepÃ§Ã£o Passiva 10</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -671,51 +671,51 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Patas de Aranha" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_SPIDER_SPIDER_CLIMB">
+	<element name="Patas de Aranha" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_SPIDER_SPIDER_CLIMB">
 		<compendium display="false" />
 		<description>
-			<p>A aranha pode escalar superfícies difíceis, incluindo tetos, sem precisar fazer um teste de habilidade.</p>
+			<p>A aranha pode escalar superfÃ­cies difÃ­ceis, incluindo tetos, sem precisar fazer um teste de habilidade.</p>
 		</description>
 		<sheet>
-			<description>A aranha pode escalar superfícies difíceis, incluindo tetos, sem precisar fazer um teste de habilidade.</description>
+			<description>A aranha pode escalar superfÃ­cies difÃ­ceis, incluindo tetos, sem precisar fazer um teste de habilidade.</description>
 		</sheet>
 	</element>
-	<element name="Andarilho de Teias" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_SPIDER_WEB_WALKER">
+	<element name="Andarilho de Teias" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_SPIDER_WEB_WALKER">
 		<compendium display="false" />
 		<description>
-			<p>A aranha ignora restrições de movimento causadas por teias, e ela conhece a localização de qualquer outra criatura em contato com a mesma teia.</p>
+			<p>A aranha ignora restriÃ§Ãµes de movimento causadas por teias, e ela conhece a localizaÃ§Ã£o de qualquer outra criatura em contato com a mesma teia.</p>
 		</description>
 		<sheet>
-			<description>A aranha ignora restrições de movimento causadas por teias, e ela conhece a localização de qualquer outra criatura em contato com a mesma teia.</description>
+			<description>A aranha ignora restriÃ§Ãµes de movimento causadas por teias, e ela conhece a localizaÃ§Ã£o de qualquer outra criatura em contato com a mesma teia.</description>
 		</sheet>
 	</element>
-	<element name="Mordida" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPIDER_BITE">
+	<element name="Mordida" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPIDER_BITE">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Perfurante mais 2 (1d4) de dano Venenoso.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Perfurante mais 2 (1d4) de dano Venenoso.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pés). Acerto: 1 de dano Perfurante mais 2 (1d4) de dano Venenoso.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Perfurante mais 2 (1d4) de dano Venenoso.</description>
 		</sheet>
 	</element>
 
-	<element name="Doninha" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_WEASEL">
+	<element name="Doninha" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_WEASEL">
 		<supports>Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">13</set>
 			<set name="hp">1 (1d4 - 1)</set>
-			<set name="speed">9 m (30 pés), Escalada 9 m (30 pés)</set>
+			<set name="speed">9 m (30 pÃ©s), Escalada 9 m (30 pÃ©s)</set>
 			<set name="strength">3</set>
 			<set name="dexterity">16</set>
 			<set name="constitution">8</set>
 			<set name="intelligence">2</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">3</set>
-			<set name="skills">Acrobacia +5, Percepção +3, Furtividade +5</set>
-			<set name="senses">Visão no Escuro 18 m (60 pés); Percepção Passiva 13</set>
+			<set name="skills">Acrobacia +5, PercepÃ§Ã£o +3, Furtividade +5</set>
+			<set name="senses">VisÃ£o no Escuro 18 m (60 pÃ©s); PercepÃ§Ã£o Passiva 13</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">0</set>
 			<set name="proficiency">2</set>
@@ -731,36 +731,36 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Mordida" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_WEASEL_BITE">
+	<element name="Mordida" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_WEASEL_BITE">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pés). <i>Acerto:</i> 1 de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 1 de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pés). Acerto: 1 de dano Perfurante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pÃ©s). Acerto: 1 de dano Perfurante.</description>
 		</sheet>
 	</element>
 
-	<element name="Diabrete" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_IMP">
+	<element name="Diabrete" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_IMP">
 		<supports>Variant Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Corruptor (Diabo)</set>
 			<set name="alignment">Leal e Mau</set>
 			<set name="ac">13</set>
 			<set name="hp">21 (6d4 + 6)</set>
-			<set name="speed">6 m (20 pés), Voo 12 m (40 pés)</set>
+			<set name="speed">6 m (20 pÃ©s), Voo 12 m (40 pÃ©s)</set>
 			<set name="strength">6</set>
 			<set name="dexterity">17</set>
 			<set name="constitution">13</set>
 			<set name="intelligence">11</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">14</set>
-			<set name="skills">Enganação +4, Intuição +3, Furtividade +5</set>
-			<set name="resistances">Gélido</set>
-			<set name="immunities">Ígneo, Venenoso</set>
+			<set name="skills">EnganaÃ§Ã£o +4, IntuiÃ§Ã£o +3, Furtividade +5</set>
+			<set name="resistances">GÃ©lido</set>
+			<set name="immunities">Ãgneo, Venenoso</set>
 			<set name="conditionImmunities">Envenenado</set>
-			<set name="senses">Visão no Escuro 36 m / 120 pés (não é impedida por Escuridão mágica); Percepção Passiva 11</set>
+			<set name="senses">VisÃ£o no Escuro 36 m / 120 pÃ©s (nÃ£o Ã© impedida por EscuridÃ£o mÃ¡gica); PercepÃ§Ã£o Passiva 11</set>
 			<set name="languages">Comum, Infernal</set>
 			<set name="challenge">1</set>
 			<set name="proficiency">2</set>
@@ -777,64 +777,64 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Resistência à Magia" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_IMP_MAGIC_RESISTANCE">
+	<element name="ResistÃªncia Ã  Magia" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_IMP_MAGIC_RESISTANCE">
 		<compendium display="false" />
 		<description>
-			<p>O diabrete tem Vantagem em testes de resistência contra magias e outros efeitos mágicos.</p>
+			<p>O diabrete tem Vantagem em testes de resistÃªncia contra magias e outros efeitos mÃ¡gicos.</p>
 		</description>
 		<sheet>
-			<description>O diabrete tem Vantagem em testes de resistência contra magias e outros efeitos mágicos.</description>
+			<description>O diabrete tem Vantagem em testes de resistÃªncia contra magias e outros efeitos mÃ¡gicos.</description>
 		</sheet>
 	</element>
-	<element name="Ferrão" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_IMP_STING">
+	<element name="FerrÃ£o" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_IMP_STING">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pés). <i>Acerto:</i> 6 (1d6 + 3) de dano Perfurante mais 7 (2d6) de dano Venenoso.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 6 (1d6 + 3) de dano Perfurante mais 7 (2d6) de dano Venenoso.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pés). Acerto: 6 (1d6 + 3) de dano Perfurante mais 7 (2d6) de dano Venenoso.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pÃ©s). Acerto: 6 (1d6 + 3) de dano Perfurante mais 7 (2d6) de dano Venenoso.</description>
 		</sheet>
 	</element>
-	<element name="Invisibilidade" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_IMP_INVISIBILITY">
+	<element name="Invisibilidade" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_IMP_INVISIBILITY">
 		<compendium display="false" />
 		<description>
-			<p>O diabrete conjura <i>Invisibilidade</i> em si mesmo, sem exigir componentes materiais e usando Carisma como habilidade de conjuração.</p>
+			<p>O diabrete conjura <i>Invisibilidade</i> em si mesmo, sem exigir componentes materiais e usando Carisma como habilidade de conjuraÃ§Ã£o.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_SPELL_INVISIBILITY" />
 			</div>
 		</description>
 		<sheet>
-			<description>O diabrete conjura Invisibilidade em si mesmo, sem exigir componentes materiais e usando Carisma como habilidade de conjuração.</description>
+			<description>O diabrete conjura Invisibilidade em si mesmo, sem exigir componentes materiais e usando Carisma como habilidade de conjuraÃ§Ã£o.</description>
 		</sheet>
 	</element>
-	<element name="Metamorfose" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SHAPESHIFT">
+	<element name="Metamorfose" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SHAPESHIFT">
 		<compendium display="false" />
 		<description>
-			<p>O diabrete se metamorfoseia para se assemelhar a um rato (Deslocamento 6 m / 20 pés), um corvo (6 m / 20 pés, Voo 18 m / 60 pés) ou uma aranha (6 m / 20 pés, Escalada 6 m / 20 pés), ou retorna à sua forma verdadeira. Suas estatísticas são as mesmas em cada forma, exceto por seu Deslocamento. Qualquer equipamento que ele esteja vestindo ou carregando não é transformado.</p>
+			<p>O diabrete se metamorfoseia para se assemelhar a um rato (Deslocamento 6 m / 20 pÃ©s), um corvo (6 m / 20 pÃ©s, Voo 18 m / 60 pÃ©s) ou uma aranha (6 m / 20 pÃ©s, Escalada 6 m / 20 pÃ©s), ou retorna Ã  sua forma verdadeira. Suas estatÃ­sticas sÃ£o as mesmas em cada forma, exceto por seu Deslocamento. Qualquer equipamento que ele esteja vestindo ou carregando nÃ£o Ã© transformado.</p>
 		</description>
 		<sheet>
-			<description>O diabrete se metamorfoseia para se assemelhar a um rato (Deslocamento 6 m / 20 pés), um corvo (6 m / 20 pés, Voo 18 m / 60 pés) ou uma aranha (6 m / 20 pés, Escalada 6 m / 20 pés), ou retorna à sua forma verdadeira. Suas estatísticas são as mesmas em cada forma, exceto por seu Deslocamento. Qualquer equipamento que ele esteja vestindo ou carregando não é transformado.</description>
+			<description>O diabrete se metamorfoseia para se assemelhar a um rato (Deslocamento 6 m / 20 pÃ©s), um corvo (6 m / 20 pÃ©s, Voo 18 m / 60 pÃ©s) ou uma aranha (6 m / 20 pÃ©s, Escalada 6 m / 20 pÃ©s), ou retorna Ã  sua forma verdadeira. Suas estatÃ­sticas sÃ£o as mesmas em cada forma, exceto por seu Deslocamento. Qualquer equipamento que ele esteja vestindo ou carregando nÃ£o Ã© transformado.</description>
 		</sheet>
 	</element>
 
-	<element name="Pseudodragão" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_PSEUDODRAGON">
+	<element name="PseudodragÃ£o" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_PSEUDODRAGON">
 		<supports>Variant Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
-			<set name="type">Dragão</set>
+			<set name="size">MiÃºdo</set>
+			<set name="type">DragÃ£o</set>
 			<set name="alignment">Neutro e Bom</set>
 			<set name="ac">14</set>
 			<set name="hp">10 (3d4 + 3)</set>
-			<set name="speed">4,5 m (15 pés), Voo 18 m (60 pés)</set>
+			<set name="speed">4,5 m (15 pÃ©s), Voo 18 m (60 pÃ©s)</set>
 			<set name="strength">6</set>
 			<set name="dexterity">15</set>
 			<set name="constitution">13</set>
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">10</set>
-			<set name="skills">Percepção +5, Furtividade +4</set>
-			<set name="senses">Sentido Cego 3 m (10 pés), Visão no Escuro 18 m (60 pés); Percepção Passiva 15</set>
-			<set name="languages">Compreende Comum e Dracônico, mas não pode falar</set>
+			<set name="skills">PercepÃ§Ã£o +5, Furtividade +4</set>
+			<set name="senses">Sentido Cego 3 m (10 pÃ©s), VisÃ£o no Escuro 18 m (60 pÃ©s); PercepÃ§Ã£o Passiva 15</set>
+			<set name="languages">Compreende Comum e DracÃ´nico, mas nÃ£o pode falar</set>
 			<set name="challenge">1/4</set>
 			<set name="proficiency">2</set>
 			<set name="traits">ID_WOTC_MM25_COMPANION_TRAIT_PSEUDODRAGON_MAGIC_RESISTANCE</set>
@@ -850,52 +850,52 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Resistência à Magia" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_PSEUDODRAGON_MAGIC_RESISTANCE">
+	<element name="ResistÃªncia Ã  Magia" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_PSEUDODRAGON_MAGIC_RESISTANCE">
 		<compendium display="false" />
 		<description>
-			<p>O pseudodragão tem Vantagem em testes de resistência contra magias e outros efeitos mágicos.</p>
+			<p>O pseudodragÃ£o tem Vantagem em testes de resistÃªncia contra magias e outros efeitos mÃ¡gicos.</p>
 		</description>
 		<sheet>
-			<description>O pseudodragão tem Vantagem em testes de resistência contra magias e outros efeitos mágicos.</description>
+			<description>O pseudodragÃ£o tem Vantagem em testes de resistÃªncia contra magias e outros efeitos mÃ¡gicos.</description>
 		</sheet>
 	</element>
-	<element name="Ataques Múltiplos" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_PSEUDODRAGON_MULTIATTACK">
+	<element name="Ataques MÃºltiplos" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_PSEUDODRAGON_MULTIATTACK">
 		<compendium display="false" />
 		<description>
-			<p>O pseudodragão faz dois ataques de Mordida.</p>
+			<p>O pseudodragÃ£o faz dois ataques de Mordida.</p>
 		</description>
 		<sheet>
-			<description>O pseudodragão faz dois ataques de Mordida.</description>
+			<description>O pseudodragÃ£o faz dois ataques de Mordida.</description>
 		</sheet>
 	</element>
-	<element name="Mordida" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_PSEUDODRAGON_BITE">
+	<element name="Mordida" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_PSEUDODRAGON_BITE">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pés). <i>Acerto:</i> 4 (1d4 + 2) de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 4 (1d4 + 2) de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pés). Acerto: 4 (1d4 + 2) de dano Perfurante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pÃ©s). Acerto: 4 (1d4 + 2) de dano Perfurante.</description>
 		</sheet>
 	</element>
-	<element name="Ferrão" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_PSEUDODRAGON_STING">
+	<element name="FerrÃ£o" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_PSEUDODRAGON_STING">
 		<compendium display="false" />
 		<description>
-			<p><i>Teste de Resistência de Constituição:</i> CD 12, uma criatura que o pseudodragão possa ver a até 1,5 metro (5 pés). <i>Falha:</i> 5 (2d4) de dano Venenoso, e o alvo adquire a condição Envenenado por 1 hora. <i>Falha por 5 ou Mais:</i> O alvo Envenenado também adquire a condição Inconsciente até sofrer dano ou até que uma criatura a até 1,5 metro (5 pés) dele use uma ação para chacoalhá-lo e acordá-lo.</p>
+			<p><i>Teste de ResistÃªncia de ConstituiÃ§Ã£o:</i> CD 12, uma criatura que o pseudodragÃ£o possa ver a atÃ© 1,5 metro (5 pÃ©s). <i>Falha:</i> 5 (2d4) de dano Venenoso, e o alvo adquire a condiÃ§Ã£o Envenenado por 1 hora. <i>Falha por 5 ou Mais:</i> O alvo Envenenado tambÃ©m adquire a condiÃ§Ã£o Inconsciente atÃ© sofrer dano ou atÃ© que uma criatura a atÃ© 1,5 metro (5 pÃ©s) dele use uma aÃ§Ã£o para chacoalhÃ¡-lo e acordÃ¡-lo.</p>
 		</description>
 		<sheet>
-			<description>Teste de Resistência de Constituição: CD 12, uma criatura que o pseudodragão possa ver a até 1,5 metro (5 pés). Falha: 5 (2d4) de dano Venenoso, e o alvo adquire a condição Envenenado por 1 hora. Falha por 5 ou Mais: O alvo Envenenado também adquire a condição Inconsciente até sofrer dano ou até que uma criatura a até 1,5 metro (5 pés) dele use uma ação para chacoalhá-lo e acordá-lo.</description>
+			<description>Teste de ResistÃªncia de ConstituiÃ§Ã£o: CD 12, uma criatura que o pseudodragÃ£o possa ver a atÃ© 1,5 metro (5 pÃ©s). Falha: 5 (2d4) de dano Venenoso, e o alvo adquire a condiÃ§Ã£o Envenenado por 1 hora. Falha por 5 ou Mais: O alvo Envenenado tambÃ©m adquire a condiÃ§Ã£o Inconsciente atÃ© sofrer dano ou atÃ© que uma criatura a atÃ© 1,5 metro (5 pÃ©s) dele use uma aÃ§Ã£o para chacoalhÃ¡-lo e acordÃ¡-lo.</description>
 		</sheet>
 	</element>
 
-	<element name="Quasit" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_QUASIT">
+	<element name="Quasit" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_QUASIT">
 		<supports>Variant Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
-			<set name="type">Corruptor (Demônio)</set>
-			<set name="alignment">Caótico e Mau</set>
+			<set name="size">MiÃºdo</set>
+			<set name="type">Corruptor (DemÃ´nio)</set>
+			<set name="alignment">CaÃ³tico e Mau</set>
 			<set name="ac">13</set>
 			<set name="hp">25 (10d4)</set>
-			<set name="speed">12 m (40 pés)</set>
+			<set name="speed">12 m (40 pÃ©s)</set>
 			<set name="strength">5</set>
 			<set name="dexterity">17</set>
 			<set name="constitution">10</set>
@@ -903,10 +903,10 @@
 			<set name="wisdom">10</set>
 			<set name="charisma">10</set>
 			<set name="skills">Furtividade +5</set>
-			<set name="resistances">Ácido, Gélido, Ígneo, Elétrico, Trovejante</set>
+			<set name="resistances">Ãcido, GÃ©lido, Ãgneo, ElÃ©trico, Trovejante</set>
 			<set name="immunities">Venenoso</set>
 			<set name="conditionImmunities">Envenenado</set>
-			<set name="senses">Visão no Escuro 36 m (120 pés); Percepção Passiva 10</set>
+			<set name="senses">VisÃ£o no Escuro 36 m (120 pÃ©s); PercepÃ§Ã£o Passiva 10</set>
 			<set name="languages">Abissal, Comum</set>
 			<set name="challenge">1</set>
 			<set name="proficiency">2</set>
@@ -920,64 +920,64 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Resistência à Magia" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_QUASIT_MAGIC_RESISTANCE">
+	<element name="ResistÃªncia Ã  Magia" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_QUASIT_MAGIC_RESISTANCE">
 		<compendium display="false" />
 		<description>
-			<p>O quasit tem Vantagem em testes de resistência contra magias e outros efeitos mágicos.</p>
+			<p>O quasit tem Vantagem em testes de resistÃªncia contra magias e outros efeitos mÃ¡gicos.</p>
 		</description>
 		<sheet>
-			<description>O quasit tem Vantagem em testes de resistência contra magias e outros efeitos mágicos.</description>
+			<description>O quasit tem Vantagem em testes de resistÃªncia contra magias e outros efeitos mÃ¡gicos.</description>
 		</sheet>
 	</element>
-	<element name="Dilacerar" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_QUASIT_REND">
+	<element name="Dilacerar" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_QUASIT_REND">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pés). <i>Acerto:</i> 5 (1d4 + 3) de dano Cortante, e o alvo adquire a condição Envenenado até o início do próximo turno do quasit.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 5 (1d4 + 3) de dano Cortante, e o alvo adquire a condiÃ§Ã£o Envenenado atÃ© o inÃ­cio do prÃ³ximo turno do quasit.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pés). Acerto: 5 (1d4 + 3) de dano Cortante, e o alvo adquire a condição Envenenado até o início do próximo turno do quasit.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pÃ©s). Acerto: 5 (1d4 + 3) de dano Cortante, e o alvo adquire a condiÃ§Ã£o Envenenado atÃ© o inÃ­cio do prÃ³ximo turno do quasit.</description>
 		</sheet>
 	</element>
-	<element name="Invisibilidade" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_QUASIT_INVISIBILITY">
+	<element name="Invisibilidade" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_QUASIT_INVISIBILITY">
 		<compendium display="false" />
 		<description>
-			<p>O quasit conjura <i>Invisibilidade</i> em si mesmo, sem exigir componentes materiais e usando Carisma como habilidade de conjuração.</p>
+			<p>O quasit conjura <i>Invisibilidade</i> em si mesmo, sem exigir componentes materiais e usando Carisma como habilidade de conjuraÃ§Ã£o.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_SPELL_INVISIBILITY" />
 			</div>
 		</description>
 		<sheet>
-			<description>O quasit conjura Invisibilidade em si mesmo, sem exigir componentes materiais e usando Carisma como habilidade de conjuração.</description>
+			<description>O quasit conjura Invisibilidade em si mesmo, sem exigir componentes materiais e usando Carisma como habilidade de conjuraÃ§Ã£o.</description>
 		</sheet>
 	</element>
-	<element name="Assustar (1/Dia)" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_QUASIT_SCARE">
+	<element name="Assustar (1/Dia)" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_QUASIT_SCARE">
 		<compendium display="false" />
 		<description>
-			<p><i>Teste de Resistência de Sabedoria:</i> CD 10, uma criatura a até 6 metros (20 pés). <i>Falha:</i> O alvo adquire a condição Amedrontado. No final de cada um de seus turnos, o alvo repete o teste, encerrando o efeito sobre si mesmo em um sucesso. Após 1 minuto, ele é bem-sucedido automaticamente.</p>
+			<p><i>Teste de ResistÃªncia de Sabedoria:</i> CD 10, uma criatura a atÃ© 6 metros (20 pÃ©s). <i>Falha:</i> O alvo adquire a condiÃ§Ã£o Amedrontado. No final de cada um de seus turnos, o alvo repete o teste, encerrando o efeito sobre si mesmo em um sucesso. ApÃ³s 1 minuto, ele Ã© bem-sucedido automaticamente.</p>
 		</description>
 		<sheet alt="Assustar" usage="1/Dia">
-			<description>Teste de Resistência de Sabedoria: CD 10, uma criatura a até 6 metros (20 pés). Falha: O alvo adquire a condição Amedrontado. No final de cada um de seus turnos, o alvo repete o teste, encerrando o efeito sobre si mesmo em um sucesso. Após 1 minuto, ele é bem-sucedido automaticamente.</description>
+			<description>Teste de ResistÃªncia de Sabedoria: CD 10, uma criatura a atÃ© 6 metros (20 pÃ©s). Falha: O alvo adquire a condiÃ§Ã£o Amedrontado. No final de cada um de seus turnos, o alvo repete o teste, encerrando o efeito sobre si mesmo em um sucesso. ApÃ³s 1 minuto, ele Ã© bem-sucedido automaticamente.</description>
 		</sheet>
 	</element>
-	<element name="Metamorfose" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_QUASIT_SHAPESHIFT">
+	<element name="Metamorfose" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_QUASIT_SHAPESHIFT">
 		<compendium display="false" />
 		<description>
-			<p>O quasit se metamorfoseia para se assemelhar a um morcego (Deslocamento 3 m / 10 pés, Voo 12 m / 40 pés), uma centopeia (12 m / 40 pés, Escalada 12 m / 40 pés) ou um sapo (12 m / 40 pés, Natação 12 m / 40 pés), ou retorna à sua forma verdadeira. Suas estatísticas são as mesmas em cada forma, exceto por seu Deslocamento. Qualquer equipamento que ele esteja vestindo ou carregando não é transformado.</p>
+			<p>O quasit se metamorfoseia para se assemelhar a um morcego (Deslocamento 3 m / 10 pÃ©s, Voo 12 m / 40 pÃ©s), uma centopeia (12 m / 40 pÃ©s, Escalada 12 m / 40 pÃ©s) ou um sapo (12 m / 40 pÃ©s, NataÃ§Ã£o 12 m / 40 pÃ©s), ou retorna Ã  sua forma verdadeira. Suas estatÃ­sticas sÃ£o as mesmas em cada forma, exceto por seu Deslocamento. Qualquer equipamento que ele esteja vestindo ou carregando nÃ£o Ã© transformado.</p>
 		</description>
 		<sheet>
-			<description>O quasit se metamorfoseia para se assemelhar a um morcego (Deslocamento 3 m / 10 pés, Voo 12 m / 40 pés), uma centopeia (12 m / 40 pés, Escalada 12 m / 40 pés) ou um sapo (12 m / 40 pés, Natação 12 m / 40 pés), ou retorna à sua forma verdadeira. Suas estatísticas são as mesmas em cada forma, exceto por seu Deslocamento. Qualquer equipamento que ele esteja vestindo ou carregando não é transformado.</description>
+			<description>O quasit se metamorfoseia para se assemelhar a um morcego (Deslocamento 3 m / 10 pÃ©s, Voo 12 m / 40 pÃ©s), uma centopeia (12 m / 40 pÃ©s, Escalada 12 m / 40 pÃ©s) ou um sapo (12 m / 40 pÃ©s, NataÃ§Ã£o 12 m / 40 pÃ©s), ou retorna Ã  sua forma verdadeira. Suas estatÃ­sticas sÃ£o as mesmas em cada forma, exceto por seu Deslocamento. Qualquer equipamento que ele esteja vestindo ou carregando nÃ£o Ã© transformado.</description>
 		</sheet>
 	</element>
 
-	<element name="Esqueleto" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SKELETON">
+	<element name="Esqueleto" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SKELETON">
 		<supports>Variant Familiar</supports>
 		<setters>
-			<set name="size">Médio</set>
+			<set name="size">MÃ©dio</set>
 			<set name="type">Morto-vivo</set>
 			<set name="alignment">Leal e Mau</set>
 			<set name="ac">14</set>
 			<set name="hp">13 (2d8 + 4)</set>
-			<set name="speed">9 m (30 pés)</set>
+			<set name="speed">9 m (30 pÃ©s)</set>
 			<set name="strength">10</set>
 			<set name="dexterity">16</set>
 			<set name="constitution">15</set>
@@ -986,9 +986,9 @@
 			<set name="charisma">5</set>
 			<set name="vulnerabilities">Contundente</set>
 			<set name="immunities">Venenoso</set>
-			<set name="conditionImmunities">Exaustão, Envenenado</set>
-			<set name="senses">Visão no Escuro 18 m (60 pés); Percepção Passiva 9</set>
-			<set name="languages">Compreende Comum mais um outro idioma, mas não pode falar</set>
+			<set name="conditionImmunities">ExaustÃ£o, Envenenado</set>
+			<set name="senses">VisÃ£o no Escuro 18 m (60 pÃ©s); PercepÃ§Ã£o Passiva 9</set>
+			<set name="languages">Compreende Comum mais um outro idioma, mas nÃ£o pode falar</set>
 			<set name="challenge">1/4</set>
 			<set name="actions">ID_WOTC_MM25_COMPANION_ACTION_SKELETON_SHORTSWORD,ID_WOTC_MM25_COMPANION_ACTION_SKELETON_SHORTBOW</set>
 		</setters>
@@ -998,34 +998,34 @@
 			<stat name="companion:speed" value="30" bonus="base" />
 		</rules>
 	</element>
-	<element name="Espada Curta" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SKELETON_SHORTSWORD">
+	<element name="Espada Curta" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SKELETON_SHORTSWORD">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pés). <i>Acerto:</i> 6 (1d6 + 3) de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 6 (1d6 + 3) de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pés). Acerto: 6 (1d6 + 3) de dano Perfurante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pÃ©s). Acerto: 6 (1d6 + 3) de dano Perfurante.</description>
 		</sheet>
 	</element>
-	<element name="Arco Curto" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SKELETON_SHORTBOW">
+	<element name="Arco Curto" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SKELETON_SHORTBOW">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque à Distância:</i> +5, distância 24/96 m (80/320 pés). <i>Acerto:</i> 6 (1d6 + 3) de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Ã  DistÃ¢ncia:</i> +5, distÃ¢ncia 24/96 m (80/320 pÃ©s). <i>Acerto:</i> 6 (1d6 + 3) de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque à Distância: +5, distância 24/96 m (80/320 pés). Acerto: 6 (1d6 + 3) de dano Perfurante.</description>
+			<description>Jogada de Ataque Ã  DistÃ¢ncia: +5, distÃ¢ncia 24/96 m (80/320 pÃ©s). Acerto: 6 (1d6 + 3) de dano Perfurante.</description>
 		</sheet>
 	</element>
 
-	<element name="Girino de Slaad" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SLAAD_TADPOLE">
+	<element name="Girino de Slaad" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SLAAD_TADPOLE">
 		<supports>Variant Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
-			<set name="type">Aberração</set>
-			<set name="alignment">Caótico e Neutro</set>
+			<set name="size">MiÃºdo</set>
+			<set name="type">AberraÃ§Ã£o</set>
+			<set name="alignment">CaÃ³tico e Neutro</set>
 			<set name="ac">12</set>
 			<set name="hp">7 (3d4)</set>
-			<set name="speed">9 m (30 pés), Escavação 3 m (10 pés)</set>
+			<set name="speed">9 m (30 pÃ©s), EscavaÃ§Ã£o 3 m (10 pÃ©s)</set>
 			<set name="strength">7</set>
 			<set name="dexterity">15</set>
 			<set name="constitution">10</set>
@@ -1033,9 +1033,9 @@
 			<set name="wisdom">5</set>
 			<set name="charisma">3</set>
 			<set name="skills">Furtividade +4</set>
-			<set name="resistances">Ácido, Gélido, Ígneo, Elétrico, Trovejante</set>
-			<set name="senses">Visão no Escuro 18 m (60 pés); Percepção Passiva 7</set>
-			<set name="languages">Compreende Slaad, mas não pode falar</set>
+			<set name="resistances">Ãcido, GÃ©lido, Ãgneo, ElÃ©trico, Trovejante</set>
+			<set name="senses">VisÃ£o no Escuro 18 m (60 pÃ©s); PercepÃ§Ã£o Passiva 7</set>
+			<set name="languages">Compreende Slaad, mas nÃ£o pode falar</set>
 			<set name="challenge">1/8</set>
 			<set name="proficiency">2</set>
 			<set name="traits">ID_WOTC_MM25_COMPANION_TRAIT_SLAAD_TADPOLE_MAGIC_RESISTANCE</set>
@@ -1049,43 +1049,43 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Resistência à Magia" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_SLAAD_TADPOLE_MAGIC_RESISTANCE">
+	<element name="ResistÃªncia Ã  Magia" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_SLAAD_TADPOLE_MAGIC_RESISTANCE">
 		<compendium display="false" />
 		<description>
-			<p>O slaad tem Vantagem em testes de resistência contra magias e outros efeitos mágicos.</p>
+			<p>O slaad tem Vantagem em testes de resistÃªncia contra magias e outros efeitos mÃ¡gicos.</p>
 		</description>
 		<sheet>
-			<description>O slaad tem Vantagem em testes de resistência contra magias e outros efeitos mágicos.</description>
+			<description>O slaad tem Vantagem em testes de resistÃªncia contra magias e outros efeitos mÃ¡gicos.</description>
 		</sheet>
 	</element>
-	<element name="Mordida" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SLAAD_TADPOLE_BITE">
+	<element name="Mordida" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SLAAD_TADPOLE_BITE">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pés). <i>Acerto:</i> 5 (1d6 + 2) de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 5 (1d6 + 2) de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pés). Acerto: 5 (1d6 + 2) de dano Perfurante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pÃ©s). Acerto: 5 (1d6 + 2) de dano Perfurante.</description>
 		</sheet>
 	</element>
 
-	<element name="Esfinge das Maravilhas" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SPHINX_OF_WONDER">
+	<element name="Esfinge das Maravilhas" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SPHINX_OF_WONDER">
 		<supports>Variant Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Celestial</set>
 			<set name="alignment">Leal e Bom</set>
 			<set name="ac">13</set>
 			<set name="hp">24 (7d4 + 7)</set>
-			<set name="speed">6 m (20 pés), Voo 12 m (40 pés)</set>
+			<set name="speed">6 m (20 pÃ©s), Voo 12 m (40 pÃ©s)</set>
 			<set name="strength">6</set>
 			<set name="dexterity">17</set>
 			<set name="constitution">13</set>
 			<set name="intelligence">15</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">11</set>
-			<set name="skills">Arcanismo +4, Religião +4, Furtividade +5</set>
-			<set name="resistances">Necrótico, Psíquico, Radiante</set>
-			<set name="senses">Visão no Escuro 18 m (60 pés); Percepção Passiva 11</set>
+			<set name="skills">Arcanismo +4, ReligiÃ£o +4, Furtividade +5</set>
+			<set name="resistances">NecrÃ³tico, PsÃ­quico, Radiante</set>
+			<set name="senses">VisÃ£o no Escuro 18 m (60 pÃ©s); PercepÃ§Ã£o Passiva 11</set>
 			<set name="languages">Celestial, Comum</set>
 			<set name="challenge">1</set>
 			<set name="proficiency">2</set>
@@ -1103,52 +1103,52 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Resistência à Magia" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_SPHINX_OF_WONDER_MAGIC_RESISTANCE">
+	<element name="ResistÃªncia Ã  Magia" type="Companion Trait" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_TRAIT_SPHINX_OF_WONDER_MAGIC_RESISTANCE">
 		<compendium display="false" />
 		<description>
-			<p>A esfinge tem Vantagem em testes de resistência contra magias e outros efeitos mágicos.</p>
+			<p>A esfinge tem Vantagem em testes de resistÃªncia contra magias e outros efeitos mÃ¡gicos.</p>
 		</description>
 		<sheet>
-			<description>A esfinge tem Vantagem em testes de resistência contra magias e outros efeitos mágicos.</description>
+			<description>A esfinge tem Vantagem em testes de resistÃªncia contra magias e outros efeitos mÃ¡gicos.</description>
 		</sheet>
 	</element>
-	<element name="Dilacerar" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPHINX_OF_WONDER_REND">
+	<element name="Dilacerar" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPHINX_OF_WONDER_REND">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pés). <i>Acerto:</i> 5 (1d4 + 3) de dano Cortante mais 7 (2d6) de dano Radiante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +5, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 5 (1d4 + 3) de dano Cortante mais 7 (2d6) de dano Radiante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pés). Acerto: 5 (1d4 + 3) de dano Cortante mais 7 (2d6) de dano Radiante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m (5 pÃ©s). Acerto: 5 (1d4 + 3) de dano Cortante mais 7 (2d6) de dano Radiante.</description>
 		</sheet>
 	</element>
-	<element name="Explosão de Engenhosidade (2/Dia)" type="Companion Reaction" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_REACTION_SPHINX_OF_WONDER_BURST_OF_INGENUITY">
+	<element name="ExplosÃ£o de Engenhosidade (2/Dia)" type="Companion Reaction" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_REACTION_SPHINX_OF_WONDER_BURST_OF_INGENUITY">
 		<compendium display="false" />
 		<description>
-			<p><i>Gatilho:</i> A esfinge ou outra criatura a até 9 metros (30 pés) realiza um teste de habilidade ou teste de resistência. <i>Resposta:</i> A esfinge adiciona 2 à rolagem.</p>
+			<p><i>Gatilho:</i> A esfinge ou outra criatura a atÃ© 9 metros (30 pÃ©s) realiza um teste de habilidade ou teste de resistÃªncia. <i>Resposta:</i> A esfinge adiciona 2 Ã  rolagem.</p>
 		</description>
-		<sheet alt="Explosão de Engenhosidade" usage="2/Dia">
-			<description>Gatilho: A esfinge ou outra criatura a até 9 metros (30 pés) realiza um teste de habilidade ou teste de resistência. Resposta: A esfinge adiciona 2 à rolagem.</description>
+		<sheet alt="ExplosÃ£o de Engenhosidade" usage="2/Dia">
+			<description>Gatilho: A esfinge ou outra criatura a atÃ© 9 metros (30 pÃ©s) realiza um teste de habilidade ou teste de resistÃªncia. Resposta: A esfinge adiciona 2 Ã  rolagem.</description>
 		</sheet>
 	</element>
 
-	<element name="Sprite" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SPRITE">
+	<element name="Sprite" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_SPRITE">
 		<supports>Variant Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fada</set>
 			<set name="alignment">Neutro e Bom</set>
 			<set name="ac">15</set>
 			<set name="hp">10 (4d4)</set>
-			<set name="speed">3 m (10 pés), Voo 12 m (40 pés)</set>
+			<set name="speed">3 m (10 pÃ©s), Voo 12 m (40 pÃ©s)</set>
 			<set name="strength">3</set>
 			<set name="dexterity">18</set>
 			<set name="constitution">10</set>
 			<set name="intelligence">14</set>
 			<set name="wisdom">13</set>
 			<set name="charisma">11</set>
-			<set name="skills">Percepção +3, Furtividade +8</set>
-			<set name="senses">Percepção Passiva 13</set>
-			<set name="languages">Comum, Élfico, Silvestre</set>
+			<set name="skills">PercepÃ§Ã£o +3, Furtividade +8</set>
+			<set name="senses">PercepÃ§Ã£o Passiva 13</set>
+			<set name="languages">Comum, Ã‰lfico, Silvestre</set>
 			<set name="challenge">1/4</set>
 			<set name="proficiency">2</set>
 			<set name="actions">ID_WOTC_MM25_COMPANION_ACTION_SPRITE_NEEDLE_SWORD,ID_WOTC_MM25_COMPANION_ACTION_SPRITE_ENCHANTING_BOW,ID_WOTC_MM25_COMPANION_ACTION_SPRITE_HEART_SIGHT,ID_WOTC_MM25_COMPANION_ACTION_SPRITE_INVISIBILITY</set>
@@ -1163,62 +1163,62 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="double" />
 		</rules>
 	</element>
-	<element name="Espada de Agulha" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPRITE_NEEDLE_SWORD">
+	<element name="Espada de Agulha" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPRITE_NEEDLE_SWORD">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +6, alcance 1,5 m (5 pés). <i>Acerto:</i> 6 (1d4 + 4) de dano Perfurante.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +6, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 6 (1d4 + 4) de dano Perfurante.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +6, alcance 1,5 m (5 pés). Acerto: 6 (1d4 + 4) de dano Perfurante.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +6, alcance 1,5 m (5 pÃ©s). Acerto: 6 (1d4 + 4) de dano Perfurante.</description>
 		</sheet>
 	</element>
-	<element name="Arco Encantador" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPRITE_ENCHANTING_BOW">
+	<element name="Arco Encantador" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPRITE_ENCHANTING_BOW">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque à Distância:</i> +6, distância 12/48 m (40/160 pés). <i>Acerto:</i> 1 de dano Perfurante, e o alvo adquire a condição Enfeitiçado até o início do próximo turno da sprite.</p>
+			<p><i>Jogada de Ataque Ã  DistÃ¢ncia:</i> +6, distÃ¢ncia 12/48 m (40/160 pÃ©s). <i>Acerto:</i> 1 de dano Perfurante, e o alvo adquire a condiÃ§Ã£o EnfeitiÃ§ado atÃ© o inÃ­cio do prÃ³ximo turno da sprite.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque à Distância: +6, distância 12/48 m (40/160 pés). Acerto: 1 de dano Perfurante, e o alvo adquire a condição Enfeitiçado até o início do próximo turno da sprite.</description>
+			<description>Jogada de Ataque Ã  DistÃ¢ncia: +6, distÃ¢ncia 12/48 m (40/160 pÃ©s). Acerto: 1 de dano Perfurante, e o alvo adquire a condiÃ§Ã£o EnfeitiÃ§ado atÃ© o inÃ­cio do prÃ³ximo turno da sprite.</description>
 		</sheet>
 	</element>
-	<element name="Visão do Coração" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPRITE_HEART_SIGHT">
+	<element name="VisÃ£o do CoraÃ§Ã£o" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPRITE_HEART_SIGHT">
 		<compendium display="false" />
 		<description>
-			<p><i>Teste de Resistência de Carisma:</i> CD 10, uma criatura a até 1,5 metro (5 pés) que a sprite possa ver. Celestiais, Corruptores e Mortos-vivos falham automaticamente no teste. <i>Falha:</i> A sprite conhece as emoções e a tendência do alvo.</p>
+			<p><i>Teste de ResistÃªncia de Carisma:</i> CD 10, uma criatura a atÃ© 1,5 metro (5 pÃ©s) que a sprite possa ver. Celestiais, Corruptores e Mortos-vivos falham automaticamente no teste. <i>Falha:</i> A sprite conhece as emoÃ§Ãµes e a tendÃªncia do alvo.</p>
 		</description>
 		<sheet>
-			<description>Teste de Resistência de Carisma: CD 10, uma criatura a até 1,5 metro (5 pés) que a sprite possa ver. Celestiais, Corruptores e Mortos-vivos falham automaticamente no teste. Falha: A sprite conhece as emoções e a tendência do alvo.</description>
+			<description>Teste de ResistÃªncia de Carisma: CD 10, uma criatura a atÃ© 1,5 metro (5 pÃ©s) que a sprite possa ver. Celestiais, Corruptores e Mortos-vivos falham automaticamente no teste. Falha: A sprite conhece as emoÃ§Ãµes e a tendÃªncia do alvo.</description>
 		</sheet>
 	</element>
-	<element name="Invisibilidade" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPRITE_INVISIBILITY">
+	<element name="Invisibilidade" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_SPRITE_INVISIBILITY">
 		<compendium display="false" />
 		<description>
-			<p>A sprite conjura <i>Invisibilidade</i> em si mesma, sem exigir componentes materiais e usando Carisma como habilidade de conjuração.</p>
+			<p>A sprite conjura <i>Invisibilidade</i> em si mesma, sem exigir componentes materiais e usando Carisma como habilidade de conjuraÃ§Ã£o.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_SPELL_INVISIBILITY" />
 			</div>
 		</description>
 		<sheet>
-			<description>A sprite conjura Invisibilidade em si mesma, sem exigir componentes materiais e usando Carisma como habilidade de conjuração.</description>
+			<description>A sprite conjura Invisibilidade em si mesma, sem exigir componentes materiais e usando Carisma como habilidade de conjuraÃ§Ã£o.</description>
 		</sheet>
 	</element>
 
-	<element name="Cobra Venenosa" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_VENOMOUS_SNAKE">
+	<element name="Cobra Venenosa" type="Companion" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_VENOMOUS_SNAKE">
 		<supports>Variant Familiar</supports>
 		<setters>
-			<set name="size">Miúdo</set>
+			<set name="size">MiÃºdo</set>
 			<set name="type">Fera</set>
-			<set name="alignment">Sem tendência</set>
+			<set name="alignment">Sem tendÃªncia</set>
 			<set name="ac">12</set>
 			<set name="hp">5 (2d4)</set>
-			<set name="speed">9 m (30 pés), Natação 9 m (30 pés)</set>
+			<set name="speed">9 m (30 pÃ©s), NataÃ§Ã£o 9 m (30 pÃ©s)</set>
 			<set name="strength">2</set>
 			<set name="dexterity">15</set>
 			<set name="constitution">11</set>
 			<set name="intelligence">1</set>
 			<set name="wisdom">10</set>
 			<set name="charisma">3</set>
-			<set name="senses">Sentido Cego 3 m (10 pés); Percepção Passiva 10</set>
+			<set name="senses">Sentido Cego 3 m (10 pÃ©s); PercepÃ§Ã£o Passiva 10</set>
 			<set name="languages">Nenhum</set>
 			<set name="challenge">1/8</set>
 			<set name="proficiency">2</set>
@@ -1231,13 +1231,13 @@
 			<stat name="companion:speed:swim" value="30" bonus="base" />
 		</rules>
 	</element>
-	<element name="Mordida" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_VENOMOUS_SNAKE_BITE">
+	<element name="Mordida" type="Companion Action" source="Playerâ€™s Handbook (2024)" id="ID_WOTC_MM25_COMPANION_ACTION_VENOMOUS_SNAKE_BITE">
 		<compendium display="false" />
 		<description>
-			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pés). <i>Acerto:</i> 4 (1d4 + 2) de dano Perfurante mais 3 (1d6) de dano Venenoso.</p>
+			<p><i>Jogada de Ataque Corpo a Corpo:</i> +4, alcance 1,5 m (5 pÃ©s). <i>Acerto:</i> 4 (1d4 + 2) de dano Perfurante mais 3 (1d6) de dano Venenoso.</p>
 		</description>
 		<sheet>
-			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pés). Acerto: 4 (1d4 + 2) de dano Perfurante mais 3 (1d6) de dano Venenoso.</description>
+			<description>Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m (5 pÃ©s). Acerto: 4 (1d4 + 2) de dano Perfurante mais 3 (1d6) de dano Venenoso.</description>
 		</sheet>
 	</element>
 

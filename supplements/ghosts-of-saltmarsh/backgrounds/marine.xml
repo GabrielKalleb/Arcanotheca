@@ -3,7 +3,7 @@
 	<info>
 		<name>Marine Background</name>
 		<update version="0.0.3">
-			<file name="marine.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/ghosts-of-saltmarsh/backgrounds/marine.xml" />
+			<file name="marine.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/ghosts-of-saltmarsh/backgrounds/marine.xml" />
 		</update>
 	</info>
 	
@@ -13,7 +13,7 @@
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Athletics, Survival</li>
 				<li><strong>Tool Proficiencies:</strong> Vehicles (water, land)</li>
-				<li><strong>Equipment:</strong> A dagger that belonged to a fallen comrade, a folded flag emblazoned with the symbol of your ship or company, a set of traveler’s clothes, and a belt pouch containing 10 gp</li>
+				<li><strong>Equipment:</strong> A dagger that belonged to a fallen comrade, a folded flag emblazoned with the symbol of your ship or company, a set of travelerâ€™s clothes, and a belt pouch containing 10 gp</li>
 			</ul>
 			<div element="ID_WOTC_GOS_BACKGROUND_FEATURE_MARINE_STEADY" />
 			<h5>HARDSHIP ENDURED</h5>			
@@ -24,7 +24,7 @@
 				</thead>
 				<tr><td>1</td><td><strong>Nearly Drowned.</strong> You hid underwater to avoid detection by enemies and held your breath for an extremely long time. Just before you would have died, you had a revelation about your existence.</td></tr>
 				<tr><td>2</td><td><strong>Captured.</strong> You spent months enduring thirst, starvation, and torture at the hands of your enemy, but you never broke.</td></tr>
-				<tr><td>3</td><td><strong>Sacrifice.</strong> You enabled the escape of your fellow soldiers, but at great cost to yourself. Some of your past comrades may thing you’re dead.</td></tr>
+				<tr><td>3</td><td><strong>Sacrifice.</strong> You enabled the escape of your fellow soldiers, but at great cost to yourself. Some of your past comrades may thing youâ€™re dead.</td></tr>
 				<tr><td>4</td><td><strong>Juggernaut.</strong> No reasonable explanation can explain how you survived a particular battle. Every arrow and bolt missed you. You slew scores of enemies single-handedly and led your comrades to victory.</td></tr>
 				<tr><td>5</td><td><strong>Stowaway.</strong> For days, you hid in the bilge of an enemy ship, surviving on brackish water and foolhardy rats. At the right moment, you crept up to the deck and took over the ship on your own.</td></tr>
 				<tr><td>6</td><td><strong>Leave None Behind.</strong> You carried an injured marine for miles to avoid capture and death.</td></tr>
@@ -54,17 +54,17 @@
 			</select>
 			<select type="List" name="Ideal">
 				<item id="1">Teamwork. Success depends on cooperation and communication. (Good)</item>
-				<item id="2">Code. The marines’ code provides a solution for every problem, and following it is imperative. (Lawful)</item>
+				<item id="2">Code. The marinesâ€™ code provides a solution for every problem, and following it is imperative. (Lawful)</item>
 				<item id="3">Embracing. Life is messy. Throwing yourself into the worst of it is necessary to get the job done. (Chaotic)</item>
 				<item id="4">Might. The strong train so that they might rule those who are weak. (Evil)</item>
-				<item id="5">Bravery. To act when others quake in fear—this is the essense of the warrior. (Any)</item>
+				<item id="5">Bravery. To act when others quake in fearâ€”this is the essense of the warrior. (Any)</item>
 				<item id="6">Perseverance. No injury or obstacle can turn me from my goal. (Any)</item>
 			</select>
 			<select type="List" name="Bond">
 				<item id="1">I face danger and evil to offset and unredeemable act in my past.</item>
 				<item id="2">I. Will. Finish. The. Job.</item>
 				<item id="3">I must set an example of hope for those who have given up.</item>
-				<item id="4">I’m searching for a fellow marine captured by an elusive enemy.</item>
+				<item id="4">Iâ€™m searching for a fellow marine captured by an elusive enemy.</item>
 				<item id="5">Fear leads to tyranny, and both must be eradicated.</item>
 				<item id="6">My commander betrayed my unit, and I will have revenge.</item>
 			</select>
@@ -81,7 +81,7 @@
 	<element name="Feature: Steady" type="Background Feature" source="Ghosts of Saltmarsh" id="ID_WOTC_GOS_BACKGROUND_FEATURE_MARINE_STEADY">
 		<supports>Background Feature</supports>
 		<description>
-			<p>You can move twice the normal amount of time (up to 16 hours) each day before being subject to the effect of a forced march (see “Travel Pace” in chapter 8 of the Player’s Handbook). Additionally, you can automatically find a safe route to land a boat on shore, provided such a route exists.</p>
+			<p>You can move twice the normal amount of time (up to 16 hours) each day before being subject to the effect of a forced march (see â€œTravel Paceâ€ in chapter 8 of the Playerâ€™s Handbook). Additionally, you can automatically find a safe route to land a boat on shore, provided such a route exists.</p>
 		</description>
 		<sheet alt="Steady">
 			<description>You can move twice the normal amount of time (up to 16 hours) each day before being subject to the effect of a forced march. Additionally, you can automatically find a safe route to land a boat on shore, provided such a route exists.</description>

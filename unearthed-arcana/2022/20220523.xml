@@ -3,13 +3,13 @@
 	<info>
 		<name>Unearthed Arcana: Giant Options</name>
 		<update version="0.0.3">
-			<file name="20220523.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2022/20220523.xml" />
+			<file name="20220523.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/unearthed-arcana/2022/20220523.xml" />
 		</update>
 	</info>
 
 	<element name="Unearthed Arcana: Giant Options" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20220523">
 		<description>
-			<p>In today’s <i>Unearthed Arcana</i>, we explore character options related to the magic and majesty of giants. This playtest document presents the Path of the Giant barbarian subclass, the Circle of the Primeval druid subclass, the Runecrafter wizard subclass, and a collection of new feats, all for use in Dungeons &amp; Dragons.</p>
+			<p>In todayâ€™s <i>Unearthed Arcana</i>, we explore character options related to the magic and majesty of giants. This playtest document presents the Path of the Giant barbarian subclass, the Circle of the Primeval druid subclass, the Runecrafter wizard subclass, and a collection of new feats, all for use in Dungeons &amp; Dragons.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">UA20220523</set>
@@ -65,17 +65,17 @@
 			<p><em>3rd-Level Path of the Giant Feature</em></p>
 			<p>Your rages pull strength from the primal might of giants, transforming you into a hulking force of destruction. While raging, you gain the following benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Crushing Hurl.</strong> When you make a successful ranged attack with a thrown weapon using Strength, you can add your Rage Damage bonus to the attack’s damage roll.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Giant Stature.</strong> Your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isn’t enough room for you to become Large, your size doesn’t change.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Crushing Hurl.</strong> When you make a successful ranged attack with a thrown weapon using Strength, you can add your Rage Damage bonus to the attackâ€™s damage roll.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Giant Stature.</strong> Your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isnâ€™t enough room for you to become Large, your size doesnâ€™t change.</li>
 			</ul>
 		</description>
 		<sheet>
 			<description>While raging, you gain the following benefits: &#13;
-			• Crushing Hurl. When you make a successful ranged attack with a thrown weapon using Strength, you can add {{barbarian rage:damage}} to damage. &#13;
-			• Giant Stature. Your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isn’t enough room for you to become Large, your size doesn’t change.</description>
+			â€¢ Crushing Hurl. When you make a successful ranged attack with a thrown weapon using Strength, you can add {{barbarian rage:damage}} to damage. &#13;
+			â€¢ Giant Stature. Your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isnâ€™t enough room for you to become Large, your size doesnâ€™t change.</description>
 			<description level="14">While raging, you gain the following benefits: &#13;
-			• Crushing Hurl. When you make a successful ranged attack with a thrown weapon using Strength, you can add {{barbarian rage:damage}} to damage. &#13;
-			• Giant Stature. Your reach increases by 10 feet, and if you are smaller than Huge, you become Huge, along with anything you are wearing. If there isn’t enough room for you to become Huge or Large, your size doesn’t change.</description>
+			â€¢ Crushing Hurl. When you make a successful ranged attack with a thrown weapon using Strength, you can add {{barbarian rage:damage}} to damage. &#13;
+			â€¢ Giant Stature. Your reach increases by 10 feet, and if you are smaller than Huge, you become Huge, along with anything you are wearing. If there isnâ€™t enough room for you to become Huge or Large, your size doesnâ€™t change.</description>
 		</sheet>
 	</element>
 
@@ -84,12 +84,12 @@
 		<description>
 			<p><em>6th-Level Path of the Giant Feature</em></p>
 			<p>Your bond with the elemental might of giants and their ilk grows, and you learn to infuse weapons with primordial energy.</p>
-			<p class="indent">When you enter your rage, you can infuse one weapon of your choice that you are holding with one of the following damage types: acid, cold, fire, thunder, or lightning. While you wield the infused weapon during your rage, the weapon’s damage type changes to the chosen type, it deals an extra 1d6 damage of the chosen type when it hits, and it gains the thrown property, with a normal range of 20 feet and a long range of 60 feet. If you throw the weapon, it reappears in your hand the instant after it hits or misses a target. The infused weapon’s benefits are suppressed while a creature other than you wields it.</p>
-			<p class="indent">While raging and holding the infused weapon, you can use a bonus action to change the infused weapon’s current damage type to a different one from the above damage types.</p>
+			<p class="indent">When you enter your rage, you can infuse one weapon of your choice that you are holding with one of the following damage types: acid, cold, fire, thunder, or lightning. While you wield the infused weapon during your rage, the weaponâ€™s damage type changes to the chosen type, it deals an extra 1d6 damage of the chosen type when it hits, and it gains the thrown property, with a normal range of 20 feet and a long range of 60 feet. If you throw the weapon, it reappears in your hand the instant after it hits or misses a target. The infused weaponâ€™s benefits are suppressed while a creature other than you wields it.</p>
+			<p class="indent">While raging and holding the infused weapon, you can use a bonus action to change the infused weaponâ€™s current damage type to a different one from the above damage types.</p>
 		</description>
 		<sheet>
-			<description>When you rage, you can infuse one weapon that you are holding with one of the following damage types: acid, cold, fire, thunder, or lightning. While you wield the infused weapon during your rage, the weapon’s damage type changes to the chosen type, it deals an extra {{ua:elemental cleaver:damage}}d6 damage of the chosen type, and it gains the thrown property, with a 20/60 ft. range. If you throw the weapon, it reappears in your hand the instant after it hits or misses a target. &#13;
-			While raging and holding the infused weapon, as a bonus action you can change the infused weapon’s damage type to a different one from the above damage types.</description>
+			<description>When you rage, you can infuse one weapon that you are holding with one of the following damage types: acid, cold, fire, thunder, or lightning. While you wield the infused weapon during your rage, the weaponâ€™s damage type changes to the chosen type, it deals an extra {{ua:elemental cleaver:damage}}d6 damage of the chosen type, and it gains the thrown property, with a 20/60 ft. range. If you throw the weapon, it reappears in your hand the instant after it hits or misses a target. &#13;
+			While raging and holding the infused weapon, as a bonus action you can change the infused weaponâ€™s damage type to a different one from the above damage types.</description>
 		</sheet>
 		<rules>
 			<stat name="ua:elemental cleaver:damage" value="1" bonus="base" />
@@ -102,7 +102,7 @@
 		<description>
 			<p><em>10th-Level Path of the Giant Feature</em></p>
 			<p>Your connection to giant strength now allows you to hurl both allies and enemies on the battlefield. As a bonus action while raging, you can choose one Medium or smaller creature within your reach and move it to an unoccupied space you can see within 30 feet of yourself. An unwilling creature must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier) to avoid the effect.</p>
-			<p class="indent">If, at the end of this movement, the thrown creature isn’t on a surface or liquid that can support it, the creature falls, taking damage as normal and landing prone.</p>
+			<p class="indent">If, at the end of this movement, the thrown creature isnâ€™t on a surface or liquid that can support it, the creature falls, taking damage as normal and landing prone.</p>
 		</description>
 		<sheet action="Bonus Action">
 			<description>While raging, you can choose one Medium or smaller creature within your reach and move it to an unoccupied space you can see within 30 feet of yourself. An unwilling creature must succeed on a DC{{ua:mighty impel:dc}} Strength saving throw to avoid the effect.</description>
@@ -136,8 +136,8 @@
 	<element name="Circle Of The Primeval" type="Archetype" source="Unearthed Arcana: Giant Options" id="ID_WOTC_UA20220523_ARCHETYPE_DRUID_CIRCLE_OF_THE_PRIMEVAL">
 		<supports>Druid Circle</supports>
 		<description>
-			<p>The Circle of the Primeval teaches that, though the land may change over time, it never truly forgets. By tapping into the timeworn memory of the earth, these druids summon and bond with the spirit of a primeval behemoth—a hulking creature that once ruled the ancient world alongside the giants. The most well-known primeval behemoths are the dinosaurs, but spirits bonded with members of the Circle of the Primeval have also taken the form of ancient predecessors to today’s common beasts and other fantastical titanic creatures.</p>
-			<p class="indent">Working alongside their companion spirit, most druids of the Circle of the Primeval spend their lives delving into long-forgotten places and preserving the remnants of bygone eras. As a druid’s power grows, so does their companion, the beast starting near equal in size to its druid partner before increasing in stature until it too towers over the land.</p>
+			<p>The Circle of the Primeval teaches that, though the land may change over time, it never truly forgets. By tapping into the timeworn memory of the earth, these druids summon and bond with the spirit of a primeval behemothâ€”a hulking creature that once ruled the ancient world alongside the giants. The most well-known primeval behemoths are the dinosaurs, but spirits bonded with members of the Circle of the Primeval have also taken the form of ancient predecessors to todayâ€™s common beasts and other fantastical titanic creatures.</p>
+			<p class="indent">Working alongside their companion spirit, most druids of the Circle of the Primeval spend their lives delving into long-forgotten places and preserving the remnants of bygone eras. As a druidâ€™s power grows, so does their companion, the beast starting near equal in size to its druid partner before increasing in stature until it too towers over the land.</p>
 			<div element="ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_KEEPER_OF_OLD" />
 			<div element="ID_WOTC_UA20220523_ARCHETYPE_FEATURE_CIRCLE_OF_THE_PRIMEVAL_PRIMEVAL_COMPANION" />
 			<div class="reference">
@@ -177,7 +177,7 @@
 		<description>
 			<p><em>2nd-Level Circle of the Primeval Feature</em></p>
 			<p>Starting when you choose this circle, you can call upon the primeval creature whose spirit is bound to you. As an action, you can expend one use of your Wild Shape feature to summon your primeval companion, rather than assuming a beast form. The companion appears in an unoccupied space of your choice within 30 feet of you.</p>
-			<p class="indent">The primeval companion is friendly to you and your companions, and it obeys your commands. See this creature’s game statistics in the Primeval Companion stat block, which uses your proficiency bonus (PB) in several places. You can determine the cosmetic appearance of the companion; for example, your companion may evoke ancient predators like raptors or saber-toothed tigers, or it might be more inclined for defense, appearing as an armored ankylosaurus or a wooly rhino. These choices have no effect on the companion’s game statistics.</p>
+			<p class="indent">The primeval companion is friendly to you and your companions, and it obeys your commands. See this creatureâ€™s game statistics in the Primeval Companion stat block, which uses your proficiency bonus (PB) in several places. You can determine the cosmetic appearance of the companion; for example, your companion may evoke ancient predators like raptors or saber-toothed tigers, or it might be more inclined for defense, appearing as an armored ankylosaurus or a wooly rhino. These choices have no effect on the companionâ€™s game statistics.</p>
 			<p class="indent">In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the companion can take any action of its choice, not just Dodge.</p>
 			<p class="indent">In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.</p>
 			<p class="indent">The companion remains until it is reduced to 0 hit points or until you die, at which point the companion vanishes. If you use this feature to summon the companion again and you already have a companion present, the first companion immediately vanishes. Anything the companion was wearing or carrying is left behind when the companion vanishes.</p>
@@ -228,19 +228,19 @@
 		<requirements>!ID_INTERNAL_UA_FEATURE_REPLACEMENT_DRUID_PRIMEVAL_SCOURGE_OF_THE_ANCIENTS</requirements>
 		<description>
 			<p><em>14th-Level Circle of the Primeval Feature</em></p>
-			<p>You have learned to fully harness the titanic legacy of your companion. As part of the bonus action you use to command your companion, you can expend a spell slot of any level to heighten your primeval companion’s might, granting it the following benefits:</p>
+			<p>You have learned to fully harness the titanic legacy of your companion. As part of the bonus action you use to command your companion, you can expend a spell slot of any level to heighten your primeval companionâ€™s might, granting it the following benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Hulking Behemoth.</strong> The companion becomes Huge and gains temporary hit points equal to 10 times the level of the spell slot expended. If there isn’t enough room for the companion to become Huge, it attains the maximum possible size in the space available.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Mauler.</strong> On a hit, the companion’s Strike deals additional damage equal to 1d8 plus the level of the spell slot expended.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Titanic Stride.</strong> The companion’s walking speed increases by a number of feet equal to 5 times the level of the spell slot expended.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Hulking Behemoth.</strong> The companion becomes Huge and gains temporary hit points equal to 10 times the level of the spell slot expended. If there isnâ€™t enough room for the companion to become Huge, it attains the maximum possible size in the space available.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Mauler.</strong> On a hit, the companionâ€™s Strike deals additional damage equal to 1d8 plus the level of the spell slot expended.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Titanic Stride.</strong> The companionâ€™s walking speed increases by a number of feet equal to 5 times the level of the spell slot expended.</li>
 			</ul>
 			<p>These benefits last for 1 hour, until the companion vanishes, or until you expend a spell slot for this feature again.</p>
 		</description>
 		<sheet>
-			<description>As part of the bonus action you use to command your companion, you can expend a spell slot of any level to heighten your primeval companion’s might, granting it the following benefits: &#13;
-			• Hulking Behemoth. The companion becomes Huge and gains temporary hit points equal to 10 times the level of the spell slot expended. If there isn’t enough room for the companion to become Huge, it attains the maximum possible size in the space available. &#13;
-			• Mauler. On a hit, the companion’s Strike deals additional damage equal to 1d8 plus the level of the spell slot expended. &#13;
-			• Titanic Stride. The companion’s walking speed increases by a number of feet equal to 5 times the level of the spell slot expended.</description>
+			<description>As part of the bonus action you use to command your companion, you can expend a spell slot of any level to heighten your primeval companionâ€™s might, granting it the following benefits: &#13;
+			â€¢ Hulking Behemoth. The companion becomes Huge and gains temporary hit points equal to 10 times the level of the spell slot expended. If there isnâ€™t enough room for the companion to become Huge, it attains the maximum possible size in the space available. &#13;
+			â€¢ Mauler. On a hit, the companionâ€™s Strike deals additional damage equal to 1d8 plus the level of the spell slot expended. &#13;
+			â€¢ Titanic Stride. The companionâ€™s walking speed increases by a number of feet equal to 5 times the level of the spell slot expended.</description>
 		</sheet>
 	</element>	
 
@@ -266,7 +266,7 @@
 			<set name="saves">Dex +2 plus PB, Con +3 plus PB</set>
 			<set name="senses">darkvision 60 ft., passive Perception 11</set>
 			<set name="languages">understands the languages you speak</set>
-			<set name="challenge">—</set>
+			<set name="challenge">â€”</set>
 			<set name="actions">ID_WOTC_UA20220523_COMPANION_ACTION_PRIMEVAL_COMPANION_STRIKE</set>
 			<set name="reactions">ID_WOTC_UA20220523_COMPANION_REACTION_PRIMEVAL_COMPANION_INTERCEPT_ATTACK</set>
 		</setters>
@@ -303,7 +303,7 @@
 			<set name="saves">Dex +2 plus PB, Con +3 plus PB</set>
 			<set name="senses">darkvision 60 ft., passive Perception 11</set>
 			<set name="languages">understands the languages you speak</set>
-			<set name="challenge">—</set>
+			<set name="challenge">â€”</set>
 			<set name="actions">ID_WOTC_UA20220523_COMPANION_ACTION_PRIMEVAL_COMPANION_STRIKE</set>
 			<set name="reactions">ID_WOTC_UA20220523_COMPANION_REACTION_PRIMEVAL_COMPANION_INTERCEPT_ATTACK</set>
 		</setters>
@@ -349,13 +349,13 @@
 			</ul>
 			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
 				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
-				<tr><td>15 (+2)</td><td>15 (+2)</td><td>17 (+3)</td><td>6 (−2)</td><td>12 (+1)</td><td>8 (−1)</td></tr>
+				<tr><td>15 (+2)</td><td>15 (+2)</td><td>17 (+3)</td><td>6 (âˆ’2)</td><td>12 (+1)</td><td>8 (âˆ’1)</td></tr>
 			</table>
 			<ul class="unstyled">
 				<li><strong>Saving Throws</strong> Dex +2 plus PB, Con +3 plus PB</li>
 				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 11</li>
 				<li><strong>Languages</strong> understands the languages you speak</li>
-				<li style="margin-bottom:-1em"><strong>Challenge</strong> —</li>
+				<li style="margin-bottom:-1em"><strong>Challenge</strong> â€”</li>
 				<li style="text-align:right; margin-top:-1em"><strong>Proficiency Bonus (PB)</strong> equals your bonus</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
@@ -382,7 +382,7 @@
 		<supports>Arcane Tradition</supports>
 		<description>
 			<p>Runecrafter wizards enhance their spellcasting through the ancient power of runes. Though the tradition originated with the giant rune casters of old, runecraft magic has expanded to encompass countless languages and practitioners across different worlds.</p>
-			<p class="indent">For many runecrafters, the runes they wield are as every bit unique and personal as their spellbook. Some strive to honor the practice’s origins among the giants, engraving their runes on decorative stones that adorn their spellcasting implements, while others messily scribble their runes on scraps of paper.</p>
+			<p class="indent">For many runecrafters, the runes they wield are as every bit unique and personal as their spellbook. Some strive to honor the practiceâ€™s origins among the giants, engraving their runes on decorative stones that adorn their spellcasting implements, while others messily scribble their runes on scraps of paper.</p>
 			<div element="ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_RUNES_OF_UNDERSTANDING" />
 			<div element="ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_RUNIC_EMPOWERMENT" />
 			<div element="ID_WOTC_UA20220523_ARCHETYPE_FEATURE_RUNECRAFTER_SIGILS_OF_WARDING" />
@@ -403,7 +403,7 @@
 		<requirements>!ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_RUNES_OF_UNDERSTANDING</requirements>
 		<description>
 			<p><em>2nd-Level Runecrafter Feature</em></p>
-			<p>Your study of runecraft has unlocked the ability to decode runes and languages, regardless of their origin; you always have <i>comprehend languages</i> prepared, you can cast it without expending a spell slot, and the spell doesn’t count against the number of spells you have prepared.</p>
+			<p>Your study of runecraft has unlocked the ability to decode runes and languages, regardless of their origin; you always have <i>comprehend languages</i> prepared, you can cast it without expending a spell slot, and the spell doesnâ€™t count against the number of spells you have prepared.</p>
 		</description>
 		<sheet>
 			<description>You can cast comprehend languages without expending a spell slot.</description>
@@ -417,20 +417,20 @@
 		<requirements>!ID_INTERNAL_UA_FEATURE_REPLACEMENT_WIZARD_RUNECRAFTER_RUNIC_EMPOWERMENT</requirements>
 		<description>
 			<p><em>2nd-Level Runecrafter Feature</em></p>
-			<p>When you choose this subclass, you learn how to amplify your magic through the application of various runes. Your knowledge of these runes is stored in your spellbook, though you determine the runes’ cosmetic appearance. For example, your runes could be engraved into the cover of your spellbook, glowing whenever you cast a spell, or you could work the shape and meaning of the runes directly into a spell’s somatic and verbal components.</p>
+			<p>When you choose this subclass, you learn how to amplify your magic through the application of various runes. Your knowledge of these runes is stored in your spellbook, though you determine the runesâ€™ cosmetic appearance. For example, your runes could be engraved into the cover of your spellbook, glowing whenever you cast a spell, or you could work the shape and meaning of the runes directly into a spellâ€™s somatic and verbal components.</p>
 			<p class="indent">When you cast a spell using a spell slot, you can invoke one of the following runes:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Life Rune.</strong> When you invoke this rune, choose one creature you can see within 30 feet of you (you can choose yourself). The chosen creature gains temporary hit points equal to 5 times the level of the spell slot expended.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>War Rune.</strong> When you invoke this rune, choose one creature you can see within 30 feet of you. Until the end of your next turn, attack rolls that target the chosen creature gain a bonus equal to half the level of the spell slot expended (rounded up, minimum of +1).</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Wind Rune.</strong> When you invoke this rune, your speed increases by a number of feet equal to 5 times the level of the spell slot expended, and your movement doesn’t provoke opportunity attacks. These benefits last until the start of your next turn.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Wind Rune.</strong> When you invoke this rune, your speed increases by a number of feet equal to 5 times the level of the spell slot expended, and your movement doesnâ€™t provoke opportunity attacks. These benefits last until the start of your next turn.</li>
 			</ul>
 			<p>You can invoke no more than one rune per spell. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet usage="{{proficiency}}/Long Rest">
 			<description>When you cast a spell using a spell slot, you can invoke one of the following runes: &#13;
-			• Life Rune. Choose one creature you can see within 30 feet of you. The chosen creature gains temporary hit points equal to 5 times the level of the spell slot expended. &#13;
-			• War Rune. Choose one creature you can see within 30 feet of you. Until the end of your next turn, attack rolls that target the chosen creature gain a bonus equal to half the level of the spell slot expended (rounded up, minimum of +1). &#13;
-			• Wind Rune. Your speed increases by a number of feet equal to 5 times the level of the spell slot expended, and your movement doesn’t provoke opportunity attacks. These benefits last until the start of your next turn.</description>
+			â€¢ Life Rune. Choose one creature you can see within 30 feet of you. The chosen creature gains temporary hit points equal to 5 times the level of the spell slot expended. &#13;
+			â€¢ War Rune. Choose one creature you can see within 30 feet of you. Until the end of your next turn, attack rolls that target the chosen creature gain a bonus equal to half the level of the spell slot expended (rounded up, minimum of +1). &#13;
+			â€¢ Wind Rune. Your speed increases by a number of feet equal to 5 times the level of the spell slot expended, and your movement doesnâ€™t provoke opportunity attacks. These benefits last until the start of your next turn.</description>
 		</sheet>
 	</element>
 
@@ -467,17 +467,17 @@
 			<p>You have mastered the art of wielding your runes directly against your foes. As a bonus action, you can target one creature you can see within 60 feet of yourself. The creature must succeed on a Wisdom saving throw against your spell save DC or be magically marked by an enmity rune.</p>
 			<p class="indent">The enmity rune appears as a faintly glowing mote of energy that hovers over the marked creature, which suffers the following effects:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Runecraft’s Bane.</strong> The creature has disadvantage on saving throws made against spells you cast.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Unveiled Enemy.</strong> The radiance of the glowing rune makes the creature visible if it’s invisible, and the creature can’t become invisible while the rune persists.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Runecraftâ€™s Bane.</strong> The creature has disadvantage on saving throws made against spells you cast.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Unveiled Enemy.</strong> The radiance of the glowing rune makes the creature visible if itâ€™s invisible, and the creature canâ€™t become invisible while the rune persists.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Woeful Curse.</strong> When you mark the creature, and as a bonus action on subsequent turns for the duration, you can invoke the enmity rune to curse the creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack roll, the target also takes 1d8 force damage, and the curse ends.</li>
 			</ul>
-			<p>The enmity rune lasts for 1 minute or until you lose your concentration (as if you were concentrating on a spell). Once you have marked a creature in this way, you can’t do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use this feature again.</p>
+			<p>The enmity rune lasts for 1 minute or until you lose your concentration (as if you were concentrating on a spell). Once you have marked a creature in this way, you canâ€™t do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use this feature again.</p>
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest">
 			<description>You can target one creature you can see within 60 feet of yourself. The creature must succeed on a DC{{wizard:spellcasting:dc}} Wisdom saving throw or be magically marked by an enmity rune. The enmity rune appears as a faintly glowing mote of energy that hovers over the marked creature, which suffers the following effects: &#13;
-			• Runecraft’s Bane. The creature has disadvantage on saving throws made against spells you cast. &#13;
-			• Unveiled Enemy. The rune makes the creature visible if it’s invisible, and the creature can’t become invisible while the rune persists. &#13;
-			• Woeful Curse. When you mark the creature, and as a bonus action on subsequent turns for the duration, you can invoke the enmity rune to curse the creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack roll, the target also takes 1d8 force damage, and the curse ends. &#13;
+			â€¢ Runecraftâ€™s Bane. The creature has disadvantage on saving throws made against spells you cast. &#13;
+			â€¢ Unveiled Enemy. The rune makes the creature visible if itâ€™s invisible, and the creature canâ€™t become invisible while the rune persists. &#13;
+			â€¢ Woeful Curse. When you mark the creature, and as a bonus action on subsequent turns for the duration, you can invoke the enmity rune to curse the creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack roll, the target also takes 1d8 force damage, and the curse ends. &#13;
 			The enmity rune lasts for 1 minute or until you lose your concentration (as if you were concentrating on a spell). You can expend a spell slot of 3rd level or higher to use this feature again.</description>
 		</sheet>
 	</element>	
@@ -492,12 +492,12 @@
 	<!--Feats-->
 	<element name="Elemental Touched" type="Feat" source="Unearthed Arcana: Giant Options" id="ID_WOTC_UA20220523_FEAT_ELEMENTAL_TOUCHED">
 		<description>
-			<p>You’ve been exposed to the primordial magic of the Elemental Planes, granting you a measure of control over the natural world around you. You learn the either the <i>druidcraft</i> or <i>thaumaturgy</i> cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you gain this feat).</p>
+			<p>Youâ€™ve been exposed to the primordial magic of the Elemental Planes, granting you a measure of control over the natural world around you. You learn the either the <i>druidcraft</i> or <i>thaumaturgy</i> cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you gain this feat).</p>
 			<p class="indent">Whenever you finish a long rest, you can choose which element you are attuned to: Air, Earth, Fire, or Water. Depending on your choice, you can use a bonus action to cause one of the following effects:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Air.</strong> You gain a fly speed equal to your walking speed until the end of your turn. If you are airborne at the end of your turn after using this movement and aren’t held aloft by other means, you fall.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Air.</strong> You gain a fly speed equal to your walking speed until the end of your turn. If you are airborne at the end of your turn after using this movement and arenâ€™t held aloft by other means, you fall.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Earth.</strong> You cause the ground within 30 feet of you to become difficult terrain for 1 minute or until you create this effect again. During that time, you can move across ground that is difficult terrain without spending extra movement.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Fire.</strong> You surround yourself in a cloud of ash and smoke. Until the end of your turn, your movement doesn’t provoke opportunity attacks.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Fire.</strong> You surround yourself in a cloud of ash and smoke. Until the end of your turn, your movement doesnâ€™t provoke opportunity attacks.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Water.</strong> You can create a forceful surge of water directed at a creature within 15 feet of you that you can see. The creature must succeed on a Strength saving throw (which it can choose to fail) against a DC equal to 8 + your spellcasting ability modifier + your proficiency bonus or be pushed up to 10 feet away from you. The water vanishes immediately after the creature succeeds or fails.</li>
 			</ul>
 			<p>You can create this effect a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
@@ -518,10 +518,10 @@
 		<sheet alt="Elemental Touched">
 			<description>Your spellcasting ability for the chosen cantrip is Intelligence. &#13;
 			Whenever you finish a long rest, you can choose which element you are attuned to: Air, Earth, Fire, or Water. Depending on your choice, you can use a bonus action to cause one of the following effects: &#13;
-			• Air. You gain a fly speed equal to {{speed}} ft. until the end of your turn. If you are airborne at the end of your turn after using this movement and aren’t held aloft by other means, you fall. &#13;
-			• Earth. You cause the ground within 30 feet of you to become difficult terrain for 1 minute or until you create this effect again. During that time, you can move across ground that is difficult terrain without spending extra movement. &#13;
-			• Fire. Until the end of your turn, your movement doesn’t provoke opportunity attacks. &#13;
-			• Water. You can create a surge of water directed at a creature within 15 feet of you that you can see. The creature must succeed on a DC{{ua:elemental touched:dc}} Strength saving throw (which it can choose to fail) or be pushed up to 10 feet away from you. The water vanishes immediately after the creature succeeds or fails.
+			â€¢ Air. You gain a fly speed equal to {{speed}} ft. until the end of your turn. If you are airborne at the end of your turn after using this movement and arenâ€™t held aloft by other means, you fall. &#13;
+			â€¢ Earth. You cause the ground within 30 feet of you to become difficult terrain for 1 minute or until you create this effect again. During that time, you can move across ground that is difficult terrain without spending extra movement. &#13;
+			â€¢ Fire. Until the end of your turn, your movement doesnâ€™t provoke opportunity attacks. &#13;
+			â€¢ Water. You can create a surge of water directed at a creature within 15 feet of you that you can see. The creature must succeed on a DC{{ua:elemental touched:dc}} Strength saving throw (which it can choose to fail) or be pushed up to 10 feet away from you. The water vanishes immediately after the creature succeeds or fails.
 			You can create this effect a number of times equal to {{proficiency}}, and you regain all expended uses when you finish a long rest.</description>
 		</sheet>
 		<rules>
@@ -538,10 +538,10 @@
 		<sheet alt="Elemental Touched">
 			<description>Your spellcasting ability for the chosen cantrip is Wisdom. &#13;
 			Whenever you finish a long rest, you can choose which element you are attuned to: Air, Earth, Fire, or Water. Depending on your choice, you can use a bonus action to cause one of the following effects: &#13;
-			• Air. You gain a fly speed equal to {{speed}} ft. until the end of your turn. If you are airborne at the end of your turn after using this movement and aren’t held aloft by other means, you fall. &#13;
-			• Earth. You cause the ground within 30 feet of you to become difficult terrain for 1 minute or until you create this effect again. During that time, you can move across ground that is difficult terrain without spending extra movement. &#13;
-			• Fire. Until the end of your turn, your movement doesn’t provoke opportunity attacks. &#13;
-			• Water. You can create a surge of water directed at a creature within 15 feet of you that you can see. The creature must succeed on a DC{{ua:elemental touched:dc}} Strength saving throw (which it can choose to fail) or be pushed up to 10 feet away from you. The water vanishes immediately after the creature succeeds or fails.
+			â€¢ Air. You gain a fly speed equal to {{speed}} ft. until the end of your turn. If you are airborne at the end of your turn after using this movement and arenâ€™t held aloft by other means, you fall. &#13;
+			â€¢ Earth. You cause the ground within 30 feet of you to become difficult terrain for 1 minute or until you create this effect again. During that time, you can move across ground that is difficult terrain without spending extra movement. &#13;
+			â€¢ Fire. Until the end of your turn, your movement doesnâ€™t provoke opportunity attacks. &#13;
+			â€¢ Water. You can create a surge of water directed at a creature within 15 feet of you that you can see. The creature must succeed on a DC{{ua:elemental touched:dc}} Strength saving throw (which it can choose to fail) or be pushed up to 10 feet away from you. The water vanishes immediately after the creature succeeds or fails.
 			You can create this effect a number of times equal to {{proficiency}}, and you regain all expended uses when you finish a long rest.</description>
 		</sheet>
 		<rules>
@@ -558,10 +558,10 @@
 		<sheet alt="Elemental Touched">
 			<description>Your spellcasting ability for the chosen cantrip is Charisma. &#13;
 			Whenever you finish a long rest, you can choose which element you are attuned to: Air, Earth, Fire, or Water. Depending on your choice, you can use a bonus action to cause one of the following effects: &#13;
-			• Air. You gain a fly speed equal to {{speed}} ft. until the end of your turn. If you are airborne at the end of your turn after using this movement and aren’t held aloft by other means, you fall. &#13;
-			• Earth. You cause the ground within 30 feet of you to become difficult terrain for 1 minute or until you create this effect again. During that time, you can move across ground that is difficult terrain without spending extra movement. &#13;
-			• Fire. Until the end of your turn, your movement doesn’t provoke opportunity attacks. &#13;
-			• Water. You can create a surge of water directed at a creature within 15 feet of you that you can see. The creature must succeed on a DC{{ua:elemental touched:dc}} Strength saving throw (which it can choose to fail) or be pushed up to 10 feet away from you. The water vanishes immediately after the creature succeeds or fails.
+			â€¢ Air. You gain a fly speed equal to {{speed}} ft. until the end of your turn. If you are airborne at the end of your turn after using this movement and arenâ€™t held aloft by other means, you fall. &#13;
+			â€¢ Earth. You cause the ground within 30 feet of you to become difficult terrain for 1 minute or until you create this effect again. During that time, you can move across ground that is difficult terrain without spending extra movement. &#13;
+			â€¢ Fire. Until the end of your turn, your movement doesnâ€™t provoke opportunity attacks. &#13;
+			â€¢ Water. You can create a surge of water directed at a creature within 15 feet of you that you can see. The creature must succeed on a DC{{ua:elemental touched:dc}} Strength saving throw (which it can choose to fail) or be pushed up to 10 feet away from you. The water vanishes immediately after the creature succeeds or fails.
 			You can create this effect a number of times equal to {{proficiency}}, and you regain all expended uses when you finish a long rest.</description>
 		</sheet>
 		<rules>
@@ -575,7 +575,7 @@
 		<requirements>[level:8]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 8th level</em></p>
-			<p>You’ve manifested the fiery combat emblematic of fire giants, granting you the following benefits:</p>
+			<p>Youâ€™ve manifested the fiery combat emblematic of fire giants, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Born of Flame.</strong> You have resistance to fire damage.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Searing Ignition.</strong> When you take the Attack action on your turn, you can replace one of your attacks with a magical burst of flame. Each creature of your choice within 15 feet of you that can see you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Constitution modifier). On a failed save, a creature takes fire damage equal to 2d6 + your proficiency bonus and is blinded until the start of your next turn; on a successful save, the creature takes half as much damage with no additional effects. You can use your Searing Ignition a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
@@ -597,7 +597,7 @@
 		<requirements>[level:4]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 4th level</em></p>
-			<p>You’ve manifested the icy might emblematic of frost giants, granting you the following benefits:</p>
+			<p>Youâ€™ve manifested the icy might emblematic of frost giants, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Born of Ice.</strong> You have resistance to cold damage.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Frigid Vengeance.</strong> When a creature hits you with an attack roll, you can use your reaction to retaliate with a burst of magical ire. The creature must succeed on a Wisdom saving throw (DC equals 8 + your proficiency bonus + your Constitution modifier) or be frightened of you until the start of its next turn. You can use your reaction in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
@@ -619,9 +619,9 @@
 		<requirements>[level:8]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 8th level</em></p>
-			<p>You’ve manifested the airy speech and magic emblematic of cloud giants, granting you the following benefits:</p>
+			<p>Youâ€™ve manifested the airy speech and magic emblematic of cloud giants, granting you the following benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Misty Form.</strong> You can cast the <i>blur</i> spell without using a spell slot or material components. When you cast the spell in this way, the spell doesn’t require you to maintain concentration on it. Once you cast the spell in this way, you can’t do so again until you finish a long rest. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feature (choose when you gain this feat).</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Misty Form.</strong> You can cast the <i>blur</i> spell without using a spell slot or material components. When you cast the spell in this way, the spell doesnâ€™t require you to maintain concentration on it. Once you cast the spell in this way, you canâ€™t do so again until you finish a long rest. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feature (choose when you gain this feat).</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Silver Tongue.</strong> You gain proficiency in either the Deception or Persuasion skill. Your proficiency bonus is doubled for any ability check you make using this skill.</li>
 			</ul>
 		</description>
@@ -639,7 +639,7 @@
 			<p>Your spellcasting ability for the <i>blur</i> spell is Intelligence.</p>
 		</description>
 		<sheet alt="Misty Form" usage="1/Long Rest">
-			<description>You can cast the blur spell without using a spell slot or material components. When you cast the spell in this way, the spell doesn’t require you to maintain concentration on it. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Intelligence is your spellcasting ability for this feature.</description>
+			<description>You can cast the blur spell without using a spell slot or material components. When you cast the spell in this way, the spell doesnâ€™t require you to maintain concentration on it. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Intelligence is your spellcasting ability for this feature.</description>
 		</sheet>
 	</element>
 
@@ -649,7 +649,7 @@
 			<p>Your spellcasting ability for the <i>blur</i> spell is Wisdom.</p>
 		</description>
 		<sheet alt="Misty Form" usage="1/Long Rest">
-			<description>You can cast the blur spell without using a spell slot or material components. When you cast the spell in this way, the spell doesn’t require you to maintain concentration on it. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Wisdom is your spellcasting ability for this feature.</description>
+			<description>You can cast the blur spell without using a spell slot or material components. When you cast the spell in this way, the spell doesnâ€™t require you to maintain concentration on it. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Wisdom is your spellcasting ability for this feature.</description>
 		</sheet>
 	</element>
 
@@ -659,7 +659,7 @@
 			<p>Your spellcasting ability for the <i>blur</i> spell is Charisma.</p>
 		</description>
 		<sheet alt="Misty Form" usage="1/Long Rest">
-			<description>You can cast the blur spell without using a spell slot or material components. When you cast the spell in this way, the spell doesn’t require you to maintain concentration on it. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Charisma is your spellcasting ability for this feature.</description>
+			<description>You can cast the blur spell without using a spell slot or material components. When you cast the spell in this way, the spell doesnâ€™t require you to maintain concentration on it. You can also cast this spell in the normal way using spell slots you have of the appropriate level. Charisma is your spellcasting ability for this feature.</description>
 		</sheet>
 	</element>
 
@@ -692,17 +692,17 @@
 		<requirements>[level:4]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 4th level</em></p>
-			<p>You’ve manifested the protection and spellcasting emblematic of stone giants, granting you the following benefits:</p>
+			<p>Youâ€™ve manifested the protection and spellcasting emblematic of stone giants, granting you the following benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Dreamer’s Magic.</strong> You learn the <i>detect thoughts</i> spell and one 1st-level spell of your choice. The 1st-level spell must be from the abjuration or the divination school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feature (choose when you gain this feat).</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Dreamerâ€™s Magic.</strong> You learn the <i>detect thoughts</i> spell and one 1st-level spell of your choice. The 1st-level spell must be from the abjuration or the divination school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you canâ€™t cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feature (choose when you gain this feat).</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Mountain Sight.</strong> You gain darkvision out to a range of 60 feet. If you already have darkvision from another source, its range increases by 30 feet.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
-			<select type="Spell" name="1st-level Spell (Dreamer’s Magic)" supports="1,(Abjuration||Divination)" />
-			<select type="Feat Feature" name="Spellcasting Ability (Dreamer’s Magic)" supports="ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_INTELLIGENCE|ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_WISDOM|ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_CHARISMA" />
+			<select type="Spell" name="1st-level Spell (Dreamerâ€™s Magic)" supports="1,(Abjuration||Divination)" />
+			<select type="Feat Feature" name="Spellcasting Ability (Dreamerâ€™s Magic)" supports="ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_INTELLIGENCE|ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_WISDOM|ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_CHARISMA" />
 			<grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
 			<stat name="darkvision:range" value="30" bonus="base"/>
 			<stat name="darkvision:range" value="30"/>
@@ -712,33 +712,33 @@
 	<element name="Intelligence" type="Feat Feature" source="Unearthed Arcana: Giant Options" id="ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat’s spells is Intelligence.</p>
+			<p>Your spellcasting ability for this featâ€™s spells is Intelligence.</p>
 		</description>
-		<sheet alt="Dreamer’s Magic">
-			<description>You can cast detect thoughts and chosen 1st-level spell without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast the spells using any spell slots you have.&#13;
-			Your spellcasting ability for this feat’s spells is Intelligence.</description>
+		<sheet alt="Dreamerâ€™s Magic">
+			<description>You can cast detect thoughts and chosen 1st-level spell without expending a spell slot. Once you cast either of these spells in this way, you canâ€™t cast that spell in this way again until you finish a long rest. You can also cast the spells using any spell slots you have.&#13;
+			Your spellcasting ability for this featâ€™s spells is Intelligence.</description>
 		</sheet>
 	</element>
 
 	<element name="Wisdom" type="Feat Feature" source="Unearthed Arcana: Giant Options" id="ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat’s spells is Wisdom.</p>
+			<p>Your spellcasting ability for this featâ€™s spells is Wisdom.</p>
 		</description>
-		<sheet alt="Dreamer’s Magic">
-			<description>You can cast detect thoughts and chosen 1st-level spell without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast the spells using any spell slots you have.&#13;
-			Your spellcasting ability for this feat’s spells is Wisdom.</description>
+		<sheet alt="Dreamerâ€™s Magic">
+			<description>You can cast detect thoughts and chosen 1st-level spell without expending a spell slot. Once you cast either of these spells in this way, you canâ€™t cast that spell in this way again until you finish a long rest. You can also cast the spells using any spell slots you have.&#13;
+			Your spellcasting ability for this featâ€™s spells is Wisdom.</description>
 		</sheet>
 	</element>
 
 	<element name="Charisma" type="Feat Feature" source="Unearthed Arcana: Giant Options" id="ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat’s spells is Charisma.</p>
+			<p>Your spellcasting ability for this featâ€™s spells is Charisma.</p>
 		</description>
-		<sheet alt="Dreamer’s Magic">
-			<description>You can cast detect thoughts and chosen 1st-level spell without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast the spells using any spell slots you have.&#13;
-			Your spellcasting ability for this feat’s spells is Charisma.</description>
+		<sheet alt="Dreamerâ€™s Magic">
+			<description>You can cast detect thoughts and chosen 1st-level spell without expending a spell slot. Once you cast either of these spells in this way, you canâ€™t cast that spell in this way again until you finish a long rest. You can also cast the spells using any spell slots you have.&#13;
+			Your spellcasting ability for this featâ€™s spells is Charisma.</description>
 		</sheet>
 	</element>
 
@@ -762,7 +762,7 @@
 
 	<element name="Rune Carver Apprentice" type="Feat" source="Unearthed Arcana: Giant Options" id="ID_WOTC_UA20220523_FEAT_RUNE_CARVER_APPRENTICE">
 		<description>
-			<p>You’ve begun studying the art of runecraft, which allows you to temporarily mark your items and imbue them with magic.</p>
+			<p>Youâ€™ve begun studying the art of runecraft, which allows you to temporarily mark your items and imbue them with magic.</p>
 			<p class="indent">Whenever you finish a long rest, you can mark one nonmagical weapon, armor, piece of clothing, or other object you can touch with a rune of your choice. You temporarily learn one 1st-level spell based on the rune you choose, as specified in the Rune Spells table, and you know the spell until you finish a long rest, when the rune fades.</p>
 			<h5>Rune Spells</h5>
 			<table>
@@ -857,26 +857,26 @@
 		<requirements>[level:8]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 8th level</em></p>
-			<p>You’ve manifested divination abilities and tempest magic emblematic of storm giants, granting you the following benefits:</p>
+			<p>Youâ€™ve manifested divination abilities and tempest magic emblematic of storm giants, granting you the following benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Maelstrom Aura.</strong> As a bonus action, you surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts for 1 minute or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the sphere, you can force the creature’s speed to be halved until the start of its next turn. Once you use this bonus action, you can’t do so again until you finish a long rest.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Storm’s Oracle.</strong> You can cast the <i>divination</i> spell as a ritual, without needing material components. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feature (choose when you gain this feat). Once you cast the spell in this way, you can’t do so again until you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Maelstrom Aura.</strong> As a bonus action, you surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts for 1 minute or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the sphere, you can force the creatureâ€™s speed to be halved until the start of its next turn. Once you use this bonus action, you canâ€™t do so again until you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Stormâ€™s Oracle.</strong> You can cast the <i>divination</i> spell as a ritual, without needing material components. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feature (choose when you gain this feat). Once you cast the spell in this way, you canâ€™t do so again until you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Feat Feature" id="ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_MAELSTROM_AURA" />
-			<select type="Feat Feature" name="Spellcasting Ability (Storm’s Oracle)" supports="ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_INTELLIGENCE|ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_WISDOM|ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_CHARISMA" />
+			<select type="Feat Feature" name="Spellcasting Ability (Stormâ€™s Oracle)" supports="ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_INTELLIGENCE|ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_WISDOM|ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_STORMS_ORACLE_CHARISMA" />
 		</rules>
 	</element>
 
 	<element name="Maelstrom Aura" type="Feat Feature" source="Unearthed Arcana: Giant Options" id="ID_WOTC_UA20220523_FEAT_FEATURE_SOUL_OF_THE_STORM_GIANT_MAELSTROM_AURA">
 		<compendium display="false" />
 		<description>
-			<p>As a bonus action, you surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts for 1 minute or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the sphere, you can force the creature’s speed to be halved until the start of its next turn. Once you use this bonus action, you can’t do so again until you finish a long rest.</p>
+			<p>As a bonus action, you surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts for 1 minute or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the sphere, you can force the creatureâ€™s speed to be halved until the start of its next turn. Once you use this bonus action, you canâ€™t do so again until you finish a long rest.</p>
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest">
-			<description>You surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts for 1 minute or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the sphere, you can force the creature’s speed to be halved until the start of its next turn.</description>
+			<description>You surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts for 1 minute or until you are incapacitated. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the sphere, you can force the creatureâ€™s speed to be halved until the start of its next turn.</description>
 		</sheet>
 	</element>
 
@@ -885,7 +885,7 @@
 		<description>
 			<p>Intelligence is your spellcasting ability for the <i>divination</i> spell.</p>
 		</description>
-		<sheet alt="Storm’s Oracle" usage="1/Long Rest">
+		<sheet alt="Stormâ€™s Oracle" usage="1/Long Rest">
 			<description>You can cast the divination spell as a ritual, without needing material components. Intelligence is your spellcasting ability for this feature.</description>
 		</sheet>
 	</element>
@@ -895,7 +895,7 @@
 		<description>
 			<p>Wisdom is your spellcasting ability for the <i>divination</i> spell.</p>
 		</description>
-		<sheet alt="Storm’s Oracle" usage="1/Long Rest">
+		<sheet alt="Stormâ€™s Oracle" usage="1/Long Rest">
 			<description>You can cast the divination spell as a ritual, without needing material components. Wisdom is your spellcasting ability for this feature.</description>
 		</sheet>
 	</element>
@@ -905,7 +905,7 @@
 		<description>
 			<p>Charisma is your spellcasting ability for the <i>divination</i> spell.</p>
 		</description>
-		<sheet alt="Storm’s Oracle" usage="1/Long Rest">
+		<sheet alt="Stormâ€™s Oracle" usage="1/Long Rest">
 			<description>You can cast the divination spell as a ritual, without needing material components. Charisma is your spellcasting ability for this feature.</description>
 		</sheet>
 	</element>
@@ -915,7 +915,7 @@
 		<requirements>[level:4]||ID_WOTC_UA20220523_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><em>Prerequisite: 4th level</em></p>
-			<p>You’ve manifested the resilience emblematic of hill giants, granting you the following benefits:</p>
+			<p>Youâ€™ve manifested the resilience emblematic of hill giants, granting you the following benefits:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Bulwark.</strong> When you are subjected to an effect that would move you at least 5 feet or knock you prone, you can use your reaction to steady yourself. You are then neither moved nor knocked prone.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Hearty Health.</strong> When you are subjected to a spell that restores your hit points, you can regain additional hit points equal to your Constitution modifier. You can regain these additional hit points a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>

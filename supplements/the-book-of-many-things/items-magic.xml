@@ -3,7 +3,7 @@
 	<info>
 		<name>Magic Items from The Book of Many Things</name>
 		<update version="0.0.1">
-			<file name="items-magic.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/the-book-of-many-things/items-magic.xml" />
+			<file name="items-magic.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/the-book-of-many-things/items-magic.xml" />
 		</update>
 	</info>
 
@@ -397,7 +397,7 @@
 			</table>
 			<p class="indent">* Found in the Deck of Many Things as depicted in the <i>Dungeon Master's Guide</i></p>
 			<p><strong><em>Aberration.</em></strong> You gain telepathy within a range of 90 feet.</p>
-			<p><strong><em>Beast.</em></strong> You immediately transform into a random Beast with a CR of 5 or lower. Your game statistics—including your ability scores, hit points, and possible actions—are replaced by the Beast's game statistics, and any nonmagical equipment you're wearing or carrying melds into your new form and can't be used. Any magic items you're carrying drop in an unoccupied space within 5 feet of your new form.</p>
+			<p><strong><em>Beast.</em></strong> You immediately transform into a random Beast with a CR of 5 or lower. Your game statisticsâ€”including your ability scores, hit points, and possible actionsâ€”are replaced by the Beast's game statistics, and any nonmagical equipment you're wearing or carrying melds into your new form and can't be used. Any magic items you're carrying drop in an unoccupied space within 5 feet of your new form.</p>
 			<p class="indent">You remain transformed in this way for 2d12 days; nothing can alter your form while you're under the effects of this card, but the Wish spell can end the transformation early. When you revert to your normal form, you return to the same state you were in when you initially transformed.</p>
 			<p><strong><em>Book.</em></strong> You gain the ability to speak, read, and write 1d6 + 2 languages of your choice.</p>
 			<p><strong><em>Bridge.</em></strong> You gain the ability to cast the Time Stop spell 1d3 times. Use your Intelligence, Wisdom, or Charisma as the spellcasting ability (your choice).</p>
@@ -424,7 +424,7 @@
 			<p><strong><em>Monstrosity.</em></strong> A Large or larger Monstrosity with a challenge rating of 10 or less (chosen by the DM) appears in an unoccupied space within 15 feet of you. The creature is hostile toward you and attacks immediately. The creature disappears when it is killed or when you are reduced to 0 hit points. If there isn't enough space for a Large or larger creature to appear, this card has no effect.</p>
 			<p><strong><em>Ooze.</em></strong> A gelatinous cube immediately appears in your space and engulfs you. The gelatinous cube is hostile and remains until it is destroyed. If there isn't enough space for the gelatinous cube to appear, this card has no effect.</p>
 			<p><strong><em>Path.</em></strong> Your walking speed increases by 10 feet.</p>
-			<p><strong><em>Pit.</em></strong> A pit opens beneath you. You plummet 3d6 × 10 feet, take damage from the fall, and have the prone condition.</p>
+			<p><strong><em>Pit.</em></strong> A pit opens beneath you. You plummet 3d6 Ã— 10 feet, take damage from the fall, and have the prone condition.</p>
 			<p><strong><em>Plant.</em></strong> You gain the ability to cast Speak with Plants without using a spell slot; you must finish a long rest before you can cast it this way again. If you have spell slots of 3rd level or higher, you can cast this spell using them. Use your Intelligence, Wisdom, or Charisma as the spellcasting ability (your choice).</p>
 			<p><strong><em>Priest.</em></strong> Your Wisdom score increases by 2, to a maximum of 22.</p>
 			<p><strong><em>Prisoner.</em></strong> Glowing chains made of magical force appear and wrap around you. You have the restrained condition until the chains are destroyed or you are freed. While you have this condition, you can't cast spells, and any magic items you're wearing or carrying have their properties suppressed. You draw no more cards. The chains are immune to damage and can't be dispelled using the Dispel Magic spell or similar magic. However, a Disintegrate spell destroys the chains instantly, freeing you. Another creature can also free you by succeeding on a DC 30 Dexterity check using thieves' tools.</p>
@@ -462,38 +462,38 @@
 				<thead>
 					<tr><td class="col-10" style="text-align:center">Card</td><td>Item</td></tr>
 				</thead>
-				<tr><td style="text-align:center">3 <span style="color:red">♦</span></td><td>Wooden abacus</td></tr>
-				<tr><td style="text-align:center">4 <span style="color:red">♦</span></td><td>Four vials of perfume</td></tr>
-				<tr><td style="text-align:center">5 <span style="color:red">♦</span></td><td>5 days' worth of rations</td></tr>
-				<tr><td style="text-align:center">6 <span style="color:red">♦</span></td><td>Iron pot</td></tr>
-				<tr><td style="text-align:center">7 <span style="color:red">♦</span></td><td>Disguise kit</td></tr>
-				<tr><td style="text-align:center">8 <span style="color:red">♦</span></td><td>Window (up to 5 feet wide and 5 feet high), which you can place on a vertical surface up to 5 feet thick and which allows you to look through the surface</td></tr>
-				<tr><td style="text-align:center">9 <span style="color:red">♦</span></td><td>Manacles</td></tr>
-				<tr><td style="text-align:center">10 <span style="color:red">♦</span></td><td>Ten sheets of parchment</td></tr>
-				<tr><td style="text-align:center">3 <span style="color:red">♥</span></td><td>Three daggers</td></tr>
-				<tr><td style="text-align:center">4 <span style="color:red">♥</span></td><td>Four flasks of oil</td></tr>
-				<tr><td style="text-align:center">5 <span style="color:red">♥</span></td><td>Five silk robes</td></tr>
-				<tr><td style="text-align:center">6 <span style="color:red">♥</span></td><td>Forgery kit</td></tr>
-				<tr><td style="text-align:center">7 <span style="color:red">♥</span></td><td>Quarterstaff</td></tr>
-				<tr><td style="text-align:center">8 <span style="color:red">♥</span></td><td>Fishing tackle</td></tr>
-				<tr><td style="text-align:center">9 <span style="color:red">♥</span></td><td>Leather pouch containing 18 gp</td></tr>
-				<tr><td style="text-align:center">10 <span style="color:red">♥</span></td><td>10 crossbow bolts</td></tr>
-				<tr><td style="text-align:center">3 ♣</td><td>Three books, written in Common, about random historical events</td></tr>
-				<tr><td style="text-align:center">4 ♣</td><td>Canvas tent</td></tr>
-				<tr><td style="text-align:center">5 ♣</td><td>50 feet of coiled silk rope</td></tr>
-				<tr><td style="text-align:center">6 ♣</td><td>Two crowbars</td></tr>
-				<tr><td style="text-align:center">7 ♣</td><td>Healer's kit</td></tr>
-				<tr><td style="text-align:center">8 ♣</td><td>Eight gems worth 5 gp each</td></tr>
-				<tr><td style="text-align:center">9 ♣</td><td>Lamp</td></tr>
-				<tr><td style="text-align:center">10 ♣</td><td>10 feet of iron chain</td></tr>
-				<tr><td style="text-align:center">3 ♠</td><td>Three spears</td></tr>
-				<tr><td style="text-align:center">4 ♠</td><td>Steel mirror</td></tr>
-				<tr><td style="text-align:center">5 ♠</td><td>15-foot wooden pole</td></tr>
-				<tr><td style="text-align:center">6 ♠</td><td>Burlap sack</td></tr>
-				<tr><td style="text-align:center">7 ♠</td><td>Two sets of fine clothes</td></tr>
-				<tr><td style="text-align:center">8 ♠</td><td>Shovel</td></tr>
-				<tr><td style="text-align:center">9 ♠</td><td>Light hammer</td></tr>
-				<tr><td style="text-align:center">10 ♠</td><td>Ten arrows</td></tr>
+				<tr><td style="text-align:center">3 <span style="color:red">â™¦</span></td><td>Wooden abacus</td></tr>
+				<tr><td style="text-align:center">4 <span style="color:red">â™¦</span></td><td>Four vials of perfume</td></tr>
+				<tr><td style="text-align:center">5 <span style="color:red">â™¦</span></td><td>5 days' worth of rations</td></tr>
+				<tr><td style="text-align:center">6 <span style="color:red">â™¦</span></td><td>Iron pot</td></tr>
+				<tr><td style="text-align:center">7 <span style="color:red">â™¦</span></td><td>Disguise kit</td></tr>
+				<tr><td style="text-align:center">8 <span style="color:red">â™¦</span></td><td>Window (up to 5 feet wide and 5 feet high), which you can place on a vertical surface up to 5 feet thick and which allows you to look through the surface</td></tr>
+				<tr><td style="text-align:center">9 <span style="color:red">â™¦</span></td><td>Manacles</td></tr>
+				<tr><td style="text-align:center">10 <span style="color:red">â™¦</span></td><td>Ten sheets of parchment</td></tr>
+				<tr><td style="text-align:center">3 <span style="color:red">â™¥</span></td><td>Three daggers</td></tr>
+				<tr><td style="text-align:center">4 <span style="color:red">â™¥</span></td><td>Four flasks of oil</td></tr>
+				<tr><td style="text-align:center">5 <span style="color:red">â™¥</span></td><td>Five silk robes</td></tr>
+				<tr><td style="text-align:center">6 <span style="color:red">â™¥</span></td><td>Forgery kit</td></tr>
+				<tr><td style="text-align:center">7 <span style="color:red">â™¥</span></td><td>Quarterstaff</td></tr>
+				<tr><td style="text-align:center">8 <span style="color:red">â™¥</span></td><td>Fishing tackle</td></tr>
+				<tr><td style="text-align:center">9 <span style="color:red">â™¥</span></td><td>Leather pouch containing 18 gp</td></tr>
+				<tr><td style="text-align:center">10 <span style="color:red">â™¥</span></td><td>10 crossbow bolts</td></tr>
+				<tr><td style="text-align:center">3 â™£</td><td>Three books, written in Common, about random historical events</td></tr>
+				<tr><td style="text-align:center">4 â™£</td><td>Canvas tent</td></tr>
+				<tr><td style="text-align:center">5 â™£</td><td>50 feet of coiled silk rope</td></tr>
+				<tr><td style="text-align:center">6 â™£</td><td>Two crowbars</td></tr>
+				<tr><td style="text-align:center">7 â™£</td><td>Healer's kit</td></tr>
+				<tr><td style="text-align:center">8 â™£</td><td>Eight gems worth 5 gp each</td></tr>
+				<tr><td style="text-align:center">9 â™£</td><td>Lamp</td></tr>
+				<tr><td style="text-align:center">10 â™£</td><td>10 feet of iron chain</td></tr>
+				<tr><td style="text-align:center">3 â™ </td><td>Three spears</td></tr>
+				<tr><td style="text-align:center">4 â™ </td><td>Steel mirror</td></tr>
+				<tr><td style="text-align:center">5 â™ </td><td>15-foot wooden pole</td></tr>
+				<tr><td style="text-align:center">6 â™ </td><td>Burlap sack</td></tr>
+				<tr><td style="text-align:center">7 â™ </td><td>Two sets of fine clothes</td></tr>
+				<tr><td style="text-align:center">8 â™ </td><td>Shovel</td></tr>
+				<tr><td style="text-align:center">9 â™ </td><td>Light hammer</td></tr>
+				<tr><td style="text-align:center">10 â™ </td><td>Ten arrows</td></tr>
 			</table>
 		</description>
 		<setters>
@@ -534,10 +534,10 @@
 				<thead>
 					<tr><td class="col-10">d4</td><td class="col-10">Suit</td><td>Effect</td></tr>
 				</thead>
-				<tr><td>1</td><td>♣ (Rods)</td><td>The card explodes in a burst of fire. The target and each creature within 5 feet of it must succeed on a DC 15 Dexterity saving throw or take 2d8 fire damage.</td></tr>
-				<tr><td>2</td><td><span style="color:red">♦</span> (Coins)</td><td>The card shoots streaks of lightning. The target must make a DC 15 Dexterity saving throw. On a failed save, the target has the blinded condition until the end of your next turn, and each creature within 10 feet of the target takes 1d6 lightning damage.</td></tr>
-				<tr><td>3</td><td><span style="color:red">♥</span> (Cups)</td><td>The card covers the target in a thick layer of ice. The target takes 1d10 cold damage and must succeed on a DC 15 Constitution saving throw or have the restrained condition until the end of your next turn.</td></tr>
-				<tr><td>4</td><td>♠ (Swords)</td><td>The card unleashes a sharp, concussive blast. The target and each creature within 5 feet of it take 1d6 force damage and must succeed on a DC 15 Strength saving throw or have the prone condition.</td></tr>
+				<tr><td>1</td><td>â™£ (Rods)</td><td>The card explodes in a burst of fire. The target and each creature within 5 feet of it must succeed on a DC 15 Dexterity saving throw or take 2d8 fire damage.</td></tr>
+				<tr><td>2</td><td><span style="color:red">â™¦</span> (Coins)</td><td>The card shoots streaks of lightning. The target must make a DC 15 Dexterity saving throw. On a failed save, the target has the blinded condition until the end of your next turn, and each creature within 10 feet of the target takes 1d6 lightning damage.</td></tr>
+				<tr><td>3</td><td><span style="color:red">â™¥</span> (Cups)</td><td>The card covers the target in a thick layer of ice. The target takes 1d10 cold damage and must succeed on a DC 15 Constitution saving throw or have the restrained condition until the end of your next turn.</td></tr>
+				<tr><td>4</td><td>â™  (Swords)</td><td>The card unleashes a sharp, concussive blast. The target and each creature within 5 feet of it take 1d6 force damage and must succeed on a DC 15 Strength saving throw or have the prone condition.</td></tr>
 			</table>
 		</description>
 		<setters>
@@ -561,28 +561,28 @@
 				<thead>
 					<tr><td class="col-25" style="text-align:center">Card</td><td>Card Title</td></tr>
 				</thead>
-				<tr><td style="text-align:center">A <span style="color:red">♦</span></td><td>Chancellor*</td></tr>
-				<tr><td style="text-align:center">K <span style="color:red">♦</span></td><td>Day</td></tr>
-				<tr><td style="text-align:center">Q <span style="color:red">♦</span></td><td>Night</td></tr>
-				<tr><td style="text-align:center">J <span style="color:red">♦</span></td><td>Dawn</td></tr>
-				<tr><td style="text-align:center">2 <span style="color:red">♦</span></td><td>Dusk*</td></tr>
-				<tr><td style="text-align:center">A <span style="color:red">♥</span></td><td>Destiny*</td></tr>
-				<tr><td style="text-align:center">K <span style="color:red">♥</span></td><td>Crown</td></tr>
-				<tr><td style="text-align:center">Q <span style="color:red">♥</span></td><td>Lock</td></tr>
-				<tr><td style="text-align:center">J <span style="color:red">♥</span></td><td>Champion</td></tr>
-				<tr><td style="text-align:center">2 <span style="color:red">♥</span></td><td>Coin*</td></tr>
-				<tr><td style="text-align:center">A ♣</td><td>Vulture*</td></tr>
-				<tr><td style="text-align:center">K ♣</td><td>Chaos</td></tr>
-				<tr><td style="text-align:center">Q ♣</td><td>Order</td></tr>
-				<tr><td style="text-align:center">J ♣</td><td>Beginning</td></tr>
-				<tr><td style="text-align:center">2 ♣</td><td>Mystery*</td></tr>
-				<tr><td style="text-align:center">A ♠</td><td>Isolation*</td></tr>
-				<tr><td style="text-align:center">K ♠</td><td>End</td></tr>
-				<tr><td style="text-align:center">Q ♠</td><td>Monster</td></tr>
-				<tr><td style="text-align:center">J ♠</td><td>Knife</td></tr>
-				<tr><td style="text-align:center">2 ♠</td><td>Justice*</td></tr>
-				<tr><td style="text-align:center">Joker (with ™)</td><td>Student*</td></tr>
-				<tr><td style="text-align:center">Joker (without ™)</td><td>Mischief</td></tr>
+				<tr><td style="text-align:center">A <span style="color:red">â™¦</span></td><td>Chancellor*</td></tr>
+				<tr><td style="text-align:center">K <span style="color:red">â™¦</span></td><td>Day</td></tr>
+				<tr><td style="text-align:center">Q <span style="color:red">â™¦</span></td><td>Night</td></tr>
+				<tr><td style="text-align:center">J <span style="color:red">â™¦</span></td><td>Dawn</td></tr>
+				<tr><td style="text-align:center">2 <span style="color:red">â™¦</span></td><td>Dusk*</td></tr>
+				<tr><td style="text-align:center">A <span style="color:red">â™¥</span></td><td>Destiny*</td></tr>
+				<tr><td style="text-align:center">K <span style="color:red">â™¥</span></td><td>Crown</td></tr>
+				<tr><td style="text-align:center">Q <span style="color:red">â™¥</span></td><td>Lock</td></tr>
+				<tr><td style="text-align:center">J <span style="color:red">â™¥</span></td><td>Champion</td></tr>
+				<tr><td style="text-align:center">2 <span style="color:red">â™¥</span></td><td>Coin*</td></tr>
+				<tr><td style="text-align:center">A â™£</td><td>Vulture*</td></tr>
+				<tr><td style="text-align:center">K â™£</td><td>Chaos</td></tr>
+				<tr><td style="text-align:center">Q â™£</td><td>Order</td></tr>
+				<tr><td style="text-align:center">J â™£</td><td>Beginning</td></tr>
+				<tr><td style="text-align:center">2 â™£</td><td>Mystery*</td></tr>
+				<tr><td style="text-align:center">A â™ </td><td>Isolation*</td></tr>
+				<tr><td style="text-align:center">K â™ </td><td>End</td></tr>
+				<tr><td style="text-align:center">Q â™ </td><td>Monster</td></tr>
+				<tr><td style="text-align:center">J â™ </td><td>Knife</td></tr>
+				<tr><td style="text-align:center">2 â™ </td><td>Justice*</td></tr>
+				<tr><td style="text-align:center">Joker (with â„¢)</td><td>Student*</td></tr>
+				<tr><td style="text-align:center">Joker (without â„¢)</td><td>Mischief</td></tr>
 			</table>
 			<p class="indent">* Found only in twenty-two card decks.</p>
 			<p><strong><em>Beginning.</em></strong> Your hit point maximum and current hit points increase by 2d10. Your hit point maximum remains increased in this way for the next 8 hours.</p>
@@ -1007,7 +1007,7 @@
 		</setters>
 	</element>
 
-	<element name="Rod of Hellish Flames" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ROD_OF_HELLISH_FLAMES">
+	<element name="Rod of Hellish Flames" type="Magic Item" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ROD_OF_HELLISH_FLAMES">
 		<description>
 			<p>Glowing cinders orbit the flanged head of this black iron rod.</p>
 			<p class="indent">This rod can be used as an arcane focus. While holding this rod, you gain the following benefits:</p>
@@ -1461,7 +1461,7 @@
 		</setters>
 	</element>
 
-	<element name="Voidwalker Armor" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_VOIDWALKER_ARMOR">
+	<element name="Voidwalker Armor" type="Magic Item" source="Dungeon Masterâ€™s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_VOIDWALKER_ARMOR">
 		<description>
 			<p>This black studded leather armor bears a red sheen. While wearing this armor, you can use a bonus action to summon a projection of yourself in an unoccupied space within 30 feet of yourself. The projection is a translucent copy of you that has immunity to all damage and conditions, and you can make attacks and cast spells with a range other than self as if standing in the projection's space. The projection disappears at the end of your turn. Once you use this bonus action, it can't be used again until the next dawn.</p>
 			<p class="indent"><b><i>Curse.</i></b> This armor is cursed, and attuning to it extends the curse to you. As long as you remain cursed, you're unwilling to part with the armor. Taking it off fails to end the curse. While cursed in this way, you feel disconnected from your body, continuously hearing whispers that call for you to join them. Whenever you finish a long rest while cursed, you must make a DC 11 Charisma saving throw. On a failed save, your soul is drawn from your body and trapped in an object on a different plane of existence. The object and location of this object are chosen by the DM (but might be the House of Cards; see chapter 18). While your soul is trapped in this way, your body is inert and doesn't age or require sustenance. Destroying the object frees your soul; otherwise, only a Wish spell can restore your soul to your body.</p>

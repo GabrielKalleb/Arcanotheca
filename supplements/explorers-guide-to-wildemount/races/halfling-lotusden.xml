@@ -2,15 +2,15 @@
 <elements>
 	<info>
 		<update version="0.0.3">
-			<file name="halfling-lotusden.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/explorers-guide-to-wildemount/races/halfling-lotusden.xml" />
+			<file name="halfling-lotusden.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/explorers-guide-to-wildemount/races/halfling-lotusden.xml" />
 		</update>
 	</info>	
-	<element name="Lotusden Halfling" type="Sub Race" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SUB_RACE_LOTUSDEN_HALFLING">
+	<element name="Lotusden Halfling" type="Sub Race" source="Explorerâ€™s Guide to Wildemount" id="ID_WOTC_EGTW_SUB_RACE_LOTUSDEN_HALFLING">
 		<supports>Halfling</supports>
 		<description>
 			<p>Long tied to the natural heart of the Lotusden Greenwood, these halflings have adapted to live synergistically with the chaotic laws of the wilds.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
-			<p class="indent"><strong><em>Child of the Wood.</em></strong> You know the <em>druidcraft</em> cantrip. When you reach 3rd level, you can cast the <em>entangle</em> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <em>spike growth</em> spell once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn’t require material components. Wisdom is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Child of the Wood.</em></strong> You know the <em>druidcraft</em> cantrip. When you reach 3rd level, you can cast the <em>entangle</em> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <em>spike growth</em> spell once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesnâ€™t require material components. Wisdom is your spellcasting ability for these spells.</p>
 			<p class="indent"><strong><em>Timberwalk.</em></strong> Ability checks made to track you have disadvantage, and you can move across difficult terrain made of nonmagical plants and undergrowth without expending extra movement.</p>
 		</description>
 		<sheet display="false" />
@@ -21,9 +21,9 @@
 			<grant type="Racial Trait" id="ID_WOTC_EGTW_RACIAL_TRAIT_LOTUSDEN_TIMBERWALK" />
 		</rules>
 	</element>
-	<element name="Child of the Wood" type="Racial Trait" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_RACIAL_TRAIT_LOTUSDEN_CHILD_OF_THE_WOOD">
+	<element name="Child of the Wood" type="Racial Trait" source="Explorerâ€™s Guide to Wildemount" id="ID_WOTC_EGTW_RACIAL_TRAIT_LOTUSDEN_CHILD_OF_THE_WOOD">
 		<description>
-			<p>You know the <em>druidcraft</em> cantrip. When you reach 3rd level, you can cast the <em>entangle</em> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <em>spike growth</em> spell once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn’t require material components. Wisdom is your spellcasting ability for these spells.</p>
+			<p>You know the <em>druidcraft</em> cantrip. When you reach 3rd level, you can cast the <em>entangle</em> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <em>spike growth</em> spell once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesnâ€™t require material components. Wisdom is your spellcasting ability for these spells.</p>
 		</description>
 		<sheet>
 			<description>You know the druidcraft cantrip.</description>
@@ -34,7 +34,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" />
 		</rules>
 	</element>
-	<element name="Timberwalk" type="Racial Trait" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_RACIAL_TRAIT_LOTUSDEN_TIMBERWALK">
+	<element name="Timberwalk" type="Racial Trait" source="Explorerâ€™s Guide to Wildemount" id="ID_WOTC_EGTW_RACIAL_TRAIT_LOTUSDEN_TIMBERWALK">
 		<description>
 			<p>Ability checks made to track you have disadvantage, and you can move across difficult terrain made of nonmagical plants and undergrowth without expending extra movement.</p>
 		</description>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/rime-of-the-frostmaiden/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/GabrielKalleb/Arcanotheca/main/supplements/rime-of-the-frostmaiden/items.xml" />
 		</update>
 	</info>	
 	<element name="Snowshoes" type="Item" source="Icewind Dale: Rime of the Frostmaiden" id="ID_WOTC_IDROTF_ITEM_SNOWSHOES">
@@ -18,7 +18,7 @@
 	</element>
 	<element name="The Incantations of Iriolarthas" type="Item" source="Icewind Dale: Rime of the Frostmaiden" id="ID_WOTC_IDROTF_ITEM_THE_INCANTATIONS_OF_IRIOLARTHAS">
 		<description>
-			<p>The Incantations of Iriolarthas is a weighty spellbook. Its black leather covers have dead, toothy worms glued to them, sheathed in glossy varnish. Set into this morbid display on the front cover is a gold rune that resembles a stylized eye with a pupil shaped like a candle flame—the sigil of Iriolarthas, a Netherese lich.</p>
+			<p>The Incantations of Iriolarthas is a weighty spellbook. Its black leather covers have dead, toothy worms glued to them, sheathed in glossy varnish. Set into this morbid display on the front cover is a gold rune that resembles a stylized eye with a pupil shaped like a candle flameâ€”the sigil of Iriolarthas, a Netherese lich.</p>
 			<p class="indent">The book contains sixty pages of brittle yellow vellum. Written on these pages are the following wizard spells:</p>
 			<p class="indent"><strong><em>1st level: </em></strong> alarm, detect magic, identify, magic missile, shield, Tasha's hideous laughter, thunderwave</p>
 			<p class="indent"><strong><em>2nd level: </em></strong> arcane lock, continual flame, invisibility, knock, levitate, Melf's acid arrow, mirror image</p>
@@ -79,7 +79,7 @@
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">50</set>
-			<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">â€”</set>
 			<set name="type">Mount</set>
 		</setters>
 	</element> 
@@ -92,13 +92,13 @@
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">50</set>
-			<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">â€”</set>
 			<set name="type">Mount</set>
 		</setters>
 	</element>
 	<element name="Abracadabrus" type="Magic Item" source="Icewind Dale: Rime of the Frostmaiden" id="ID_WOTC_IDROTF_MAGIC_ITEM_ABRACADABRUS">
 		<description>
-			<p>An abracadabrus is an ornate, gemstone-studded wooden chest that weighs 25 pounds while empty. Its interior compartment is a cube measuring 1½ feet on a side.</p>
+			<p>An abracadabrus is an ornate, gemstone-studded wooden chest that weighs 25 pounds while empty. Its interior compartment is a cube measuring 1Â½ feet on a side.</p>
 			<p class="indent">The chest has 20 charges. A creature can use an action to touch the closed lid of the chest and expend 1 of the chest's charges while naming one or more nonmagical objects (including raw materials, foodstuffs, and liquids) worth a total of 1 gp or less. The named objects magically appear in the chest, provided they can all fit inside it and the chest doesn't contain anything else. For example, the chest can conjure a plate of strawberries, a bowl of hot soup, a flagon of water, a stuffed animal, or a bag of twenty caltrops. Food and drink conjured by the chest are delicious, and they spoil if not consumed after 24 hours. Gems and precious metals created by the chest disappear after 1 minute.</p>
 			<p class="indent">The chest regains 1d20 expended charges daily at dawn. If the item's last charge is expended, roll a d20. On a 1, the chest loses its magic (becoming an ordinary chest), and its gemstones turn to dust.</p>
 		</description>
@@ -112,7 +112,7 @@
 	</element>
 	<element name="Cauldron of Plenty" type="Magic Item" source="Icewind Dale: Rime of the Frostmaiden" id="ID_WOTC_IDROTF_MAGIC_ITEM_CAULDRON_OF_PLENTY">
 		<description>
-			<p>This cauldron is made of thick copper that has turned green with age. It is 4 feet wide, has a mouth 3½ feet in diameter, weighs 50 pounds, and can hold up to 30 gallons of liquid. Embossed on its bulging sides are images of satyrs and nymphs in repose, holding ladles. The cauldron comes with a lid and has side handles. It sits on five little clawed feet that keep it from tipping.</p>
+			<p>This cauldron is made of thick copper that has turned green with age. It is 4 feet wide, has a mouth 3Â½ feet in diameter, weighs 50 pounds, and can hold up to 30 gallons of liquid. Embossed on its bulging sides are images of satyrs and nymphs in repose, holding ladles. The cauldron comes with a lid and has side handles. It sits on five little clawed feet that keep it from tipping.</p>
 			<p class="indent">If water is poured into the cauldron and stirred for 1 minute, it transforms into a hearty, hot stew, which can provide one nourishing meal for up to four people per gallon. The stew remains hot while in the cauldron, then cools naturally after it is removed. The outside of the cauldron remains safe to touch despite the heat of the stew.</p>
 			<p class="indent">The cauldron can create stew three times. It then ceases to function until the next dawn, when it regains all its uses.</p>
 		</description>
@@ -314,7 +314,7 @@
 	<element name="Ythryn Mythallar" type="Magic Item" source="Icewind Dale: Rime of the Frostmaiden" id="ID_WOTC_IDROTF_MAGIC_ITEM_YTHRYN_MYTHALLAR">
 		<description>
 			<p>A mythallar looks like an enormous crystal ball held in an ornate cradle. The globe sheds bright light in a 300-foot radius and dim light for an additional 300 feet. The globe draws magic from the Weave that can be harnessed for various purposes. For example, Netherese mages used mythallars to keep their cities aloft and empower their magic items. The bigger the mythallar, the more magic it can hold. The largest mythallars are 150 feet in diameter.</p>
-			<p class="indent">The Ythryn mythallar is a relatively small device—a mere 50 feet in diameter. To attune to this mythallar, a creature must finish a short rest within 30 feet of it, meditating on the mythallar. Up to eight creatures can be attuned to it at one time; otherwise, the Ythryn mythallar follows the attunement rules in the Dungeon Master's Guide. If a ninth creature tries to attune to the mythallar, nothing happens.</p>
+			<p class="indent">The Ythryn mythallar is a relatively small deviceâ€”a mere 50 feet in diameter. To attune to this mythallar, a creature must finish a short rest within 30 feet of it, meditating on the mythallar. Up to eight creatures can be attuned to it at one time; otherwise, the Ythryn mythallar follows the attunement rules in the Dungeon Master's Guide. If a ninth creature tries to attune to the mythallar, nothing happens.</p>
 			<p class="indent">All creatures attuned to the Ythryn mythallar can sense when the device is being used. A creature attuned to the device can use any of its properties, but only if all other creatures attuned to the device agree to allow it. The Ythryn mythallar's properties are as follows:</p>
 			<ul>
 				<li>While you're on the same plane of existence as the Ythryn mythallar, you can use an action to cause it to fly in any direction you choose at a speed of 30 feet. All matter within 500 feet of the device moves with it. The Ythryn mythallar and all structures held aloft by it hover in place when not in motion.</li>
