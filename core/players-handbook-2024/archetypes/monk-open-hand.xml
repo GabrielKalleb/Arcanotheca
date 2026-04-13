@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Guerreiro da Mão Aberta</name>
+		<description>A subclasse Guerreiro da Mão Aberta do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="monk-open-hand.xml" url="https://raw.githubusercontent.com/AuroraLegacy/open-hand/master/core/players-handbook-2024/archetypes/monk-open-hand.xml" />
+		</update>
+	</info>
+
+	<element name="Guerreiro da Mão Aberta" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_MONK_WARRIOR_OF_THE_OPEN_HAND">
+		<supports>Monk Subclass</supports>
+		<description>
+			<p class="flavor">Domine Técnicas de Combate Desarmado</p>
+			<p>Guerreiros da Mão Aberta são mestres em combate desarmado. Eles aprendem técnicas para empurrar e derrubar seus oponentes, além de manipular sua própria energia para se proteger de danos.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_WHOLENESS_OF_BODY"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_FLEET_STEP"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_QUIVERING_PALM"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_WHOLENESS_OF_BODY" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_FLEET_STEP" level="11"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_QUIVERING_PALM" level="17"/>
+		</rules>
+	</element>
+
+	<element name="Nível 3: Técnica da Mão Aberta" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE</requirements>
+		<description>
+			<p>Sempre que atingir uma criatura com um ataque concedido por sua Rajada de Golpes, você pode impor um dos seguintes efeitos àquele alvo.</p>
+			<p class="indent"><em><strong>Confundir.</strong></em> O alvo não pode fazer Ataques de Oportunidade até o início de seu próximo turno.</p>
+			<p class="indent"><em><strong>Empurrar.</strong></em> O alvo deve ser bem-sucedido num teste de resistência de Força ou será empurrado a até 4,5 metros (15 pés) de você.</p>
+			<p class="indent"><em><strong>Derrubar.</strong></em> O alvo deve ser bem-sucedido num teste de resistência de Destreza ou sofrerá a condição Caído.</p>
+		</description>
+		<sheet alt="Técnica da Mão Aberta">
+			<description>Ao atingir usando sua Rajada de Golpes, você pode forçar um dos seguintes efeitos no alvo: &#13;
+			• Ele não pode fazer Ataques de Oportunidade até o início de seu próximo turno. &#13;
+			• Ele deve ser bem-sucedido num teste de resistência de Força CD {{monks focus:dc}} ou será empurrado a até 4,5m de você. &#13;
+			• Ele deve ser bem-sucedido num teste de resistência de Destreza CD {{monks focus:dc}} ou sofrerá a condição Caído.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 6: Integridade Corporal" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_WHOLENESS_OF_BODY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_OPEN_HAND_WHOLENESS_OF_BODY</requirements>
+		<description>
+			<p>Você ganha a habilidade de curar a si mesmo. Como uma Ação Bônus, você pode rolar seu dado de Artes Marciais. Você recupera um número de Pontos de Vida igual ao número rolado mais seu modificador de Sabedoria (mínimo de 1 Ponto de Vida recuperado).</p>
+			<p class="indent">Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e você recupera todos os usos gastos quando termina um Descanso Longo.</p>
+		</description>
+		<sheet alt="Integridade Corporal" action="Ação Bônus" usage="{{wholeness of body:usage}}/Descanso Longo">
+			<description>Você recupera 1d{{martial arts:dice}}+{{wisdom:modifier}} PVs (mínimo de 1).</description>
+		</sheet>
+		<rules>
+			<stat name="wholeness of body:usage" value="1" bonus="base" />
+			<stat name="wholeness of body:usage" value="wisdom:modifier" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 11: Passo Veloz" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_FLEET_STEP">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_OPEN_HAND_FLEET_STEP</requirements>
+		<description>
+			<p>Quando você realiza uma Ação Bônus diferente de Passo do Vento, você também pode usar Passo do Vento imediatamente após essa Ação Bônus.</p>
+		</description>
+		<sheet alt="Passo Veloz">
+			<description>Quando você realiza uma Ação Bônus diferente de Passo do Vento, você também pode usar Passo do Vento imediatamente após essa Ação Bônus.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 17: Palma Vibrante" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_QUIVERING_PALM">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_OPEN_HAND_QUIVERING_PALM</requirements>
+		<description>
+			<p>Você ganha a habilidade de estabelecer vibrações letais no corpo de alguém. Quando atingir uma criatura com um Ataque Desarmado, você pode gastar 4 Pontos de Foco para iniciar essas vibrações imperceptíveis, que duram por um número de dias igual ao seu nível de Monge. As vibrações são inofensivas a menos que você tome uma ação para encerrá-las. Alternativamente, quando você usa a ação de Ataque no seu turno, pode abdicar de um dos ataques para encerrar as vibrações. Para encerrá-las, você e o alvo devem estar no mesmo plano de existência. Ao encerrá-las, o alvo deve fazer um teste de resistência de Constituição, sofrendo 10d12 de dano de Força numa falha, ou metade desse dano num sucesso.</p>
+			<p class="indent">Você só pode ter uma criatura sob o efeito desta característica por vez. Você pode terminar as vibrações de forma inofensiva (não requer ação).</p>
+		</description>
+		<sheet alt="Palma Vibrante" usage="4 Pontos de Foco" >
+			<description>Ao atingir uma criatura com um Ataque Desarmado, você pode iniciar vibrações imperceptíveis, que duram por {{level:monk}} dias. As vibrações são inofensivas a menos que você tome uma ação ou abdique de um dos ataques para encerrá-las. Para encerrá-las, você e o alvo devem estar no mesmo plano de existência. Ao encerrá-las, o alvo deve fazer um teste de resistência de Constituição CD {{monks focus:dc}}, sofrendo 10d12 de dano de Força em uma falha ou metade desse dano em um sucesso. Você só pode ter uma criatura sob o efeito desta característica de cada vez. Você pode encerrar as vibrações de forma inofensiva (não requer ação).</description>
+		</sheet>
+	</element>
+
+	<element name="Open Hand Technique Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE" />
+	<element name="Wholeness of Body Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_OPEN_HAND_WHOLENESS_OF_BODY" />
+	<element name="Fleet Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_OPEN_HAND_FLEET_STEP" />
+	<element name="Quivering Palm Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_OPEN_HAND_QUIVERING_PALM" />
+</elements>

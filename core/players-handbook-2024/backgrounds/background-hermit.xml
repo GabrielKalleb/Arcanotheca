@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Eremita</name>
+		<description>O antecedente Eremita do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="background-hermit.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/background-hermit.xml" />
+		</update>
+	</info>
+
+	<element name="Eremita" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_HERMIT">
+		<description>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+				<li><strong>Valores de Habilidade:</strong> Constituição, Sabedoria, Carisma</li>
+				<li><strong>Talento:</strong> Curandeiro</li>
+				<li><strong>Proficiências em Perícias:</strong> Medicina e Religião</li>
+				<li><strong>Proficiência em Ferramenta:</strong> Kit de Herbalismo</li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Bordão, Kit de Herbalismo, Saco de Dormir, Livro (filosofia), Lâmpada, Óleo (3 frascos), Roupas de Viajante, 16 PC; ou (B) 50 PO</li>
+			</ul>
+			<p>Você passou seus primeiros anos isolado em uma cabana ou monastério localizado bem além dos limites do assentamento mais próximo. Naqueles dias, seus únicos companheiros eram as criaturas da floresta e aqueles que ocasionalmente o visitavam para trazer notícias do mundo exterior e suprimentos. A solidão permitiu que você passasse muitas horas ponderando sobre os mistérios da criação.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_FEAT_HEALER" />
+			</div>
+		</description>
+		<setters>
+			<set name="short">Constituição, Sabedoria, Carisma, Talento Curandeiro, Perícias Medicina e Religião, Kit de Herbalismo</set>
+		</setters>
+		<rules>
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_WIS_CHA" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_HEALER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+		</rules>
+	</element>
+</elements>

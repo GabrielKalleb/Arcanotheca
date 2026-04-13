@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Guerreiro da Misericórdia</name>
+		<description>A subclasse Guerreiro da Misericórdia do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="monk-mercy.xml" url="https://raw.githubusercontent.com/AuroraLegacy/mercy/master/core/players-handbook-2024/archetypes/monk-mercy.xml" />
+		</update>
+	</info>
+
+	<element name="Guerreiro da Misericórdia" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_MONK_WARRIOR_OF_MERCY">
+		<supports>Monk Subclass</supports>
+		<description>
+			<p class="flavor">Manipule Forças da Vida e da Morte</p>
+			<p>Guerreiros da Misericórdia manipulam a força vital de outros. Esses Monges são médicos errantes, mas que trazem um fim rápido para seus inimigos. Eles muitas vezes usam máscaras, apresentando-se como portadores sem rosto da vida e da morte.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_HAND_OF_HARM"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_HAND_OF_HEALING"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_IMPLEMENTS_OF_MERCY"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_PHYSICIANS_TOUCH"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_FLURRY_OF_HEALING_AND_HARM"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_HAND_OF_ULTIMATE_MERCY"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_HAND_OF_HARM" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_HAND_OF_HEALING" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_IMPLEMENTS_OF_MERCY" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_PHYSICIANS_TOUCH" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_FLURRY_OF_HEALING_AND_HARM" level="11"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_HAND_OF_ULTIMATE_MERCY" level="17"/>
+		</rules>
+	</element>
+
+	<element name="Nível 3: Mão do Dano" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_HAND_OF_HARM">
+		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_HAND_OF_HARM||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_PHYSICIANS_TOUCH)</requirements>
+		<description>
+			<p>Uma vez por turno, quando você atingir uma criatura com um Ataque Desarmado e causar dano, você pode gastar 1 Ponto de Foco para causar dano Necrótico extra igual a uma rolagem do seu dado de Artes Marciais mais seu modificador de Sabedoria.</p>
+		</description>
+		<sheet alt="Mão do Dano" usage="Ponto de Foco — 1/Turno" >
+			<description>Quando você causa dano a uma criatura com um Ataque Desarmado, você pode causar 1d{{martial arts:dice}}+{{wisdom:modifier}} de dano Necrótico extra ao alvo.</description>
+			<description level="6">Quando você causa dano a uma criatura com um Ataque Desarmado, você pode causar 1d{{martial arts:dice}}+{{wisdom:modifier}} de dano Necrótico extra ao alvo e ele fica Envenenado até o fim do seu próximo turno.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 3: Mão da Cura" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_HAND_OF_HEALING">
+		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_HAND_OF_HEALING||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_PHYSICIANS_TOUCH)</requirements>
+		<description>
+			<p>Como uma Ação Mágica, você pode gastar 1 Ponto de Foco para tocar uma criatura e restaurar um número de Pontos de Vida igual a uma rolagem do seu dado de Artes Marciais mais seu modificador de Sabedoria.</p>
+			<p class="indent">Quando você usa sua Rajada de Golpes, você pode substituir um dos Ataques Desarmados por um uso desta característica sem gastar um Ponto de Foco para a cura.</p>
+		</description>
+		<sheet alt="Mão da Cura" action="Ação" usage="Ponto de Foco" >
+			<description>Você pode tocar uma criatura e restaurar magicamente 1d{{martial arts:dice}}+{{wisdom:modifier}} PVs a ela. Quando usa sua Rajada de Golpes, você pode substituir um dos Ataques Desarmados por um uso desta característica sem gastar um Ponto de Foco para a cura.</description>
+			<description level="6">Você pode tocar uma criatura para magicamente restaurar 1d{{martial arts:dice}}+{{wisdom:modifier}} PVs a ela e terminar uma condição Cego, Surdo, Paralisado, Envenenado ou Atordoado. Quando usa sua Rajada de Golpes, você pode substituir um dos Ataques Desarmados por um uso desta característica sem gastar um Ponto de Foco para a cura.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 3: Instrumentos da Misericórdia" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_IMPLEMENTS_OF_MERCY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_IMPLEMENTS_OF_MERCY</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Você ganha proficiência nas perícias Intuição e Medicina e proficiência com o Kit de Herborismo.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Toque do Médico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_PHYSICIANS_TOUCH">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_PHYSICIANS_TOUCH</requirements>
+		<description>
+			<p>Sua Mão do Dano e Mão da Cura melhoram, conforme detalhado abaixo.</p>
+			<p class="indent"><em><strong>Mão do Dano.</strong></em> Quando você usa a Mão do Dano em uma criatura, você também pode aplicar a condição Envenenado a essa criatura até o fim do seu próximo turno.</p>
+			<p class="indent"><em><strong>Mão da Cura.</strong></em> Quando você usa a Mão da Cura, você também pode encerrar uma das seguintes condições na criatura que você curar: Cego, Surdo, Paralisado, Envenenado ou Atordoado.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+
+	<element name="Nível 11: Rajada de Cura e Dano" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_FLURRY_OF_HEALING_AND_HARM">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_FLURRY_OF_HEALING_AND_HARM</requirements>
+		<description>
+			<p>Quando você usa Rajada de Golpes, você pode substituir cada um dos Ataques Desarmados por um uso de Mão da Cura sem gastar Pontos de Foco pela cura.</p>
+			<p class="indent">Além disso, quando você faz um Ataque Desarmado com Rajada de Golpes e causa dano, você pode usar a Mão do Dano com aquele golpe sem gastar um Ponto de Foco para a Mão do Dano. Você ainda só pode usar a Mão do Dano uma vez por turno.</p>
+			<p class="indent">Você pode usar esses benefícios um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez). Você recupera todos os usos gastos quando termina um Descanso Longo.</p>
+		</description>
+		<sheet alt="Rajada de Cura e Dano" usage="{{flurry of healing and harm:usage}}/Descanso Longo">
+			<description>Quando você usa Rajada de Golpes, você pode substituir cada um dos Ataques Desarmados por um uso de Mão da Cura sem gastar Pontos de Foco pela cura. &#13;
+			Quando você faz um Ataque Desarmado com Rajada de Golpes e causa dano, você pode usar a Mão do Dano sem gastar um Ponto de Foco. Você ainda só pode usar a Mão do Dano uma vez por turno.</description>
+		</sheet>
+		<rules>
+			<stat name="flurry of healing and harm:usage" value="1" bonus="base" />
+			<stat name="flurry of healing and harm:usage" value="wisdom:modifier" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 17: Mão da Misericórdia Suprema" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_HAND_OF_ULTIMATE_MERCY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_HAND_OF_ULTIMATE_MERCY</requirements>
+		<description>
+			<p>Sua maestria da energia vital abre a porta para a misericórdia suprema. Como uma Ação Mágica, você pode tocar o cadáver de uma criatura que morreu nas últimas 24 horas e gastar 5 Pontos de Foco. A criatura então retorna à vida com um número de Pontos de Vida igual a 4d10 mais seu modificador de Sabedoria. Se a criatura morreu com alguma das seguintes condições, a criatura é revivida com as condições removidas: Cego, Surdo, Paralisado, Envenenado e Atordoado.</p>
+			<p class="indent">Depois de usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo.</p>
+		</description>
+		<sheet alt="Mão da Misericórdia Suprema" action="Ação" usage="5 Pontos de Foco — 1/Descanso Longo">
+			<description>Você pode tocar magicamente no cadáver de uma criatura que morreu nas últimas 24 horas e devolvê-la à vida com 4d10+{{wisdom:modifier}} PVs. Quando a criatura for revivida, você remove quaisquer condições Cego, Surdo, Paralisado, Envenenado e Atordoado que ela tivesse.</description>
+		</sheet>
+	</element>
+
+	<element name="Hand of Harm Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_HAND_OF_HARM" />
+	<element name="Hand of Healing Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_HAND_OF_HEALING" />
+	<element name="Implements of Mercy Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_IMPLEMENTS_OF_MERCY" />
+	<element name="Physician's Touch Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_PHYSICIANS_TOUCH" />
+	<element name="Flurry of Healing and Harm Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_FLURRY_OF_HEALING_AND_HARM" />
+	<element name="Hand of Ultimate Mercy Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MERCY_HAND_OF_ULTIMATE_MERCY" />
+</elements>

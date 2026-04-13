@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+		<file name="wizard-diviner.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/wizard-diviner.xml" />
+		</update>
+	</info>
+
+	<element name="Adivinho" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER">
+		<supports>Wizard Subclass</supports>
+		<description>
+			<p class="flavor">Aprenda os Segredos do Multiverso</p>
+            <p>O conselho de um Adivinho é buscado por aqueles que desejam uma compreensão mais clara do passado, presente e futuro. Como um Adivinho, você se esforça para abrir os véus do espaço, do tempo e da consciência. Você trabalha para dominar magias de discernimento, visão remota, conhecimento sobrenatural e premonição.</p>
+            <div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_DIVINATION_SAVANT" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_PORTENT" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_EXPERT_DIVINATION" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_THE_THIRD_EYE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_GREATER_PORTENT" />
+		</description>
+        <sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_DIVINATION_SAVANT" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_PORTENT" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_EXPERT_DIVINATION" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_THE_THIRD_EYE" level="10"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_GREATER_PORTENT" level="14"/>
+		</rules>
+	</element>
+
+	<element name="Nível 3: Sábio da Adivinhação" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_DIVINATION_SAVANT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_DIVINER_DIVINATION_SAVANT</requirements>
+		<description>
+			<p>Escolha duas magias de Mago da escola de Adivinhação, cada uma não podendo ser de um nível maior que o 2, e adicione-as ao seu grimório gratuitamente.</p>
+			<p class="indent">Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você pode adicionar gratuitamente uma magia de Mago da escola de Adivinhação ao seu grimório. A magia escolhida deve ser de um nível para o qual você tenha espaços de magia.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Spell" name="Divination Spell (Divination Savant)" supports="$(spellcasting:slots),Divination,Wizard" number="2" level="3" spellcasting="Wizard" />
+			<select type="Spell" name="Divination Spell (Divination Savant)" supports="$(spellcasting:slots),Divination,Wizard" level="5" spellcasting="Wizard" />
+			<select type="Spell" name="Divination Spell (Divination Savant)" supports="$(spellcasting:slots),Divination,Wizard" level="7" spellcasting="Wizard" />
+			<select type="Spell" name="Divination Spell (Divination Savant)" supports="$(spellcasting:slots),Divination,Wizard" level="9" spellcasting="Wizard" />
+			<select type="Spell" name="Divination Spell (Divination Savant)" supports="$(spellcasting:slots),Divination,Wizard" level="11" spellcasting="Wizard" />
+			<select type="Spell" name="Divination Spell (Divination Savant)" supports="$(spellcasting:slots),Divination,Wizard" level="13" spellcasting="Wizard" />
+			<select type="Spell" name="Divination Spell (Divination Savant)" supports="$(spellcasting:slots),Divination,Wizard" level="15" spellcasting="Wizard" />
+			<select type="Spell" name="Divination Spell (Divination Savant)" supports="$(spellcasting:slots),Divination,Wizard" level="17" spellcasting="Wizard" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Portento" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_PORTENT">
+		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_DIVINER_PORTENT||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_DIVINER_GREATER_PORTENT)</requirements>
+		<description>
+			<p>Vislumbres do futuro começam a pressionar sua consciência. Sempre que terminar um Descanso Longo, role dois d20s e anote os números rolados. Você pode substituir qualquer Teste de D20 feito por você ou por uma criatura que você possa ver por uma dessas rolagens de premonição. Você deve escolher fazer isso antes da rolagem, e você pode substituir uma rolagem desta forma apenas uma vez por turno.</p>
+			<p class="indent">Cada rolagem de premonição só pode ser usada uma vez. Quando você termina um Descanso Longo, você perde quaisquer rolagens de premonição não utilizadas.</p>
+		</description>
+		<sheet alt="Portento">
+			<description>Sempre que terminar um Descanso Longo, role dois d20s e anote os números. Você pode substituir qualquer Teste de D20 feito por você ou por uma criatura que você possa ver por uma dessas rolagens, gastando-a. Você deve escolher isso antes da rolagem e pode fazer isso apenas uma vez por turno. Quando terminar um Descanso Longo, perde rolagens não gastas.</description>
+			<description level="14">Sempre que terminar um Descanso Longo, role três d20s e anote os números. Você pode substituir qualquer Teste de D20 feito por você ou por uma criatura que você possa ver por uma dessas rolagens, gastando-a. Você deve escolher isso antes da rolagem e pode fazer isso apenas uma vez por turno. Quando terminar um Descanso Longo, perde rolagens não gastas.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 6: Adivinhação Especialista" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_EXPERT_DIVINATION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_DIVINER_EXPERT_DIVINATION</requirements>
+		<description>
+			<p>Conjurar magias de Adivinhação é algo tão natural para você que consome apenas uma fração dos seus esforços de conjuração. Quando você conjura uma magia de Adivinhação usando um espaço de magia de nível 2 ou maior, você recupera um espaço de magia gasto. O espaço que você recupera deve ser de um nível menor que o espaço gasto e não pode ser maior que o nível 5.</p>
+		</description>
+		<sheet alt="Adivinhação Especialista">
+			<description>Quando você conjura uma magia de Adivinhação usando um espaço de nível 2+, você recupera um espaço de magia gasto, que deve ser de nível inferior ao gasto e no máximo de nível 5.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 10: O Terceiro Olho" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_THE_THIRD_EYE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_DIVINER_THE_THIRD_EYE</requirements>
+		<description>
+			<p>Você pode aumentar seus poderes de percepção. Como uma Ação Bônus, escolha um dos seguintes benefícios, que dura até você iniciar um Descanso Curto ou Longo. Você não pode usar esta característica novamente até terminar um Descanso Curto ou Longo.</p>
+			<p class="indent"><i><b>Visão no Escuro.</b></i> Você ganha Visão no Escuro com um alcance de 36 metros (120 pés).</p>
+			<p class="indent"><i><b>Compreensão Maior.</b></i> Você pode ler qualquer idioma.</p>
+			<p class="indent"><i><b>Ver o Invisível.</b></i> Você pode conjurar <i>Ver o Invisível</i> sem gastar um espaço de magia.</p>
+		</description>
+		<sheet alt="O Terceiro Olho" action="Bonus Action" usage="1/Descanso Curto">
+			<description>Escolha um dos seguintes benefícios, que dura até iniciar um Descanso: &#13;
+			• Você ganha Visão no Escuro com 36m de alcance. &#13;
+			• Você pode ler qualquer idioma. &#13;
+			• Você pode conjurar Ver o Invisível sem gastar um espaço de magia.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 14: Portento Maior" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_DIVINER_GREATER_PORTENT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_DIVINER_GREATER_PORTENT</requirements>
+		<description>
+			<p>As visões em seus sonhos se intensificam e pintam um quadro mais preciso em sua mente sobre o que está por vir. Role três d20s para a sua característica Portento em vez de dois.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	
+	<element name="Divination Savant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_DIVINER_DIVINATION_SAVANT" />
+	<element name="Portent Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_DIVINER_PORTENT" />
+	<element name="Expert Divination Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_DIVINER_EXPERT_DIVINATION" />
+	<element name="The Third Eye Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_DIVINER_THE_THIRD_EYE" />
+	<element name="Greater Portent Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_DIVINER_GREATER_PORTENT" />
+</elements>

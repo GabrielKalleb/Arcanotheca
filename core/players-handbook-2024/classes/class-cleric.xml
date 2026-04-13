@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Clérigo</name>
+		<description>A classe Clérigo do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="class-cleric.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-cleric.xml" />
+		</update>
+	</info>
+	
+	<element name="Clérigo" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_CLERIC">
+		<description>
+			<p>Clérigos extraem poder dos reinos dos deuses e o canalizam para operar milagres. Abençoado por uma divindade, um panteão ou outra entidade imortal, um Clérigo pode acessar a magia divina dos Planos Exteriores — onde os deuses habitam — e canalizá-la para fortalecer pessoas e combater inimigos.</p>
+			<p class="indent">Como seu poder é um presente divino, os Clérigos geralmente se associam a templos dedicados à divindade ou outra força imortal que desbloqueou sua magia. Canalizar magia divina não depende de treinamento específico, mas os Clérigos podem aprender orações e rituais que os ajudam a extrair poder dos Planos Exteriores.</p>
+			<p class="indent">Nem todo membro de um templo ou santuário é um Clérigo. Alguns sacerdotes são chamados para uma vida simples de serviço no templo, realizando sua devoção através de orações e rituais, não através da magia. Muitos mortais afirmam falar pelos deuses, mas poucos conseguem reunir o poder desses deuses da maneira que um Clérigo consegue.</p>
+			<div class="sidebar">
+				<h5>CARACTERÍSTICAS PRINCIPAIS DO CLÉRIGO</h5>
+				<table>
+					<tr><td><b>Habilidade Primária</b></td><td class="left">Sabedoria</td></tr>
+					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D8 por nível de Clérigo</td></tr>
+					<tr><td><b>Proficiências em Testes de Resistência</b></td><td class="left">Sabedoria e Carisma</td></tr>
+					<tr><td><b>Proficiências em Perícias</b></td><td class="left"><i>Escolha 2:</i> História, Intuição, Medicina, Persuasão ou Religião</td></tr>
+					<tr><td><b>Proficiências em Armas</b></td><td class="left">Armas Simples</td></tr>
+					<tr><td><b>Treinamento com Armaduras</b></td><td class="left">Armaduras Leves e Médias e Escudos</td></tr>
+					<tr><td><b>Equipamento Inicial</b></td><td class="left"><i>Escolha A ou B:</i> (A) Camisa de Cota de Malha, Escudo, Maça, Símbolo Sagrado, Pacote de Sacerdote e 7 PO; ou (B) 110 PO</td></tr>
+				</table>
+			</div>
+			<h4>TORNANDO-SE UM CLÉRIGO...</h4>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
+				<li>Ganhe todas as características na tabela de Características Principais do Clérigo.</li>
+				<li>Ganhe as características de nível 1 do Clérigo, que estão listadas na tabela de Características do Clérigo.</li>
+			</ul>
+			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
+			<ul style="margin-top:-1em">
+				<li>Ganhe as seguintes características da tabela de Características Principais do Clérigo: Dado de Pontos de Vida e treinamento com armaduras Leves, Médias e Escudos.</li>
+				<li>Ganhe as características de nível 1 do Clérigo, que estão listadas na tabela de Características do Clérigo.</li>
+			</ul>
+			<h5>CARACTERÍSTICAS DO CLÉRIGO</h5>
+			<table class="class-features">
+				<tr style="font-weight: bold">
+					<td rowspan="2">Nível</td>
+					<td class="col-20 left" rowspan="2">Características de Classe</td>
+					<td rowspan="2">Canalizar<br />Divindade</td>
+					<td rowspan="2">Truques</td>
+					<td rowspan="2">Magias<br />Preparadas</td>
+					<td colspan="9" style="vertical-align:bottom; border-bottom: 0px">Espaços de Magia por Nível de Magia</td>
+				</tr>
+				<tr style="font-weight: bold"><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+				<tr><td> 1</td><td class="left">Conjuração, Ordem Divina</td><td>—</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2</td><td class="left">Canalizar Divindade</td><td>2</td><td>3</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3</td><td class="left">Subclasse de Clérigo</td><td>2</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4</td><td class="left">Melhoria de Valor de Habilidade</td><td>2</td><td>4</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5</td><td class="left">Cauterizar Mortos-Vivos</td><td>2</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6</td><td class="left">Característica de Subclasse</td><td>3</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7</td><td class="left">Ataques Abençoados</td><td>3</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8</td><td class="left">Melhoria de Valor de Habilidade</td><td>3</td><td>4</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9</td><td class="left">—</td><td>3</td><td>4</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10</td><td class="left">Intervenção Divina</td><td>3</td><td>5</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11</td><td class="left">—</td><td>3</td><td>5</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12</td><td class="left">Melhoria de Valor de Habilidade</td><td>3</td><td>5</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13</td><td class="left">—</td><td>3</td><td>5</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14</td><td class="left">Ataques Abençoados Aprimorados</td><td>3</td><td>5</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15</td><td class="left">—</td><td>3</td><td>5</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16</td><td class="left">Melhoria de Valor de Habilidade</td><td>3</td><td>5</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17</td><td class="left">Característica de Subclasse</td><td>3</td><td>5</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18</td><td class="left">—</td><td>4</td><td>5</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19</td><td class="left">Dádiva Épica</td><td>4</td><td>5</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20</td><td class="left">Intervenção Divina Maior</td><td>4</td><td>5</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+			</table>
+			<h4>CARACTERÍSTICAS DE CLASSE DO CLÉRIGO</h4>
+			<p>Como Clérigo, você ganha as seguintes características de classe ao atingir os níveis especificados na classe. Estas características estão listadas na tabela de Características do Clérigo.</p>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_SPELLCASTING" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINE_ORDER" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNEL_DIVINITY" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CLERIC_SUBCLASS" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_ABILITY_SCORE_IMPROVEMENT" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_SEAR_UNDEAD" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINE_INTERVENTION" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_IMPROVED_BLESSED_STRIKES" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_EPIC_BOON" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_GREATER_DIVINE_INTERVENTION" />
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="short">Um Sacerdote Milagroso de Poder Divino</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_CLERIC"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB24_MULTICLASS_CLERIC"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB24_MULTICLASS_CLERIC"/>
+			<select type="Proficiency" name="Skill Proficiency (Cleric)" supports="Skill,Cleric" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_CLERIC"/>
+
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_SPELLCASTING" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINE_ORDER" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNEL_DIVINITY" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CLERIC_SUBCLASS" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_ABILITY_SCORE_IMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_SEAR_UNDEAD" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" level="7" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINE_INTERVENTION" level="10" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_IMPROVED_BLESSED_STRIKES" level="14" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_EPIC_BOON" level="19" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_GREATER_DIVINE_INTERVENTION" level="20" />
+		</rules>
+		<multiclass id="ID_WOTC_PHB24_MULTICLASS_CLERIC">
+			<prerequisite>Sabedoria 13</prerequisite>
+			<requirements>([wis:13],!(ID_WOTC_PHB_CLASS_CLERIC||ID_WOTC_PHB_MULTICLASS_CLERIC))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Armaduras leves, armaduras médias, Escudos</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
+	</element>
+
+	<element name="Nível 1: Conjuração" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_SPELLCASTING">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_SPELLCASTING</requirements>
+		<description>
+			<p>Você aprendeu a conjurar magias através de oração e meditação.</p>
+			<p class="indent"><b><i>Truques.</i></b> Você conhece três truques à sua escolha da lista de magias de Clérigo. <i>Orientação</i>, <i>Chama Sagrada</i> e <i>Taumaturgia</i> são recomendados.</p>
+			<p class="indent">Sempre que você ganha um nível de Clérigo, pode substituir um de seus truques por outro à sua escolha da lista de magias de Clérigo.</p>
+			<p class="indent">Quando atinge os níveis de Clérigo 4 e 10, você aprende outro truque à sua escolha da lista de magias de Clérigo, conforme mostrado na coluna Truques da tabela de Características do Clérigo.</p>
+			<p class="indent"><b><i>Espaços de Magia.</i></b> A tabela de Características do Clérigo mostra quantos espaços de magia você tem para conjurar suas magias de nível 1+. Você recupera todos os espaços gastos quando termina um Descanso Longo.</p>
+			<p class="indent"><b><i>Magias Preparadas de Nível 1+.</i></b> Você prepara a lista de magias de nível 1+ que estão disponíveis para você conjurar com esta característica. Para começar, escolha quatro magias de nível 1 da lista de magias de Clérigo. <i>Abençoar</i>, <i>Curar Ferimentos</i>, <i>Raio Guiador</i> e <i>Escudo da Fé</i> são recomendadas.</p>
+			<p class="indent">O número de magias na sua lista aumenta à medida que você ganha níveis de Clérigo, conforme mostrado na coluna Magias Preparadas da tabela de Características do Clérigo. Sempre que esse número aumentar, escolha magias adicionais da lista de magias de Clérigo até que o número de magias na sua lista corresponda ao número na tabela. As magias escolhidas devem ser de um nível para o qual você tenha espaços de magia. Por exemplo, se você for um Clérigo de nível 3, sua lista de magias preparadas pode incluir seis magias de níveis 1 e 2 em qualquer combinação.</p>
+			<p class="indent">Se outra característica de Clérigo conceder a você magias que estão sempre preparadas, essas magias não contam no número de magias que você pode preparar com esta característica, mas de resto contam como magias de Clérigo para você.</p>
+			<p class="indent"><b><i>Mudando Suas Magias Preparadas.</i></b> Sempre que terminar um Descanso Longo, você pode mudar sua lista de magias preparadas, substituindo qualquer uma das magias por outras magias de Clérigo para as quais você tenha espaços de magia.</p>
+			<p class="indent"><b><i>Habilidade de Conjuração.</i></b> Sabedoria é sua habilidade de conjuração para suas magias de Clérigo.</p>
+			<p class="indent"><b><i>Foco de Conjuração.</i></b> Você pode usar um Símbolo Sagrado como um Foco de Conjuração para suas magias de Clérigo.</p>
+			<center>
+				<p><strong>CD de resistência de magia</strong> = 8 + seu bônus de proficiência + seu modificador de Sabedoria</p>
+				<p><strong>Modificador de ataque com magia</strong> = seu bônus de proficiência + seu modificador de Sabedoria</p>
+			</center>
+		</description>
+		<sheet alt="Conjuração">
+			<description>Você pode usar um Símbolo Sagrado como Foco de Conjuração. Sempre que ganhar um nível de Clérigo, pode substituir um de seus truques por outro truque de Clérigo à sua escolha.</description>
+		</sheet>
+		<spellcasting name="Cleric" ability="Wisdom" prepare="true">
+			<list known="true">Cleric</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_HOLY_SYMBOL" />
+
+			<stat name="cleric:spellcasting:slots:1" value="2" level="1" />
+			<stat name="cleric:spellcasting:slots:1" value="1" level="2" />
+			<stat name="cleric:spellcasting:slots:1" value="1" level="3" />
+			<stat name="cleric:spellcasting:slots:2" value="2" level="3" />
+			<stat name="cleric:spellcasting:slots:2" value="1" level="4" />
+			<stat name="cleric:spellcasting:slots:3" value="2" level="5" />
+			<stat name="cleric:spellcasting:slots:3" value="1" level="6" />
+			<stat name="cleric:spellcasting:slots:4" value="1" level="7" />
+			<stat name="cleric:spellcasting:slots:4" value="1" level="8" />
+			<stat name="cleric:spellcasting:slots:4" value="1" level="9" />
+			<stat name="cleric:spellcasting:slots:5" value="1" level="9" />
+			<stat name="cleric:spellcasting:slots:5" value="1" level="10" />
+			<stat name="cleric:spellcasting:slots:5" value="1" level="18" />
+			<stat name="cleric:spellcasting:slots:6" value="1" level="11" />
+			<stat name="cleric:spellcasting:slots:6" value="1" level="19" />
+			<stat name="cleric:spellcasting:slots:7" value="1" level="13" />
+			<stat name="cleric:spellcasting:slots:7" value="1" level="20" />
+			<stat name="cleric:spellcasting:slots:8" value="1" level="15" />
+			<stat name="cleric:spellcasting:slots:9" value="1" level="17" />
+
+			<stat name="cleric:spellcasting:prepare" value="4" level="1" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="2" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="3" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="4" />
+			<stat name="cleric:spellcasting:prepare" value="2" level="5" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="6" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="7" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="8" />
+			<stat name="cleric:spellcasting:prepare" value="2" level="9" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="10" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="11" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="13" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="15" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="17" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="18" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="19" />
+			<stat name="cleric:spellcasting:prepare" value="1" level="20" />
+
+			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Cleric" />
+			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="4" spellcasting="Cleric" />
+			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="10" spellcasting="Cleric" />
+		</rules>
+	</element>
+
+	<element name="Nível 1: Ordem Divina" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINE_ORDER">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_DIVINE_ORDER</requirements>
+		<description>
+			<p>Você se dedicou a um dos seguintes papéis sagrados à sua escolha. Você pode escolher uma das seguintes características para ganhar:</p>
+			<p class="indent"><b><i>Protetor.</i></b> Treinado para a batalha, você ganha proficiência com armas Marciais e treinamento com armaduras Pesadas.</p>
+			<p class="indent"><b><i>Taumaturgo.</i></b> Você conhece um truque extra da lista de magias de Clérigo. Além disso, sua conexão mística com o divino lhe concede um bônus em testes de Inteligência (Arcanismo ou Religião). O bônus é igual ao seu modificador de Sabedoria (mínimo de +1).</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Sacred Role (Divine Order)" supports="PHB24 Divine Order" />
+		</rules>
+	</element>
+	<element name="Protetor" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINE_ORDER_PROTECTOR">
+		<supports>PHB24 Divine Order</supports>
+		<description>
+			<p>Treinado para a batalha, você ganha proficiência com armas Marciais e treinamento com armaduras Pesadas.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+		</rules>
+	</element>
+	<element name="Taumaturgo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINE_ORDER_THAUMATURGE">
+		<supports>PHB24 Divine Order</supports>
+		<description>
+			<p>Você conhece um truque extra da lista de magias de Clérigo. Além disso, sua conexão mística com o divino lhe concede um bônus em testes de Inteligência (Arcanismo ou Religião). O bônus é igual ao seu modificador de Sabedoria (mínimo de +1).</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Spell" name="Cantrip (Thaumaturge)" supports="$(spellcasting:list), 0" spellcasting="Cleric" />
+
+			<stat name="thaumaturge:bonus" value="1" bonus="base" />
+			<stat name="thaumaturge:bonus" value="wisdom:modifier" bonus="base" />
+			<stat name="arcana:misc" value="thaumaturge:bonus" bonus="thaumaturge" />
+			<stat name="religion:misc" value="thaumaturge:bonus" bonus="thaumaturge" />
+		</rules>
+	</element>
+
+	<element name="Nível 2: Canalizar Divindade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNEL_DIVINITY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_CHANNEL_DIVINITY</requirements>
+		<description>
+			<p>Você pode canalizar energia divina diretamente dos Planos Exteriores para alimentar efeitos mágicos. Você começa com dois desses efeitos: Centelha Divina e Afastar Mortos-Vivos, detalhados abaixo. Cada vez que você usar o Canalizar Divindade desta classe, escolha qual efeito de Canalizar Divindade desta classe você vai criar. Você ganha opções de efeitos adicionais em níveis de Clérigo mais altos.</p>
+			<p class="indent">Você pode usar o Canalizar Divindade desta classe duas vezes. Você recupera um uso gasto quando termina um Descanso Curto, e recupera todos os usos gastos quando termina um Descanso Longo. Você ganha usos adicionais quando atinge determinados níveis de Clérigo, conforme mostrado na coluna Canalizar Divindade da tabela Características do Clérigo.</p>
+			<p class="indent">Se um efeito de Canalizar Divindade exigir um teste de resistência, a CD é igual à CD de resistência de magia da característica de Conjuração desta classe.</p>
+			<p class="indent"><b><i>Centelha Divina.</i></b> Como uma ação Mágica, você aponta seu Símbolo Sagrado para outra criatura que possa ver a até 9 metros (30 pés) de você e foca energia divina nela. Role 1d8 e adicione seu modificador de Sabedoria. Você pode restaurar Pontos de Vida da criatura em valor igual a esse total ou forçá-la a fazer um teste de resistência de Constituição. Em uma falha, a criatura sofre dano Necrótico ou Radiante (à sua escolha) igual a esse total. Em um sucesso, a criatura sofre metade desse dano (arredondado para baixo).</p>
+			<p class="indent">Você rola um d8 adicional quando atinge os níveis de Clérigo 7 (2d8), 13 (3d8) e 18 (4d8).</p>
+			<p class="indent"><b><i>Afastar Mortos-Vivos.</i></b> Como uma ação Mágica, você apresenta seu Símbolo Sagrado e censura criaturas Mortas-Vivas. Cada Morto-Vivo da sua escolha a até 9 metros (30 pés) de você deve fazer um teste de resistência de Sabedoria. Se a criatura falhar no teste, ela fica com as condições Amedrontado e Incapacitado por 1 minuto. Durante essa duração, ela tenta se mover o mais longe possível de você em seus turnos. Este efeito termina prematuramente na criatura se ela sofrer qualquer dano, se você ficar com a condição Incapacitado, ou se você morrer.</p>
+		</description>
+		<sheet alt="Canalizar Divindade" usage="{{channel divinity:count}}/Descanso Longo" >
+			<description>Você recupera um uso gasto de Canalizar Divindade quando termina um Descanso Curto.</description>
+		</sheet>
+		<rules>
+			<stat name="channel divinity:count" value="2" bonus="base" />
+			<stat name="channel divinity:count" value="3" level="6" bonus="base" />
+			<stat name="channel divinity:count" value="4" level="18" bonus="base" />
+			<select type="Class Feature" name="Channel Divinity: Divine Spark" supports="PHB24 Divine Spark" default="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNEL_DIVINITY_DIVINE_SPARK" requirements="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_CHANNEL_DIVINITY_DIVINE_SPARK" />
+			<select type="Class Feature" name="Channel Divinity: Turn Undead" supports="PHB24 Turn Undead" default="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNEL_DIVINITY_TURN_UNDEAD" requirements="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_CHANNEL_DIVINITY_TURN_UNDEAD" />
+		</rules>
+	</element>
+	<element name="Canalizar Divindade: Centelha Divina" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNEL_DIVINITY_DIVINE_SPARK">
+		<supports>PHB24 Divine Spark</supports>
+		<description>
+			<p>Como uma ação Mágica, você aponta seu Símbolo Sagrado para outra criatura que possa ver a até 9 metros (30 pés) de você e foca energia divina nela. Role 1d8 e adicione seu modificador de Sabedoria. Você pode restaurar Pontos de Vida da criatura em valor igual a esse total ou forçá-la a fazer um teste de resistência de Constituição. Em uma falha, a criatura sofre dano Necrótico ou Radiante (à sua escolha) igual a esse total. Em um sucesso, a criatura sofre metade desse dano (arredondado para baixo).</p>
+			<p class="indent">Você rola um d8 adicional quando atinge os níveis de Clérigo 7 (2d8), 13 (3d8) e 18 (4d8).</p>
+		</description>
+		<sheet alt="Centelha Divina" action="Action" usage="Canalizar Divindade">
+			<description>Você aponta seu Símbolo Sagrado para outra criatura a até 9m de você. Você pode restaurar magicamente {{divinespark:dice}}d8+{{wisdom:modifier}} PV a ela ou forçá-la a fazer um teste de Constituição CD {{cleric:spellcasting:dc}}, sofrendo {{divinespark:dice}}d8+{{wisdom:modifier}} de dano Necrótico ou Radiante (sua escolha) numa falha ou metade num sucesso.</description>
+		</sheet>
+		<rules>
+			<stat name= "divinespark:dice" value="1" level="2" bonus="base" />
+			<stat name= "divinespark:dice" value="2" level="7" bonus="base" />
+			<stat name= "divinespark:dice" value="3" level="13" bonus="base" />
+			<stat name= "divinespark:dice" value="4" level="18" bonus="base" />
+		</rules>
+	</element>
+	<element name="Canalizar Divindade: Afastar Mortos-Vivos" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNEL_DIVINITY_TURN_UNDEAD">
+		<supports>PHB24 Turn Undead</supports>
+		<description>
+			<p>Como uma ação Mágica, você apresenta seu Símbolo Sagrado e censura criaturas Mortas-Vivas. Cada Morto-Vivo da sua escolha a até 9 metros (30 pés) de você deve fazer um teste de resistência de Sabedoria. Se a criatura falhar no teste, ela fica com as condições Amedrontado e Incapacitado por 1 minuto. Durante essa duração, ela tenta se mover o mais longe possível de você em seus turnos. Este efeito termina prematuramente na criatura se ela sofrer qualquer dano, se você ficar com a condição Incapacitado, ou se você morrer.</p>
+		</description>
+		<sheet alt="Afastar Mortos-Vivos" action="Action" usage="Canalizar Divindade">
+			<description>Você apresenta seu Símbolo Sagrado e cada Morto-Vivo escolhido a até 9m de você deve passar num teste de Sabedoria CD {{cleric:spellcasting:dc}} ou ficar Amedrontado e Incapacitado por 1 minuto, tendo que se afastar de você o máximo possível em seus turnos. O efeito termina prematuramente se a criatura sofrer qualquer dano, se você ficar Incapacitado ou morrer.</description>
+			<description level="5">Você apresenta seu Símbolo Sagrado e cada Morto-Vivo escolhido a até 9m de você deve passar num teste de Sabedoria CD {{cleric:spellcasting:dc}} ou sofrer imediatamente {{sear undead:count}}d8 de dano radiante, ficar Amedrontado e Incapacitado por 1 minuto, e ter que se afastar o máximo possível em seus turnos. O efeito termina prematuramente se a criatura sofrer dano (exceto o inicial), se você ficar Incapacitado ou morrer.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 3: Subclasse de Clérigo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CLERIC_SUBCLASS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_CLERIC_SUBCLASS</requirements>
+		<description>
+			<p>Você ganha uma subclasse de Clérigo à sua escolha. Uma subclasse é uma especialização que lhe concede características em certos níveis de Clérigo. Para o resto da sua carreira, você ganha cada uma das características da sua subclasse que sejam do seu nível de Clérigo ou inferior.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Cleric Subclass" supports="Divine Domain||Cleric Subclass" />
+		</rules>
+	</element>
+
+	<element name="Nível 4: Melhoria de Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_ABILITY_SCORE_IMPROVEMENT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_ABILITY_SCORE_IMPROVEMENT</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Você ganha o talento Melhoria de Valor de Habilidade ou outro talento de sua escolha para o qual você se qualifique. Você ganha esta característica novamente nos níveis de Clérigo 8, 12 e 16.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Ability Score Improvement (Cleric 4)" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Cleric 8)" level="8" />
+			<select type="Feat" name="Ability Score Improvement (Cleric 12)" level="12" />
+			<select type="Feat" name="Ability Score Improvement (Cleric 16)" level="16" />
+		</rules>
+	</element>
+
+	<element name="Nível 5: Cauterizar Mortos-Vivos" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_SEAR_UNDEAD">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_SEAR_UNDEAD</requirements>
+		<description>
+			<p>Sempre que você usar Afastar Mortos-Vivos, pode rolar um número de d8s igual ao seu modificador de Sabedoria (mínimo de 1d8) e somar os valores. Cada Morto-Vivo que falhar no teste de resistência contra aquele uso de Afastar Mortos-Vivos sofre dano Radiante igual ao total rolado. Este dano não encerra o efeito de afastar.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="sear undead:count" value="wisdom:modifier" bonus="base" />
+			<stat name="sear undead:count" value="1" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 7: Ataques Abençoados" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_BLESSED_STRIKES">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_BLESSED_STRIKES</requirements>
+		<description>
+			<p>O poder divino infunde você em batalha. Você ganha uma das seguintes opções à sua escolha (se você obtiver qualquer uma das opções de uma subclasse de Clérigo de um livro mais antigo, use apenas a opção que você escolher para esta característica).</p>
+			<p class="indent"><b><i>Ataque Divino.</i></b> Uma vez em cada um dos seus turnos, quando você atingir uma criatura com uma jogada de ataque usando uma arma, pode fazer com que o alvo sofra 1d8 de dano extra Necrótico ou Radiante (à sua escolha).</p>
+			<p class="indent"><b><i>Conjuração Potente.</i></b> Adicione o seu modificador de Sabedoria ao dano que você causa com qualquer truque de Clérigo.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Blessed Strikes" supports="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_BLESSED_STRIKES_DIVINE_STRIKE|ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_BLESSED_STRIKES_POTENT_SPELLCASTING" />
+		</rules>
+	</element>
+
+	<element name="Ataque Divino" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_BLESSED_STRIKES_DIVINE_STRIKE">
+		<description>
+			<p>Uma vez em cada um dos seus turnos, quando você atingir uma criatura com uma jogada de ataque usando uma arma, pode fazer com que o alvo sofra 1d8 de dano extra Necrótico ou Radiante (à sua escolha).</p>
+		</description>
+		<sheet>
+			<description>Uma vez em cada um dos seus turnos, ao atingir uma criatura com um ataque de arma, o alvo sofre 1d8 de dano extra Necrótico ou Radiante (sua escolha).</description>
+			<description level="14">Uma vez em cada um dos seus turnos, ao atingir uma criatura com um ataque de arma, o alvo sofre 2d8 de dano extra Necrótico ou Radiante (sua escolha).</description>
+		</sheet>
+	</element>
+
+	<element name="Conjuração Potente" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_BLESSED_STRIKES_POTENT_SPELLCASTING">
+		<description>
+			<p>Adicione o seu modificador de Sabedoria ao dano que você causa com qualquer truque de Clérigo.</p>
+		</description>
+		<sheet>
+			<description>Adicione {{wisdom:modifier}} ao dano causado com qualquer truque de Clérigo.</description>
+			<description level="14">Adicione {{wisdom:modifier}} ao dano causado com qualquer truque de Clérigo. Além disso, quando conjurar um truque de Clérigo que cause dano a uma criatura, você pode conceder a si ou a outra criatura a até 18m {{potent spellcasting:thp}} PVTs.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 10: Intervenção Divina" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINE_INTERVENTION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_DIVINE_INTERVENTION</requirements>
+		<description>
+			<p>Você pode invocar a sua divindade ou panteão para intervir em seu favor. Como uma ação Mágica, escolha qualquer magia de Clérigo de nível 5 ou inferior que não exija uma Reação para ser conjurada. Como parte da mesma ação, você conjura essa magia sem gastar um espaço de magia ou precisar de componentes Materiais. Você não pode usar esta característica novamente até terminar um Descanso Longo.</p>
+		</description>
+		<sheet alt="Intervenção Divina" action="Action" usage="1/Descanso Longo">
+			<description>Escolha qualquer magia de Clérigo de nível 5 ou menor que não exija uma Reação. Você conjura essa magia sem gastar espaço de magia e sem precisar de componentes Materiais.</description>
+			<description level="20">Escolha qualquer magia de Clérigo de nível 5 ou menor que não exija uma Reação. Você conjura essa magia sem gastar espaço de magia e sem precisar de componentes Materiais. &#13;
+			Alternativamente, você pode conjurar a magia Desejo. Se o fizer, você não poderá usar Intervenção Divina novamente até terminar 2d4 Descansos Longos.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 14: Ataques Abençoados Aprimorados" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_IMPROVED_BLESSED_STRIKES" >
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_IMPROVED_BLESSED_STRIKES</requirements>
+		<description>
+			<p>A opção que você escolheu para Ataques Abençoados se torna mais poderosa.</p>
+			<p class="indent"><b><i>Ataque Divino.</i></b> O dano extra do seu Ataque Divino aumenta para 2d8.</p>
+			<p class="indent"><b><i>Conjuração Potente.</i></b> Quando você conjura um truque de Clérigo e causa dano a uma criatura com ele, você pode dar vitalidade a si mesmo ou a outra criatura a até 18 metros (60 pés) de você, concedendo um número de Pontos de Vida Temporários igual ao dobro de seu modificador de Sabedoria.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="potent spellcasting:thp" value="wisdom:modifier" />
+			<stat name="potent spellcasting:thp" value="wisdom:modifier" />
+		</rules>
+	</element>
+
+	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_EPIC_BOON">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_EPIC_BOON</requirements>
+		<description>
+			<p>Você ganha um talento de Dádiva Épica ou outro talento à sua escolha para o qual se qualifique. A Dádiva do Destino é recomendada.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Epic Boon (Cleric)" level="19" />
+		</rules>
+	</element>
+
+	<element name="Nível 20: Intervenção Divina Maior" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_GREATER_DIVINE_INTERVENTION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_GREATER_DIVINE_INTERVENTION</requirements>
+		<description>
+			<p>Você pode invocar uma intervenção divina ainda mais poderosa. Quando você usar sua característica Intervenção Divina, pode escolher <i>Desejo</i> quando selecionar uma magia. Se o fizer, não poderá usar a Intervenção Divina novamente até terminar 2d4 Descansos Longos.</p>
+		</description>
+		<sheet display="false"/>
+	</element>
+
+	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_SPELLCASTING" />
+	<element name="Divine Domain Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_DIVINE_ORDER" />
+	<element name="Channel Divinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_CHANNEL_DIVINITY" />
+	<element name="Channel Divinity: Divine Spark Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_CHANNEL_DIVINITY_DIVINE_SPARK" />
+	<element name="Channel Divinity: Turn Undead Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_CHANNEL_DIVINITY_TURN_UNDEAD" />
+	<element name="Cleric Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_CLERIC_SUBCLASS" />
+	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_ABILITY_SCORE_IMPROVEMENT" />
+	<element name="Sear Undead Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_SEAR_UNDEAD" />
+	<element name="Blessed Strikes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_BLESSED_STRIKES" />
+	<element name="Divine Intervention Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_DIVINE_INTERVENTION" />
+	<element name="Improved Blessed Strikes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_IMPROVED_BLESSED_STRIKES" />
+	<element name="Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_EPIC_BOON" />
+	<element name="Greater Divine Intervention Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_GREATER_DIVINE_INTERVENTION" />
+</elements>

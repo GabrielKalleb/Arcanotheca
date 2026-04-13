@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Talentos da Categoria Geral</name>
+		<description>Os Talentos da Categoria Geral do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="feats-general.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/feats/feats-general.xml" />
+		</update>
+	</info>
+
+	<element name="Aumento de Valor de Habilidade" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT">
+		<requirements>[character:4]||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<supports>General</supports>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Aumente um valor de habilidade à sua escolha em 2, ou aumente dois valores de habilidade à sua escolha em 1. Este talento não pode aumentar um valor de habilidade acima de 20.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Talento de Aumento de Valor de Habilidade" supports="Feat Ability Score Increase" number="2" />
+		</rules>
+	</element>
+	<element name="Aumento de Valor de Habilidade" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_2">
+		<requirements>ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<supports>General</supports>
+		<compendium display="false" />
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Aumente um valor de habilidade à sua escolha em 2, ou aumente dois valores de habilidade à sua escolha em 1. Este talento não pode aumentar um valor de habilidade acima de 20.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Talento de Aumento de Valor de Habilidade" supports="Feat Ability Score Increase" number="2" />
+		</rules>
+	</element>
+	<element name="Aumento de Valor de Habilidade" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_3">
+		<requirements>ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_2</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<supports>General</supports>
+		<compendium display="false" />
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Aumente um valor de habilidade à sua escolha em 2, ou aumente dois valores de habilidade à sua escolha em 1. Este talento não pode aumentar um valor de habilidade acima de 20.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Talento de Aumento de Valor de Habilidade" supports="Feat Ability Score Increase" number="2" />
+		</rules>
+	</element>
+	<element name="Aumento de Valor de Habilidade" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_4">
+		<requirements>ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_3</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<supports>General</supports>
+		<compendium display="false" />
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Aumente um valor de habilidade à sua escolha em 2, ou aumente dois valores de habilidade à sua escolha em 1. Este talento não pode aumentar um valor de habilidade acima de 20.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Talento de Aumento de Valor de Habilidade" supports="Feat Ability Score Increase" number="2" />
+		</rules>
+	</element>
+	<element name="Aumento de Valor de Habilidade" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_5">
+		<requirements>ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_4</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<supports>General</supports>
+		<compendium display="false" />
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Aumente um valor de habilidade à sua escolha em 2, ou aumente dois valores de habilidade à sua escolha em 1. Este talento não pode aumentar um valor de habilidade acima de 20.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Talento de Aumento de Valor de Habilidade" supports="Feat Ability Score Increase" number="2" />
+		</rules>
+	</element>
+	<element name="Aumento de Valor de Habilidade" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_6">
+		<requirements>ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_5</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<supports>General</supports>
+		<compendium display="false" />
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Aumente um valor de habilidade à sua escolha em 2, ou aumente dois valores de habilidade à sua escolha em 1. Este talento não pode aumentar um valor de habilidade acima de 20.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Talento de Aumento de Valor de Habilidade" supports="Feat Ability Score Increase" number="2" />
+		</rules>
+	</element>
+	<element name="Aumento de Valor de Habilidade" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_7">
+		<requirements>ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_6</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<supports>General</supports>
+		<compendium display="false" />
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Aumente um valor de habilidade à sua escolha em 2, ou aumente dois valores de habilidade à sua escolha em 1. Este talento não pode aumentar um valor de habilidade acima de 20.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Talento de Aumento de Valor de Habilidade" supports="Feat Ability Score Increase" number="2" />
+		</rules>
+	</element>
+	<element name="Aumento de Valor de Habilidade" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_8">
+		<requirements>ID_WOTC_PHB24_FEAT_ABILITY_SCORE_IMPROVEMENT_7</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<supports>General</supports>
+		<compendium display="false" />
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Aumente um valor de habilidade à sua escolha em 2, ou aumente dois valores de habilidade à sua escolha em 1. Este talento não pode aumentar um valor de habilidade acima de 20.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Talento de Aumento de Valor de Habilidade" supports="Feat Ability Score Increase" number="2" />
+		</rules>
+	</element>
+ 	 
+	<element name="Ator" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ACTOR">
+		<supports>General</supports>
+		<requirements>([character:4],[cha:13],!ID_PHB_FEAT_ACTOR)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Carisma 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Carisma 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Carisma em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Imitação.</i></b> Enquanto estiver disfarçado como uma pessoa real ou fictícia, você tem Vantagem em testes de Carisma (Enganação ou Atuação) para convencer os outros de que você é essa pessoa.</p>
+			<p class="indent"><b><i>Mímica.</i></b> Você pode imitar os sons de outras criaturas, incluindo a fala. Uma criatura que ouve a mímica deve ser bem-sucedida em um teste de Sabedoria (Intuição) para determinar se o efeito é falso (CD 8 mais seu modificador de Carisma e Bônus de Proficiência).</p>
+		</description>
+		<sheet>
+			<description>Enquanto estiver disfarçado como uma pessoa real ou fictícia, você tem Vantagem em testes de Carisma (Enganação ou Atuação) para convencer os outros de que você é essa pessoa. &#13;
+			Adicionalmente, você pode imitar os sons de outras criaturas, incluindo a fala. Uma criatura que ouve a mímica deve ser bem-sucedida em um teste de Sabedoria (Intuição) contra a CD {{actor:dc}} para determinar se o efeito é falso.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" alt="Ator" />
+			<stat name="actor:dc" value="8" bonus="base" />
+			<stat name="actor:dc" value="proficiency" bonus="proficiency" />
+			<stat name="actor:dc" value="charisma:modifier" bonus="ability" />
+		</rules>
+	</element>
+
+	<element name="Atleta" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ATHLETE">
+		<supports>General</supports>
+		<requirements>([character:4],([str:13]||[dex:13]),!ID_PHB_FEAT_ATHLETE)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Força ou Destreza 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Força ou Destreza 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Deslocamento de Escalada.</i></b> Você ganha um Deslocamento de Escalada igual ao seu Deslocamento.</p>
+			<p class="indent"><b><i>Pulo Rápido.</i></b> Quando tiver a condição Caído, você pode se levantar usando apenas 5 pés do seu movimento.</p>
+			<p class="indent"><b><i>Salto.</i></b> Você pode realizar um Salto em Distância ou Salto em Altura com corrida após se mover apenas 5 pés.</p>
+		</description>
+		<sheet>
+			<description>Quando tiver a condição Caído, você pode se levantar usando apenas 5 pés de movimento. Você pode realizar um Salto em Distância ou Salto em Altura com corrida após se mover apenas 5 pés.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Atleta)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+			<stat name="innate speed:climb" value="innate speed" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Investida" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_CHARGER">
+		<supports>General</supports>
+		<requirements>([character:4],([str:13]||[dex:13]),!ID_PHB_FEAT_CHARGER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Força ou Destreza 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Força ou Destreza 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Disparada Aprimorada.</i></b> Quando realiza a ação de Disparada, seu Deslocamento aumenta em 10 pés para aquela ação.</p>
+			<p class="indent"><b><i>Ataque de Investida.</i></b> Se você se mover pelo menos 10 pés em linha reta na direção de um alvo imediatamente antes de atingi-lo com uma rolagem de ataque corpo a corpo como parte da ação de Ataque, escolha um dos seguintes efeitos: ganhe um bônus de 1d8 na rolagem de dano do ataque, ou empurre o alvo a até 10 pés de distância se ele for no máximo uma categoria de tamanho maior que você. Você pode usar este benefício apenas uma vez em cada um de seus turnos.</p>
+		</description>
+		<sheet usage="1/Turn">
+			<description>Se você se mover pelo menos 10 pés em linha reta na direção de um alvo imediatamente antes de atingi-lo com uma rolagem de ataque corpo a corpo como parte da ação de Ataque, escolha um dos seguintes efeitos: ganhe um bônus de 1d8 na rolagem de dano do ataque, ou empurre o alvo a até 10 pés de distância se ele for no máximo uma categoria de tamanho maior que você. &#13;
+			Adicionalmente, quando você realiza a ação de Disparada, seu Deslocamento aumenta em 10 pés para aquela ação.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Investida)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+		</rules>
+	</element>
+
+	<element name="Chef" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_CHEF">
+		<supports>General</supports>
+		<requirements>([character:4],!(ID_WOTC_TCOE_FEAT_CHEF||ID_WOTC_UA20200713_FEAT_CHEF))||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Constituição ou Sabedoria em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Utensílios de Cozinheiro.</i></b> Você ganha proficiência com Utensílios de Cozinheiro se ainda não a possuir.</p>
+			<p class="indent"><b><i>Refeição Revigorante.</i></b> Como parte de um Descanso Curto, você pode cozinhar comida especial se tiver ingredientes e Utensílios de Cozinheiro em mãos. Você pode preparar o suficiente dessa comida para um número de criaturas igual a 4 mais seu Bônus de Proficiência. No final do Descanso Curto, qualquer criatura que comer a comida e gastar um ou mais Dados de Vida para recuperar Pontos de Vida, recupera 1d8 Pontos de Vida extras.</p>
+			<p class="indent"><b><i>Guloseimas Fortificantes.</i></b> Com 1 hora de trabalho ou ao terminar um Descanso Longo, você pode cozinhar um número de guloseimas igual ao seu Bônus de Proficiência se tiver ingredientes e Utensílios de Cozinheiro em mãos. Essas guloseimas especiais duram 8 horas após serem feitas. Uma criatura pode usar uma Ação Bônus para comer uma dessas guloseimas para ganhar um número de Pontos de Vida Temporários igual ao seu Bônus de Proficiência.</p>
+		</description>
+		<sheet>
+			<description>Como parte de um Descanso Curto, se tiver ingredientes e Utensílios de Cozinheiro em mãos, você pode preparar comida suficiente para {{chef:amount}} criaturas. A criatura que comer a comida e gastar um ou mais Dados de Vida para recuperar PV, recupera 1d8 PV extras. &#13;
+			Adicionalmente, com 1 hora de trabalho ou ao terminar um Descanso Longo, você pode cozinhar {{proficiency}} guloseimas se tiver ingredientes e Utensílios de Cozinheiro em mãos. Essas guloseimas especiais duram 8 horas. Uma criatura pode usar uma Ação Bônus para comer uma dessas guloseimas e ganhar {{proficiency}} PV Temporários.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Chef)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" />
+			<stat name="chef:amount" value="4" />
+			<stat name="chef:amount" value="proficiency" />
+		</rules>
+	</element>
+
+	<element name="Especialista em Besta" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_CROSSBOW_EXPERT">
+		<supports>General</supports>
+		<requirements>([character:4],[dex:13],!ID_PHB_FEAT_CROSSBOWEXPERT)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Destreza 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Destreza 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Ignorar Recarga.</i></b> Você ignora a propriedade Recarga da Besta de Mão, Besta Pesada e Besta Leve (todas chamadas de bestas neste talento). Se estiver segurando uma delas, você pode colocar munição nela mesmo que não tenha uma mão livre.</p>
+			<p class="indent"><b><i>Disparar em Corpo a Corpo.</i></b> Estar a 5 pés de um inimigo não impõe Desvantagem em suas rolagens de ataque com bestas.</p>
+			<p class="indent"><b><i>Empunhadura Dupla.</i></b> Quando você realiza o ataque extra da propriedade Leve, pode adicionar o seu modificador de habilidade ao dano do ataque extra se o ataque for com uma besta que tenha a propriedade Leve e você já não estiver adicionando esse modificador ao dano.</p>
+		</description>
+		<sheet>
+			<description>Você ignora a propriedade Recarga das bestas. Se estiver segurando uma delas, você pode carregar uma peça de munição nela mesmo sem uma mão livre. Estar a 5 pés de um inimigo não impõe Desvantagem nas suas rolagens de ataque com bestas. Quando você realiza o ataque extra com uma besta de propriedade Leve, pode adicionar seu modificador de habilidade ao dano do ataque extra se já não o estiver adicionando.</description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="1" alt="Especialista em Besta" />
+		</rules>
+	</element>
+
+	<element name="Esmagador" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_CRUSHER">
+		<supports>General</supports>
+		<requirements>([character:4],!(ID_WOTC_UA20200713_FEAT_CRUSHER||ID_WOTC_TCOE_FEAT_CRUSHER))||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Constituição em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Empurrar.</i></b> Uma vez por turno, quando atingir uma criatura com um ataque que cause dano de Concussão, você pode movê-la 5 pés para um espaço desocupado se o alvo não for mais que uma categoria de tamanho maior que você.</p>
+			<p class="indent"><b><i>Crítico Aprimorado.</i></b> Quando obtiver um Acerto Crítico que cause dano de Concussão a uma criatura, as rolagens de ataque contra ela têm Vantagem até o início de seu próximo turno.</p>
+		</description>
+		<sheet usage="1/Turn">
+			<description>Quando atingir uma criatura com um ataque que cause dano de Concussão, você pode movê-la 5 pés para um espaço desocupado se o alvo não for mais do que uma categoria de tamanho maior que você. &#13;
+			Adicionalmente, sempre que obtiver um Acerto Crítico que cause dano de Concussão a uma criatura, rolagens de ataque contra essa criatura têm Vantagem até o início do seu próximo turno.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Esmagador)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION" />
+		</rules>
+	</element>
+
+	<element name="Duelista Defensivo" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_DEFENSIVE_DUELIST">
+		<supports>General</supports>
+		<requirements>([character:4],[dex:13],!ID_PHB_FEAT_DEFENSIVE_DUELIST)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Destreza 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Destreza 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Aparar.</i></b> Se estiver segurando uma arma Acuada e outra criatura atingir você com um ataque corpo a corpo, você pode usar uma Reação para adicionar seu Bônus de Proficiência à sua Classe de Armadura, potencialmente fazendo o ataque errar. Você recebe esse bônus em sua CA contra ataques corpo a corpo até o início de seu próximo turno.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>Se estiver segurando uma arma Acuada e outra criatura atingir você com um ataque corpo a corpo, você pode adicionar {{proficiency}} à sua CA, potencialmente fazendo o ataque errar. Esse bônus na CA dura até o início de seu próximo turno.</description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="1" alt="Duelista Defensivo" />
+		</rules>
+	</element>
+
+	<element name="Empunhadura Dupla" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_DUAL_WIELDER">
+		<supports>General</supports>
+		<requirements>([character:4],([str:13]||[dex:13]),!ID_PHB_FEAT_DUALWIELDER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Força ou Destreza 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Força ou Destreza 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Empunhadura Dupla Aprimorada.</i></b> Quando realizar a ação de Ataque em seu turno e atacar com uma arma que tenha a propriedade Leve, você pode fazer um ataque extra como uma Ação Bônus mais tarde no mesmo turno com uma arma diferente, a qual deve ser uma arma Corpo a Corpo que não tenha a propriedade Duas Mãos. Você não adiciona seu modificador de habilidade ao dano desse ataque extra a menos que o modificador seja negativo.</p>
+			<p class="indent"><b><i>Saque Rápido.</i></b> Você pode sacar ou guardar duas armas que não tenham a propriedade Duas Mãos quando normalmente poderia sacar ou guardar apenas uma.</p>
+		</description>
+		<sheet>
+			<description>Quando você ataca com uma arma de propriedade Leve, pode realizar um ataque extra como Ação Bônus com uma arma Corpo a Corpo diferente que não tenha a propriedade Duas Mãos. Você não adiciona seu modificador de habilidade ao dano desse ataque extra a menos que o modificador seja negativo. &#13;
+			Sempre que for sacar ou guardar suas armas sem a propriedade Duas Mãos, você pode fazer isso com duas armas em vez de apenas uma.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Empunhadura Dupla)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+		</rules>
+	</element>
+
+	<element name="Durável" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_DURABLE">
+		<supports>General</supports>
+		<requirements>([character:4],!ID_PHB_FEAT_DURABLE)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Constituição em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Desafiar a Morte.</i></b> Você tem Vantagem nos Testes de Resistência contra a Morte.</p>
+			<p class="indent"><b><i>Recuperação Rápida.</i></b> Como Ação Bônus, você pode gastar um de seus Dados de Vida, rolar o dado e recuperar uma quantidade de Pontos de Vida igual ao resultado.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>Você pode gastar um de seus Dados de Vida, rolá-lo e recuperar uma quantidade de PV igual ao resultado da rolagem. &#13;
+			Adicionalmente, você tem Vantagem nos Testes de Resistência contra a Morte.</description>
+		</sheet>
+		<rules>
+			<stat name="constitution" value="1" alt="Durável" />
+		</rules>
+	</element>
+
+	<element name="Adepto Elemental" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT">
+		<supports>General</supports>
+		<requirements>([character:4],(ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE||ID_INTERNAL_GRANTS_PACT_MAGIC_FEATURE),!ID_PHB_FEAT_ELEMENTAL_ADEPT)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Característica Conjuração ou Magia de Pacto</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Característica Conjuração ou Magia de Pacto)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Maestria em Energia.</i></b> Escolha um dos seguintes tipos de dano: Ácido, Frio, Fogo, Elétrico ou Trovejante. As magias que você conjurar ignoram a Resistência ao dano do tipo escolhido. Além disso, quando rolar dano para uma magia conjurada por você que cause o dano daquele tipo, pode tratar qualquer resultado 1 no dado de dano como se fosse um 2.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez, mas deve escolher um tipo de dano diferente para Maestria em Energia a cada vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Adepto Elemental)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<select type="Feat Feature" name="Tipo de Dano (Adepto Elemental)" supports="Elemental Adept 24" />
+		</rules>
+	</element>
+	<element name="Ácido" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_ACID">
+		<supports>Elemental Adept 24</supports>
+		<compendium display="false" />
+		<description>
+			<p>As magias que você conjurar ignoram Resistência a Ácido. Além disso, quando rolar dano para uma magia sua que cause dano de Ácido, trate qualquer resultado 1 no dado como um 2.</p>
+		</description>
+		<sheet alt="Adepto Elemental: Ácido">
+			<description>Suas magias ignoram Resistência a Ácido. Trate qualquer 1 no dado de dano como 2 ao usar magias que causem dano de Ácido.</description>
+		</sheet>
+	</element>
+	<element name="Frio" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_COLD">
+		<supports>Elemental Adept 24</supports>
+		<compendium display="false" />
+		<description>
+			<p>As magias que você conjurar ignoram Resistência a Frio. Além disso, quando rolar dano para uma magia sua que cause dano de Frio, trate qualquer resultado 1 no dado como um 2.</p>
+		</description>
+		<sheet alt="Adepto Elemental: Frio">
+			<description>Suas magias ignoram Resistência a Frio. Trate qualquer 1 no dado de dano como 2 ao usar magias que causem dano de Frio.</description>
+		</sheet>
+	</element>
+	<element name="Fogo" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_FIRE">
+		<supports>Elemental Adept 24</supports>
+		<compendium display="false" />
+		<description>
+			<p>As magias que você conjurar ignoram Resistência a Fogo. Além disso, quando rolar dano para uma magia sua que cause dano de Fogo, trate qualquer resultado 1 no dado como um 2.</p>
+		</description>
+		<sheet alt="Adepto Elemental: Fogo">
+			<description>Suas magias ignoram Resistência a Fogo. Trate qualquer 1 no dado de dano como 2 ao usar magias que causem dano de Fogo.</description>
+		</sheet>
+	</element>
+	<element name="Elétrico" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_LIGHTNING">
+		<supports>Elemental Adept 24</supports>
+		<compendium display="false" />
+		<description>
+			<p>As magias que você conjurar ignoram Resistência a Elétrico. Além disso, quando rolar dano para uma magia sua que cause dano Elétrico, trate qualquer resultado 1 no dado como um 2.</p>
+		</description>
+		<sheet alt="Adepto Elemental: Elétrico">
+			<description>Suas magias ignoram Resistência a Elétrico. Trate qualquer 1 no dado de dano como 2 ao usar magias que causem dano Elétrico.</description>
+		</sheet>
+	</element>
+	<element name="Trovejante" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_THUNDER">
+		<supports>Elemental Adept 24</supports>
+		<compendium display="false" />
+		<description>
+			<p>As magias que você conjurar ignoram Resistência a Trovejante. Além disso, quando rolar dano para uma magia sua que cause dano Trovejante, trate qualquer resultado 1 no dado como um 2.</p>
+		</description>
+		<sheet alt="Adepto Elemental: Trovejante">
+			<description>Suas magias ignoram Resistência a Trovejante. Trate qualquer 1 no dado de dano como 2 ao usar magias que causem dano Trovejante.</description>
+		</sheet>
+	</element>
+	<element name="Adepto Elemental" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_2">
+		<compendium display="false" />
+		<requirements>ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT</requirements>
+		<prerequisite>Nível 4+, Característica Conjuração ou Magia de Pacto</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Característica Conjuração ou Magia de Pacto)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Maestria em Energia.</i></b> Escolha um dos seguintes tipos de dano: Ácido, Frio, Fogo, Elétrico ou Trovejante. As magias que você conjurar ignoram a Resistência ao dano do tipo escolhido. Além disso, quando rolar dano para uma magia conjurada por você que cause o dano daquele tipo, pode tratar qualquer resultado 1 no dado de dano como se fosse um 2.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez, mas deve escolher um tipo de dano diferente para Maestria em Energia a cada vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Adepto Elemental)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<select type="Feat Feature" name="Tipo de Dano (Adepto Elemental)" supports="Elemental Adept 24" />
+		</rules>
+	</element>
+	<element name="Adepto Elemental" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_3">
+		<compendium display="false" />
+		<requirements>ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_2</requirements>
+		<prerequisite>Nível 4+, Característica Conjuração ou Magia de Pacto</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Característica Conjuração ou Magia de Pacto)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Maestria em Energia.</i></b> Escolha um dos seguintes tipos de dano: Ácido, Frio, Fogo, Elétrico ou Trovejante. As magias que você conjurar ignoram a Resistência ao dano do tipo escolhido. Além disso, quando rolar dano para uma magia conjurada por você que cause o dano daquele tipo, pode tratar qualquer resultado 1 no dado de dano como se fosse um 2.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez, mas deve escolher um tipo de dano diferente para Maestria em Energia a cada vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Adepto Elemental)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<select type="Feat Feature" name="Tipo de Dano (Adepto Elemental)" supports="Elemental Adept 24" />
+		</rules>
+	</element>
+	<element name="Adepto Elemental" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_4">
+		<compendium display="false" />
+		<requirements>ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_3</requirements>
+		<prerequisite>Nível 4+, Característica Conjuração ou Magia de Pacto</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Característica Conjuração ou Magia de Pacto)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Maestria em Energia.</i></b> Escolha um dos seguintes tipos de dano: Ácido, Frio, Fogo, Elétrico ou Trovejante. As magias que você conjurar ignoram a Resistência ao dano do tipo escolhido. Além disso, quando rolar dano para uma magia conjurada por você que cause o dano daquele tipo, pode tratar qualquer resultado 1 no dado de dano como se fosse um 2.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez, mas deve escolher um tipo de dano diferente para Maestria em Energia a cada vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Adepto Elemental)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<select type="Feat Feature" name="Tipo de Dano (Adepto Elemental)" supports="Elemental Adept 24" />
+		</rules>
+	</element>
+	<element name="Adepto Elemental" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_5">
+		<compendium display="false" />
+		<requirements>ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT_4</requirements>
+		<prerequisite>Nível 4+, Característica Conjuração ou Magia de Pacto</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Característica Conjuração ou Magia de Pacto)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Maestria em Energia.</i></b> Escolha um dos seguintes tipos de dano: Ácido, Frio, Fogo, Elétrico ou Trovejante. As magias que você conjurar ignoram a Resistência ao dano do tipo escolhido. Além disso, quando rolar dano para uma magia conjurada por você que cause o dano daquele tipo, pode tratar qualquer resultado 1 no dado de dano como se fosse um 2.</p>
+			<p class="indent"><b><i>Repetível.</i></b> Você pode pegar este talento mais de uma vez, mas deve escolher um tipo de dano diferente para Maestria em Energia a cada vez.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Adepto Elemental)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<select type="Feat Feature" name="Tipo de Dano (Adepto Elemental)" supports="Elemental Adept 24" />
+		</rules>
+	</element>
+
+	<element name="Tocado pelas Fadas" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEYTOUCHED">
+		<supports>General</supports>
+		<requirements>([character:4],!(ID_WOTC_UA20200713_FEAT_FEY_TOUCHED||ID_WOTC_TCOE_FEAT_FEY_TOUCHED))||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Sua exposição à magia da Faewild concede os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Magia Feérica.</i></b> Escolha uma magia de nível 1 da escola de magia de Adivinhação ou Encantamento. Você sempre tem essa magia e a magia <i>Passo Obscuro</i> preparadas. Você pode conjurar cada uma dessas magias sem gastar um espaço de magia. Após conjurar uma dessas magias desta forma, você não poderá fazê-lo novamente até terminar um Descanso Longo. Você também pode conjurar essas magias usando espaços de magia do nível apropriado que possua. A habilidade de conjuração dessas magias é a habilidade aumentada por este talento.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_MISTY_STEP" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Aumento de Valor de Habilidade (Tocado pelas Fadas)" supports="Fey-Touched 24" />
+			<select type="Spell" name="Magia (Tocado pelas Fadas)" supports="1,(Divination||Enchantment)" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" />
+		</rules>
+	</element>
+	<element name="Inteligência" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_FEYTOUCHED_INTELLIGENCE">
+		<supports>Fey-Touched 24</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Inteligência em 1, até um máximo de 20.</p>
+		</description>
+		<sheet alt="Tocado pelas Fadas">
+			<description>Você pode conjurar cada uma das magias deste talento sem um espaço de magia uma vez por Descanso Longo. Você também pode conjurar essas magias usando os espaços de magia que possua do nível adequado. A habilidade de conjuração para essas magias é Inteligência.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" alt="Tocado pelas Fadas" />
+		</rules>
+	</element>
+	<element name="Sabedoria" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_FEYTOUCHED_WISDOM">
+		<supports>Fey-Touched 24</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Sabedoria em 1, até um máximo de 20.</p>
+		</description>
+		<sheet alt="Tocado pelas Fadas">
+			<description>Você pode conjurar cada uma das magias deste talento sem um espaço de magia uma vez por Descanso Longo. Você também pode conjurar essas magias usando os espaços de magia que possua do nível adequado. A habilidade de conjuração para essas magias é Sabedoria.</description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" alt="Tocado pelas Fadas" />
+		</rules>
+	</element>
+	<element name="Carisma" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_FEYTOUCHED_CHARISMA">
+		<supports>Fey-Touched 24</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente seu Carisma em 1, até um máximo de 20.</p>
+		</description>
+		<sheet alt="Tocado pelas Fadas">
+			<description>Você pode conjurar cada uma das magias deste talento sem um espaço de magia uma vez por Descanso Longo. Você também pode conjurar essas magias usando os espaços de magia que possua do nível adequado. A habilidade de conjuração para essas magias é Carisma.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" alt="Tocado pelas Fadas" />
+		</rules>
+	</element>
+
+	<element name="Agarrador" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_GRAPPLER">
+		<supports>General</supports>
+		<requirements>([character:4],([str:13]||[dex:13]),!ID_PHB_FEAT_GRAPPLER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Força ou Destreza 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Força ou Destreza 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Socar e Agarrar.</i></b> Quando atingir uma criatura com um Ataque Desarmado como parte da ação de Ataque em seu turno, você pode usar tanto a opção de Dano quanto a de Agarrar. Você só pode usar este benefício uma vez por turno.</p>
+			<p class="indent"><b><i>Vantagem em Ataque.</i></b> Você tem Vantagem em rolagens de ataque contra uma criatura Agarrada por você.</p>
+			<p class="indent"><b><i>Lutador Rápido.</i></b> Você não precisa gastar movimento extra para mover uma criatura Agarrada por você se ela for do seu tamanho ou menor.</p>
+		</description>
+		<sheet>
+			<description>Você ganha os seguintes benefícios: &#13;
+			• Uma vez por turno, quando atinge uma criatura com um Ataque Desarmado como parte da ação de Ataque em seu turno, pode usar ambas as opções de Dano e Agarrar. &#13;
+			• Você tem Vantagem nas rolagens de ataque contra criaturas Agarradas por você. &#13;
+			• Você não precisa gastar movimento extra para mover uma criatura Agarrada por você se ela for do seu tamanho ou menor.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Agarrador)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+		</rules>
+	</element>
+
+	<element name="Mestre em Armas Grandes" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_GREAT_WEAPON_MASTER">
+		<supports>General</supports>
+		<requirements>([character:4],[str:13],!ID_PHB_FEAT_GREATWEAPONMASTER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Força 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Força 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Maestria com Armas Pesadas.</i></b> Quando atingir uma criatura com uma arma que tenha a propriedade Pesada como parte da ação de Ataque em seu turno, você pode fazer com que a arma cause dano extra ao alvo. O dano extra é igual ao seu Bônus de Proficiência.</p>
+			<p class="indent"><b><i>Golpear.</i></b> Imediatamente após você obter um Acerto Crítico com uma arma Corpo a Corpo ou reduzir uma criatura a 0 Pontos de Vida com uma, você pode realizar um ataque com a mesma arma como uma Ação Bônus.</p>
+		</description>
+		<sheet>
+			<description>Sempre que causar dano a uma criatura com uma arma Pesada como parte da ação de Ataque, você pode causar {{proficiency}} de dano extra a ela. &#13;
+			Adicionalmente, após obter um Acerto Crítico com uma arma Corpo a Corpo ou reduzir uma criatura a 0 PV com uma, você pode realizar um ataque com a mesma arma como uma Ação Bônus.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="1" alt="Mestre em Armas Grandes" />
+		</rules>
+	</element>
+
+	<element name="Fortemente Blindado" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_HEAVILY_ARMORED">
+		<supports>General</supports>
+		<requirements>([character:4],ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR,!ID_PHB_FEAT_HEAVILYARMORED)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Treinamento com Armaduras Médias</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Treinamento com Armaduras Médias)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Constituição ou Força em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Treinamento com Armadura.</i></b> Você ganha treinamento com armadura Pesada.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Fortemente Blindado)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+		</rules>
+	</element>
+
+	<element name="Mestre em Armadura Pesada" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_HEAVY_ARMOR_MASTER">
+		<supports>General</supports>
+		<requirements>([character:4],ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR,!ID_PHB_FEAT_HEAVYARMORMASTER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Treinamento com Armaduras Pesadas</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Treinamento com Armaduras Pesadas)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Constituição ou Força em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Redução de Dano.</i></b> Quando for atingido por um ataque enquanto estiver vestindo armadura Pesada, qualquer dano de Concussão, Perfuração e Cortante causado a você pelo ataque é reduzido em uma quantia igual ao seu Bônus de Proficiência.</p>
+		</description>
+		<sheet>
+			<description>Enquanto estiver vestindo armadura Pesada, qualquer dano de Concussão, Perfuração e Cortante que você receba de um ataque é reduzido em {{proficiency}}.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Mestre em Armadura Pesada)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION" />
+		</rules>
+	</element>
+
+	<element name="Líder Inspirador" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_INSPIRING_LEADER">
+		<supports>General</supports>
+		<requirements>([character:4],([wis:13]||[cha:13]),!ID_PHB_FEAT_INSPIRINGLEADER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Sabedoria ou Carisma 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Sabedoria ou Carisma 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Sabedoria ou Carisma em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Performance Fortificante.</i></b> Quando terminar um Descanso Curto ou Longo, você pode realizar uma performance inspiradora: um discurso, uma música ou uma dança. Ao fazer isso, escolha até seis aliados (podendo incluir você) a até 30 pés de você que assistam à performance. As criaturas escolhidas ganham Pontos de Vida Temporários iguais ao seu nível de personagem mais o modificador da habilidade que você aumentou com este talento.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Aumento de Valor de Habilidade (Líder Inspirador)" supports="PHB24 Inspiring Leader" />
+			<stat name="inspiring leader:thp" value="level" bonus="base" />
+		</rules>
+	</element>
+	<element name="Sabedoria" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_INSPIRING_LEADER_WISDOM">
+		<supports>PHB24 Inspiring Leader</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Sabedoria em 1, até um máximo de 20.</p>
+		</description>
+		<sheet alt="Líder Inspirador">
+			<description>Ao terminar um Descanso Curto ou Longo, você pode fazer uma performance inspiradora. Escolha até 6 aliados (incluindo você) a até 30 pés que assistam. Cada criatura recebe {{inspiring leader:thp}} PV Temporários.</description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" alt="Líder Inspirador" />
+			<stat name="inspiring leader:thp" value="wisdom:modifier" bonus="ability" />
+		</rules>
+	</element>
+	<element name="Carisma" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_INSPIRING_LEADER_CHARISMA">
+		<supports>PHB24 Inspiring Leader</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente seu Carisma em 1, até um máximo de 20.</p>
+		</description>
+		<sheet alt="Líder Inspirador">
+			<description>Ao terminar um Descanso Curto ou Longo, você pode fazer uma performance inspiradora. Escolha até 6 aliados (incluindo você) a até 30 pés que assistam. Cada criatura recebe {{inspiring leader:thp}} PV Temporários.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" alt="Líder Inspirador" />
+			<stat name="inspiring leader:thp" value="charisma:modifier" bonus="ability" />
+		</rules>
+	</element>
+
+	<element name="Mente Aguçada" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_KEEN_MIND">
+		<supports>General</supports>
+		<requirements>([character:4],[int:13],!ID_PHB_FEAT_KEENMIND)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Inteligência 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Inteligência 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Inteligência em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Conhecimento de Lore.</i></b> Escolha uma das seguintes perícias: Arcanismo, História, Investigação, Natureza ou Religião. Se não tiver proficiência na perícia escolhida, ganha proficiência nela, e se já for proficiente, ganha Especialização nela.</p>
+			<p class="indent"><b><i>Estudo Rápido.</i></b> Você pode realizar a ação de Estudar como uma Ação Bônus.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>Você pode realizar a ação de Estudar.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" alt="Mente Aguçada" />
+			<select type="Feat Feature" name="Proficiência ou Especialização em Perícia (Mente Aguçada)" supports="PHB24 Keen Mind" />
+		</rules>
+	</element>
+	<element name="Arcanismo" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_KEEN_MIND_ARCANA">
+		<supports>PHB24 Keen Mind</supports>
+		<compendium display="false" />
+		<description />
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ARCANA" />
+		</rules>
+	</element>
+	<element name="História" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_KEEN_MIND_HISTORY">
+		<supports>PHB24 Keen Mind</supports>
+		<compendium display="false" />
+		<description />
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_HISTORY" />
+		</rules>
+	</element>
+	<element name="Investigação" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_KEEN_MIND_INVESTIGATION">
+		<supports>PHB24 Keen Mind</supports>
+		<compendium display="false" />
+		<description />
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_INVESTIGATION" />
+		</rules>
+	</element>
+	<element name="Natureza" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_KEEN_MIND_NATURE">
+		<supports>PHB24 Keen Mind</supports>
+		<compendium display="false" />
+		<description />
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_NATURE" />
+		</rules>
+	</element>
+	<element name="Religião" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_KEEN_MIND_RELIGION">
+		<supports>PHB24 Keen Mind</supports>
+		<compendium display="false" />
+		<description />
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_RELIGION" />
+		</rules>
+	</element>
+
+	<element name="Levemente Blindado" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_LIGHTLY_ARMORED">
+		<supports>General</supports>
+		<requirements>([character:4],!ID_PHB_FEAT_LIGHTLYARMORED)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Treinamento com Armadura.</i></b> Você ganha treinamento com armadura Leve e Escudos.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Levemente Blindado)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+		</rules>
+	</element>
+
+	<element name="Conjurador Assassino" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MAGE_SLAYER">
+		<supports>General</supports>
+		<requirements>([character:4],!ID_PHB_FEAT_MAGESLAYER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Quebra-Concentração.</i></b> Quando causar dano a uma criatura que está concentrada, ela tem Desvantagem no teste de resistência que fizer para manter a Concentração.</p>
+			<p class="indent"><b><i>Mente Protegida.</i></b> Se falhar num teste de resistência de Inteligência, Sabedoria ou Carisma, você pode fazer com que seja bem-sucedido em vez disso. Após usar este benefício, você não pode usá-lo novamente até terminar um Descanso Curto ou Longo.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>Se falhar num teste de resistência de Inteligência, Sabedoria ou Carisma, pode escolher ser bem-sucedido em vez disso. &#13;
+			Adicionalmente, quando causar dano a uma criatura concentrada, ela terá Desvantagem no teste para manter a Concentração.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Conjurador Assassino)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+		</rules>
+	</element>
+
+	<element name="Treinamento com Armas Marciais" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MARTIAL_WEAPON_TRAINING">
+		<supports>General</supports>
+		<requirements>[character:4]||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Proficiência com Armas.</i></b> Você ganha proficiência com armas Marciais.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Treinamento com Armas Marciais)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+		</rules>
+	</element>
+
+	<element name="Mestre em Armadura Média" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MEDIUM_ARMOR_MASTER">
+		<supports>General</supports>
+		<requirements>([character:4],ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR,!ID_PHB_FEAT_MEDIUMARMORMASTER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Treinamento com Armaduras Médias</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Treinamento com Armaduras Médias)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Usuário Destro.</i></b> Enquanto vestir armadura Média, você pode adicionar 3, em vez de 2, à sua CA se tiver um valor de Destreza 16 ou superior.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Mestre em Armadura Média)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+			<stat name="ac:armored:dexterity:cap" value="3" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Moderadamente Blindado" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MODERATELY_ARMORED">
+		<supports>General</supports>
+		<requirements>([character:4],ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR,!ID_PHB_FEAT_MODERATELYARMORED)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Treinamento com Armaduras Leves</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Treinamento com Armaduras Leves)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Treinamento com Armadura.</i></b> Você ganha treinamento com armadura Média.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Moderadamente Blindado)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+		</rules>
+	</element>
+
+	<element name="Combatente Montado" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_MOUNTED_COMBATANT">
+		<supports>General</supports>
+		<requirements>([character:4],!ID_PHB_FEAT_MOUNTEDCOMBATANT)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força, Destreza ou Sabedoria em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Ataque Montado.</i></b> Enquanto montado, você tem Vantagem nas rolagens de ataque contra qualquer criatura não montada a até 5 pés da sua montaria que seja pelo menos uma categoria de tamanho menor que ela.</p>
+			<p class="indent"><b><i>Salto para o Lado.</i></b> Se sua montaria for submetida a um efeito que permita um teste de resistência de Destreza para sofrer apenas metade do dano, ela não sofrerá dano se passar no teste e sofrerá apenas metade se falhar. Para ganhar esse benefício, você deve estar cavalgando, e nenhum de vocês pode ter a condição Incapacitado.</p>
+			<p class="indent"><b><i>Desviar.</i></b> Enquanto montado, você pode forçar um ataque que atinja sua montaria a atingir você em vez dela se não estiver com a condição Incapacitado.</p>
+		</description>
+		<sheet>
+			<description>Enquanto montado, você tem Vantagem nas rolagens de ataque contra qualquer criatura não montada a até 5 pés da sua montaria que seja pelo menos uma categoria menor que ela. &#13;
+			Quando sua montaria fizer um teste de resistência de Destreza para sofrer metade do dano, ela não sofrerá dano se passar e sofrerá apenas metade se falhar. Para ganhar esse benefício, você deve estar montado nela e nenhum de vocês pode estar Incapacitado. &#13;
+			Enquanto montado, você pode forçar um ataque que atinja sua montaria a atingir você se não estiver Incapacitado.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Combatente Montado)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM" />
+		</rules>
+	</element>
+
+	<element name="Observador" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_OBSERVANT">
+		<supports>General</supports>
+		<requirements>([character:4],([int:13]||[wis:13]),!ID_PHB_FEAT_OBSERVANT)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Inteligência ou Sabedoria 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Inteligência ou Sabedoria 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Inteligência ou Sabedoria em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Observador Atento.</i></b> Escolha uma das seguintes perícias: Intuição, Investigação ou Percepção. Se não tiver proficiência na perícia escolhida, ganha proficiência, e se já for proficiente, ganha Especialização nela.</p>
+			<p class="indent"><b><i>Busca Rápida.</i></b> Você pode realizar a ação de Buscar como uma Ação Bônus.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>Você pode realizar a ação de Buscar.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Observador)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM" />
+			<select type="Feat Feature" name="Proficiência ou Especialização em Perícia (Observador)" supports="PHB24 Observant" />
+		</rules>
+	</element>
+	<element name="Intuição" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_OBSERVANT_INSIGHT">
+		<supports>PHB24 Observant</supports>
+		<compendium display="false" />
+		<description />
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_INSIGHT" />
+		</rules>
+	</element>
+	<element name="Investigação" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_OBSERVANT_INVESTIGATION">
+		<supports>PHB24 Observant</supports>
+		<compendium display="false" />
+		<description />
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_INVESTIGATION" />
+		</rules>
+	</element>
+	<element name="Percepção" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_OBSERVANT_PERCEPTION">
+		<supports>PHB24 Observant</supports>
+		<compendium display="false" />
+		<description />
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERCEPTION" />
+		</rules>
+	</element>
+
+	<element name="Perfurador" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_PIERCER">
+		<supports>General</supports>
+		<requirements>([character:4],!(ID_WOTC_UA20200713_FEAT_PIERCER||ID_WOTC_TCOE_FEAT_PIERCER))||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Puntura.</i></b> Uma vez por turno, quando atingir uma criatura com um ataque que cause dano Perfurante, você pode rerrolar um dos dados de dano do ataque e deve usar a nova rolagem.</p>
+			<p class="indent"><b><i>Crítico Aprimorado.</i></b> Quando obtiver um Acerto Crítico que cause dano Perfurante a uma criatura, você pode rolar um dado de dano adicional ao determinar o dano extra Perfurante que o alvo sofre.</p>
+		</description>
+		<sheet usage="1/Turn">
+			<description>Quando atingir uma criatura com um ataque que cause dano Perfurante, pode rerrolar um dos dados de dano e deve usar a nova rolagem. &#13;
+			Adicionalmente, sempre que obtiver um Acerto Crítico que cause dano Perfurante a uma criatura, rola um dado de dano adicional para determinar o dano Perfurante extra.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Perfurador)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+		</rules>
+	</element>
+
+	<element name="Envenenador" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_POISONER">
+		<supports>General</supports>
+		<requirements>([character:4],!(ID_WOTC_UA20200713_FEAT_POISONER||ID_WOTC_TCOE_FEAT_POISONER))||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Destreza ou Inteligência em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Veneno Potente.</i></b> Quando rolar dano que cause dano de Veneno, ele ignora a Resistência a dano de Veneno.</p>
+			<p class="indent"><b><i>Fabricar Veneno.</i></b> Você ganha proficiência com o Kit de Envenenador. Com 1 hora de trabalho usando o kit e gastando 50 PO em materiais, você pode criar uma quantidade de doses de veneno igual ao seu Bônus de Proficiência. Como Ação Bônus, pode aplicar uma dose em uma arma ou munição. O veneno retém sua potência por 1 minuto ou até causar dano com o item envenenado, o que ocorrer primeiro. Quando uma criatura sofre dano do item, deve ser bem-sucedida num teste de resistência de Constituição (CD 8 mais o modificador da habilidade aumentada e Bônus de Proficiência) ou sofrerá 2d8 de dano de Veneno e terá a condição Envenenado até o fim do seu próximo turno.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Aumento de Valor de Habilidade (Envenenador)" supports="Poisoner" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" />
+			<stat name="poisoner:dc" value="8" bonus="base" />
+			<stat name="poisoner:dc" value="proficiency" bonus="proficiency" />
+		</rules>
+	</element>
+	<element name="Destreza" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_POISONER_DEXTERITY">
+		<supports>Poisoner</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Destreza em 1, até um máximo de 20.</p>
+		</description>
+		<sheet alt="Envenenador">
+			<description>Seu dano de Veneno ignora Resistência a Veneno. &#13;
+			Com 1 hora e 50 PO em materiais, pode criar {{proficiency}} doses de veneno usando o Kit de Envenenador. Como Ação Bônus, aplica numa arma ou munição (dura 1 min. ou até acertar). Alvo atingido deve passar num teste de Constituição CD {{poisoner:dc}} ou sofrerá 2d8 de dano de Veneno e ficará Envenenado até o final do seu próximo turno.</description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="1" alt="Envenenador" />
+			<stat name="poisoner:dc" value="dexterity:modifier" bonus="ability" />
+		</rules>
+	</element>
+	<element name="Inteligência" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_POISONER_INTELLIGENCE">
+		<supports>Poisoner</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Inteligência em 1, até um máximo de 20.</p>
+		</description>
+		<sheet alt="Envenenador">
+			<description>Seu dano de Veneno ignora Resistência a Veneno. &#13;
+			Com 1 hora e 50 PO em materiais, pode criar {{proficiency}} doses de veneno usando o Kit de Envenenador. Como Ação Bônus, aplica numa arma ou munição (dura 1 min. ou até acertar). Alvo atingido deve passar num teste de Constituição CD {{poisoner:dc}} ou sofrerá 2d8 de dano de Veneno e ficará Envenenado até o final do seu próximo turno.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" alt="Envenenador" />
+			<stat name="poisoner:dc" value="intelligence:modifier" bonus="ability" />
+		</rules>
+	</element>
+
+	<element name="Mestre em Armas de Haste" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_POLEARM_MASTER">
+		<supports>General</supports>
+		<requirements>([character:4],([str:13]||[dex:13]),!ID_PHB_FEAT_POLEARMMASTER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Força ou Destreza 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Força ou Destreza 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Destreza ou Força em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Ataque com a Haste.</i></b> Imediatamente após realizar a ação de Ataque e atacar com um Bordão, uma Lança, ou uma arma que tenha as propriedades Pesada e Alcance, você pode usar uma Ação Bônus para fazer um ataque corpo a corpo com a extremidade oposta da arma. A arma causa dano de Concussão, e o dado de dano para este ataque é um d4.</p>
+			<p class="indent"><b><i>Golpe Reativo.</i></b> Enquanto segurar um Bordão, Lança, ou arma com as propriedades Pesada e Alcance, pode usar uma Reação para fazer um ataque corpo a corpo contra uma criatura que entrar no alcance que você tem com a arma.</p>
+		</description>
+		<sheet>
+			<description>Após a ação de Ataque usando Bordão, Lança ou arma Pesada/Alcance, pode usar Ação Bônus para atacar com a outra extremidade (dano de Concussão, dado d4). &#13;
+			Enquanto a empunhar, você pode usar Reação para realizar um ataque corpo a corpo contra quem entrar no seu alcance com ela.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Mestre em Armas de Haste)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+		</rules>
+	</element>
+
+	<element name="Resiliente" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_RESILIENT">
+		<supports>General</supports>
+		<requirements>([character:4],!ID_PHB_FEAT_RESILIENT)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Escolha uma habilidade na qual você não possui proficiência em testes de resistência. Aumente o valor dessa habilidade em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Proficiência em Teste de Resistência.</i></b> Você ganha proficiência nos testes de resistência com a habilidade escolhida.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Aumento de Valor de Habilidade (Resiliente)" supports="PHB24 Resilient" />
+		</rules>
+	</element>
+	<element name="Força" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_RESILIENT_STRENGTH">
+		<supports>PHB24 Resilient</supports>
+		<requirements>!ID_PROFICIENCY_SAVINGTHROW_STRENGTH</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Você ganha proficiência em testes de resistência de Força, e aumenta sua Força em 1, até o máximo de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Resiliente" />
+			<stat name="strength:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiência" />
+		</rules>
+	</element>
+	<element name="Destreza" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_RESILIENT_DEXTERITY">
+		<supports>PHB24 Resilient</supports>
+		<requirements>!ID_PROFICIENCY_SAVINGTHROW_DEXTERITY</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Você ganha proficiência em testes de resistência de Destreza, e aumenta sua Destreza em 1, até o máximo de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Resiliente" />
+			<stat name="dexterity:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiência" />
+		</rules>
+	</element>
+	<element name="Constituição" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_RESILIENT_CONSTITUTION">
+		<supports>PHB24 Resilient</supports>
+		<requirements>!ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Você ganha proficiência em testes de resistência de Constituição, e aumenta sua Constituição em 1, até o máximo de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Resiliente" />
+			<stat name="constitution:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiência" />
+		</rules>
+	</element>
+	<element name="Inteligência" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_RESILIENT_INTELLIGENCE">
+		<supports>PHB24 Resilient</supports>
+		<requirements>!ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Você ganha proficiência em testes de resistência de Inteligência, e aumenta sua Inteligência em 1, até o máximo de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Resiliente" />
+			<stat name="intelligence:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiência" />
+		</rules>
+	</element>
+	<element name="Sabedoria" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_RESILIENT_WISDOM">
+		<supports>PHB24 Resilient</supports>
+		<requirements>!ID_PROFICIENCY_SAVINGTHROW_WISDOM</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Você ganha proficiência em testes de resistência de Sabedoria, e aumenta sua Sabedoria em 1, até o máximo de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Resiliente" />
+			<stat name="wisdom:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiência" />
+		</rules>
+	</element>
+	<element name="Carisma" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_RESILIENT_CHARISMA">
+		<supports>PHB24 Resilient</supports>
+		<requirements>!ID_PROFICIENCY_SAVINGTHROW_CHARISMA</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Você ganha proficiência em testes de resistência de Carisma, e aumenta seu Carisma em 1, até o máximo de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Resiliente" />
+			<stat name="charisma:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiência" />
+		</rules>
+	</element>
+
+	<element name="Conjurador de Ritual" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_RITUAL_CASTER">
+		<supports>General</supports>
+		<requirements>([character:4],([int:13]||[wis:13]||[cha:13]),!ID_PHB_FEAT_RITUALCASTER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Inteligência, Sabedoria ou Carisma 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+; Int, Sab ou Car 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente sua Inteligência, Sabedoria ou Carisma em 1, máximo 20.</p>
+			<p class="indent"><b><i>Magias de Ritual.</i></b> Escolha um número de magias de nível 1 igual ao seu Bônus de Proficiência que tenham a tag Ritual. Você sempre as tem preparadas e pode conjurá-las com espaços de magia que possua. A habilidade é a aumentada por este talento. Quando sua Proficiência aumentar, adiciona mais 1 magia.</p>
+			<p class="indent"><b><i>Ritual Rápido.</i></b> Permite conjurar uma magia de Ritual preparada usando o tempo de conjuração regular em vez do tempo estendido para um Ritual. Fazer isso não consome espaço. Uma vez que o faça, precisa de um Descanso Longo para usar de novo.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<select type="Feat Feature" name="Aumento de Valor de Habilidade (Conjurador de Ritual)" supports="PHB24 Ritual Caster" />
+			<select type="Spell" name="1ª Magia de Ritual (Conjurador de Ritual)" supports="Ritual,1" requirements="[proficiency:1]" />
+			<select type="Spell" name="2ª Magia de Ritual (Conjurador de Ritual)" supports="Ritual,1" requirements="[proficiency:2]" />
+			<select type="Spell" name="3ª Magia de Ritual (Conjurador de Ritual)" supports="Ritual,1" requirements="[proficiency:3]" />
+			<select type="Spell" name="4ª Magia de Ritual (Conjurador de Ritual)" supports="Ritual,1" requirements="[proficiency:4]" />
+			<select type="Spell" name="5ª Magia de Ritual (Conjurador de Ritual)" supports="Ritual,1" requirements="[proficiency:5]" />
+			<select type="Spell" name="6ª Magia de Ritual (Conjurador de Ritual)" supports="Ritual,1" requirements="[proficiency:6]" />
+			<select type="Spell" name="7ª Magia de Ritual (Conjurador de Ritual)" supports="Ritual,1" requirements="[proficiency:7]" />
+			<select type="Spell" name="8ª Magia de Ritual (Conjurador de Ritual)" supports="Ritual,1" requirements="[proficiency:8]" />
+		</rules>
+	</element>
+	<element name="Inteligência" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_RITUAL_CASTER_INTELLIGENCE">
+		<supports>PHB24 Ritual Caster</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Inteligência em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Conjurador de Ritual" usage="1/Long Rest">
+			<description>Pode conjurar uma magia de Ritual preparada no tempo regular sem gastar espaço. Sua habilidade para essas magias é Inteligência.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" alt="Conjurador de Ritual" />
+		</rules>
+	</element>
+	<element name="Sabedoria" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_RITUAL_CASTER_WISDOM">
+		<supports>PHB24 Ritual Caster</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Sabedoria em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Conjurador de Ritual" usage="1/Long Rest">
+			<description>Pode conjurar uma magia de Ritual preparada no tempo regular sem gastar espaço. Sua habilidade para essas magias é Sabedoria.</description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" alt="Conjurador de Ritual" />
+		</rules>
+	</element>
+	<element name="Carisma" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_RITUAL_CASTER_CHARISMA">
+		<supports>PHB24 Ritual Caster</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente seu Carisma em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Conjurador de Ritual" usage="1/Long Rest">
+			<description>Pode conjurar uma magia de Ritual preparada no tempo regular sem gastar espaço. Sua habilidade para essas magias é Carisma.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" alt="Conjurador de Ritual" />
+		</rules>
+	</element>
+
+	<element name="Sentinela" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SENTINEL">
+		<supports>General</supports>
+		<requirements>([character:4],([str:13]||[dex:13]),!ID_PHB_FEAT_SENTINEL)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Força ou Destreza 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Força ou Destreza 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Guardião.</i></b> Imediatamente após uma criatura a até 5 pés de você realizar a ação de Desengajar ou atingir um alvo diferente de você com um ataque, pode realizar um Ataque de Oportunidade contra ela.</p>
+			<p class="indent"><b><i>Parar.</i></b> Quando atingir uma criatura com um Ataque de Oportunidade, o Deslocamento da criatura se torna 0 pelo restante do turno atual.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>Imediatamente após uma criatura a até 5 pés de você Desengajar ou atacar outro alvo que não seja você, pode realizar um Ataque de Oportunidade. &#13;
+			Ao acertar um Ataque de Oportunidade, o Deslocamento do alvo cai para 0 pelo resto do turno.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Sentinela)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+		</rules>
+	</element>
+
+	<element name="Tocado pelas Sombras" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SHADOWTOUCHED">
+		<supports>General</supports>
+		<requirements>([character:4],!(ID_WOTC_UA20200713_FEAT_SHADOW_TOUCHED||ID_WOTC_TCOE_FEAT_SHADOW_TOUCHED))||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Sua exposição à magia do Shadowfell concede os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Inteligência, Sabedoria ou Carisma em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Magia das Sombras.</i></b> Escolha uma magia de nível 1 das escolas de Ilusão ou Necromancia. Sempre a tem preparada junto de <i>Invisibilidade</i>. Pode conjurar cada uma sem gastar espaço uma vez por Descanso Longo. Pode conjurá-las com seus próprios espaços.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_INVISIBILITY" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Aumento de Valor de Habilidade (Tocado pelas Sombras)" supports="PHB24 Shadow-Touched" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_INVISIBILITY" />
+			<select type="Spell" name="Magia (Tocado pelas Sombras)" supports="1,(Illusion||Necromancy)" />
+		</rules>
+	</element>
+	<element name="Inteligência" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_SHADOWTOUCHED_INTELLIGENCE">
+		<supports>PHB24 Shadow-Touched</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Inteligência em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Tocado pelas Sombras">
+			<description>Conjura cada magia do talento sem espaço 1x/Descanso Longo. Inteligência é a habilidade de conjuração.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" alt="Tocado pelas Sombras" />
+		</rules>
+	</element>
+	<element name="Sabedoria" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_SHADOWTOUCHED_WISDOM">
+		<supports>PHB24 Shadow-Touched</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Sabedoria em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Tocado pelas Sombras">
+			<description>Conjura cada magia do talento sem espaço 1x/Descanso Longo. Sabedoria é a habilidade de conjuração.</description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" alt="Tocado pelas Sombras" />
+		</rules>
+	</element>
+	<element name="Carisma" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_SHADOWTOUCHED_CHARISMA">
+		<supports>PHB24 Shadow-Touched</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente seu Carisma em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Tocado pelas Sombras">
+			<description>Conjura cada magia do talento sem espaço 1x/Descanso Longo. Carisma é a habilidade de conjuração.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" alt="Tocado pelas Sombras" />
+		</rules>
+	</element>
+
+	<element name="Atirador de Elite" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SHARPSHOOTER">
+		<supports>General</supports>
+		<requirements>([character:4],[dex:13],!ID_PHB_FEAT_SHARPSHOOTER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Destreza 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Destreza 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Destreza em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Ignorar Cobertura.</i></b> Seus ataques à distância com armas ignoram Meia Cobertura e Três Quartos de Cobertura.</p>
+			<p class="indent"><b><i>Atirar no Corpo a Corpo.</i></b> Estar a 5 pés de um inimigo não impõe Desvantagem nas rolagens de ataque com armas à Distância.</p>
+			<p class="indent"><b><i>Tiros Longos.</i></b> Atacar a longo alcance não impõe Desvantagem em seus ataques com armas à Distância.</p>
+		</description>
+		<sheet>
+			<description>Ao realizar ataques com armas à distância: estar a 5 pés de um inimigo ou atacar a longo alcance não impõe Desvantagem; e você ignora Meia Cobertura e Três Quartos de Cobertura.</description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="1" alt="Atirador de Elite" />
+		</rules>
+	</element>
+
+	<element name="Mestre em Escudos" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SHIELD_MASTER">
+		<supports>General</supports>
+		<requirements>([character:4],ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS,!ID_PHB_FEAT_SHIELDMASTER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Treinamento com Escudo</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Treinamento com Escudo)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente seu valor de Força em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Golpe de Escudo.</i></b> Se atacar uma criatura a 5 pés como parte da ação de Ataque e acertar com uma arma Corpo a Corpo, pode bater nela imediatamente com o Escudo equipado (Força contra CD 8 + Força + Proficiência). Se falhar, você a empurra 5 pés ou a deixa Caída. Uma vez por turno.</p>
+			<p class="indent"><b><i>Interpor Escudo.</i></b> Se for alvo de efeito que permita teste de Destreza para metade do dano, use Reação para sofrer nenhum dano caso seja bem-sucedido e esteja segurando o Escudo.</p>
+		</description>
+		<sheet usage="1/Turn">
+			<description>Ao acertar arma Corpo a Corpo a 5 pés, pode bater com o Escudo. Alvo faz teste de Força CD {{shield master:dc}}, se falhar é empurrado 5 pés ou fica Caído. &#13;
+			Se passar num teste de Destreza para sofrer metade do dano e segurar Escudo, use Reação para sofrer zero de dano.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="1" alt="Mestre em Escudos" />
+			<stat name="shield master:dc" value="8" bonus="base" />
+			<stat name="shield master:dc" value="proficiency" bonus="proficiency" />
+			<stat name="shield master:dc" value="strength:modifier" bonus="ability" />
+		</rules>
+	</element>
+
+	<element name="Especialista em Perícia" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SKILL_EXPERT">
+		<supports>General</supports>
+		<requirements>([character:4],!(ID_WOTC_UA20200713_FEAT_PRACTICED_EXPERT||ID_WOTC_TCOE_FEAT_SKILL_EXPERT))||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente um valor de habilidade à sua escolha em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Proficiência em Perícia.</i></b> Ganha proficiência em uma perícia à sua escolha.</p>
+			<p class="indent"><b><i>Especialização.</i></b> Escolha uma perícia na qual possua proficiência, mas não Especialização. Você ganha Especialização nessa perícia.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Especialista em Perícia)" supports="Feat Ability Score Increase" />
+			<select type="Proficiency" name="Proficiência em Perícia (Especialista em Perícia)" supports="Skill" />
+			<select type="Proficiency" name="Especialização (Especialista em Perícia)" supports="Skill Expertise" />
+		</rules>
+	</element>
+
+	<element name="Sorrateiro" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SKULKER">
+		<supports>General</supports>
+		<requirements>([character:4],[dex:13],!ID_PHB_FEAT_SKULKER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Destreza 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Destreza 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente sua Destreza em 1, máximo 20.</p>
+			<p class="indent"><b><i>Percepção às Cegas.</i></b> Tem Percepção às Cegas em 10 pés.</p>
+			<p class="indent"><b><i>Névoa de Guerra.</i></b> Vantagem em teste de Destreza (Furtividade) feito como parte da ação Esconder-se em combate.</p>
+			<p class="indent"><b><i>Atirador.</i></b> Se atacar enquanto estiver escondido e errar, não revelará sua localização.</p>
+		</description>
+		<sheet>
+			<description>Vantagem em testes de Destreza (Furtividade) feitos na ação Esconder-se em combate. Se atacar escondido e errar, sua localização não é revelada.</description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="1" alt="Sorrateiro" />
+			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
+			<stat name="blindsight:range" value="10" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Cortador" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SLASHER">
+		<supports>General</supports>
+		<requirements>([character:4],!(ID_WOTC_UA20200713_FEAT_SLASHER||ID_WOTC_TCOE_FEAT_SLASHER))||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente Força ou Destreza em 1, máximo 20.</p>
+			<p class="indent"><b><i>Corte nos Tendões.</i></b> Uma vez por turno, ao acertar dano Cortante, reduza o Deslocamento do alvo em 10 pés até o início de seu próximo turno.</p>
+			<p class="indent"><b><i>Crítico Aprimorado.</i></b> Acertos Críticos de Cortante dão Desvantagem nos ataques da criatura até o início de seu próximo turno.</p>
+		</description>
+		<sheet usage="1/Turn">
+			<description>Ao acertar dano Cortante, reduza o Deslocamento do alvo em 10 pés até o início do próximo turno. Acertos Críticos impõem Desvantagem aos ataques do alvo até o seu próximo turno.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Cortador)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+		</rules>
+	</element>
+
+	<element name="Veloz" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SPEEDY">
+		<supports>General</supports>
+		<requirements>([character:4],([dex:13]||[con:13]))||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Destreza ou Constituição 13+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Destreza ou Constituição 13+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente Destreza ou Constituição em 1, máximo 20.</p>
+			<p class="indent"><b><i>Aumento de Deslocamento.</i></b> Seu Deslocamento aumenta em 10 pés.</p>
+			<p class="indent"><b><i>Disparada em Terreno Difícil.</i></b> Ao usar a ação de Disparada, Terreno Difícil não custa movimento extra até o fim do turno.</p>
+			<p class="indent"><b><i>Movimento Ágil.</i></b> Ataques de Oportunidade têm Desvantagem contra você.</p>
+		</description>
+		<sheet>
+			<description>Ao usar Disparada, Terreno Difícil não custa extra. Ataques de Oportunidade contra você têm Desvantagem.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Veloz)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION" />
+			<stat name="innate speed" value="10" bonus="speedy" alt="Veloz" />
+		</rules>
+	</element>
+
+	<element name="Atirador de Magia" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_SPELLSNIPER">
+		<supports>General</supports>
+		<requirements>([character:4],(ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE||ID_INTERNAL_GRANTS_PACT_MAGIC_FEATURE),!ID_PHB_FEAT_SPELLSNIPER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Conjuração ou Magia de Pacto</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Conjuração ou Magia de Pacto)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente Inteligência, Sabedoria ou Carisma em 1.</p>
+			<p class="indent"><b><i>Ignorar Cobertura.</i></b> Ataques com magia ignoram Meia Cobertura e Três Quartos.</p>
+			<p class="indent"><b><i>Conjuração no Corpo a Corpo.</i></b> Não sofre Desvantagem atirando a 5 pés.</p>
+			<p class="indent"><b><i>Alcance Aumentado.</i></b> Magias de alcance (de pelo menos 10 pés) com rolagem de ataque recebem +60 pés.</p>
+		</description>
+		<sheet>
+			<description>Ataques com magia ganham: Estar a 5 pés não impõe Desvantagem; ignora Meia Cobertura e Três Quartos. Magias de ataque de pelo menos 10 pés têm alcance +60 pés.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Atirador de Magia)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+		</rules>
+	</element>
+
+	<element name="Telecinético" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_TELEKINETIC">
+		<supports>General</supports>
+		<requirements>([character:4],!(ID_WOTC_UA20191125_FEAT_TELEKINETIC||ID_WOTC_UA20200414_FEAT_TELEKINETIC||ID_WOTC_TCOE_FEAT_TELEKINETIC))||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente Inteligência, Sabedoria ou Carisma em 1.</p>
+			<p class="indent"><b><i>Telecinese Menor.</i></b> Aprende <i>Mãos Mágicas</i>. Pode conjurar sem Verbal ou Somático, torná-la invisível e seu alcance e a distância máxima aumentam em +30 pés.</p>
+			<p class="indent"><b><i>Empurrão Telecinético.</i></b> Com Ação Bônus, pode tentar empurrar criatura visível a 30 pés (Força CD 8 + Habilidade do talento + Proficiência) movendo-a 5 pés.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_MAGE_HAND" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Aumento de Valor de Habilidade (Telecinético)" supports="PHB24 Telekinetic" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MAGE_HAND" />
+			<stat name="telekinetic:dc" value="8" bonus="base" />
+			<stat name="telekinetic:dc" value="proficiency" bonus="proficiency" />
+		</rules>
+	</element>
+	<element name="Inteligência" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEKINETIC_INTELLIGENCE">
+		<supports>PHB24 Telekinetic</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Inteligência em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Telecinético" action="Bonus Action">
+			<description>Pode tentar empurrar criatura a 30 pés. Alvo faz teste de Força CD {{telekinetic:dc}} ou é movido 5 pés para perto ou longe de você. &#13;
+			Você sabe Mãos Mágicas, pode conjurar sem V/S, torná-la invisível e com alcance +30 pés. A habilidade é Inteligência.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" alt="Telecinético" />
+			<stat name="telekinetic:dc" value="intelligence:modifier" bonus="ability" />
+		</rules>
+	</element>
+	<element name="Sabedoria" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEKINETIC_WISDOM">
+		<supports>PHB24 Telekinetic</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Sabedoria em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Telecinético" action="Bonus Action">
+			<description>Pode tentar empurrar criatura a 30 pés. Alvo faz teste de Força CD {{telekinetic:dc}} ou é movido 5 pés para perto ou longe de você. &#13;
+			Você sabe Mãos Mágicas, pode conjurar sem V/S, torná-la invisível e com alcance +30 pés. A habilidade é Sabedoria.</description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" alt="Telecinético" />
+			<stat name="telekinetic:dc" value="wisdom:modifier" bonus="ability" />
+		</rules>
+	</element>
+	<element name="Carisma" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEKINETIC_CHARISMA">
+		<supports>PHB24 Telekinetic</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente seu Carisma em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Telecinético" action="Bonus Action">
+			<description>Pode tentar empurrar criatura a 30 pés. Alvo faz teste de Força CD {{telekinetic:dc}} ou é movido 5 pés para perto ou longe de você. &#13;
+			Você sabe Mãos Mágicas, pode conjurar sem V/S, torná-la invisível e com alcance +30 pés. A habilidade é Carisma.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" alt="Telecinético" />
+			<stat name="telekinetic:dc" value="charisma:modifier" bonus="ability" />
+		</rules>
+	</element>
+
+	<element name="Telepata" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_TELEPATHIC">
+		<supports>General</supports>
+		<requirements>([character:4],!(ID_WOTC_UA20191125_FEAT_TELEPATHIC||ID_WOTC_UA20200414_FEAT_TELEPATHIC||ID_WOTC_TCOE_FEAT_TELEPATHIC))||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente Inteligência, Sabedoria ou Carisma em 1, máximo 20.</p>
+			<p class="indent"><b><i>Comunicação Telepática.</i></b> Fale telepaticamente com qualquer criatura visível a 60 pés num idioma conhecido; o alvo entende se souber. Ele não ganha habilidade de responder.</p>
+			<p class="indent"><b><i>Detectar Pensamentos.</i></b> Tem <i>Detectar Pensamentos</i> sempre preparada. Pode conjurar sem espaço ou componentes 1x/Descanso Longo. Pode usar espaços próprios.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_DETECT_THOUGHTS" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Aumento de Valor de Habilidade (Telepata)" supports="PHB24 Telepathic" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_THOUGHTS" />
+		</rules>
+	</element>
+	<element name="Inteligência" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEPATHIC_INTELLIGENCE">
+		<supports>PHB24 Telepathic</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Inteligência em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Telepata">
+			<description>1x/Descanso Longo conjura Detectar Pensamentos (sem espaço/componentes) via Inteligência. Fale telepaticamente com criaturas a 60 pés (ela apenas entende).</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" alt="Telepata" />
+		</rules>
+	</element>
+	<element name="Sabedoria" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEPATHIC_WISDOM">
+		<supports>PHB24 Telepathic</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente sua Sabedoria em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Telepata">
+			<description>1x/Descanso Longo conjura Detectar Pensamentos (sem espaço/componentes) via Sabedoria. Fale telepaticamente com criaturas a 60 pés (ela apenas entende).</description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" alt="Telepata" />
+		</rules>
+	</element>
+	<element name="Carisma" type="Feat Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEPATHIC_CHARISMA">
+		<supports>PHB24 Telepathic</supports>
+		<compendium display="false" />
+		<description>
+			<p>Aumente seu Carisma em 1, máximo 20.</p>
+		</description>
+		<sheet alt="Telepata">
+			<description>1x/Descanso Longo conjura Detectar Pensamentos (sem espaço/componentes) via Carisma. Fale telepaticamente com criaturas a 60 pés (ela apenas entende).</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" alt="Telepata" />
+		</rules>
+	</element>
+
+	<element name="Conjurador de Guerra" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_WAR_CASTER">
+		<supports>General</supports>
+		<requirements>([character:4],(ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE||ID_INTERNAL_GRANTS_PACT_MAGIC_FEATURE),!ID_PHB_FEAT_WARCASTER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+, Conjuração ou Magia de Pacto</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+, Conjuração ou Magia de Pacto)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente Inteligência, Sabedoria ou Carisma em 1, até um máximo de 20.</p>
+			<p class="indent"><b><i>Concentração.</i></b> Você tem Vantagem em testes de resistência de Constituição para manter Concentração.</p>
+			<p class="indent"><b><i>Magia Reativa.</i></b> Quando uma criatura provocar um Ataque de Oportunidade saindo do seu alcance, use a Reação para conjurar magia (apenas 1 ação, apenas no alvo).</p>
+			<p class="indent"><b><i>Componentes Somáticos.</i></b> Mãos cheias de armas ou Escudos não impedem componente Somático.</p>
+		</description>
+		<sheet>
+			<description>Vantagem na Concentração. Componente Somático livre mesmo com armas/escudos em mãos. Magia (apenas 1 alvo, 1 ação) no lugar de Ataque de Oportunidade por Reação.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Conjurador de Guerra)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+		</rules>
+	</element>
+
+	<element name="Mestre em Armas" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_WEAPON_MASTER">
+		<supports>General</supports>
+		<requirements>([character:4],!ID_PHB_FEAT_WEAPONMASTER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Nível 4+</prerequisite>
+		<description>
+			<p class="flavor">Talento Geral (Pré-requisito: Nível 4+)</p>
+			<p>Você ganha os seguintes benefícios.</p>
+			<p class="indent"><b><i>Aumento de Valor de Habilidade.</i></b> Aumente Força ou Destreza em 1, máximo 20.</p>
+			<p class="indent"><b><i>Propriedade de Maestria.</i></b> Permite usar a maestria de 1 tipo de arma Simples ou Marcial que seja proficiente. Pode mudar a escolha ao fim de um Descanso Longo.</p>
+			<p><b>Nota:</b> A seleção de Maestria aparece sob o submenu <u>CLASSE</u>.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Aumento de Valor de Habilidade (Mestre em Armas)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WEAPON_MASTER" />
+		</rules>
+	</element>
+	<element name="Mestre em Armas" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_WEAPON_MASTER">
+		<compendium display="false" />
+		<sheet>
+			<description>Pode usar a maestria de 1 tipo de arma que é proficiente. Muda em Descanso Longo.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Maestria em Armas (Talento)" supports="Weapon Mastery"/>
+		</rules>
+	</element>
+
+	<element name="Desbloqueador de Talentos" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_FEAT_UNLOCKER">
+		<compendium display="false" />
+		<description>
+			<p>Uma vez equipado, este item permite ignorar os pré-requisitos para todos os Talentos do <i>Livro do Jogador (2024)</i>, incluindo os requisitos de nível.</p>
+			<p><u><b>Nota.</b></u> Este item em combinação com o Desbloqueador de Talentos para o <i>Livro do Jogador</i> original pode ser usado para permitir a seleção de Talentos duplicados.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER" />
+		</rules>
+	</element>
+
+	<element name="Desbloqueador de Talentos" type="Grants" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER" />
+</elements>

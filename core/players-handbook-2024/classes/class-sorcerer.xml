@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Feiticeiro</name>
+		<description>A classe Feiticeiro do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-sorcerer.xml" />
+		</update>
+	</info>
+	<element name="Feiticeiro" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_SORCERER">
+		<description>
+			<p>Feiticeiros empunham uma magia inata que está gravada em seu ser. Alguns Feiticeiros não sabem dizer a origem de seu poder, enquanto outros o rastreiam até eventos estranhos em sua história pessoal ou familiar. A bênção de um dragão ou de uma dríade no nascimento de um bebê, ou o golpe de um relâmpago vindo de um céu limpo, podem despertar o dom de um Feiticeiro. Assim também podem o presente de uma divindade, a exposição à magia estranha de outro plano de existência ou um vislumbre do funcionamento interno da realidade. Qualquer que seja a origem, o resultado é uma marca indelével no Feiticeiro, uma magia fervilhante que pode ser passada através das gerações.</p>
+			<p class="indent">Feiticeiros não aprendem magia; o poder bruto e fervilhante da magia é parte deles. A arte essencial de um Feiticeiro é aprender a domar e canalizar essa magia inata, permitindo ao Feiticeiro descobrir maneiras novas e impressionantes de descarregar seu poder. Conforme os Feiticeiros dominam sua magia inata, eles se tornam mais sintonizados com sua origem, desenvolvendo poderes distintos que refletem sua fonte.</p>
+			<p class="indent">Feiticeiros são raros. Algumas linhagens familiares produzem exatamente um Feiticeiro em cada geração, mas na maioria das vezes, os talentos da feitiçaria aparecem como um acaso. Pessoas que possuem este poder mágico logo descobrem que ele não gosta de ficar quieto. A magia de um Feiticeiro quer ser empunhada.</p>
+			<div class="sidebar">
+				<h5>TRAÇOS PRINCIPAIS DO FEITICEIRO</h5>
+				<table>
+					<tr>
+						<td>
+							<b>Habilidade Primária</b>
+						</td>
+						<td class="left">Carisma</td>
+					</tr>
+					<tr>
+						<td>
+							<b>Dado de Pontos de Vida</b>
+						</td>
+						<td class="left">D6 por nível de Feiticeiro</td>
+					</tr>
+					<tr>
+						<td>
+							<b>Proficiências em Testes de Resistência</b>
+						</td>
+						<td class="left">Constituição e Carisma</td>
+					</tr>
+					<tr>
+						<td>
+							<b>Proficiências em Perícias</b>
+						</td>
+						<td class="left">
+							<i>Escolha 2:</i> Arcanismo, Enganação, Intuição, Intimidação, Persuasão ou Religião
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b>Proficiências em Armas</b>
+						</td>
+						<td class="left">Armas Simples</td>
+					</tr>
+					<tr>
+						<td>
+							<b>Treinamento com Armadura</b>
+						</td>
+						<td class="left">Nenhum</td>
+					</tr>
+					<tr>
+						<td>
+							<b>Equipamento Inicial</b>
+						</td>
+						<td class="left">
+							<i>Escolha A ou B:</i> (A) Lança, 2 Adagas, Foco Arcano (cristal), Pacote de Masmorreiro e 28 PO; ou (B) 50 PO
+						</td>
+					</tr>
+				</table>
+			</div>
+			<h4>TORNANDO-SE UM FEITICEIRO...</h4>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
+				<li>Ganhe todos os traços na tabela de Traços Principais do Feiticeiro.</li>
+				<li>Ganhe as características de nível 1 do Feiticeiro que estão listadas na tabela de Características do Feiticeiro.</li>
+			</ul>
+			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
+			<ul style="margin-top:-1em">
+				<li>Ganhe o traço Dado de Pontos de Vida da tabela de Traços Principais do Feiticeiro.</li>
+				<li>Ganhe as características de nível 1 do Feiticeiro que estão listadas na tabela de Características do Feiticeiro.</li>
+			</ul>
+			<h5>CARACTERÍSTICAS DO FEITICEIRO</h5>
+			<table class="class-features">
+				<tr style="font-weight: bold">
+					<td rowspan="2">Nível</td>
+					<td class="col-20 left" rowspan="2">Características de Classe</td>
+					<td rowspan="2">Pontos de
+						<br />Feitiçaria
+					</td>
+					<td rowspan="2">Truques</td>
+					<td rowspan="2">Magias
+						<br />Preparadas
+					</td>
+					<td colspan="9" style="vertical-align:bottom; border-bottom: 0px">Espaços de Magia por Nível</td>
+				</tr>
+				<tr style="font-weight: bold">
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td class="left">Conjuração, Feitiçaria Inata</td>
+					<td>—</td>
+					<td>4</td>
+					<td>2</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td class="left">Fonte de Magia, Metamagia</td>
+					<td>2</td>
+					<td>4</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td class="left">Subclasse de Feiticeiro</td>
+					<td>3</td>
+					<td>4</td>
+					<td>6</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td class="left">Melhoria de Valor de Habilidade</td>
+					<td>4</td>
+					<td>5</td>
+					<td>7</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td class="left">Restauração Feiticeira</td>
+					<td>5</td>
+					<td>5</td>
+					<td>9</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td class="left">Característica de Subclasse</td>
+					<td>6</td>
+					<td>5</td>
+					<td>10</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td class="left">Feitiçaria Encarnada</td>
+					<td>7</td>
+					<td>5</td>
+					<td>11</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td class="left">Melhoria de Valor de Habilidade</td>
+					<td>8</td>
+					<td>5</td>
+					<td>12</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td class="left">—</td>
+					<td>9</td>
+					<td>5</td>
+					<td>14</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td class="left">Metamagia</td>
+					<td>10</td>
+					<td>6</td>
+					<td>15</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td class="left">—</td>
+					<td>11</td>
+					<td>6</td>
+					<td>16</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td class="left">Melhoria de Valor de Habilidade</td>
+					<td>12</td>
+					<td>6</td>
+					<td>16</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td class="left">—</td>
+					<td>13</td>
+					<td>6</td>
+					<td>17</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td class="left">Característica de Subclasse</td>
+					<td>14</td>
+					<td>6</td>
+					<td>17</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td class="left">—</td>
+					<td>15</td>
+					<td>6</td>
+					<td>18</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td class="left">Melhoria de Valor de Habilidade</td>
+					<td>16</td>
+					<td>6</td>
+					<td>18</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>17</td>
+					<td class="left">Metamagia</td>
+					<td>17</td>
+					<td>6</td>
+					<td>19</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>18</td>
+					<td class="left">Característica de Subclasse</td>
+					<td>18</td>
+					<td>6</td>
+					<td>20</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>19</td>
+					<td class="left">Dádiva Épica</td>
+					<td>19</td>
+					<td>6</td>
+					<td>21</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>20</td>
+					<td class="left">Apoteose Feiticeira</td>
+					<td>20</td>
+					<td>6</td>
+					<td>22</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+			</table>
+			<h4>CARACTERÍSTICAS DE CLASSE DO FEITICEIRO</h4>
+			<p>Como um Feiticeiro, você ganha as seguintes características de classe quando atinge os níveis especificados de Feiticeiro. Estas características estão listadas na tabela de Características do Feiticeiro.</p>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_INNATE_SORCERY" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCERER_SUBCLASS" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCERY_INCARNATE" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_EPIC_BOON" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCEROUS_APOTHEOSIS" />
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="short">Um Conjurador Deslumbrante Repleto de Magia Inata</set>
+			<set name="hd">d6</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_SORCERER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB24_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB24_MULTICLASS_SORCERER"/>
+			<select type="Proficiency" name="Proficiência em Perícia (Feiticeiro)" supports="Skill,Sorcerer" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_SORCERER"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_INNATE_SORCERY" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCERER_SUBCLASS" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCERY_INCARNATE" level="7" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_EPIC_BOON" level="19" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCEROUS_APOTHEOSIS" level="20" />
+		</rules>
+		<multiclass id="ID_WOTC_PHB24_MULTICLASS_SORCERER">
+			<prerequisite>Carisma 13</prerequisite>
+			<requirements>([cha:13],!(ID_WOTC_PHB_CLASS_SORCERER||ID_WOTC_PHB_MULTICLASS_SORCERER))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
+			<setters>
+				<set name="multiclass proficiencies">—</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Nível 1: Conjuração" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_SPELLCASTING</requirements>
+		<description>
+			<p>Baseando-se em sua magia inata, você pode conjurar magias.</p>
+			<p class="indent">
+				<b>
+					<i>Truques.</i>
+				</b> Você conhece quatro truques de Feiticeiro de sua escolha. 
+				<i>Luz</i>, 
+				<i>Prestidigitação</i>, 
+				<i>Toque Chocante</i> e 
+				<i>Explosão Feiticeira</i> são recomendados. Sempre que você ganhar um nível de Feiticeiro, pode substituir um de seus truques desta característica por outro truque de Feiticeiro de sua escolha.
+			</p>
+			<p class="indent">Quando você atingir os níveis 4 e 10 de Feiticeiro, você aprende outro truque de Feiticeiro de sua escolha, conforme mostrado na coluna Truques da tabela de Características do Feiticeiro.</p>
+			<p class="indent">
+				<b>
+					<i>Espaços de Magia.</i>
+				</b> A tabela de Características do Feiticeiro mostra quantos espaços de magia você tem para conjurar suas magias de nível 1 ou superior. Você recupera todos os espaços gastos ao terminar um Descanso Longo.
+			</p>
+			<p class="indent">
+				<b>
+					<i>Magias Preparadas de Nível 1+.</i>
+				</b> Você prepara a lista de magias de nível 1 ou superior que estão disponíveis para você conjurar com esta característica. Para começar, escolha duas magias de nível 1 de Feiticeiro. 
+				<i>Mãos Flamejantes</i> e 
+				<i>Detectar Magia</i> são recomendadas.
+			</p>
+			<p class="indent">O número de magias em sua lista aumenta conforme você ganha níveis de Feiticeiro, como mostrado na coluna Magias Preparadas da tabela de Características do Feiticeiro. Sempre que esse número aumentar, escolha magias de Feiticeiro adicionais até que o número de magias em sua lista corresponda ao número na tabela. As magias escolhidas devem ser de um nível para o qual você possua espaços de magia. Por exemplo, se você for um Feiticeiro de nível 3, sua lista de magias preparadas pode incluir seis magias de Feiticeiro de nível 1 ou 2 em qualquer combinação.</p>
+			<p class="indent">Se outra característica de Feiticeiro lhe conceder magias que você sempre tem preparadas, essas magias não contam no limite de magias que você pode preparar com esta característica, mas elas contam como magias de Feiticeiro para você.</p>
+			<p class="indent">
+				<b>
+					<i>Substituindo Suas Magias Preparadas.</i>
+				</b> Sempre que você ganhar um nível de Feiticeiro, pode substituir uma magia da sua lista por outra magia de Feiticeiro para a qual você possua espaços de magia.
+			</p>
+			<p class="indent">
+				<b>
+					<i>Habilidade de Conjuração.</i>
+				</b> Carisma é a sua habilidade de conjuração para suas magias de Feiticeiro.
+			</p>
+			<p class="indent">
+				<b>
+					<i>Foco de Conjuração.</i>
+				</b> Você pode usar um Foco Arcano como um Foco de Conjuração para suas magias de Feiticeiro.
+			</p>
+			<center>
+				<p>
+					<strong>CD de Resistência</strong> = 8 + bônus de proficiência + modificador de Carisma
+				</p>
+				<p>
+					<strong>Modificador de Ataque</strong> = bônus de proficiência + modificador de Carisma
+				</p>
+			</center>
+		</description>
+		<sheet alt="Conjuração">
+			<description>Você pode usar um Foco Arcano como seu Foco de Conjuração. Sempre que ganhar um nível de Feiticeiro, pode substituir um truque ou uma magia preparada por outra de Feiticeiro.</description>
+		</sheet>
+		<spellcasting name="Sorcerer" ability="Charisma" allowReplace="true">
+			<list>Sorcerer</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
+			<stat name="sorcerer:spellcasting:slots:1" value="2" />
+			<stat name="sorcerer:spellcasting:slots:1" value="1" level="2" />
+			<stat name="sorcerer:spellcasting:slots:1" value="1" level="3" />
+			<stat name="sorcerer:spellcasting:slots:2" value="2" level="3" />
+			<stat name="sorcerer:spellcasting:slots:2" value="1" level="4" />
+			<stat name="sorcerer:spellcasting:slots:3" value="2" level="5" />
+			<stat name="sorcerer:spellcasting:slots:3" value="1" level="6" />
+			<stat name="sorcerer:spellcasting:slots:4" value="1" level="7" />
+			<stat name="sorcerer:spellcasting:slots:4" value="1" level="8" />
+			<stat name="sorcerer:spellcasting:slots:4" value="1" level="9" />
+			<stat name="sorcerer:spellcasting:slots:5" value="1" level="9" />
+			<stat name="sorcerer:spellcasting:slots:5" value="1" level="10" />
+			<stat name="sorcerer:spellcasting:slots:5" value="1" level="18" />
+			<stat name="sorcerer:spellcasting:slots:6" value="1" level="11" />
+			<stat name="sorcerer:spellcasting:slots:6" value="1" level="19" />
+			<stat name="sorcerer:spellcasting:slots:7" value="1" level="13" />
+			<stat name="sorcerer:spellcasting:slots:7" value="1" level="20" />
+			<stat name="sorcerer:spellcasting:slots:8" value="1" level="15" />
+			<stat name="sorcerer:spellcasting:slots:9" value="1" level="17" />
+			<select type="Spell" name="Cantrip (Sorcerer)" supports="$(spellcasting:list), 0" number="4" spellcasting="Sorcerer" />
+			<select type="Spell" name="Cantrip (Sorcerer)" supports="$(spellcasting:list), 0" level="4" spellcasting="Sorcerer" />
+			<select type="Spell" name="Cantrip (Sorcerer)" supports="$(spellcasting:list), 0" level="10" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="1" number="2" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="2" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="2" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="2" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="2" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="18" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" spellcasting="Sorcerer" />
+		</rules>
+	</element>
+	<element name="Nível 1: Feitiçaria Inata" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_INNATE_SORCERY">
+		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_INNATE_SORCERY||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_SORCERY_INCARNATE)</requirements>
+		<description>
+			<p>Um evento em seu passado deixou uma marca indelével em você, infundindo-o com uma magia fervilhante. Como uma Ação Bônus, você pode libertar essa feitiçaria por 1 minuto, durante o qual ganha os seguintes benefícios:</p>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
+				<li>A CD de resistência de suas magias de Feiticeiro aumenta em 1.</li>
+				<li>Você tem Vantagem nas jogadas de ataque de magias de Feiticeiro que você conjurar.</li>
+			</ul>
+			<p>Você pode usar esta característica duas vezes e recupera todos os usos gastos ao terminar um Descanso Longo.</p>
+		</description>
+		<sheet alt="Feitiçaria Inata" action="Bonus Action" usage="2/Descanso Longo">
+			<description>Por 1 minuto, você aumenta a CD de suas magias em 1 e tem Vantagem nos ataques mágicos de Feiticeiro.</description>
+			<description level="7">Por 1 minuto, você aumenta a CD de suas magias em 1 e tem Vantagem nos ataques mágicos de Feiticeiro. Enquanto ativa, pode usar até duas Metamagias por magia. Se não tiver usos, pode gastar 2 Pontos de Feitiçaria para ativar.</description>
+		</sheet>
+	</element>
+	<element name="Nível 2: Fonte de Magia" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_FONT_OF_MAGIC</requirements>
+		<description>
+			<p>Você pode acessar a fonte de magia dentro de si. Esta fonte é representada pelos Pontos de Feitiçaria, que permitem criar diversos efeitos mágicos.</p>
+			<p class="indent">Você possui 2 Pontos de Feitiçaria e ganha mais em níveis superiores, conforme a coluna Pontos de Feitiçaria da tabela de Características do Feiticeiro. Você não pode ter mais pontos do que o indicado. Você recupera todos os pontos ao terminar um Descanso Longo.</p>
+			<p class="indent">Você pode usar seus pontos para alimentar as opções abaixo, além de Metamagia.</p>
+			<p class="indent">
+				<strong>
+					<em>Convertendo Espaços de Magia em Pontos.</em>
+				</strong> Você pode gastar um espaço de magia para ganhar Pontos de Feitiçaria iguais ao nível do espaço (nenhuma ação necessária).
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Criando Espaços de Magia.</em>
+				</strong> Como uma Ação Bônus, você pode transformar pontos em um espaço de magia de até nível 5, conforme a tabela de custos. Espaços criados assim desaparecem ao fim de um Descanso Longo.
+			</p>
+			<h5>CRIANDO ESPAÇOS DE MAGIA</h5>
+			<table class="class-features">
+				<thead>
+					<tr>
+						<td>Nível do Espaço</td>
+						<td>Custo em Pontos</td>
+						<td>Nível Mín. de Feiticeiro</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>3</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>5</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>7</td>
+					<td>9</td>
+				</tr>
+			</table>
+		</description>
+		<sheet alt="Fonte de Magia" action="Bonus Action">
+			<description>Você tem {{sorcery points:amount}} Pontos de Feitiçaria. Pode transformar pontos em espaços de magia ou converter um espaço de magia em pontos iguais ao nível do espaço.</description>
+		</sheet>
+		<rules>
+			<stat name="sorcery points:amount" value="level:sorcerer" bonus="base" />
+		</rules>
+	</element>
+	<element name="Nível 2: Metamagia" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_METAMAGIC</requirements>
+		<description>
+			<p>Como sua magia flui de dentro, você pode alterá-la; você ganha duas opções de Metamagia. Você usa essas opções para modificar temporariamente magias que conjura gastando Pontos de Feitiçaria.</p>
+			<p class="indent">Você pode usar apenas uma Metamagia por magia, a menos que a opção diga o contrário.</p>
+			<p class="indent">Sempre que ganhar um nível de Feiticeiro, pode substituir uma Metamagia. Você ganha mais duas opções no nível 10 e mais duas no nível 17.</p>
+		</description>
+		<sheet alt="Metamagia">
+			<description>Você pode usar apenas uma Metamagia por magia, salvo indicação contrária. Pode substituir uma opção ao subir de nível.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Metamagia (Feiticeiro 2)" supports="PHB24 Metamagic||Metamagic" number="2"/>
+			<select type="Class Feature" name="Metamagia (Feiticeiro 10)" supports="PHB24 Metamagic||Metamagic" level="10" number="2"/>
+			<select type="Class Feature" name="Metamagia (Feiticeiro 17)" supports="PHB24 Metamagic||Metamagic" level="17" number="2"/>
+		</rules>
+	</element>
+	<element name="Nível 3: Subclasse de Feiticeiro" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCERER_SUBCLASS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_SORCERER_SUBCLASS</requirements>
+		<description>
+			<p>Você escolhe uma subclasse de Feiticeiro, ganhando características dela em níveis específicos.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Archetype" name="Subclasse de Feiticeiro" supports="Sorcerous Origin||Sorcerer Subclass" />
+		</rules>
+	</element>
+	<element name="Nível 4: Melhoria de Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_ABILITY_SCORE_IMPROVEMENT</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Você ganha o talento Melhoria de Valor de Habilidade ou outro de sua escolha para o qual se qualifique. Ganha novamente nos níveis 8, 12 e 16.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Melhoria de Valor de Habilidade (Feiticeiro 4)" />
+			<select type="Feat" name="Melhoria de Valor de Habilidade (Feiticeiro 8)" level="8" />
+			<select type="Feat" name="Melhoria de Valor de Habilidade (Feiticeiro 12)" level="12" />
+			<select type="Feat" name="Melhoria de Valor de Habilidade (Feiticeiro 16)" level="16" />
+		</rules>
+	</element>
+	<element name="Nível 5: Restauração Feiticeira" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_SORCEROUS_RESTORATION</requirements>
+		<description>
+			<p>Ao terminar um Descanso Curto, você pode recuperar pontos de feitiçaria até um valor igual a metade do seu nível (arredondado para baixo). Pode usar uma vez por Descanso Longo.</p>
+		</description>
+		<sheet alt="Restauração Feiticeira" usage="1/Descanso Longo">
+			<description>Em um Descanso Curto, recupere até {{level:sorcerer:half}} pontos de feitiçaria.</description>
+		</sheet>
+	</element>
+	<element name="Nível 7: Feitiçaria Encarnada" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCERY_INCARNATE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_SORCERY_INCARNATE</requirements>
+		<description>
+			<p>Você pode gastar 2 pontos para ativar a Feitiçaria Inata se estiver sem usos. Além disso, enquanto ela estiver ativa, pode usar até duas Metamagias por magia.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_EPIC_BOON">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_EPIC_BOON</requirements>
+		<description>
+			<p>Você ganha um talento de Dádiva Épica ou outro para o qual se qualifique.</p>
+		</description>
+		<sheet display="false"></sheet>
+		<rules>
+			<select type="Feat" name="Dádiva Épica (Feiticeiro 19)" level="19" />
+		</rules>
+	</element>
+	<element name="Nível 20: Apoteose Feiticeira" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCEROUS_APOTHEOSIS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_ARCANE_APOTHEOSIS</requirements>
+		<description>
+			<p>Enquanto sua Feitiçaria Inata estiver ativa, você pode usar uma Metamagia por turno sem gastar pontos.</p>
+		</description>
+		<sheet alt="Apoteose Feiticeira">
+			<description>Enquanto a Feitiçaria Inata estiver ativa, use uma Metamagia por turno gratuitamente.</description>
+		</sheet>
+	</element>
+	<element name="Magia Cuidadosa" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_CAREFUL_SPELL">
+		<supports>PHB24 Metamagia</supports>
+		<description>
+			<p>
+				<em>Custo: 1 Ponto de Feitiçaria</em>
+			</p>
+			<p>Ao conjurar uma magia que exige teste de resistência, proteja um número de criaturas até seu modificador de Carisma. Elas passam automaticamente no teste e não sofrem dano se o sucesso reduziria o dano à metade.</p>
+		</description>
+		<sheet usage="1 Ponto">
+			<description>Escolha até {{metamagic:careful spell:creatures}} criaturas; elas passam automaticamente no teste de resistência da magia e não sofrem dano se passariam normalmente com metade.</description>
+		</sheet>
+		<rules>
+			<stat name="metamagic:careful spell:creatures" value="1" bonus="base" />
+			<stat name="metamagic:careful spell:creatures" value="charisma:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Magia Distante" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_DISTANT_SPELL">
+		<supports>PHB24 Metamagia</supports>
+		<description>
+			<p>
+				<em>Custo: 1 Ponto de Feitiçaria</em>
+			</p>
+			<p>Dobre o alcance de uma magia de 1,5m ou mais, ou torne uma magia de Toque em alcance de 9 metros.</p>
+		</description>
+		<sheet usage="1 Ponto">
+			<description>Dobre o alcance da magia (mín. 1,5m) ou torne uma magia de Toque em 9m.</description>
+		</sheet>
+	</element>
+	<element name="Magia Potencializada" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_EMPOWERED_SPELL">
+		<supports>PHB24 Metamagia</supports>
+		<description>
+			<p>
+				<em>Custo: 1 Ponto de Feitiçaria</em>
+			</p>
+			<p>Ao rolar dano, jogue novamente um número de dados até seu modificador de Carisma, usando os novos resultados. Pode ser usada com outras Metamagias.</p>
+		</description>
+		<sheet usage="1 Ponto">
+			<description>Jogue novamente até {{metamagic:empowered spell:amount}} dados de dano e use os novos resultados. Pode usar com outra Metamagia.</description>
+		</sheet>
+		<rules>
+			<stat name="metamagic:empowered spell:amount" value="1" bonus="base" />
+			<stat name="metamagic:empowered spell:amount" value="charisma:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Magia Estendida" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_EXTENDED_SPELL">
+		<supports>PHB24 Metamagia</supports>
+		<description>
+			<p>
+				<em>Custo: 1 Ponto de Feitiçaria</em>
+			</p>
+			<p>Dobre a duração de uma magia de 1 minuto ou mais (máx 24h). Se exigir Concentração, você tem Vantagem nos testes para mantê-la.</p>
+		</description>
+		<sheet usage="1 Ponto">
+			<description>Dobre a duração da magia (mín 1 min, máx 24h). Vantagem em testes de Concentração para esta magia.</description>
+		</sheet>
+	</element>
+	<element name="Magia Elevada" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_HEIGHTENED_SPELL">
+		<supports>PHB24 Metamagia</supports>
+		<description>
+			<p>
+				<em>Custo: 2 Pontos de Feitiçaria</em>
+			</p>
+			<p>Dê Desvantagem a um alvo no teste de resistência contra a magia.</p>
+		</description>
+		<sheet usage="2 Pontos">
+			<description>Um alvo tem Desvantagem no teste de resistência contra esta magia.</description>
+		</sheet>
+	</element>
+	<element name="Magia Acelerada" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL">
+		<supports>PHB24 Metamagia</supports>
+		<description>
+			<p>
+				<em>Custo: 2 Pontos de Feitiçaria</em>
+			</p>
+			<p>Mude o tempo de conjuração de uma Ação para uma Ação Bônus. Não pode ter conjurado outra magia de nível 1+ no turno.</p>
+		</description>
+		<sheet usage="2 Pontos">
+			<description>Conjure uma magia de 1 Ação como Ação Bônus. Requer que nenhuma outra magia de nível 1+ seja conjurada no turno.</description>
+		</sheet>
+	</element>
+	<element name="Magia Buscadora" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_SEEKING_SPELL">
+		<supports>PHB24 Metamagia</supports>
+		<description>
+			<p>
+				<em>Custo: 1 Ponto de Feitiçaria</em>
+			</p>
+			<p>Se errar um ataque mágico, jogue novamente o d20. Pode ser usada com outras Metamagias.</p>
+		</description>
+		<sheet usage="1 Ponto">
+			<description>Se errar o ataque, jogue o d20 novamente. Pode usar com outras Metamagias.</description>
+		</sheet>
+	</element>
+	<element name="Magia Sutil" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_SUBTLE_SPELL">
+		<supports>PHB24 Metamagia</supports>
+		<description>
+			<p>
+				<em>Custo: 1 Ponto de Feitiçaria</em>
+			</p>
+			<p>Conjure sem componentes Verbais, Somáticos ou Materiais (exceto consumidos ou com custo).</p>
+		</description>
+		<sheet usage="1 Ponto">
+			<description>Conjure sem componentes V, S ou M (salvo consumidos ou com custo).</description>
+		</sheet>
+	</element>
+	<element name="Magia Transmutada" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_TRANSMUTED_SPELL">
+		<supports>PHB24 Metamagia</supports>
+		<description>
+			<p>
+				<em>Custo: 1 Ponto de Feitiçaria</em>
+			</p>
+			<p>Mude o tipo de dano (Ácido, Frio, Fogo, Elétrico, Veneno, Trovão) para outro da lista.</p>
+		</description>
+		<sheet usage="1 Ponto">
+			<description>Mude o tipo de dano elemental da magia para outro da lista (Ácido, Frio, Fogo, Elétrico, Veneno, Trovão).</description>
+		</sheet>
+	</element>
+	<element name="Magia Duplicada" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL">
+		<supports>PHB24 Metamagia</supports>
+		<description>
+			<p>
+				<em>Custo: 1 Ponto de Feitiçaria</em>
+			</p>
+			<p>Ao conjurar uma magia que escala alvos com o nível (como Enfeitiçar Pessoa), aumente o nível efetivo em 1 gastando 1 ponto.</p>
+		</description>
+		<sheet usage="1 Ponto">
+			<description>Aumente o nível efetivo em 1 para magias que ganham alvos extras em níveis superiores.</description>
+		</sheet>
+	</element>
+	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_SPELLCASTING" />
+	<element name="Innate Sorcery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_INNATE_SORCERY" />
+	<element name="Font of Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_FONT_OF_MAGIC" />
+	<element name="Metamagic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_METAMAGIC" />
+	<element name="Sorcerous Origin Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_SORCERER_SUBCLASS" />
+	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_ABILITY_SCORE_IMPROVEMENT" />
+	<element name="Sorcerous Restoration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_SORCEROUS_RESTORATION" />
+	<element name="Sorcery Incarnate Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_SORCERY_INCARNATE" />
+	<element name="Sorcerer Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_EPIC_BOON" />
+	<element name="Arcane Apotheosis Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_ARCANE_APOTHEOSIS" />
+</elements>

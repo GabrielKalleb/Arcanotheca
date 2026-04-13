@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Guia</name>
+		<description>O antecedente Guia do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="background-guide.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/background-guide.xml" />
+		</update>
+	</info>
+
+	<element name="Guia" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_GUIDE">
+		<description>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+				<li><strong>Valores de Habilidade:</strong> Destreza, Constituição, Sabedoria</li>
+				<li><strong>Talento:</strong> Iniciado em Magia (Druida)</li>
+				<li><strong>Proficiências em Perícias:</strong> Furtividade e Sobrevivência</li>
+				<li><strong>Proficiência em Ferramenta:</strong> Ferramentas de Cartógrafo</li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Arco Curto, 20 Flechas, Ferramentas de Cartógrafo, Saco de Dormir, Aljava, Tenda, Roupas de Viajante, 3 PO; ou (B) 50 PO</li>
+			</ul>
+			<p>Você atingiu a maioridade ao ar livre, longe das terras colonizadas. Seu lar era qualquer lugar onde você escolhesse estender seu saco de dormir. Existem maravilhas na natureza selvagem — monstros estranhos, florestas e riachos intocados, ruínas cobertas de vegetação de grandes salões outrora pisados por gigantes — e você aprendeu a se virar sozinho enquanto as explorava. De tempos em tempos, você guiava clérigos da natureza amigáveis que o instruíam nos fundamentos da canalização da magia selvagem.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE" />
+			</div>
+		</description>
+		<setters>
+			<set name="short">Destreza, Constituição, Sabedoria, Talento Iniciado em Magia (Druida), Perícias Furtividade e Sobrevivência, Ferramentas de Cartógrafo</set>
+		</setters>
+		<rules>
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_WIS" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS" />
+		</rules>
+	</element>
+</elements>

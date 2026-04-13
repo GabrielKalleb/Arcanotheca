@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Pacotes de Equipamento</name>
+		<description>Pacotes de Equipamento do Livro do Jogador 2024.</description>
+		<update version="0.0.1">
+			<file name="items-packs.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/items/items-packs.xml" />
+		</update>
+	</info>
+
+	<element name="Pacote de Equipamento de Antecedente (Acólito)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_ACOLYTE">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Acólito, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Suprimentos de Calígrafo</p>
+			<p class="indent">• Livro (orações)</p>
+			<p class="indent">• Pergaminho (10 folhas)</p>
+			<p class="indent" style="margin-bottom:5px">• Túnica</p>
+			<p><b>Nota:</b> Este pacote não inclui um Símbolo Sagrado (pode ser escolhido na categoria de Equipamento "Foco de Conjuração") e 8 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_CALLIGRAPHERS_SUPPLIES</item>
+			<item>ID_WOTC_PHB24_ITEM_BOOK</item>
+			<item amount="10">ID_WOTC_PHB24_ITEM_PARCHMENT</item>
+			<item>ID_WOTC_PHB24_ITEM_ROBE</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Artesão)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_ARTISAN">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Artesão, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• 2 Algibeiras</p>
+			<p class="indent">• Roupas de Viajante</p>
+			<p><b>Nota:</b> Este pacote não inclui as Ferramentas de Artesão do mesmo tipo da Proficiência ganha por este Antecedente (podem ser pegas na categoria de Equipamento "Ferramentas") e 32 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item amount="2">ID_WOTC_PHB24_ITEM_POUCH</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Charlatão)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_CHARLATAN">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Charlatão, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Kit de Falsificação</p>
+			<p class="indent">• Fantasia</p>
+			<p class="indent">• Roupas Finas</p>
+			<p><b>Nota:</b> Este pacote não inclui 15 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_FORGERY_KIT</item>
+			<item>ID_WOTC_PHB24_ITEM_COSTUME</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_FINE</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Criminoso)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_CRIMINAL">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Criminoso, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• 2 Adagas</p>
+			<p class="indent">• Ferramentas de Ladrão</p>
+			<p class="indent">• Pé de Cabra</p>
+			<p class="indent">• 2 Algibeiras</p>
+			<p class="indent">• Roupas de Viajante</p>
+			<p><b>Nota:</b> Este pacote não inclui 15 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item amount="2">ID_WOTC_PHB24_WEAPON_DAGGER</item>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_THIEVES_TOOLS</item>
+			<item>ID_WOTC_PHB24_ITEM_CROWBAR</item>
+			<item amount="2">ID_WOTC_PHB24_ITEM_POUCH</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Artista)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_ENTERTAINER">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Artista, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• 2 Fantasias</p>
+			<p class="indent">• Espelho</p>
+			<p class="indent">• Perfume</p>
+			<p class="indent">• Roupas de Viajante</p>
+			<p><b>Nota:</b> Este pacote não inclui o Instrumento Musical do mesmo tipo da Proficiência ganha por este Antecedente (pode ser pego na categoria de Equipamento "Instrumentos Musicais") e 11 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item amount="2">ID_WOTC_PHB24_ITEM_COSTUME</item>
+			<item>ID_WOTC_PHB24_ITEM_MIRROR</item>
+			<item>ID_WOTC_PHB24_ITEM_PERFUME</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Fazendeiro)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_FARMER">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Fazendeiro, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Foice Curta</p>
+			<p class="indent">• Ferramentas de Carpinteiro</p>
+			<p class="indent">• Kit de Curandeiro</p>
+			<p class="indent">• Panela de Ferro</p>
+			<p class="indent">• Pá</p>
+			<p class="indent">• Roupas de Viajante</p>
+			<p><b>Nota:</b> Este pacote não inclui 30 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_SICKLE</item>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_CARPENTERS_TOOLS</item>
+			<item>ID_WOTC_PHB24_ITEM_HEALERS_KIT</item>
+			<item>ID_WOTC_PHB24_ITEM_POT_IRON</item>
+			<item>ID_WOTC_PHB24_ITEM_SHOVEL</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Guarda)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_GUARD">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Guarda, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Lança</p>
+			<p class="indent">• Besta Leve</p>
+			<p class="indent">• 20 Virotes</p>
+			<p class="indent">• Lanterna Coberta</p>
+			<p class="indent">• Algemas</p>
+			<p class="indent">• Aljava</p>
+			<p class="indent">• Roupas de Viajante</p>
+			<p><b>Nota:</b> Este pacote não inclui o Conjunto de Jogo do mesmo tipo da Proficiência ganha por este Antecedente (pode ser pego na categoria de Equipamento "Ferramentas") e 12 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_SPEAR</item>
+			<item>ID_WOTC_PHB24_WEAPON_CROSSBOW_LIGHT</item>
+			<item amount="20">ID_WOTC_PHB24_ITEM_BOLT</item>
+			<item>ID_WOTC_PHB24_ITEM_LANTERN_HOODED</item>
+			<item>ID_WOTC_PHB24_ITEM_MANACLES</item>
+			<item>ID_WOTC_PHB24_ITEM_QUIVER</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Guia)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_GUIDE">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Guia, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Arco Curto</p>
+			<p class="indent">• 20 Flechas</p>
+			<p class="indent">• Ferramentas de Cartógrafo</p>
+			<p class="indent">• Saco de Dormir</p>
+			<p class="indent">• Aljava</p>
+			<p class="indent">• Tenda</p>
+			<p class="indent">• Roupas de Viajante</p>
+			<p><b>Nota:</b> Este pacote não inclui 3 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_SHORTBOW</item>
+			<item amount="20">ID_WOTC_PHB24_ITEM_ARROW</item>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_CARTOGRAPHERS_TOOLS</item>
+			<item>ID_WOTC_PHB24_ITEM_BEDROLL</item>
+			<item>ID_WOTC_PHB24_ITEM_QUIVER</item>
+			<item>ID_WOTC_PHB24_ITEM_TENT</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Eremita)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_HERMIT">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Eremita, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Bordão</p>
+			<p class="indent">• Kit de Herbalismo</p>
+			<p class="indent">• Saco de Dormir</p>
+			<p class="indent">• Livro (filosofia)</p>
+			<p class="indent">• Lampião</p>
+			<p class="indent">• Óleo (3 frascos)</p>
+			<p class="indent">• Roupas de Viajante</p>
+			<p><b>Nota:</b> Este pacote não inclui 16 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_QUARTERSTAFF</item>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_HERBALISM_KIT</item>
+			<item>ID_WOTC_PHB24_ITEM_BEDROLL</item>
+			<item>ID_WOTC_PHB24_ITEM_BOOK</item>
+			<item>ID_WOTC_PHB24_ITEM_LAMP</item>
+			<item amount="3">ID_WOTC_PHB24_ITEM_OIL</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Mercador)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_MERCHANT">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Mercador, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Ferramentas de Navegador</p>
+			<p class="indent">• 2 Algibeiras</p>
+			<p class="indent">• Roupas de Viajante</p>
+			<p><b>Nota:</b> Este pacote não inclui 22 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_NAVIGATORS_TOOLS</item>
+			<item amount="2">ID_WOTC_PHB24_ITEM_POUCH</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Nobre)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_NOBLE">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Nobre, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Roupas Finas</p>
+			<p class="indent">• Perfume</p>
+			<p><b>Nota:</b> Este pacote não inclui o Conjunto de Jogo do mesmo tipo da Proficiência ganha por este Antecedente (pode ser pego na categoria de Equipamento "Ferramentas") e 29 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_FINE</item>
+			<item>ID_WOTC_PHB24_ITEM_PERFUME</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Sábio)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_SAGE">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Sábio, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Bordão</p>
+			<p class="indent">• Suprimentos de Calígrafo</p>
+			<p class="indent">• Livro (história)</p>
+			<p class="indent">• Pergaminho (8 folhas)</p>
+			<p class="indent">• Túnica</p>
+			<p><b>Nota:</b> Este pacote não inclui 8 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_QUARTERSTAFF</item>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_CALLIGRAPHERS_SUPPLIES</item>
+			<item>ID_WOTC_PHB24_ITEM_BOOK</item>
+			<item amount="8">ID_WOTC_PHB24_ITEM_PARCHMENT</item>
+			<item>ID_WOTC_PHB24_ITEM_ROBE</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Marinheiro)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_SAILOR">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Marinheiro, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Adaga</p>
+			<p class="indent">• Ferramentas de Navegador</p>
+			<p class="indent">• Corda</p>
+			<p class="indent">• Roupas de Viajante</p>
+			<p><b>Nota:</b> Este pacote não inclui 20 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_DAGGER</item>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_NAVIGATORS_TOOLS</item>
+			<item>ID_WOTC_PHB24_ITEM_ROPE</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Escriba)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_SCRIBE">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Escriba, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Suprimentos de Calígrafo</p>
+			<p class="indent">• Roupas Finas</p>
+			<p class="indent">• Lampião</p>
+			<p class="indent">• Óleo (3 frascos)</p>
+			<p class="indent">• Pergaminho (12 folhas)</p>
+			<p><b>Nota:</b> Este pacote não inclui 23 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_CALLIGRAPHERS_SUPPLIES</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_FINE</item>
+			<item>ID_WOTC_PHB24_ITEM_LAMP</item>
+			<item amount="3">ID_WOTC_PHB24_ITEM_OIL</item>
+			<item amount="12">ID_WOTC_PHB24_ITEM_PARCHMENT</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Soldado)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_SOLDIER">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Soldado, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Lança</p>
+			<p class="indent">• Arco Curto</p>
+			<p class="indent">• 20 Flechas</p>
+			<p class="indent">• Kit de Curandeiro</p>
+			<p class="indent">• Aljava</p>
+			<p class="indent">• Roupas de Viajante</p>
+			<p><b>Nota:</b> Este pacote não inclui o Conjunto de Jogo do mesmo tipo da Proficiência ganha por este Antecedente (pode ser pego na categoria de Equipamento "Ferramentas") e 14 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_SPEAR</item>
+			<item>ID_WOTC_PHB24_WEAPON_SHORTBOW</item>
+			<item amount="20">ID_WOTC_PHB24_ITEM_ARROW</item>
+			<item>ID_WOTC_PHB24_ITEM_HEALERS_KIT</item>
+			<item>ID_WOTC_PHB24_ITEM_QUIVER</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Antecedente (Viajante)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKGROUND_EQUIPMENT_PACK_WAYFARER">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem de Antecedente Viajante, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• 2 Adagas</p>
+			<p class="indent">• Ferramentas de Ladrão</p>
+			<p class="indent">• Saco de Dormir</p>
+			<p class="indent">• 2 Algibeiras</p>
+			<p class="indent">• Roupas de Viajante</p>
+			<p><b>Nota:</b> Este pacote não inclui o Conjunto de Jogo do mesmo tipo da Proficiência ganha por este Antecedente (pode ser pego na categoria de Equipamento "Ferramentas") e 16 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item amount="2">ID_WOTC_PHB24_WEAPON_DAGGER</item>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_THIEVES_TOOLS</item>
+			<item>ID_WOTC_PHB24_ITEM_BEDROLL</item>
+			<item amount="2">ID_WOTC_PHB24_ITEM_POUCH</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Bárbaro)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_BARBARIAN">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Bárbaro, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Machado Grande</p>
+			<p class="indent">• 4 Machadinhas</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Aventureiro</p>
+			<p><b>Nota:</b> Este pacote não inclui 15 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_GREATAXE</item>
+			<item amount="4">ID_WOTC_PHB24_WEAPON_HANDAXE</item>
+			<item>ID_WOTC_PHB24_ITEM_EXPLORERS_PACK</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Bardo)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_BARD">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Bardo, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• 2 Adagas</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Artista</p>
+			<p><b>Nota:</b> Este pacote não inclui Armadura de Couro, Instrumento Musical da sua escolha (pode ser selecionado na categoria "Instrumentos Musicais") e 19 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item amount="2">ID_WOTC_PHB24_WEAPON_DAGGER</item>
+			<item>ID_WOTC_PHB24_ITEM_ENTERTAINERS_PACK</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Clérigo)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_CLERIC">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Clérigo, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p> 
+			<p class="indent">• Maça</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Sacerdote</p>
+			<p><b>Nota:</b> Este pacote não inclui Camisa de Cota de Malha, Escudo, Símbolo Sagrado (pode ser selecionado na categoria "Foco de Conjuração") e 7 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_MACE</item>
+			<item>ID_WOTC_PHB24_ITEM_PRIESTS_PACK</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Druida)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_DRUID">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Druida, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Foice Curta</p>
+			<p class="indent">• Foco Druídico (Bordão)</p>
+			<p class="indent">• Pacote de Aventureiro</p>
+			<p class="indent" style="margin-bottom:5px">• Kit de Herbalismo</p>
+			<p><b>Nota:</b> Este pacote não inclui Armadura de Couro, Escudo e 9 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_SICKLE</item>
+			<item>ID_WOTC_PHB24_WEAPON_QUARTERSTAFF</item>
+			<item>ID_WOTC_PHB24_ITEM_EXPLORERS_PACK</item>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_HERBALISM_KIT</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Guerreiro, Opção A)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_FIGHTER_1">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Guerreiro, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Espada Grande</p>
+			<p class="indent">• Mangual</p>
+			<p class="indent">• 8 Azagaias</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Explorador de Masmorras</p>
+			<p><b>Nota:</b> Este pacote não inclui Cota de Malha e 4 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_GREATSWORD</item>
+			<item>ID_WOTC_PHB24_WEAPON_FLAIL</item>
+			<item amount="8">ID_WOTC_PHB24_WEAPON_JAVELIN</item>
+			<item>ID_WOTC_PHB24_ITEM_DUNGEONEERS_PACK</item>
+		</extract>
+	</element>
+	<element name="Pacote de Equipamento de Classe (Guerreiro, Opção B)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_FIGHTER_2">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Guerreiro, se você escolheu a opção B para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Cimitarra</p>
+			<p class="indent">• Espada Curta</p>
+			<p class="indent">• Arco Longo</p>
+			<p class="indent">• 20 Flechas</p>
+			<p class="indent">• Aljava</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Explorador de Masmorras</p>
+			<p><b>Nota:</b> Este pacote não inclui Armadura de Couro Batido e 11 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_SCIMITAR</item>
+			<item>ID_WOTC_PHB24_WEAPON_SHORTSWORD</item>
+			<item>ID_WOTC_PHB24_WEAPON_LONGBOW</item>
+			<item amount="20">ID_WOTC_PHB24_ITEM_ARROW</item>
+			<item>ID_WOTC_PHB24_ITEM_QUIVER</item>
+			<item>ID_WOTC_PHB24_ITEM_DUNGEONEERS_PACK</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Monge)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_MONK">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Monge, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Lança</p>
+			<p class="indent">• 5 Adagas</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Aventureiro</p>
+			<p><b>Nota:</b> Este pacote não inclui Ferramentas de Artesão ou Instrumento Musical que foi escolhido para a proficiência de ferramenta desta Classe e 11 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_SPEAR</item>
+			<item amount="5">ID_WOTC_PHB24_WEAPON_DAGGER</item>
+			<item>ID_WOTC_PHB24_ITEM_EXPLORERS_PACK</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Paladino)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_PALADIN">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Paladino, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Espada Longa</p>
+			<p class="indent">• 6 Azagaias</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Sacerdote</p>
+			<p><b>Nota:</b> Este pacote não inclui Cota de Malha, Escudo, Símbolo Sagrado (pode ser selecionado na categoria "Foco de Conjuração") e 9 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_LONGSWORD</item>
+			<item amount="6">ID_WOTC_PHB24_WEAPON_JAVELIN</item>
+			<item>ID_WOTC_PHB24_ITEM_PRIESTS_PACK</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Patrulheiro)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_RANGER">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Patrulheiro, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Cimitarra</p>
+			<p class="indent">• Espada Curta</p>
+			<p class="indent">• Arco Longo</p>
+			<p class="indent">• 20 Flechas</p>
+			<p class="indent">• Aljava</p>
+			<p class="indent">• Foco Druídico (ramo de visgo)</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Aventureiro</p>
+			<p><b>Nota:</b> Este pacote não inclui Armadura de Couro Batido e 7 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_SCIMITAR</item>
+			<item>ID_WOTC_PHB24_WEAPON_SHORTSWORD</item>
+			<item>ID_WOTC_PHB24_WEAPON_LONGBOW</item>
+			<item amount="20">ID_WOTC_PHB24_ITEM_ARROW</item>
+			<item>ID_WOTC_PHB24_ITEM_QUIVER</item>
+			<item>ID_WOTC_PHB24_ITEM_DRUIDIC_FOCUS_SPRIG_OF_MISTLETOE</item>
+			<item>ID_WOTC_PHB24_ITEM_EXPLORERS_PACK</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Ladino)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_ROGUE">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Ladino, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• 2 Adagas</p>
+			<p class="indent">• Espada Curta</p>
+			<p class="indent">• Arco Curto</p>
+			<p class="indent">• 20 Flechas</p>
+			<p class="indent">• Aljava</p>
+			<p class="indent">• Ferramentas de Ladrão</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Assaltante</p>
+			<p><b>Nota:</b> Este pacote não inclui Armadura de Couro e 8 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item amount="2">ID_WOTC_PHB24_WEAPON_DAGGER</item>
+			<item>ID_WOTC_PHB24_WEAPON_SHORTSWORD</item>
+			<item>ID_WOTC_PHB24_WEAPON_SHORTBOW</item>
+			<item amount="20">ID_WOTC_PHB24_ITEM_ARROW</item>
+			<item>ID_WOTC_PHB24_ITEM_QUIVER</item>
+			<item>ID_WOTC_PHB24_ITEM_TOOL_THIEVES_TOOLS</item>
+			<item>ID_WOTC_PHB24_ITEM_BURGLARS_PACK</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Feiticeiro)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_SORCERER">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Feiticeiro, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Lança</p>
+			<p class="indent">• 2 Adagas</p>
+			<p class="indent">• Foco Arcano (cristal)</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Explorador de Masmorras</p>
+			<p><b>Nota:</b> Este pacote não inclui 28 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_SPEAR</item>
+			<item amount="2">ID_WOTC_PHB24_WEAPON_DAGGER</item>
+			<item>ID_WOTC_PHB24_ITEM_ARCANE_FOCUS_CRYSTAL</item>
+			<item>ID_WOTC_PHB24_ITEM_DUNGEONEERS_PACK</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Bruxo)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_WARLOCK">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Bruxo, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• Foice Curta</p>
+			<p class="indent">• 2 Adagas</p>
+			<p class="indent">• Foco Arcano (orbe)</p>
+			<p class="indent">• Livro (lore oculto)</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Estudioso</p>
+			<p><b>Nota:</b> Este pacote não inclui Armadura de Couro e 15 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_WEAPON_SICKLE</item>
+			<item amount="2">ID_WOTC_PHB24_WEAPON_DAGGER</item>
+			<item>ID_WOTC_PHB24_ITEM_ARCANE_FOCUS_ORB</item>
+			<item>ID_WOTC_PHB24_ITEM_BOOK</item>
+			<item>ID_WOTC_PHB24_ITEM_SCHOLARS_PACK</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Equipamento de Classe (Mago)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLASS_EQUIPMENT_PACK_WIZARD">
+		<description>
+			<p style="margin-bottom:5px">Este pacote contém itens que são dados a um personagem da Classe Mago, se você escolheu a opção A para Equipamento.</p>
+			<p>Você receberá os seguintes itens extraindo o conteúdo deste pacote:</p>
+			<p class="indent">• 2 Adagas</p>
+			<p class="indent">• Foco Arcano (Bordão)</p>
+			<p class="indent">• Túnica</p>
+			<p class="indent">• Livro de Magias</p>
+			<p class="indent" style="margin-bottom:5px">• Pacote de Estudioso</p>
+			<p><b>Nota:</b> Este pacote não inclui 5 PO.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost">—</set>
+			<set name="weight">—</set>
+		</setters>
+		<extract>
+			<item amount="2">ID_WOTC_PHB24_WEAPON_DAGGER</item>
+			<item>ID_WOTC_PHB24_WEAPON_QUARTERSTAFF</item>
+			<item>ID_WOTC_PHB24_ITEM_ROBE</item>
+			<item>ID_WOTC_PHB24_ITEM_BOOK</item>
+			<item>ID_WOTC_PHB24_ITEM_SCHOLARS_PACK</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Assaltante" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BURGLARS_PACK">
+		<description>
+			<p>Um Pacote de Assaltante contém os seguintes itens: Mochila, Esferas de Metal, Sino, 10 Velas, Pé de Cabra, Lanterna Coberta, 7 frascos de Óleo, 5 dias de Rações, Corda, Caixa de Fogo e Odre.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost" currency="gp">16</set>
+			<set name="weight" lb="42">42 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_BACKPACK</item>
+			<item>ID_WOTC_PHB24_ITEM_BALL_BEARINGS</item>
+			<item>ID_WOTC_PHB24_ITEM_STRING</item>
+			<item>ID_WOTC_PHB24_ITEM_BELL</item>
+			<item amount="10">ID_WOTC_PHB24_ITEM_CANDLE</item>
+			<item>ID_WOTC_PHB24_ITEM_CROWBAR</item>
+			<item>ID_WOTC_PHB24_ITEM_LANTERN_HOODED</item>
+			<item amount="7">ID_WOTC_PHB24_ITEM_OIL</item>
+			<item amount="5">ID_WOTC_PHB24_ITEM_RATIONS</item>
+			<item>ID_WOTC_PHB24_ITEM_ROPE</item>
+			<item>ID_WOTC_PHB24_ITEM_TINDERBOX</item>
+			<item>ID_WOTC_PHB24_ITEM_WATERSKIN</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Diplomata" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_DIPLOMATS_PACK">
+		<description>
+			<p>Um Pacote de Diplomata contém os seguintes itens: Baú, Roupas Finas, Tinta, 5 Canetas Tinteiro, Lampião, 2 Estojos de Mapa ou Pergaminho, 4 frascos de Óleo, 5 folhas de Papel, 5 folhas de Pergaminho, Perfume e Caixa de Fogo.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost" currency="gp">39</set>
+			<set name="weight" lb="39">39 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_CHEST</item>
+			<item>ID_WOTC_PHB24_ITEM_CLOTHES_FINE</item>
+			<item>ID_WOTC_PHB24_ITEM_INK</item>
+			<item amount="5">ID_WOTC_PHB24_ITEM_INK_PEN</item>
+			<item>ID_WOTC_PHB24_ITEM_LAMP</item>
+			<item amount="2">ID_WOTC_PHB24_ITEM_CASE_MAP_OR_SCROLL</item>
+			<item amount="4">ID_WOTC_PHB24_ITEM_OIL</item>
+			<item amount="5">ID_WOTC_PHB24_ITEM_PAPER</item>
+			<item amount="5">ID_WOTC_PHB24_ITEM_PARCHMENT</item>
+			<item>ID_WOTC_PHB24_ITEM_PERFUME</item>
+			<item>ID_WOTC_PHB24_ITEM_TINDERBOX</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Explorador de Masmorras" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_DUNGEONEERS_PACK">
+		<description>
+			<p>Um Pacote de Explorador de Masmorras contém os seguintes itens: Mochila, Estrepes, Pé de Cabra, 2 frascos de Óleo, 10 dias de Rações, Corda, Caixa de Fogo, 10 Tochas e Odre.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost" currency="gp">12</set>
+			<set name="weight" lb="55">55 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_BACKPACK</item>
+			<item>ID_WOTC_PHB24_ITEM_CALTROPS</item>
+			<item>ID_WOTC_PHB24_ITEM_CROWBAR</item>
+			<item amount="2">ID_WOTC_PHB24_ITEM_OIL</item>
+			<item amount="10">ID_WOTC_PHB24_ITEM_RATIONS</item>
+			<item>ID_WOTC_PHB24_ITEM_ROPE</item>
+			<item>ID_WOTC_PHB24_ITEM_TINDERBOX</item>
+			<item amount="10">ID_WOTC_PHB24_ITEM_TORCH</item>
+			<item>ID_WOTC_PHB24_ITEM_WATERSKIN</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Artista" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ENTERTAINERS_PACK">
+		<description>
+			<p>Um Pacote de Artista contém os seguintes itens: Mochila, Saco de Dormir, Sino, Lanterna Furta-fogo, 3 Fantasias, Espelho, 8 frascos de Óleo, 9 dias de Rações, Caixa de Fogo e Odre.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost" currency="gp">40</set>
+			<set name="weight" lb="58.5">58½ lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_BACKPACK</item>
+			<item>ID_WOTC_PHB24_ITEM_BEDROLL</item>
+			<item>ID_WOTC_PHB24_ITEM_BELL</item>
+			<item>ID_WOTC_PHB24_ITEM_LANTERN_BULLSEYE</item>
+			<item amount="3">ID_WOTC_PHB24_ITEM_COSTUME</item>
+			<item>ID_WOTC_PHB24_ITEM_MIRROR</item>
+			<item amount="8">ID_WOTC_PHB24_ITEM_OIL</item>
+			<item amount="9">ID_WOTC_PHB24_ITEM_RATIONS</item>
+			<item>ID_WOTC_PHB24_ITEM_TINDERBOX</item>
+			<item>ID_WOTC_PHB24_ITEM_WATERSKIN</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Aventureiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_EXPLORERS_PACK">
+		<description>
+			<p>Um Pacote de Aventureiro contém os seguintes itens: Mochila, Saco de Dormir, 2 frascos de Óleo, 10 dias de Rações, Corda, Caixa de Fogo, 10 Tochas e Odre.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="55">55 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_BACKPACK</item>
+			<item>ID_WOTC_PHB24_ITEM_BEDROLL</item>
+			<item amount="2">ID_WOTC_PHB24_ITEM_OIL</item>
+			<item amount="10">ID_WOTC_PHB24_ITEM_RATIONS</item>
+			<item>ID_WOTC_PHB24_ITEM_ROPE</item>
+			<item>ID_WOTC_PHB24_ITEM_TINDERBOX</item>
+			<item amount="10">ID_WOTC_PHB24_ITEM_TORCH</item>
+			<item>ID_WOTC_PHB24_ITEM_WATERSKIN</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Sacerdote" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_PRIESTS_PACK">
+		<description>
+			<p>Um Pacote de Sacerdote contém os seguintes itens: Mochila, Cobertor, Água Benta, Lampião, 7 dias de Rações, Túnica e Caixa de Fogo.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost" currency="gp">33</set>
+			<set name="weight" lb="29">29 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_BACKPACK</item>
+			<item>ID_WOTC_PHB24_ITEM_BLANKET</item>
+			<item>ID_WOTC_PHB24_ITEM_HOLY_WATER</item>
+			<item>ID_WOTC_PHB24_ITEM_LAMP</item>
+			<item amount="7">ID_WOTC_PHB24_ITEM_RATIONS</item>
+			<item>ID_WOTC_PHB24_ITEM_ROBE</item>
+			<item>ID_WOTC_PHB24_ITEM_TINDERBOX</item>
+		</extract>
+	</element>
+
+	<element name="Pacote de Estudioso" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SCHOLARS_PACK">
+		<description>
+			<p>Um Pacote de Estudioso contém os seguintes itens: Mochila, Livro, Tinta, Caneta Tinteiro, Lampião, 10 frascos de Óleo, 10 folhas de Pergaminho e Caixa de Fogo.</p>
+		</description>
+		<setters>
+			<set name="category">Pacotes de Equipamento</set>
+			<set name="cost" currency="gp">40</set>
+			<set name="weight" lb="22">22 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB24_ITEM_BACKPACK</item>
+			<item>ID_WOTC_PHB24_ITEM_BOOK</item>
+			<item>ID_WOTC_PHB24_ITEM_INK</item>
+			<item>ID_WOTC_PHB24_ITEM_INK_PEN</item>
+			<item>ID_WOTC_PHB24_ITEM_LAMP</item>
+			<item amount="10">ID_WOTC_PHB24_ITEM_OIL</item>
+			<item amount="10">ID_WOTC_PHB24_ITEM_PARCHMENT</item>
+			<item>ID_WOTC_PHB24_ITEM_TINDERBOX</item>
+		</extract>
+	</element>
+</elements>

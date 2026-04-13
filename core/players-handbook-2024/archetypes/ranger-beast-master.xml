@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mestre das Feras</name>
+		<description>A subclasse Mestre das Feras do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="ranger-beast-master.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/ranger-beast-master.xml" />
+		</update>
+	</info>
+
+	<element name="Mestre das Feras" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_RANGER_BEAST_MASTER">
+		<supports>Ranger Subclass</supports>
+		<description>
+			<p class="flavor">Crie um Vínculo com uma Fera Primitiva</p>
+			<p>Um Mestre das Feras forma um vínculo místico com um animal especial, extraindo da magia primitiva e de uma conexão profunda com o mundo natural.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_PRIMAL_COMPANION" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_EXCEPTIONAL_TRAINING" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_BESTIAL_FURY" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_SHARE_SPELLS" />
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_INFORMATION_PRIMAL_COMPANION_BEAST_OF_THE_LAND" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_INFORMATION_PRIMAL_COMPANION_BEAST_OF_THE_SKY" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_INFORMATION_PRIMAL_COMPANION_BEAST_OF_THE_SEA" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_PRIMAL_COMPANION" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_EXCEPTIONAL_TRAINING" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_BESTIAL_FURY" level="11" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_SHARE_SPELLS" level="15" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Companheiro Primitivo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_PRIMAL_COMPANION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_BEAST_MASTER_PRIMAL_COMPANION</requirements>
+		<description>
+			<p>Você invoca magicamente uma fera primitiva, que extrai força de seu vínculo com a natureza. Escolha seu bloco de estatísticas: <b>Fera da Terra</b>, <b>Fera do Mar</b> ou <b>Fera do Céu</b>. Você também determina o tipo de animal que ela é, escolhendo um tipo apropriado para o bloco de estatísticas. Qualquer que seja a fera que você escolher, ela carrega marcas primitivas indicando sua origem sobrenatural.</p>
+			<p class="indent">A fera é Amistosa a você e seus aliados e obedece aos seus comandos. Ela desaparece se você morrer.</p>
+			<p class="indent"><b><i>A Fera em Combate.</i></b> Em combate, a fera age durante o seu turno. Ela pode se mover e usar sua Reação por conta própria, mas a única ação que ela realiza é a ação Esquivar, a menos que você use uma Ação Bônus para comandá-la a realizar uma ação do bloco de estatísticas dela ou alguma outra ação. Você também pode sacrificar um dos seus ataques quando realiza a ação de Ataque para comandar a fera a realizar a ação Ataque da Fera. Se você tiver a condição Incapacitado, a fera age por conta própria e não é limitada à ação Esquivar.</p>
+			<p class="indent"><b><i>Restaurando ou Substituindo a Fera.</i></b> Se a fera tiver morrido dentro da última hora, você pode usar uma ação Mágica para tocá-la e gastar um espaço de magia. A fera volta à vida após 1 minuto com todos os seus Pontos de Vida restaurados.</p>
+			<p class="indent">Sempre que você terminar um Descanso Longo, pode invocar uma fera primitiva diferente, que aparece num espaço desocupado a até 1,5 metro (5 pés) de você. Você escolhe seu bloco de estatísticas e aparência. Se você já tiver uma fera desta característica, a antiga desaparece quando a nova aparecer.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_INFORMATION_PRIMAL_COMPANION_BEAST_OF_THE_LAND" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_INFORMATION_PRIMAL_COMPANION_BEAST_OF_THE_SKY" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_INFORMATION_PRIMAL_COMPANION_BEAST_OF_THE_SEA" />
+			</div>
+		</description>
+		<sheet alt="Companheiro Primitivo">
+			<description>Você invoca magicamente uma fera primitiva. A fera é amistosa a você e seus companheiros e obedece aos seus comandos. &#13;
+			Em combate, a fera age no seu turno. Ela pode se mover e usar sua Reação por conta própria, mas a única ação que realiza é a Esquiva, a não ser que você use uma Ação Bônus para comandar que ela faça outra ação (do bloco de estatísticas dela ou outra). Você também pode sacrificar um ataque da sua ação de Ataque para comandar a fera a realizar o Ataque da Fera. Se você estiver incapacitado, a fera age livremente. &#13;
+			Se ela morreu na última hora, você pode usar uma ação para tocá-la e gastar um espaço de magia, revivendo-a após 1 minuto com PVs máximos. &#13;
+			Ao terminar um Descanso Longo, você pode invocar uma fera diferente, que surge a até 1,5m, escolhendo aparência e bloco de estatísticas. Se já tiver uma, ela desaparece.</description>
+		</sheet>
+		<rules>
+			<select type="Companion" name="Primal Companion" supports="ID_WOTC_PHB24_COMPANION_RANGER_BEAST_MASTER_PRIMAL_COMPANION_BEAST_OF_THE_LAND|ID_WOTC_PHB24_COMPANION_RANGER_BEAST_MASTER_PRIMAL_COMPANION_BEAST_OF_THE_SEA|ID_WOTC_PHB24_COMPANION_RANGER_BEAST_MASTER_PRIMAL_COMPANION_BEAST_OF_THE_SKY" />
+		</rules>
+	</element>
+
+	<element name="Nível 7: Treinamento Excepcional" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_EXCEPTIONAL_TRAINING">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_BEAST_MASTER_EXCEPTIONAL_TRAINING</requirements>
+		<description>
+			<p>Quando você usa uma Ação Bônus para comandar sua fera Companheiro Primitivo a realizar uma ação, você também pode comandá-la a realizar a ação Disparada, Desengajar, Esquivar ou Ajuda usando a Ação Bônus dela.</p>
+			<p class="indent">Além disso, sempre que ela atinge com uma jogada de ataque e causa dano, pode causar dano de Energia à sua escolha ou seu tipo de dano normal.</p>
+		</description>
+		<sheet alt="Treinamento Excepcional" action="Bonus Action">
+			<description>Quando você comanda sua fera a realizar uma ação, você também pode comandá-la a realizar Disparada, Desengajar, Esquiva ou Ajuda usando a Ação Bônus dela. &#13;
+			Além disso, sempre que atinge com um ataque, ela pode causar seu dano normal ou dano de Energia (à sua escolha).</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 11: Fúria Bestial" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_BESTIAL_FURY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_BEAST_MASTER_BESTIAL_FURY</requirements>
+		<description>
+			<p>Quando você comanda sua fera Companheiro Primitivo a realizar a ação Ataque da Fera, a fera pode usá-la duas vezes.</p>
+			<p class="indent">Além disso, a primeira vez em cada turno que ela atinge uma criatura sob o efeito da sua magia <i>Marca do Caçador</i>, a fera causa dano de Energia extra igual ao dano bônus daquela magia.</p>
+		</description>
+		<sheet alt="Fúria Bestial">
+			<description>Quando comanda a fera a realizar o Ataque da Fera, ela pode atacar duas vezes. A primeira vez no turno que atinge uma criatura sob sua Marca do Caçador, a fera causa dano de Energia extra igual ao dano bônus daquela magia.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 15: Compartilhar Magias" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEAST_MASTER_SHARE_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_BEAST_MASTER_SHARE_SPELLS</requirements>
+		<description>
+			<p>Quando você conjura uma magia tendo a si mesmo como alvo, você também pode afetar sua fera Companheiro Primitivo com a magia se a fera estiver a até 9 metros (30 pés) de você.</p>
+		</description>
+		<sheet alt="Compartilhar Magias">
+			<description>Quando você conjura uma magia focada em si mesmo, pode afetar também seu Companheiro Primitivo se ele estiver a até 9m.</description>
+		</sheet>
+	</element>
+
+	<element name="Fera da Terra" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMPANION_RANGER_BEAST_MASTER_PRIMAL_COMPANION_BEAST_OF_THE_LAND">
+		<compendium display="false" />
+		<setters>
+			<set name="size">Medium</set>
+			<set name="type">Beast</set>
+			<set name="alignment">Neutral</set>
+			<set name="ac">13 + seu modificador de Sabedoria</set>
+			<set name="hp">5 + cinco vezes seu nível de Patrulheiro (a fera tem Dados de Vida [d8s] iguais ao seu nível de Patrulheiro)</set>
+			<set name="speed">12 m (40 pés), Escalada 12 m (40 pés)</set>
+			<set name="strength">14</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">11</set>
+			<set name="senses">Visão no Escuro 18 m (60 pés); Percepção Passiva 12</set>
+			<set name="languages">Entende os idiomas que você fala</set>
+			<set name="challenge">—</set>
+			<set name="traits">ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND</set>
+			<set name="actions">ID_WOTC_PHB24_COMPANION_ACTION_PRIMAL_COMPANION_BEAST_OF_THE_LAND_BEASTS_STRIKE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" bonus="base" />
+			<stat name="companion:ac" value="wisdom:modifier" bonus="ability" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:speed:climb" value="40" bonus="base" />
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:proficiency" value="-2" bonus="base companion PB removal"/>
+			<grant type="Companion Trait" id="ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND" />
+		</rules>
+	</element>
+	<element name="Vínculo Primitivo" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND">
+		<description>
+			<p>Adicione o seu Bônus de Proficiência a qualquer teste de habilidade ou teste de resistência que a fera fizer.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:animal handling:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:arcana:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:history:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intimidation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:investigation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:medicine:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:nature:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:religion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:sleight of hand:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:survival:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:strength:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intelligence:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Ataque da Fera" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMPANION_ACTION_PRIMAL_COMPANION_BEAST_OF_THE_LAND_BEASTS_STRIKE">
+		<description>
+			<p><i>Ataque Corpo a Corpo com Magia:</i> O bônus é igual ao seu modificador de ataque com magia, alcance 1,5 m (5 pés). <i>Acerto:</i> 1d8 + 2 mais seu modificador de Sabedoria de dano Contundente, Perfurante ou Cortante (à sua escolha ao invocar a fera).</p>
+			<p class="indent">Se a fera se mover pelo menos 6 metros (20 pés) em linha reta em direção ao alvo antes do acerto, o alvo sofre 1d6 de dano extra do mesmo tipo, e se for uma criatura Grande ou menor, ganha a condição Caído.</p>
+		</description>
+		<sheet>
+			<description>Ataque Corpo a Corpo com Magia: Seu bônus de ataque com magia para acertar, alcance 1,5m. Acerto: 1d8 + 2 + seu modificador de Sabedoria de dano Contundente, Perfurante ou Cortante (à sua escolha).&#13;
+			Se a fera se moveu no mínimo 6m em linha reta contra o alvo antes do acerto, causa 1d6 de dano extra do mesmo tipo e, se o alvo for Grande ou menor, fica Caído.</description>
+		</sheet>
+	</element>
+	<element name="Fera da Terra" type="Information" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INFORMATION_PRIMAL_COMPANION_BEAST_OF_THE_LAND">
+		<description>
+			<p style="margin-bottom:5px"><em>Besta Média, Neutra</em></p>
+			<ul class="unstyled">
+				<li><strong>CA</strong> 13 mais seu modificador de Sabedoria</li>
+				<li><strong>PV</strong> 5 mais 5x seu nível de Patrulheiro (possui Dados de Vida [d8s] iguais ao seu nível)</li>
+				<li><strong>Deslocamento</strong> 12 m, Escalada 12 m</li>
+			</ul>
+			<table style="text-align:center;margin-top:2px;margin-bottom:10px">
+				<tr style="font-size:8px"><td colspan="2" /><td>MOD</td><td>SALV</td><td colspan="2" /><td>MOD</td><td>SALV</td><td colspan="2" /><td>MOD</td><td>SALV</td></tr>
+				<tr><td><b>FOR</b></td><td>14</td><td>+2</td><td>+2</td><td><b>DES</b></td><td>14</td><td>+2</td><td>+2</td><td><b>CON</b></td><td>15</td><td>+2</td><td>+2</td></tr>
+				<tr><td><b>INT</b></td><td>8</td><td>-1</td><td>-1</td><td><b>SAB</b></td><td>14</td><td>+2</td><td>+2</td><td><b>CAR</b></td><td>11</td><td>+0</td><td>+0</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Sentidos</strong> Visão no Escuro 18 m; Percepção Passiva 12</li>
+				<li><strong>Idiomas</strong> Entende os que você fala</li>
+				<li><strong>ND</strong> Nenhum (XP 0; BP igual ao seu Bônus de Proficiência)</li>
+			</ul>
+			<h4 style="margin-top:5px">Traços</h4>
+			<ul class="unstyled">
+				<li><strong><em>Vínculo Primitivo.</em></strong> Adicione seu Bônus de Proficiência a qualquer teste que a fera fizer.</li>
+			</ul>
+			<h4 style="margin-top:5px">Ações</h4>
+			<ul class="unstyled">
+				<li><em><strong>Ataque da Fera.</strong> Ataque Corpo a Corpo com Magia:</em> Bônus de ataque mágico para acertar, alcance 1,5m. <em>Acerto:</em> 1d8 + 2 + mod. Sabedoria de dano Contundente, Perfurante ou Cortante.
+				<p style="text-indent: 1em">Se se mover 6m em linha reta contra o alvo antes de acertar, causa 1d6 extra do mesmo tipo; criaturas Grandes ou menores ficam Caídas.</p></li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Fera do Céu" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMPANION_RANGER_BEAST_MASTER_PRIMAL_COMPANION_BEAST_OF_THE_SKY">
+		<compendium display="false" />
+		<setters>
+			<set name="size">Small</set>
+			<set name="type">Beast</set>
+			<set name="alignment">Neutral</set>
+			<set name="ac">13 + seu modificador de Sabedoria</set>
+			<set name="hp">4 + quatro vezes seu nível de Patrulheiro (a fera tem Dados de Vida [d6s] iguais ao seu nível de Patrulheiro)</set>
+			<set name="speed">3 m (10 pés), Voo 18 m (60 pés)</set>
+			<set name="strength">6</set>
+			<set name="dexterity">16</set>
+			<set name="constitution">13</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">11</set>
+			<set name="senses">Visão no Escuro 18 m (60 pés); Percepção Passiva 12</set>
+			<set name="languages">Entende os idiomas que você fala</set>
+			<set name="challenge">—</set>
+			<set name="traits">ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_SKY_FLYBY, ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND</set>
+			<set name="actions">ID_WOTC_PHB24_COMPANION_ACTION_PRIMAL_COMPANION_BEAST_OF_THE_SKY_BEASTS_STRIKE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" bonus="base" />
+			<stat name="companion:ac" value="wisdom:modifier" bonus="ability" />
+			<stat name="companion:hp:max" value="4" bonus="base" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:speed" value="10" bonus="base" />
+			<stat name="companion:speed:fly" value="60" bonus="base" />
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:proficiency" value="-2" bonus="base companion PB removal"/>
+			<grant type="Companion Trait" id="ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND" />
+		</rules>
+	</element>
+	<element name="Voo Rasante" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_SKY_FLYBY">
+		<description>
+			<p>A fera não provoca Ataques de Oportunidade quando voa para fora do alcance de um inimigo.</p>
+		</description>
+		<sheet>
+			<description>A fera não provoca Ataques de Oportunidade quando voa para fora do alcance de um inimigo.</description>
+		</sheet>
+	</element>
+	<element name="Vínculo Primitivo" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND">
+		<description>
+			<p>Você pode adicionar seu Bônus de Proficiência a qualquer teste de habilidade ou teste de resistência que a fera fizer.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:animal handling:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:arcana:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:history:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intimidation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:investigation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:medicine:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:nature:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:religion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:sleight of hand:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:survival:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:strength:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intelligence:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Ataque da Fera" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMPANION_ACTION_PRIMAL_COMPANION_BEAST_OF_THE_SKY_BEASTS_STRIKE">
+		<description>
+			<p><i>Ataque Corpo a Corpo com Magia:</i> O bônus é igual ao seu modificador de ataque com magia, alcance 1,5 m (5 pés). <i>Acerto:</i> 1d4 + 3 mais seu modificador de Sabedoria de dano Cortante.</p>
+		</description>&#13;
+		<sheet>
+			<description>Ataque Corpo a Corpo com Magia: Seu bônus de ataque com magia para acertar, alcance 1,5m. Acerto: 1d4 + 3 + seu modificador de Sabedoria de dano Cortante.</description>
+		</sheet>
+	</element>
+	<element name="Fera do Céu" type="Information" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INFORMATION_PRIMAL_COMPANION_BEAST_OF_THE_SKY">
+		<description>
+			<p style="margin-bottom:5px"><em>Besta Pequena, Neutra</em></p>
+			<ul class="unstyled">
+				<li><strong>CA</strong> 13 mais seu modificador de Sabedoria</li>
+				<li><strong>PV</strong> 4 mais 4x seu nível de Patrulheiro (possui Dados de Vida [d6s] iguais ao seu nível)</li>
+				<li><strong>Deslocamento</strong> 3 m, Voo 18 m</li>
+			</ul>
+			<table style="text-align:center;margin-top:2px;margin-bottom:10px">
+				<tr style="font-size:8px"><td colspan="2" /><td>MOD</td><td>SALV</td><td colspan="2" /><td>MOD</td><td>SALV</td><td colspan="2" /><td>MOD</td><td>SALV</td></tr>
+				<tr><td><b>FOR</b></td><td>6</td><td>-2</td><td>-2</td><td><b>DES</b></td><td>16</td><td>+3</td><td>+3</td><td><b>CON</b></td><td>13</td><td>+1</td><td>+1</td></tr>
+				<tr><td><b>INT</b></td><td>8</td><td>-1</td><td>-1</td><td><b>SAB</b></td><td>14</td><td>+2</td><td>+2</td><td><b>CAR</b></td><td>11</td><td>+0</td><td>+0</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Sentidos</strong> Visão no Escuro 18 m; Percepção Passiva 12</li>
+				<li><strong>Idiomas</strong> Entende os que você fala</li>
+				<li><strong>ND</strong> Nenhum (XP 0; BP igual ao seu Bônus de Proficiência)</li>
+			</ul>
+			<h4 style="margin-top:5px">Traços</h4>
+			<ul class="unstyled">
+				<li><strong><em>Voo Rasante.</em></strong> A fera não provoca Ataques de Oportunidade ao sair do alcance de inimigos.</li>
+				<li style="margin-top:5px"><strong><em>Vínculo Primitivo.</em></strong> Adicione seu Bônus de Proficiência a testes da fera.</li>
+			</ul>
+			<h4 style="margin-top:5px">Ações</h4>
+			<ul class="unstyled">
+				<li><em><strong>Ataque da Fera.</strong> Ataque Corpo a Corpo com Magia:</em> Bônus mágico para acertar, alcance 1,5m. <em>Acerto:</em> 1d4 + 3 + mod. Sabedoria de dano Cortante.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Fera do Mar" type="Companion" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMPANION_RANGER_BEAST_MASTER_PRIMAL_COMPANION_BEAST_OF_THE_SEA">
+		<compendium display="false" />
+		<setters>
+			<set name="size">Medium</set>
+			<set name="type">Beast</set>
+			<set name="alignment">Neutral</set>
+			<set name="ac">13 + seu modificador de Sabedoria</set>
+			<set name="hp">5 + cinco vezes seu nível de Patrulheiro (a fera tem Dados de Vida [d8s] iguais ao seu nível de Patrulheiro)</set>
+			<set name="speed">1,5 m (5 pés), Natação 18 m (60 pés)</set>
+			<set name="strength">14</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">11</set>
+			<set name="senses">Visão no Escuro 27 m (90 pés); Percepção Passiva 12</set>
+			<set name="languages">Entende os idiomas que você fala</set>
+			<set name="challenge">—</set>
+			<set name="traits">ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_SEA_AMPHIBIOUS, ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND</set>
+			<set name="actions">ID_WOTC_PHB24_COMPANION_ACTION_PRIMAL_COMPANION_BEAST_OF_THE_SEA_BEASTS_STRIKE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" bonus="base" />
+			<stat name="companion:ac" value="wisdom:modifier" bonus="ability" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:speed" value="5" bonus="base" />
+			<stat name="companion:speed:swim" value="60" bonus="base" />
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:proficiency" value="-2" bonus="base companion PB removal"/>
+			<grant type="Companion Trait" id="ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND" />
+		</rules>
+	</element>
+	<element name="Anfíbio" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_SEA_AMPHIBIOUS">
+		<description>
+			<p>A fera pode respirar ar e água.</p>
+		</description>
+		<sheet>
+			<description>A fera pode respirar ar e água.</description>
+		</sheet>
+	</element>
+	<element name="Vínculo Primitivo" type="Companion Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMPANION_TRAIT_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND">
+		<description>
+			<p>Você pode adicionar seu Bônus de Proficiência a qualquer teste de habilidade ou teste de resistência que a fera fizer.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:animal handling:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:arcana:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:history:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intimidation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:investigation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:medicine:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:nature:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:religion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:sleight of hand:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:survival:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:strength:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intelligence:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Ataque da Fera" type="Companion Action" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMPANION_ACTION_PRIMAL_COMPANION_BEAST_OF_THE_SEA_BEASTS_STRIKE">
+		<description>
+			<p><i>Ataque Corpo a Corpo com Magia:</i> O bônus é igual ao seu modificador de ataque com magia, alcance 1,5 m (5 pés). <i>Acerto:</i> 1d6 + 2 mais seu modificador de Sabedoria de dano Contundente ou Perfurante (à sua escolha ao invocar a fera), e o alvo ganha a condição Agarrado (CD de escape igual à CD das suas magias).</p>
+		</description>
+		<sheet>
+			<description>Ataque Corpo a Corpo com Magia: Seu bônus de ataque com magia para acertar, alcance 1,5m. Acerto: 1d6 + 2+ seu modificador de Sabedoria de dano Contundente ou Perfurante (à sua escolha), e o alvo fica Agarrado (CD de escape igual à CD de magia).</description>
+		</sheet>
+	</element>
+	<element name="Fera do Mar" type="Information" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INFORMATION_PRIMAL_COMPANION_BEAST_OF_THE_SEA">
+		<description>
+			<p style="margin-bottom:5px"><em>Besta Média, Neutra</em></p>
+			<ul class="unstyled">
+				<li><strong>CA</strong> 13 mais seu modificador de Sabedoria</li>
+				<li><strong>PV</strong> 5 mais 5x seu nível de Patrulheiro (possui Dados de Vida [d8s] iguais ao seu nível)</li>
+				<li><strong>Deslocamento</strong> 1,5 m, Natação 18 m</li>
+			</ul>
+			<table style="text-align:center;margin-top:2px;margin-bottom:10px">
+				<tr style="font-size:8px"><td colspan="2" /><td>MOD</td><td>SALV</td><td colspan="2" /><td>MOD</td><td>SALV</td><td colspan="2" /><td>MOD</td><td>SALV</td></tr>
+				<tr><td><b>FOR</b></td><td>14</td><td>+2</td><td>+2</td><td><b>DES</b></td><td>14</td><td>+2</td><td>+2</td><td><b>CON</b></td><td>15</td><td>+2</td><td>+2</td></tr>
+				<tr><td><b>INT</b></td><td>8</td><td>-1</td><td>-1</td><td><b>SAB</b></td><td>14</td><td>+2</td><td>+2</td><td><b>CAR</b></td><td>11</td><td>+0</td><td>+0</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Sentidos</strong> Visão no Escuro 27 m; Percepção Passiva 12</li>
+				<li><strong>Idiomas</strong> Entende os que você fala</li>
+				<li><strong>ND</strong> Nenhum (XP 0; BP igual ao seu Bônus de Proficiência)</li>
+			</ul>
+			<h4 style="margin-top:5px">Traços</h4>
+			<ul class="unstyled">
+				<li><strong><em>Anfíbio.</em></strong> A fera respira ar e água.</li>
+				<li style="margin-top:5px"><strong><em>Vínculo Primitivo.</em></strong> Adicione seu Bônus de Proficiência a testes da fera.</li>
+			</ul>
+			<h4 style="margin-top:5px">Ações</h4>
+			<ul class="unstyled">
+				<li><em><strong>Ataque da Fera.</strong> Ataque Corpo a Corpo com Magia:</em> Bônus mágico para acertar, alcance 1,5m. <em>Acerto:</em> 1d6 + 2 + mod. Sabedoria de dano Contundente ou Perfurante, e o alvo fica Agarrado (CD de escape = sua CD de magia).</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Primal Companion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_BEAST_MASTER_PRIMAL_COMPANION" />
+	<element name="Exceptional Training Divinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_BEAST_MASTER_EXCEPTIONAL_TRAINING" />
+	<element name="Bestial Fury Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_BEAST_MASTER_BESTIAL_FURY" />
+	<element name="Share Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_BEAST_MASTER_SHARE_SPELLS" />
+</elements>

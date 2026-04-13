@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Patrono Celestial</name>
+		<description>A subclasse Patrono Celestial do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="warlock-celestial.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-celestial.xml" />
+		</update>
+	</info>
+
+	<element name="Patrono Celestial" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WARLOCK_CELESTIAL_PATRON">
+		<supports>Warlock Subclass</supports>
+		<description>
+			<p class="flavor">Clame pelo Poder dos Céus</p>
+			<p>Seu pacto tira força dos Planos Superiores, os reinos da felicidade eterna. Você pode entrar em acordo com um empíreo, um couatl, uma esfinge, um unicórnio ou outra entidade divina. Ou você pode clamar por várias dessas criaturas enquanto persegue objetivos alinhados aos deles. Seu pacto permite experimentar um vislumbre da luz sagrada que ilumina o multiverso.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_CELESTIAL_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_HEALING_LIGHT" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_RADIANT_SOUL" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_CELESTIAL_RESILIENCE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_SEARING_VENGEANCE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_CELESTIAL_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_HEALING_LIGHT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_RADIANT_SOUL" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_CELESTIAL_RESILIENCE" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_SEARING_VENGEANCE" level="14" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magias Celestiais" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_CELESTIAL_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_PATRON_CELESTIAL_SPELLS</requirements>
+		<description>
+			<p>A magia do seu patrono garante que você tenha certas magias sempre preparadas. Além de aprender os truques <i>Luz</i> e <i>Chama Sagrada</i> (Sabedoria é a habilidade de conjuração deles se você não os conhecia), você ganha as seguintes magias:</p>
+			<h5>Magias Celestiais</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-25">Nível de Bruxo</td><td class="left">Magias</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Curar Ferimentos, Raio Guiador, Esfera Flamejante, Restauração Menor</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Luz do Dia, Revivificar</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Guardião da Fé, Muralha de Fogo</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Coluna de Chamas, Restauração Maior</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LIGHT" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SACRED_FLAME" spellcasting="Warlock" />
+			</rules>
+	</element>
+
+	<element name="Nível 3: Luz Curativa" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_HEALING_LIGHT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_PATRON_HEALING_LIGHT</requirements>
+		<description>
+			<p>Você ganha a habilidade de canalizar energia celestial para curar ferimentos. Você tem um estoque de d6s que pode gastar para abastecer esta cura. O número de dados nesse estoque é igual a 1 + seu nível de Bruxo.</p>
+			<p class="indent">Como uma Ação Bônus, você pode curar uma criatura que possa ver num alcance de 18 metros (60 pés) gastando dados do estoque. O número máximo de dados que pode gastar de uma só vez é igual ao seu modificador de Carisma (mínimo de um dado). Role os dados gastos e adicione-os, o alvo recupera uma quantidade de PV igual ao total.</p>
+		</description>
+		<sheet alt="Luz Curativa" action="Ação Bônus" usage="{{healing light:pool}}d6/Descanso Longo">
+			<description>Você pode curar uma criatura a até 18m (60 pés). Gaste até {{healing light:max}} dados do seu estoque de cura. O alvo recupera PVs iguais à rolagem.</description>
+		</sheet>
+		<rules>
+			<stat name="healing light:pool" value="1" bonus="base" />
+			<stat name="healing light:pool" value="level:warlock" bonus="base" />
+			<stat name="healing light:max" value="1" bonus="base" />
+			<stat name="healing light:max" value="charisma:modifier" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Alma Radiante" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_RADIANT_SOUL">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_PATRON_RADIANT_SOUL</requirements>
+		<description>
+			<p>Você ganha Resistência a dano Radiante. Além disso, quando conjurar uma magia que cause dano Radiante ou de Fogo, você adiciona seu modificador de Carisma a uma rolagem de dano daquela magia contra um dos seus alvos.</p>
+		</description>
+		<sheet alt="Alma Radiante">
+			<description>Você tem Resistência a dano Radiante. Ao causar dano Radiante ou de Fogo com uma magia, adicione +{{charisma:modifier}} a uma rolagem de dano contra um alvo.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 10: Resiliência Celestial" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_CELESTIAL_RESILIENCE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_PATRON_CELESTIAL_RESILIENCE</requirements>
+		<description>
+			<p>Você ganha Pontos de Vida Temporários sempre que termina um Descanso Curto ou Longo. Esses pontos são iguais ao seu nível de Bruxo + seu modificador de Carisma. Além disso, escolha até cinco criaturas para receber PVs Temporários iguais a metade do seu nível de Bruxo + seu modificador de Carisma.</p>
+		</description>
+		<sheet alt="Resiliência Celestial">
+			<description>Após um Descanso Curto/Longo, você ganha {{celestial resilience:self}} PV Temporários e até 5 aliados ganham {{celestial resilience:allies}} PV Temporários.</description>
+		</sheet>
+		<rules>
+			<stat name="celestial resilience:self" value="level:warlock" />
+			<stat name="celestial resilience:self" value="charisma:modifier" />
+			<stat name="celestial resilience:allies" value="level:warlock:half" />
+			<stat name="celestial resilience:allies" value="charisma:modifier" />
+		</rules>
+	</element>
+
+	<element name="Nível 14: Vingança Calcinante" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_PATRON_SEARING_VENGEANCE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_PATRON_SEARING_VENGEANCE</requirements>
+		<description>
+			<p>Quando você ou um aliado a até 18 metros de você for fazer um Teste de Resistência Contra Morte, você pode fazer o alvo recuperar PVs iguais a metade do máximo de PV dele e encerrar a condição Caído. Além disso, cada criatura de sua escolha a até 9 metros sofre 2d8 + seu modificador de Carisma de dano Radiante e fica Cega até o fim do seu turno.</p>
+		</description>
+		<sheet alt="Vingança Calcinante" usage="1/Descanso Longo">
+			<description>Quando você ou um aliado (18m) fizer um Teste contra Morte, você pode restaurar metade dos PVs máximos dele e levantar. Inimigos escolhidos (9m) sofrem 2d8+{{charisma:modifier}} dano Radiante e ficam Cegos até o final do turno.</description>
+		</sheet>
+	</element>
+
+	<element name="Celestial Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_PATRON_CELESTIAL_SPELLS" />
+	</elements>

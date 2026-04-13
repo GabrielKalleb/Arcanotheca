@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Círculo da Terra</name>
+		<description>A subclasse Círculo da Terra do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="druid-land.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/druid-land.xml" />
+		</update>
+	</info>
+
+	<element name="Círculo da Terra" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_LAND">
+		<supports>Druid Subclass</supports>
+		<description>
+			<p class="flavor">Celebre a Conexão com o Mundo Natural</p>
+			<p>O Círculo da Terra compreende místicos e sábios que salvaguardam ritos e conhecimentos antigos. Estes Druidas se reúnem em círculos sagrados de árvores ou pedras erguidas para sussurrar segredos primitivos em Druídico. Os membros mais sábios do círculo atuam como sacerdotes-chefes de suas comunidades.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_CIRCLE_OF_LAND_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_LANDS_AID" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURAL_RECOVERY" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURES_WARD" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURES_SANCTUARY" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_CIRCLE_OF_LAND_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_LANDS_AID" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURAL_RECOVERY" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURES_WARD" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURES_SANCTUARY" level="14" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magias do Círculo da Terra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_CIRCLE_OF_LAND_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_CIRCLE_OF_LAND_SPELLS</requirements>
+		<description>
+			<p>Sempre que terminar um Descanso Longo, escolha um tipo de terra: árida, polar, temperada ou tropical. Consulte a tabela abaixo que corresponde ao tipo escolhido; você tem as magias listadas para o seu nível de Druida e inferiores preparadas.</p>
+			<h5>Terra Árida</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Nível de Druida</td><td class="left">Magias do Círculo</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Borrão, Mãos Flamejantes, Raio de Fogo</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Bola de Fogo</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Secar</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Muralha de Pedra</em></td></tr>
+			</table>
+			<h5>Terra Polar</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Nível de Druida</td><td class="left">Magias do Círculo</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Névoa Obscurecente, Imobilizar Pessoa, Raio de Gelo</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Nevasca</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Tempestade de Gelo</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Cone de Frio</em></td></tr>
+			</table>
+			<h5>Terra Temperada</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Nível de Druida</td><td class="left">Magias do Círculo</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Passo Nebuloso, Toque Chocante, Sono</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Relâmpago</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Movimentação Livre</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Caminho em Árvores</em></td></tr>
+			</table>
+			<h5>Terra Tropical</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Nível de Druida</td><td class="left">Magias do Círculo</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Espirro Ácido, Raio Adoecente, Teia</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Névoa Fétida</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Metamorfose</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Praga de Insetos</em></td></tr>
+			</table>
+		</description>
+		<sheet alt="Magias do Círculo da Terra">
+			<description>Sempre que terminar um Descanso Longo, você pode mudar o tipo de terra escolhido para um diferente.</description>
+		</sheet>
+		<rules>
+			<select type="Archetype Feature" name="Tipo de Terra (Magias do Círculo)" supports="Circle of Land Spells" />
+		</rules>
+	</element>
+	<element name="Terra Árida" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_CIRCLE_OF_LAND_SPELLS_ARID">
+		<supports>Circle of Land Spells</supports>
+		<description>
+			<h5>Terra Árida</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Nível de Druida</td><td class="left">Magias do Círculo</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Borrão, Mãos Flamejantes, Raio de Fogo</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Bola de Fogo</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Secar</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Muralha de Pedra</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIRE_BOLT" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BURNING_HANDS" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BLUR" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIREBALL" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BLIGHT" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WALL_OF_STONE" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURES_WARD" />
+			<stat name="circle of the land:resistance" value="fire" inline="true" />
+		</rules>
+	</element>
+	<element name="Terra Polar" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_CIRCLE_OF_LAND_SPELLS_POLAR">
+		<supports>Circle of Land Spells</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_CIRCLE_OF_LAND_SPELLS_POLAR</requirements>
+		<description>
+			<h5>Terra Polar</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Nível de Druida</td><td class="left">Magias do Círculo</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Névoa Obscurecente, Imobilizar Pessoa, Raio de Gelo</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Nevasca</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Tempestade de Gelo</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Cone de Frio</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_RAY_OF_FROST" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FOG_CLOUD" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_PERSON" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SLEET_STORM" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ICE_STORM" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONE_OF_COLD" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURES_WARD" />
+			<stat name="circle of the land:resistance" value="cold" inline="true" />
+		</rules>
+	</element>
+	<element name="Terra Temperada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_CIRCLE_OF_LAND_SPELLS_TEMPERATE">
+		<supports>Circle of Land Spells</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_CIRCLE_OF_LAND_SPELLS_TEMPERATE</requirements>
+		<description>
+			<h5>Terra Temperada</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Nível de Druida</td><td class="left">Magias do Círculo</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Passo Nebuloso, Toque Chocante, Sono</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Relâmpago</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Movimentação Livre</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Caminho em Árvores</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SHOCKING_GRASP" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SLEEP" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LIGHTNING_BOLT" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_TREE_STRIDE" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURES_WARD" />
+			<stat name="circle of the land:resistance" value="lightning" inline="true" />
+		</rules>
+	</element>
+	<element name="Terra Tropical" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_CIRCLE_OF_LAND_SPELLS_TROPICAL">
+		<supports>Circle of Land Spells</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_CIRCLE_OF_LAND_SPELLS_TROPICAL</requirements>
+		<description>
+			<h5>Terra Tropical</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Nível de Druida</td><td class="left">Magias do Círculo</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Espirro Ácido, Raio Adoecente, Teia</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Névoa Fétida</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Metamorfose</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Praga de Insetos</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ACID_SPLASH" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_RAY_OF_SICKNESS" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WEB" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_STINKING_CLOUD" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POLYMORPH" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURES_WARD" />
+			<stat name="circle of the land:resistance" value="poison" inline="true" />
+		</rules>
+	</element>
+	
+	<element name="Nível 3: Auxílio da Terra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_LANDS_AID">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_LANDS_AID</requirements>
+		<description>
+			<p>Como uma ação Mágica, você pode gastar um uso da sua Forma Selvagem e escolher um ponto a até 18 metros (60 pés) de você. Flores doadoras de vitalidade e espinhos drenadores de vida aparecem por um instante em uma Esfera com raio de 3 metros (10 pés) centrada naquele ponto. Cada criatura de sua escolha na Esfera deve fazer um teste de resistência de Constituição contra a CD de suas magias, sofrendo 2d6 de dano Necrótico em uma falha, ou metade desse dano em um sucesso. Uma criatura de sua escolha naquela área recupera 2d6 Pontos de Vida.</p>
+			<p class="indent">O dano e a cura aumentam em 1d6 quando você atinge os níveis de Druida 10 (3d6) e 14 (4d6).</p>
+		</description>
+		<sheet alt="Auxílio da Terra" action="Action" usage="Forma Selvagem">
+			<description>Escolha um ponto a até 18m. Criaturas escolhidas a até 3m do ponto fazem teste de Constituição CD {{druid:spellcasting:dc}}. Falha: {{land aid:dice count}}d6 Necrótico (sucesso = metade). Uma criatura da sua escolha lá recupera {{land aid:dice count}}d6 PV.</description>
+		</sheet>
+		<rules>
+			<stat name="land aid:dice count" value="2" bonus="base" />
+			<stat name="land aid:dice count" value="3" bonus="base" level="10" />
+			<stat name="land aid:dice count" value="4" bonus="base" level="14" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Recuperação Natural" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURAL_RECOVERY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_NATURAL_RECOVERY</requirements>
+		<description>
+			<p>Você pode conjurar uma das magias de nível 1+ que tem preparadas da sua característica Magias do Círculo sem gastar espaço de magia, e deve terminar um Descanso Longo antes de poder fazer isso de novo.</p>
+			<p class="indent">Além disso, ao terminar um Descanso Curto, pode escolher espaços de magia gastos para recuperar. Os espaços podem ter um nível combinado igual ou menor que metade do seu nível de Druida (arredondado para cima), e nenhum pode ser nível 6+. Ex: Druida de nível 6 pode recuperar até 3 níveis (um espaço de 3º, ou um de 2º e um de 1º, ou três de 1º). Após recuperar usando esta característica, só poderá fazê-lo de novo após um Descanso Longo.</p>
+		</description>
+		<sheet alt="Recuperação Natural" usage="1/Descanso Longo" >
+			<description>Você pode conjurar uma de suas Magias do Círculo sem gastar um espaço. &#13;
+			Além disso, 1 vez/dia, ao fim de um Descanso Curto, você pode recuperar espaços de magia gastos até o 5º nível. A soma dos níveis pode ser de até {{level:druid:half:up}}.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 10: Proteção da Natureza" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURES_WARD">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_NATURES_WARD</requirements>
+		<description>
+			<p>Você é imune à condição Envenenado, e tem Resistência a um tipo de dano associado à sua atual escolha de terra na característica Magias do Círculo, conforme mostrado na tabela Proteção da Natureza.</p>
+			<h5>Proteção da Natureza</h5>
+			<table>
+				<thead>
+					<tr><td>Tipo de Terra</td><td>Resistência</td></tr>
+				</thead>
+				<tr><td>Árida</td><td><em>Fogo</em></td></tr>
+				<tr><td>Polar</td><td><em>Frio</em></td></tr>
+				<tr><td>Temperada</td><td><em>Elétrico</em></td></tr>
+				<tr><td>Tropical</td><td><em>Venenoso</em></td></tr>
+			</table>
+		</description>
+		<sheet alt="Proteção da Natureza">
+			<description>Você é imune à condição Envenenado.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 14: Santuário da Natureza" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_NATURES_SANCTUARY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_NATURES_SANCTUARY</requirements>
+		<description>
+			<p>Como uma ação Mágica, você pode gastar um uso da sua Forma Selvagem e fazer com que árvores e videiras espectrais apareçam num Cubo de 4,5 metros (15 pés) no chão a até 36 metros (120 pés) de você. Elas duram lá por 1 minuto ou até você ficar Incapacitado ou morrer. Você e seus aliados têm Meia Cobertura enquanto estiverem naquela área, e seus aliados ganham a Resistência atual da sua Proteção da Natureza lá dentro.</p>
+			<p class="indent">Como uma Ação Bônus, você pode mover o Cubo até 18 metros (60 pés) no chão a até 36 metros (120 pés) de você.</p>
+		</description>
+		<sheet alt="Santuário da Natureza" action="Action" usage="Forma Selvagem">
+			<description>Cria árvores e videiras num Cubo de 4,5m no chão a até 36m. Aliados ali ganham Meia Cobertura e Resistência a dano de {{circle of the land:resistance}}. Dura 1 min, ou até você ficar Incapacitado ou morrer. &#13;
+			Ação Bônus: pode mover o Cubo até 18m no chão (limite de 36m de você).</description>
+		</sheet>
+	</element>
+
+	<element name="Circle of the Land Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_CIRCLE_OF_LAND_SPELLS" />
+	<element name="Land’s Aid Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_LANDS_AID" />
+	<element name="Natural Recovery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_NATURAL_RECOVERY" />
+	<element name="Nature’s Ward Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_NATURES_WARD" />
+	<element name="Nature’s Sanctuary Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_LAND_NATURES_SANCTUARY" />
+
+</elements>

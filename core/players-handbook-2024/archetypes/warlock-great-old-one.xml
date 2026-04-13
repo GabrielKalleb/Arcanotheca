@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Patrono do Grande Antigo</name>
+		<description>A subclasse Patrono do Grande Antigo do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-great-old-one.xml" />
+		</update>
+	</info>
+
+	<element name="Patrono do Grande Antigo" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WARLOCK_GREAT_OLD_ONE_PATRON">
+		<supports>Warlock Subclass</supports>
+		<description>
+			<p class="flavor">Desenterre o Conhecimento Proibido de Seres Inefáveis</p>
+			<p>Quando escolhe esta subclasse, você pode se vincular a um ser inominável do Reino Distante ou a um deus ancestral — um ser como Tharizdun, o Deus Acorrentado; Zargon, o Retornante; Hadar, a Fome Sombria; ou o Grande Cthulhu. Ou você pode invocar várias entidades sem se prender a apenas uma. Os motivos destes seres são incompreensíveis, e o Grande Antigo pode ser indiferente à sua existência. Mas os segredos que você aprendeu, ainda assim, permitem que extraia uma magia estranha dele.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_AWAKENED_MIND" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_GREAT_OLD_ONE_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_PSYCHIC_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_CLAIRVOYANT_COMBATANT" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_ELDRITCH_HEX" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_THOUGHT_SHIELD" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_CREATE_THRALL" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_AWAKENED_MIND" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_GREAT_OLD_ONE_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_PSYCHIC_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_CLAIRVOYANT_COMBATANT" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_ELDRITCH_HEX" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_THOUGHT_SHIELD" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_CREATE_THRALL" level="14" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Mente Desperta" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_AWAKENED_MIND">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_AWAKENED_MIND</requirements>
+		<description>
+			<p>Você pode formar uma conexão telepática entre a sua mente e a de outro. Como uma Ação Bônus, escolha uma criatura que você possa ver a até 9 metros (30 pés) de você. Você e a criatura escolhida podem se comunicar telepaticamente enquanto estiverem a uma distância em milhas (1,6 km) igual ao seu modificador de Carisma (mínimo de 1 milha). Para se entenderem, ambos devem usar mentalmente um idioma que o outro conheça.</p>
+			<p class="indent">A conexão telepática dura um número de minutos igual ao seu nível de Bruxo. Ela termina mais cedo se usar esta característica para se conectar com uma criatura diferente.</p>
+		</description>
+		<sheet alt="Mente Desperta" action="Bonus Action">
+			<description>Escolha uma criatura visível a até 9m de você. Vocês podem se comunicar telepaticamente pelos próximos {{level:warlock}} minutos, enquanto estiverem a até {{awakened mind:distance}} milhas ({{awakened mind:distance_km}} km) um do outro e compartilharem de um idioma. Este elo encerra cedo se conectar-se com outra criatura.</description>
+		</sheet>
+		<rules>
+			<stat name="awakened mind:distance" value="1" bonus="base" />
+			<stat name="awakened mind:distance" value="charisma:modifier" bonus="base" />
+            <stat name="awakened mind:distance_km" value="1.6" bonus="base" />
+            <stat name="awakened mind:distance_km" value="charisma:modifier" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magias do Grande Antigo" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_GREAT_OLD_ONE_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_GREAT_OLD_ONE_SPELLS</requirements>
+		<description>
+			<p>A magia de seu patrono garante que você sempre tenha certas magias prontas; quando você atinge um nível de Bruxo especificado na tabela Magias do Grande Antigo, você a partir de então sempre tem as magias listadas preparadas.</p>
+			<h5>Magias do Grande Antigo</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-30">Nível de Bruxo</td><td class="left">Magias</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Detectar Pensamentos, Sussurros Dissonantes, Força Fantasmagórica, Riso Histérico de Tasha</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Clarividência, Fome de Hadar</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Confusão, Invocar Aberração</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Modificar Memória, Telecinésia</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DISSONANT_WHISPERS" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_TASHAS_HIDEOUS_LAUGHTER" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_THOUGHTS" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PHANTASMAL_FORCE" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CLAIRVOYANCE" level="5" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HUNGER_OF_HADAR" level="5" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONFUSION" level="7" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_ABERRATION" level="7" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MODIFY_MEMORY" level="9" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_TELEKINESIS" level="9" spellcasting="Warlock" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magias Psíquicas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_PSYCHIC_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_PSYCHIC_SPELLS</requirements>
+		<description>
+			<p>Quando você conjura uma magia de Bruxo que causa dano, pode mudar o tipo de dano para Psíquico. Além disso, quando conjura uma magia de Bruxo da escola de Encantamento ou Ilusão, você pode fazê-lo sem fornecer componentes Verbais ou Somáticos.</p>
+		</description>
+		<sheet alt="Magias Psíquicas" >
+			<description>Quando conjura uma magia de Bruxo que cause dano, você pode mudar o tipo de dano para Psíquico. Além disso, conjurações de Bruxo das escolas de Encantamento/Ilusão não requerem componentes Verbais/Somáticos.</description>
+		</sheet>
+	</element>
+	
+	<element name="Nível 6: Combatente Clarividente" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_CLAIRVOYANT_COMBATANT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_CLAIRVOYANT_COMBATANT</requirements>
+		<description>
+			<p>Quando forma um elo telepático com uma criatura usando sua Mente Desperta, você pode forçá-la a fazer um teste de resistência de Sabedoria contra a CD de suas magias. Numa falha, a criatura tem Desvantagem nas jogadas de ataque contra você, e você tem Vantagem nas jogadas de ataque contra ela pela duração do vínculo.</p>
+			<p class="indent">Uma vez que usar esta característica, você não pode usá-la novamente até terminar um Descanso Curto ou Longo a menos que gaste um espaço de Magia de Pacto (nenhuma ação necessária) para restaurar o uso.</p>
+		</description>
+		<sheet alt="Combatente Clarividente" usage="1/Descanso Curto">
+			<description>Quando criar um vínculo telepático (Mente Desperta), você pode forçar a criatura a fazer um teste de Sabedoria CD{{warlock:spellcasting:dc}}. Na falha, ela tem Desvantagem nos ataques contra você, e você tem Vantagem contra ela durante o vínculo. &#13;
+			Pode gastar um espaço de Magia de Pacto para restaurar o uso.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 10: Praga Mística" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_ELDRITCH_HEX">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_ELDRITCH_HEX</requirements>
+		<description>
+			<p>Seu patrono alienígena concede a você uma maldição poderosa. Você sempre tem a magia <i>Bruxaria</i> preparada. Quando você conjura <i>Bruxaria</i> e escolhe um atributo, o alvo também tem Desvantagem em testes de resistência do atributo escolhido pela duração da magia.</p>
+		</description>
+		<sheet alt="Praga Mística" >
+			<description>Quando conjurar Bruxaria e escolher um atributo, o alvo também tem Desvantagem nas salvaguardas desse atributo pela duração.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HEX" spellcasting="Warlock" />
+		</rules>
+	</element>
+
+	<element name="Nível 10: Escudo de Pensamentos" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_THOUGHT_SHIELD">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_THOUGHT_SHIELD</requirements>
+		<description>
+			<p>Seus pensamentos não podem ser lidos por telepatia ou outros meios a menos que você permita. Você também tem Resistência a dano Psíquico, e sempre que uma criatura causar dano Psíquico a você, essa criatura sofre a mesma quantidade de dano.</p>
+		</description>
+		<sheet alt="Escudo de Pensamentos">
+			<description>Sempre que alguém lhe der dano Psíquico, ele sofre a mesma quantidade de dano. Além disso, seus pensamentos não podem ser lidos (salvo se permitir).</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" name="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+		</rules>
+	</element>
+
+	<element name="Nível 14: Criar Lacaio" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_PATRON_CREATE_THRALL">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_CREATE_THRALL</requirements>
+		<description>
+			<p>Quando você conjura <i>Invocar Aberração</i>, pode modificá-la para que não exija Concentração. Se o fizer, a duração da magia se torna 1 minuto para esta conjuração e, ao ser invocada, a Aberração recebe um número de Pontos de Vida Temporários igual ao seu nível de Bruxo mais seu modificador de Carisma.</p>
+			<p class="indent">Além disso, na primeira vez de cada turno que a Aberração atingir uma criatura sob efeito da sua magia <i>Bruxaria</i>, ela causa dano Psíquico extra ao alvo igual ao dano bônus daquela magia.</p>
+		</description>
+		<sheet alt="Criar Lacaio">
+			<description>Sua magia Invocar Aberração pode ser conjurada sem exigir Concentração. Essa versão dura 1 minuto e a Aberração começa com {{create thrall:thp}} PVTs. &#13;
+			Na 1ª vez de cada turno em que a Aberração atinge um alvo marcado por sua Bruxaria, ela causa dano Psíquico extra igual ao bônus da magia.</description>
+		</sheet>
+		<rules>
+			<stat name="create thrall:thp" value="level:warlock" bonus="base" />
+			<stat name="create thrall:thp" value="charisma:modifier" bonus="ability" />
+		</rules>
+	</element>
+
+	<element name="Great Old One Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_GREAT_OLD_ONE_SPELLS" />
+	<element name="Awakened Mind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_AWAKENED_MIND" />
+	<element name="Psychic Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_PSYCHIC_SPELLS" />
+	<element name="Clairvoyant Combatant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_CLAIRVOYANT_COMBATANT" />
+	<element name="Eldritch Hex Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_ELDRITCH_HEX" />
+	<element name="Thought Shield Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_THOUGHT_SHIELD" />
+	<element name="Create Thrall Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_GREAT_OLD_ONE_PATRON_CREATE_THRALL" />
+
+</elements>

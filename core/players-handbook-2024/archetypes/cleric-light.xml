@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="cleric-light.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/cleric-light.xml" />
+		</update>
+	</info>
+
+	<element name="Domínio da Luz" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_LIGHT_DOMAIN">
+		<supports>Cleric Subclass</supports>
+		<description>
+			<p class="flavor">Traga a Luz para Banir a Escuridão</p>
+			<p>O Domínio da Luz enfatiza o poder divino de trazer chamas ardentes e revelação. Clérigos que empunham este poder são almas iluminadas infundidas com radiância e com o poder da visão perspicaz de suas divindades, encarregados de afastar mentiras e queimar as trevas.</p>
+			<p class="indent">O Domínio da Luz está associado a deuses da verdade, vigilância, beleza, intuição e renovação. Alguns destes deuses são identificados com o sol ou como cocheiros que guiam o sol pelo céu. Outros são sentinelas que perfuram a decepção. Alguns são divindades da beleza e da arte que ensinam que a arte é um veículo para o aperfeiçoamento da alma.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_LIGHT_DOMAIN_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_RADIANCE_OF_THE_DAWN" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_LIGHT_DOMAIN_SPELLS" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_RADIANCE_OF_THE_DAWN" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT" level="17" /> 
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magias do Domínio da Luz" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_LIGHT_DOMAIN_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_LIGHT_DOMAIN_SPELLS</requirements>
+		<description>
+			<p>Sua conexão com este domínio divino garante que você sempre tenha certas magias prontas. Quando você atinge um nível de Clérigo especificado na tabela Magias do Domínio da Luz, você a partir de então sempre tem as magias listadas preparadas.</p>
+			<h5>MAGIAS DO DOMÍNIO DA LUZ</h5>
+			<table>
+				<thead>
+					<tr><td class="col-15" style="text-align:center">Nível de Clérigo</td><td>Magias Preparadas</td></tr>
+				</thead>
+				<tr><td style="text-align:center">3</td><td><em>Mãos Flamejantes, Fogo das Fadas, Raio Ardente, Ver o Invisível</em></td></tr>
+				<tr><td style="text-align:center">5</td><td><em>Luz do Dia, Bola de Fogo</em></td></tr>
+				<tr><td style="text-align:center">7</td><td><em>Olho Arcano, Muralha de Fogo</em></td></tr>
+				<tr><td style="text-align:center">9</td><td><em>Coluna de Chamas, Vidência</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BURNING_HANDS" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FAERIE_FIRE" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SCORCHING_RAY" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SEE_INVISIBILITY" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DAYLIGHT" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIREBALL" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ARCANE_EYE" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WALL_OF_FIRE" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SCRYING" level="9" spellcasting="Cleric" prepared="true" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Esplendor da Alvorada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_RADIANCE_OF_THE_DAWN">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_RADIANCE_OF_THE_DAWN</requirements>
+		<description>
+			<p>Como uma ação Mágica, você apresenta seu Símbolo Sagrado e gasta um uso de Canalizar Divindade para emitir um clarão de luz numa Emanação de 9 metros (30 pés) originada em você. Qualquer Escuridão mágica — como aquela criada pela magia <i>Escuridão</i> — nessa área é dissipada. Além disso, cada criatura da sua escolha nessa área deve fazer um teste de resistência de Constituição, sofrendo dano Radiante igual a 2d10 mais seu nível de Clérigo em uma falha, ou metade desse dano em um sucesso.</p>
+		</description>
+		<sheet alt="Esplendor da Alvorada" action="Action" usage="Canalizar Divindade">
+			<description>Você apresenta seu Símbolo Sagrado, e qualquer escuridão mágica a até 9m de você é magicamente dissipada. Cada criatura de sua escolha a até 9m deve fazer um teste de Constituição CD {{cleric:spellcasting:dc}}. Sofre 2d10+{{level:cleric}} de dano Radiante na falha, ou metade no sucesso.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 3: Clarão Protetor" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_WARDING_FLARE</requirements>
+		<description>
+			<p>Quando uma criatura que você possa ver a até 9 metros (30 pés) de você faz uma jogada de ataque, você pode usar uma Reação para impor Desvantagem à jogada de ataque, fazendo com que luz brilhe antes do ataque acertar ou errar.</p>
+			<p class="indent">Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez). Você recupera todos os usos gastos quando termina um Descanso Longo.</p>
+		</description>
+		<sheet alt="Clarão Protetor" action="Reaction" usage="{{warding flare:usage}}/Descanso Longo">
+			<description>Quando uma criatura visível a até 9m de você faz um ataque, você pode impor Desvantagem à jogada de ataque antes que acerte ou erre.</description>
+			<description usage="{{warding flare:usage}}/Descanso Curto" level="6">Quando uma criatura visível a até 9m de você faz um ataque, você pode impor Desvantagem à jogada de ataque antes que acerte ou erre. Além disso, pode dar ao alvo desse ataque 2d6+{{wisdom:modifier}} PVTs.</description>
+		</sheet>
+		<rules>
+			<stat name="warding flare:usage" value="1" bonus="base" />
+			<stat name="warding flare:usage" value="wisdom:modifier" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Clarão Aprimorado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_IMPROVED_FLARE</requirements>
+		<description>
+			<p>Você recupera todos os usos gastos do seu Clarão Protetor quando termina um Descanso Curto ou Longo.</p>
+			<p class="indent">Além disso, sempre que usar Clarão Protetor, você pode dar ao alvo do ataque desencadeador um número de Pontos de Vida Temporários igual a 2d6 mais seu modificador de Sabedoria.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+
+	<element name="Nível 17: Coroa de Luz" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CORONA_OF_LIGHT</requirements>
+		<description>
+			<p>Como uma ação Mágica, você faz com que emita uma aura de luz solar que dura 1 minuto ou até você a dissipar (nenhuma ação necessária). Você emite Luz Plena num raio de 18 metros (60 pés) e Penumbra por mais 9 metros (30 pés). Seus inimigos na Luz Plena têm Desvantagem nos testes de resistência contra seu Esplendor da Alvorada e qualquer magia que cause dano de Fogo ou Radiante.</p>
+			<p class="indent">Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez). Você recupera todos os usos gastos quando termina um Descanso Longo.</p>
+		</description>
+		<sheet alt="Coroa de Luz" action="Action" usage="{{corona of light:usage}}/Descanso Longo">
+			<description>Magicamente emite aura de luz solar por 1 min ou até dissipar. Luz Plena em 18m e Penumbra em mais 9m. Inimigos na Luz Plena têm Desvantagem contra Esplendor da Alvorada e magias de dano de Fogo/Radiante.</description>
+		</sheet>
+		<rules>
+			<stat name="corona of light:usage" value="1" bonus="base" />
+			<stat name="corona of light:usage" value="wisdom:modifier" bonus="base" />
+		</rules>
+	</element>
+	
+	<element name="Radiance of the Dawn Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_LIGHT_DOMAIN_SPELLS" />
+	<element name="Radiance of the Dawn Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_RADIANCE_OF_THE_DAWN" />
+	<element name="Warding Flare Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_WARDING_FLARE" />
+	<element name="Improved Flare Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_IMPROVED_FLARE" />
+	<element name="Corona of Light Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CORONA_OF_LIGHT" />
+</elements>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Colégio da Dança</name>
+		<description>A subclasse Colégio da Dança do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="bard-dance.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/bard-dance.xml" />
+		</update>
+	</info>
+
+	<element name="Colégio da Dança" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_DANCE">
+		<supports>Bard Subclass</supports>
+		<description>
+			<p class="flavor">Mova-se em Harmonia com o Cosmos</p>
+			<p>Bardos do Colégio da Dança sabem que as Palavras da Criação não podem ser contidas na fala ou no canto; as palavras são pronunciadas pelos movimentos dos corpos celestes e fluem através dos movimentos das menores criaturas. Estes Bardos praticam uma forma de estar em harmonia com o cosmos rodopiante que enfatiza agilidade, velocidade e graça.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_DAZZLING_FOOTWORK" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_INSPIRING_MOVEMENT" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_TANDEM_FOOTWORK" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_LEADING_EVASION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_DAZZLING_FOOTWORK" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_INSPIRING_MOVEMENT" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_TANDEM_FOOTWORK" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_LEADING_EVASION" level="14" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Trabalho de Pés Deslumbrante" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_DAZZLING_FOOTWORK">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_DAZZLING_FOOTWORK</requirements>
+		<description>
+			<p>Enquanto você não estiver usando armadura ou empunhando um Escudo, você ganha os seguintes benefícios:</p>
+			<p class="indent"><em><strong>Virtuoso da Dança.</strong></em> Você tem Vantagem em qualquer teste de Carisma (Atuação) que você fizer que envolva você dançar.</p>
+			<p class="indent"><em><strong>Defesa Sem Armadura.</strong></em> Sua Classe de Armadura base é igual a 10 mais seus modificadores de Destreza e Carisma.</p>
+			<p class="indent"><em><strong>Ataques Ágeis.</strong></em> Quando você gasta um uso de sua Inspiração de Bardo como parte de uma ação, Ação Bônus ou Reação, você pode fazer um Ataque Desarmado como parte dessa ação, Ação Bônus ou Reação.</p>
+			<p class="indent"><em><strong>Dano de Bardo.</strong></em> Você pode usar Destreza em vez de Força para as jogadas de ataque dos seus Ataques Desarmados. Quando você causa dano com um Ataque Desarmado, pode causar dano Contundente igual a uma rolagem do seu dado de Inspiração de Bardo mais o seu modificador de Destreza, em vez do dano normal do golpe. Esta rolagem não gasta o dado.</p>
+		</description>
+		<sheet alt="Trabalho de Pés Deslumbrante">
+			<description>Enquanto não estiver usando armadura ou empunhando um Escudo, sua CA base é {{ac:dazzling footwork}}. Você tem Vantagem em qualquer teste de Carisma (Atuação) que fizer que envolva você dançar. &#13;
+			Além disso, você pode usar Destreza no lugar de Força para seus Ataques Desarmados, que podem causar 1d{{bardic-inspiration:dice}}+{{dexterity:modifier}} de dano Contundente em vez da quantidade normal. Sempre que gastar um uso da sua Inspiração de Bardo, você pode fazer um Ataque Desarmado como parte dessa ação, Ação Bônus ou Reação.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:dazzling footwork" value="10" bonus="base" />
+			<stat name="ac:dazzling footwork" value="dexterity:modifier" bonus="primary ability" />
+			<stat name="ac:dazzling footwork" value="charisma:modifier" bonus="secondary ability" />
+			<stat name="ac:calculation" value="ac:dazzling footwork" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Dazzling Footwork (Bard)" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Movimento Inspirador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_INSPIRING_MOVEMENT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_INSPIRING_MOVEMENT</requirements>
+		<description>
+			<p>Quando um inimigo que você possa ver termina o turno dele a até 1,5 metro (5 pés) de você, você pode usar uma Reação e gastar um uso da sua Inspiração de Bardo para se mover até metade do seu Deslocamento. Em seguida, um aliado de sua escolha a até 9 metros (30 pés) de você também pode se mover até metade do Deslocamento dele usando a Reação dele.</p>
+			<p class="indent">Nenhum dos movimentos desta característica provoca Ataques de Oportunidade.</p>
+		</description>
+		<sheet alt="Movimento Inspirador" action="Reaction" usage="Inspiração de Bardo">
+			<description>Quando um inimigo que você pode ver termina o turno dele a até 1,5m de você, você pode se mover até metade do seu Deslocamento. Em seguida, um aliado de sua escolha a até 9m de você também pode se mover até metade do Deslocamento dele usando a Reação dele. Nenhum dos movimentos provoca Ataques de Oportunidade.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 6: Trabalho de Pés em Conjunto" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_TANDEM_FOOTWORK">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_TANDEM_FOOTWORK</requirements>
+		<description>
+			<p>Quando você rola Iniciativa, pode gastar um uso de sua Inspiração de Bardo se não estiver com a condição Incapacitado. Quando você o faz, role seu dado de Inspiração de Bardo; você e cada aliado a até 9 metros (30 pés) de você que possa ver ou ouvir você ganha um bônus na Iniciativa igual ao número rolado.</p>
+		</description>
+		<sheet alt="Trabalho de Pés em Conjunto" usage="Inspiração de Bardo">
+			<description>Quando você rola Iniciativa e não tem a condição Incapacitado, pode conceder a si mesmo e a cada aliado a até 9m de você que possa ver ou ouvir você um bônus de 1d{{bardic-inspiration:dice}} na Iniciativa.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 14: Evasão Liderada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_LEADING_EVASION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_LEADING_EVASION</requirements>
+		<description>
+			<p>Quando você é submetido a um efeito que permite fazer um teste de resistência de Destreza para sofrer apenas metade do dano, você em vez disso não sofre dano se obtiver sucesso no teste de resistência, e apenas metade do dano se falhar. Se quaisquer criaturas a até 1,5 metro (5 pés) de você estiverem fazendo o mesmo teste de resistência de Destreza, você pode compartilhar este benefício com elas para esse teste.</p>
+			<p class="indent">Você não pode usar esta característica se estiver com a condição Incapacitado.</p>
+		</description>
+		<sheet alt="Evasão Liderada">
+			<description>Quando você não está Incapacitado e é submetido a um efeito que lhe permite fazer um teste de resistência de Destreza para sofrer apenas metade do dano, você em vez disso não sofre dano num sucesso e apenas metade numa falha. Se quaisquer criaturas a até 1,5m de você estiverem fazendo o mesmo teste de resistência de Destreza, você pode compartilhar este benefício com elas para esse teste.</description>
+		</sheet>
+	</element>
+
+	<element name="Dazzling Footwork Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_DAZZLING_FOOTWORK" />
+	<element name="Inspiring Movement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_INSPIRING_MOVEMENT" />
+	<element name="Tandem Footwork Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_TANDEM_FOOTWORK" />
+	<element name="Leading Evasion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_LEADING_EVASION" />
+
+</elements>

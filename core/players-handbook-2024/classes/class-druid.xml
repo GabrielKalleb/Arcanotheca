@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Druida</name>
+		<description>A classe Druida do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="class-druid.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-druid.xml" />
+		</update>
+	</info>
+
+	<element name="Druida" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_DRUID">
+		<description>
+			<p>Druidas pertencem a ordens antigas que invocam as forças da natureza. Dominando a magia de animais, plantas e dos quatro elementos, Druidas curam, transformam-se em animais e empunham a destruição elemental.</p>
+			<p class="indent">Reverenciando a natureza acima de tudo, Druidas individuais obtêm sua magia da natureza, de uma divindade da natureza, ou de ambos, e eles geralmente se unem a outros Druidas para realizar ritos que marcam a passagem das estações e outros ciclos naturais.</p>
+			<p class="indent">Druidas se preocupam com o delicado equilíbrio ecológico que sustenta a vida vegetal e animal e com a necessidade de as pessoas viverem em harmonia com a natureza. Druidas muitas vezes guardam locais sagrados ou vigiam regiões de natureza intocada, mas quando um perigo significativo surge, Druidas assumem um papel mais ativo como aventureiros que combatem a ameaça.</p>
+			<div class="sidebar">
+				<h5>CARACTERÍSTICAS CENTRAIS DO DRUIDA</h5>
+				<table>
+					<tr><td><b>Habilidade Primária</b></td><td class="left">Sabedoria</td></tr>
+					<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D8 por nível de Druida</td></tr>
+					<tr><td><b>Proficiências em Testes de Resistência</b></td><td class="left">Inteligência e Sabedoria</td></tr>
+					<tr><td><b>Proficiências em Perícias</b></td><td class="left"><i>Escolha 2:</i> Arcanismo, Adestrar Animais, Intuição, Medicina, Natureza, Percepção, Religião ou Sobrevivência</td></tr>
+					<tr><td><b>Proficiências em Armas</b></td><td class="left">Armas Simples</td></tr>
+					<tr><td><b>Proficiências em Ferramentas</b></td><td class="left">Kit de Herborismo</td></tr>
+					<tr><td><b>Treinamento em Armaduras</b></td><td class="left">Armaduras Leves e Escudos</td></tr>
+					<tr><td><b>Equipamento Inicial</b></td><td class="left"><i>Escolha A ou B:</i> (A) Armadura de Couro, Escudo, Foice Curta, Foco Druídico (Bordão), Pacote de Explorador, Kit de Herborismo, 9 PO; ou (B) 50 PO</td></tr>
+			</table>
+			</div>
+			<h4>TORNANDO-SE UM DRUIDA ...</h4>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
+				<li>Ganhe todas as características na tabela de Características Centrais do Druida.</li>
+				<li>Ganhe as características de nível 1 do Druida listadas na tabela de Características do Druida.</li>
+			</ul>
+			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
+			<ul style="margin-top:-1em">
+				<li>Ganhe as seguintes características da tabela de Características Centrais do Druida: Dado de Pontos de Vida e treinamento com Armaduras Leves e Escudos.</li>
+				<li>Ganhe as características de nível 1 do Druida listadas na tabela de Características do Druida.</li>
+			</ul>
+			<h5>CARACTERÍSTICAS DO DRUIDA</h5>
+			<table class="class-features">
+				<tr style="font-weight: bold">
+					<td class="col-5" rowspan="2">Nível</td>
+					<td class="col-20 left" rowspan="2">Características de Classe</td>
+					<td class="col-5" rowspan="2">Formas<br />Selvagens</td>
+					<td rowspan="2">Truques</td>
+					<td rowspan="2">Magias<br />Preparadas</td>
+					<td colspan="9" style="vertical-align:bottom; border-bottom: 0px">Espaços de Magia por Nível de Magia</td>
+				</tr>
+				<tr style="font-weight: bold"><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+				<tr><td>1</td><td class="left">Druídico, Ordem Primitiva, Conjuração</td><td>—</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>2</td><td class="left">Companheiro Selvagem, Forma Selvagem</td><td>2</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>3</td><td class="left">Subclasse de Druida</td><td>2</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>4</td><td class="left">Melhoria no Valor de Habilidade</td><td>2</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>5</td><td class="left">Ressurgência Selvagem</td><td>2</td><td>3</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>6</td><td class="left">Característica de Subclasse</td><td>3</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>7</td><td class="left">Fúria Elemental</td><td>3</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>8</td><td class="left">Melhoria no Valor de Habilidade</td><td>3</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>9</td><td class="left">—</td><td>3</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10</td><td class="left">Característica de Subclasse</td><td>3</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11</td><td class="left">—</td><td>3</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12</td><td class="left">Melhoria no Valor de Habilidade</td><td>3</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13</td><td class="left">—</td><td>3</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14</td><td class="left">Característica de Subclasse</td><td>3</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15</td><td class="left">Fúria Elemental Aprimorada</td><td>3</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16</td><td class="left">Melhoria no Valor de Habilidade</td><td>3</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17</td><td class="left">—</td><td>4</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18</td><td class="left">Magias de Besta</td><td>4</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19</td><td class="left">Dádiva Épica</td><td>4</td><td>4</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20</td><td class="left">Arquidruida</td><td>4</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+			</table>
+			<h4>CARACTERÍSTICAS DE CLASSE DO DRUIDA</h4>
+			<p>Como um Druida, você ganha as seguintes características de classe quando atinge os níveis especificados de Druida. Estas características estão listadas na tabela Características do Druida.</p>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_SPELLCASTING"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUIDIC"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_PRIMAL_ORDER"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_SHAPE"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_COMPANION"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUID_SUBCLASS"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ABILITY_SCORE_IMPROVEMENT"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_RESURGENCE"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ELEMENTAL_FURY"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_IMPROVED_ELEMENTAL_FURY"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_BEAST_SPELLS"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_EPIC_BOON"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ARCHDRUID"/>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="short">Um Sacerdote da Natureza de Poder Primitivo</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB24_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB24_MULTICLASS_DRUID"/>
+			<select type="Proficiency" name="Skill Proficiency (Druida)" supports="Skill,Druid" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_DRUID" />
+
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_SPELLCASTING" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUIDIC" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_PRIMAL_ORDER" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_SHAPE" level="2"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_COMPANION" level="2"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUID_SUBCLASS" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ABILITY_SCORE_IMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_RESURGENCE" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ELEMENTAL_FURY" level="7" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_IMPROVED_ELEMENTAL_FURY" level="15" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_BEAST_SPELLS" level="18" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_EPIC_BOON" level="19" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ARCHDRUID" level="20" />
+		</rules>
+		<multiclass id="ID_WOTC_PHB24_MULTICLASS_DRUID">
+			<prerequisite>Sabedoria 13</prerequisite>
+			<requirements>([wis:13],!(ID_WOTC_PHB_CLASS_DRUID||ID_WOTC_PHB_MULTICLASS_DRUID))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Armaduras Leves, Escudos</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
+	</element>
+
+	<element name="Nível 1: Conjuração" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_SPELLCASTING">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_SPELLCASTING</requirements>
+		<description>
+			<p>Você aprendeu a conjurar magias através do estudo das forças místicas da natureza.</p>
+			<p class="indent"><em><strong>Truques.</strong></em> Você conhece dois truques da sua escolha da lista de magias de Druida. <i>Arte Druídica</i> e <i>Produzir Chama</i> são recomendadas.</p>
+			<p class="indent">Sempre que você ganhar um nível de Druida, você pode substituir um dos seus truques por outro truque da sua escolha da lista de magias de Druida.</p>
+			<p class="indent">Quando você atinge os níveis 4 e 10 de Druida, você aprende outro truque da sua escolha da lista de magias de Druida, conforme mostrado na coluna Truques da tabela de Características do Druida.</p>
+			<p class="indent"><em><strong>Espaços de Magia.</strong></em> A tabela de Características do Druida mostra quantos espaços de magia você possui para conjurar suas magias de nível 1+. Você recupera todos os espaços gastos quando termina um Descanso Longo.</p>
+			<p class="indent"><em><strong>Magias Preparadas de Nível 1+.</strong></em> Você prepara a lista de magias de nível 1+ que estão disponíveis para você conjurar com esta característica. Para começar, escolha quatro magias de nível 1 da lista de magias de Druida. <i>Amizade Animal</i>, <i>Curar Ferimentos</i>, <i>Fogo das Fadas</i> e <i>Onda Trovejante</i> são recomendadas.</p>
+			<p class="indent">O número de magias na sua lista aumenta conforme você ganha níveis de Druida, conforme mostrado na coluna Magias Preparadas da tabela de Características do Druida. Sempre que esse número aumentar, escolha magias adicionais da lista de magias de Druida até que o número de magias na sua lista corresponda ao número na tabela. As magias escolhidas devem ser de um nível para o qual você possui espaços de magia. Por exemplo, se você for um Druida de nível 3, a sua lista de magias preparadas pode incluir seis magias de níveis 1 e 2 em qualquer combinação.</p>
+			<p class="indent">Se outra característica de Druida lhe conceder magias que você sempre tem preparadas, essas magias não contam para o número de magias que você pode preparar com esta característica, mas essas magias contam como magias de Druida para você.</p>
+			<p class="indent"><em><strong>Alterando Suas Magias Preparadas.</strong></em> Sempre que você terminar um Descanso Longo, você pode alterar a sua lista de magias preparadas, substituindo qualquer uma das magias por outras magias de Druida para as quais você possui espaços de magia.</p>
+			<p class="indent"><em><strong>Habilidade de Conjuração.</strong></em> Sabedoria é a sua habilidade de conjuração para suas magias de Druida.</p>
+			<p class="indent"><em><strong>Foco de Conjuração.</strong></em> Você pode usar um Foco Druídico como um Foco de Conjuração para as suas magias de Druida.</p>
+			<center>
+				<p><strong>CD de salvamento de Magia</strong> = 8 + seu bônus de proficiência + seu modificador de Sabedoria</p>
+				<p><strong>Modificador de ataque de Magia</strong> = seu bônus de proficiência + seu modificador de Sabedoria</p>
+			</center>
+		</description>
+		<sheet alt="Conjuração">
+			<description>Você pode usar um Foco Druídico como seu Foco de Conjuração. Sempre que ganhar um nível de Druida, você pode substituir um dos seus truques por outro truque de Druida de sua escolha.</description>
+		</sheet>
+		<spellcasting name="Druid" ability="Wisdom" prepare="true">
+			<list known="true">Druid</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<stat name="druid:spellcasting:slots:1" value="2" />
+			<stat name="druid:spellcasting:slots:1" value="1" level="2" />
+			<stat name="druid:spellcasting:slots:1" value="1" level="3" />
+			<stat name="druid:spellcasting:slots:2" value="2" level="3" />
+			<stat name="druid:spellcasting:slots:2" value="1" level="4" />
+			<stat name="druid:spellcasting:slots:3" value="2" level="5" />
+			<stat name="druid:spellcasting:slots:3" value="1" level="6" />
+			<stat name="druid:spellcasting:slots:4" value="1" level="7" />
+			<stat name="druid:spellcasting:slots:4" value="1" level="8" />
+			<stat name="druid:spellcasting:slots:4" value="1" level="9" />
+			<stat name="druid:spellcasting:slots:5" value="1" level="9" />
+			<stat name="druid:spellcasting:slots:5" value="1" level="10" />
+			<stat name="druid:spellcasting:slots:5" value="1" level="18" />
+			<stat name="druid:spellcasting:slots:6" value="1" level="11" />
+			<stat name="druid:spellcasting:slots:6" value="1" level="19" />
+			<stat name="druid:spellcasting:slots:7" value="1" level="13" />
+			<stat name="druid:spellcasting:slots:7" value="1" level="20" />
+			<stat name="druid:spellcasting:slots:8" value="1" level="15" />
+			<stat name="druid:spellcasting:slots:9" value="1" level="17" />
+
+			<stat name="druid:spellcasting:prepare" value="4" />
+			<stat name="druid:spellcasting:prepare" value="1" level="2"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="3"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="4"/>
+			<stat name="druid:spellcasting:prepare" value="2" level="5"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="6"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="7"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="8"/>
+			<stat name="druid:spellcasting:prepare" value="2" level="9"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="10"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="11"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="13"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="15"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="17"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="18"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="19"/>
+			<stat name="druid:spellcasting:prepare" value="1" level="20"/>
+
+			<select type="Spell" name="Cantrip (Druid 1)" supports="$(spellcasting:list), 0" number="2" spellcasting="Druid" />
+			<select type="Spell" name="Cantrip (Druid 4)" supports="$(spellcasting:list), 0" level="4" spellcasting="Druid" />
+			<select type="Spell" name="Cantrip (Druid 10)" supports="$(spellcasting:list), 0" level="10" spellcasting="Druid" />
+		</rules>
+	</element>
+
+	<element name="Nível 1: Druídico" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUIDIC">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_DRUIDIC</requirements>
+		<description>
+			<p>Você sabe Druídico, a linguagem secreta dos Druidas. Ao aprender essa antiga língua, você também desbloqueou a magia de se comunicar com animais; você sempre tem a magia <i>Falar com Animais</i> preparada.</p>
+			<p class="indent">Você pode usar o Druídico para deixar mensagens ocultas. Você e outros que conhecem Druídico percebem automaticamente a presença da mensagem. Outros percebem a presença da mensagem com um teste bem-sucedido de Inteligência (Investigação) CD 15, mas não conseguem decifrá-la sem magia.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_SPEAK_WITH_ANIMALS" />
+			</div>
+		</description>
+		<sheet alt="Druídico">
+			<description>Você pode usar o Druídico para deixar mensagens ocultas. Você e outros que conhecem Druídico percebem automaticamente tais mensagens. Outros percebem a presença da mensagem com um teste bem-sucedido de Inteligência (Investigação) CD 15, mas não conseguem decifrá-la sem magia.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_ANIMALS" spellcasting="Druid" prepared="true" />
+			<grant type="Language" id="ID_LANGUAGE_DRUIDIC" />
+		</rules>
+	</element>
+
+	<element name="Nível 1: Ordem Primitiva" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_PRIMAL_ORDER">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER</requirements>
+		<description>
+			<p>Você se dedicou a um dos seguintes papéis sagrados da sua escolha.</p>
+			<p class="indent"><em><strong>Mágico.</strong></em> Você conhece um truque extra da lista de magias de Druida. Além disso, a sua conexão mística com a natureza lhe dá um bônus em seus testes de Inteligência (Arcanismo ou Natureza). O bônus é igual ao seu modificador de Sabedoria (bônus mínimo de +1).</p>
+			<p class="indent"><em><strong>Guardião.</strong></em> Treinado para a batalha, você ganha proficiência com armas Marciais e treinamento com armaduras Médias.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Papel Sagrado (Ordem Primitiva)" supports="PHB24 Primal Order" />
+		</rules>
+	</element>
+	<element name="Mágico" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_PRIMAL_ORDER_MAGICIAN">
+		<supports>PHB24 Primal Order</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER_MAGICIAN</requirements>
+		<description>
+			<p>Você conhece um truque extra da lista de magias de Druida. Além disso, a sua conexão mística com a natureza lhe dá um bônus em seus testes de Inteligência (Arcanismo ou Natureza). O bônus é igual ao seu modificador de Sabedoria (bônus mínimo de +1).</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Spell" name="Truque (Mágico)" supports="$(spellcasting:list), 0" spellcasting="Druid" />
+
+			<stat name="magician:bonus" value="1" bonus="base" />
+			<stat name="magician:bonus" value="wisdom:modifier" bonus="base" />
+			<stat name="arcana:misc" value="magician:bonus" bonus="magician" />
+			<stat name="nature:misc" value="magician:bonus" bonus="magician" />
+		</rules>
+	</element>
+	<element name="Guardião" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_PRIMAL_ORDER_WARDEN">
+		<supports>PHB24 Primal Order</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER_WARDEN</requirements>
+		<description>
+			<p>Treinado para a batalha, você ganha proficiência com armas Marciais e treinamento com armaduras Médias.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+		</rules>
+	</element>
+
+	<element name="Nível 2: Forma Selvagem" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_SHAPE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE</requirements>
+		<description>
+			<p>O poder da natureza permite que você assuma a forma de um animal. Como uma Ação Bônus, você se metamorfoseia em uma forma de Besta que você aprendeu para esta característica (veja "Formas Conhecidas" abaixo). Você permanece nessa forma por um número de horas igual à metade do seu nível de Druida ou até usar Forma Selvagem novamente, adquirir a condição Incapacitado ou morrer. Você também pode deixar a forma prematuramente como uma Ação Bônus.</p>
+			<p class="indent"><em><strong>Número de Usos.</strong></em> Você pode usar a Forma Selvagem duas vezes. Você recupera um uso gasto quando termina um Descanso Curto, e recupera todos os usos gastos quando termina um Descanso Longo.</p>
+			<p class="indent">Você ganha usos adicionais quando atinge certos níveis de Druida, conforme mostrado na coluna Formas Selvagens da tabela de Características do Druida.</p>
+			<p class="indent"><em><strong>Formas Conhecidas.</strong></em> Você conhece quatro formas de Besta para esta característica, escolhidas dentre os blocos de estatísticas de Bestas que tenham um Nível de Desafio (ND) máximo de 1/4 e que não tenham um Deslocamento de Voo. O Rato, o Cavalo de Montaria, a Aranha e o Lobo são recomendados. Sempre que terminar um Descanso Longo, você pode substituir uma de suas formas conhecidas por outra forma elegível.</p>
+			<p class="indent">Ao atingir certos níveis de Druida, o seu número de formas conhecidas e o Nível de Desafio máximo dessas formas aumentam, conforme mostrado na tabela Formas de Besta. Além disso, a partir do nível 8, você pode adotar uma forma que tenha um Deslocamento de Voo.</p>
+			<p class="indent">Ao escolher formas conhecidas, você pode procurar no Manual dos Monstros ou em outro lugar por Bestas elegíveis, caso o Mestre da Masmorra permita.</p>
+			<h5>FORMAS DE BESTA</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td>Nível de Druida</td><td>Formas Conhecidas</td><td>ND Máx.</td><td>Desl. de Voo</td></tr>
+				</thead>
+				<tr><td> 2</td><td> 4</td><td>1/4</td><td>Não</td></tr>
+				<tr><td> 4</td><td> 6</td><td>1/2</td><td>Não</td></tr>
+				<tr><td> 8</td><td> 8</td><td>1</td><td>Sim</td></tr>
+			</table>
+			<p class="indent"><em><strong>Regras Enquanto Transformado.</strong></em> Enquanto estiver em uma forma, você mantém sua personalidade, memórias e capacidade de falar, e as seguintes regras se aplicam:</p>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em">
+				<li><strong>Pontos de Vida Temporários.</strong> Quando assume uma Forma Selvagem, você ganha um número de Pontos de Vida Temporários igual ao seu nível de Druida.</li>
+				<li><strong>Estatísticas de Jogo.</strong> As suas estatísticas de jogo são substituídas pelo bloco de estatísticas da Besta, mas você mantém o seu tipo de criatura; Pontos de Vida; Dados de Pontos de Vida; valores de Inteligência, Sabedoria e Carisma; características de classe; idiomas e talentos. Você também mantém as suas proficiências em perícias e testes de resistência e usa o seu Bônus de Proficiência para eles, além de ganhar as proficiências da criatura. Se o modificador de uma perícia ou teste de resistência no bloco de estatísticas da Besta for maior que o seu, use o do bloco de estatísticas.</li>
+				<li><strong>Sem Conjuração.</strong> Você não pode conjurar magias, mas metamorfosear-se não quebra a sua Concentração nem interfere com uma magia que você já tenha conjurado.</li>
+				<li><strong>Objetos.</strong> A sua habilidade de manipular objetos é determinada pelos membros da forma em vez dos seus próprios. Além disso, você escolhe se o seu equipamento cai no seu espaço, funde-se à sua nova forma, ou é vestido por ela. Equipamento vestido funciona normalmente, mas o Mestre decide se é prático para a nova forma vestir uma peça de equipamento baseado no tamanho e forma da criatura. O seu equipamento não muda de tamanho ou formato para corresponder à nova forma, e qualquer equipamento que a nova forma não possa vestir deve cair no chão ou fundir-se à forma. Equipamento fundido não tem nenhum efeito enquanto você estiver naquela forma.</li>
+			</ul>
+		</description>
+		<sheet alt="Forma Selvagem" action="Ação Bônus" usage="{{wild shape:uses}}/Descanso Longo">
+			<description>Você pode assumir magicamente a forma de uma Besta que você aprendeu (você pode ter {{wild shape:forms}} Formas Conhecidas de ND 1/4 ou inferior sem Deslocamento de Voo). Você ganha imediatamente {{wild shape:thp}} PVs Temporários, e você pode ficar nessa forma por {{wild shape:hours}} horas ou até usar a Forma Selvagem novamente, sofrer a condição Incapacitado, ou morrer. Você também pode deixar a forma prematuramente como uma Ação Bônus. &#13;
+			Enquanto transformado as suas estatísticas são substituídas pelas da Besta, mas você mantém seu tipo de criatura; PV; Dados de Vida; Inteligência, Sabedoria e Carisma; características de classe; idiomas; e talentos. Você também mantém as suas proficiências em perícias e testes de resistência e usa o seu Bônus de Proficiência neles, além de ganhar as proficiências da criatura. Pode usar os modificadores da Besta se forem maiores. Não pode conjurar magias, mas transformar-se não quebra a sua Concentração. &#13;
+			Você recupera um uso gasto de sua Forma Selvagem quando termina um Descanso Curto.</description>
+			<description level="4">Você pode assumir magicamente a forma de uma Besta que você aprendeu (você pode ter {{wild shape:forms}} Formas Conhecidas de ND 1/2 ou inferior sem Deslocamento de Voo). Você ganha imediatamente {{wild shape:thp}} PVs Temporários, e você pode ficar nessa forma por {{wild shape:hours}} horas ou até usar a Forma Selvagem novamente, sofrer a condição Incapacitado, ou morrer. Você também pode deixar a forma prematuramente como uma Ação Bônus. &#13;
+			Enquanto transformado as suas estatísticas são substituídas pelas da Besta, mas você mantém seu tipo de criatura; PV; Dados de Vida; Inteligência, Sabedoria e Carisma; características de classe; idiomas; e talentos. Você também mantém as suas proficiências em perícias e testes de resistência e usa o seu Bônus de Proficiência neles, além de ganhar as proficiências da criatura. Pode usar os modificadores da Besta se forem maiores. Não pode conjurar magias, mas transformar-se não quebra a sua Concentração. &#13;
+			Você recupera um uso gasto de sua Forma Selvagem quando termina um Descanso Curto.</description>
+			<description level="8">Você pode assumir magicamente a forma de uma Besta que você aprendeu (você pode ter {{wild shape:forms}} Formas Conhecidas de ND 1 ou inferior). Você ganha imediatamente {{wild shape:thp}} PVs Temporários, e você pode ficar nessa forma por {{wild shape:hours}} horas ou até usar a Forma Selvagem novamente, sofrer a condição Incapacitado, ou morrer. Você também pode deixar a forma prematuramente como uma Ação Bônus. &#13;
+			Enquanto transformado as suas estatísticas são substituídas pelas da Besta, mas você mantém seu tipo de criatura; PV; Dados de Vida; Inteligência, Sabedoria e Carisma; características de classe; idiomas; e talentos. Você também mantém as suas proficiências em perícias e testes de resistência e usa o seu Bônus de Proficiência neles, além de ganhar as proficiências da criatura. Pode usar os modificadores da Besta se forem maiores. Não pode conjurar magias, mas transformar-se não quebra a sua Concentração. &#13;
+			Você recupera um uso gasto de sua Forma Selvagem quando termina um Descanso Curto.</description>
+			<description level="18">Você pode assumir magicamente a forma de uma Besta que você aprendeu (você pode ter {{wild shape:forms}} Formas Conhecidas de ND 1 ou inferior). Você ganha imediatamente {{wild shape:thp}} PVs Temporários, e você pode ficar nessa forma por {{wild shape:hours}} horas ou até usar a Forma Selvagem novamente, sofrer a condição Incapacitado, ou morrer. Você também pode deixar a forma prematuramente como uma Ação Bônus. &#13;
+			Enquanto transformado as suas estatísticas são substituídas pelas da Besta, mas você mantém seu tipo de criatura; PV; Dados de Vida; Inteligência, Sabedoria e Carisma; características de classe; idiomas; e talentos. Você também mantém as suas proficiências em perícias e testes de resistência e usa o seu Bônus de Proficiência neles, além de ganhar as proficiências da criatura. Pode usar os modificadores da Besta se forem maiores. Você pode conjurar magias na forma de Besta, exceto magias com componente Material que possuam custo ou sejam consumidos. Transformar-se não quebra a sua Concentração. &#13;
+			Você recupera um uso gasto de sua Forma Selvagem quando termina um Descanso Curto.</description>
+			<description level="20">Você pode assumir magicamente a forma de uma Besta que você aprendeu (você pode ter {{wild shape:forms}} Formas Conhecidas de ND 1 ou inferior). Você ganha imediatamente {{wild shape:thp}} PVs Temporários, e você pode ficar nessa forma por {{wild shape:hours}} horas ou até usar a Forma Selvagem novamente, sofrer a condição Incapacitado, ou morrer. Você também pode deixar a forma prematuramente como uma Ação Bônus. &#13;
+			Enquanto transformado as suas estatísticas são substituídas pelas da Besta, mas você mantém seu tipo de criatura; PV; Dados de Vida; Inteligência, Sabedoria e Carisma; características de classe; idiomas; e talentos. Você também mantém as suas proficiências em perícias e testes de resistência e usa o seu Bônus de Proficiência neles, além de ganhar as proficiências da criatura. Pode usar os modificadores da Besta se forem maiores. Você pode conjurar magias na forma de Besta, exceto magias com componente Material que possuam custo ou sejam consumidos. Transformar-se não quebra a sua Concentração. &#13;
+			Sempre que jogar Iniciativa e não tiver nenhum uso de Forma Selvagem restante, você recupera um uso. Você também recupera um uso gasto de sua Forma Selvagem quando termina um Descanso Curto.</description>
+		</sheet>
+		<rules>
+			<stat name="wild shape:forms" value="4" bonus="base" />
+			<stat name="wild shape:forms" value="6" bonus="base" level="4"/>
+			<stat name="wild shape:forms" value="8" bonus="base" level="8"/>
+			<stat name="wild shape:uses" value="2" bonus="base" />
+			<stat name="wild shape:uses" value="3" bonus="base" level="6"/>
+			<stat name="wild shape:uses" value="4" bonus="base" level="17"/>
+			<stat name="wild shape:hours" value="level:druid:half" />
+			<stat name="wild shape:thp" value="level:druid" />
+		</rules>
+	</element>
+
+	<element name="Nível 2: Companheiro Selvagem" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_COMPANION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_COMPANION</requirements>
+		<description>
+			<p>Você pode invocar um espírito da natureza que assume uma forma animal para auxiliá-lo. Como uma Ação Mágica, você pode gastar um espaço de magia ou um uso de Forma Selvagem para conjurar a magia <i>Encontrar Familiar</i> sem componentes Materiais.</p>
+			<p class="indent">Quando você conjura a magia dessa forma, o familiar é Feérico e desaparece quando você termina um Descanso Longo.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_FIND_FAMILIAR" />
+			</div>
+		</description>
+		<sheet alt="Companheiro Selvagem" action="Ação" usage="Forma Selvagem">
+			<description>Você pode gastar um espaço de magia ou um uso de Forma Selvagem para conjurar a magia Encontrar Familiar sem componentes Materiais. Este familiar é Feérico e desaparece quando você termina um Descanso Longo.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 3: Subclasse de Druida" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUID_SUBCLASS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_DRUID_SUBCLASS</requirements>
+		<description>
+			<p>Você adquire uma subclasse de Druida da sua escolha. Uma subclasse é uma especialização que lhe concede características em determinados níveis de Druida. Pelo restante da sua carreira, você ganha cada característica da sua subclasse que for do seu nível de Druida ou inferior.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Archetype" name="Subclasse de Druida" supports="Druid Circle||Druid Subclass"/>
+		</rules>
+	</element>
+
+	<element name="Nível 4: Melhoria no Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ABILITY_SCORE_IMPROVEMENT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_ABILITY_SCORE_IMPROVEMENT</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Você ganha o talento de Melhoria no Valor de Habilidade ou outro talento da sua escolha para o qual você atenda aos pré-requisitos. Você ganha essa característica novamente nos níveis 8, 12 e 16 de Druida.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Melhoria no Valor de Habilidade (Druida 4)" />
+			<select type="Feat" name="Melhoria no Valor de Habilidade (Druida 8)" level="8" />
+			<select type="Feat" name="Melhoria no Valor de Habilidade (Druida 12)" level="12" />
+			<select type="Feat" name="Melhoria no Valor de Habilidade (Druida 16)" level="16" />
+		</rules>
+	</element>
+
+	<element name="Nível 5: Ressurgência Selvagem" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_RESURGENCE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_RESURGENCE</requirements>
+		<description>
+			<p>Uma vez em cada um dos seus turnos, se você não tiver usos de Forma Selvagem restantes, você pode se dar um uso gastando um espaço de magia (nenhuma ação exigida).</p>
+			<p class="indent">Além disso, você pode gastar um uso de Forma Selvagem (nenhuma ação exigida) para se dar um espaço de magia de nível 1, mas você não pode fazer isso novamente até terminar um Descanso Longo.</p>
+		</description>
+		<sheet alt="Ressurgência Selvagem" usage="1/Turno">
+			<description>Se você não tiver usos de Forma Selvagem restantes, você pode ganhar um uso gastando um espaço de magia. &#13;
+			Além disso, uma vez por Descanso Longo, você pode gastar um uso de Forma Selvagem para ganhar um espaço de magia de nível 1.</description>
+			<description level="20">Se você não tiver usos de Forma Selvagem restantes, você pode ganhar um uso gastando um espaço de magia. &#13;
+			Além disso, uma vez por Descanso Longo, você pode gastar qualquer quantidade de usos de Forma Selvagem para ganhar um único espaço de magia, sendo que cada uso de Forma Selvagem contribui com 2 níveis de magia.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 7: Fúria Elemental" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ELEMENTAL_FURY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_ELEMENTAL_FURY</requirements>
+		<description>
+			<p>O poder dos elementos flui através de você. Você ganha uma das seguintes opções da sua escolha.</p>
+			<p class="indent"><em><strong>Conjuração Potente.</strong></em> Adicione o seu modificador de Sabedoria ao dano que você causa com qualquer truque de Druida.</p>
+			<p class="indent"><em><strong>Ataque Primitivo.</strong></em> Uma vez em cada um dos seus turnos, quando você atinge uma criatura com uma jogada de ataque usando uma arma ou o ataque de uma forma de Besta da Forma Selvagem, você pode fazer com que o alvo sofra 1d8 de dano extra de Frio, Fogo, Elétrico ou Trovejante (escolha ao atingir).</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Opção da Fúria Elemental (Druida 7)" supports="Elemental Fury" />
+		</rules>
+	</element>
+	<element name="Conjuração Potente" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ELEMENTAL_FURY_POTENT_SPELLCASTING">
+		<supports>Elemental Fury</supports>
+		<description>
+			<p>Adicione o seu modificador de Sabedoria ao dano que você causa com qualquer truque de Druida.</p>
+		</description>
+		<sheet alt="Conjuração Potente">
+			<description>Seus truques de Druida causam +{{wisdom:modifier}} de dano adicional.</description>
+			<description level="15">Seus truques de Druida causam +{{wisdom:modifier}} de dano adicional, e os truques com um alcance de 3 metros (10 pés) ou maior agora possuem um alcance de 90 metros (300 pés).</description>
+		</sheet>
+	</element>
+	<element name="Ataque Primitivo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ELEMENTAL_FURY_PRIMAL_STRIKE">
+		<supports>Elemental Fury</supports>
+		<description>
+			<p>Uma vez em cada um dos seus turnos, quando você atinge uma criatura com uma jogada de ataque usando uma arma ou o ataque de uma forma de Besta da Forma Selvagem, você pode fazer com que o alvo sofra 1d8 de dano extra de Frio, Fogo, Elétrico ou Trovejante (escolha ao atingir).</p>
+		</description>
+		<sheet alt="Ataque Primitivo" usage="1/Turno">
+			<description>Quando atinge uma criatura com um ataque usando uma arma ou de uma forma de Besta da Forma Selvagem, você pode fazer o alvo sofrer 1d8 de dano extra de Frio, Fogo, Elétrico ou Trovejante (escolha ao atingir).</description>
+			<description level="15">Quando atinge uma criatura com um ataque usando uma arma ou de uma forma de Besta da Forma Selvagem, você pode fazer o alvo sofrer 2d8 de dano extra de Frio, Fogo, Elétrico ou Trovejante (escolha ao atingir).</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 15: Fúria Elemental Aprimorada" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_IMPROVED_ELEMENTAL_FURY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_IMPROVED_ELEMENTAL_FURY</requirements>
+		<description>
+			<p>A opção que você escolheu para Fúria Elemental se torna mais poderosa, conforme detalhado abaixo.</p>
+			<p class="indent"><em><strong>Conjuração Potente.</strong></em> Quando você conjura um truque de Druida com um alcance de 3 metros (10 pés) ou maior, o alcance da magia aumenta em 90 metros (300 pés).</p>
+			<p class="indent"><em><strong>Ataque Primitivo.</strong></em> O dano extra do seu Ataque Primitivo aumenta para 2d8.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+
+	<element name="Nível 18: Magias de Besta" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_BEAST_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_BEAST_SPELLS</requirements>
+		<description>
+			<p>Enquanto estiver usando a Forma Selvagem, você pode conjurar magias na forma de Besta, exceto por magias que tenham um componente Material com custo especificado ou que consumam seu componente Material.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+
+	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_EPIC_BOON">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_EPIC_BOON</requirements>
+		<description>
+			<p>Você adquire um talento de Dádiva Épica ou outro talento da sua escolha ao qual atenda os pré-requisitos. A Dádiva de Viagem Dimensional é recomendada.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Dádiva Épica (Druida 19)" />
+		</rules>
+	</element>
+
+	<element name="Nível 20: Arquidruida" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ARCHDRUID">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_ARCHDRUID</requirements>
+		<description>
+			<p>A vitalidade da natureza floresce constantemente dentro de você, garantindo-lhe os seguintes benefícios.</p>
+			<p class="indent"><em><strong>Forma Selvagem Perene.</strong></em> Sempre que rolar Iniciativa e não tiver nenhum uso de Forma Selvagem restante, você recupera um uso gasto dela.</p>
+			<p class="indent"><em><strong>Mágico da Natureza.</strong></em> Você pode converter usos de Forma Selvagem em um espaço de magia (nenhuma ação exigida). Escolha um número de seus usos não gastos de Forma Selvagem e converta-os em um único espaço de magia, com cada uso contribuindo com 2 níveis de magia. Por exemplo, se você converter dois usos de Forma Selvagem, você produz um espaço de magia de nível 4. Uma vez que usar este benefício, você não pode fazê-lo novamente até terminar um Descanso Longo.</p>
+			<p class="indent"><em><strong>Longevidade.</strong></em> A magia primitiva que você empunha faz com que você envelheça mais lentamente. Para cada dez anos que se passam, o seu corpo envelhece apenas um ano.</p>
+		</description>
+		<sheet alt="Arquidruida">
+			<description>O seu corpo envelhece apenas um ano para cada dez anos que se passam.</description>
+		</sheet>
+	</element>
+
+	<element name="Druidic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_DRUIDIC" />
+	<element name="Primal Order Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER" />
+	<element name="Primal Order: Magician Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER_MAGICIAN" />
+	<element name="Primal Order: Warden Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER_WARDEN" />
+	<element name="Druid Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_SPELLCASTING" />
+	<element name="Wild Companion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_COMPANION" />
+	<element name="Wild Shape Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE" />
+	<element name="Druid Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_DRUID_SUBCLASS" />
+	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_ABILITY_SCORE_IMPROVEMENT" />
+	<element name="Wild Resurgence Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_RESURGENCE" />
+	<element name="Elemental Fury Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_ELEMENTAL_FURY" />
+	<element name="Improved Elemental Fury Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_IMPROVED_ELEMENTAL_FURY" />
+	<element name="Beast Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_BEAST_SPELLS" />
+	<element name="Druid Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_EPIC_BOON" />
+	<element name="Archdruid Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_ARCHDRUID" />
+
+</elements>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Feitiçaria Mecânica</name>
+		<description>A subclasse Feitiçaria Mecânica do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/sorcerer-clockwork.xml" />
+		</update>
+	</info>
+
+	<element name="Feitiçaria Mecânica" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_CLOCKWORK_SORCERY">
+		<supports>Sorcerer Subclass</supports>
+		<description>
+			<p class="flavor">Canalize Forças Cósmicas da Ordem</p>
+			<p>A força cósmica da ordem impregnou você com magia. Esse poder surge de Mechanus ou um reino semelhante—um plano de existência moldado inteiramente pela eficiência mecânica. Você ou alguém da sua linhagem pode ter se envolvido nas maquinações dos modrons, os seres ordenados que habitam Mechanus. Talvez seu ancestral tenha até participado da Grande Marcha Modron. Independentemente de sua origem dentro de você, o poder da ordem pode parecer estranho para os outros, mas para você, faz parte de um vasto e glorioso sistema.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_MAGIC" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_RESTORE_BALANCE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_BASTION_OF_LAW" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_TRANCE_OF_ORDER" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_CAVALCADE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_MAGIC" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_RESTORE_BALANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_BASTION_OF_LAW" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_TRANCE_OF_ORDER" level="14" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_CAVALCADE" level="18" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magia Mecânica" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_MAGIC">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_MAGIC</requirements>
+		<description>
+			<p>Quando você atinge um nível de Feiticeiro especificado na tabela Magias Mecânicas, você a partir de então sempre terá as magias listadas preparadas.</p>
+			<h5>Magias Mecânicas</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-30">Nível de Feiticeiro</td><td class="left">Magias</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Auxílio, Alarme, Restauração Menor, Proteção contra o Bem e o Mal</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Dissipar Magia, Proteção contra Energia</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Movimentação Livre, Invocar Construto</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Restauração Maior, Muralha de Energia</em></td></tr>
+			</table>
+			<p>Além disso, consulte a tabela Manifestações da Ordem e escolha ou determine aleatoriamente uma forma de como a sua conexão com a ordem se manifesta enquanto você conjura qualquer das suas magias de Feiticeiro.</p>
+			<h5>Manifestações da Ordem</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">1d6</td><td class="left">Manifestação</td></tr>
+				</thead>
+				<tr><td>1</td><td class="left">Engrenagens espectrais pairam atrás de você.</td></tr>
+				<tr><td>2</td><td class="left">Os ponteiros de um relógio giram em seus olhos.</td></tr>
+				<tr><td>3</td><td class="left">A sua pele brilha com um tom de latão.</td></tr>
+				<tr><td>4</td><td class="left">Equações flutuantes e objetos geométricos cobrem o seu corpo.</td></tr>
+				<tr><td>5</td><td class="left">O seu Foco de Conjuração toma temporariamente a forma de um mecanismo mecânico Miúdo.</td></tr>
+				<tr><td>6</td><td class="left">O tique-taque de engrenagens ou o toque de um relógio pode ser ouvido por você e por aqueles afetados pela sua magia.</td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ALARM" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_AID" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LESSER_RESTORATION" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DISPEL_MAGIC" level="5" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_ENERGY" level="5" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_CONSTRUCT" level="7" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GREATER_RESTORATION" level="9" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WALL_OF_FORCE" level="9" spellcasting="Sorcerer" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Restaurar o Equilíbrio" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_RESTORE_BALANCE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_RESTORE_BALANCE</requirements>
+		<description>
+			<p>A sua conexão com o plano de absoluta ordem permite que você iguale momentos caóticos. Quando uma criatura que você possa ver a até 18 metros (60 pés) de você estiver prestes a rolar um d20 com Vantagem ou Desvantagem, você pode usar uma Reação para evitar que a rolagem seja afetada por Vantagem e Desvantagem.</p>
+			<p class="indent">Você pode usar esta característica um número de vezes igual ao seu modificador de Carisma (mínimo de uma vez), e você recupera todos os usos gastos quando termina um Descanso Longo.</p>
+		</description>
+		<sheet alt="Restaurar o Equilíbrio" action="Reação" usage="{{restore balance:usage}}/Descanso Longo">
+			<description>Quando uma criatura que você possa ver a até 18 metros de você for rolar um d20 com Vantagem ou Desvantagem, você pode evitar que a rolagem seja afetada por Vantagem e Desvantagem.</description>
+		</sheet>
+		<rules>
+			<stat name="restore balance:usage" value="1" bonus="base" />
+			<stat name="restore balance:usage" value="charisma:modifier" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Bastião da Lei" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_BASTION_OF_LAW">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_BASTION_OF_LAW</requirements>
+		<description>
+			<p>Você pode acessar a grandiosa equação da existência para imbuir uma criatura com um escudo cintilante da ordem. Como uma Ação Mágica, você pode gastar 1 a 5 Pontos de Feitiçaria para criar uma proteção mágica em torno de si mesmo ou de outra criatura que você possa ver a até 9 metros (30 pés) de você. A proteção é representada por um número de d8s igual ao número de Pontos de Feitiçaria gastos para criá-la. Quando a criatura protegida sofrer dano, ela pode gastar uma quantidade desses dados, rolá-los e reduzir o dano sofrido pelo total rolado nesses dados.</p>
+			<p class="indent">A proteção dura até você terminar um Descanso Longo ou até você usar esta característica novamente.</p>
+		</description>
+		<sheet alt="Bastião da Lei" action="Ação" usage="1-5 Pontos de Feitiçaria">
+			<description>Você pode criar uma proteção mágica em você ou outra criatura a até 9m de você. A proteção possui d8s igual aos Pontos de Feitiçaria gastos. Ao sofrer dano, a criatura protegida pode gastar uma quantidade desses dados, rolá-los e reduzir o dano sofrido por esse total. A proteção dura até você terminar um Descanso Longo ou usá-la novamente.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 14: Transe da Ordem" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_TRANCE_OF_ORDER">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_TRANCE_OF_ORDER</requirements>
+		<description>
+			<p>Você ganha a habilidade de alinhar a sua consciência com os cálculos intermináveis de Mechanus. Como uma Ação Bônus, você pode entrar nesse estado por 1 minuto. Pela duração, jogadas de ataque contra você não podem se beneficiar de Vantagem, e sempre que fizer um Teste de D20, você pode tratar um resultado de 9 ou inferior no d20 como um 10.</p>
+			<p class="indent">Depois de usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo a não ser que gaste 5 Pontos de Feitiçaria (não requer ação) para restaurar o seu uso.</p>
+		</description>
+		<sheet alt="Transe da Ordem" action="Ação Bônus" usage="1/Descanso Longo">
+			<description>Por 1 minuto, jogadas de ataque contra você não podem usar Vantagem, e ao fazer um Teste de D20, trate resultados de 9 ou inferiores no d20 como se fossem 10. &#13;
+			Você pode gastar 5 Pontos de Feitiçaria para restaurar o uso.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 18: Cavalgada Mecânica" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_CAVALCADE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_CAVALCADE</requirements>
+		<description>
+			<p>Você invoca momentaneamente os espíritos da ordem para expurgar a desordem ao seu redor. Como uma Ação Mágica, você invoca os espíritos em um Cubo de 9 metros (30 pés) originando de você. Os espíritos parecem modrons ou outros Construtos da sua escolha. Os espíritos são intangíveis e invulneráveis, e eles criam os efeitos abaixo dentro do Cubo antes de sumirem. Uma vez que usar essa ação, você não pode usá-la de novo até terminar um Descanso Longo a não ser que gaste 7 Pontos de Feitiçaria (não requer ação) para restaurar o seu uso.</p>
+			<p class="indent"><em><strong>Curar.</strong></em> Os espíritos restauram até 100 Pontos de Vida, divididos como você escolher entre qualquer número de criaturas de sua escolha dentro do Cubo.</p>
+			<p class="indent"><em><strong>Reparar.</strong></em> Quaisquer objetos danificados inteiramente dentro do Cubo são reparados instantaneamente.</p>
+			<p class="indent"><em><strong>Dissipar.</strong></em> Todas as magias de nível 6 e inferiores se encerram em criaturas e objetos de sua escolha dentro do Cubo.</p>
+		</description>
+		<sheet alt="Cavalgada Mecânica" action="Ação" usage="1/Descanso Longo">
+			<description>Você produz magicamente os seguintes efeitos dentro de um Cubo de 9m originando de você: &#13;
+			• Restaura até 100 PVs, divididos como você escolher entre criaturas à sua escolha. &#13;
+			• Objetos danificados são reparados instantaneamente. &#13;
+			• Todas as magias de nível 6 e inferior terminam em criaturas e objetos de sua escolha. &#13;
+			Você pode gastar 7 Pontos de Feitiçaria para restaurar o uso.</description>
+		</sheet>
+	</element>
+
+	<element name="Clockwork Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_MAGIC" />
+	<element name="Restore Balance Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_RESTORE_BALANCE" />
+	<element name="Bastion of Law Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_BASTION_OF_LAW" />
+	<element name="Trance of Order Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_TRANCE_OF_ORDER" />
+	<element name="Clockwork Cavalcade Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_CLOCKWORK_SORCERY_CLOCKWORK_CAVALCADE" />
+
+</elements>

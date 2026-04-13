@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Armadura</name>
+		<description>Armaduras do Livro do Jogador 2024.</description>
+		<update version="0.0.1">
+			<file name="items-armor.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/items/items-armor.xml" />
+		</update>
+	</info>
+
+	<element name="Acolchoada" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_LIGHT_PADDED">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p class="flavor">1 Minuto para Vestir ou Remover</p>
+			<p>A armadura acolchoada consiste em camadas acolchoadas de tecido e forro.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Leve</set>
+			<set name="armorClass">11 + modificador de Des</set>
+			<set name="stealth">Desvantagem</set>
+			<set name="weight" lb="8">8 lb.</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="11" />
+		</rules>
+	</element>
+
+	<element name="Couro" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_LIGHT_LEATHER">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p class="flavor">1 Minuto para Vestir ou Remover</p>
+			<p>O peitoral e as ombreiras desta armadura são feitos de couro que foi endurecido após ser fervido em óleo. O resto da armadura é feito de materiais mais macios e flexíveis.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Leve</set>
+			<set name="armorClass">11 + modificador de Des</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="11" />
+		</rules>
+	</element>
+
+	<element name="Couro Batido" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_LIGHT_STUDDED_LEATHER">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p class="flavor">1 Minuto para Vestir ou Remover</p>
+			<p>Feita de couro resistente, porém flexível, a armadura de couro batido é reforçada com rebites ou cravos de metal colocados bem próximos uns dos outros.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Leve</set>
+			<set name="armorClass">12 + modificador de Des</set>
+			<set name="weight" lb="13">13 lb.</set>
+			<set name="cost" currency="gp">45</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="12" />
+		</rules>
+	</element>
+
+	<element name="Pele" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_HIDE_ARMOR">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p class="flavor">5 Minutos para Vestir e 1 Minuto para Remover</p>
+			<p>Esta armadura rústica consiste em couros e peles espessas. É comumente usada por tribos bárbaras, humanoides malignos e outros povos que não têm acesso às ferramentas e materiais necessários para criar uma armadura melhor.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Média</set>
+			<set name="armorClass">12 + modificador de Des (máx 2)</set>
+			<set name="weight" lb="12">12 lb.</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="12" />
+		</rules>
+	</element>
+
+	<element name="Camisa de Cota de Malha" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_CHAIN_SHIRT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p class="flavor">5 Minutos para Vestir e 1 Minuto para Remover</p>
+			<p>Feita de anéis de metal interligados, uma camisa de cota de malha é usada entre camadas de roupas ou couro. Esta armadura oferece proteção modesta à parte superior do corpo do usuário e permite que o som dos anéis roçando uns nos outros seja abafado pelas camadas externas.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Média</set>
+			<set name="armorClass">13 + modificador de Des (máx 2)</set>
+			<set name="weight" lb="20">20 lb.</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="13" />
+		</rules>
+	</element>
+
+	<element name="Brunea" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_SCALE_MAIL">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p class="flavor">5 Minutos para Vestir e 1 Minuto para Remover</p>
+			<p>Esta armadura consiste em um casaco e perneiras (e talvez uma saia separada) de couro cobertos com peças de metal sobrepostas, parecidas com escamas de peixe. O conjunto inclui manoplas.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Média</set>
+			<set name="armorClass">14 + modificador de Des (máx 2)</set>
+			<set name="stealth">Desvantagem</set>
+			<set name="weight" lb="45">45 lb.</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="14" />
+		</rules>
+	</element>
+
+	<element name="Peitoral" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_BREASTPLATE">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p class="flavor">5 Minutos para Vestir e 1 Minuto para Remover</p>
+			<p>Esta armadura consiste em uma peça peitoral de metal feita sob medida usada com couro flexível. Embora deixe as pernas e os braços relativamente desprotegidos, esta armadura fornece boa proteção para os órgãos vitais do usuário, ao mesmo tempo em que o deixa com um fardo relativamente leve.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Média</set>
+			<set name="armorClass">14 + modificador de Des (máx 2)</set>
+			<set name="weight" lb="20">20 lb.</set>
+			<set name="cost" currency="gp">400</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="14" />
+		</rules>
+	</element>
+
+	<element name="Meia Armadura" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_MEDIUM_HALF_PLATE">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p class="flavor">5 Minutos para Vestir e 1 Minuto para Remover</p>
+			<p>A meia armadura consiste em placas de metal moldadas que cobrem a maior parte do corpo do usuário. Ela não inclui proteção para as pernas, além de grevas simples fixadas com tiras de couro.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Média</set>
+			<set name="armorClass">15 + modificador de Des (máx 2)</set>
+			<set name="stealth">Desvantagem</set>
+			<set name="weight" lb="40">40 lb.</set>
+			<set name="cost" currency="gp">750</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="15" />
+		</rules>
+	</element>
+
+	<element name="Cota de Anéis" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_RING_MAIL">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p>Esta armadura é de couro, mas com anéis pesados costurados nela. Os anéis ajudam a reforçar a armadura contra golpes de espadas e machados. A cota de anéis é inferior à cota de malha, e geralmente é usada apenas por aqueles que não podem comprar uma armadura melhor.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Pesada</set>
+			<set name="armorClass">14</set>
+			<set name="stealth">Desvantagem</set>
+			<set name="weight" lb="40">40 lb.</set>
+			<set name="cost" currency="gp">30</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_RING_MAIL</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="14" />
+		</rules>
+	</element>
+
+	<element name="Cota de Malha" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_CHAIN_MAIL">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p class="flavor">10 Minutos para Vestir e 5 Minutos para Remover</p>
+			<p>Feita de anéis de metal entrelaçados, a cota de malha inclui uma camada de tecido acolchoado usada sob a malha para evitar atrito e amortecer o impacto dos golpes. O conjunto inclui manoplas.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Pesada</set>
+			<set name="armorClass">16</set>
+			<set name="strength">13</set>
+			<set name="stealth">Desvantagem</set>
+			<set name="weight" lb="55">55 lb.</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_MAIL</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="16" />
+			<stat name="innate speed" value="-10" bonus="armor" requirements="!([str:13]||ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT)" />
+		</rules>
+	</element>
+
+	<element name="Cota de Talas" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_SPLINT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p class="flavor">10 Minutos para Vestir e 5 Minutos para Remover</p>
+			<p>Esta armadura é feita de tiras verticais estreitas de metal rebitadas em uma base de couro usada sobre enchimento de pano. Uma cota de malha flexível protege as juntas.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Pesada</set>
+			<set name="armorClass">17</set>
+			<set name="strength">15</set>
+			<set name="stealth">Desvantagem</set>
+			<set name="weight" lb="60">60 lb.</set>
+			<set name="cost" currency="gp">200</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SPLINT</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="17" />
+			<stat name="innate speed" value="-10" bonus="armor" requirements="!([str:15]||ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT)" />
+		</rules>
+	</element>
+
+	<element name="Armadura de Placas" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_HEAVY_PLATE">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p class="flavor">10 Minutos para Vestir e 5 Minutos para Remover</p>
+			<p>A armadura de placas consiste em placas de metal moldadas e interligadas para cobrir o corpo inteiro. Um conjunto de placas inclui manoplas, botas pesadas de couro, um elmo com visor e camadas espessas de enchimento sob a armadura. Fivelas e tiras distribuem o peso pelo corpo.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="armor">Pesada</set>
+			<set name="armorClass">18</set>
+			<set name="strength">15</set>
+			<set name="stealth">Desvantagem</set>
+			<set name="weight" lb="65">65 lb.</set>
+			<set name="cost" currency="gp">1500</set>
+			<set name="slot">body</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_PLATE</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="18" />
+			<stat name="innate speed" value="-10" bonus="armor" requirements="!([str:15]||ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT)" />
+		</rules>
+	</element>
+
+	<element name="Escudo" type="Armor" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARMOR_SHIELD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>Um escudo é feito de madeira ou metal e é carregado em uma mão. Empunhar um escudo aumenta sua Classe de Armadura em 2. Você só pode se beneficiar de um escudo por vez.</p>
+		</description>
+		<setters>
+			<set name="category">Armadura</set>
+			<set name="type">Escudo</set>
+			<set name="armor">Escudo</set>
+			<set name="armorClass">+2</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="2" bonus="shield" />
+		</rules>
+	</element>
+</elements>

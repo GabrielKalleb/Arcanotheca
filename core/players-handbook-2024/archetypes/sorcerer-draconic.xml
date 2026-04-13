@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Feitiçaria Dracônica</name>
+		<description>A subclasse Feitiçaria Dracônica do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="sorcerer-draconic.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/sorcerer-draconic.xml" />
+		</update>
+	</info>
+	<element name="Feitiçaria Dracônica" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_DRACONIC_SORCERY">
+		<supports>Sorcerer Subclass</supports>
+		<description>
+			<p class="flavor">Respire a Magia dos Dragões</p>
+			<p>Sua magia inata vem do presente de um dragão. Talvez um dragão ancião à beira da morte tenha legado a você ou a um ancestral parte de seu poder mágico. Você pode ter absorvido a magia de um local infundido com o poder dos dragões. Ou talvez você tenha manipulado um tesouro roubado do covil de um dragão, impregnado com esse poder ancestral.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRACONIC_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRACONIC_RESILIENCE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_ELEMENTAL_AFFINITY" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRAGON_WINGS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRAGON_COMPANION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRACONIC_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRACONIC_RESILIENCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_ELEMENTAL_AFFINITY" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRAGON_WINGS" level="14" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRAGON_COMPANION" level="18" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magias Dracônicas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRACONIC_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_DRACONIC_SORCERY_DRACONIC_SPELLS</requirements>
+		<description>
+			<p>Sua ligação com dragões garante a você magias poderosas. Você sempre tem as magias listadas na tabela Magias Dracônicas preparadas.</p>
+			<h5>Magias Dracônicas</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-25">Nível de Feiticeiro</td><td class="left">Magias</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Comando, Identificar, Passo Nebuloso, Raio Ardente</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Medo, Voo</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Encantar Monstro, Murchar</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Lenda Lendária, Imobilizar Monstro</em></td></tr>
+			</table>
+			<p class="indent">Além disso, escolha um tipo de dragão associado à sua herança: de Cristal, Ametista ou Safira (Radiante, Força, ou Trovejante); ou um Dragão Cromático ou Metálico para os demais danos (Ácido, Frio, Fogo, Elétrico, ou Venenoso). Isso afeta características posteriores.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMAND" level="3" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_IDENTIFY" level="3" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="3" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SCORCHING_RAY" level="3" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FEAR" level="5" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FLY" level="5" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHARM_MONSTER" level="7" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BLIGHT" level="7" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LEGEND_LORE" level="9" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_MONSTER" level="9" spellcasting="Sorcerer" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Resiliência Dracônica" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRACONIC_RESILIENCE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_DRACONIC_SORCERY_DRACONIC_RESILIENCE</requirements>
+		<description>
+			<p>A magia em seu corpo manifesta traços físicos dos dragões. Seu máximo de Pontos de Vida aumenta em 3, e aumenta em 1 a cada vez que você ganha um nível de Feiticeiro.</p>
+			<p class="indent">Além disso, partes de sua pele são cobertas por escamas semelhantes às de um dragão. Quando você não estiver vestindo armadura, sua CA base é de 10 mais o seu modificador de Destreza e o seu modificador de Carisma.</p>
+		</description>
+		<sheet alt="Resiliência Dracônica">
+			<description>Seu máximo de Pontos de Vida aumenta em 1 por nível de Feiticeiro. Quando não estiver usando armadura, sua CA é 10 + mod de Destreza + mod de Carisma.</description>
+		</sheet>
+		<rules>
+			<stat name="hp" value="level:sorcerer" />
+			<stat name="ac:draconic resilience:base" value="10" />
+			<stat name="ac:draconic resilience:dexterity" value="dexterity:modifier" />
+			<stat name="ac:draconic resilience:charisma" value="charisma:modifier" />
+			<stat name="ac:draconic resilience" value="ac:draconic resilience:base" />
+			<stat name="ac:draconic resilience" value="ac:draconic resilience:dexterity" />
+			<stat name="ac:draconic resilience" value="ac:draconic resilience:charisma" />
+			<stat name="ac:calculation" value="ac:draconic resilience" bonus="calculation" equipped="[armor:none]" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Afinidade Elemental" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_ELEMENTAL_AFFINITY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_DRACONIC_SORCERY_ELEMENTAL_AFFINITY</requirements>
+		<description>
+			<p>Você ganha Resistência ao tipo de dano associado à sua herança dracônica.</p>
+			<p class="indent">Além disso, quando você conjura uma magia que causa dano daquele tipo, pode adicionar seu modificador de Carisma a uma rolagem de dano dessa magia.</p>
+		</description>
+		<sheet alt="Afinidade Elemental">
+			<description>Você tem Resistência ao tipo de dano do seu Ancestral Dracônico. Quando conjurar uma magia com esse tipo de dano, adicione +{{charisma:modifier}} a uma rolagem de dano da magia.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 14: Asas de Dragão" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRAGON_WINGS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_DRACONIC_SORCERY_DRAGON_WINGS</requirements>
+		<description>
+			<p>Como uma Ação Bônus, você pode fazer com que asas de dragão espectrais brotem de suas costas. Enquanto elas estiverem presentes, você tem um Deslocamento de Voo igual ao seu Deslocamento atual e pode planar. As asas duram até que você tenha a condição Incapacitado ou as dissipe (nenhuma ação exigida).</p>
+		</description>
+		<sheet alt="Asas de Dragão" action="Ação Bônus">
+			<description>Você cria asas de dragão espectrais. Enquanto ativas, você ganha Deslocamento de Voo igual ao seu Deslocamento normal e pode planar. Duram até ser Incapacitado ou dispensadas (sem ação).</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 18: Companheiro Dragão" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_SORCERY_DRAGON_COMPANION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_DRACONIC_SORCERY_DRAGON_COMPANION</requirements>
+		<description>
+			<p>Você pode conjurar <i>Invocar Dragão</i> sem gastar um espaço de magia. Depois de conjurar a magia dessa forma, você não pode fazê-lo novamente até terminar um Descanso Longo.</p>
+			<p class="indent">Sempre que você começar a conjurar esta magia, pode modificá-la para que não requeira Concentração. Se o fizer, a duração da magia se torna 1 minuto para aquela conjuração.</p>
+		</description>
+		<sheet alt="Companheiro Dragão" usage="1/Descanso Longo">
+			<description>Você pode conjurar Invocar Dragão sem usar espaço de magia. Ao fazer isso, não precisa de componentes materiais e pode modificar a magia para não exigir Concentração (se o fizer, a duração cai para 1 minuto).</description>
+		</sheet>
+	</element>
+
+	<element name="Draconic Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_DRACONIC_SORCERY_DRACONIC_SPELLS" />
+	<element name="Draconic Resilience Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_DRACONIC_SORCERY_DRACONIC_RESILIENCE" />
+	<element name="Elemental Affinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_DRACONIC_SORCERY_ELEMENTAL_AFFINITY" />
+	<element name="Dragon Wings Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_DRACONIC_SORCERY_DRAGON_WINGS" />
+	<element name="Dragon Companion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_DRACONIC_SORCERY_DRAGON_COMPANION" />
+</elements>

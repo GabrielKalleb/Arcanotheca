@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Guerreiro das Sombras</name>
+		<description>A subclasse Guerreiro das Sombras do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="monk-shadow.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/monk-shadow.xml" />
+		</update>
+	</info>
+
+	<element name="Guerreiro das Sombras" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_MONK_WARRIOR_OF_SHADOW">
+		<supports>Monk Subclass</supports>
+		<description>
+			<p class="flavor">Canalize o Poder das Sombras para Furtividade e Subterfúgio</p>
+			<p>Os Guerreiros das Sombras praticam a furtividade e o subterfúgio, canalizando o poder da Umbra (Shadowfell). Eles sentem-se em casa na escuridão, sendo capazes de puxar as sombras ao seu redor para se esconderem, saltarem de sombra em sombra e assumirem uma forma fantasmagórica.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_STEP"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_IMPROVED_SHADOW_STEP"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_CLOAK_OF_SHADOWS"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_STEP" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_IMPROVED_SHADOW_STEP" level="11"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_CLOAK_OF_SHADOWS" level="17"/>
+		</rules>
+	</element>
+
+	<element name="Nível 3: Artes das Sombras" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_ARTS</requirements>
+		<description>
+			<p>Você aprendeu a extrair o poder da Umbra, ganhando os seguintes benefícios.</p>
+			<p class="indent"><em><strong>Escuridão.</strong></em> Você pode gastar 1 Ponto de Foco para conjurar a magia Escuridão sem componentes materiais. Você consegue ver dentro da área da magia quando a conjura com esta característica. Enquanto a magia persistir, você pode mover a área de Escuridão para um espaço a até 18 metros (60 pés) de você no início de cada um dos seus turnos.</p>
+			<p class="indent"><em><strong>Visão no Escuro.</strong></em> Você ganha Visão no Escuro com um alcance de 18 metros (60 pés). Se você já possuir Visão no Escuro, o alcance aumenta em 18 metros (60 pés).</p>
+			<p class="indent"><em><strong>Figmentos Sombrios.</strong></em> Você conhece o truque Ilusão Menor. Sabedoria é o seu atributo de conjuração para ele.</p>
+		</description>
+		<sheet alt="Artes das Sombras" usage="Ponto de Foco">
+			<description>Você pode conjurar a magia Escuridão sem componentes materiais. Você enxerga na área da magia ao conjurá-la desta forma. Enquanto persistir, você pode mover a área para até 18m de você no início do seu turno. &#13;
+			Além disso, você conhece o truque Ilusão Menor (Sabedoria é seu atributo de conjuração).</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
+			<stat name="darkvision:range" value="60" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MINOR_ILLUSION" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Passo das Sombras" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_STEP">
+		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_STEP||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_IMPROVED_SHADOW_STEP)</requirements>
+		<description>
+			<p>Enquanto estiver inteiramente em Penumbra ou Escuridão, você pode usar uma Ação Bônus para se teletransportar até 18 metros (60 pés) para um espaço desocupado que você possa ver e que também esteja em Penumbra ou Escuridão. Em seguida, você tem Vantagem no próximo ataque corpo a corpo que fizer antes do final do turno atual.</p>
+		</description>
+		<sheet alt="Passo das Sombras" action="Ação Bônus">
+			<description>Enquanto estiver em Penumbra ou Escuridão, você pode se teletransportar até 18m para um espaço desocupado visível também em Penumbra ou Escuridão. Você ganha Vantagem no próximo ataque corpo a corpo até o fim do turno.</description>
+			<description level="11">Você tem duas formas de usar esta característica: &#13;
+			• Em Penumbra ou Escuridão, você pode se teletransportar até 18m para um espaço desocupado visível também em Penumbra ou Escuridão. &#13;
+			• Você pode gastar 1 Ponto de Foco para ignorar os requisitos de luz e pode fazer um Ataque Desarmado imediatamente após o teletransporte. &#13;
+			Independente da escolha, você ganha Vantagem no seu próximo ataque corpo a corpo antes do final do turno.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 11: Passo das Sombras Aprimorado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_IMPROVED_SHADOW_STEP">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_IMPROVED_SHADOW_STEP</requirements>
+		<description>
+			<p>Você pode usar sua conexão com a Umbra para fortalecer seu teletransporte. Quando usar o seu Passo das Sombras, você pode gastar 1 Ponto de Foco para remover a exigência de começar e terminar em Penumbra ou Escuridão para este uso da característica. Como parte desta Ação Bônus, você pode fazer um Ataque Desarmado imediatamente após o teletransporte.</p>
+		</description>
+		<sheet display="false"/>
+	</element>
+
+	<element name="Nível 17: Manto das Sombras" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_CLOAK_OF_SHADOWS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_CLOAK_OF_SHADOWS</requirements>
+		<description>
+			<p>Como uma Ação Mágica, enquanto estiver inteiramente em Penumbra ou Escuridão, você pode gastar 3 Pontos de Foco para se envolver em sombras por 1 minuto, até ter a condição Incapacitado, ou até terminar seu turno em Luz Plena. Enquanto estiver envolto por essas sombras, você ganha os seguintes benefícios.</p>
+			<p class="indent"><em><strong>Invisibilidade.</strong></em> Você tem a condição Invisível.</p>
+			<p class="indent"><em><strong>Parcialmente Incorpóreo.</strong></em> Você pode se mover através de espaços ocupados como se fossem Terreno Difícil. Se você terminar seu turno em um espaço desses, você é empurrado para o último espaço desocupado em que esteve.</p>
+			<p class="indent"><em><strong>Rajada Sombria.</strong></em> Você pode usar sua Rajada de Golpes sem gastar nenhum Ponto de Foco.</p>
+		</description>
+		<sheet alt="Manto das Sombras" action="Ação" usage="3 Pontos de Foco">
+			<description>Enquanto estiver em Penumbra ou Escuridão, você se envolve em sombras por 1 minuto, até ficar Incapacitado, ou até terminar o turno em Luz Plena. Você fica Invisível; pode se mover em espaços ocupados como se fossem Terreno Difícil (sendo empurrado para o último espaço livre se terminar o turno lá); e pode usar Rajada de Golpes sem gastar Pontos de Foco.</description>
+		</sheet>
+	</element>
+
+	<element name="Shadow Arts Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_ARTS" />
+	<element name="Shadow Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_STEP" />
+	<element name="Improved Shadow Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_IMPROVED_SHADOW_STEP" />
+	<element name="Cloak of Shadows Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_CLOAK_OF_SHADOWS" />
+</elements>

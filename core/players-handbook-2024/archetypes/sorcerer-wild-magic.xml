@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Feitiçaria da Magia Selvagem</name>
+		<description>A subclasse Feitiçaria da Magia Selvagem do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="sorcerer-wild-magic.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/sorcerer-wild-magic.xml" />
+		</update>
+	</info>
+
+	<element name="Feitiçaria da Magia Selvagem" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_WILD_MAGIC_SORCERY">
+		<supports>Sorcerer Subclass</supports>
+		<description>
+			<p class="flavor">Liberte a Magia Caótica</p>
+			<p>Sua magia inata deriva das forças do caos que sustentam a ordem da criação. Você ou um ancestral pode ter sido exposto à magia pura, talvez através de um portal planar levando ao Limbo ou aos Planos Elementais. Talvez você tenha sido abençoado por uma fada ou marcado por um demônio. Ou sua magia pode ser um acaso sem causa aparente. Qualquer que seja a fonte, essa magia se agita dentro de você, esperando por qualquer válvula de escape.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_WILD_MAGIC_SURGE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_TIDES_OF_CHAOS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_BEND_LUCK" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_CONTROLLED_CHAOS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_TAMED_SURGE" />
+			<div element="ID_WOTC_PHB24_INFORMATION_SORCERER_WILD_MAGIC_SORCERY_WILD_MAGIC_SURGE_TABLE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_WILD_MAGIC_SURGE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_TIDES_OF_CHAOS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_BEND_LUCK" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_CONTROLLED_CHAOS" level="14" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_TAMED_SURGE" level="18" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Surto de Magia Selvagem" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_WILD_MAGIC_SURGE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_WILD_MAGIC_SORCERY_WILD_MAGIC_SURGE</requirements>
+		<description>
+			<p>Sua conjuração pode desencadear surtos de magia indomável. Uma vez por turno, você pode rolar 1d20 imediatamente após conjurar uma magia de Feiticeiro com um espaço de magia. Se rolar um 20, role na tabela de Surto de Magia Selvagem para criar um efeito mágico.</p>
+			<p class="indent">Se o efeito mágico for uma magia, ele é selvagem demais para ser afetado pela sua Metamágica.</p>
+			<div element="ID_WOTC_PHB24_INFORMATION_SORCERER_WILD_MAGIC_SORCERY_WILD_MAGIC_SURGE_TABLE" />
+		</description>
+		<sheet alt="Surto de Magia Selvagem" usage="1/Turno">
+			<description>Role 1d20 logo após conjurar uma magia de Feiticeiro com um espaço de magia. Num 20, role na tabela de Surto de Magia Selvagem para criar um efeito mágico. Se for uma magia, ela não pode ser afetada por Metamágica.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 3: Marés do Caos" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_TIDES_OF_CHAOS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_WILD_MAGIC_SORCERY_TIDES_OF_CHAOS</requirements>
+		<description>
+			<p>Você pode manipular o próprio caos para se conceder Vantagem em um Teste de D20 antes de rolar o d20. Após fazer isso, você deve conjurar uma magia de Feiticeiro usando um espaço de magia ou terminar um Descanso Longo antes de poder usar esta característica novamente.</p>
+			<p class="indent">Se você conjurar uma magia de Feiticeiro com um espaço de magia antes de terminar um Descanso Longo, você automaticamente rolará na tabela de Surto de Magia Selvagem.</p>
+		</description>
+		<sheet alt="Marés do Caos" usage="1/Descanso Longo">
+			<description>Antes de rolar um Teste de D20, você pode se dar Vantagem. &#13;
+			Depois disso, mas antes de terminar um Descanso Longo, se você conjurar uma magia de Feiticeiro com um espaço de magia, você restaura o uso desta característica, mas deve rolar automaticamente na tabela de Surto de Magia Selvagem.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 6: Dobrar a Sorte" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_BEND_LUCK">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_WILD_MAGIC_SORCERY_BEND_LUCK</requirements>
+		<description>
+			<p>Você possui a habilidade de distorcer o destino usando sua magia selvagem. Imediatamente após outra criatura que você possa ver rolar o d20 para um Teste de D20, você pode usar uma Reação e gastar 1 Ponto de Feitiçaria para rolar 1d4 e aplicar o número rolado como um bônus ou penalidade (à sua escolha) na rolagem do d20.</p>
+		</description>
+		<sheet alt="Dobrar a Sorte" action="Reação" usage="Ponto de Feitiçaria">
+			<description>Quando outra criatura visível rolar o d20 para um Teste de D20, você pode rolar 1d4 e aplicar o número como bônus ou penalidade (à sua escolha) na rolagem do d20.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 14: Caos Controlado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_CONTROLLED_CHAOS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_WILD_MAGIC_SORCERY_CONTROLLED_CHAOS</requirements>
+		<description>
+			<p>Você ganha um pouco de controle sobre os surtos de sua magia selvagem. Sempre que rolar na tabela de Surto de Magia Selvagem, você pode rolar duas vezes e usar qualquer um dos números.</p>
+		</description>
+		<sheet alt="Caos Controlado">
+			<description>Sempre que rolar na tabela de Surto de Magia Selvagem, você pode rolar duas vezes e usar qualquer um dos resultados.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 18: Surto Domado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_MAGIC_SORCERY_TAMED_SURGE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_WILD_MAGIC_SORCERY_TAMED_SURGE</requirements>
+		<description>
+			<p>Imediatamente após conjurar uma magia de Feiticeiro com um espaço de magia, você pode criar um efeito à sua escolha da tabela de Surto de Magia Selvagem em vez de rolar nela. Você pode escolher qualquer efeito na tabela, exceto o da última linha, e se o efeito escolhido envolver uma rolagem, você deve fazê-la.</p>
+			<p class="indent">Depois de usar esta característica, você não pode fazê-lo novamente até terminar um Descanso Longo.</p>
+		</description>
+		<sheet alt="Surto Domado" usage="1/Descanso Longo">
+			<description>Após conjurar uma magia de Feiticeiro com um espaço de magia, você pode criar um efeito à sua escolha da tabela de Surto de Magia Selvagem (exceto a última linha) ao invés de rolar nela. Se o efeito envolver uma rolagem, você deve fazê-la.</description>
+		</sheet>
+	</element>
+
+	<element name="Tabela de Surto de Magia Selvagem" type="Information" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_INFORMATION_SORCERER_WILD_MAGIC_SORCERY_WILD_MAGIC_SURGE_TABLE">
+		<compendium display="false" />
+		<description>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">d100</td><td class="left">Efeito</td></tr>
+				</thead>
+				<tr><td>01-04</td><td class="left">Role nesta tabela no início de cada um dos seus turnos no próximo minuto, ignorando este resultado nas rolagens subsequentes.</td></tr>
+				<tr><td>05-08</td><td class="left">Uma criatura Amistosa a você aparece em um espaço desocupado aleatório a até 18 metros (60 pés) de você. A criatura está sob controle do Mestre e desaparece 1 minuto depois. Role 1d4 para determinar a criatura: num 1, um <b>Duodrone (Modron)</b> aparece; num 2, um <b>Flumph</b> aparece; num 3, um <b>Monodrone (Modron)</b> aparece; num 4, um <b>Unicórnio</b> aparece. Veja o <i>Manual dos Monstros</i> para o bloco de estatísticas da criatura.</td></tr>
+				<tr><td>09-12</td><td class="left">No próximo minuto, você recupera 5 Pontos de Vida no início de cada um dos seus turnos.</td></tr>
+				<tr><td>13-16</td><td class="left">As criaturas têm Desvantagem em testes de resistência contra a próxima magia que você conjurar no próximo minuto que envolva um teste de resistência.</td></tr>
+				<tr><td>17-20</td><td class="left">Você é submetido a um efeito que dura 1 minuto, a menos que sua descrição diga o contrário. Role 1d8 para determinar o efeito: num <b>1</b>, você é cercado por uma música etérea fraca que apenas você e criaturas a até 1,5m de você podem ouvir; num <b>2</b>, seu tamanho aumenta em uma categoria de tamanho; num <b>3</b>, cresce em você uma longa barba de penas que permanece até você espirrar, momento em que as penas explodem de seu rosto e somem; num <b>4</b>, você precisa gritar ao falar; num <b>5</b>, borboletas ilusórias esvoaçam no ar a até 3m de você; num <b>6</b>, um olho aparece em sua testa, concedendo a você Vantagem em testes de Sabedoria (Percepção); num <b>7</b>, bolhas cor-de-rosa saem de sua boca sempre que você fala; num <b>8</b>, sua pele fica num tom vibrante de azul por 24 horas ou até o efeito ser encerrado pela magia <i>Remover Maldição</i>.</td></tr>
+				<tr><td>21-24</td><td class="left">No próximo minuto, todas as suas magias com tempo de conjuração de uma ação passam a ter tempo de conjuração de uma Ação Bônus.</td></tr>
+				<tr><td>25-28</td><td class="left">Você é transportado para o Plano Astral até o final de seu próximo turno. Você então retorna ao espaço que ocupava anteriormente ou ao espaço desocupado mais próximo, se ele estiver ocupado.</td></tr>
+				<tr><td>29-32</td><td class="left">Na próxima vez que você conjurar uma magia que cause dano no próximo minuto, não role os dados de dano da magia. Em vez disso, use o número mais alto possível em cada dado de dano.</td></tr>
+				<tr><td>33-36</td><td class="left">Você tem Resistência a todo dano no próximo minuto.</td></tr>
+				<tr><td>37-40</td><td class="left">Você se transforma em uma planta num vaso até o início de seu próximo turno. Enquanto for uma planta, você tem a condição Incapacitado e Vulnerabilidade a todo dano. Se cair a 0 Pontos de Vida, seu vaso quebra e sua forma reverte.</td></tr>
+				<tr><td>41-44</td><td class="left">No próximo minuto, você pode se teletransportar até 6 metros (20 pés) como uma Ação Bônus em cada um dos seus turnos.</td></tr>
+				<tr><td>45-48</td><td class="left">Você e até três criaturas que você escolher a até 9 metros (30 pés) ganham a condição Invisível por 1 minuto. Essa invisibilidade termina para uma criatura imediatamente após ela fazer um ataque, causar dano ou conjurar uma magia.</td></tr>
+				<tr><td>49-52</td><td class="left">Um escudo espectral paira perto de você no próximo minuto, concedendo um bônus de +2 na CA e imunidade a <i>Mísseis Mágicos</i>.</td></tr>
+				<tr><td>53-56</td><td class="left">Você pode realizar uma ação extra neste turno.</td></tr>
+				<tr><td>57-60</td><td class="left">Você conjura uma magia aleatória. Se a magia normalmente exigir Concentração, ela não exigirá neste caso; a magia dura toda a sua duração. Role 1d10 para determinar a magia: num <b>1</b>, <i>Confusão</i>; num <b>2</b>, <i>Bola de Fogo</i>; num <b>3</b>, <i>Névoa Obscurecente</i>; num <b>4</b>, <i>Voo</i> (conjurado num alvo aleatório a até 18m de você), num <b>5</b>, <i>Área Escorregadia</i>; num <b>6</b>, <i>Levitação</i> (conjurado em si mesmo); num <b>7</b>, <i>Mísseis Mágicos</i> (conjurado como uma magia de 5º nível); num <b>8</b>, <i>Reflexos</i>; num <b>9</b>, <i>Metamorfose</i> (conjurado em si mesmo), e se falhar na resistência, você vira um <b>Bode</b>; num <b>10</b>, <i>Ver o Invisível</i>.</td></tr>
+				<tr><td>61-64</td><td class="left">No próximo minuto, qualquer objeto inflamável e não mágico que você tocar, e que não esteja sendo vestido ou carregado por outra criatura, entra em combustão, sofre 1d4 de dano de Fogo e fica queimando.</td></tr>
+				<tr><td>65-68</td><td class="left">Se você morrer dentro da próxima hora, será revivido imediatamente como se fosse pelo efeito da magia <i>Reencarnação</i>.</td></tr>
+				<tr><td>69-72</td><td class="left">Você tem a condição Amedrontado até o final do seu próximo turno. O Mestre determina a fonte de seu medo.</td></tr>
+				<tr><td>73-76</td><td class="left">Você se teletransporta até 18 metros (60 pés) para um espaço desocupado que possa ver.</td></tr>
+				<tr><td>77-80</td><td class="left">Uma criatura aleatória a até 18 metros de você fica com a condição Envenenado por 1d4 horas.</td></tr>
+				<tr><td>81-84</td><td class="left">Você irradia Luz Plena em um raio de 9 metros (30 pés) no próximo minuto. Qualquer criatura que terminar o turno dela a até 1,5 metro (5 pés) de você terá a condição Cego até o final do próximo turno dela.</td></tr>
+				<tr><td>85-88</td><td class="left">Até três criaturas de sua escolha que você possa ver a até 9 metros de você sofrem 1d10 de dano Necrótico. Você recupera Pontos de Vida iguais à soma de dano Necrótico causado.</td></tr>
+				<tr><td>89-92</td><td class="left">Até três criaturas de sua escolha que você possa ver a até 9 metros de você sofrem 4d10 de dano Elétrico.</td></tr>
+				<tr><td>93-96</td><td class="left">Você e todas as criaturas a até 9 metros de você têm Vulnerabilidade a dano Perfurante no próximo minuto.</td></tr>
+				<tr><td>97-00</td><td class="left">Role 1d6: Num <b>1</b>, você recupera 2d10 Pontos de Vida; num <b>2</b>, um aliado à sua escolha a até 90 metros (300 pés) recupera 2d10 Pontos de Vida; num <b>3</b>, você recupera seu espaço de magia gasto de nível mais baixo; num <b>4</b>, um aliado à sua escolha a até 90m recupera o espaço de magia gasto de nível mais baixo dele; num <b>5</b>, você recupera todos os seus Pontos de Feitiçaria gastos; num <b>6</b>, todos os efeitos da linha 17–20 afetam você simultaneamente.</td></tr>
+			</table>
+		</description>
+	</element>
+
+	<element name="Wild Magic Surge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_WILD_MAGIC_SORCERY_WILD_MAGIC_SURGE" />
+	<element name="Tides of Chaos Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_WILD_MAGIC_SORCERY_TIDES_OF_CHAOS" />
+	<element name="Bend Luck Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_WILD_MAGIC_SORCERY_BEND_LUCK" />
+	<element name="Controlled Chaos Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_WILD_MAGIC_SORCERY_CONTROLLED_CHAOS" />
+	<element name="Tamed Surge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_WILD_MAGIC_SORCERY_TAMED_SURGE" />
+</elements>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+		<file name="wizard-evoker.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/wizard-evoker.xml" />
+		</update>
+	</info>
+
+	<element name="Evocador" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER">
+		<supports>Wizard Subclass</supports>
+		<description>
+			<p class="flavor">Crie Efeitos Elementais Explosivos</p>
+			<p>Seus estudos se concentram em magia que cria poderosos efeitos elementais, como um frio intenso, chamas ardentes, trovões retumbantes, relâmpagos crepitantes e ácido corrosivo. Alguns Evocadores encontram emprego em forças militares, servindo como artilharia para explodir exércitos de longe. Outros usam seu poder para proteger os outros, enquanto alguns buscam benefício próprio.</p>
+            <div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_EVOCATION_SAVANT" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_POTENT_CANTRIP" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_SCULPT_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_EMPOWERED_EVOCATION" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_OVERCHANNEL" />
+		</description>
+        <sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_EVOCATION_SAVANT" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_POTENT_CANTRIP" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_SCULPT_SPELLS" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_EMPOWERED_EVOCATION" level="10"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_OVERCHANNEL" level="14"/>
+		</rules>
+	</element>
+
+	<element name="Nível 3: Sábio da Evocação" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_EVOCATION_SAVANT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_EVOCATION_SAVANT</requirements>
+		<description>
+			<p>Escolha duas magias de Mago da escola de Evocação, cada uma não podendo ser de um nível maior que o 2, e adicione-as ao seu grimório gratuitamente.</p>
+			<p class="indent">Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você pode adicionar gratuitamente uma magia de Mago da escola de Evocação ao seu grimório. A magia escolhida deve ser de um nível para o qual você tenha espaços de magia.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" number="2" level="3" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="5" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="7" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="9" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="11" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="13" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="15" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="17" spellcasting="Wizard" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Truque Potente" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_POTENT_CANTRIP">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_POTENT_CANTRIP</requirements>
+		<description>
+			<p>Seus truques de dano afetam até criaturas que evitam o impacto total do efeito. Quando você conjura um truque em uma criatura e erra a jogada de ataque ou o alvo obtém sucesso em um teste de resistência contra o truque, o alvo sofre metade do dano do truque (se houver), mas não sofre nenhum efeito adicional do truque.</p>
+		</description>
+		<sheet alt="Truque Potente">
+			<description>Quando conjura um truque numa criatura e você erra o ataque ou ela passa na resistência, o alvo sofre metade do dano do truque, mas não sofre nenhum efeito adicional.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 6: Esculpir Magias" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_SCULPT_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_SCULPT_SPELLS</requirements>
+		<description>
+			<p>Você pode criar bolsões de segurança relativa dentro dos efeitos das suas evocações. Quando você conjura uma magia de Evocação que afeta outras criaturas que possa ver, você pode escolher um número delas igual a 1 mais o nível da magia. As criaturas escolhidas obtêm sucesso automaticamente em seus testes de resistência contra a magia e não sofrem dano se normalmente sofreriam metade do dano num teste bem-sucedido.</p>
+		</description>
+		<sheet alt="Esculpir Magias">
+			<description>Quando conjura uma Evocação que afeta outras criaturas que vê, pode escolher um número delas igual a 1 + o nível da magia. Elas passam automaticamente no teste de resistência e não sofrem dano (mesmo se sofreriam metade).</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 10: Evocação Potencializada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_EMPOWERED_EVOCATION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_EMPOWERED_EVOCATION</requirements>
+		<description>
+			<p>Sempre que você conjurar uma magia de Mago da escola de Evocação, pode adicionar seu modificador de Inteligência a uma jogada de dano daquela magia.</p>
+		</description>
+		<sheet alt="Evocação Potencializada">
+			<description>Quando você conjura uma magia de Evocação de Mago, pode adicionar {{intelligence:modifier}} a uma rolagem de dano da magia.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 14: Sobrecarga" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_OVERCHANNEL">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_OVERCHANNEL</requirements>
+		<description>
+			<p>Você pode aumentar o poder de suas magias. Quando você conjura uma magia de Mago usando um espaço de magia de nível 1 a 5 que causa dano, pode causar o dano máximo com aquela magia no turno em que a conjura.</p>
+			<p class="indent">A primeira vez que o fizer, não sofrerá efeito adverso. Se você usar esta característica de novo antes de terminar um Descanso Longo, sofrerá 2d12 de dano Necrótico por cada nível do espaço de magia imediatamente após conjurá-la. Esse dano ignora Resistência e Imunidade.</p>
+			<p class="indent">A cada vez que você usar esta característica novamente antes de terminar um Descanso Longo, o dano Necrótico por nível de magia aumenta em 1d12.</p>
+		</description>
+		<sheet alt="Sobrecarga">
+			<description>Ao conjurar uma magia de Mago de nível 1 a 5 que cause dano, você pode maximizar o dano no turno em que a conjura. Na 1ª vez, nenhum efeito adverso. A partir da 2ª antes de um Descanso Longo, você sofre 2d12 de dano Necrótico (ignora Resistência/Imunidade) por nível da magia conjurada. Cada uso adicional antes de um Descanso Longo aumenta o dano Necrótico em 1d12 por nível.</description>
+		</sheet>
+	</element>
+	
+	<element name="Evocation Savant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_EVOCATION_SAVANT" />
+	<element name="Potent Cantrip Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_POTENT_CANTRIP" />
+	<element name="Sculpt Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_SCULPT_SPELLS" />
+	<element name="Empowered Evocation Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_EMPOWERED_EVOCATION" />
+	<element name="Overchannel Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_OVERCHANNEL" />
+</elements>

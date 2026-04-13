@@ -1,0 +1,2325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Interno</name>
+		<description>Elementos que deveriam fazer parte do próprio aplicativo</description>
+		<update version="0.1.5">
+			<file name="internal.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/internal.xml" />
+		</update>
+	</info>
+
+	<element name="Redução Adicional no Valor de Habilidade, Força" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_STRENGTH_DECREASE_1">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<div class="reference">
+				<div element="ID_INTERNAL_INFORMATION_ASI_STRENGTH_DECREASE_1" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Melhoria Adicional no Valor de Habilidade</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Redução Adicional no Valor de Habilidade, Destreza" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_DEXTERITY_DECREASE_1">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<div class="reference">
+				<div element="ID_INTERNAL_INFORMATION_ASI_DEXTERITY_DECREASE_1" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Melhoria Adicional no Valor de Habilidade</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Redução Adicional no Valor de Habilidade, Constituição" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_CONSTITUTION_DECREASE_1">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<div class="reference">
+				<div element="ID_INTERNAL_INFORMATION_ASI_CONSTITUTION_DECREASE_1" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Melhoria Adicional no Valor de Habilidade</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Redução Adicional no Valor de Habilidade, Inteligência" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_INTELLIGENCE_DECREASE_1">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<div class="reference">
+				<div element="ID_INTERNAL_INFORMATION_ASI_INTELLIGENCE_DECREASE_1" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Melhoria Adicional no Valor de Habilidade</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Redução Adicional no Valor de Habilidade, Sabedoria" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_WISDOM_DECREASE_1">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<div class="reference">
+				<div element="ID_INTERNAL_INFORMATION_ASI_WISDOM_DECREASE_1" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Melhoria Adicional no Valor de Habilidade</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Redução Adicional no Valor de Habilidade, Carisma" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_CHARISMA_DECREASE_1">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<div class="reference">
+				<div element="ID_INTERNAL_INFORMATION_ASI_CHARISMA_DECREASE_1" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Melhoria Adicional no Valor de Habilidade</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Força" type="Information" source="Internal" id="ID_INTERNAL_INFORMATION_ASI_STRENGTH_DECREASE_1">
+		<description>
+			<p>Sua Força diminui em 1.</p>
+		</description>
+	</element>
+
+	<element name="Destreza" type="Information" source="Internal" id="ID_INTERNAL_INFORMATION_ASI_DEXTERITY_DECREASE_1">
+		<description>
+			<p>Sua Destreza diminui em 1.</p>
+		</description>
+	</element>
+
+	<element name="Constituição" type="Information" source="Internal" id="ID_INTERNAL_INFORMATION_ASI_CONSTITUTION_DECREASE_1">
+		<description>
+			<p>Sua Constituição diminui em 1.</p>
+		</description>
+	</element>
+
+	<element name="Inteligência" type="Information" source="Internal" id="ID_INTERNAL_INFORMATION_ASI_INTELLIGENCE_DECREASE_1">
+		<description>
+			<p>Sua Inteligência diminui em 1.</p>
+		</description>
+	</element>
+
+	<element name="Sabedoria" type="Information" source="Internal" id="ID_INTERNAL_INFORMATION_ASI_WISDOM_DECREASE_1">
+		<description>
+			<p>Sua Sabedoria diminui em 1.</p>
+		</description>
+	</element>
+
+	<element name="Carisma" type="Information" source="Internal" id="ID_INTERNAL_INFORMATION_ASI_CHARISMA_DECREASE_1">
+		<description>
+			<p>Seu Carisma diminui em 1.</p>
+		</description>
+	</element>
+
+	<element name="Força" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2</requirements>
+		<supports>Custom Ability Score Increase 1</supports>
+		<description>
+			<p>Sua Força aumenta em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Destreza" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2</requirements>
+		<supports>Custom Ability Score Increase 1</supports>
+		<description>
+			<p>Sua Destreza aumenta em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Constituição" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2</requirements>
+		<supports>Custom Ability Score Increase 1</supports>
+		<description>
+			<p>Sua Constituição aumenta em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Inteligência" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2</requirements>
+		<supports>Custom Ability Score Increase 1</supports>
+		<description>
+			<p>Sua Inteligência aumenta em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Sabedoria" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1">
+		<supports>Custom Ability Score Increase 1</supports>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2</requirements>
+		<description>
+			<p>Sua Sabedoria aumenta em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Carisma" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1">
+		<supports>Custom Ability Score Increase 1</supports>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2</requirements>
+		<description>
+			<p>Seu Carisma aumenta em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Força" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1</requirements>
+		<supports>Custom Ability Score Increase 2</supports>
+		<description>
+			<p>Sua Força aumenta em 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Destreza" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1</requirements>
+		<supports>Custom Ability Score Increase 2</supports>
+		<description>
+			<p>Sua Destreza aumenta em 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Constituição" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1</requirements>
+		<supports>Custom Ability Score Increase 2</supports>
+		<description>
+			<p>Sua Constituição aumenta em 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Inteligência" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1</requirements>
+		<supports>Custom Ability Score Increase 2</supports>
+		<description>
+			<p>Sua Inteligência aumenta em 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Sabedoria" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1</requirements>
+		<supports>Custom Ability Score Increase 2</supports>
+		<description>
+			<p>Sua Sabedoria aumenta em 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Carisma" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1</requirements>
+		<supports>Custom Ability Score Increase 2</supports>
+		<description>
+			<p>Seu Carisma aumenta em 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" alt="Melhoria no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Força" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_DECREASE_1">
+		<supports>Custom Ability Score Decrease 1</supports>
+		<description>
+			<p>Sua Força diminui em 1.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Destreza" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_DECREASE_1">
+		<supports>Custom Ability Score Decrease 1</supports>
+		<description>
+			<p>Sua Destreza diminui em 1.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Constituição" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_DECREASE_1">
+		<supports>Custom Ability Score Decrease 1</supports>
+		<description>
+			<p>Sua Constituição diminui em 1.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Inteligência" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_DECREASE_1">
+		<supports>Custom Ability Score Decrease 1</supports>
+		<description>
+			<p>Sua Inteligência diminui em 1.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Sabedoria" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_DECREASE_1">
+		<supports>Custom Ability Score Decrease 1</supports>
+		<description>
+			<p>Sua Sabedoria diminui em 1.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Carisma" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_DECREASE_1">
+		<supports>Custom Ability Score Decrease 1</supports>
+		<description>
+			<p>Seu Carisma diminui em 1.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="-1" alt="Redução no Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_1">
+		<supports>Custom Ability Score Improvement Option</supports>
+		<description>
+			<p>Você pode aumentar um dos valores em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria Personalizada no Valor de Habilidade +2" supports="Custom Ability Score Increase 2" />
+			<select type="Ability Score Improvement" name="Melhoria Personalizada no Valor de Habilidade +1" supports="Custom Ability Score Increase 1" />
+		</rules>
+	</element>
+
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_2">
+		<supports>Custom Ability Score Improvement Option</supports>
+		<description>
+			<p>Você pode aumentar três valores diferentes em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria Personalizada no Valor de Habilidade +1" number="3" supports="Custom Ability Score Increase 1" />
+		</rules>
+	</element>
+
+	<element name="Miúdo" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TINY">
+		<description>
+			<p>Seu tamanho é Miúdo.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Size" id="ID_SIZE_TINY" />
+		</rules>
+	</element>
+
+	<element name="Pequeno" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_SMALL">
+		<description>
+			<p>Seu tamanho é Pequeno.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Size" id="ID_SIZE_SMALL" />
+		</rules>
+	</element>
+
+	<element name="Médio" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_MEDIUM">
+		<description>
+			<p>Seu tamanho é Médio.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+		</rules>
+	</element>
+
+	<element name="Grande" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_LARGE">
+		<description>
+			<p>Seu tamanho é Grande.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Size" id="ID_SIZE_LARGE" />
+		</rules>
+	</element>
+
+	<element name="Enorme" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_HUGE">
+		<description>
+			<p>Seu tamanho é Enorme.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Size" id="ID_SIZE_HUGE" />
+		</rules>
+	</element>
+
+	<element name="Imenso" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_GARGANTUAN">
+		<description>
+			<p>Seu tamanho é Imenso.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Size" id="ID_SIZE_GARGANTUAN" />
+		</rules>
+	</element>
+
+	<element name="Colossal" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_COLOSSAL">
+		<description>
+			<p>Seu tamanho é Colossal.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Size" id="ID_SIZE_COLOSSAL" />
+		</rules>
+	</element>
+
+	<element name="Espaços de Conjuração de Multiclasse Metade Arredondado para Cima" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF_UP">
+		<rules>
+			<stat name="multiclass:spellcasting:level" value="1" level="1" />
+			<stat name="multiclass:spellcasting:level" value="1" level="3" />
+			<stat name="multiclass:spellcasting:level" value="1" level="5" />
+			<stat name="multiclass:spellcasting:level" value="1" level="7" />
+			<stat name="multiclass:spellcasting:level" value="1" level="9" />
+			<stat name="multiclass:spellcasting:level" value="1" level="11" />
+			<stat name="multiclass:spellcasting:level" value="1" level="13" />
+			<stat name="multiclass:spellcasting:level" value="1" level="15" />
+			<stat name="multiclass:spellcasting:level" value="1" level="17" />
+			<stat name="multiclass:spellcasting:level" value="1" level="19" />
+		</rules>
+	</element>
+
+	<element name="Tipo de Criatura" type="Information" source="Internal" id="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE">
+		<description>
+			<p>Toda criatura em D&amp;D, incluindo todo personagem de jogador, possui uma marcação especial nas regras que identifica qual é o tipo de criatura dela. A maioria dos personagens de jogador é do tipo Humanoide. Uma opção de espécie apresentada aqui informa qual é o tipo de criatura do seu personagem.</p>
+			<p class="indent"><strong><em>Lista de Tipos.</em></strong> Aqui está uma lista dos tipos de criatura do jogo em ordem alfabética: Aberração, Besta, Celestial, Construto, Dragão, Elemental, Fada, Ínfero, Gigante, Humanoide, Monstruosidade, Limo, Planta, Morto-Vivo. Esses tipos não têm regras em si mesmos, mas algumas regras do jogo afetam criaturas de certos tipos de maneiras diferentes. Por exemplo, o texto da magia <i>Curar Ferimentos</i> especifica que a magia não funciona em uma criatura que tenha o tipo Construto ou Morto-Vivo.</p>
+			<p class="indent"><strong><em>Ter Mais de Um Tipo.</em></strong> Algumas criaturas são de mais de um tipo de criatura. Se um efeito funciona em pelo menos um dos tipos de uma criatura, esse efeito pode funcionar naquela criatura. Por exemplo, se você é tanto um Humanoide quanto um Morto-Vivo, <i>Curar Ferimentos</i> funciona em você, pois a magia funciona em um Humanoide.</p>
+		</description>
+	</element>
+
+	<element name="Aberração" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_ABERRATION">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Aberração.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Aberração.</description>
+		</sheet>
+	</element>
+
+	<element name="Besta" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_BEAST">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Besta.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Besta.</description>
+		</sheet>
+	</element>
+
+	<element name="Celestial" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_CELESTIAL">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Celestial.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+		</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Celestial.</description>
+		</sheet>
+	</element>
+
+	<element name="Construto" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_CONSTRUCT">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Construto.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Construto.</description>
+		</sheet>
+	</element>
+
+	<element name="Dragão" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_DRAGON">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Dragão.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Dragão.</description>
+		</sheet>
+	</element>
+
+	<element name="Elemental" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_ELEMENTAL">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Elemental.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Elemental.</description>
+		</sheet>
+	</element>
+
+	<element name="Fada" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_FEY">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Fada.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Fada.</description>
+		</sheet>
+	</element>
+
+	<element name="Ínfero" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_FIEND">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Ínfero.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Ínfero.</description>
+		</sheet>
+	</element>
+
+	<element name="Gigante" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_GIANT">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Gigante.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Gigante.</description>
+		</sheet>
+	</element>
+
+	<element name="Humanoide" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Humanoide.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Humanoide.</description>
+		</sheet>
+	</element>
+
+	<element name="Humanoide Anão" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_DWARF">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Você é um Humanoide. Você também é considerado um anão para qualquer pré-requisito ou efeito que exija que você seja um anão.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Humanoide. Você também é considerado um anão para qualquer pré-requisito ou efeito que exija que você seja um anão.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DWARF" />
+		</rules>
+	</element>
+
+	<element name="Humanoide Elfo" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_ELF">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Você é um Humanoide. Você também é considerado um elfo para qualquer pré-requisito ou efeito que exija que você seja um elfo.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Humanoide. Você também é considerado um elfo para qualquer pré-requisito ou efeito que exija que você seja um elfo.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ELF" />
+		</rules>
+	</element>
+
+	<element name="Humanoide Goblinoide" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_GOBLINOID">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Você é um Humanoide. Você também é considerado um goblinoide para qualquer pré-requisito ou efeito que exija que você seja um goblinoide.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Humanoide. Você também é considerado um goblinoide para qualquer pré-requisito ou efeito que exija que você seja um goblinoide.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_GOBLINOID" />
+		</rules>
+	</element>
+
+	<element name="Humanoide Gnomo" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_GNOME">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Você é um Humanoide. Você também é considerado um gnomo para qualquer pré-requisito ou efeito que exija que você seja um gnomo.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Humanoide. Você também é considerado um gnomo para qualquer pré-requisito ou efeito que exija que você seja um gnomo.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_GNOME" />
+		</rules>
+	</element>
+
+	<element name="Monstruosidade" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_MONSTROSITY">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Monstruosidade.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Monstruosidade.</description>
+		</sheet>
+	</element>
+
+	<element name="Limo" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_OOZE">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Limo.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Limo.</description>
+		</sheet>
+	</element>
+
+	<element name="Planta" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_PLANT">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Planta.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Planta.</description>
+		</sheet>
+	</element>
+
+	<element name="Morto-Vivo" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_UNDEAD">
+		<supports>Creature Type</supports>
+		<description>
+			<p>Seu tipo de criatura é Morto-Vivo.</p>
+			<div class="reference">
+				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Tipo de Criatura">
+			<description>Morto-Vivo.</description>
+		</sheet>
+	</element>
+
+	<element name="Deslocamento: Escalada Igual à Caminhada" type="Item" source="Internal" id="ID_INTERNAL_ITEM_CLIMB_WALKING">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem um deslocamento de escalada igual ao seu deslocamento de caminhada.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:climb" value="innate speed" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Deslocamento: Escalada +1,5 Metro" type="Item" source="Internal" id="ID_INTERNAL_ITEM_CLIMB_5">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem um deslocamento adicional de escalada de 1,5 metro.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:climb" value="5" />
+		</rules>
+	</element>
+
+	<element name="Deslocamento: Escalada +3 Metros" type="Item" source="Internal" id="ID_INTERNAL_ITEM_CLIMB_10">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem um deslocamento adicional de escalada de 3 metros.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:climb" value="10"/>
+		</rules>
+	</element>
+
+	<element name="Deslocamento: Natação Igual à Caminhada" type="Item" source="Internal" id="ID_INTERNAL_ITEM_SWIM_WALKING">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem um deslocamento de natação igual ao seu deslocamento de caminhada.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:swim" value="innate speed" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Deslocamento: Natação +1,5 Metro" type="Item" source="Internal" id="ID_INTERNAL_ITEM_SWIM_5">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem um deslocamento adicional de natação de 1,5 metro.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:swim" value="5" />
+		</rules>
+	</element>
+
+	<element name="Deslocamento: Natação +3 Metros" type="Item" source="Internal" id="ID_INTERNAL_ITEM_SWIM_10">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem um deslocamento adicional de natação de 3 metros.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:swim" value="10" />
+		</rules>
+	</element>
+
+	<element name="Deslocamento: Voo Igual à Caminhada" type="Item" source="Internal" id="ID_INTERNAL_ITEM_FLY_WALKING">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem um deslocamento de voo igual ao seu deslocamento de caminhada.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:fly" value="innate speed" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Deslocamento: Voo +1,5 Metro" type="Item" source="Internal" id="ID_INTERNAL_ITEM_FLY_5">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem um deslocamento adicional de voo de 1,5 metro.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:fly" value="5"/>
+		</rules>
+	</element>
+
+	<element name="Deslocamento: Voo +3 Metros" type="Item" source="Internal" id="ID_INTERNAL_ITEM_FLY_10">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem um deslocamento adicional de voo de 3 metros.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:fly" value="10" />
+		</rules>
+	</element>
+
+	<element name="Deslocamento: Caminhada +1,5 Metro" type="Item" source="Internal" id="ID_INTERNAL_ITEM_WALK_5">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem um deslocamento adicional de caminhada de 1,5 metro.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed" value="5"/>
+		</rules>
+	</element>
+
+	<element name="Deslocamento: Caminhada +3 Metros" type="Item" source="Internal" id="ID_INTERNAL_ITEM_WALK_10">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem um deslocamento adicional de caminhada de 3 metros.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed" value="10" />
+		</rules>
+	</element>
+
+	<element name="Visão no Escuro Menor" type="Vision" source="Internal" id="ID_VISION_LESSER_DARKVISION">
+		<requirements>!(ID_VISION_SUPERIORDARKVISION || ID_VISION_DARKVISION)</requirements>
+		<description>
+			<p>Muitas criaturas nos mundos de D&amp;D, especialmente aquelas que habitam o subsolo, possuem visão no escuro. Dentro de um alcance especificado, uma criatura com visão no escuro pode enxergar na escuridão como se ela fosse luz de penumbra, de modo que as áreas de escuridão são apenas levemente obscurecidas para essa criatura. No entanto, a criatura não consegue discernir cores na escuridão, apenas tons de cinza.</p>
+		</description>
+		<sheet>
+			<description>Você pode enxergar na penumbra a até {{darkvision:range}} metros de você como se fosse luz plena, e na escuridão como se fosse luz de penumbra.</description>
+		</sheet>
+		<rules>
+			<stat name="darkvision:range" value="0" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Visão no Escuro Superior" type="Vision" source="Internal" id="ID_VISION_SUPERIORDARKVISION">
+		<description>
+			<p>Muitas criaturas nos mundos de D&amp;D, especialmente aquelas que habitam o subsolo, possuem visão no escuro. Dentro de um alcance especificado, uma criatura com visão no escuro pode enxergar na escuridão como se ela fosse luz de penumbra, de modo que as áreas de escuridão são apenas levemente obscurecidas para essa criatura. No entanto, a criatura não consegue discernir cores na escuridão, apenas tons de cinza.</p>
+		</description>
+		<sheet>
+			<description>Você pode enxergar na penumbra a até {{darkvision:range}} metros de você como se fosse luz plena, e na escuridão como se fosse luz de penumbra.</description>
+		</sheet>
+		<rules>
+			<stat name="darkvision:range" value="36" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Visão: Visão no Escuro +3 Metros" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_DARKVISION_10">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem 3 metros adicionais de visão no escuro.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
+			<stat name="darkvision:range" value="10" />
+		</rules>
+	</element>
+
+	<element name="Visão: Visão no Escuro +1,5 Metro" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_DARKVISION_5">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem 1,5 metro adicional de visão no escuro.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
+			<stat name="darkvision:range" value="5" />
+		</rules>
+	</element>
+
+	<element name="Visão: Percepção às Cegas +3 Metros" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_BLINDSIGHT_10">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem 3 metros adicionais de percepção às cegas.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
+			<stat name="blindsight:range" value="10" />
+		</rules>
+	</element>
+
+	<element name="Visão: Percepção às Cegas +1,5 Metro" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_BLINDSIGHT_5">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem 1,5 metro adicional de percepção às cegas.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
+			<stat name="blindsight:range" value="5" />
+		</rules>
+	</element>
+
+	<element name="Visão: Visão Verdadeira +3 Metros" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TRUESIGHT_10">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem 3 metros adicionais de visão verdadeira.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Vision" id="ID_VISION_TRUESIGHT" />
+			<stat name="truesight:range" value="10" />
+		</rules>
+	</element>
+
+	<element name="Visão: Visão Verdadeira +1,5 Metro" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TRUESIGHT_5">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem 1,5 metro adicional de visão verdadeira.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Vision" id="ID_VISION_TRUESIGHT" />
+			<stat name="truesight:range" value="5" />
+		</rules>
+	</element>
+
+	<element name="Visão: Sentido Sísmico +3 Metros" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TREMORSENSE_10">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem 3 metros adicionais de sentido sísmico.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Vision" id="ID_VISION_TREMORSENSE" />
+			<stat name="tremorsense:range" value="10" />
+		</rules>
+	</element>
+
+	<element name="Visão: Sentido Sísmico +1,5 Metro" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TREMORSENSE_5">
+		<description>
+			<p><i>Você pode equipar este item para “ativá-lo”. Ele permanece oculto do inventário na sua ficha de personagem.</i></p>
+			<p>Você tem 1,5 metro adicional de sentido sísmico.</p>
+		</description>
+		<setters>
+			<set name="category">Característica Adicional</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Vision" id="ID_VISION_TREMORSENSE" />
+			<stat name="tremorsense:range" value="5" />
+		</rules>
+	</element>
+
+	
+	<element name="Raça Draconato" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DRAGONBORN" />
+	<element name="Raça Anão" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DWARF" />
+	<element name="Raça Elfo" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_ELF" />
+	<element name="Raça Drow" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DARK_ELF" />
+	<element name="Raça Alto Elfo" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HIGH_ELF" />
+	<element name="Raça Elfo da Floresta" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_WOOD_ELF" />
+	<element name="Raça Gnomo" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GNOME" />
+	<element name="Raça Goblinoide" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GOBLINOID" />
+	<element name="Raça Meio-Elfo" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HALF_ELF" />
+	<element name="Raça Meio-Orc" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HALF_ORC" />
+	<element name="Raça Halfling" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HALFLING" />
+	<element name="Raça Humano" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HUMAN" />
+	<element name="Raça Tiefling" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_TIEFLING" />
+	<element name="Raça Aarakocra" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_AARAKOCRA" />
+	<element name="Raça Aasimar" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_AASIMAR" />
+	<element name="Raça Bugbear" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_BUGBEAR" />
+	<element name="Raça Centauro" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_CENTAUR" />
+	<element name="Raça Metamorfo" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_CHANGELING" />
+	<element name="Raça Gnomo das Profundezas" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DEEP_GNOME" />
+	<element name="Raça Duergar" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DUERGAR" />
+	<element name="Raça Eladrin" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_ELADRIN" />
+	<element name="Raça Fada" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_FAIRY" />
+	<element name="Raça Firbolg" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_FIRBOLG" />
+	<element name="Raça Genasi" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GENASI" />
+	<element name="Raça Genasi do Ar" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_AIR_GENASI" />
+	<element name="Raça Genasi da Terra" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_EARTH_GENASI" />
+	<element name="Raça Genasi do Fogo" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_FIRE_GENASI" />
+	<element name="Raça Genasi da Água" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_WATER_GENASI" />
+	<element name="Raça Gith" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GITH" />
+	<element name="Raça Githyanki" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GITHYANKI" />
+	<element name="Raça Githzerai" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GITHZERAI" />
+	<element name="Raça Goblin" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GOBLIN" />
+	<element name="Raça Golias" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GOLIATH" />
+	<element name="Raça Harengon" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HARENGON" />
+	<element name="Raça Hobgoblin" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HOBGOBLIN" />
+	<element name="Raça Kenku" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_KENKU" />
+	<element name="Raça Kobold" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_KOBOLD" />
+	<element name="Raça Povo Lagarto" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_LIZARDFOLK" />
+	<element name="Raça Minotauro" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_MINOTAUR" />
+	<element name="Raça Orc" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_ORC" />
+	<element name="Raça Sátiro" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_SATYR" />
+	<element name="Raça Elfo do Mar" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_SEA_ELF" />
+	<element name="Raça Shadar-Kai" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_SHADAR_KAI" />
+	<element name="Raça Transmorfo" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_SHIFTER" />
+	<element name="Raça Tabaxi" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_TABAXI" />
+	<element name="Raça Tortle" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_TORTLE" />
+	<element name="Raça Tritão" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_TRITON" />
+	<element name="Raça Yuan-Ti" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_YUAN_TI" />
+	<element name="Raça Corujo" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_OWLIN" />
+	<element name="Raça Kalashtar" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_KALASHTAR" />
+	<element name="Raça Forjado Bélico" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_WARFORGED" />
+	<element name="Raça Dhampir" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DHAMPIR" />
+
+	<element name="Ignorar Requisito de Força de Armadura" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT" />
+	<element name="Antecedente com um Talento" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_BACKGROUND_WITH_A_FEAT" />
+
+	<element name="Bumerangue" type="Weapon" source="Internal" id="ID_INTERNAL_WEAPON_BOOMERANG">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+			<p>O bumerangue é uma arma à distância, e qualquer criatura proficiente com a azagaia também é proficiente com esta arma.</p>
+			<p class="indent">Em caso de erro no ataque, um bumerangue retorna para a mão de quem o arremessou.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">18/36 m</set>
+			<set name="damage" type="bludgeoning">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN</set>
+			<set name="sourceUrl">https://www.dndbeyond.com/equipment/boomerang</set>
+		</setters>
+	</element>
+
+	<element name="Desbloqueador de Multiclasse" type="Item" source="Internal" id="ID_INTERNAL_ITEM_MULTICLASS_UNLOCKER">
+		<description>
+			<p>Uma vez equipado, este item permite que você ignore os pré-requisitos de Multiclasse para todas as Classes.</p>
+			<p><u><b>Nota.</b></u> Algumas Classes (não oficiais) provavelmente não terão as partes que permitem que este item funcione, exigindo, portanto, que você ainda cumpra seus pré-requisitos.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER" />
+		</rules>
+	</element>
+	<element name="Desbloqueador de Multiclasse" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER" />
+
+	<element name="Proficiência ou Dobro em Acrobacia" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ACROBATICS">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ACROBATICS" requirements="!ID_PROFICIENCY_SKILL_ACROBATICS" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ACROBATICS_DOUBLE" requirements="ID_PROFICIENCY_SKILL_ACROBATICS" />
+		</rules>
+	</element>
+	<element name="Proficiência em Acrobacia" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ACROBATICS">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Acrobacia" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ACROBATICS_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ACROBATICS" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ACROBATICS" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Lidar com Animais" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ANIMALHANDLING">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ANIMALHANDLING" requirements="!ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ANIMALHANDLING_DOUBLE" requirements="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+		</rules>
+	</element>
+	<element name="Proficiência em Lidar com Animais" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ANIMALHANDLING">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Lidar com Animais" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ANIMALHANDLING_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ANIMAL_HANDLING" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ANIMALHANDLING" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Arcanismo" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ARCANA">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ARCANA" requirements="!ID_PROFICIENCY_SKILL_ARCANA" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ARCANA_DOUBLE" requirements="ID_PROFICIENCY_SKILL_ARCANA" />
+		</rules>
+	</element>
+	<element name="Proficiência em Arcanismo" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ARCANA">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Arcanismo" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ARCANA_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ARCANA" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ARCANA" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Atletismo" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ATHLETICS">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ATHLETICS" requirements="!ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ATHLETICS_DOUBLE" requirements="ID_PROFICIENCY_SKILL_ATHLETICS" />
+		</rules>
+	</element>
+	<element name="Proficiência em Atletismo" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ATHLETICS">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Atletismo" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ATHLETICS_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ATHLETICS" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_ATHLETICS" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Enganação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_DECEPTION">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_DECEPTION" requirements="!ID_PROFICIENCY_SKILL_DECEPTION" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_DECEPTION_DOUBLE" requirements="ID_PROFICIENCY_SKILL_DECEPTION" />
+		</rules>
+	</element>
+	<element name="Proficiência em Enganação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_DECEPTION">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Enganação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_DECEPTION_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_DECEPTION" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_DECEPTION" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em História" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_HISTORY">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_HISTORY" requirements="!ID_PROFICIENCY_SKILL_HISTORY" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_HISTORY_DOUBLE" requirements="ID_PROFICIENCY_SKILL_HISTORY" />
+		</rules>
+	</element>
+	<element name="Proficiência em História" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_HISTORY">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em História" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_HISTORY_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_HISTORY" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_HISTORY" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Intuição" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_INSIGHT">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INSIGHT" requirements="!ID_PROFICIENCY_SKILL_INSIGHT" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INSIGHT_DOUBLE" requirements="ID_PROFICIENCY_SKILL_INSIGHT" />
+		</rules>
+	</element>
+	<element name="Proficiência em Intuição" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INSIGHT">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Intuição" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INSIGHT_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_INSIGHT" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INSIGHT" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Intimidação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_INTIMIDATION">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INTIMIDATION" requirements="!ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INTIMIDATION_DOUBLE" requirements="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+		</rules>
+	</element>
+	<element name="Proficiência em Intimidação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INTIMIDATION">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Intimidação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INTIMIDATION_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_INTIMIDATION" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INTIMIDATION" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Investigação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_INVESTIGATION">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INVESTIGATION" requirements="!ID_PROFICIENCY_SKILL_INVESTIGATION" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INVESTIGATION_DOUBLE" requirements="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+		</rules>
+	</element>
+	<element name="Proficiência em Investigação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INVESTIGATION">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Investigação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INVESTIGATION_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_INVESTIGATION" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_INVESTIGATION" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Medicina" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_MEDICINE">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_MEDICINE" requirements="!ID_PROFICIENCY_SKILL_MEDICINE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_MEDICINE_DOUBLE" requirements="ID_PROFICIENCY_SKILL_MEDICINE" />
+		</rules>
+	</element>
+	<element name="Proficiência em Medicina" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_MEDICINE">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Medicina" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_MEDICINE_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_MEDICINE" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_MEDICINE" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Natureza" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_NATURE">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_NATURE" requirements="!ID_PROFICIENCY_SKILL_NATURE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_NATURE_DOUBLE" requirements="ID_PROFICIENCY_SKILL_NATURE" />
+		</rules>
+	</element>
+	<element name="Proficiência em Natureza" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_NATURE">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Natureza" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_NATURE_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_NATURE" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_NATURE" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Percepção" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERCEPTION">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERCEPTION_DOUBLE" requirements="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	<element name="Proficiência em Percepção" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERCEPTION">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Percepção" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERCEPTION_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_PERCEPTION" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Atuação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERFORMANCE">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERFORMANCE" requirements="!ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERFORMANCE_DOUBLE" requirements="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+		</rules>
+	</element>
+	<element name="Proficiência em Atuação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERFORMANCE">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Atuação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERFORMANCE_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_PERFORMANCE" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERFORMANCE" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Persuasão" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERSUASION">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_PROFICIENCY_SKILL_PERSUASION" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERSUASION_DOUBLE" requirements="ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+	<element name="Proficiência em Persuasão" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERSUASION">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Persuasão" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERSUASION_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_PERSUASION" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Religião" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_RELIGION">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_RELIGION" requirements="!ID_PROFICIENCY_SKILL_RELIGION" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_RELIGION_DOUBLE" requirements="ID_PROFICIENCY_SKILL_RELIGION" />
+		</rules>
+	</element>
+	<element name="Proficiência em Religião" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_RELIGION">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Religião" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_RELIGION_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_RELIGION" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_RELIGION" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Prestidigitação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_SLEIGHTOFHAND">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_SLEIGHTOFHAND" requirements="!ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_SLEIGHTOFHAND_DOUBLE" requirements="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+		</rules>
+	</element>
+	<element name="Proficiência em Prestidigitação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_SLEIGHTOFHAND">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Prestidigitação" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_SLEIGHTOFHAND_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_SLEIGHT_OF_HAND" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Furtividade" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_STEALTH">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_STEALTH" requirements="!ID_PROFICIENCY_SKILL_STEALTH" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_STEALTH_DOUBLE" requirements="ID_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+	</element>
+	<element name="Proficiência em Furtividade" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_STEALTH">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Furtividade" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_STEALTH_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_STEALTH" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+	</element>
+
+	<element name="Proficiência ou Dobro em Sobrevivência" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_SURVIVAL">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_SURVIVAL_DOUBLE" requirements="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+	<element name="Proficiência em Sobrevivência" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_SURVIVAL">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+	<element name="Dobro de Proficiência em Sobrevivência" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_SURVIVAL_DOUBLE">
+		<rules>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_SURVIVAL" requirements="!ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+
+	<element name="Grupo de Armas (Armas de Haste)" type="Weapon Group" source="Internal" id="ID_INTERNAL_WEAPON_GROUP_POLEARMS" />
+
+	<element name="Melhoria no Valor de Habilidade do Antecedente" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+
+	<element name="Característica Estilo de Luta" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE" />
+
+	<element name="Característica Conjuração" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
+
+	<element name="Característica Magia de Pacto" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PACT_MAGIC_FEATURE" />
+
+	<element name="Força +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH">
+		<supports>Feat Ability Score Increase</supports>
+		<description>
+			<p>Sua Força aumenta em 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Destreza +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY">
+		<supports>Feat Ability Score Increase</supports>
+		<description>
+			<p>Sua Destreza aumenta em 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" alt="Aumento de Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Constituição +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION">
+		<supports>Feat Ability Score Increase</supports>
+		<description>
+			<p>Sua Constituição aumenta em 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" alt="Aumento de Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Inteligência +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE">
+		<supports>Feat Ability Score Increase</supports>
+		<description>
+			<p>Sua Inteligência aumenta em 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" alt="Aumento de Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Sabedoria +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM">
+		<supports>Feat Ability Score Increase</supports>
+		<description>
+			<p>Sua Sabedoria aumenta em 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" alt="Aumento de Valor de Habilidade" />
+		</rules>
+	</element>
+	<element name="Carisma +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA">
+		<supports>Feat Ability Score Increase</supports>
+		<description>
+			<p>Seu Carisma aumenta em 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" alt="Aumento de Valor de Habilidade" />
+		</rules>
+	</element>
+
+	<element name="Força +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_STRENGTH">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Sua Força aumenta em 1, até um máximo de 30.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade" />
+			<stat name="strength:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Destreza +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_DEXTERITY">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Sua Destreza aumenta em 1, até um máximo de 30.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" alt="Aumento de Valor de Habilidade" />
+			<stat name="dexterity:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Constituição +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_CONSTITUTION">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Sua Constituição aumenta em 1, até um máximo de 30.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" alt="Aumento de Valor de Habilidade" />
+			<stat name="constitution:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Inteligência +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_INTELLIGENCE">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Sua Inteligência aumenta em 1, até um máximo de 30.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" alt="Aumento de Valor de Habilidade" />
+			<stat name="intelligence:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Sabedoria +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_WISDOM">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Sua Sabedoria aumenta em 1, até um máximo de 30.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" alt="Aumento de Valor de Habilidade" />
+			<stat name="wisdom:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Carisma +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_CHARISMA">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Seu Carisma aumenta em 1, até um máximo de 30.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" alt="Aumento de Valor de Habilidade" />
+			<stat name="charisma:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Valor de Habilidade Máximo Acima de 20" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_ABILITY_SCORE_MAXIMUM_OVER_20">
+		<requirements>[type:class]</requirements>
+		<rules>
+			<stat name="strength:max" value="1" requirements="[strength:max:extra:1],![strength:max:extra:2]" />
+			<stat name="dexterity:max" value="1" requirements="[dexterity:max:extra:1],![dexterity:max:extra:2]" />
+			<stat name="constitution:max" value="1" requirements="[constitution:max:extra:1],![constitution:max:extra:2]" />
+			<stat name="intelligence:max" value="1" requirements="[intelligence:max:extra:1],![intelligence:max:extra:2]" />
+			<stat name="wisdom:max" value="1" requirements="[wisdom:max:extra:1],![wisdom:max:extra:2]" />
+			<stat name="charisma:max" value="1" requirements="[charisma:max:extra:1],![charisma:max:extra:2]" />
+			<stat name="strength:max" value="2" requirements="[strength:max:extra:2],![strength:max:extra:3]" />
+			<stat name="dexterity:max" value="2" requirements="[dexterity:max:extra:2],![dexterity:max:extra:3]" />
+			<stat name="constitution:max" value="2" requirements="[constitution:max:extra:2],![constitution:max:extra:3]" />
+			<stat name="intelligence:max" value="2" requirements="[intelligence:max:extra:2],![intelligence:max:extra:3]" />
+			<stat name="wisdom:max" value="2" requirements="[wisdom:max:extra:2],![wisdom:max:extra:3]" />
+			<stat name="charisma:max" value="2" requirements="[charisma:max:extra:2],![charisma:max:extra:3]" />
+			<stat name="strength:max" value="3" requirements="[strength:max:extra:3],![strength:max:extra:4]" />
+			<stat name="dexterity:max" value="3" requirements="[dexterity:max:extra:3],![dexterity:max:extra:4]" />
+			<stat name="constitution:max" value="3" requirements="[constitution:max:extra:3],![constitution:max:extra:4]" />
+			<stat name="intelligence:max" value="3" requirements="[intelligence:max:extra:3],![intelligence:max:extra:4]" />
+			<stat name="wisdom:max" value="3" requirements="[wisdom:max:extra:3],![wisdom:max:extra:4]" />
+			<stat name="charisma:max" value="3" requirements="[charisma:max:extra:3],![charisma:max:extra:4]" />
+			<stat name="strength:max" value="4" requirements="[strength:max:extra:4],![strength:max:extra:5]" />
+			<stat name="dexterity:max" value="4" requirements="[dexterity:max:extra:4],![dexterity:max:extra:5]" />
+			<stat name="constitution:max" value="4" requirements="[constitution:max:extra:4],![constitution:max:extra:5]" />
+			<stat name="intelligence:max" value="4" requirements="[intelligence:max:extra:4],![intelligence:max:extra:5]" />
+			<stat name="wisdom:max" value="4" requirements="[wisdom:max:extra:4],![wisdom:max:extra:5]" />
+			<stat name="charisma:max" value="4" requirements="[charisma:max:extra:4],![charisma:max:extra:5]" />
+			<stat name="strength:max" value="5" requirements="[strength:max:extra:5],![strength:max:extra:6]" />
+			<stat name="dexterity:max" value="5" requirements="[dexterity:max:extra:5],![dexterity:max:extra:6]" />
+			<stat name="constitution:max" value="5" requirements="[constitution:max:extra:5],![constitution:max:extra:6]" />
+			<stat name="intelligence:max" value="5" requirements="[intelligence:max:extra:5],![intelligence:max:extra:6]" />
+			<stat name="wisdom:max" value="5" requirements="[wisdom:max:extra:5],![wisdom:max:extra:6]" />
+			<stat name="charisma:max" value="5" requirements="[charisma:max:extra:5],![charisma:max:extra:6]" />
+			<stat name="strength:max" value="6" requirements="[strength:max:extra:6],![strength:max:extra:7]" />
+			<stat name="dexterity:max" value="6" requirements="[dexterity:max:extra:6],![dexterity:max:extra:7]" />
+			<stat name="constitution:max" value="6" requirements="[constitution:max:extra:6],![constitution:max:extra:7]" />
+			<stat name="intelligence:max" value="6" requirements="[intelligence:max:extra:6],![intelligence:max:extra:7]" />
+			<stat name="wisdom:max" value="6" requirements="[wisdom:max:extra:6],![wisdom:max:extra:7]" />
+			<stat name="charisma:max" value="6" requirements="[charisma:max:extra:6],![charisma:max:extra:7]" />
+			<stat name="strength:max" value="7" requirements="[strength:max:extra:7],![strength:max:extra:8]" />
+			<stat name="dexterity:max" value="7" requirements="[dexterity:max:extra:7],![dexterity:max:extra:8]" />
+			<stat name="constitution:max" value="7" requirements="[constitution:max:extra:7],![constitution:max:extra:8]" />
+			<stat name="intelligence:max" value="7" requirements="[intelligence:max:extra:7],![intelligence:max:extra:8]" />
+			<stat name="wisdom:max" value="7" requirements="[wisdom:max:extra:7],![wisdom:max:extra:8]" />
+			<stat name="charisma:max" value="7" requirements="[charisma:max:extra:7],![charisma:max:extra:8]" />
+			<stat name="strength:max" value="8" requirements="[strength:max:extra:8],![strength:max:extra:9]" />
+			<stat name="dexterity:max" value="8" requirements="[dexterity:max:extra:8],![dexterity:max:extra:9]" />
+			<stat name="constitution:max" value="8" requirements="[constitution:max:extra:8],![constitution:max:extra:9]" />
+			<stat name="intelligence:max" value="8" requirements="[intelligence:max:extra:8],![intelligence:max:extra:9]" />
+			<stat name="wisdom:max" value="8" requirements="[wisdom:max:extra:8],![wisdom:max:extra:9]" />
+			<stat name="charisma:max" value="8" requirements="[charisma:max:extra:8],![charisma:max:extra:9]" />
+			<stat name="strength:max" value="9" requirements="[strength:max:extra:9],![strength:max:extra:10]" />
+			<stat name="dexterity:max" value="9" requirements="[dexterity:max:extra:9],![dexterity:max:extra:10]" />
+			<stat name="constitution:max" value="9" requirements="[constitution:max:extra:9],![constitution:max:extra:10]" />
+			<stat name="intelligence:max" value="9" requirements="[intelligence:max:extra:9],![intelligence:max:extra:10]" />
+			<stat name="wisdom:max" value="9" requirements="[wisdom:max:extra:9],![wisdom:max:extra:10]" />
+			<stat name="charisma:max" value="9" requirements="[charisma:max:extra:9],![charisma:max:extra:10]" />
+			<stat name="strength:max" value="10" requirements="[strength:max:extra:10],![strength:max:extra:11]" />
+			<stat name="dexterity:max" value="10" requirements="[dexterity:max:extra:10],![dexterity:max:extra:11]" />
+			<stat name="constitution:max" value="10" requirements="[constitution:max:extra:10],![constitution:max:extra:11]" />
+			<stat name="intelligence:max" value="10" requirements="[intelligence:max:extra:10],![intelligence:max:extra:11]" />
+			<stat name="wisdom:max" value="10" requirements="[wisdom:max:extra:10],![wisdom:max:extra:11]" />
+			<stat name="charisma:max" value="10" requirements="[charisma:max:extra:10],![charisma:max:extra:11]" />
+		</rules>
+	</element>
+	<append id="ID_INTERNAL_GRANTS_CHARACTER_BASE">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_ABILITY_SCORE_MAXIMUM_OVER_20" />
+		</rules>
+	</append>
+
+	<element name="Força, Destreza, Constituição" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CON">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Força, Destreza ou Constituição em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CON_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CON_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CON_1">
+		<description>
+			<p>Você pode aumentar seu valor de Força, Destreza ou Constituição em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CON_2">
+		<description>
+			<p>Você aumenta seus valores de Força, Destreza e Constituição em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="dexterity" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="constitution" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Força, Destreza, Inteligência" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_INT">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Força, Destreza ou Inteligência em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_INT_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_INT_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_INT_1">
+		<description>
+			<p>Você pode aumentar seu valor de Força, Destreza ou Inteligência em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_INT_2">
+		<description>
+			<p>Você aumenta seus valores de Força, Destreza e Inteligência em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="dexterity" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="intelligence" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Força, Destreza, Sabedoria" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_WIS">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Força, Destreza ou Sabedoria em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_WIS_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_WIS_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_WIS_1">
+		<description>
+			<p>Você pode aumentar seu valor de Força, Destreza ou Sabedoria em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_WIS_2">
+		<description>
+			<p>Você aumenta seus valores de Força, Destreza e Sabedoria em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="dexterity" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="wisdom" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Força, Destreza, Carisma" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CHA">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Força, Destreza ou Carisma em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CHA_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CHA_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CHA_1">
+		<description>
+			<p>Você pode aumentar seu valor de Força, Destreza ou Carisma em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CHA_2">
+		<description>
+			<p>Você aumenta seus valores de Força, Destreza e Carisma em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="dexterity" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="charisma" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Força, Constituição, Inteligência" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_INT">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Força, Constituição ou Inteligência em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_INT_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_INT_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_INT_1">
+		<description>
+			<p>Você pode aumentar seu valor de Força, Constituição ou Inteligência em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_INT_2">
+		<description>
+			<p>Você aumenta seus valores de Força, Constituição e Inteligência em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="constitution" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="intelligence" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Força, Constituição, Sabedoria" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_WIS">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Força, Constituição ou Sabedoria em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_WIS_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_WIS_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_WIS_1">
+		<description>
+			<p>Você pode aumentar seu valor de Força, Constituição ou Sabedoria em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_WIS_2">
+		<description>
+			<p>Você aumenta seus valores de Força, Constituição e Sabedoria em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="constitution" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="wisdom" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Força, Constituição, Carisma" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_CHA">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Força, Constituição ou Carisma em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_CHA_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_CHA_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_CHA_1">
+		<description>
+			<p>Você pode aumentar seu valor de Força, Constituição ou Carisma em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_CHA_2">
+		<description>
+			<p>Você aumenta seus valores de Força, Constituição e Carisma em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="constitution" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="charisma" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Força, Inteligência, Sabedoria" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_WIS">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Força, Inteligência ou Sabedoria em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_WIS_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_WIS_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_WIS_1">
+		<description>
+			<p>Você pode aumentar seu valor de Força, Inteligência ou Sabedoria em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_WIS_2">
+		<description>
+			<p>Você aumenta seus valores de Força, Inteligência e Sabedoria em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="intelligence" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="wisdom" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Força, Inteligência, Carisma" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_CHA">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Força, Inteligência ou Carisma em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_CHA_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_CHA_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_CHA_1">
+		<description>
+			<p>Você pode aumentar seu valor de Força, Inteligência ou Carisma em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_CHA_2">
+		<description>
+			<p>Você aumenta seus valores de Força, Inteligência e Carisma em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="intelligence" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="charisma" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Força, Sabedoria, Carisma" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_WIS_CHA">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Força, Sabedoria ou Carisma em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_WIS_CHA_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_WIS_CHA_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_WIS_CHA_1">
+		<description>
+			<p>Você pode aumentar seu valor de Força, Sabedoria ou Carisma em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_WIS_CHA_2">
+		<description>
+			<p>Você aumenta seus valores de Força, Sabedoria e Carisma em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="wisdom" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="charisma" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Destreza, Constituição, Inteligência" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_INT">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Destreza, Constituição ou Inteligência em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_INT_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_INT_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_INT_1">
+		<description>
+			<p>Você pode aumentar seu valor de Destreza, Constituição ou Inteligência em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_INT_2">
+		<description>
+			<p>Você aumenta seus valores de Destreza, Constituição e Inteligência em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="constitution" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="intelligence" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Destreza, Constituição, Sabedoria" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_WIS">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar seu valor de Destreza, Constituição ou Sabedoria em 2 e outro em 1, ou aumentar os três valores em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_WIS_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_WIS_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_WIS_1">
+		<description>
+			<p>Você pode aumentar seu valor de Destreza, Constituição ou Sabedoria em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade (Antecedente) +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_WIS_2">
+		<description>
+			<p>Você aumenta seus valores de Destreza, Constituição e Sabedoria em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="constitution" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+			<stat name="wisdom" value="1" alt="Aumento de Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	
+	<element name="Destreza, Constituição, Carisma" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_CHA">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar o valor de Destreza, Constituição ou Carisma em 2 e outro em 1, ou aumentar todos os três em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_CHA_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_CHA_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_CHA_1">
+		<description>
+			<p>Você pode aumentar o valor de Destreza, Constituição ou Carisma em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_CHA_2">
+		<description>
+			<p>Você aumenta o valor de Destreza, Constituição e Carisma em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="constitution" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="charisma" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Destreza, Inteligência, Sabedoria" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_WIS">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar o valor de Destreza, Inteligência ou Sabedoria em 2 e outro em 1, ou aumentar todos os três em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_WIS_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_WIS_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_WIS_1">
+		<description>
+			<p>Você pode aumentar o valor de Destreza, Inteligência ou Sabedoria em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_WIS_2">
+		<description>
+			<p>Você aumenta o valor de Destreza, Inteligência e Sabedoria em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="intelligence" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="wisdom" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Destreza, Inteligência, Carisma" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_CHA">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar o valor de Destreza, Inteligência ou Carisma em 2 e outro em 1, ou aumentar todos os três em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_CHA_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_CHA_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_CHA_1">
+		<description>
+			<p>Você pode aumentar o valor de Destreza, Inteligência ou Carisma em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_CHA_2">
+		<description>
+			<p>Você aumenta o valor de Destreza, Inteligência e Carisma em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="intelligence" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="charisma" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Destreza, Sabedoria, Carisma" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_WIS_CHA">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar o valor de Destreza, Sabedoria ou Carisma em 2 e outro em 1, ou aumentar todos os três em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_WIS_CHA_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_WIS_CHA_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_WIS_CHA_1">
+		<description>
+			<p>Você pode aumentar o valor de Destreza, Sabedoria ou Carisma em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_WIS_CHA_2">
+		<description>
+			<p>Você aumenta o valor de Destreza, Sabedoria e Carisma em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="wisdom" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="charisma" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Constituição, Inteligência, Sabedoria" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_WIS">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar o valor de Constituição, Inteligência ou Sabedoria em 2 e outro em 1, ou aumentar todos os três em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_WIS_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_WIS_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_WIS_1">
+		<description>
+			<p>Você pode aumentar o valor de Constituição, Inteligência ou Sabedoria em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_WIS_2">
+		<description>
+			<p>Você aumenta o valor de Constituição, Inteligência e Sabedoria em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="intelligence" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="wisdom" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Constituição, Inteligência, Carisma" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_CHA">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar o valor de Constituição, Inteligência ou Carisma em 2 e outro em 1, ou aumentar todos os três em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_CHA_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_CHA_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_CHA_1">
+		<description>
+			<p>Você pode aumentar o valor de Constituição, Inteligência ou Carisma em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_CHA_2">
+		<description>
+			<p>Você aumenta o valor de Constituição, Inteligência e Carisma em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="intelligence" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="charisma" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Constituição, Sabedoria, Carisma" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_WIS_CHA">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar o valor de Constituição, Sabedoria ou Carisma em 2 e outro em 1, ou aumentar todos os três em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_WIS_CHA_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_WIS_CHA_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_WIS_CHA_1">
+		<description>
+			<p>Você pode aumentar o valor de Constituição, Sabedoria ou Carisma em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_WIS_CHA_2">
+		<description>
+			<p>Você aumenta o valor de Constituição, Sabedoria e Carisma em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="wisdom" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="charisma" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+
+	<element name="Inteligência, Sabedoria, Carisma" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_INT_WIS_CHA">
+		<supports>Custom Background Ability Score Combination</supports>
+		<description>
+			<p>Você pode aumentar o valor de Inteligência, Sabedoria ou Carisma em 2 e outro em 1, ou aumentar todos os três em 1. Nenhum desses aumentos pode elevar um valor acima de 20.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_INT_WIS_CHA_1|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_INT_WIS_CHA_2" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +2, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_INT_WIS_CHA_1">
+		<description>
+			<p>Você pode aumentar o valor de Inteligência, Sabedoria ou Carisma em 2 e aumentar um valor diferente em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +2" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
+			<select type="Ability Score Improvement" name="Melhoria no Valor de Habilidade de Antecedente +1" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1" />
+		</rules>
+	</element>
+	<element name="Melhoria no Valor de Habilidade +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_INT_WIS_CHA_2">
+		<description>
+			<p>Você aumenta o valor de Inteligência, Sabedoria e Carisma em 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="wisdom" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+			<stat name="charisma" value="1" alt="Aumento no Valor de Habilidade (Antecedente)" />
+		</rules>
+	</element>
+</elements>

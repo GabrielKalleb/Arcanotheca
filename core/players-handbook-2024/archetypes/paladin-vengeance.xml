@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Juramento de Vingança</name>
+		<description>A subclasse Juramento de Vingança do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="paladin-vengeance.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/paladin-vengeance.xml" />
+		</update>
+	</info>
+
+	<element name="Juramento de Vingança" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_PALADIN_OATH_OF_VENGEANCE">
+		<supports>Paladin Subclass</supports>
+		<description>
+			<p class="flavor">Puna Malfeitores a Qualquer Custo</p>
+			<p>O Juramento de Vingança é um compromisso solene para punir aqueles que cometeram atos de extrema maldade. Quando exércitos do mal abatem aldeões indefesos, quando um tirano desafia a vontade dos deuses, quando uma guilda de ladrões se torna violenta demais, quando um dragão causa destruição pelo campo—em momentos assim, paladinos se erguem e prestam um Juramento de Vingança para consertar o que deu errado.</p>
+			<p class="indent">Estes paladinos compartilham os seguintes princípios:</p>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
+				<li>Não mostre misericórdia aos perversos.</li>
+				<li>Lute contra a injustiça e suas causas.</li>
+				<li>Ajude aqueles prejudicados pela injustiça.</li>
+			</ul>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_OATH_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_VOW_OF_ENMITY" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_RELENTLESS_AVENGER" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_SOUL_OF_VENGEANCE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_AVENGING_ANGEL" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_OATH_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_VOW_OF_ENMITY" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_RELENTLESS_AVENGER" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_SOUL_OF_VENGEANCE" level="15" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_AVENGING_ANGEL" level="20" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magias de Juramento" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_OATH_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_OATH_SPELLS</requirements>
+		<description>
+			<p>A magia de seu juramento garante que você sempre tenha certas magias prontas; quando você atinge um nível de Paladino especificado na tabela Magias do Juramento de Vingança, você a partir de então sempre tem as magias listadas preparadas.</p>
+			<h5>Magias do Juramento de Vingança</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-25">Nível de Paladino</td><td class="left">Magias</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Perdição, Marca do Caçador</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Imobilizar Pessoa, Passo Nebuloso</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Velocidade, Proteção contra Energia</em></td></tr>
+				<tr><td>13</td><td class="left"><em>Banimento, Porta Dimensional</em></td></tr>
+				<tr><td>17</td><td class="left"><em>Imobilizar Monstro, Vidência</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BANE" level="3" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HUNTERS_MARK" level="3" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_PERSON" level="5" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="5" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HASTE" level="9" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BANISHMENT" level="13" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DIMENSION_DOOR" level="13" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_MONSTER" level="17" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SCRYING" level="17" spellcasting="Paladin" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Voto de Inimizade" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_VOW_OF_ENMITY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_VOW_OF_ENMITY</requirements>
+		<description>
+			<p>Quando você realiza a ação de Ataque, pode gastar um uso de Canalizar Divindade para proferir um voto de inimizade contra uma criatura que você possa ver a até 9 metros (30 pés) de você. Você tem Vantagem nas jogadas de ataque contra a criatura por 1 minuto ou até usar esta característica novamente.</p>
+			<p class="indent">Se a criatura cair a 0 Pontos de Vida antes do final do voto, você pode transferir o voto para uma criatura diferente a até 9 metros (30 pés) de você (nenhuma ação necessária).</p>
+		</description>
+		<sheet alt="Voto de Inimizade" usage="Canalizar Divindade">
+			<description>Quando toma a ação de Ataque, você jura inimizade contra uma criatura a até 9m. Você ganha Vantagem em ataques contra ela por 1 min. ou até usar novamente. Se ela cair a 0 PV, você pode transferir o voto para outra a até 9m.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 7: Vingador Implacável" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_RELENTLESS_AVENGER">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_RELENTLESS_AVENGER</requirements>
+		<description>
+			<p>Seu foco sobrenatural o ajuda a bloquear a retirada de um inimigo. Quando você atinge uma criatura com um Ataque de Oportunidade, você pode reduzir o Deslocamento da criatura para 0 até o final do turno atual. Você pode então se mover até a metade do seu Deslocamento como parte da mesma Reação. Este movimento não provoca Ataques de Oportunidade.</p>
+		</description>
+		<sheet alt="Vingador Implacável">
+			<description>Quando atinge com Ataque de Oportunidade, você pode reduzir o Deslocamento do alvo para 0 até o fim do turno. Então, pode mover metade do seu Deslocamento na mesma Reação sem provocar Ataques de Oportunidade.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 15: Alma da Vingança" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_SOUL_OF_VENGEANCE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_SOUL_OF_VENGEANCE</requirements>
+		<description>
+			<p>Imediatamente após uma criatura sob o efeito do seu Voto de Inimizade acertar ou errar uma jogada de ataque, você pode usar uma Reação para fazer um ataque corpo a corpo contra aquela criatura se ela estiver no alcance.</p>
+		</description>
+		<sheet alt="Alma da Vingança" action="Reaction">
+			<description>Quando o alvo de seu Voto ataca, você pode fazer um ataque corpo a corpo nele se no alcance.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 20: Anjo Vingador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_VENGEANCE_AVENGING_ANGEL">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_AVENGING_ANGEL</requirements>
+		<description>
+			<p>Como uma Ação Bônus, você ganha os benefícios abaixo por 10 minutos ou até você terminá-los (nenhuma ação necessária). Uma vez que você usar esta característica, não poderá usá-la novamente até terminar um Descanso Longo. Você também pode restaurar o uso dela gastando um espaço de magia de 5º nível (nenhuma ação necessária).</p>
+			<p class="indent"><b><i>Voo.</i></b> Você brota asas espectrais em suas costas, tem um Deslocamento de Voo de 18 metros (60 pés) e pode pairar.</p>
+			<p class="indent"><b><i>Aura Assustadora.</i></b> Sempre que um inimigo começar o turno dele na sua Aura de Proteção, aquela criatura deve ser bem-sucedida num teste de resistência de Sabedoria ou ficará com a condição Amedrontado por 1 minuto ou até sofrer qualquer dano. Jogadas de ataque contra a criatura Amedrontada têm Vantagem.</p>
+		</description>
+		<sheet alt="Anjo Vingador" action="Bonus Action" usage="1/Descanso Longo">
+			<description>Por 10 minutos (ou até encerrar), você ganha: &#13;
+			• Asas espectrais com Voo 18m e pode pairar. &#13;
+			• Inimigo que inicie o turno em sua Aura de Proteção faz teste de Sabedoria CD {{paladin:spellcasting:dc}} ou fica Amedrontado (dura 1 min. ou até sofrer dano). &#13;
+			• Ataques contra a criatura Amedrontada por isso têm Vantagem. &#13;
+			Pode restaurar uso gastando espaço nível 5.</description>
+		</sheet>
+	</element>
+
+	<element name="Oath Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_OATH_SPELLS" />
+	<element name="Vow of Enmity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_VOW_OF_ENMITY" />
+	<element name="Relentless Avenger Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_RELENTLESS_AVENGER" />
+	<element name="Soul of Vengeance Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_SOUL_OF_VENGEANCE" />
+	<element name="Avenging Angel Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_VENGEANCE_AVENGING_ANGEL" />
+</elements>

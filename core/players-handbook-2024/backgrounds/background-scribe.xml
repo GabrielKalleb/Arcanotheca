@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Escrivão</name>
+		<description>Antecedente Escrivão do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="background-scribe.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/background-scribe.xml" />
+		</update>
+	</info>
+
+	<element name="Escrivão" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_SCRIBE">
+		<description>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+				<li><strong>Valores de Habilidade:</strong> Destreza, Inteligência, Sabedoria</li>
+				<li><strong>Talento:</strong> Perito</li>
+				<li><strong>Proficiências em Perícias:</strong> Investigação e Percepção</li>
+				<li><strong>Proficiência em Ferramenta:</strong> Suprimentos de Calígrafo</li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Suprimentos de Calígrafo, Roupas Finas, Lâmpada, Óleo (3 frascos), Pergaminho (12 folhas), 23 PO; ou (B) 50 PO</li>
+			</ul>
+			<p>Você passou seus anos de formação em um scriptorium, um monastério dedicado à preservação do conhecimento, ou em uma agência governamental, onde aprendeu a escrever com uma caligrafia clara e produzir textos finamente redigidos. Talvez você tenha escrito documentos do governo ou copiado tomos de literatura. Você pode ter alguma habilidade como escritor de poesia, narrativa ou pesquisa acadêmica. Acima de tudo, você tem uma atenção cuidadosa aos detalhes, o que ajuda a evitar a introdução de erros nos documentos que copia e cria.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_FEAT_SKILLED" />
+			</div>
+		</description>
+		<setters>
+			<set name="short">Destreza, Inteligência, Sabedoria, Talento Perito, Perícias Investigação e Percepção, Suprimentos de Calígrafo</set>
+		</setters>
+		<rules>
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_INT_WIS" />
+			<select type="Feat" name="Origin Feat (Scribe)" supports="ID_WOTC_PHB24_FEAT_SKILLED|ID_WOTC_PHB24_FEAT_SKILLED_2" default="ID_WOTC_PHB24_FEAT_SKILLED" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" /> 
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" />	
+		</rules>
+	</element>
+</elements>

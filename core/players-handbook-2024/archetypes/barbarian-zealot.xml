@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Caminho do Fanático</name>
+		<description>A subclasse Caminho do Fanático do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="barbarian-zealot.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/barbarian-zealot.xml" />
+		</update>
+	</info>
+
+	<element name="Caminho do Fanático" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_BARBARIAN_ZEALOT">
+		<supports>Barbarian Subclass</supports>
+		<description>
+			<p class="flavor">Entre em Fúria em União Extática com um Deus</p>
+			<p>Bárbaros que trilham o Caminho do Fanático recebem bênçãos de um deus ou panteão. Estes Bárbaros vivenciam sua Fúria como um episódio extático de união divina que os infunde com poder. Eles frequentemente são aliados dos sacerdotes e outros seguidores do seu deus ou panteão.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_DIVINE_FURY" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_WARRIOR_OF_THE_GODS"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_FANATICAL_FOCUS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_ZEALOUS_PRESENCE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_RAGE_OF_THE_GODS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_DIVINE_FURY" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_WARRIOR_OF_THE_GODS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_FANATICAL_FOCUS" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_ZEALOUS_PRESENCE" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_RAGE_OF_THE_GODS" level="14" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Fúria Divina" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_DIVINE_FURY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_ZEALOT_DIVINE_FURY</requirements>
+		<description>
+			<p>Você pode canalizar poder divino em seus ataques. Em cada um de seus turnos enquanto sua Fúria estiver ativa, a primeira criatura que você atingir com uma arma ou um Ataque Desarmado sofre dano extra igual a 1d6 mais metade do seu nível de Bárbaro (arredondado para baixo). O dano extra é Necrótico ou Radiante; você escolhe o tipo cada vez que causar o dano.</p>
+		</description>
+		<sheet alt="Fúria Divina">
+			<description>No seu turno enquanto sua Fúria estiver ativa, a primeira criatura que você atingir sofre 1d6+{{level:barbarian:half}} de dano extra Necrótico ou Radiante (à sua escolha).</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 3: Guerreiro dos Deuses" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_WARRIOR_OF_THE_GODS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_ZEALOT_WARRIOR_OF_THE_GODS</requirements>
+		<description>
+			<p>Uma entidade divina ajuda a garantir que você possa continuar a luta. Você tem uma reserva de quatro d12s que pode gastar para curar a si mesmo. Como uma Ação Bônus, você pode gastar dados da reserva, rolá-los, e recuperar um número de Pontos de Vida igual ao total rolado.</p>
+			<p class="indent">Sua reserva recupera todos os dados gastos quando você termina um Descanso Longo.</p>
+			<p class="indent">O número máximo de dados da reserva aumenta em um quando você atinge os níveis de Bárbaro 6 (5 dados), 12 (6 dados), e 17 (7 dados).</p>
+		</description>
+		<sheet alt="Guerreiro dos Deuses" action="Bonus Action" usage="{{warrior of the gods:count}}d12/Long Rest">
+			<description>Você pode gastar dados da sua reserva de cura e recuperar um número de PVs igual ao total rolado.</description>
+		</sheet>
+		<rules>
+			<stat name="warrior of the gods:count" value="4" bonus="base" />
+			<stat name="warrior of the gods:count" value="5" bonus="base" level="6" />
+			<stat name="warrior of the gods:count" value="6" bonus="base" level="12" />
+			<stat name="warrior of the gods:count" value="7" bonus="base" level="17" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Foco Fanático" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_FANATICAL_FOCUS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_ZEALOT_FANATICAL_FOCUS</requirements>
+		<description>
+			<p>Uma vez por Fúria ativa, se você falhar em um teste de resistência, você pode rolá-lo novamente com um bônus igual ao seu bônus de Dano de Fúria, e você deve usar a nova rolagem.</p>
+		</description>
+		<sheet alt="Foco Fanático" usage="1/Rage">
+			<description>Se você falhar em um teste de resistência enquanto sua Fúria estiver ativa, você pode rolá-lo novamente e adicionar {{barbarian rage:damage}} ao total. Você deve usar a nova rolagem.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 10: Presença Zelosa" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_ZEALOUS_PRESENCE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_ZEALOT_ZEALOUS_PRESENCE</requirements>
+		<description>
+			<p>Como uma Ação Bônus, você solta um grito de guerra infundido com energia divina. Até dez outras criaturas da sua escolha a até 18 metros (60 pés) de você ganham Vantagem em jogadas de ataque e testes de resistência até o início do seu próximo turno.</p>
+			<p class="indent">Uma vez que usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo a menos que gaste um uso da sua Fúria (nenhuma ação necessária) para restaurar seu uso.</p>
+		</description>
+		<sheet alt="Presença Zelosa" action="Bonus Action" usage="1/Long Rest">
+			<description>Escolha até 10 outras criaturas a até 18m de você. Elas ganham Vantagem em jogadas de ataque e testes de resistência até o início do seu próximo turno. &#13;
+			Você pode gastar um uso da sua Fúria (nenhuma ação necessária) para restaurar um uso desta característica.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 14: Fúria dos Deuses" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_ZEALOT_RAGE_OF_THE_GODS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_ZEALOT_RAGE_OF_THE_GODS</requirements>
+		<description>
+			<p>Quando você ativa sua Fúria, você pode assumir a forma de um guerreiro divino. Esta forma dura por 1 minuto ou até você cair para 0 Pontos de Vida. Uma vez que usar esta característica, você não pode fazê-lo novamente até terminar um Descanso Longo.</p>
+			<p>Enquanto estiver nesta forma, você ganha os benefícios abaixo.</p>
+			<p class="indent"><em><strong>Voo.</strong></em> Você tem um Deslocamento de Voo igual ao seu Deslocamento e pode pairar.</p>
+			<p class="indent"><em><strong>Resistência.</strong></em> Você tem Resistência a dano Necrótico, Psíquico e Radiante.</p>
+			<p class="indent"><em><strong>Revivificação.</strong></em> Quando uma criatura a até 9 metros (30 pés) de você cairia para 0 Pontos de Vida, você pode usar uma Reação para gastar um uso da sua Fúria para em vez disso mudar os Pontos de Vida do alvo para um número igual ao seu nível de Bárbaro.</p>
+		</description>
+		<sheet alt="Fúria dos Deuses" usage="1/Long Rest">
+			<description>Quando você ativa sua Fúria, você pode assumir a forma de um guerreiro divino, e ganha os seguintes benefícios: Você tem Resistência a dano Necrótico, Psíquico e Radiante, {{speed}}m de Deslocamento de Voo e pode pairar; Quando uma criatura a até 9 metros de você cairia para 0 PVs, você pode usar uma Reação para gastar um uso de Fúria e, em vez disso, mudar os PVs do alvo para {{level:barbarian}}. &#13;
+			Esta forma dura por 1 minuto ou até você cair a 0 PVs.</description>
+		</sheet>
+	</element>
+
+	<element name="Divine Fury Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_ZEALOT_DIVINE_FURY" />
+	<element name="Warrior of the Gods Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_ZEALOT_WARRIOR_OF_THE_GODS" />
+	<element name="Fanatical Focus Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_ZEALOT_FANATICAL_FOCUS" />
+	<element name="Zealous Presence Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_ZEALOT_ZEALOUS_PRESENCE" />
+	<element name="Rage of the Gods Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_ZEALOT_RAGE_OF_THE_GODS" />
+
+</elements>

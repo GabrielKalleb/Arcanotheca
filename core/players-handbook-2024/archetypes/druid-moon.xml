@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Círculo da Lua</name>
+		<description>A subclasse Círculo da Lua do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="druid-moon.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/druid-moon.xml" />
+		</update>
+	</info>
+
+	<element name="Círculo da Lua" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_MOON">
+		<supports>Druid Subclass</supports>
+		<description>
+			<p class="flavor">Adote Formas Animais para Proteger os Ermos</p>
+			<p>Druidas do Círculo da Lua canalizam magia lunar para se transformarem. A ordem deles se reúne sob a lua para compartilhar notícias e realizar rituais.</p>
+			<p class="indent">Mutável como a lua, um Druida deste círculo pode espreitar como um grande felino numa noite, pairar sobre as copas das árvores como uma águia no dia seguinte, e então avançar pela vegetação rasteira como um urso para afugentar um monstro invasor. A selva está no sangue do Druida.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_OF_MOON_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_IMPROVED_CIRCLE_FORMS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_MOONLIGHT_STEP" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_LUNAR_FORM" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_OF_MOON_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_IMPROVED_CIRCLE_FORMS" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_MOONLIGHT_STEP" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_LUNAR_FORM" level="14" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Formas do Círculo" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_MOON_CIRCLE_FORMS</requirements>
+		<description>
+			<p>Você pode canalizar magia lunar ao assumir uma Forma Selvagem, o que lhe concede os benefícios abaixo.</p>
+			<p class="indent"><em><strong>Nível de Desafio.</strong></em> O Nível de Desafio (ND) máximo da forma é igual ao seu nível de Druida dividido por 3 (arredondado para baixo).</p>
+			<p class="indent"><em><strong>Classe de Armadura.</strong></em> Até você sair da forma, sua CA é 13 mais o seu modificador de Sabedoria, se esse total for maior que a CA da Besta.</p>
+			<p class="indent"><em><strong>Pontos de Vida Temporários.</strong></em> Você ganha um número de Pontos de Vida Temporários igual a três vezes o seu nível de Druida.</p>
+		</description>
+		<sheet alt="Forma Selvagem" action="Bonus Action" usage="{{wild shape:uses}}/Descanso Longo">
+			<description>Você magicamente assume a forma de uma Besta que aprendeu (você pode ter {{wild shape:forms}} Formas Conhecidas de ND {{circle forms:cr}} ou menor sem Deslocamento de Voo). Você ganha imediatamente {{wild shape:thp}} PVTs, e pode ficar na forma por {{wild shape:hours}} horas ou até usar a Forma Selvagem de novo, ficar Incapacitado, ou morrer. Pode sair da forma como Ação Bônus. &#13;
+			Transformado, as estatísticas são as da Besta, mas você mantém tipo de criatura, PV, Dados de Vida, Int/Sab/Car, características de classe, idiomas e talentos. Sua CA é {{circle forms:ac}} (se for maior que a da Besta). Você usa suas proficiências (ou as da Besta, se maiores). Só pode conjurar magias do seu Círculo, mas não perde Concentração em magias já ativas. &#13;
+			Você recupera 1 uso ao terminar um Descanso Curto.</description>
+			<description level="18">Você magicamente assume a forma de uma Besta que aprendeu (pode ter {{wild shape:forms}} Formas de ND 1 ou menor). Você ganha {{wild shape:thp}} PVTs e pode ficar por {{wild shape:hours}} horas. Sair exige Ação Bônus. &#13;
+			Você mantém Int/Sab/Car, talentos, etc. Sua CA é {{circle forms:ac}} se maior que a da Besta. Pode conjurar magias do Círculo na forma de Besta, e magias sem componente material consumido/com custo. &#13;
+			Recupera 1 uso no Descanso Curto.</description>
+			<description level="20">Você magicamente assume a forma de uma Besta que aprendeu (pode ter {{wild shape:forms}} Formas de ND 1 ou menor). Ganha {{wild shape:thp}} PVTs, dura {{wild shape:hours}} horas. Ação Bônus para reverter. &#13;
+			Você mantém estatísticas mentais e recursos. CA é {{circle forms:ac}} se maior que a da Besta. Pode conjurar magias de Círculo e sem custo material. &#13;
+			Ao rolar Iniciativa sem usos restantes, você recupera 1. Recupera 1 no Descanso Curto.</description>
+		</sheet>
+		<rules>
+			<stat name="wild shape:forms" value="4" bonus="base" />
+			<stat name="wild shape:forms" value="6" bonus="base" level="4"/>
+			<stat name="wild shape:forms" value="8" bonus="base" level="8"/>
+			<stat name="wild shape:uses" value="2" bonus="base" />
+			<stat name="wild shape:uses" value="3" bonus="base" level="6"/>
+			<stat name="wild shape:uses" value="4" bonus="base" level="17"/>
+			<stat name="wild shape:hours" value="level:druid:half" />
+			<stat name="wild shape:thp" value="level:druid" />
+			<stat name="circle forms:cr" value="1" bonus="base" />
+			<stat name="circle forms:cr" value="2" bonus="base" level="6" />
+			<stat name="circle forms:cr" value="3" bonus="base" level="9" />
+			<stat name="circle forms:cr" value="4" bonus="base" level="12" />
+			<stat name="circle forms:cr" value="5" bonus="base" level="15" />
+			<stat name="circle forms:cr" value="6" bonus="base" level="18" />
+			<stat name="circle forms:ac" value="13" bonus="base" />
+			<stat name="circle forms:ac" value="wisdom:modifier" bonus="ability" />
+			<stat name="wild shape:thp" value="level:druid" />
+			<stat name="wild shape:thp" value="level:druid" />
+			<grant type="Grants" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magias do Círculo da Lua" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_OF_MOON_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_MOON_CIRCLE_OF_MOON_SPELLS</requirements>
+		<description>
+			<p>Quando você atinge um nível de Druida especificado na tabela Magias do Círculo da Lua, você a partir de então sempre tem as magias listadas preparadas.</p>
+			<p class="indent">Além disso, você pode conjurar as magias desta característica enquanto estiver numa Forma Selvagem.</p>
+			<h5>Magias do Círculo da Lua</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Nível de Druida</td><td class="left">Magias Preparadas</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Curar Ferimentos, Raio de Lua, Fagulha Estrelada</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Conjurar Animais</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Fonte de Luar</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Curar Ferimentos em Massa</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_STARRY_WISP" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CURE_WOUNDS" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MOONBEAM" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONJURE_ANIMALS" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FOUNT_OF_MOONLIGHT" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MASS_CURE_WOUNDS" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Formas do Círculo Aprimoradas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_IMPROVED_CIRCLE_FORMS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_MOON_IMPROVED_CIRCLE_FORMS</requirements>
+		<description>
+			<p>Enquanto estiver em uma Forma Selvagem, você ganha os seguintes benefícios.</p>
+			<p class="indent"><em><strong>Radiância Lunar.</strong></em> Cada um de seus ataques em uma Forma Selvagem pode causar o seu tipo de dano normal ou dano Radiante. Você faz esta escolha cada vez que atinge com esses ataques.</p>
+			<p class="indent"><em><strong>Tenacidade Aumentada.</strong></em> Você pode adicionar seu modificador de Sabedoria aos seus testes de resistência de Constituição.</p>
+		</description>
+		<sheet alt="Formas do Círculo Aprimoradas">
+			<description>Enquanto estiver em Forma Selvagem, seus ataques podem causar dano Radiante em vez do normal, e você adiciona +{{wisdom:modifier}} aos testes de resistência de Constituição.</description>
+			<description level="14">Enquanto estiver em Forma Selvagem, seus ataques podem causar dano Radiante em vez do normal, e uma vez por turno podem causar 2d10 extras de dano Radiante. Você também adiciona +{{wisdom:modifier}} aos testes de Constituição. </description>
+		</sheet>
+	</element>
+
+	<element name="Nível 10: Passo Enluarado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_MOONLIGHT_STEP">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_MOON_MOONLIGHT_STEP</requirements>
+		<description>
+			<p>Você se teletransporta magicamente, reaparecendo em meio a uma explosão de luar. Como uma Ação Bônus, você se teletransporta até 9 metros (30 pés) para um espaço desocupado que você possa ver, e tem Vantagem na próxima jogada de ataque que fizer antes do final deste turno.</p>
+			<p class="indent">Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e você recupera todos os usos gastos ao terminar um Descanso Longo. Você também pode recuperar usos gastando um espaço de magia de nível 2+ para cada uso que desejar restaurar (nenhuma ação necessária).</p>
+		</description>
+		<sheet alt="Passo Enluarado" action="Bonus Action" usage="{{moonlight step:usage}}/Descanso Longo">
+			<description>Você se teletransporta até 9m para um espaço desocupado visível, e ganha Vantagem no seu próximo ataque antes do fim do turno. &#13;
+			Você pode restaurar um uso gastando um espaço de magia de nível 2+.</description>
+			<description level="14">Você pode teletransportar a si mesmo e uma criatura disposta a até 3m de você para um espaço desocupado a até 9m de você, ganhando Vantagem no seu próximo ataque neste turno. &#13;
+			Pode restaurar uso gastando espaço de magia nível 2+.</description>
+			</sheet>
+		<rules>
+			<stat name="moonlight step:usage" value="1" bonus="base" />
+			<stat name="moonlight step:usage" value="wisdom:modifier" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 14: Forma Lunar" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_LUNAR_FORM">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_MOON_LUNAR_FORM</requirements>
+		<description>
+			<p>O poder da lua inunda você, concedendo-lhe os seguintes benefícios.</p>
+			<p class="indent"><em><strong>Radiância Lunar Aprimorada.</strong></em> Uma vez por turno, você pode causar 2d10 de dano Radiante extra a um alvo que você atinja com um ataque de Forma Selvagem.</p>
+			<p class="indent"><em><strong>Luar Compartilhado.</strong></em> Sempre que usar o Passo Enluarado, você também pode teletransportar uma criatura disposta. Essa criatura deve estar a até 3 metros (10 pés) de você, e você a teletransporta para um espaço desocupado que possa ver a até 3 metros (10 pés) do seu espaço de destino.</p>
+			</description>
+		<sheet display="false" />
+	</element>
+
+	<element name="Circle of the Moon Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_MOON_CIRCLE_OF_MOON_SPELLS" />
+	<element name="Circle Forms Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_MOON_CIRCLE_FORMS" />
+	<element name="Improved Circle Forms Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_MOON_IMPROVED_CIRCLE_FORMS" />
+	<element name="Moonlight Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_MOON_MOONLIGHT_STEP" />
+	<element name="Lunar Form Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_MOON_LUNAR_FORM" />
+
+</elements>

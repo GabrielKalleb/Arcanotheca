@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Soldado</name>
+		<description>Antecedente Soldado do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="background-soldier.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/background-soldier.xml" />
+		</update>
+	</info>
+
+	<element name="Soldado" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_SOLDIER">
+		<description>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+				<li><strong>Valores de Habilidade:</strong> Força, Destreza, Constituição</li>
+				<li><strong>Talento:</strong> Atacante Selvagem</li>
+				<li><strong>Proficiências em Perícias:</strong> Atletismo e Intimidação</li>
+				<li><strong>Proficiência em Ferramenta:</strong><i> Escolha um tipo de Kit de Jogos</i></li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Lança, Arco Curto, 20 Flechas, Kit de Jogos (o mesmo acima), Kit de Curandeiro, Aljava, Roupas de Viajante, 14 PO; ou (B) 50 PO</li>
+			</ul>
+			<p>Você começou a treinar para a guerra assim que atingiu a idade adulta e carrega poucas memórias preciosas da vida antes de pegar em armas. A batalha está no seu sangue. Às vezes você se pega realizando reflexivamente os exercícios básicos de luta que aprendeu primeiro. Eventualmente, você colocou esse treinamento em uso no campo de batalha, protegendo o reino ao travar guerras.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_FEAT_SAVAGE_ATTACKER" />
+			</div>
+		</description>
+		<setters>
+			<set name="short">Força, Destreza, Constituição, Talento Atacante Selvagem, Perícias Atletismo e Intimidação, um Kit de Jogos</set>
+		</setters>
+		<rules>
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CON" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_SAVAGE_ATTACKER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" /> 
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Proficiency" name="Gaming Set (Soldier)" supports="Gaming Set" />
+		</rules>
+	</element>
+</elements>

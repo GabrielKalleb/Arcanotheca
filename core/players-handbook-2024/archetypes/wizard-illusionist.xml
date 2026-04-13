@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+		<file name="wizard-illusionist.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/wizard-illusionist.xml" />
+		</update>
+	</info>
+
+	<element name="Ilusionista" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST">
+		<supports>Wizard Subclass</supports>
+		<description>
+			<p class="flavor">Teca Magias Sutis de Enganação</p>
+			<p>Você é especializado em magia que ofusca os sentidos e engana a mente, e as ilusões que você cria fazem o impossível parecer real.</p>
+            <div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSION_SAVANT" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_IMPROVED_ILLUSIONS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_PHANTASMAL_CREATURES" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_SELF" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_REALITY" />
+		</description>
+        <sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSION_SAVANT" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_IMPROVED_ILLUSIONS" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_PHANTASMAL_CREATURES" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_SELF" level="10"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_REALITY" level="14"/>
+		</rules>
+	</element>
+
+	<element name="Nível 3: Sábio da Ilusão" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSION_SAVANT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_ILLUSION_SAVANT</requirements>
+		<description>
+			<p>Escolha duas magias de Mago da escola de Ilusão, cada uma não podendo ser de um nível maior que o 2, e adicione-as ao seu grimório gratuitamente.</p>
+			<p class="indent">Além disso, sempre que você ganhar acesso a um novo nível de espaços de magia nesta classe, você pode adicionar gratuitamente uma magia de Mago da escola de Ilusão ao seu grimório. A magia escolhida deve ser de um nível para o qual você tenha espaços de magia.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" number="2" level="3" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="5" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="7" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="9" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="11" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="13" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="15" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="17" spellcasting="Wizard" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Ilusões Aprimoradas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_IMPROVED_ILLUSIONS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_IMPROVED_ILLUSIONS</requirements>
+		<description>
+			<p>Você pode conjurar magias de Ilusão sem fornecer componentes Verbais, e se uma magia de Ilusão que você conjurar tiver um alcance de 3 metros (10 pés) ou mais, o alcance aumenta em 18 metros (60 pés).</p>
+			<p class="indent">Você também conhece o truque <i>Ilusão Menor</i>. Se já o conhece, você aprende um truque de Mago diferente à sua escolha. O truque não conta para o número de truques que você conhece. Você pode criar tanto um som quanto uma imagem com uma única conjuração de <i>Ilusão Menor</i>, e pode conjurá-la como uma Ação Bônus.</p>
+		</description>
+		<sheet alt="Ilusões Aprimoradas">
+			<description>Suas magias de Ilusão não requerem componentes Verbais; se o alcance de uma for 3m+, o alcance aumenta em 18m. Além disso, você pode conjurar Ilusão Menor como uma Ação Bônus, e pode criar som e imagem em uma única conjuração.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip (Improved Illusions)" supports="Wizard,0" spellcasting="Wizard" default="ID_WOTC_PHB24_SPELL_MINOR_ILLUSION" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Criaturas Fantasmais" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_PHANTASMAL_CREATURES">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_PHANTASMAL_CREATURES</requirements>
+		<description>
+			<p>Você sempre tem as magias <i>Invocar Besta</i> e <i>Invocar Fada</i> preparadas. Sempre que conjurar qualquer uma destas magias, você pode mudar a escola dela para Ilusão, o que faz a criatura invocada aparecer com um aspecto espectral. Você pode conjurar a versão de Ilusão de cada magia sem gastar espaço de magia, mas conjurá-la sem espaço reduz pela metade os Pontos de Vida da criatura. Após conjurar uma das magias sem espaço de magia, você deve terminar um Descanso Longo antes de poder conjurá-la desse modo novamente.</p>
+		</description>
+		<sheet alt="Criaturas Fantasmais">
+			<description>Você pode conjurar Invocar Besta e Invocar Fada como magias de Ilusão. Pode conjurar essa versão de Ilusão sem espaço de magia, mas a invocação terá os PV pela metade; pode fazer isso apenas 1 vez/Descanso Longo por magia.</description>
+		</sheet>
+		<rules>		
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_BEAST" spellcasting="Wizard" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_FEY" spellcasting="Wizard" prepared="true" />
+		</rules>
+	</element>
+
+	<element name="Nível 10: Eu Ilusório" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_SELF">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_ILLUSORY_SELF</requirements>
+		<description>
+			<p>Quando uma criatura atinge você com uma jogada de ataque, você pode usar uma Reação para interpor uma duplicata ilusória de si mesmo entre o atacante e você. O ataque erra automaticamente você, e então a ilusão se dissipa.</p>
+			<p class="indent">Uma vez que usar esta característica, você não poderá usá-la novamente até terminar um Descanso Curto ou Longo.</p>
+		</description>
+		<sheet alt="Eu Ilusório" action="Reaction" usage="1/Descanso Curto">
+			<description>Quando um ataque atinge você, pode fazer o ataque errá-lo automaticamente. Você pode recuperar um uso desta característica gastando um espaço de magia de nível 2+.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 14: Realidade Ilusória" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_REALITY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_ILLUSORY_REALITY</requirements>
+		<description>
+			<p>Você aprendeu a tecer magia das sombras em suas ilusões para dar a elas uma semirrealidade. Quando conjura uma magia de Ilusão com um espaço de magia, pode escolher um objeto inanimado e não-mágico que faz parte da ilusão e torná-lo real. Você pode fazer isso no seu turno como uma Ação Bônus enquanto a magia estiver em andamento. O objeto permanece real por 1 minuto, período em que não pode causar dano nem impor condições. Por exemplo, você pode criar a ilusão de uma ponte sobre um abismo e então torná-la real para atravessá-la.</p>
+		</description>
+		<sheet alt="Realidade Ilusória" action="Bonus Action">
+			<description>Quando conjura magia de Ilusão (nível 1+), pode escolher um objeto inanimado e não-mágico da ilusão e torná-lo real por 1 minuto. O objeto não pode causar dano ou impor condições.</description>
+		</sheet>
+	</element>
+	
+	<element name="Illusion Savant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_ILLUSION_SAVANT" />
+	<element name="Improved Minor Illusion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_IMPROVED_ILLUSIONS" />
+	<element name="Malleable Illusions Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_PHANTASMAL_CREATURES" />
+	<element name="Illusory Self Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_ILLUSORY_SELF" />
+	<element name="Illusory Reality Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_ILLUSORY_REALITY" />
+</elements>

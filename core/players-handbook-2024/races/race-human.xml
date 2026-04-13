@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Humano</name>
+		<description>A espécie Humano do Player’s Handbook 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="race-human.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/races/race-human.xml" />
+		</update>
+	</info>
+	
+	<element name="Humano" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_HUMAN">
+		<description>
+			<p>Encontrados em todo o multiverso, os humanos são tão variados quanto numerosos, e se esforçam para alcançar o máximo que puderem nos anos que lhes são dados. Sua ambição e engenhosidade são elogiadas, respeitadas e temidas em muitos mundos.</p>
+			<p class="indent">Os humanos são tão diversos em aparência quanto as pessoas da Terra, e têm muitos deuses. Os estudiosos disputam a origem da humanidade, mas diz-se que um dos primeiros encontros humanos conhecidos ocorreu em Sigil, a cidade em forma de toro no centro do multiverso e o local onde o idioma Comum nasceu. De lá, os humanos poderiam ter se espalhado por todas as partes do multiverso, levando o cosmopolitismo da Cidade das Portas com eles.</p>
+			<h5>TRAÇOS DE HUMANO</h5>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+				<li><strong>Tipo de Criatura:</strong> Humanoide</li>
+				<li><strong>Tamanho:</strong> Médio (cerca de 1,2 a 2,1 metros de altura) ou Pequeno (cerca de 0,6 a 1,2 metro de altura), escolhido quando você seleciona esta espécie</li>
+				<li><strong>Deslocamento:</strong> 9 metros</li>
+			</ul>
+			<p>Como um Humano, você possui estes traços especiais.</p>
+			<p class="indent"><strong><em>Engenhoso.</em></strong> Você ganha Inspiração Heroica sempre que terminar um Descanso Longo.</p>
+			<p class="indent"><strong><em>Habilidoso.</em></strong> Você ganha proficiência em uma perícia de sua escolha.</p> 
+			<p class="indent"><strong><em>Versátil.</em></strong> Você ganha um talento de Origem de sua escolha. Perito é recomendado.</p> 
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_HUMAN" />
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade (Humano)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Racial Trait" name="Tamanho (Humano)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Idioma (Humano)" supports="Standard" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Idioma Personalizado (Humano)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" number="3" />
+
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_RESOURCEFUL" />
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_SKILLFUL" />
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_VERSATILE" />
+		</rules>
+	</element>
+
+	<element name="Engenhoso" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_RESOURCEFUL">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_RESOURCEFUL</requirements>
+		<description>
+			<p>Você ganha Inspiração Heroica sempre que terminar um Descanso Longo.</p> 
+		</description>
+		<sheet>
+			<description>Você ganha Inspiração Heroica sempre que terminar um Descanso Longo.</description>
+		</sheet>
+	</element>
+
+	<element name="Habilidoso" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_SKILLFUL">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_SKILLFUL</requirements>
+		<description>
+			<p>Você ganha proficiência em uma perícia de sua escolha.</p> 
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Proficiência em Perícia (Habilidoso)" supports="Skill" />
+		</rules>
+	</element>
+
+	<element name="Versátil" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_HUMAN_VERSATILE">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_VERSATILE</requirements>
+		<description>
+			<p>Você ganha um talento de Origem de sua escolha. Perito é recomendado.</p> 
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Talento (Versátil)" supports="Origin" />
+		</rules>
+	</element>
+
+	<element name="Substituição de Traço Engenhoso" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_RESOURCEFUL" />
+	<element name="Substituição de Traço Habilidoso" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_SKILLFUL" />
+	<element name="Substituição de Traço Versátil" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_HUMAN_VERSATILE" />
+
+</elements>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Círculo das Estrelas</name>
+		<description>A subclasse Círculo das Estrelas do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="druid-stars.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/druid-stars.xml" />
+		</update>
+	</info>
+
+	<element name="Círculo das Estrelas" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_STARS">
+		<supports>Druid Subclass</supports>
+		<description>
+			<p class="flavor">Canalize Segredos Ocultos em Constelações</p>
+			<p>O Círculo das Estrelas tem rastreado padrões celestiais desde tempos imemoriais, descobrindo segredos escondidos entre as constelações. Ao compreender esses segredos, os Druidas deste círculo buscam canalizar os poderes do cosmos.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STAR_MAP" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_COSMIC_OMEN" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_TWINKLING_CONSTELLATIONS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_FULL_OF_STARS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STAR_MAP" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_COSMIC_OMEN" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_TWINKLING_CONSTELLATIONS" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_FULL_OF_STARS" level="14" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Mapa Estelar" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STAR_MAP">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_STAR_MAP</requirements>
+		<description>
+			<p>Você criou uma carta estelar como parte dos seus estudos celestiais. É um objeto Miúdo, e você pode usá-lo como um Foco de Conjuração para as suas magias de Druida. Você determina a forma dele rolando na tabela Mapa Estelar ou escolhendo uma.</p>
+			<p class="indent">Enquanto estiver segurando o mapa, você tem as magias <i>Orientação</i> e <i>Raio Guiador</i> preparadas, e pode conjurar <i>Raio Guiador</i> sem gastar um espaço de magia. Você pode conjurá-la dessa forma um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e você recupera todos os usos gastos quando termina um Descanso Longo.</p>
+			<p class="indent">Se você perder o mapa, pode realizar uma cerimônia de 1 hora para criar magicamente um substituto. Esta cerimônia pode ser realizada durante um Descanso Curto ou Longo, e ela destrói o mapa anterior.</p>
+			<h5>Mapa Estelar</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">1d6</td><td class="left">Forma do Mapa</td></tr>
+				</thead>
+				<tr><td>1</td><td class="left">Um pergaminho com representações de constelações</td></tr>
+				<tr><td>2</td><td class="left">Uma tabuleta de pedra com pequenos furos perfurados nela</td></tr>
+				<tr><td>3</td><td class="left">Uma pele de urso-coruja trabalhada com símbolos estelares</td></tr>
+				<tr><td>4</td><td class="left">Uma coleção de mapas encadernada em uma capa de ébano</td></tr>
+				<tr><td>5</td><td class="left">Um cristal gravado com padrões estrelados</td></tr>
+				<tr><td>6</td><td class="left">Um disco de vidro entalhado com constelações</td></tr>
+			</table>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_GUIDANCE" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_GUIDING_BOLT" />
+			</div>
+		</description>
+		<sheet alt="Mapa Estelar">
+			<description>Você criou uma carta estelar como parte dos seus estudos celestiais. É um objeto Miúdo e pode servir como foco de conjuração para suas magias de druida. Enquanto estiver segurando este mapa, você pode conjurar Raio Guiador sem gastar espaço de magia {{star map:uses}} vezes por Descanso Longo. &#13;
+			Se você perder o mapa, pode realizar uma cerimônia de 1 hora para criar magicamente um substituto. Esta cerimônia pode ser realizada durante um Descanso Curto ou Longo, e ela destrói o mapa anterior.</description>
+		</sheet>
+		<rules>
+			<stat name="star map:uses" value="1" bonus="base" />
+			<stat name="star map:uses" value="wisdom:modifier" bonus="base" />
+			
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUIDANCE" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUIDING_BOLT" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Forma Estrelada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM</requirements>
+		<description>
+			<p>Como uma Ação Bônus, você pode gastar um uso da sua característica Forma Selvagem para assumir uma forma estrelada em vez de mudar de forma.</p>
+			<p class="indent">Enquanto estiver na sua forma estrelada, você mantém suas estatísticas de jogo, mas seu corpo se torna luminoso, suas articulações brilham como estrelas, e linhas brilhantes as conectam como em uma carta estelar. Esta forma emite Luz Plena num raio de 3 metros (10 pés) e Penumbra por mais 3 metros (10 pés). A forma dura por 10 minutos. Ela termina mais cedo se você a dissipar (nenhuma ação necessária), ficar com a condição Incapacitado, ou usar esta característica novamente.</p>
+			<p class="indent">Sempre que assumir sua forma estrelada, escolha qual das seguintes constelações brilha no seu corpo; sua escolha concede certos benefícios enquanto estiver na forma.</p>
+			<p class="indent"><em><strong>Arqueiro.</strong></em> Uma constelação de um arqueiro aparece em você. Quando você ativa esta forma e como uma Ação Bônus nos seus turnos subsequentes enquanto ela durar, você pode fazer um ataque com magia à distância, arremessando uma flecha luminosa que foca em uma criatura a até 18 metros (60 pés) de você. Em um acerto, o ataque causa dano Radiante igual a 1d8 mais seu modificador de Sabedoria.</p>
+			<p class="indent"><em><strong>Cálice.</strong></em> Uma constelação de um cálice doador de vida aparece em você. Sempre que você conjurar uma magia usando um espaço de magia que restaure Pontos de Vida a uma criatura, você ou outra criatura a até 9 metros (30 pés) de você pode recuperar Pontos de Vida iguais a 1d8 mais seu modificador de Sabedoria.</p>
+			<p class="indent"><em><strong>Dragão.</strong></em> Uma constelação de um dragão sábio aparece em você. Quando você fizer um teste de Inteligência ou Sabedoria ou um teste de resistência de Constituição para manter Concentração, você pode tratar uma rolagem de 9 ou menos no d20 como um 10.</p>
+		</description>
+		<sheet alt="Forma Estrelada" action="Bonus Action" usage="Forma Selvagem">
+			<description>Você assume uma forma estrelada; enquanto nela, você mantém suas estatísticas de jogo. Esta forma emite luz plena num raio de 3m e penumbra por mais 3m. A forma dura por 10 minutos. Ela termina mais cedo se você a dissipar, ficar com a condição Incapacitado, ou usar esta característica novamente.</description>
+			<description level="14">Você assume uma forma estrelada; enquanto nela, você mantém suas estatísticas de jogo, além de ganhar Resistência a dano Contundente, Perfurante e Cortante. Esta forma emite luz plena num raio de 3m e penumbra por mais 3m. A forma dura por 10 minutos. Ela termina mais cedo se você a dissipar, ficar com a condição Incapacitado, ou usar esta característica novamente.</description>
+		</sheet>
+		<rules>
+			<select type="Archetype Feature" name="Arqueiro" supports="Starry Form Archer" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM_ARCHER" requirements="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_ARCHER" />
+			<select type="Archetype Feature" name="Cálice" supports="Starry Form Chalice" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM_CHALICE" requirements="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_CHALICE" />
+			<select type="Archetype Feature" name="Dragão" supports="Starry Form Dragon" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM_DRAGON" requirements="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_DRAGON" />
+		</rules>
+	</element>
+	<element name="Arqueiro" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM_ARCHER">
+		<supports>Starry Form Archer</supports>
+		<compendium display="false" />
+		<description>
+			<p>Uma constelação de um arqueiro aparece em você. Quando você ativa esta forma e como uma Ação Bônus nos seus turnos subsequentes enquanto ela durar, você pode fazer um ataque com magia à distância, arremessando uma flecha luminosa que foca em uma criatura a até 18 metros (60 pés) de você. Em um acerto, o ataque causa dano Radiante igual a 1d8 mais seu modificador de Sabedoria.</p>
+		</description>
+		<sheet>
+			<description>Quando você ativa esta forma e como Ação Bônus nos seus turnos subsequentes enquanto ela durar, pode fazer um ataque com magia à distância, arremessando uma flecha luminosa em uma criatura a até 18m de você. Num acerto, o ataque causa {{starry form archer:dice count}}d8+{{wisdom:modifier}} de dano Radiante.</description>
+		</sheet>
+		<rules>
+			<stat name="starry form archer:dice count" value="1" bonus="base" />
+		</rules>
+	</element>
+	<element name="Cálice" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM_CHALICE">
+		<supports>Starry Form Chalice</supports>
+		<compendium display="false" />
+		<description>
+			<p>Uma constelação de um cálice doador de vida aparece em você. Sempre que você conjurar uma magia usando um espaço de magia que restaure Pontos de Vida a uma criatura, você ou outra criatura a até 9 metros (30 pés) de você pode recuperar Pontos de Vida iguais a 1d8 mais seu modificador de Sabedoria.</p>
+		</description>
+		<sheet>
+			<description>Sempre que conjurar uma magia usando um espaço de magia que restaure PV a uma criatura, você ou outra criatura a até 9m de você pode recuperar {{starry form chalice:dice count}}d8+{{wisdom:modifier}} PV.</description>
+		</sheet>
+		<rules>
+			<stat name="starry form chalice:dice count" value="1" bonus="base" />
+		</rules>
+	</element>
+	<element name="Dragão" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM_DRAGON">
+		<supports>Starry Form Dragon</supports>
+		<compendium display="false" />
+		<description>
+			<p>Uma constelação de um dragão sábio aparece em você. Quando você fizer um teste de Inteligência ou Sabedoria ou um teste de resistência de Constituição para manter Concentração, você pode tratar uma rolagem de 9 ou menos no d20 como um 10.</p>
+		</description>
+		<sheet>
+			<description>Quando você faz um teste de Inteligência ou Sabedoria ou um teste de resistência de Constituição para manter Concentração, você pode tratar uma rolagem de 9 ou menos no d20 como um 10.</description>
+			<description level="10">Você tem Deslocamento de Voo de 6m e pode pairar. Quando você faz um teste de Inteligência ou Sabedoria ou um teste de resistência de Constituição para manter Concentração, você pode tratar uma rolagem de 9 ou menos no d20 como um 10.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 6: Presságio Cósmico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_COSMIC_OMEN">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_COSMIC_OMEN</requirements>
+		<description>
+			<p style="margin-bottom:0.25em">Sempre que você terminar um Descanso Longo, pode consultar seu Mapa Estelar em busca de presságios e rolar um dado. Até terminar seu próximo Descanso Longo, você ganha acesso a uma Reação especial baseada em você ter rolado um número par ou ímpar no dado:</p>
+			<ul class="unstyled" style="margin-top:0em">
+				<li style="margin-left:1em;text-indent:-1em;"><em><strong>Bênção (par).</strong></em> Sempre que uma criatura que você possa ver a até 9 metros (30 pés) de você estiver prestes a fazer um Teste de D20, você pode usar uma Reação para rolar 1d6 e adicionar o número rolado ao total.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><em><strong>Infortúnio (ímpar).</strong></em> Sempre que uma criatura que você possa ver a até 9 metros (30 pés) de você estiver prestes a fazer um Teste de D20, você pode usar uma Reação para rolar 1d6 e subtrair o número rolado do total.</li>
+			</ul>
+			<p style="margin-top:0.25em">Você pode usar esta Reação um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e você recupera todos os usos gastos quando termina um Descanso Longo.</p>
+		</description>
+		<sheet alt="Presságio Cósmico" action="Reaction" usage="{{cosmic omen:usage}}/Descanso Longo">
+			<description>Sempre que terminar um Descanso Longo, você pode rolar um dado para presságios. Você ganha uma Reação baseada no resultado par ou ímpar: &#13;
+			• Bênção (par). Sempre que uma criatura visível a até 9m de você for fazer um Teste de D20, você pode rolar 1d6 e adicionar ao total. &#13;
+			• Infortúnio (ímpar). Sempre que uma criatura visível a até 9m de você for fazer um Teste de D20, você pode rolar 1d6 e subtrair do total.</description>
+		</sheet>
+		<rules>
+			<stat name="cosmic omen:usage" value="1" bonus="base" />
+			<stat name="cosmic omen:usage" value="wisdom:modifier" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 10: Constelações Cintilantes" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_TWINKLING_CONSTELLATIONS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_TWINKLING_CONSTELLATIONS</requirements>
+		<description>
+			<p>As constelações da sua Forma Estrelada melhoram. O 1d8 do Arqueiro e do Cálice torna-se 2d8, e enquanto o Dragão estiver ativo, você tem um Deslocamento de Voo de 6 metros (20 pés) e pode pairar.</p>
+			<p class="indent">Além disso, no início de cada um dos seus turnos enquanto estiver na Forma Estrelada, você pode mudar qual constelação brilha no seu corpo.</p>
+		</description>
+		<sheet alt="Constelações Cintilantes">
+			<description>No início de cada um dos seus turnos enquanto estiver na Forma Estrelada, você pode mudar qual constelação brilha no seu corpo.</description>
+		</sheet>
+		<rules>
+			<stat name="starry form archer:dice count" value="2" bonus="base" />
+			<stat name="starry form chalice:dice count" value="2" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 14: Cheio de Estrelas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_FULL_OF_STARS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_FULL_OF_STARS</requirements>
+		<description>
+			<p>Enquanto estiver na sua Forma Estrelada, você se torna parcialmente incorpóreo, o que lhe concede Resistência a dano Contundente, Perfurante e Cortante.</p>
+			</description>
+		<sheet display="false"/>
+	</element>
+
+	<element name="Mapa Estelar" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_STAR_MAP">
+		<description>
+			<p>O mapa é um objeto Miúdo e pode servir como um Foco de Conjuração para Druidas do Círculo das Estrelas e suas magias.</p>
+			<p class="indent">Se você perder o mapa, pode realizar uma cerimônia de 1 hora para criar magicamente um substituto. Esta cerimônia pode ser realizada durante um Descanso Curto ou Longo, e ela destrói o mapa anterior.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+		</setters>
+	</element>
+
+	<element name="Star Map Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_STAR_MAP" />
+	<element name="Starry Form Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM" />
+	<element name="Starry Form: Archer Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_ARCHER" />
+	<element name="Starry Form: Chalice Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_CHALICE" />
+	<element name="Starry Form: Dragon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_DRAGON" />
+	<element name="Cosmic Omen Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_COSMIC_OMEN" />
+	<element name="Twinkling Constellations Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_TWINKLING_CONSTELLATIONS" />
+	<element name="Full of Stars Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_STARS_FULL_OF_STARS" />
+
+</elements>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Rastreador Sombrio</name>
+		<description>A subclasse Rastreador Sombrio do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="ranger-gloom-stalker.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/ranger-gloom-stalker.xml" />
+		</update>
+	</info>
+
+	<element name="Rastreador Sombrio" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_RANGER_GLOOM_STALKER">
+		<supports>Ranger Subclass</supports>
+		<description>
+			<p class="flavor">Recorra à Magia das Sombras para Combater Seus Inimigos</p>
+			<p>Rastreadores Sombrios se sentem em casa nos lugares mais escuros, empunhando magia extraída da Umbra para combater inimigos que espreitam na escuridão.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_DREAD_AMBUSHER" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_GLOOM_STALKER_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_UMBRAL_SIGHT" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_IRON_MIND" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_STALKERS_FLURRY" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_SHADOWY_DODGE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_DREAD_AMBUSHER" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_GLOOM_STALKER_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_UMBRAL_SIGHT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_IRON_MIND" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_STALKERS_FLURRY" level="11" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_SHADOWY_DODGE" level="15" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Emboscador Terrível" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_DREAD_AMBUSHER">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_DREAD_AMBUSHER</requirements>
+		<description>
+			<p>Você dominou a arte de criar emboscadas assustadoras, concedendo-lhe os seguintes benefícios.</p>
+			<p class="indent"><b><i>Salto do Emboscador.</i></b> No início do seu primeiro turno de cada combate, seu Deslocamento aumenta em 3 metros (10 pés) até o final daquele turno.</p>
+			<p class="indent"><b><i>Golpe Terrível.</i></b> Quando você ataca uma criatura e a atinge com uma arma, você pode causar 2d6 de dano Psíquico extra. Você pode usar este benefício apenas uma vez por turno, você pode usá-lo um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e você recupera todos os usos gastos quando termina um Descanso Longo.</p>
+			<p class="indent"><b><i>Bônus de Iniciativa.</i></b> Quando você rola Iniciativa, pode adicionar seu modificador de Sabedoria à rolagem.</p>
+		</description>
+		<sheet alt="Emboscador Terrível">
+			<description>Você ganha os seguintes benefícios:</description>
+		</sheet>
+		<rules>
+			<select type="Archetype Feature" name="Ambusher's Leap" supports="PHB24 Ambushers Leap" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_AMBUSHERS_LEAP" requirements="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_DREAD_AMBUSHER_AMBUSHERS_LEAP" />
+			<select type="Archetype Feature" name="Dreadful Strike" supports="PHB24 Dreadful Strike" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_DREADFUL_STRIKE" requirements="!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_DREAD_AMBUSHER_DREADFUL_STRIKE||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_STALKERS_FLURRY)" />
+			<stat name="initiative" value="wisdom:modifier" />
+		</rules>
+	</element>
+	<element name="Salto do Emboscador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_AMBUSHERS_LEAP">
+		<supports>PHB24 Ambushers Leap</supports>
+		<description>
+			<p>No início do seu primeiro turno de cada combate, seu Deslocamento aumenta em 3 metros (10 pés) até o final daquele turno.</p>
+		</description>
+		<sheet>
+			<description>No início do seu primeiro turno de cada combate, seu Deslocamento aumenta em 3m até o final daquele turno.</description>
+		</sheet>
+	</element>
+	<element name="Golpe Terrível" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_DREADFUL_STRIKE">
+		<supports>PHB24 Dreadful Strike</supports>
+		<description>
+			<p>Quando você ataca uma criatura e a atinge com uma arma, você pode causar 2d6 de dano Psíquico extra. Você pode usar este benefício apenas uma vez por turno, você pode usá-lo um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e você recupera todos os usos gastos quando termina um Descanso Longo.</p>
+		</description>
+		<sheet usage="1/Turno — {{dreadful strike:usage}}/Descanso Longo">
+			<description>Quando atinge uma criatura com arma, pode causar 2d6 extra de dano Psíquico.</description>
+			<description level="11">Quando atinge uma criatura com arma, pode causar 2d8 extra de dano Psíquico. E pode usar um destes efeitos extras: &#13;
+			• Fazer outro ataque com a mesma arma contra alvo diferente que esteja a até 1,5m do alvo original e no alcance. &#13;
+			• O alvo e cada criatura a até 3m dele devem passar em salvaguarda de Sabedoria CD {{ranger:spellcasting:dc}} ou ficam Amedrontados até o início do seu próximo turno.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="dreadful strike:usage" value="1" bonus="base" />
+			<stat name="dreadful strike:usage" value="wisdom:modifier" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magias do Rastreador Sombrio" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_GLOOM_STALKER_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_GLOOM_STALKER_SPELLS</requirements>
+		<description>
+			<p>Quando você atinge um nível de Patrulheiro especificado na tabela Magias do Rastreador Sombrio, você a partir de então sempre tem as magias listadas preparadas.</p>
+			<h5>Magias do Rastreador Sombrio</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-25">Nível de Patrulheiro</td><td class="left">Magias</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Disfarçar-se</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Truque de Corda</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Medo</em></td></tr>
+				<tr><td>13</td><td class="left"><em>Invisibilidade Maior</em></td></tr>
+				<tr><td>17</td><td class="left"><em>Aparência Falsa</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DISGUISE_SELF" level="3" spellcasting="Ranger" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ROPE_TRICK" level="5" spellcasting="Ranger" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FEAR" level="9" spellcasting="Ranger" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GREATER_INVISIBILITY" level="13" spellcasting="Ranger" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SEEMING" level="17" spellcasting="Ranger" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Visão Umbral" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_UMBRAL_SIGHT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_UMBRAL_SIGHT</requirements>
+		<description>
+			<p>Você ganha Visão no Escuro com um alcance de 18 metros (60 pés). Se você já possui Visão no Escuro quando ganha esta característica, o alcance aumenta em 18 metros (60 pés).</p>
+			<p class="indent">Você também é adepto a fugir de criaturas que dependem da Visão no Escuro. Enquanto estiver inteiramente na Escuridão, você tem a condição Invisível para qualquer criatura que dependa de Visão no Escuro para ver você nessa Escuridão.</p>
+		</description>
+		<sheet alt="Visão Umbral">
+			<description>Enquanto na Escuridão, você está Invisível para qualquer criatura que dependa de Visão no Escuro para vê-lo.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
+			<stat name="darkvision:range" value="60" bonus="umbral sight" />
+		</rules>
+	</element>
+
+	<element name="Nível 7: Mente de Ferro" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_IRON_MIND">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_IRON_MIND</requirements>
+		<description>
+			<p>Você aprimorou sua habilidade de resistir a poderes que alteram a mente. Você ganha proficiência em testes de resistência de Sabedoria. Se você já tem essa proficiência, em vez disso ganha proficiência em testes de resistência de Inteligência ou Carisma (à sua escolha).</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Saving Throw Proficiency (Iron Mind)" supports="ID_PROFICIENCY_SAVINGTHROW_WISDOM|ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE|ID_PROFICIENCY_SAVINGTHROW_CHARISMA" default="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+		</rules>
+	</element>
+
+	<element name="Nível 11: Rajada do Rastreador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_STALKERS_FLURRY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_STALKERS_FLURRY</requirements>
+		<description>
+			<p>O dano Psíquico do seu Golpe Terrível se torna 2d8. Além disso, quando você usa o efeito de Golpe Terrível da sua característica Emboscador Terrível, você pode causar um dos seguintes efeitos adicionais.</p>
+			<p class="indent"><b><i>Golpe Repentino.</i></b> Você pode fazer outro ataque com a mesma arma contra uma criatura diferente que esteja a até 1,5 metro (5 pés) do alvo original e que esteja dentro do alcance da arma.</p>
+			<p class="indent"><b><i>Medo em Massa.</i></b> O alvo e cada criatura a até 3 metros (10 pés) dele devem fazer um teste de resistência de Sabedoria contra a CD das suas magias. Em uma falha, uma criatura tem a condição Amedrontado até o início do seu próximo turno.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+
+	<element name="Nível 15: Esquiva Sombria" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_SHADOWY_DODGE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_SHADOWY_DODGE</requirements>
+		<description>
+			<p>Quando uma criatura faz uma jogada de ataque contra você, você pode usar uma Reação para impor Desvantagem a essa rolagem. Quer o ataque acerte ou erre, você pode então se teletransportar até 9 metros (30 pés) para um espaço desocupado que você possa ver.</p>
+		</description>
+		<sheet alt="Esquiva Sombria" action="Reaction">
+			<description>Quando você sofre um ataque, pode impor Desvantagem nele. Quer acerte ou erre, você pode se teletransportar até 9m para um espaço desocupado visível.</description>
+		</sheet>
+	</element>
+
+	<element name="Dread Ambusher Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_DREAD_AMBUSHER" />
+	<element name="Dread Ambusher Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_DREAD_AMBUSHER_AMBUSHERS_LEAP" />
+	<element name="Dread Ambusher Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_DREAD_AMBUSHER_DREADFUL_STRIKE" />
+	<element name="Gloom Stalker Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_GLOOM_STALKER_SPELLS" />
+	<element name="Umbral Sight Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_UMBRAL_SIGHT" />
+	<element name="Iron Mind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_IRON_MIND" />
+	<element name="Stalker's Flurry Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_STALKERS_FLURRY" />	
+	<element name="Shadowy Dodge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_RANGER_GLOOM_STALKER_SHADOWY_DODGE" />
+</elements>

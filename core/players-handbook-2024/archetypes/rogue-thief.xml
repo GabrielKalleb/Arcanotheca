@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Ladrão</name>
+		<description>A subclasse Ladrão do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="rogue-thief.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/rogue-thief.xml" />
+		</update>
+	</info>
+
+	<element name="Ladrão" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_THIEF">
+		<supports>Rogue Subclass</supports>
+		<description>
+			<p class="flavor">Cace Tesouros como um Clássico Aventureiro</p>
+			<p>Uma mistura de ladrão, caçador de tesouros e explorador, você é o epítome de um aventureiro. Além de melhorar sua agilidade e furtividade, você ganha habilidades úteis para desbravar ruínas e obter benefício máximo dos itens mágicos que encontra por lá.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_FAST_HANDS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SECOND_STORY_WORK" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SUPREME_SNEAK" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_USE_MAGIC_DEVICE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_THIEFS_REFLEXES" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_FAST_HANDS" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SECOND_STORY_WORK" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SUPREME_SNEAK" level="9"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_USE_MAGIC_DEVICE" level="13"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_THIEFS_REFLEXES" level="17"/>
+		</rules>
+	</element>
+
+	<element name="Nível 3: Mãos Rápidas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_FAST_HANDS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_FAST_HANDS</requirements>
+		<description>
+			<p>Como uma Ação Bônus, você pode fazer uma das seguintes coisas:</p>
+			<p class="indent"><em><strong>Prestidigitação.</strong></em> Fazer um teste de Destreza (Prestidigitação) para abrir uma fechadura ou desarmar uma armadilha com Ferramentas de Ladrão ou para bater uma carteira.</p>
+			<p class="indent"><em><strong>Usar um Objeto.</strong></em> Realizar a ação Utilizar, ou realizar a Ação Mágica para usar um item mágico que exija essa ação.</p>
+		</description>
+		<sheet alt="Mãos Rápidas" action="Ação Bônus">
+			<description>Você pode fazer um teste de Destreza (Prestidigitação) para bater carteira, ou abrir uma fechadura ou desarmar uma armadilha com Ferramentas de Ladrão. Alternativamente, você pode realizar a ação Utilizar ou realizar a Ação Mágica para usar um item mágico que exija essa ação.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 3: Trabalho de Segundo Andar" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SECOND_STORY_WORK">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SECOND_STORY_WORK</requirements>
+		<description>
+			<p>Você treinou para alcançar lugares especialmente difíceis, garantindo os seguintes benefícios.</p>
+			<p class="indent"><em><strong>Escalador.</strong></em> Você ganha um Deslocamento de Escalada igual ao seu Deslocamento.</p>
+			<p class="indent"><em><strong>Saltador.</strong></em> Você pode determinar a distância do seu salto usando sua Destreza em vez de sua Força.</p>
+		</description>
+		<sheet alt="Trabalho de Segundo Andar" >
+			<description>Você pode usar sua Destreza em vez de sua Força para determinar a distância de seu salto.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:climb" value="innate speed" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 9: Furtividade Suprema" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SUPREME_SNEAK">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SUPREME_SNEAK</requirements>
+		<description>
+			<p>Você ganha a seguinte opção de Ataque Astuto.</p>
+			<p class="indent"><em><strong>Ataque Oculto (Custo: 1d6).</strong></em> Se você estiver com a condição Invisível através da ação Esconder-se, este ataque não encerra essa condição em você se você terminar o turno atrás de Três Quartos de Cobertura ou Cobertura Total.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Ataque Oculto (Custo: 1d6)" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SUPREME_SNEAK_STEALTH_ATTACK">
+		<supports>PHB24 Cunning Strike Stealth Attack</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SUPREME_SNEAK_STEALTH_ATTACK</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Se você estiver com a condição Invisível através da ação Esconder-se, este ataque não encerra essa condição em você se você terminar o turno atrás de Três Quartos de Cobertura ou Cobertura Total.</p>
+		</description>
+		<sheet alt="Ataque Oculto (1d6)">
+			<description>Se você tiver a condição Invisível da ação Esconder-se, seu ataque não encerra a condição em você se terminar o turno atrás de Três Quartos de Cobertura ou Cobertura Total.</description>
+		</sheet>
+	</element>
+	<append id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE">
+		<rules>
+			<select type="Archetype Feature" name="Stealth Attack" supports="PHB24 Cunning Strike Stealth Attack" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SUPREME_SNEAK_STEALTH_ATTACK" requirements="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SUPREME_SNEAK" />
+		</rules>
+	</append>
+
+	<element name="Nível 13: Usar Instrumento Mágico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_USE_MAGIC_DEVICE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_USE_MAGIC_DEVICE</requirements>
+		<description>
+			<p>Você aprendeu como maximizar o uso de itens mágicos, o que lhe garante os seguintes benefícios.</p>
+			<p class="indent"><em><strong>Sintonia.</strong></em> Você pode se sintonizar com até quatro itens mágicos ao mesmo tempo.</p>
+			<p class="indent"><em><strong>Cargas.</strong></em> Sempre que usar a propriedade de um item mágico que gasta cargas, role 1d6. Em um resultado de 6, você usa a propriedade sem gastar as cargas.</p>
+			<p class="indent"><em><strong>Pergaminhos.</strong></em> Você pode usar qualquer <i>Pergaminho de Magia</i>, usando Inteligência como sua habilidade de conjuração para a magia. Se a magia for um truque ou uma magia de nível 1, você pode conjurá-la confiavelmente. Se o pergaminho contiver uma magia de nível superior, você deve primeiro ser bem-sucedido num teste de Inteligência (Arcanismo) (CD 10 mais o nível da magia). Em um sucesso, você conjura a magia a partir do pergaminho. Em uma falha, o pergaminho se desintegra.</p>
+		</description>
+		<sheet alt="Usar Instrumento Mágico" >
+			<description>Sempre que usar a propriedade de um item mágico que gasta cargas, você usa sem gastar a carga se rolar um 6 em 1d6. &#13;
+			Você pode usar qualquer Pergaminho de Magia, usando Inteligência como habilidade de conjuração. Se ele contiver uma magia de nível 2+, você deve passar num teste de Inteligência (Arcanismo) CD 10 + nível da magia, ou ela falha e o pergaminho se desintegra.</description>
+		</sheet>
+		<rules>
+			<stat name="attunement:max" value="4" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Nível 17: Reflexos de Ladrão" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_THIEFS_REFLEXES">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_THIEFS_REFLEXES</requirements>
+		<description>
+			<p>Você é adepto em armar emboscadas e escapar rapidamente do perigo. Você pode jogar dois turnos durante a primeira rodada de qualquer combate. Você joga o seu primeiro turno na sua Iniciativa normal e seu segundo turno na sua Iniciativa menos 10.</p>
+		</description>
+		<sheet alt="Reflexos de Ladrão">
+			<description>Você pode realizar dois turnos durante a primeira rodada de qualquer combate. Você tem o primeiro turno na sua iniciativa normal e o segundo turno na sua iniciativa menos 10.</description>
+		</sheet>
+	</element>
+	
+	<element name="Fast Hands Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_FAST_HANDS" />
+	<element name="Second-Story Work Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SECOND_STORY_WORK" />
+	<element name="Supreme Sneak Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SUPREME_SNEAK" />
+	<element name="Supreme Sneak: Stealth Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SUPREME_SNEAK_STEALTH_ATTACK" />
+	<element name="Use Magic Device Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_USE_MAGIC_DEVICE" />
+	<element name="Thief’s Reflexes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_THIEFS_REFLEXES" />
+</elements>

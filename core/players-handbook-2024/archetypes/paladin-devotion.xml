@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Juramento da Devoção</name>
+		<description>A subclasse Juramento da Devoção do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="paladin-devotion.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/paladin-devotion.xml" />
+		</update>
+	</info>
+
+	<element name="Juramento da Devoção" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_PALADIN_OATH_OF_DEVOTION">
+		<supports>Paladin Subclass</supports>
+		<description>
+			<p class="flavor">Defenda os Ideais de Justiça e Ordem</p>
+			<p>O Juramento da Devoção une os Paladinos aos ideais de justiça e ordem. Estes Paladinos são o arquétipo do cavaleiro de armadura brilhante. Eles mantêm os mais altos padrões de conduta e alguns — para o bem ou para o mal — exigem os mesmos padrões do resto do mundo.</p>
+			<p class="indent">Muitos que fazem este juramento são devotos a deuses da lei e do bem, utilizando os dogmas de seus deuses como medida de devoção pessoal. Outros têm os anjos como seus ideais e incorporam imagens de asas angelicais em seus elmos ou brasões de armas.</p>
+			<p class="indent">Estes paladinos compartilham os seguintes dogmas:</p>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
+				<li>Faça da sua palavra a sua promessa.</li>
+				<li>Proteja os fracos e nunca tenha medo de agir.</li>
+				<li>Que seus atos honrados sejam um exemplo.</li>
+			</ul>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_OATH_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_SACRED_WEAPON" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_AURA_OF_DEVOTION" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_SMITE_OF_PROTECTION" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_HOLY_NIMBUS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_OATH_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_SACRED_WEAPON" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_AURA_OF_DEVOTION" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_SMITE_OF_PROTECTION" level="15" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_HOLY_NIMBUS" level="20" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magias de Juramento" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_OATH_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_OATH_SPELLS</requirements>
+		<description>
+			<p>A magia do seu juramento garante que você sempre tenha certas magias preparadas; quando você atinge um nível de Paladino especificado na tabela de Magias do Juramento da Devoção, você passa a ter as magias listadas sempre preparadas.</p>
+			<h5>Magias do Juramento da Devoção</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-25">Nível de Paladino</td><td class="left">Magias</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Proteção contra o Bem e o Mal, Escudo da Fé</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Auxílio, Zona da Verdade</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Sinal de Esperança, Dissipar Magia</em></td></tr>
+				<tr><td>13</td><td class="left"><em>Movimentação Livre, Guardião da Fé</em></td></tr>
+				<tr><td>17</td><td class="left"><em>Comunhão, Coluna de Chamas</em></td></tr>
+			</table>      
+		</description>
+		<sheet display="false" />
+		<rules> 
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="3" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SHIELD_OF_FAITH" level="3" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_AID" level="5" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ZONE_OF_TRUTH" level="5" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DISPEL_MAGIC" level="9" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FREEDOM_OF_MOVEMENT" level="13" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUARDIAN_OF_FAITH" level="13" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMUNE" level="17" spellcasting="Paladin" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FLAME_STRIKE" level="17" spellcasting="Paladin" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Arma Sagrada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_SACRED_WEAPON">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_SACRED_WEAPON</requirements>
+		<description>
+			<p>Quando você realiza a ação de Ataque, pode gastar um uso de sua Canalizar Divindade para imbuir uma arma Corpo a Corpo que esteja empunhando com energia positiva. Por 10 minutos ou até você usar esta característica novamente, você adiciona seu modificador de Carisma às jogadas de ataque que fizer com aquela arma (bônus mínimo de +1), e cada vez que você atinge com ela, você faz com que ela cause o seu tipo de dano normal ou dano Radiante.</p>
+			<p class="indent">A arma também emite Luz Plena em um raio de 6 metros (20 pés) e Penumbra 6 metros (20 pés) além disso.</p>
+			<p class="indent">Você pode encerrar esse efeito antes do tempo (nenhuma ação exigida). Esse efeito também termina se você não estiver mais portando a arma.</p>
+		</description>
+		<sheet alt="Arma Sagrada" usage="Canalizar Divindade">
+			<description>Quando realiza a ação de Ataque, você imbui uma arma Corpo a Corpo em mãos com energia. Por 10 minutos ou até usar de novo, você adiciona +{{sacred weapon:bonus}} nas jogadas de ataque com ela e cada acerto pode causar dano Radiante ou o normal da arma. A arma emite Luz Plena (6m/20 pés) e Penumbra (mais 6m). Você pode encerrar mais cedo e o efeito termina se não a estiver portando.</description>
+		</sheet>
+		<rules>
+			<stat name="sacred weapon:bonus" value="1" bonus="base"/>
+			<stat name="sacred weapon:bonus" value="charisma:modifier" bonus="base"/>
+		</rules>
+	</element>
+
+	<element name="Nível 7: Aura de Devoção" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_AURA_OF_DEVOTION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_AURA_OF_DEVOTION</requirements>
+		<description>
+			<p>Você e seus aliados têm Imunidade à condição Enfeitiçado enquanto estiverem na sua Aura de Proteção. Se um aliado Enfeitiçado entrar na aura, essa condição não terá efeito sobre esse aliado enquanto ele estiver lá.</p>
+		</description>
+		<sheet alt="Aura de Devoção">
+			<description>Você e seus aliados na sua Aura de Proteção têm Imunidade a Enfeitiçado. Se um aliado Enfeitiçado entrar nela, a condição não tem efeito enquanto ele estiver lá.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 15: Destruição Protetora" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_SMITE_OF_PROTECTION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_SMITE_OF_PROTECTION</requirements>
+		<description>
+			<p>Sua destruição mágica agora irradia energia protetora. Sempre que você conjurar <i>Destruição Divina</i>, você e seus aliados têm Meia Cobertura enquanto estiverem em sua Aura de Proteção. A aura possui este benefício até o início de seu próximo turno.</p>
+		</description>
+		<sheet alt="Destruição Protetora">
+			<description>Sempre que conjurar Destruição Divina, você e seus aliados têm Meia Cobertura enquanto na sua Aura de Proteção até o início de seu próximo turno.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 20: Nimbo Sagrado" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_OATH_OF_DEVOTION_HOLY_NIMBUS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_HOLY_NIMBUS</requirements>
+		<description>
+			<p>Como uma Ação Bônus, você pode imbuir sua Aura de Proteção com poder sagrado, concedendo os benefícios abaixo por 10 minutos ou até você os encerrar (nenhuma ação exigida). Após usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo. Você também pode restaurar seu uso gastando um espaço de magia de 5º nível (nenhuma ação exigida).</p>
+			<p class="indent"><b><i>Proteção Sagrada.</i></b> Você tem Vantagem em qualquer teste de resistência que for forçado a fazer contra um Corruptor ou um Morto-Vivo.</p>
+			<p class="indent"><b><i>Dano Radiante.</i></b> Sempre que um inimigo iniciar o turno dele dentro da aura, essa criatura sofre dano Radiante igual ao seu modificador de Carisma mais seu Bônus de Proficiência.</p>
+			<p class="indent"><b><i>Luz Solar.</i></b> A aura é preenchida por Luz Plena que é luz solar.</p>
+		</description>
+		<sheet alt="Nimbo Sagrado" action="Ação Bônus" usage="1/Descanso Longo">
+			<description>Por 10 minutos ou até você encerrar, sua Aura de Proteção ganha: &#13;
+			• Vantagem em testes de resistência forçados por Corruptores ou Mortos-Vivos. &#13;
+			• Inimigos que iniciem o turno na aura sofrem {{holy nimbus:damage}} de dano Radiante. &#13;
+			• A aura emana Luz Plena (luz solar). &#13;
+			Você pode gastar um espaço de 5º nível para usá-la novamente.</description>
+		</sheet>
+		<rules>
+			<stat name="holy nimbus:damage" value="charisma:modifier" bonus="base"/>
+			<stat name="holy nimbus:damage" value="proficiency" bonus="proficiency"/>
+		</rules>
+	</element>
+
+	<element name="Oath Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_OATH_SPELLS" />
+	<element name="Sacred Weapon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_SACRED_WEAPON" />
+	<element name="Aura of Devotion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_AURA_OF_DEVOTION" />
+	<element name="Smite of Protection Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_SMITE_OF_PROTECTION" />
+	<element name="Holy Nimbus Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OATH_OF_DEVOTION_HOLY_NIMBUS" />
+</elements>

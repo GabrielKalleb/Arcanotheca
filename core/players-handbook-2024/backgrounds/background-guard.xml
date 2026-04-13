@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Guarda</name>
+		<description>O antecedente Guarda do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="background-guard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/background-guard.xml" />
+		</update>
+	</info>
+
+	<element name="Guarda" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_GUARD">
+		<description>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+				<li><strong>Valores de Habilidade:</strong> Força, Inteligência, Sabedoria</li>
+				<li><strong>Talento:</strong> Alerta</li>
+				<li><strong>Proficiências em Perícias:</strong> Atletismo e Percepção</li>
+				<li><strong>Proficiência em Ferramenta:</strong><i> Escolha um tipo de Kit de Jogos</i></li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Lança, Besta Leve, 20 Virotes, Kit de Jogos (o mesmo escolhido acima), Lanterna Coberta, Algemas, Aljava, Roupas de Viajante, 12 PO; ou (B) 50 PO</li>
+			</ul>
+			<p>Seus pés doem quando você se lembra das incontáveis horas que passou em seu posto na torre. Você foi treinado para manter um olho voltado para o lado de fora do muro, vigiando por saqueadores varrendo a floresta próxima, e seu outro olho voltado para o lado de dentro do muro, procurando por batedores de carteira e arruaceiros.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_FEAT_ALERT" />
+			</div>
+		</description>
+		<setters>
+			<set name="short">Força, Inteligência, Sabedoria, Talento Alerta, Perícias Atletismo e Percepção, um Kit de Jogos</set>
+		</setters>
+		<rules>
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_INT_WIS" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_ALERT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Proficiency" name="Kit de Jogos (Guarda)" supports="Gaming Set" />
+		</rules>
+	</element>
+</elements>

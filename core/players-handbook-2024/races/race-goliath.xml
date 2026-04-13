@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Golias</name>
+		<description>A espécie Golias do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="race-goliath.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/races/race-goliath.xml" />
+		</update>
+	</info>
+	
+	<element name="Golias" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_GOLIATH">
+		<description>
+			<p>Imponentes acima da maioria das pessoas, os golias são descendentes distantes dos gigantes. Cada golias carrega as bênçãos dos primeiros gigantes — bênçãos que se manifestam em várias dádivas sobrenaturais, incluindo a habilidade de crescer rapidamente e se aproximar temporariamente da altura de seus parentes gigantescos.</p>
+			<p class="indent">Os golias possuem características físicas que lembram os gigantes de suas linhagens familiares. Por exemplo, alguns golias se parecem com gigantes de pedra, enquanto outros se assemelham a gigantes de fogo. Qualquer que seja o tipo de gigante que considerem família, os golias forjaram seu próprio caminho no multiverso — desimpedidos pelos conflitos mortais que assolaram a raça dos gigantes por eras — e buscam alcançar alturas acima das já alcançadas por seus ancestrais.</p>
+			<h5>CARACTERÍSTICAS DO GOLIAS</h5>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+				<li><strong>Tipo de Criatura:</strong> Humanoide</li>
+				<li><strong>Tamanho:</strong> Médio (cerca de 2,10 a 2,40 metros de altura)</li>
+				<li><strong>Deslocamento:</strong> 10,5 metros (35 pés)</li>
+			</ul>
+			<p>Como um Golias, você possui estas características especiais.</p>
+			<p class="indent" style="margin-bottom:5px"><strong><em>Ancestralidade Gigante.</em></strong> Você descende dos Gigantes. Escolha um dos seguintes benefícios — uma dádiva sobrenatural de sua ancestralidade; você pode usar o benefício escolhido um número de vezes igual ao seu Bônus de Proficiência, e você recupera todos os usos gastos quando terminar um Descanso Longo:</p>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:1em">
+				<li><strong>Salto da Nuvem (Gigante das Nuvens).</strong> Como uma Ação Bônus, você se teletransporta magicamente até 9 metros (30 pés) para um espaço desocupado que você possa ver.</li>
+				<li><strong>Ardor do Fogo (Gigante do Fogo).</strong> Quando você atingir um alvo com uma jogada de ataque e causar dano a ele, você pode também causar 1d10 de dano Ígneo a esse alvo.</li>
+				<li><strong>Calafrio do Gelo (Gigante de Gelo).</strong> Quando você atingir um alvo com uma jogada de ataque e causar dano a ele, você pode também causar 1d6 de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros (10 pés) até o início do seu próximo turno.</li>
+				<li><strong>Derrubada da Colina (Gigante da Colina).</strong> Quando você atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode aplicar àquele alvo a condição Caído.</li>
+				<li><strong>Resistência da Pedra (Gigante de Pedra).</strong> Quando você sofre dano, você pode usar uma Reação para rolar 1d12. Adicione seu modificador de Constituição ao número rolado e reduza o dano por esse total.</li>
+				<li><strong>Trovão da Tempestade (Gigante da Tempestade).</strong> Quando você sofrer dano de uma criatura a até 18 metros (60 pés) de você, você pode usar uma Reação para causar 1d8 de dano Trovejante àquela criatura.</li>
+			</ul>
+			<p class="indent"><strong><em>Forma Grande.</em></strong> A partir do 5º nível de personagem, você pode alterar o seu tamanho para Grande usando uma Ação Bônus, se estiver em um espaço amplo o suficiente. Essa transformação dura 10 minutos ou até você terminá-la (nenhuma ação necessária). Por essa duração, você tem Vantagem em testes de Força e seu Deslocamento aumenta em 3 metros (10 pés). Após usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo.</p> 
+			<p class="indent"><strong><em>Porte Poderoso.</em></strong> Você tem Vantagem em qualquer teste de habilidade que fizer para encerrar a condição Agarrado. Você também conta como se fosse uma categoria de tamanho maior para determinar a sua capacidade de carga.</p> 
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria de Valor de Habilidade (Golias)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_GOLIATH" />
+
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Idioma (Golias)" supports="Standard" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Idioma Personalizado (Golias)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" number="3" />
+
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_LARGE_FORM" level="5" />
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_POWERFUL_BUILD" />
+		</rules>
+	</element>
+
+	<element name="Ancestralidade Gigante" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GOLIATH_GIANT_ANCESTRY</requirements>
+		<description>
+			<p>Você descende dos Gigantes. Escolha um dos seguintes benefícios — uma dádiva sobrenatural de sua ancestralidade; você pode usar o benefício escolhido um número de vezes igual ao seu Bônus de Proficiência, e você recupera todos os usos gastos quando terminar um Descanso Longo:</p>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em">
+				<li><strong>Salto da Nuvem (Gigante das Nuvens).</strong> Como uma Ação Bônus, você se teletransporta magicamente até 9 metros (30 pés) para um espaço desocupado que você possa ver.</li>
+				<li><strong>Ardor do Fogo (Gigante do Fogo).</strong> Quando você atingir um alvo com uma jogada de ataque e causar dano a ele, você pode também causar 1d10 de dano Ígneo a esse alvo.</li>
+				<li><strong>Calafrio do Gelo (Gigante de Gelo).</strong> Quando você atingir um alvo com uma jogada de ataque e causar dano a ele, você pode também causar 1d6 de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros (10 pés) até o início do seu próximo turno.</li>
+				<li><strong>Derrubada da Colina (Gigante da Colina).</strong> Quando você atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode aplicar àquele alvo a condição Caído.</li>
+				<li><strong>Resistência da Pedra (Gigante de Pedra).</strong> Quando você sofre dano, você pode usar uma Reação para rolar 1d12. Adicione seu modificador de Constituição ao número rolado e reduza o dano por esse total.</li>
+				<li><strong>Trovão da Tempestade (Gigante da Tempestade).</strong> Quando você sofrer dano de uma criatura a até 18 metros (60 pés) de você, você pode usar uma Reação para causar 1d8 de dano Trovejante àquela criatura.</li>
+			</ul>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Dádiva Ancestral (Ancestralidade Gigante)" supports="Giant Ancestry 2024" />
+		</rules>
+	</element>
+	<element name="Salto da Nuvem (Gigante das Nuvens)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY_CLOUDS_JAUNT">
+		<supports>Giant Ancestry 2024</supports>
+		<description>
+			<p>Como uma Ação Bônus, você se teletransporta magicamente até 9 metros (30 pés) para um espaço desocupado que você possa ver.</p> 
+		</description>
+		<sheet alt="Salto da Nuvem" action="Bonus Action" usage="{{proficiency}}/Descanso Longo">
+			<description>Você se teletransporta magicamente até 9 metros (30 pés) para um espaço desocupado que você possa ver.</description>
+		</sheet>
+	</element>
+	<element name="Ardor do Fogo (Gigante do Fogo)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY_FIRES_BURN">
+		<supports>Giant Ancestry 2024</supports>
+		<description>
+			<p>Quando você atingir um alvo com uma jogada de ataque e causar dano a ele, você pode também causar 1d10 de dano Ígneo a esse alvo.</p> 
+		</description>
+		<sheet alt="Ardor do Fogo" usage="{{proficiency}}/Descanso Longo">
+			<description>Quando você atingir um alvo com uma jogada de ataque e causar dano a ele, você pode também causar 1d10 de dano Ígneo a esse alvo.</description>
+		</sheet>
+	</element>
+	<element name="Calafrio do Gelo (Gigante de Gelo)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY_FROSTS_CHILL">
+		<supports>Giant Ancestry 2024</supports>
+		<description>
+			<p>Quando você atingir um alvo com uma jogada de ataque e causar dano a ele, você pode também causar 1d6 de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros (10 pés) até o início do seu próximo turno.</p> 
+		</description>
+		<sheet alt="Calafrio do Gelo" usage="{{proficiency}}/Descanso Longo">
+			<description>Quando você atingir um alvo com uma jogada de ataque e causar dano a ele, você pode também causar 1d6 de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros (10 pés) até o início do seu próximo turno.</description>
+		</sheet>
+	</element>
+	<element name="Derrubada da Colina (Gigante da Colina)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY_HILLS_TUMBLE">
+		<supports>Giant Ancestry 2024</supports>
+		<description>
+			<p>Quando você atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode aplicar àquele alvo a condição Caído.</p> 
+		</description>
+		<sheet alt="Derrubada da Colina" usage="{{proficiency}}/Descanso Longo">
+			<description>Quando você atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode aplicar àquele alvo a condição Caído.</description>
+		</sheet>
+	</element>
+	<element name="Resistência da Pedra (Gigante de Pedra)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY_STONES_ENDURANCE">
+		<supports>Giant Ancestry 2024</supports>
+		<description>
+			<p>Quando você sofre dano, você pode usar uma Reação para rolar 1d12. Adicione seu modificador de Constituição ao número rolado e reduza o dano por esse total.</p> 
+		</description>
+		<sheet alt="Resistência da Pedra" action="Reaction" usage="{{proficiency}}/Descanso Longo">
+			<description>Quando você sofre dano, você pode reduzir o dano em 1d12+{{constitution:modifier}}.</description>
+		</sheet>
+	</element>
+	<element name="Trovão da Tempestade (Gigante da Tempestade)" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY_STORMS_THUNDER">
+		<supports>Giant Ancestry 2024</supports>
+		<description>
+			<p>Quando você sofrer dano de uma criatura a até 18 metros (60 pés) de você, você pode usar uma Reação para causar 1d8 de dano Trovejante àquela criatura.</p> 
+		</description>
+		<sheet alt="Trovão da Tempestade" action="Reaction" usage="{{proficiency}}/Descanso Longo">
+			<description>Quando você sofrer dano de uma criatura a até 18 metros (60 pés) de você, você pode usar uma Reação para causar 1d8 de dano Trovejante àquela criatura.</description>
+		</sheet>
+	</element>
+
+	<element name="Forma Grande" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_LARGE_FORM">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GOLIATH_LARGE_FORM</requirements>
+		<description>
+			<p>A partir do 5º nível de personagem, você pode alterar o seu tamanho para Grande usando uma Ação Bônus, se estiver em um espaço amplo o suficiente. Essa transformação dura 10 minutos ou até você terminá-la (nenhuma ação necessária). Por essa duração, você tem Vantagem em testes de Força e seu Deslocamento aumenta em 3 metros (10 pés). Após usar esta característica, você não pode usá-la novamente até terminar um Descanso Longo.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Descanso Longo">
+			<description>Você pode alterar o seu tamanho para Grande usando uma Ação Bônus se estiver em um espaço amplo. Essa transformação dura 10 minutos ou até você terminá-la. Durante a duração, você tem Vantagem em testes de Força e seu Deslocamento aumenta em 3 metros (10 pés).</description>
+		</sheet>
+	</element>
+
+	<element name="Porte Poderoso" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_POWERFUL_BUILD">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GOLIATH_POWERFUL_BUILD</requirements>
+		<description>
+			<p>Você tem Vantagem em qualquer teste de habilidade que fizer para encerrar a condição Agarrado. Você também conta como se fosse uma categoria de tamanho maior para determinar a sua capacidade de carga.</p>
+		</description>
+		<sheet>
+			<description>Você tem Vantagem em qualquer teste de habilidade que fizer para encerrar a condição Agarrado. Você também conta como se fosse uma categoria de tamanho maior para determinar a sua capacidade de carga.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+
+	<element name="Substituição da Característica Ancestralidade Gigante" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GOLIATH_GIANT_ANCESTRY" />
+	<element name="Substituição da Característica Forma Grande" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GOLIATH_LARGE_FORM" />
+	<element name="Substituição da Característica Porte Poderoso" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_GOLIATH_POWERFUL_BUILD" />
+
+</elements>

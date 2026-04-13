@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Glossário de Regras</name>
+		<description>Regras úteis do Apêndice C do Player’s Handbook (2024) para serem usadas como referência.</description>
+		<update version="0.0.1">
+			<file name="rules.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/rules.xml" />
+		</update>
+	</info>
+
+	<element name="Em Chamas [Perigo]" type="Rule" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RULE_BURNING">
+		<description>
+			<p>Uma criatura ou objeto em chamas sofre 1d4 de dano de Fogo no início de cada um de seus turnos. Como uma ação, você pode extinguir o fogo em si mesmo ao ficar com a condição Caído e rolar no chão. O fogo também se apaga se for encharcado, submerso ou sufocado.</p>
+		</description>
+		<setters>
+			<set name="keywords">fogo, pegando fogo, chamas</set>
+		</setters>
+	</element>
+
+	<element name="Desidratação [Perigo]" type="Rule" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RULE_DEHYDRATION">
+		<description>
+			<p>Uma criatura exige uma quantidade de água por dia baseada no seu tamanho, como mostrado na tabela Necessidades de Água por Dia. Uma criatura que bebe menos da metade da água necessária para um dia deve ser bem-sucedida em uma salvaguarda de Constituição CD 15 ou ganhará 1 nível de Exaustão no final do dia. Se o nível de Exaustão da criatura já for 1 ou superior, em vez disso, ela ganha 2 níveis. A água que a criatura necessita é dobrada se o clima estiver quente.</p>
+			<p class="indent">A Exaustão causada por desidratação não pode ser removida até que a criatura beba a quantidade total de água necessária para um dia.</p>
+			<h5>Necessidades de Água por Dia</h5>
+			<table>
+				<thead>
+					<tr><td>Tamanho</td><td>Água</td></tr>
+				</thead>
+				<tr><td>Miúdo</td><td>1 litro</td></tr>
+				<tr><td>Pequeno</td><td>4 litros</td></tr>
+				<tr><td>Médio</td><td>4 litros</td></tr>
+				<tr><td>Grande</td><td>16 litros</td></tr>
+				<tr><td>Enorme</td><td>64 litros</td></tr>
+				<tr><td>Imenso</td><td>256 litros</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="keywords">bebida, água, exaustão, sede</set>
+		</setters>
+	</element>
+
+	<element name="Desnutrição [Perigo]" type="Rule" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RULE_MALNUTRITION">
+		<description>
+			<p>Uma criatura precisa de uma quantidade de comida por dia baseada no seu tamanho, como mostrado na tabela Necessidades de Comida por Dia. Uma criatura que come, mas consome menos da metade da comida necessária para um dia, deve ser bem-sucedida em uma salvaguarda de Constituição CD 10 ou ganhará 1 nível de Exaustão no final do dia. Uma criatura que não come nada por 5 dias ganha automaticamente 1 nível de Exaustão no final do quinto dia, bem como um nível adicional no final de cada dia subsequente sem comida.</p>
+			<p class="indent">A Exaustão causada por desnutrição não pode ser removida até que a criatura coma a quantidade total de comida necessária para um dia.</p>
+			<h5>Necessidades de Comida por Dia</h5>
+			<table>
+				<thead>
+					<tr><td>Tamanho</td><td>Comida</td></tr>
+				</thead>
+				<tr><td>Miúdo</td><td>125 gramas</td></tr>
+				<tr><td>Pequeno</td><td>0,5 quilo</td></tr>
+				<tr><td>Médio</td><td>0,5 quilo</td></tr>
+				<tr><td>Grande</td><td>2 quilos</td></tr>
+				<tr><td>Enorme</td><td>8 quilos</td></tr>
+				<tr><td>Imenso</td><td>32 quilos</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="keywords">comida, alimentação, fome, exaustão</set>
+		</setters>
+	</element>
+
+</elements>

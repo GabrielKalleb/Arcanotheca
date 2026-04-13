@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Talentos da Categoria Estilo de Luta</name>
+		<description>Os Talentos da Categoria Estilo de Luta do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="feats-fighting-styles.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/feats/feats-fighting-styles.xml" />
+		</update>
+	</info>
+	<element name="Arqueirismo" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_ARCHERY">
+		<supports>Fighting Style</supports>
+		<requirements>(ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE,!ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Característica de Estilo de Luta</prerequisite>
+		<description>
+			<p class="flavor">Talento de Estilo de Luta (Pré-requisito: Característica de Estilo de Luta)</p>
+			<p>Você ganha um bônus de +2 nas rolagens de ataque que fizer com armas à Distância.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="ranged:attack" value="2" />
+		</rules>
+	</element>
+	<element name="Luta às Cegas" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_BLIND_FIGHTING">
+		<supports>Fighting Style</supports>
+		<requirements>(ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE,!ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_BLIND_FIGHTING)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Característica de Estilo de Luta</prerequisite>
+		<description>
+			<p class="flavor">Talento de Estilo de Luta (Pré-requisito: Característica de Estilo de Luta)</p>
+			<p>Você tem Percepção às Cegas com um alcance de 10 pés (3 metros).</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
+			<stat name="blindsight:range" value="10" bonus="base"/>
+		</rules>
+	</element>
+	<element name="Defesa" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_DEFENSE">
+		<supports>Fighting Style</supports>
+		<requirements>(ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE,!ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Característica de Estilo de Luta</prerequisite>
+		<description>
+			<p class="flavor">Talento de Estilo de Luta (Pré-requisito: Característica de Estilo de Luta)</p>
+			<p>Enquanto estiver vestindo armadura Leve, Média ou Pesada, você ganha um bônus de +1 na Classe de Armadura.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="ac:misc" value="1" bonus="fighting style" equipped="[armor:any]" alt="Defesa (Estilo de Luta)" />
+		</rules>
+	</element>
+	<element name="Duelo" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_DUELING">
+		<supports>Fighting Style</supports>
+		<requirements>(ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE,!ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Característica de Estilo de Luta</prerequisite>
+		<description>
+			<p class="flavor">Talento de Estilo de Luta (Pré-requisito: Característica de Estilo de Luta)</p>
+			<p>Quando você estiver empunhando uma arma Corpo a Corpo em uma mão e nenhuma outra arma, você ganha um bônus de +2 nas rolagens de dano com essa arma.</p>
+		</description>
+		<sheet>
+			<description>Quando você estiver empunhando uma arma Corpo a Corpo em uma mão e nenhuma outra arma, você ganha um bônus de +2 nas rolagens de dano com essa arma.</description>
+		</sheet>
+	</element>
+	<element name="Luta com Armas Grandes" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_GREAT_WEAPON_FIGHTING">
+		<supports>Fighting Style</supports>
+		<requirements>(ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE,!ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Característica de Estilo de Luta</prerequisite>
+		<description>
+			<p class="flavor">Talento de Estilo de Luta (Pré-requisito: Característica de Estilo de Luta)</p>
+			<p>Quando você rolar o dano de um ataque que fizer com uma arma Corpo a Corpo que esteja empunhando com as duas mãos, você pode tratar qualquer 1 ou 2 num dado de dano como um 3. A arma deve ter a propriedade Duas Mãos ou Versátil para receber este benefício.</p>
+		</description>
+		<sheet>
+			<description>Quando você rolar 1 ou 2 em um dado de dano para um ataque feito com uma arma Corpo a Corpo empunhada com as duas mãos, você pode tratar o resultado como 3. A arma deve ter a propriedade Duas Mãos ou Versátil para receber este benefício.</description>
+		</sheet>
+	</element>
+	<element name="Interceptação" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_INTERCEPTION">
+		<supports>Fighting Style</supports>
+		<requirements>(ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE,!ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_INTERCEPTION)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Característica de Estilo de Luta</prerequisite>
+		<description>
+			<p class="flavor">Talento de Estilo de Luta (Pré-requisito: Característica de Estilo de Luta)</p>
+			<p>Quando uma criatura que você pode ver atingir outra criatura a até 5 pés de você com uma rolagem de ataque, você pode usar uma Reação para reduzir o dano causado ao alvo em 1d10 mais seu Bônus de Proficiência. Você deve estar empunhando um Escudo ou uma arma Simples ou Marcial para usar esta Reação.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>Quando uma criatura que você pode ver atingir outra criatura a até 5 pés de você com uma rolagem de ataque, você pode reduzir o dano causado ao alvo em 1d10+{{proficiency}}. Você deve estar empunhando um Escudo ou uma arma Simples ou Marcial.</description>
+		</sheet>
+	</element>
+	<element name="Proteção" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_PROTECTION">
+		<supports>Fighting Style</supports>
+		<requirements>(ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE,!ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Característica de Estilo de Luta</prerequisite>
+		<description>
+			<p class="flavor">Talento de Estilo de Luta (Pré-requisito: Característica de Estilo de Luta)</p>
+			<p>Quando uma criatura que você pode ver atacar um alvo que não seja você que esteja a até 5 pés de você, você pode usar uma Reação para interpor seu Escudo, se estiver empunhando um. Você impõe Desvantagem na rolagem de ataque desencadeadora e em todas as outras rolagens de ataque contra o alvo até o início de seu próximo turno se você permanecer a até 5 pés do alvo.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>Quando uma criatura que você pode ver atacar um alvo que não seja você a até 5 pés de você, você pode impor Desvantagem na rolagem de ataque e em todas as outras rolagens de ataque contra o alvo até o início do seu próximo turno se você permanecer a até 5 pés do alvo. Você deve estar empunhando um Escudo.</description>
+		</sheet>
+	</element>
+	<element name="Luta com Armas de Arremesso" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_THROWN_WEAPON_FIGHTING">
+		<supports>Fighting Style</supports>
+		<requirements>(ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE,!ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_THROWN_WEAPON_FIGHTING)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Característica de Estilo de Luta</prerequisite>
+		<description>
+			<p class="flavor">Talento de Estilo de Luta (Pré-requisito: Característica de Estilo de Luta)</p>
+			<p>Quando você atinge um alvo com uma rolagem de ataque à distância usando uma arma que tenha a propriedade Arremesso, você ganha um bônus de +2 na rolagem de dano.</p>
+		</description>
+		<sheet>
+			<description>Você ganha um bônus de +2 no dano de um ataque à distância usando uma arma que tenha a propriedade Arremesso.</description>
+		</sheet>
+	</element>
+	<element name="Luta com Duas Armas" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_TWOWEAPON_FIGHTING">
+		<supports>Fighting Style</supports>
+		<requirements>(ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE,!ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Característica de Estilo de Luta</prerequisite>
+		<description>
+			<p class="flavor">Talento de Estilo de Luta (Pré-requisito: Característica de Estilo de Luta)</p>
+			<p>Quando você realiza um ataque extra como resultado do uso de uma arma que tenha a propriedade Leve, você pode adicionar seu modificador de habilidade ao dano desse ataque se ainda não estiver adicionando-o ao dano.</p>
+		</description>
+		<sheet>
+			<description>Você pode adicionar seu modificador de habilidade ao dano de ataque extra de uma arma que tenha a propriedade Leve.</description>
+		</sheet>
+	</element>
+	<element name="Luta Desarmada" type="Feat" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_FEAT_UNARMED_FIGHTING">
+		<supports>Fighting Style</supports>
+		<requirements>(ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE,!ID_WOTC_TCOE_CLASS_FEATURE_FIGHTING_STYLE_UNARMED_FIGHTING)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Característica de Estilo de Luta</prerequisite>
+		<description>
+			<p class="flavor">Talento de Estilo de Luta (Pré-requisito: Característica de Estilo de Luta)</p>
+			<p>Quando você acerta com seu Ataque Desarmado e causa dano, você pode causar dano de Concussão igual a 1d6 mais seu modificador de Força em vez do dano normal de um Ataque Desarmado. Se você não estiver empunhando nenhuma arma ou um Escudo quando fizer a rolagem de ataque, o d6 se torna um d8.</p>
+			<p class="indent">No início de cada um de seus turnos, você pode causar 1d4 de dano de Concussão a uma criatura Agarrada por você.</p>
+		</description>
+		<sheet>
+			<description>Quando você atinge com seu Ataque Desarmado e causa dano, pode causar 1d6 (ou 1d8, se não estiver empunhando armas ou Escudo) + {{strength:modifier}} de dano de Concussão em vez do dano normal de um Ataque Desarmado. &#13; No início de cada um de seus turnos, você pode causar 1d4 de dano de Concussão a uma criatura Agarrada por você.</description>
+		</sheet>
+	</element>
+</elements>

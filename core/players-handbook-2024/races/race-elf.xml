@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Elfo</name>
+		<description>A espécie Elfo do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="race-elf.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/races/race-elf.xml" />
+		</update>
+	</info>
+	
+	<element name="Elfo" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_ELF">
+		<description>
+			<p>Criados pelo deus Corellon, os primeiros elfos podiam mudar suas formas à vontade. Eles perderam essa habilidade quando Corellon os amaldiçoou por conspirarem com a divindade Lolth, que tentou e falhou em usurpar o domínio de Corellon. Quando Lolth foi banida para o Abismo, a maioria dos elfos renunciou a ela e conquistou o perdão de Corellon, mas o que Corellon havia lhes tirado foi perdido para sempre.</p>
+			<p class="indent">Incapazes de mudar de forma à vontade, os elfos se retiraram para a Agrestia das Fadas, onde a sua tristeza foi aprofundada pela influência daquele plano. Com o tempo, a curiosidade levou muitos deles a explorar outros planos de existência, incluindo os mundos do Plano Material.</p>
+			<p class="indent">Elfos possuem orelhas pontudas e não possuem pelos faciais e corporais. Eles vivem cerca de 750 anos e não dormem, entrando em vez disso num transe quando precisam descansar. Nesse estado, eles permanecem cientes de seus arredores enquanto mergulham em memórias e meditações.</p>
+			<p class="indent">Um ambiente sutilmente transforma os elfos após habitá-lo por um milênio ou mais, concedendo-lhes certos tipos de magia. Drows, altos elfos e elfos da floresta são exemplos de elfos que foram transformados dessa maneira.</p>
+			<h5>CARACTERÍSTICAS DO ELFO</h5>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+				<li><strong>Tipo de Criatura:</strong> Humanoide</li>
+				<li><strong>Tamanho:</strong> Médio (cerca de 1,50 a 1,80 metros de altura)</li>
+				<li><strong>Deslocamento:</strong> 9 metros (30 pés)</li>
+			</ul>
+			
+			<p>Como um Elfo, você possui estas características especiais.</p>
+			<p class="indent"><strong><em>Visão no Escuro.</em></strong> Você possui Visão no Escuro com um alcance de 18 metros (60 pés).</p>
+			<p class="indent"><strong><em>Linhagem Élfica.</em></strong> Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais. Escolha uma linhagem na tabela Linhagens Élficas. Você ganha o benefício de nível 1 daquela linhagem.</p>
+			<p class="indent">Quando você atinge os níveis de personagem 3 e 5, você aprende uma magia de nível superior, conforme mostrado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem usar um espaço de magia, e você recupera a habilidade de conjurá-la desta forma quando terminar um Descanso Longo. Você também pode conjurar a magia utilizando quaisquer espaços de magia do nível apropriado que você possua. Inteligência, Sabedoria ou Carisma é a sua habilidade de conjuração para as magias conjuradas através desta característica (escolha a habilidade ao selecionar a linhagem).</p>
+			<p class="indent"><strong><em>Ancestralidade Feérica.</em></strong> Você tem Vantagem em testes de resistência para evitar ou encerrar a condição Enfeitiçado em si mesmo.</p>
+			<p class="indent"><strong><em>Sentidos Apurados.</em></strong> Você tem proficiência na perícia Intuição, Percepção ou Sobrevivência.</p>
+			<p class="indent"><strong><em>Transe.</em></strong> Você não precisa dormir e magia não pode colocá-lo para dormir. Você pode terminar um Descanso Longo em 4 horas se gastar essas horas em uma meditação de transe, durante a qual você se mantém consciente.</p>
+			<h5>Linhagem Élfica</h5>
+			<table>
+				<thead>
+					<tr><td>Linhagem</td><td class="col-50">Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr>
+				</thead>
+				<tr><td>Drow</td><td>O alcance de sua Visão no Escuro aumenta para 36 metros (120 pés). Você também conhece o truque <i>Globos de Luz</i>.</td><td><i>Fogo das Fadas</i></td><td><i>Escuridão</i></td></tr>
+				<tr><td>Alto Elfo</td><td>Você conhece o truque <i>Prestidigitação</i>. Sempre que terminar um Descanso Longo, você pode substituir esse truque por um truque diferente da lista de magias de Mago.</td><td><i>Detectar Magia</i></td><td><i>Passo Nebuloso</i></td></tr>
+				<tr><td>Elfo da Floresta</td><td>Seu Deslocamento aumenta para 10,5 metros (35 pés). Você também conhece o truque <i>Druidismo</i>.</td><td><i>Passos Longos</i></td><td><i>Passos sem Pegadas</i></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ELF" />
+			<select type="Ability Score Improvement" name="Opção de Melhoria de Valor de Habilidade (Elfo)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Idioma (Elfo)" supports="Standard" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Idioma Personalizado (Elfo)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" number="3" />
+
+			<grant type="Vision" id="ID_VISION_DARKVISION" requirements="!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ELF_DARKVISION" />
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_FEY_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_KEEN_SENSES" />
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_TRANCE" />
+		</rules>
+	</element>
+
+	<element name="Linhagem Élfica" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ELF_ELVEN_LINEAGE</requirements>
+		<description>
+			<p>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais. Escolha uma linhagem na tabela Linhagens Élficas. Você ganha o benefício de nível 1 daquela linhagem.</p>
+			<p class="indent">Quando você atinge os níveis de personagem 3 e 5, você aprende uma magia de nível superior, conforme mostrado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem usar um espaço de magia, e você recupera a habilidade de conjurá-la desta forma quando terminar um Descanso Longo. Você também pode conjurar a magia utilizando quaisquer espaços de magia do nível apropriado que você possua. Inteligência, Sabedoria ou Carisma é a sua habilidade de conjuração para as magias conjuradas através desta característica (escolha a habilidade ao selecionar a linhagem).</p>
+			<h5>Linhagem Élfica</h5>
+			<table>
+				<thead>
+					<tr><td>Linhagem</td><td class="col-50">Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr>
+				</thead>
+				<tr><td>Drow</td><td>O alcance de sua Visão no Escuro aumenta para 36 metros (120 pés). Você também conhece o truque <i>Globos de Luz</i>.</td><td><i>Fogo das Fadas</i></td><td><i>Escuridão</i></td></tr>
+				<tr><td>Alto Elfo</td><td>Você conhece o truque <i>Prestidigitação</i>. Sempre que terminar um Descanso Longo, você pode substituir esse truque por um truque diferente da lista de magias de Mago.</td><td><i>Detectar Magia</i></td><td><i>Passo Nebuloso</i></td></tr>
+				<tr><td>Elfo da Floresta</td><td>Seu Deslocamento aumenta para 10,5 metros (35 pés). Você também conhece o truque <i>Druidismo</i>.</td><td><i>Passos Longos</i></td><td><i>Passos sem Pegadas</i></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Linhagem Élfica" supports="Elven Lineage 2024" />
+		</rules>
+	</element>
+
+	<element name="Drow" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_DROW">
+		<supports>Elven Lineage 2024</supports>
+		<compendium display="false" />
+		<description>
+			<p>Drows tipicamente habitam o Subterrâneo e foram moldados por ele. Algumas sociedades e indivíduos drows evitam o Subterrâneo por completo, mas ainda assim carregam a sua magia. No cenário de Eberron, por exemplo, os drows habitam florestas tropicais e ruínas ciclópicas no continente de Xen’drik.</p>
+			<p>Como um Drow, sua Visão no Escuro aumenta para 36 metros (120 pés) e você aprende o truque <i>Globos de Luz</i>.</p>
+			<p class="indent">Adicionalmente, você aprende a magia <i>Fogo das Fadas</i> quando alcança o 3º nível, e a magia <i>Escuridão</i> ao atingir o 5º nível. Você pode conjurar cada uma destas magias uma vez sem usar um espaço de magia, recuperando a habilidade de conjurá-las dessa forma ao terminar um Descanso Longo. Você também pode conjurar estas magias usando quaisquer espaços de magia de nível apropriado que você possua.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DARK_ELF" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<stat name="darkvision:range" value="120" bonus="base" />
+			<select type="Racial Trait" name="Habilidade de Conjuração (Linhagem Élfica)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_DROW_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_DROW_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_DROW_CHARISMA" />
+		</rules>
+	</element>
+	<element name="Inteligência" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_DROW_INTELLIGENCE">
+		<compendium display="false" />
+		<description>
+			<p>Inteligência é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Élfica.</p>
+		</description>
+		<sheet alt="Linhagem Élfica (Drow)">
+			<description>Você conhece o truque Globos de Luz. Inteligência é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Globos de Luz, e pode conjurar a magia Fogo das Fadas uma vez por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar esta magia usando quaisquer espaços de magia de nível apropriado que possua.</description>
+			<description level="5">Você conhece o truque Globos de Luz, e pode conjurar as magias Fogo das Fadas e Escuridão uma vez cada por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar qualquer uma destas magias usando quaisquer espaços de magia de nível apropriado que possua.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DANCING_LIGHTS" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FAERIE_FIRE" level="3" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" level="5" />
+		</rules>
+	</element>
+	<element name="Sabedoria" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_DROW_WISDOM">
+		<compendium display="false" />
+		<description>
+			<p>Sabedoria é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Élfica.</p>
+		</description>
+		<sheet alt="Linhagem Élfica (Drow)">
+			<description>Você conhece o truque Globos de Luz. Sabedoria é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Globos de Luz, e pode conjurar a magia Fogo das Fadas uma vez por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar esta magia usando quaisquer espaços de magia de nível apropriado que possua.</description>
+			<description level="5">Você conhece o truque Globos de Luz, e pode conjurar as magias Fogo das Fadas e Escuridão uma vez cada por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar qualquer uma destas magias usando quaisquer espaços de magia de nível apropriado que possua.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DANCING_LIGHTS" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FAERIE_FIRE" level="3" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" level="5" />
+		</rules>
+	</element>
+	<element name="Carisma" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_DROW_CHARISMA">
+		<compendium display="false" />
+		<description>
+			<p>Carisma é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Élfica.</p>
+		</description>
+		<sheet alt="Linhagem Élfica (Drow)">
+			<description>Você conhece o truque Globos de Luz. Carisma é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Globos de Luz, e pode conjurar a magia Fogo das Fadas uma vez por Descanso Longo. Carisma é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar esta magia usando quaisquer espaços de magia de nível apropriado que possua.</description>
+			<description level="5">Você conhece o truque Globos de Luz, e pode conjurar as magias Fogo das Fadas e Escuridão uma vez cada por Descanso Longo. Carisma é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar qualquer uma destas magias usando quaisquer espaços de magia de nível apropriado que possua.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DANCING_LIGHTS" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FAERIE_FIRE" level="3" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" level="5" />
+		</rules>
+	</element>
+	
+	<element name="Alto Elfo" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_HIGH_ELF">
+		<supports>Elven Lineage 2024</supports>
+		<compendium display="false" />
+		<description>
+			<p>Altos elfos foram infundidos com a magia das travessias entre a Agrestia das Fadas e o Plano Material. Em alguns mundos, altos elfos chamam a si mesmos por outros nomes. Por exemplo, eles são chamados de elfos do sol ou da lua no cenário de Forgotten Realms, Silvanesti e Qualinesti no cenário de Dragonlance, e Aereni no cenário de Eberron.</p>
+			<p>Como um Alto Elfo, você aprende o truque <i>Prestidigitação</i>. Sempre que terminar um Descanso Longo, você pode substituir esse truque por um truque diferente da lista de magias de Mago.</p>
+			<p class="indent">Adicionalmente, você aprende a magia <i>Detectar Magia</i> quando alcança o 3º nível, e a magia <i>Passo Nebuloso</i> ao atingir o 5º nível. Você pode conjurar cada uma destas magias uma vez sem usar um espaço de magia, recuperando a habilidade de conjurá-las dessa forma ao terminar um Descanso Longo. Você também pode conjurar estas magias usando quaisquer espaços de magia de nível apropriado que você possua.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_HIGH_ELF" />
+			<select type="Racial Trait" name="Habilidade de Conjuração (Linhagem Élfica)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_HIGH_ELF_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_HIGH_ELF_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_HIGH_ELF_CHARISMA" />
+		</rules>
+	</element>
+	<element name="Inteligência " type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_HIGH_ELF_INTELLIGENCE">
+		<compendium display="false" />
+		<description>
+			<p>Inteligência é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Élfica.</p>
+		</description>
+		<sheet alt="Linhagem Élfica (Alto Elfo)">
+			<description>Você conhece um truque de Mago. Sempre que você terminar um Descanso Longo, pode substituir esse truque por um truque diferente da lista de magias de Mago. Inteligência é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece um truque de Mago. Sempre que você terminar um Descanso Longo, pode substituir esse truque por um truque diferente da lista de magias de Mago. Adicionalmente, você pode conjurar a magia Detectar Magia uma vez por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar esta magia usando quaisquer espaços de magia de nível apropriado que possua.</description>
+			<description level="5">Você conhece um truque de Mago. Sempre que você terminar um Descanso Longo, pode substituir esse truque por um truque diferente da lista de magias de Mago. Adicionalmente, você pode conjurar as magias Detectar Magia e Passo Nebuloso uma vez cada por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar qualquer uma destas magias usando quaisquer espaços de magia de nível apropriado que possua.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Truque de Mago (Alto Elfo)" supports="Wizard,0" default="ID_WOTC_PHB24_SPELL_PRESTIDIGITATION" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_MAGIC" level="3" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="5" />
+		</rules>
+	</element>
+	<element name="Sabedoria " type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_HIGH_ELF_WISDOM">
+		<compendium display="false" />
+		<description>
+			<p>Sabedoria é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Élfica.</p>
+		</description>
+		<sheet alt="Linhagem Élfica (Alto Elfo)">
+			<description>Você conhece um truque de Mago. Sempre que você terminar um Descanso Longo, pode substituir esse truque por um truque diferente da lista de magias de Mago. Sabedoria é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece um truque de Mago. Sempre que você terminar um Descanso Longo, pode substituir esse truque por um truque diferente da lista de magias de Mago. Adicionalmente, você pode conjurar a magia Detectar Magia uma vez por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar esta magia usando quaisquer espaços de magia de nível apropriado que possua.</description>
+			<description level="5">Você conhece um truque de Mago. Sempre que você terminar um Descanso Longo, pode substituir esse truque por um truque diferente da lista de magias de Mago. Adicionalmente, você pode conjurar as magias Detectar Magia e Passo Nebuloso uma vez cada por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar qualquer uma destas magias usando quaisquer espaços de magia de nível apropriado que possua.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Truque de Mago (Alto Elfo)" supports="Wizard,0" default="ID_WOTC_PHB24_SPELL_PRESTIDIGITATION" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_MAGIC" level="3" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="5" />
+		</rules>
+	</element>
+	<element name="Carisma " type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_HIGH_ELF_CHARISMA">
+		<compendium display="false" />
+		<description>
+			<p>Carisma é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Élfica.</p>
+		</description>
+		<sheet alt="Linhagem Élfica (Alto Elfo)">
+			<description>Você conhece um truque de Mago. Sempre que você terminar um Descanso Longo, pode substituir esse truque por um truque diferente da lista de magias de Mago. Carisma é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece um truque de Mago. Sempre que você terminar um Descanso Longo, pode substituir esse truque por um truque diferente da lista de magias de Mago. Adicionalmente, você pode conjurar a magia Detectar Magia uma vez por Descanso Longo. Carisma é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar esta magia usando quaisquer espaços de magia de nível apropriado que possua.</description>
+			<description level="5">Você conhece um truque de Mago. Sempre que você terminar um Descanso Longo, pode substituir esse truque por um truque diferente da lista de magias de Mago. Adicionalmente, você pode conjurar as magias Detectar Magia e Passo Nebuloso uma vez cada por Descanso Longo. Carisma é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar qualquer uma destas magias usando quaisquer espaços de magia de nível apropriado que possua.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Truque de Mago (Alto Elfo)" supports="Wizard,0" default="ID_WOTC_PHB24_SPELL_PRESTIDIGITATION" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_MAGIC" level="3" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="5" />
+		</rules>
+	</element>
+
+	<element name="Elfo da Floresta" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_WOOD_ELF">
+		<supports>Elven Lineage 2024</supports>
+		<compendium display="false" />
+		<description>
+			<p>Elfos da floresta carregam a magia das florestas primitivas dentro de si. Eles são conhecidos por muitos outros nomes, incluindo elfos selvagens, elfos verdes e elfos silvestres. Os grugach são elfos da floresta reclusos no cenário de Greyhawk, enquanto os Kagonesti e os Tairnadal são os elfos da floresta dos cenários de Dragonlance e Eberron, respectivamente.</p>
+			<p>Como um Elfo da Floresta, seu Deslocamento aumenta para 10,5 metros (35 pés) e você aprende o truque <i>Druidismo</i>.</p>
+			<p class="indent">Adicionalmente, você aprende a magia <i>Passos Longos</i> quando alcança o 3º nível, e a magia <i>Passos sem Pegadas</i> ao atingir o 5º nível. Você pode conjurar cada uma destas magias uma vez sem usar um espaço de magia, recuperando a habilidade de conjurá-las dessa forma ao terminar um Descanso Longo. Você também pode conjurar estas magias usando quaisquer espaços de magia de nível apropriado que você possua.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_WOOD_ELF" />
+			<stat name="speed" value="35" bonus="base" />
+			<select type="Racial Trait" name="Habilidade de Conjuração (Linhagem Élfica)" supports="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_WOOD_ELF_INTELLIGENCE|ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_WOOD_ELF_WISDOM|ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_WOOD_ELF_CHARISMA" />
+		</rules>
+	</element>
+	<element name="Inteligência  " type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_WOOD_ELF_INTELLIGENCE">
+		<compendium display="false" />
+		<description>
+			<p>Inteligência é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Élfica.</p>
+		</description>
+		<sheet alt="Linhagem Élfica (Elfo da Floresta)">
+			<description>Você conhece o truque Druidismo. Inteligência é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Druidismo, e pode conjurar a magia Passos Longos uma vez por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar esta magia usando quaisquer espaços de magia de nível apropriado que possua.</description>
+			<description level="5">Você conhece o truque Druidismo, e pode conjurar as magias Passos Longos e Passos sem Pegadas uma vez cada por Descanso Longo. Inteligência é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar qualquer uma destas magias usando quaisquer espaços de magia de nível apropriado que possua.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DRUIDCRAFT" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LONGSTRIDER" level="3" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PASS_WITHOUT_TRACE" level="5" />
+		</rules>
+	</element>
+	<element name="Sabedoria  " type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_WOOD_ELF_WISDOM">
+		<compendium display="false" />
+		<description>
+			<p>Sabedoria é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Élfica.</p>
+		</description>
+		<sheet alt="Linhagem Élfica (Elfo da Floresta)">
+			<description>Você conhece o truque Druidismo. Sabedoria é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Druidismo, e pode conjurar a magia Passos Longos uma vez por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar esta magia usando quaisquer espaços de magia de nível apropriado que possua.</description>
+			<description level="5">Você conhece o truque Druidismo, e pode conjurar as magias Passos Longos e Passos sem Pegadas uma vez cada por Descanso Longo. Sabedoria é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar qualquer uma destas magias usando quaisquer espaços de magia de nível apropriado que possua.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DRUIDCRAFT" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LONGSTRIDER" level="3" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PASS_WITHOUT_TRACE" level="5" />
+		</rules>
+	</element>
+	<element name="Carisma  " type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_WOOD_ELF_CHARISMA">
+		<compendium display="false" />
+		<description>
+			<p>Carisma é sua habilidade de conjuração para as magias conjuradas através da característica Linhagem Élfica.</p>
+		</description>
+		<sheet alt="Linhagem Élfica (Elfo da Floresta)">
+			<description>Você conhece o truque Druidismo. Carisma é sua habilidade de conjuração para ele.</description>
+			<description level="3">Você conhece o truque Druidismo, e pode conjurar a magia Passos Longos uma vez por Descanso Longo. Carisma é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar esta magia usando quaisquer espaços de magia de nível apropriado que possua.</description>
+			<description level="5">Você conhece o truque Druidismo, e pode conjurar as magias Passos Longos e Passos sem Pegadas uma vez cada por Descanso Longo. Carisma é sua habilidade de conjuração para as magias conjuradas por meio dessa característica. Você também pode conjurar qualquer uma destas magias usando quaisquer espaços de magia de nível apropriado que possua.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DRUIDCRAFT" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LONGSTRIDER" level="3" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PASS_WITHOUT_TRACE" level="5" />
+		</rules>
+	</element>
+	
+	<element name="Ancestralidade Feérica" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_FEY_ANCESTRY">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ELF_FEY_ANCESTRY</requirements>
+		<description>
+			<p>Você tem Vantagem em testes de resistência que fizer para evitar ou encerrar a condição Enfeitiçado.</p>
+		</description>
+		<sheet>
+			<description>Você tem Vantagem em testes de resistência que fizer para evitar ou encerrar a condição Enfeitiçado.</description>
+		</sheet>
+	</element>
+
+	<element name="Sentidos Apurados" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_KEEN_SENSES">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ELF_KEEN_SENSES</requirements>
+		<description>
+			<p>Você tem proficiência na perícia Intuição, Percepção ou Sobrevivência.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Proficiência em Perícia (Sentidos Apurados)" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Proficiência em Perícia Personalizada (Sentidos Apurados)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Transe" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_TRANCE">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ELF_TRANCE</requirements>
+		<description>
+			<p>Você não precisa dormir e magia não pode colocá-lo para dormir. Você pode terminar um Descanso Longo em 4 horas se gastar essas horas em uma meditação de transe, durante a qual você se mantém consciente.</p>
+		</description>
+		<sheet>
+			<description>Você não precisa dormir e magia não pode colocá-lo para dormir. Você pode terminar um Descanso Longo em 4 horas se gastar essas horas em uma meditação de transe, durante a qual você se mantém consciente.</description>
+		</sheet>
+	</element>
+
+	<element name="Substituição da Característica Visão no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ELF_DARKVISION" />
+	<element name="Substituição da Característica Linhagem Élfica" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ELF_ELVEN_LINEAGE" />
+	<element name="Substituição da Característica Ancestralidade Feérica" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ELF_FEY_ANCESTRY" />
+	<element name="Substituição da Característica Sentidos Apurados" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ELF_KEEN_SENSES" />
+	<element name="Substituição da Característica Transe" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ELF_TRANCE" />
+
+</elements>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Viajante</name>
+		<description>O antecedente Viajante do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="background-wayfarer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/background-wayfarer.xml" />
+		</update>
+	</info>
+
+	<element name="Viajante" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_WAYFARER">
+		<description>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+				<li><strong>Valores de Habilidade:</strong> Destreza, Sabedoria, Carisma</li>
+				<li><strong>Talento:</strong> Sortudo</li>
+				<li><strong>Proficiências em Perícias:</strong> Intuição e Furtividade</li>
+				<li><strong>Proficiência em Ferramenta:</strong> Ferramentas de Ladrão</li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) 2 Adagas, Ferramentas de Ladrão, Conjunto de Jogos (qualquer), Saco de Dormir, 2 Algibeiras, Roupas de Viajante, 16 PO; ou (B) 50 PO</li>
+			</ul>
+			<p>Você cresceu nas ruas cercado por rejeitados igualmente desafortunados, alguns deles amigos e outros rivais. Você dormia onde podia e fazia bicos por comida. Às vezes, quando a fome se tornava insuportável, você recorria ao roubo. Ainda assim, você nunca perdeu o seu orgulho e nunca abandonou a esperança. O destino ainda não terminou com você.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_FEAT_LUCKY" />
+			</div>
+		</description>
+		<setters>
+			<set name="short">Destreza, Sabedoria, Carisma, Talento Sortudo, Perícias Intuição e Furtividade, Ferramentas de Ladrão</set>
+		</setters>
+		<rules>
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_WIS_CHA" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_LUCKY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" /> 
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />	
+		</rules>
+	</element>
+</elements>

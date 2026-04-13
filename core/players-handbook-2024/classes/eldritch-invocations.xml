@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Invocações Místicas</name>
+		<description>Invocações Místicas para a Classe Bruxo do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/eldritch-invocations.xml" />
+		</update>
+	</info>
+	<element name="Rajada Agonizante" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST</requirements>
+		<prerequisite>Nível 2+ de Bruxo, um Truque de Bruxo Que Cause Dano</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo, um Truque de Bruxo Que Cause Dano</em>
+			</p>
+			<p>Escolha um dos seus truques de Bruxo conhecidos que cause dano. Você pode adicionar seu modificador de Carisma às rolagens de dano dessa magia.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um truque elegível diferente.
+			</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet>
+			<description>{{agonizing blast:count}} dos seus truques, escolhido(s) ao ganhar esta Invocação, recebe(m) um bônus de +{{charisma:modifier}} no dano.</description>
+		</sheet>
+		<rules>
+			<stat name="agonizing blast:count" value="1" />
+		</rules>
+	</element>
+	<element name="Armadura de Sombras" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ARMOR_OF_SHADOWS">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ARMOR_OF_SHADOWS</requirements>
+		<description>
+			<p>Você pode conjurar 
+				<i>Armadura Arcana</i> em si mesmo sem gastar um espaço de magia.
+			</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_MAGE_ARMOR" /></div>
+		</description>
+		<sheet>
+			<description>Você pode conjurar Armadura Arcana em si mesmo sem gastar um espaço de magia.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MAGE_ARMOR" />
+		</rules>
+	</element>
+	<element name="Passo Ascendente" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ASCENDANT_STEP">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:5],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ASCENDANT_STEP</requirements>
+		<prerequisite>Nível 5+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 5+ de Bruxo</em>
+			</p>
+			<p>Você pode conjurar 
+				<i>Levitação</i> em si mesmo sem gastar um espaço de magia.
+			</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_LEVITATE" /></div>
+		</description>
+		<sheet>
+			<description>Você pode conjurar Levitação em si mesmo sem gastar um espaço de magia.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LEVITATE" />
+		</rules>
+	</element>
+	<element name="Visão do Diabo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVILS_SIGHT">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVILS_SIGHT</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você pode ver normalmente na Penumbra e Escuridão — tanto mágica quanto não mágica — a até 120 pés (36 metros) de você.</p>
+		</description>
+		<sheet>
+			<description>Você pode ver normalmente na Penumbra e Escuridão — tanto mágica quanto não mágica — a até 120 pés (36 metros) de você.</description>
+		</sheet>
+	</element>
+	<element name="Lâmina Devoradora" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVOURING_BLADE">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:12],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE</requirements>
+		<prerequisite>Nível 12+ de Bruxo, invocação Lâmina Sedenta</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 12+ de Bruxo, invocação Lâmina Sedenta</em>
+			</p>
+			<p>O Ataque Extra da sua invocação Lâmina Sedenta concede dois ataques extras em vez de um.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Lâmina Devoradora" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVOURING_BLADE_SUBELEMENT">
+		<supports>PHB24 Devouring Blade Invocation</supports>
+		<compendium display="false" />
+		<sheet>
+			<description>Você pode atacar três vezes com sua arma de pacto quando realizar a ação de Atacar.</description>
+		</sheet>
+	</element>
+	<element name="Mente Mística" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_MIND">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>!ID_WOTC_TCOE_CLASS_FEATURE_ELDRITCH_MIND</requirements>
+		<description>
+			<p>Você tem Vantagem em testes de resistência de Constituição que fizer para manter a Concentração.</p>
+		</description>
+		<sheet>
+			<description>Você tem Vantagem em testes de resistência de Constituição que fizer para manter a Concentração.</description>
+		</sheet>
+	</element>
+	<element name="Destruição Mística" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SMITE">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>([level:warlock:5],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_BLADE),!ID_WOTC_XGTE_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SMITE</requirements>
+		<prerequisite>Nível 5+ de Bruxo, Pacto da Lâmina</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 5+ de Bruxo, Pacto da Lâmina</em>
+			</p>
+			<p>Uma vez por turno, quando você atingir uma criatura com sua arma de pacto, você pode gastar um espaço de magia de Magia de Pacto para causar 1d8 de dano de Força extra ao alvo, mais outro 1d8 por nível do espaço de magia, e você pode infligir a condição Caído ao alvo se ele for Imenso ou menor.</p>
+		</description>
+		<sheet usage="1/Turno">
+			<description>Quando atingir uma criatura com sua arma de pacto, você pode gastar um espaço de magia de Magia de Pacto para causar {{eldritch smite:damage}}d8 de dano de Força extra e infligir a condição Caído ao alvo se ele for Imenso ou menor.</description>
+		</sheet>
+		<rules>
+			<stat name="eldritch smite:damage" value="1" />
+			<stat name="eldritch smite:damage" value="warlock:spellcasting:slot" />
+		</rules>
+	</element>
+	<element name="Lança Mística" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR</requirements>
+		<prerequisite>Nível 2+ de Bruxo, um Truque de Bruxo Que Cause Dano e tenha um Alcance de 10+ Pés</prerequisite>
+		<description>
+			<p>
+				<em>Nível 2+ de Bruxo, um Truque de Bruxo Que Cause Dano</em>
+			</p>
+			<p>Escolha um dos seus truques de Bruxo conhecidos que cause dano e tenha um alcance de 10 pés (3 metros) ou mais. Quando você conjurar essa magia, seu alcance aumenta em um número de pés igual a 30 vezes o seu nível de Bruxo.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um truque elegível diferente.
+			</p>
+		</description>
+		<sheet>
+			<description>{{eldritch spear:count}} dos seus truques, escolhido(s) ao ganhar esta Invocação, recebe(m) {{eldritch spear:range}} pés extras de alcance.</description>
+		</sheet>
+		<rules>
+			<stat name="eldritch spear:multiplication 1" value="level:warlock" />
+			<stat name="eldritch spear:multiplication 1" value="level:warlock" />
+			<stat name="eldritch spear:multiplication 1" value="level:warlock" />
+			<stat name="eldritch spear:multiplication 2" value="eldritch spear:multiplication 1" />
+			<stat name="eldritch spear:multiplication 2" value="eldritch spear:multiplication 1" />
+			<stat name="eldritch spear:multiplication 2" value="eldritch spear:multiplication 1" />
+			<stat name="eldritch spear:multiplication 2" value="eldritch spear:multiplication 1" />
+			<stat name="eldritch spear:multiplication 2" value="eldritch spear:multiplication 1" />
+			<stat name="eldritch spear:range" value="eldritch spear:multiplication 2" />
+			<stat name="eldritch spear:range" value="eldritch spear:multiplication 2" />
+			<stat name="eldritch spear:count" value="1" />
+		</rules>
+	</element>
+	<element name="Lança Mística" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_REPEATABLE">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR</requirements>
+		<prerequisite>Nível 2+ de Bruxo, um Truque de Bruxo Que Cause Dano e tenha um Alcance de 10+ Pés</prerequisite>
+		<compendium display="false" />
+		<description>
+			<p>
+				<em>Nível 2+ de Bruxo, um Truque de Bruxo Que Cause Dano</em>
+			</p>
+			<p>Escolha um dos seus truques de Bruxo conhecidos que cause dano e tenha um alcance de 10 pés (3 metros) ou mais. Quando você conjurar essa magia, seu alcance aumenta em um número de pés igual a 30 vezes o seu nível de Bruxo.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um truque elegível diferente.
+			</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="eldritch spear:count" value="1" />
+		</rules>
+	</element>
+	<element name="Vigor Infernal" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_FIENDISH_VIGOR">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_FIENDISH_VIGOR</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você pode conjurar 
+				<i>Vida Falsa</i> em si mesmo sem gastar um espaço de magia. Quando você conjurar a magia com esta característica, não role o dado para os Pontos de Vida Temporários; você automaticamente recebe o valor máximo do dado.
+			</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_FALSE_LIFE" /></div>
+		</description>
+		<sheet>
+			<description>Você pode conjurar Vida Falsa em si mesmo sem gastar um espaço de magia, e sempre ganha a quantidade máxima de PVTs possível ao conjurar a magia desta forma.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FALSE_LIFE" />
+		</rules>
+	</element>
+	<element name="Olhar de Duas Mentes" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_GAZE_OF_TWO_MINDS">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:5],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_GAZE_OF_TWO_MINDS</requirements>
+		<prerequisite>Nível 5+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 5+ de Bruxo</em>
+			</p>
+			<p>Você pode usar uma Ação Bônus para tocar uma criatura voluntária e perceber através de seus sentidos até o fim do seu próximo turno. Enquanto a criatura estiver no mesmo plano de existência que você, você pode realizar uma Ação Bônus nos turnos subsequentes para manter esta conexão, estendendo a duração até o final do seu próximo turno. A conexão termina se você não a mantiver dessa forma.</p>
+			<p class="indent">Enquanto perceber através dos sentidos da outra criatura, você se beneficia de quaisquer sentidos especiais possuídos por ela, e pode conjurar magias como se estivesse no seu espaço ou no espaço da outra criatura, desde que vocês dois estejam a até 60 pés (18 metros) um do outro.</p>
+		</description>
+		<sheet action="Ação Bônus">
+			<description>Você pode tocar uma criatura voluntária e perceber através de seus sentidos até o fim do seu próximo turno. Enquanto a criatura estiver no mesmo plano de existência que você, você pode usar uma Ação Bônus nos turnos subsequentes para manter esta conexão. A conexão termina se não for mantida. &#13;
+			Enquanto percebe através dos sentidos dela, você ganha seus sentidos especiais e pode conjurar magias como se estivesse no espaço dela (se vocês estiverem a até 60 pés um do outro).</description>
+		</sheet>
+	</element>
+	<element name="Dádiva das Profundezas" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_DEPTHS">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:5],!ID_WOTC_XGTE_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_DEPTHS</requirements>
+		<prerequisite>Nível 5+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 5+ de Bruxo</em>
+			</p>
+			<p>Você pode respirar debaixo d'água, e você ganha um Deslocamento de Natação igual ao seu Deslocamento.</p>
+			<p class="indent">Você também pode conjurar 
+				<i>Respiração Aquática</i> uma vez sem gastar um espaço de magia. Você recupera a habilidade de conjurá-la dessa forma novamente quando terminar um Descanso Longo.
+			</p>
+		</description>
+		<sheet usage="1/Descanso Longo">
+			<description>Você pode conjurar Respiração Aquática sem gastar um espaço de magia. &#13;
+			Adicionalmente, você pode respirar debaixo d'água.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:swim" value="innate speed" bonus="base" />
+		</rules>
+	</element>
+	<element name="Dádiva dos Protetores" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_PROTECTORS">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>([level:warlock:9],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_TOME),!ID_WOTC_TCOE_CLASS_FEATURE_GIFT_OF_THE_PROTECTORS</requirements>
+		<prerequisite>Nível 9+ de Bruxo, invocação Pacto do Tomo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 9+ de Bruxo, invocação Pacto do Tomo</em>
+			</p>
+			<p>Uma nova página aparece no seu 
+				<i>Livro das Sombras</i> quando você o conjura. Com a sua permissão, uma criatura pode usar uma ação para escrever seu nome nessa página, que pode conter um número de nomes igual ao seu modificador de Carisma (mínimo de um nome).
+			</p>
+			<p class="indent">Quando qualquer criatura cujo nome esteja na página for reduzida a 0 Pontos de Vida, mas não morta instantaneamente, a criatura magicamente cai para 1 Ponto de Vida em vez disso. Uma vez que esta magia seja ativada, nenhuma criatura pode se beneficiar dela até que você termine um Descanso Longo.</p>
+			<p class="indent">Como uma Ação Mágica, você pode apagar um nome da página ao tocá-lo.</p>
+		</description>
+		<sheet usage="1/Descanso Longo">
+			<description>Com sua permissão, até {{gift of the protectors:count}} criaturas podem usar uma ação para escrever seus nomes no seu Livro das Sombras. Quando qualquer uma dessas criaturas for reduzida a 0 PV mas não morta, ela cai para 1 PV em vez disso, e nenhuma outra criatura pode se beneficiar até você terminar um Descanso Longo. &#13;
+			Como uma Ação Mágica, você pode apagar um nome da página tocando nele.</description>
+		</sheet>
+		<rules>
+			<stat name="gift of the protectors:count" value="1" bonus="base" />
+			<stat name="gift of the protectors:count" value="charisma:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Investimento do Mestre da Corrente" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_INVESTMENT_OF_THE_CHAIN_MASTER">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>([level:warlock:5],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_CHAIN),!ID_WOTC_TCOE_CLASS_FEATURE_INVESTMENT_OF_THE_CHAIN_MASTER</requirements>
+		<prerequisite>Nível 5+ de Bruxo, invocação Pacto da Corrente</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 5+ de Bruxo, invocação Pacto da Corrente</em>
+			</p>
+			<p>Quando você conjura 
+				<i>Encontrar Familiar</i>, você infunde o familiar invocado com uma medida do seu poder místico, concedendo à criatura os seguintes benefícios.
+			</p>
+			<p class="indent">
+				<em>
+					<strong>Aéreo ou Aquático.</strong>
+				</em> O familiar ganha um Deslocamento de Voo ou Deslocamento de Natação (à sua escolha) de 40 pés (12 metros).
+			</p>
+			<p class="indent">
+				<em>
+					<strong>Ataque Rápido.</strong>
+				</em> Como uma Ação Bônus, você pode comandar o familiar a realizar a ação de Atacar.
+			</p>
+			<p class="indent">
+				<em>
+					<strong>Dano Necrótico ou Radiante.</strong>
+				</em> Sempre que o familiar causar dano de Concussão, Perfurante ou Cortante, você pode fazer com que ele cause dano Necrótico ou Radiante em vez disso.
+			</p>
+			<p class="indent">
+				<em>
+					<strong>Sua CD de Resistência.</strong>
+				</em> Se o familiar forçar uma criatura a realizar um teste de resistência, ele usará a sua CD de salvamento de magia.
+			</p>
+			<p class="indent">
+				<em>
+					<strong>Resistência.</strong>
+				</em> Quando o familiar sofrer dano, você pode usar uma Reação para conceder a ele Resistência contra esse dano.
+			</p>
+		</description>
+		<sheet>
+			<description>Seu Encontrar Familiar ganha os seguintes benefícios: &#13;
+			• Ganha Deslocamento de Voo ou Natação de 40 pés (sua escolha). &#13;
+			• Como Ação Bônus, você pode comandar seu familiar a realizar a ação de Atacar. &#13;
+			• Ele pode causar dano Necrótico ou Radiante em vez do tipo normal. &#13;
+			• Se o familiar exigir um teste de resistência, a CD é {{warlock:spellcasting:dc}}. &#13;
+			• Quando o familiar sofrer dano, você pode usar uma Reação para lhe dar Resistência ao dano.</description>
+		</sheet>
+	</element>
+	<element name="Lições dos Primeiros" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2]</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você recebeu conhecimento de uma entidade ancestral do multiverso, permitindo que você ganhe um talento de Origem à sua escolha.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um talento de Origem diferente.
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Talento de Origem (Lições dos Primeiros 1)" supports="Origin" />
+		</rules>
+	</element>
+	<element name="Lições dos Primeiros" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_2">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<compendium display="false" />
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você recebeu conhecimento de uma entidade ancestral do multiverso, permitindo que você ganhe um talento de Origem à sua escolha.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um talento de Origem diferente.
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Talento de Origem (Lições dos Primeiros 2)" supports="Origin" />
+		</rules>
+	</element>
+	<element name="Lições dos Primeiros" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_3">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_2</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<compendium display="false" />
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você recebeu conhecimento de uma entidade ancestral do multiverso, permitindo que você ganhe um talento de Origem à sua escolha.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um talento de Origem diferente.
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Talento de Origem (Lições dos Primeiros 3)" supports="Origin" />
+		</rules>
+	</element>
+	<element name="Lições dos Primeiros" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_4">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_3</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<compendium display="false" />
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você recebeu conhecimento de uma entidade ancestral do multiverso, permitindo que você ganhe um talento de Origem à sua escolha.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um talento de Origem diferente.
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Talento de Origem (Lições dos Primeiros 4)" supports="Origin" />
+		</rules>
+	</element>
+	<element name="Lições dos Primeiros" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_5">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_4</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<compendium display="false" />
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você recebeu conhecimento de uma entidade ancestral do multiverso, permitindo que você ganhe um talento de Origem à sua escolha.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um talento de Origem diferente.
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Talento de Origem (Lições dos Primeiros 5)" supports="Origin" />
+		</rules>
+	</element>
+	<element name="Lições dos Primeiros" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_6">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_5</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<compendium display="false" />
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você recebeu conhecimento de uma entidade ancestral do multiverso, permitindo que você ganhe um talento de Origem à sua escolha.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um talento de Origem diferente.
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Talento de Origem (Lições dos Primeiros 6)" supports="Origin" />
+		</rules>
+	</element>
+	<element name="Lições dos Primeiros" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_7">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_6</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<compendium display="false" />
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você recebeu conhecimento de uma entidade ancestral do multiverso, permitindo que você ganhe um talento de Origem à sua escolha.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um talento de Origem diferente.
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Talento de Origem (Lições dos Primeiros 7)" supports="Origin" />
+		</rules>
+	</element>
+	<element name="Lições dos Primeiros" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_8">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_7</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<compendium display="false" />
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você recebeu conhecimento de uma entidade ancestral do multiverso, permitindo que você ganhe um talento de Origem à sua escolha.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um talento de Origem diferente.
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Talento de Origem (Lições dos Primeiros 8)" supports="Origin" />
+		</rules>
+	</element>
+	<element name="Lições dos Primeiros" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_9">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_8</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<compendium display="false" />
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você recebeu conhecimento de uma entidade ancestral do multiverso, permitindo que você ganhe um talento de Origem à sua escolha.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um talento de Origem diferente.
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Talento de Origem (Lições dos Primeiros 9)" supports="Origin" />
+		</rules>
+	</element>
+	<element name="Lições dos Primeiros" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_10">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_9</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<compendium display="false" />
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você recebeu conhecimento de uma entidade ancestral do multiverso, permitindo que você ganhe um talento de Origem à sua escolha.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um talento de Origem diferente.
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Talento de Origem (Lições dos Primeiros 10)" supports="Origin" />
+		</rules>
+	</element>
+	<element name="Bebedor de Vidas" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LIFEDRINKER">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>([level:warlock:9],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_BLADE),!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_LIFEDRINKER</requirements>
+		<prerequisite>Nível 9+ de Bruxo, invocação Pacto da Lâmina</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisitos: Nível 9+ de Bruxo, invocação Pacto da Lâmina</em>
+			</p>
+			<p>Uma vez por turno, quando você atingir uma criatura com sua arma de pacto, você pode causar 1d6 de dano Necrótico, Psíquico ou Radiante (sua escolha) extra à criatura, e pode gastar um dos seus Dados de Vida para rolá-lo e recuperar um número de Pontos de Vida igual à rolagem mais o seu modificador de Constituição (mínimo de 1 Ponto de Vida).</p>
+		</description>
+		<sheet usage="1/Turno">
+			<description>Quando atingir uma criatura com sua arma de pacto, você pode causar 1d6 de dano Necrótico, Psíquico ou Radiante extra à criatura (sua escolha), e pode gastar um dos seus Dados de Vida para rolá-lo e recuperar o valor rolado + {{lifedrinker:hp}} PV.</description>
+		</sheet>
+		<rules>
+			<stat name="lifedrinker:hp" value="0" bonus="base" />
+			<stat name="lifedrinker:hp" value="constitution:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Máscara de Muitas Faces" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_MASK_OF_MANY_FACES">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MASK_OF_MANY_FACES</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisitos: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você pode conjurar 
+				<i>Disfarçar-se</i> sem gastar um espaço de magia.
+			</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_DISGUISE_SELF" /></div>
+		</description>
+		<sheet>
+			<description>Você pode conjurar Disfarçar-se sem gastar um espaço de magia.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DISGUISE_SELF" />
+		</rules>
+	</element>
+	<element name="Mestre de Múltiplas Formas" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_MASTER_OF_MYRIAD_FORMS">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:5],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MASTER_OF_MYRIAD_FORMS</requirements>
+		<prerequisite>Nível 5+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisitos: Nível 5+ de Bruxo</em>
+			</p>
+			<p>Você pode conjurar 
+				<em>Alterar-se</em> sem gastar um espaço de magia.
+			</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_ALTER_SELF" /></div>
+		</description>
+		<sheet>
+			<description>Você pode conjurar Alterar-se sem gastar um espaço de magia.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ALTER_SELF" />
+		</rules>
+	</element>
+	<element name="Visões Nebulosas" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_MISTY_VISIONS">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MISTY_VISIONS</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisitos: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você pode conjurar 
+				<em>Imagem Silenciosa</em> sem gastar um espaço de magia.
+			</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_SILENT_IMAGE" /></div>
+		</description>
+		<sheet>
+			<description>Você pode conjurar Imagem Silenciosa sem gastar um espaço de magia.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SILENT_IMAGE" />
+		</rules>
+	</element>
+	<element name="Um com as Sombras" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ONE_WITH_SHADOWS">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:5],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ONE_WITH_SHADOWS</requirements>
+		<prerequisite>Nível 5+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisitos: Nível 5+ de Bruxo</em>
+			</p>
+			<p>Enquanto você estiver em uma área de Penumbra ou Escuridão, pode conjurar 
+				<i>Invisibilidade</i> em si mesmo sem gastar um espaço de magia.
+			</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_INVISIBILITY" /></div>
+		</description>
+		<sheet>
+			<description>Enquanto estiver em uma área de Penumbra ou Escuridão, você pode conjurar Invisibilidade em si mesmo sem gastar um espaço de magia.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_INVISIBILITY" />
+		</rules>
+	</element>
+	<element name="Salto Sobrenatural" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_OTHERWORLDLY_LEAP">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_OTHERWORLDLY_LEAP</requirements>
+		<prerequisite>Nível 2+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisitos: Nível 2+ de Bruxo</em>
+			</p>
+			<p>Você pode conjurar 
+				<em>Salto</em> em si mesmo sem gastar um espaço de magia.
+			</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_JUMP" /></div>
+		</description>
+		<sheet>
+			<description>Você pode conjurar Salto em si mesmo sem gastar um espaço de magia.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_JUMP" />
+		</rules>
+	</element>
+	<element name="Pacto da Lâmina" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_BLADE">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<description>
+			<p>Como uma Ação Bônus, você pode conjurar uma arma de pacto em sua mão — uma arma Corpo a Corpo Simples ou Marcial de sua escolha com a qual você se vincula — ou criar um vínculo com uma arma mágica que tocar; você não pode se vincular a uma arma mágica se outra pessoa estiver sintonizada a ela ou se outro Bruxo estiver vinculado a ela. Até o vínculo terminar, você tem proficiência com a arma e pode usá-la como Foco de Conjuração.</p>
+			<p class="indent">Sempre que você atacar com a arma vinculada, pode usar seu modificador de Carisma para as rolagens de ataque e dano em vez de usar Força ou Destreza; e você pode fazer a arma causar dano Necrótico, Psíquico ou Radiante, ou seu tipo de dano normal.</p>
+			<p class="indent">Seu vínculo com a arma termina se você usar a Ação Bônus desta característica novamente, se a arma estiver a mais de 5 pés de você por 1 minuto ou mais, ou se você morrer. Uma arma conjurada desaparece quando o vínculo termina.</p>
+		</description>
+		<sheet action="Ação Bônus">
+			<description>Você pode conjurar uma arma de pacto em sua mão (Arma Corpo a Corpo Simples ou Marcial) ou se vincular a uma arma mágica que tocar. Até o vínculo terminar, você tem proficiência com ela e pode usá-la como Foco de Conjuração. &#13;
+			Você pode usar seu modificador de Carisma nas rolagens de ataque e dano; e pode causar dano Necrótico, Psíquico, Radiante ou o normal da arma. &#13;
+			O vínculo termina se usar esta Ação Bônus de novo, se a arma ficar a mais de 5 pés de distância por 1 minuto ou se você morrer. Arma conjurada desaparece ao fim do vínculo.</description>
+		</sheet>
+	</element>
+	<element name="Pacto da Corrente" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_CHAIN">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<description>
+			<p>Você aprende a magia 
+				<i>Encontrar Familiar</i> e pode conjurá-la como uma Ação Mágica sem gastar um espaço de magia.
+			</p>
+			<p class="indent">Quando você conjura a magia, pode escolher uma das formas normais para seu familiar ou uma das seguintes formas especiais: 
+				<b>Diabrete</b>, 
+				<b>Pseudodragão</b>, 
+				<b>Quasit</b>, 
+				<b>Esqueleto</b>, 
+				<b>Girino de Slaad</b>, 
+				<b>Esfinge das Maravilhas</b>, 
+				<b>Sprite</b> ou 
+				<b>Cobra Venenosa</b>.
+			</p>
+			<p class="indent">Além disso, quando você realiza a ação de Atacar, pode abrir mão de um de seus próprios ataques para permitir que seu familiar faça um ataque próprio usando a Reação dele.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_FIND_FAMILIAR" /></div>
+		</description>
+		<sheet>
+			<description>Você pode conjurar Encontrar Familiar sem gastar um espaço de magia. &#13;
+			Além disso, pode abrir mão de um de seus ataques para permitir que seu familiar faça um ataque usando a Reação dele.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIND_FAMILIAR" />
+			<select type="Companion" name="Familiar do Pacto da Corrente" supports="Familiar||Variant Familiar||Beast,0" />
+		</rules>
+	</element>
+	<element name="Pacto do Tomo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_TOME">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<description>
+			<p>Costurando fios de sombra, você conjura um livro na sua mão ao final de um Descanso Curto ou Longo. Este 
+				<i>Livro das Sombras</i> (você determina a aparência dele) contém magia mística que apenas você pode acessar, concedendo os benefícios abaixo. O livro desaparece se você conjurar outro livro com esta característica ou se você morrer.
+			</p>
+			<p class="indent">
+				<em>
+					<strong>Truques e Rituais.</strong>
+				</em> Quando o livro aparece, escolha três truques e duas magias de nível 1 que possuam o descritor Ritual. As magias podem ser de qualquer lista de classe e não podem ser magias que você já tem preparadas. Enquanto o livro estiver com você, você terá essas magias preparadas e elas funcionarão como magias de Bruxo para você.
+			</p>
+			<p class="indent">
+				<em>
+					<strong>Foco de Conjuração.</strong>
+				</em> Você pode usar o livro como Foco de Conjuração.
+			</p>
+		</description>
+		<sheet>
+			<description>Você conjura um Livro das Sombras na sua mão ao fim de um Descanso Curto ou Longo. Pode usá-lo como Foco de Conjuração, só você pode acessá-lo e ele desaparece se conjurar outro livro ou morrer.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Truque (Pacto do Tomo)" supports="0" number="3" spellcasting="Warlock" />
+			<select type="Spell" name="Rituais (Pacto do Tomo)" supports="1,Ritual" number="2" spellcasting="Warlock" allowReplace="false"/>
+		</rules>
+	</element>
+	<element name="Rajada Repulsora" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:2],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST</requirements>
+		<prerequisite>Nível 2+ de Bruxo, um Truque de Bruxo Que Cause Dano via uma Rolagem de Ataque</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 2+ de Bruxo, um Truque de Bruxo Que Cause Dano via uma Rolagem de Ataque</em>
+			</p>
+			<p>Escolha um dos seus truques de Bruxo conhecidos que exija uma rolagem de ataque. Quando você atingir uma criatura Grande ou menor com aquele truque, você pode empurrá-ela até 10 pés (3 metros) para longe de você em linha reta.</p>
+			<p class="indent">
+				<em>
+					<strong>Repetível.</strong>
+				</em> Você pode ganhar esta invocação mais de uma vez. Cada vez que o fizer, escolha um truque elegível diferente.
+			</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet>
+			<description>{{repelling blast:count}} dos seus truques, escolhido(s) ao ganhar esta Invocação, ganha(m) a habilidade de empurrar criaturas Grandes ou menores até 10 pés para longe de você ao acertar.</description>
+		</sheet>
+		<rules>
+			<stat name="repelling blast:count" value="1" />
+		</rules>
+	</element>
+	<element name="Lâmina Sedenta" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>([level:warlock:5],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_BLADE),!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE</requirements>
+		<prerequisite>Nível 5+ de Bruxo, invocação Pacto da Lâmina</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisitos: Nível 5+ de Bruxo, invocação Pacto da Lâmina</em>
+			</p>
+			<p>Você ganha a característica Ataque Extra apenas para a sua arma de pacto. Com essa característica, você pode atacar duas vezes com a arma em vez de uma quando realizar a ação de Atacar no seu turno.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Lâmina Sedenta" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE_SUBELEMENT">
+		<supports>PHB24 Thirsting Blade Invocation</supports>
+		<compendium display="false" />
+		<sheet>
+			<description>Você pode atacar duas vezes com sua arma de pacto ao realizar a ação de Atacar.</description>
+		</sheet>
+	</element>
+	<element name="Visões de Reinos Distantes" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_VISIONS_OF_DISTANT_REALMS">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:9],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_VISIONS_OF_DISTANT_REALMS</requirements>
+		<prerequisite>Nível 9+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 9+ de Bruxo</em>
+			</p>
+			<p>Você pode conjurar 
+				<i>Olho Arcano</i> sem gastar um espaço de magia.
+			</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_ARCANE_EYE" /></div>
+		</description>
+		<sheet>
+			<description>Você pode conjurar Olho Arcano sem gastar um espaço de magia.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ARCANE_EYE" />
+		</rules>
+	</element>
+	<element name="Sussurros do Túmulo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_WHISPERS_OF_THE_GRAVE">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:7],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_WHISPERS_OF_THE_GRAVE</requirements>
+		<prerequisite>Nível 7+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 7+ de Bruxo</em>
+			</p>
+			<p>Você pode conjurar 
+				<em>Falar com os Mortos</em> sem gastar um espaço de magia.
+			</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_SPEAK_WITH_DEAD" /></div>
+		</description>
+		<sheet>
+			<description>Você pode conjurar Falar com os Mortos sem gastar um espaço de magia.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_DEAD" />
+		</rules>
+	</element>
+	<element name="Visão de Bruxo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_WITCH_SIGHT">
+		<supports>PHB24 Eldritch Invocation</supports>
+		<requirements>[level:warlock:15],!ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_WITCH_SIGHT</requirements>
+		<prerequisite>Nível 15+ de Bruxo</prerequisite>
+		<description>
+			<p>
+				<em>Pré-requisito: Nível 15+ de Bruxo</em>
+			</p>
+			<p>Você tem Visão Verdadeira com um alcance de 30 pés (9 metros).</p>
+		</description>
+		<sheet>
+			<description>Você tem Visão Verdadeira com alcance de 30 pés (9 metros).</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_TRUESIGHT" />
+			<stat name="truesight:range" value="30" bonus="base" />
+		</rules>
+	</element>
+</elements>

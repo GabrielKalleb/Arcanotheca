@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Bardo</name>
+		<description>A classe Bardo do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="class-bard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-bard.xml" />
+		</update>
+	</info>
+
+	<element name="Bardo" type="Class" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_BARD">
+		<description>
+			<p>Invocando magia através da música, dança e poesia, os Bardos são especialistas em inspirar os outros, curar ferimentos, desanimar inimigos e criar ilusões. Os Bardos acreditam que o multiverso foi falado à existência e que os remanescentes de suas Palavras da Criação ainda ressoam e brilham em todos os planos de existência. A magia bárdica tenta dominar essas palavras, que transcendem qualquer idioma.</p>
+			<p class="indent">Qualquer coisa pode inspirar uma nova canção ou conto, por isso os Bardos são fascinados por quase tudo. Eles se tornam mestres em muitas coisas, incluindo tocar música, operar magias e fazer piadas.</p>
+			<p class="indent">A vida de um Bardo é gasta viajando, reunindo conhecimento, contando histórias e vivendo da gratidão do público, como qualquer outro artista. Mas a profundidade do conhecimento e o domínio da magia dos Bardos os destacam.</p>
+			<div class="sidebar">
+				<h5>TRAÇOS PRINCIPAIS DO BARDO</h5>
+				<table>
+				<tr><td><b>Habilidade Principal</b></td><td class="left">Carisma</td></tr>
+				<tr><td><b>Dado de Pontos de Vida</b></td><td class="left">D8 por nível de Bardo</td></tr>
+				<tr><td><b>Proficiências em Testes de Resistência</b></td><td class="left">Destreza e Carisma</td></tr>
+				<tr><td><b>Proficiências em Perícias</b></td><td class="left"><i>Escolha 3 perícias quaisquer</i></td></tr>
+				<tr><td><b>Proficiências com Armas</b></td><td class="left">Armas simples</td></tr>
+				<tr><td><b>Proficiências com Ferramentas</b></td><td class="left"><i>Escolha 3 Instrumentos Musicais</i></td></tr>
+				<tr><td><b>Treinamento com Armaduras</b></td><td class="left">Armaduras leves</td></tr>
+				<tr><td><b>Equipamento Inicial</b></td><td class="left"><i>Escolha A ou B:</i> (A) Armadura de Couro, 2 Adagas, Instrumento Musical à sua escolha, Pacote de Artista, 19 PO; ou (B) 90 PO</td></tr>
+			</table>
+			</div>
+			<h4>TORNANDO-SE UM BARDO ...</h4>
+			<h5 style="margin-top:-2em">COMO UM PERSONAGEM DE NÍVEL 1</h5>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
+				<li>Você ganha todos os traços na tabela de Traços Principais do Bardo.</li>
+				<li>Você ganha as características de nível 1 do Bardo que estão listadas na tabela Características de Bardo.</li>
+			</ul>
+			<h5 style="margin-top: 0px">COMO UM PERSONAGEM MULTICLASSE</h5>
+			<ul style="margin-top:-1em">
+				<li>Você ganha os seguintes traços da tabela de Traços Principais do Bardo: Dado de Pontos de Vida, proficiência em uma perícia à sua escolha, proficiência em um Instrumento Musical à sua escolha e treinamento com Armaduras leves.</li>
+				<li>Você ganha as características de nível 1 do Bardo que estão listadas na tabela Características de Bardo.</li>
+			</ul>
+			<h5>CARACTERÍSTICAS DE BARDO</h5>
+			<table class="class-features">
+				<tr style="font-weight: bold">
+					<td class="col-5" rowspan="2">Nível</td>
+					<td class="col-20 left" rowspan="2">Características de Classe</td>
+					<td class="col-5" rowspan="2">Dado de<br />Bardo</td>
+					<td rowspan="2">Truques</td>
+					<td rowspan="2">Magias<br />Preparadas</td>
+					<td colspan="9" style="vertical-align:bottom; border-bottom: 0px">Espaços de Magia por Nível de Magia</td>
+				</tr>
+				<tr style="font-weight: bold"><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+				<tr><td>1</td><td class="left">Inspiração de Bardo, Conjuração</td><td>D6</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>2</td><td class="left">Especialidade, Faz-Tudo</td><td>D6</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>3</td><td class="left">Subclasse de Bardo</td><td>D6</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>4</td><td class="left">Aumento no Valor de Habilidade</td><td>D6</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>5</td><td class="left">Fonte de Inspiração</td><td>D8</td><td>3</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>6</td><td class="left">Característica de Subclasse</td><td>D8</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>7</td><td class="left">Contraencanto</td><td>D8</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>8</td><td class="left">Aumento no Valor de Habilidade</td><td>D8</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>9</td><td class="left">Especialidade</td><td>D8</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10</td><td class="left">Segredos Mágicos</td><td>D10</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11</td><td class="left">—</td><td>D10</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12</td><td class="left">Aumento no Valor de Habilidade</td><td>D10</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13</td><td class="left">—</td><td>D10</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14</td><td class="left">Característica de Subclasse</td><td>D10</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15</td><td class="left">—</td><td>D12</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16</td><td class="left">Aumento no Valor de Habilidade</td><td>D12</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17</td><td class="left">—</td><td>D12</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18</td><td class="left">Inspiração Superior</td><td>D12</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19</td><td class="left">Dádiva Épica</td><td>D12</td><td>4</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20</td><td class="left">Palavras da Criação</td><td>D12</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+			</table>
+			<h4>CARACTERÍSTICAS DA CLASSE BARDO</h4>
+			<p>Como Bardo, você ganha as seguintes características de classe quando atinge os níveis de Bardo especificados. Estas características estão listadas na tabela Características de Bardo.</p>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SPELLCASTING" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_EXPERTISE" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_BARD_SUBCLASS" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_ABILITY_SCORE_IMPROVEMENT" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_COUNTERCHARM" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_MAGICAL_SECRETS" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_EPIC_BOON" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_WORDS_OF_CREATION" />
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="short">Um Artista Inspirador da Música, Dança e Magia</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_BARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB24_MULTICLASS_BARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB24_MULTICLASS_BARD"/>
+			<select type="Proficiency" name="Proficiência em Perícia (Bardo)" supports="Skill,Bard" number="3" requirements="!ID_WOTC_PHB24_MULTICLASS_BARD"/>
+			<select type="Proficiency" name="Instrumento Musical (Bardo)" supports="Musical Instrument" number="3" requirements="!ID_WOTC_PHB24_MULTICLASS_BARD"/>
+
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SPELLCASTING" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_EXPERTISE" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" level="2"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_BARD_SUBCLASS" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_ABILITY_SCORE_IMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_COUNTERCHARM" level="7" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_MAGICAL_SECRETS" level="10" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION" level="18" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_EPIC_BOON" level="19" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_WORDS_OF_CREATION" level="20" />
+		</rules>
+		<multiclass id="ID_WOTC_PHB24_MULTICLASS_BARD">
+			<prerequisite>Carisma 13</prerequisite>
+			<requirements>([cha:13],!(ID_WOTC_PHB_CLASS_BARD||ID_WOTC_PHB_MULTICLASS_BARD))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Armaduras leves, uma perícia à sua escolha, um Instrumento Musical à sua escolha</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<select type="Proficiency" name="Proficiência em Perícia (Bardo)" supports="Skill,Bard" />
+				<select type="Proficiency" name="Instrumento Musical (Bardo)" supports="Musical Instrument" />
+			</rules>
+		</multiclass>
+	</element>
+
+	<element name="Nível 1: Inspiração de Bardo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_BARDIC_INSPIRATION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_BARDIC_INSPIRATION</requirements>
+		<description>
+			<p>Você pode inspirar outros sobrenaturalmente através de palavras, música ou dança. Esta inspiração é representada pelo seu dado de Inspiração de Bardo, que é um d6.</p>
+			<p class="indent"><em><strong>Usando a Inspiração de Bardo.</strong></em> Como uma Ação Bônus, você pode inspirar outra criatura a até 18 metros (60 pés) de você que possa vê-lo ou ouvi-lo. Aquela criatura ganha um de seus dados de Inspiração de Bardo. Uma criatura pode ter apenas um dado de Inspiração de Bardo por vez.</p>
+			<p class="indent">Uma vez na próxima hora, quando a criatura falhar em um Teste de D20, a criatura pode rolar o dado de Inspiração de Bardo e adicionar o número rolado ao d20, potencialmente transformando a falha em um sucesso. O dado de Inspiração de Bardo é gasto quando rolado.</p>
+			<p class="indent"><em><strong>Número de Usos.</strong></em> Você pode conceder um dado de Inspiração de Bardo um número de vezes igual ao seu modificador de Carisma (mínimo de uma vez), e você recupera todos os usos gastos ao terminar um Descanso Longo.</p>
+			<p class="indent"><em><strong>Em Níveis Superiores.</strong></em> O seu dado de Inspiração de Bardo muda quando você atinge certos níveis de Bardo, como mostrado na coluna Dado de Bardo da tabela Características de Bardo. O dado se torna um d8 no nível 5, um d10 no nível 10, e um d12 no nível 15.</p>
+		</description>
+		<sheet alt="Inspiração de Bardo" action="Ação Bônus" usage="{{bardic-inspiration:count}}/Descanso Longo">
+			<description>Inspire uma criatura além de você mesmo a até 18 metros (60 pés) que possa ver ou ouvir você. Ela ganha um dado de Inspiração de Bardo, um d{{bardic-inspiration:dice}}. Uma vez na próxima hora, ao falhar em um Teste de D20, ela pode rolar o dado e adicionar o resultado ao d20, podendo transformar a falha em sucesso.</description>
+			<description level="5" usage="{{bardic-inspiration:count}}/Descanso Curto">Inspire uma criatura além de você mesmo a até 18 metros (60 pés) que possa ver ou ouvir você. Ela ganha um dado de Inspiração de Bardo, um d{{bardic-inspiration:dice}}. Uma vez na próxima hora, ao falhar em um Teste de D20, ela pode rolar o dado e adicionar o resultado ao d20, podendo transformar a falha em sucesso. &#13;
+			Além disso, você pode gastar um espaço de magia para recuperar um uso gasto da sua Inspiração de Bardo.
+			</description>
+			<description level="18" usage="{{bardic-inspiration:count}}/Descanso Curto">Inspire uma criatura além de você mesmo a até 18 metros (60 pés) que possa ver ou ouvir você. Ela ganha um dado de Inspiração de Bardo, um d{{bardic-inspiration:dice}}. Uma vez na próxima hora, ao falhar em um Teste de D20, ela pode rolar o dado e adicionar o resultado ao d20, podendo transformar a falha em sucesso. &#13;
+			Quando rolar Iniciativa, se tiver menos de dois usos, você recupera usos gastos de Inspiração de Bardo até ter dois. &#13;
+			Além disso, você pode gastar um espaço de magia para recuperar um uso gasto de Inspiração de Bardo.</description>
+		</sheet>
+		<rules>
+			<stat name="bardic-inspiration:count" value="1" bonus="base"/>
+			<stat name="bardic-inspiration:count" value="charisma:modifier" bonus="base"/>
+
+			<stat name="bardic-inspiration:dice" value="6" bonus="base" />
+			<stat name="bardic-inspiration:dice" value="8" bonus="base" level="5" />
+			<stat name="bardic-inspiration:dice" value="10" bonus="base" level="10" />
+			<stat name="bardic-inspiration:dice" value="12" bonus="base" level="15" />
+		</rules>
+	</element>
+
+	<element name="Nível 1: Conjuração" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SPELLCASTING">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_SPELLCASTING</requirements>
+		<description>
+			<p>Você aprendeu a conjurar magias através das suas artes bárdicas.</p>
+			<p class="indent"><b><i>Truques.</i></b> Você conhece dois truques de Bardo à sua escolha da lista de magias de Bardo. <i>Globos de Luz</i> e <i>Zombaria Macabra</i> são recomendados.</p>
+			<p class="indent">Sempre que você ganha um nível de Bardo, pode substituir um de seus truques por outro à sua escolha da lista de magias de Bardo.</p>
+			<p class="indent">Quando atinge os níveis de Bardo 4 e 10, você aprende mais um truque à sua escolha da lista de magias de Bardo, como mostrado na coluna Truques da tabela Características de Bardo.</p>
+			<p class="indent"><b><i>Espaços de Magia.</i></b> A tabela Características de Bardo mostra quantos espaços de magia você tem para conjurar suas magias de nível 1 ou superior. Você recupera todos os espaços gastos ao terminar um Descanso Longo.</p>
+			<p class="indent"><b><i>Magias Preparadas de Nível 1 ou Superior.</i></b> Você prepara a lista de magias de nível 1 ou superior que estão disponíveis para você conjurar com esta característica. Para começar, escolha quatro magias de 1º nível da lista de magias de Bardo. <i>Enfeitiçar Pessoa</i>, <i>Leque Cromático</i>, <i>Sussurros Dissonantes</i> e <i>Palavra Curativa</i> são recomendados.</p>
+			<p class="indent">O número de magias na sua lista aumenta conforme você ganha níveis de Bardo, como mostrado na coluna Magias Preparadas da tabela Características de Bardo. Sempre que esse número aumentar, escolha magias adicionais da lista de magias de Bardo até que o número de magias em sua lista coincida com o número na tabela. As magias escolhidas devem ser de um nível para o qual você possui espaços de magia. Por exemplo, se você é um Bardo de nível 3, sua lista de magias preparadas pode incluir seis magias de nível 1 e 2 em qualquer combinação.</p>
+			<p class="indent">Se outra característica de Bardo conceder a você magias que você sempre tem preparadas, essas magias não contam no número de magias que você pode preparar com esta característica, mas ainda contam como magias de Bardo para você.</p>
+			<p class="indent"><b><i>Trocando Suas Magias Preparadas.</i></b> Sempre que ganhar um nível de Bardo, você pode substituir uma magia da sua lista por outra magia de Bardo para a qual possua espaços de magia.</p>
+			<p class="indent"><b><i>Atributo de Conjuração.</i></b> Carisma é o seu atributo de conjuração para as suas magias de Bardo.</p>
+			<p class="indent"><b><i>Foco de Conjuração.</i></b> Você pode usar um Instrumento Musical como Foco de Conjuração para as suas magias de Bardo.</p>
+			<center>
+				<p><strong>CD para evitar magia</strong> = 8 + seu bônus de proficiência + seu modificador de Carisma</p>
+				<p><strong>Modificador de ataque de magia</strong> = seu bônus de proficiência + seu modificador de Carisma</p>
+			</center>
+		</description>
+		<sheet alt="Conjuração">
+			<description>Você pode usar um Instrumento Musical como seu Foco de Conjuração. Sempre que ganhar um nível de Bardo, você pode substituir um de seus truques por outro truque de Bardo de sua escolha.</description>
+		</sheet>
+		<spellcasting name="Bard" ability="Charisma" allowReplace="true">
+			<list>Bard</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_MUSICAL_INSTRUMENT" />
+
+			<stat name="bard:spellcasting:slots:1" value="2" />
+			<stat name="bard:spellcasting:slots:1" value="1" level="2" />
+			<stat name="bard:spellcasting:slots:1" value="1" level="3" />
+			<stat name="bard:spellcasting:slots:2" value="2" level="3" />
+			<stat name="bard:spellcasting:slots:2" value="1" level="4" />
+			<stat name="bard:spellcasting:slots:3" value="2" level="5" />
+			<stat name="bard:spellcasting:slots:3" value="1" level="6" />
+			<stat name="bard:spellcasting:slots:4" value="1" level="7" />
+			<stat name="bard:spellcasting:slots:4" value="1" level="8" />
+			<stat name="bard:spellcasting:slots:4" value="1" level="9" />
+			<stat name="bard:spellcasting:slots:5" value="1" level="9" />
+			<stat name="bard:spellcasting:slots:5" value="1" level="10" />
+			<stat name="bard:spellcasting:slots:5" value="1" level="18" />
+			<stat name="bard:spellcasting:slots:6" value="1" level="11" />
+			<stat name="bard:spellcasting:slots:6" value="1" level="19" />
+			<stat name="bard:spellcasting:slots:7" value="1" level="13" />
+			<stat name="bard:spellcasting:slots:7" value="1" level="20" />
+			<stat name="bard:spellcasting:slots:8" value="1" level="15" />
+			<stat name="bard:spellcasting:slots:9" value="1" level="17" />
+
+			<select type="Spell" name="Truque (Bardo)" supports="$(spellcasting:list), 0" number="2" spellcasting="Bard" />
+			<select type="Spell" name="Truque (Bardo)" supports="$(spellcasting:list), 0" level="4" spellcasting="Bard" />
+			<select type="Spell" name="Truque (Bardo)" supports="$(spellcasting:list), 0" level="10" spellcasting="Bard" />
+
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), 1" number="4" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="2" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="2" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="18" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" spellcasting="Bard" />
+			<select type="Spell" name="Magia (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" spellcasting="Bard" />
+		</rules>
+	</element>
+
+	<element name="Nível 2: Especialidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_EXPERTISE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_EXPERTISE</requirements>
+		<description>
+			<p>Você ganha Especialidade em duas de suas proficiências em perícia à sua escolha. Atuação e Persuasão são recomendadas se você possuir proficiência nelas.</p>
+			<p class="indent">No nível 9 de Bardo, você ganha Especialidade em mais duas das suas proficiências em perícia à sua escolha.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Especialidade (Bardo 2)" level="2" number="2" supports="Skill Expertise" />
+			<select type="Proficiency" name="Especialidade (Bardo 9)" level="9" number="2" supports="Skill Expertise" />
+		</rules>
+	</element>
+
+	<element name="Nível 2: Faz-Tudo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_JACK_OF_ALL_TRADES</requirements>
+		<description>
+			<p>Você pode adicionar metade do seu Bônus de Proficiência (arredondado para baixo) a qualquer teste de habilidade que você fizer que use uma proficiência em perícia que você não possua e que não use o seu Bônus de Proficiência de outra forma.</p>
+			<p class="indent">Por exemplo, se você fizer um teste de Força (Atletismo) e não possuir proficiência em Atletismo, poderá adicionar metade do seu Bônus de Proficiência ao teste.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="acrobatics:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ACROBATICS"/>
+			<stat name="animal handling:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ANIMALHANDLING"/>
+			<stat name="arcana:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ARCANA"/>
+			<stat name="athletics:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ATHLETICS"/>
+			<stat name="deception:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_DECEPTION"/>
+			<stat name="history:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_HISTORY"/>
+			<stat name="insight:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INSIGHT"/>
+			<stat name="intimidation:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INTIMIDATION"/>
+			<stat name="investigation:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INVESTIGATION"/>
+			<stat name="medicine:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_MEDICINE"/>
+			<stat name="nature:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_NATURE"/>
+			<stat name="perception:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERCEPTION"/>
+			<stat name="performance:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERFORMANCE"/>
+			<stat name="persuasion:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERSUASION"/>
+			<stat name="religion:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_RELIGION"/>
+			<stat name="sleight of hand:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_SLEIGHTOFHAND"/>
+			<stat name="stealth:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_STEALTH"/>
+			<stat name="survival:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_SURVIVAL"/>
+		</rules>
+	</element>
+
+	<element name="Nível 3: Subclasse de Bardo" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_BARD_SUBCLASS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_BARD_SUBCLASS</requirements>
+		<description>
+			<p>Você ganha uma subclasse de Bardo à sua escolha. Uma subclasse é uma especialização que concede a você características em certos níveis de Bardo. Pelo resto da sua carreira, você ganha as características da sua subclasse que forem equivalentes ao seu nível de Bardo ou menor.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Archetype" name="Subclasse de Bardo" supports="Bard College||Bard Subclass" />
+		</rules>
+	</element>
+
+	<element name="Nível 4: Aumento no Valor de Habilidade" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_ABILITY_SCORE_IMPROVEMENT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_ABILITY_SCORE_IMPROVEMENT</requirements>
+		<compendium display="false" />
+		<description>
+			<p>Você ganha o talento Aumento no Valor de Habilidade ou outro talento à sua escolha para o qual você cumpra os pré-requisitos. Você ganha esta característica novamente nos níveis de Bardo 8, 12 e 16.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Aumento no Valor de Habilidade (Bardo 4)" />
+			<select type="Feat" name="Aumento no Valor de Habilidade (Bardo 8)" level="8" />
+			<select type="Feat" name="Aumento no Valor de Habilidade (Bardo 12)" level="12" />
+			<select type="Feat" name="Aumento no Valor de Habilidade (Bardo 16)" level="16" />
+		</rules>
+	</element>
+
+	<element name="Nível 5: Fonte de Inspiração" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_FONT_OF_INSPIRATION</requirements>
+		<description>
+			<p>Você agora recupera todos os seus usos gastos de Inspiração de Bardo ao terminar um Descanso Curto ou Longo.</p>
+			<p class="indent">Além disso, você pode gastar um espaço de magia (nenhuma ação exigida) para recuperar um uso gasto da sua Inspiração de Bardo.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+
+	<element name="Nível 7: Contraencanto" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_COUNTERCHARM">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_COUNTERCHARM</requirements>
+		<description>
+			<p>Você pode usar notas musicais ou palavras de poder para interromper efeitos que influenciem a mente. Se você ou uma criatura a até 9 metros (30 pés) de você falhar em um teste de resistência contra um efeito que cause a condição Enfeitiçado ou Amedrontado, você pode usar uma Reação para fazer com que o teste de resistência seja rolado novamente, e essa nova rolagem terá Vantagem.</p>
+		</description>
+		<sheet alt="Contraencanto" usage="Reação">
+			<description>Quando você ou uma criatura a até 9 metros (30 pés) falha em um teste de resistência contra a condição Enfeitiçado ou Amedrontado, você pode fazer com que a resistência seja rolada de novo, recebendo Vantagem na nova rolagem.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 10: Segredos Mágicos" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_MAGICAL_SECRETS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_MAGICAL_SECRETS</requirements>
+		<description>
+			<p>Você aprendeu segredos de várias tradições mágicas. Sempre que atinge um nível de Bardo (incluindo este nível) e o número em Magias Preparadas na tabela Características de Bardo aumenta, você pode escolher qualquer de suas novas magias preparadas das listas de magias de Bardo, Clérigo, Druida ou Mago, e as magias escolhidas contam como magias de Bardo para você (veja a seção da respectiva classe para suas listas de magias). Além disso, sempre que substituir uma magia preparada por esta classe, você pode substituí-la por uma magia de qualquer uma dessas listas.</p>
+		</description>
+		<sheet display="false" />
+		<spellcasting name="Bard" extend="true">
+			<extend>Cleric</extend>
+			<extend>Druid</extend>
+			<extend>Wizard</extend>
+		</spellcasting>
+	</element>
+
+	<element name="Nível 18: Inspiração Superior" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_SUPERIOR_INSPIRATION</requirements>
+		<description>
+			<p>Quando você rolar Iniciativa, se possuir menos de dois usos de Inspiração de Bardo, você recupera seus usos gastos até ter dois.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+
+	<element name="Nível 19: Dádiva Épica" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_EPIC_BOON">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_EPIC_BOON</requirements>
+		<description>
+			<p>Você ganha um talento Dádiva Épica ou outro talento de sua escolha para o qual possua os pré-requisitos. O talento Dádiva da Recordação Arcana é recomendado.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat" name="Dádiva Épica (Bardo 19)" level="19" />
+		</rules>
+	</element>
+
+	<element name="Nível 20: Palavras da Criação" type="Class Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_WORDS_OF_CREATION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_WORDS_OF_CREATION</requirements>
+		<description>
+			<p>Você dominou duas das Palavras da Criação: as palavras da vida e da morte. Dessa forma, você sempre tem as magias <i>Palavra de Poder Curar</i> e <i>Palavra de Poder Matar</i> preparadas. Quando conjura qualquer uma delas, você pode ter uma segunda criatura como alvo se essa criatura estiver a até 3 metros (10 pés) do primeiro alvo.</p>
+		</description>
+		<sheet alt="Palavras da Criação">
+			<description>Quando você conjura Palavra de Poder Curar ou Palavra de Poder Matar, você pode mirar em uma segunda criatura com a magia se ela estiver a até 3 metros (10 pés) do primeiro alvo.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POWER_WORD_HEAL" spellcasting="Bard" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POWER_WORD_KILL" spellcasting="Bard" allowReplace="false" />
+		</rules>
+	</element>
+
+	<element name="Bardic Inspiration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_BARDIC_INSPIRATION" />
+	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_SPELLCASTING" />
+	<element name="Expertise Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_EXPERTISE" />
+	<element name="Jack of All Trades Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_JACK_OF_ALL_TRADES" />
+	<element name="Bard Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_BARD_SUBCLASS" />
+	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_ABILITY_SCORE_IMPROVEMENT" />
+	<element name="Font of Inspiration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_FONT_OF_INSPIRATION" />
+	<element name="Countercharm Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_COUNTERCHARM" />
+	<element name="Magical Secrets Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_MAGICAL_SECRETS" />
+	<element name="Superior Inspiration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_SUPERIOR_INSPIRATION" />
+	<element name="Bard Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_EPIC_BOON" />
+	<element name="Words of Creation Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_WORDS_OF_CREATION" />
+</elements>

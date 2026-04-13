@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Guerreiro dos Elementos</name>
+		<description>A subclasse Guerreiro dos Elementos do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="monk-elements.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/monk-elements.xml" />
+		</update>
+	</info>
+
+	<element name="Guerreiro dos Elementos" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_MONK_WARRIOR_OF_THE_ELEMENTS">
+		<supports>Monk Subclass</supports>
+		<description>
+			<p class="flavor">Empunhe Golpes e Explosões de Poder Elemental</p>
+			<p>Guerreiros dos Elementos se conectam ao poder dos Planos Elementais. Canalizando seu foco sobrenatural, esses Monges domam momentaneamente a energia do Caos Elemental para fortalecer a si mesmos dentro e fora de batalha.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_MANIPULATE_ELEMENTS"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_BURST"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_STRIDE_OF_THE_ELEMENTS"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_MANIPULATE_ELEMENTS" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_BURST" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_STRIDE_OF_THE_ELEMENTS" level="11"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME" level="17"/>
+		</rules>
+	</element>
+
+	<element name="Nível 3: Sintonia Elemental" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT">
+		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_STRIDE_OF_THE_ELEMENTS||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_ELEMENTAL_EPITOME)</requirements>
+		<description>
+			<p>No início do seu turno, você pode gastar 1 Ponto de Foco para imbuir a si mesmo com energia elemental. A energia dura 10 minutos ou até você ter a condição Incapacitado. Você ganha os seguintes benefícios enquanto esta característica estiver ativa.</p>
+			<p class="indent"><em><strong>Alcance.</strong></em> Quando você faz um Ataque Desarmado, seu alcance é 3 metros (10 pés) maior que o normal, conforme a energia elemental se estende de você.</p>
+			<p class="indent"><em><strong>Golpes Elementais.</strong></em> Sempre que atingir um Ataque Desarmado, você pode fazer com que ele cause dano de Ácido, Frio, Fogo, Elétrico ou Trovejante, em vez do tipo de dano normal. Quando você causa um desses tipos de dano com ele, você também pode forçar o alvo a fazer um teste de resistência de Força. Em uma falha, você pode mover o alvo até 3 metros (10 pés) para perto ou para longe de você, enquanto a energia elemental rodopia ao redor dele.</p>
+		</description>
+		<sheet alt="Sintonia Elemental" usage="Ponto de Foco">
+			<description>No início do seu turno, você pode se imbuir com energia elemental pelos próximos 10 minutos, ou até você ter a condição Incapacitado. Você ganha os seguintes benefícios: &#13;
+			• Você adiciona 3 metros ao alcance do seu Ataque Desarmado. &#13;
+			• Ao acertar um Ataque Desarmado, você pode mudar seu tipo de dano para Ácido, Frio, Fogo, Elétrico ou Trovejante. Ao fazê-lo, você pode forçar o alvo a fazer um teste de resistência de Força CD {{monks focus:dc}}. Em uma falha, você pode movê-lo até 3 metros para perto ou longe de você.</description>
+			<description level="11">No início do seu turno, você pode se imbuir com energia elemental pelos próximos 10 minutos, ou até você ter a condição Incapacitado. Você ganha os seguintes benefícios: &#13;
+			• Você adiciona 3 metros ao alcance do seu Ataque Desarmado. &#13;
+			• Ao acertar um Ataque Desarmado, você pode mudar seu tipo de dano para Ácido, Frio, Fogo, Elétrico ou Trovejante. Ao fazê-lo, você pode forçar o alvo a fazer um teste de resistência de Força CD {{monks focus:dc}}. Em uma falha, você pode movê-lo até 3 metros para perto ou longe de você. &#13;
+			• Você tem um Deslocamento de Voo e um Deslocamento de Natação de {{speed}}ft.</description>
+			<description level="17">No início do seu turno, você pode se imbuir com energia elemental pelos próximos 10 minutos, ou até você ter a condição Incapacitado. Você ganha os seguintes benefícios: &#13;
+			• Você adiciona 3 metros ao alcance do seu Ataque Desarmado. &#13;
+			• Ao acertar um Ataque Desarmado, você pode mudar seu tipo de dano para Ácido, Frio, Fogo, Elétrico ou Trovejante. Ao fazê-lo, você pode forçar o alvo a fazer um teste de resistência de Força CD {{monks focus:dc}}. Em uma falha, você pode movê-lo até 3 metros para perto ou longe de você. &#13;
+			• Você tem um Deslocamento de Voo e um Deslocamento de Natação de {{speed}}ft. &#13;
+			• Você ganha Resistência a dano de Ácido, Frio, Fogo, Elétrico ou Trovejante (sua escolha). No início de cada um dos seus turnos, você pode mudar essa escolha. &#13;
+			• Quando você usa seu Passo do Vento, seu Deslocamento aumenta em 6 metros até o final do turno. Durante essa duração, qualquer criatura de sua escolha sofre 1d{{martial arts:dice}} de dano de Ácido, Frio, Fogo, Elétrico ou Trovejante (sua escolha) quando você entra em um espaço a 1,5 metro dela. Uma criatura só pode sofrer esse dano uma vez por turno. &#13;
+			• Uma vez em seus turnos, você pode causar 1d{{martial arts:dice}} de dano extra a um alvo quando acertá-lo com um Ataque Desarmado. O dano extra é do mesmo tipo causado por aquele golpe.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 3: Manipular Elementos" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_MANIPULATE_ELEMENTS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_MANIPULATE_ELEMENTS</requirements>
+		<description>
+			<p>Você conhece a magia <em>Elementalismo</em>. Sabedoria é a sua habilidade de conjuração para ela.</p>
+		</description>
+		<sheet alt="Manipular Elementos">
+			<description>Você conhece o truque Elementalismo. Sabedoria é a sua habilidade de conjuração para ele.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ELEMENTALISM" />
+		</rules>
+	</element>
+
+	<element name="Nível 6: Explosão Elemental" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_BURST">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_ELEMENTAL_BURST</requirements>
+		<description>
+			<p>Como uma Ação Mágica, você pode gastar 2 Pontos de Foco para fazer com que a energia elemental exploda em uma Esfera com raio de 6 metros (20 pés) centrada em um ponto a até 36 metros (120 pés) de você. Escolha um tipo de dano: Ácido, Frio, Fogo, Elétrico ou Trovejante.</p>
+			<p class="indent">Cada criatura na Esfera deve fazer um teste de resistência de Destreza. Em uma falha, uma criatura sofre dano do tipo escolhido igual a três rolagens do seu dado de Artes Marciais. Em um sucesso, uma criatura sofre metade desse dano.</p>
+		</description>
+		<sheet alt="Explosão Elemental" action="Ação" usage="2 Pontos de Foco">
+			<description>Você pode magicamente causar uma explosão de energia elemental em uma Esfera com raio de 6 metros centrada em um ponto a até 36 metros de você. Cada criatura na Esfera deve fazer um teste de resistência de Destreza CD {{monks focus:dc}}. Em uma falha, uma criatura sofre 3d{{martial arts:dice}} de dano de Ácido, Frio, Fogo, Elétrico ou Trovejante (sua escolha). Em um sucesso, sofre metade do dano.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 11: Passo dos Elementos" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_STRIDE_OF_THE_ELEMENTS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_STRIDE_OF_THE_ELEMENTS</requirements>
+		<description>
+			<p>Enquanto a sua Sintonia Elemental estiver ativa, você também tem um Deslocamento de Voo e um Deslocamento de Natação iguais ao seu Deslocamento.</p>
+		</description>
+		<sheet display="false"/>
+	</element>
+
+	<element name="Nível 17: Epítome Elemental" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_ELEMENTAL_EPITOME</requirements>
+		<description>
+			<p>Enquanto a sua Sintonia Elemental estiver ativa, você também ganha os seguintes benefícios.</p>
+			<p class="indent"><em><strong>Resistência a Dano.</strong></em> Você ganha Resistência a um dos seguintes tipos de dano de sua escolha: Ácido, Frio, Fogo, Elétrico ou Trovejante. No início de cada um dos seus turnos, você pode mudar essa escolha.</p>
+			<p class="indent"><em><strong>Passo Destrutivo.</strong></em> Quando você usa seu Passo do Vento, seu Deslocamento aumenta em 6 metros (20 pés) até o fim do turno. Durante essa duração, qualquer criatura de sua escolha sofre dano igual a uma rolagem do seu dado de Artes Marciais quando você entra em um espaço a 1,5 metro dela. O tipo de dano é sua escolha entre Ácido, Frio, Fogo, Elétrico ou Trovejante. Uma criatura só pode sofrer esse dano uma vez por turno.</p>
+			<p class="indent"><em><strong>Golpes Empoderados.</strong></em> Uma vez em cada um de seus turnos, você pode causar dano extra a um alvo igual a uma rolagem do seu dado de Artes Marciais quando atingi-lo com um Ataque Desarmado. O dano extra é do mesmo tipo causado por aquele golpe.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+
+	<element name="Elemental Attunement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT" />
+	<element name="Manipulate Elements Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_MANIPULATE_ELEMENTS" />
+	<element name="Elemental Burst Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_ELEMENTAL_BURST" />
+	<element name="Stride of the Elements Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_STRIDE_OF_THE_ELEMENTS" />
+	<element name="Elemental Epitome Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ELEMENTS_ELEMENTAL_EPITOME" />
+</elements>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Sábio</name>
+		<description>Antecedente Sábio do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="background-sage.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/background-sage.xml" />
+		</update>
+	</info>
+
+	<element name="Sábio" type="Background" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_SAGE">
+		<description>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+				<li><strong>Valores de Habilidade:</strong> Constituição, Inteligência, Sabedoria</li>
+				<li><strong>Talento:</strong> Iniciado em Magia (Mago)</li>
+				<li><strong>Proficiências em Perícias:</strong> Arcanismo e História</li>
+				<li><strong>Proficiência em Ferramenta:</strong> Suprimentos de Calígrafo</li>
+				<li><strong>Equipamento:</strong><i> Escolha A ou B:</i> (A) Bordão, Suprimentos de Calígrafo, Livro (história), Pergaminho (8 folhas), Veste, 8 PO; ou (B) 50 PO</li>
+			</ul>
+			<p>Você passou seus anos de formação viajando entre feudos e monastérios, realizando vários biscates e serviços em troca de acesso às bibliotecas deles. Você passou muitas noites longas estudando livros e pergaminhos, aprendendo o conhecimento do multiverso — até mesmo os rudimentos da magia — e sua mente anseia por mais.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE" />
+			</div>
+		</description>
+		<setters>
+			<set name="short">Constituição, Inteligência, Sabedoria, Talento Iniciado em Magia (Mago), Perícias Arcanismo e História, Suprimentos de Calígrafo</set>
+		</setters>
+		<rules>
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_WIS" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" /> 
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" />	
+		</rules>
+	</element>
+</elements>

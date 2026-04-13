@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Característica de Antecedente Opcional</name>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="optional-background-feature.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/backgrounds/optional-background-feature.xml" />
+		</update>
+	</info>
+
+	<element name="Talento de Origem" type="Background Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_BACKGROUND_FEATURE_ORIGIN_FEAT">
+		<supports>Optional Background Feature</supports>
+		<description>
+			<p>Esta característica permite que você substitua sua Característica de Antecedente por um Talento de Origem de sua escolha.</p>
+			<p><b>Nota.</b> Se o seu Mestre permitir que você ganhe um Talento de Origem além da sua Característica de Antecedente, em vez de usar esta Característica de Antecedente Opcional, você deve pegar o Talento escolhido da categoria Talento Adicional do menu de Equipamento.</p>
+		</description>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+
+			<select type="Feat" name="Talento de Origem" supports="Origin" />
+		</rules>
+	</element>
+
+</elements>

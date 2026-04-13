@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Orc</name>
+		<description>A espécie Orc do Player’s Handbook 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="race-orc.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/races/race-orc.xml" />
+		</update>
+	</info>
+	
+	<element name="Orc" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_ORC">
+		<description>
+			<p>Os orcs rastreiam a sua criação até Gruumsh, um deus poderoso que vagava pelos grandes espaços abertos do Plano Material. Gruumsh dotou seus filhos com dons para ajudá-los a vagar por grandes planícies, vastas cavernas e mares agitados, bem como para enfrentar os monstros que se espreitam nesses lugares. Mesmo quando desviam a sua devoção para outros deuses, os orcs mantêm os dons de Gruumsh: resistência, determinação e a habilidade de enxergar na escuridão.</p>
+			<p class="indent">Os orcs são, em média, altos e largos. Eles têm a pele cinzenta, orelhas que são pontiagudas, e caninos inferiores proeminentes que se assemelham a pequenas presas. Em alguns mundos, os jovens orcs ouvem histórias sobre as grandes viagens e provações de seus ancestrais. Inspirados por essas lendas, muitos desses orcs se perguntam quando Gruumsh os chamará para igualar os atos heroicos do passado e se provarão ser dignos do favor dele. Outros orcs ficam felizes em deixar as velhas histórias no passado e encontrar seu próprio caminho.</p>
+			<h5>TRAÇOS DE ORC</h5>
+			<ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+				<li><strong>Tipo de Criatura:</strong> Humanoide</li>
+				<li><strong>Tamanho:</strong> Médio (cerca de 1,8 a 2,1 metros de altura)</li>
+				<li><strong>Deslocamento:</strong> 9 metros</li>
+			</ul>
+			<p>Como um Orc, você possui estes traços especiais.</p>
+			<p class="indent"><strong><em>Ímpeto de Adrenalina.</em></strong> Você pode realizar a ação de Disparada como uma Ação Bônus. Quando você o faz, você ganha uma quantidade de Pontos de Vida Temporários igual ao seu Bônus de Proficiência.</p>
+			<p class="indent">Você pode usar este traço um número de vezes igual ao seu Bônus de Proficiência, e você recupera todos os usos gastos quando terminar um Descanso Curto ou Longo.</p> 
+			<p class="indent"><strong><em>Visão no Escuro.</em></strong> Você tem Visão no Escuro com um alcance de 36 metros.</p> 
+			<p class="indent"><strong><em>Tolerância Implacável.</em></strong> Quando os seus Pontos de Vida são reduzidos a 0 mas você não é morto instantaneamente, você pode, em vez disso, cair para 1 Ponto de Vida. Depois de usar este traço, você não pode usá-lo novamente até terminar um Descanso Longo.</p> 
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Opção de Melhoria no Valor de Habilidade (Orc)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ORC" />
+
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Idioma (Orc)" supports="Standard" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Idioma Personalizado (Orc)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" number="3" />
+
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_ORC_ADRENALINE_RUSH" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" requirements="!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ORC_DARKVISION"/>
+			<stat name="darkvision:range" value="120" bonus="base" requirements="!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ORC_DARKVISION"/>
+			<grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_ORC_RELENTLESS_ENDURANCE" />
+		</rules>
+	</element>
+
+	<element name="Ímpeto de Adrenalina" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ORC_ADRENALINE_RUSH">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ORC_ADRENALINE_RUSH</requirements>
+		<description>
+			<p>Você pode realizar a ação de Disparada como uma Ação Bônus. Quando você o faz, você ganha uma quantidade de Pontos de Vida Temporários igual ao seu Bônus de Proficiência.</p>
+			<p class="indent">Você pode usar este traço um número de vezes igual ao seu Bônus de Proficiência, e você recupera todos os usos gastos quando terminar um Descanso Curto ou Longo.</p> 
+		</description>
+		<sheet action="Ação Bônus" usage="{{proficiency}}/Descanso Curto">
+			<description>Você pode realizar a ação de Disparada como uma Ação Bônus. Quando você o faz, você ganha {{proficiency}} PVTs.</description>
+		</sheet>
+	</element>
+
+	<element name="Tolerância Implacável" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ORC_RELENTLESS_ENDURANCE">
+		<requirements>!ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ORC_RELENTLESS_ENDURANCE</requirements>
+		<description>
+			<p>Quando os seus Pontos de Vida são reduzidos a 0 mas você não é morto instantaneamente, você pode, em vez disso, cair para 1 Ponto de Vida. Depois de usar este traço, você não pode usá-lo novamente até terminar um Descanso Longo.</p> 
+		</description>
+		<sheet usage="1/Descanso Longo">
+			<description>Quando os seus PV são reduzidos a 0 mas você não é morto instantaneamente, você pode cair para 1 PV.</description>
+		</sheet>
+	</element>
+
+	<element name="Substituição de Traço Ímpeto de Adrenalina" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ORC_ADRENALINE_RUSH" />
+	<element name="Substituição de Traço Visão no Escuro" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ORC_DARKVISION" />
+	<element name="Substituição de Traço Tolerância Implacável" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_RACIAL_TRAIT_REPLACEMENT_ORC_RELENTLESS_ENDURANCE" />
+
+</elements>

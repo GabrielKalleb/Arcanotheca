@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Patrono Arquifada</name>
+		<description>A subclasse Patrono Arquifada do Livro do Jogador de 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-archfey.xml" />
+		</update>
+	</info>
+
+	<element name="Patrono Arquifada" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_WARLOCK_ARCHFEY_PATRON">
+		<supports>Warlock Subclass</supports>
+		<description>
+			<p class="flavor">Faça uma Barganha com as Fadas Caprichosas</p>
+			<p>Seu pacto extrai poder da Agrestia das Fadas. Ao escolher esta subclasse, você pode fazer um acordo com uma arquifada, como o Príncipe do Gelo; a Rainha do Ar e da Escuridão, governante da Corte do Crepúsculo; Titânia da Corte Veranil; ou uma bruxa anciã. Ou você pode clamar por um espectro de Fadas, tecendo uma teia de favores e dívidas. Seja quem for, seu patrono é frequentemente inescrutável e caprichoso.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_ARCHFEY_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_BEGUILING_DEFENSES" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_BEWITCHING_MAGIC" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_ARCHFEY_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_BEGUILING_DEFENSES" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_BEWITCHING_MAGIC" level="14" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Magias da Arquifada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_ARCHFEY_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_ARCHFEY_SPELLS</requirements>
+		<description>
+			<p>A magia do seu patrono garante que você sempre tenha certas magias prontas; quando você atinge um nível de Bruxo especificado na tabela de Magias da Arquifada, você passa a ter as magias listadas sempre preparadas.</p>
+			<h5>Magias da Arquifada</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-30">Nível de Bruxo</td><td class="left">Magias</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Acalmar Emoções, Fogo das Fadas, Passo Nebuloso, Força Fantasmagórica, Sono</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Piscar, Ampliar Plantas</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Dominar Besta, Invisibilidade Maior</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Dominar Pessoa, Semelhança</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FAERIE_FIRE" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SLEEP" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CALM_EMOTIONS" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PHANTASMAL_FORCE" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BLINK" level="5" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PLANT_GROWTH" level="5" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DOMINATE_BEAST" level="7" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GREATER_INVISIBILITY" level="7" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DOMINATE_PERSON" level="9" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SEEMING" level="9" spellcasting="Warlock" />
+		</rules>
+	</element>
+
+	<element name="Nível 3: Passos das Fadas" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY</requirements>
+		<description>
+			<p>Seu patrono concede a você a habilidade de se mover entre as fronteiras dos planos. Você pode conjurar <i>Passo Nebuloso</i> sem gastar um espaço de magia um número de vezes igual ao seu modificador de Carisma (mínimo de uma vez), e você recupera todos os usos gastos ao terminar um Descanso Longo.</p>
+			<p class="indent">Além disso, sempre que você conjurar essa magia, pode escolher um dos seguintes efeitos adicionais.</p>
+			<p class="indent"><em><strong>Passo Revigorante.</strong></em> Imediatamente após se teletransportar, você ou uma criatura que você possa ver a até 3 metros (10 pés) de você ganha 1d10 Pontos de Vida Temporários.</p>
+			<p class="indent"><em><strong>Passo Provocador.</strong></em> Criaturas a até 1,5 metro (5 pés) do espaço que você deixou devem ser bem-sucedidas em um teste de resistência de Sabedoria contra a CD de suas magias ou terão Desvantagem nas jogadas de ataque contra criaturas além de você até o início do seu próximo turno.</p>
+		</description>
+		<sheet alt="Passos das Fadas" usage="{{steps of the fey:usage}}/Descanso Longo">
+			<description>Você pode conjurar Passo Nebuloso sem gastar um espaço de magia. &#13;
+			Além disso, ao conjurar Passo Nebuloso, você pode escolher um dos efeitos selecionados:</description>
+		</sheet>
+		<rules>
+			<stat name="steps of the fey:usage" value="1" bonus="base" />
+			<stat name="steps of the fey:usage" value="charisma:modifier" bonus="base" />
+
+			<select type="Archetype Feature" name="Passo Revigorante" supports="PHB24 Refreshing Step" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY_REFRESHING_STEP"  requirements="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY_REFRESHING_STEP" />
+			<select type="Archetype Feature" name="Passo Provocador" supports="PHB24 Taunting Step" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY_TAUNTING_STEP"  requirements="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY_TAUNTING_STEP" />
+			<select type="Archetype Feature" name="Passo Desvanecedor" supports="PHB24 Disappearing Step" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE_DISAPPEARING_STEP" requirements="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE,!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE_DISAPPEARING_STEP" />
+			<select type="Archetype Feature" name="Passo Medonho" supports="PHB24 Dreadful Step" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE_DREADFUL_STEP" requirements="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE,!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE_DREADFUL_STEP" />
+		</rules>
+	</element>
+	<element name="Passo Revigorante" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY_REFRESHING_STEP">
+		<supports>PHB24 Refreshing Step</supports>
+		<compendium display="false" />
+		<description>
+			<p>Imediatamente após se teletransportar, você ou uma criatura que você possa ver a até 3 metros (10 pés) de você ganha 1d10 Pontos de Vida Temporários.</p>
+		</description>
+		<sheet>
+			<description>Imediatamente após se teletransportar, você ou uma criatura visível a até 3m (10 pés) ganha 1d10 PVs Temporários.</description>
+		</sheet>
+	</element>
+	<element name="Passo Provocador" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY_TAUNTING_STEP">
+		<supports>PHB24 Taunting Step</supports>
+		<compendium display="false" />
+		<description>
+			<p>Criaturas a até 1,5 metro (5 pés) do espaço que você deixou devem ser bem-sucedidas em um teste de resistência de Sabedoria contra a CD de suas magias ou terão Desvantagem nas jogadas de ataque contra criaturas além de você até o início do seu próximo turno.</p>
+		</description>
+		<sheet>
+			<description>Criaturas a até 1,5m (5 pés) do espaço que você deixou devem passar em um teste de Sabedoria CD{{warlock:spellcasting:dc}} ou terão Desvantagem em ataques contra criaturas além de você até o início do seu próximo turno.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 6: Fuga Nebulosa" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE</requirements>
+		<description>
+			<p>Você pode conjurar <i>Passo Nebuloso</i> como uma Reação em resposta a sofrer dano.</p>
+			<p>Além disso, os seguintes efeitos agora estão entre as suas opções de Passos das Fadas.</p>
+			<p class="indent"><em><strong>Passo Desvanecedor.</strong></em> Você tem a condição Invisível até o início do seu próximo turno ou até imediatamente após você fazer uma jogada de ataque, causar dano ou conjurar uma magia.</p>
+			<p class="indent"><em><strong>Passo Medonho.</strong></em> Criaturas a até 1,5 metro (5 pés) do espaço que você deixou ou do espaço em que você apareceu (à sua escolha) devem ser bem-sucedidas em um teste de resistência de Sabedoria contra a CD de suas magias ou sofrerão 2d10 de dano Psíquico.</p>
+		</description>
+		<sheet alt="Fuga Nebulosa" action="Reação">
+			<description>Quando você sofre dano, pode conjurar Passo Nebuloso.</description>
+		</sheet>
+	</element>
+	<element name="Passo Desvanecedor" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE_DISAPPEARING_STEP">
+		<supports>PHB24 Disappearing Step</supports>
+		<compendium display="false" />
+		<description>
+			<p>Você tem a condição Invisível até o início do seu próximo turno ou até imediatamente após você fazer uma jogada de ataque, causar dano ou conjurar uma magia.</p>
+		</description>
+		<sheet>
+			<description>Você fica com a condição Invisível até o início do seu próximo turno ou até fazer um ataque, causar dano ou conjurar uma magia.</description>
+		</sheet>
+	</element>
+	<element name="Passo Medonho" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE_DREADFUL_STEP">
+		<supports>PHB24 Dreadful Step</supports>
+		<compendium display="false" />
+		<description>
+			<p>Criaturas a até 1,5 metro (5 pés) do espaço que você deixou ou do espaço em que você apareceu (à sua escolha) devem ser bem-sucedidas em um teste de resistência de Sabedoria contra a CD de suas magias ou sofrerão 2d10 de dano Psíquico.</p>
+		</description>
+		<sheet>
+			<description>Criaturas a até 1,5m (5 pés) do espaço deixado ou do destino (à sua escolha) devem passar em um teste de Sabedoria CD{{warlock:spellcasting:dc}} ou sofrerão 2d10 de dano Psíquico.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 10: Defesas Sedutoras" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_BEGUILING_DEFENSES">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_BEGUILING_DEFENSES</requirements>
+		<description>
+			<p>Seu patrono lhe ensina a proteger sua mente e corpo. Você é imune à condição Enfeitiçado.</p>
+			<p class="indent">Além disso, imediatamente após uma criatura que você possa ver atingir você com uma jogada de ataque, você pode usar uma Reação para reduzir o dano sofrido à metade (arredondado para baixo), e forçar o atacante a fazer um teste de resistência de Sabedoria contra a CD de suas magias. Se falhar, o atacante sofre dano Psíquico igual ao dano que você sofreu. Após usar esta Reação, você não pode usá-la novamente até terminar um Descanso Longo, a menos que gaste um espaço de magia de Magia de Pacto (nenhuma ação exigida) para restaurar o uso.</p>
+		</description>
+		<sheet alt="Defesas Sedutoras" action="Reação" usage="1/Descanso Longo">
+			<description>Você pode reduzir o dano de um ataque recebido pela metade, e o atacante deve passar em um teste de Sabedoria CD{{warlock:spellcasting:dc}} ou sofrerá dano Psíquico igual ao dano que você sofreu. &#13;
+			Você pode gastar um espaço de Magia de Pacto para restaurar o uso. &#13;
+			Além disso, você é imune à condição Enfeitiçado.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 14: Magia Encantadora" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_PATRON_BEWITCHING_MAGIC">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_BEWITCHING_MAGIC</requirements>
+		<description>
+			<p>Seu patrono concede a você a habilidade de entrelaçar sua magia com teletransporte. Imediatamente após você conjurar uma magia de Encantamento ou Ilusão usando uma ação e um espaço de magia, você pode conjurar <i>Passo Nebuloso</i> como parte da mesma ação e sem gastar um espaço de magia.</p>
+		</description>
+		<sheet alt="Magia Encantadora" >
+			<description>Imediatamente após conjurar uma magia de Encantamento ou Ilusão usando uma ação e um espaço de magia, você pode conjurar Passo Nebuloso como parte da mesma ação e sem gastar um espaço de magia.</description>
+		</sheet>
+	</element>
+
+	<element name="Archfey Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_ARCHFEY_SPELLS" />
+	<element name="Steps of the Fey Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY" />
+	<element name="Steps of the Fey: Refreshing Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY_REFRESHING_STEP" />
+	<element name="Steps of the Fey: Taunting Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_STEPS_OF_THE_FEY_TAUNTING_STEP" />
+	<element name="Misty Escape Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE" />
+	<element name="Misty Escape: Disappearing Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE_DISAPPEARING_STEP" />
+	<element name="Misty Escape: Dreadful Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_MISTY_ESCAPE_DREADFUL_STEP" />
+	<element name="Beguiling Defenses Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_BEGUILING_DEFENSES" />
+	<element name="Bewitching Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_PATRON_BEWITCHING_MAGIC" />
+
+</elements>

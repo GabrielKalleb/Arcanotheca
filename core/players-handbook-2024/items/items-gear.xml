@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Equipamento de Aventura</name>
+		<description>Equipamento de Aventura do Livro do Jogador 2024.</description>
+		<update version="0.0.1">
+			<file name="items-gear.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/items/items-gear.xml" />
+		</update>
+	</info>
+
+	<element name="Ácido" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ACID">
+		<description>
+			<p>Quando você realiza a ação de Ataque, pode substituir um de seus ataques por arremessar um frasco de Ácido. Escolha uma criatura ou objeto que você possa ver a até 20 pés de você. O alvo deve ser bem-sucedido em um teste de resistência de Destreza (CD 8 mais seu modificador de Destreza e Bônus de Proficiência) ou sofrerá 2d6 de dano de Ácido.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Fogo Alquímico" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ALCHEMISTS_FIRE">
+		<description>
+			<p>Quando você realiza a ação de Ataque, pode substituir um de seus ataques por arremessar um frasco de Fogo Alquímico. Escolha uma criatura ou objeto que você possa ver a até 20 pés de você. O alvo deve ser bem-sucedido em um teste de resistência de Destreza (CD 8 mais seu modificador de Destreza e Bônus de Proficiência) ou sofrerá 1d4 de dano de Fogo e começará a queimar.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_RULE_BURNING" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Flecha" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ARROW">
+		<description>
+			<p>A munição é exigida por uma arma que possui a propriedade Munição. A descrição de uma arma especifica o tipo de munição usada pela arma. A tabela de Munições lista os diferentes tipos e a quantidade que você obtém ao comprá-las. A tabela também lista o item que normalmente é usado para armazenar cada tipo; o armazenamento deve ser comprado separadamente.</p>
+		</description>
+		<setters>
+			<set name="category">Munição</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Munição</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Virote" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BOLT">
+		<description>
+			<p>A munição é exigida por uma arma que possui a propriedade Munição. A descrição de uma arma especifica o tipo de munição usada pela arma. A tabela de Munições lista os diferentes tipos e a quantidade que você obtém ao comprá-las. A tabela também lista o item que normalmente é usado para armazenar cada tipo; o armazenamento deve ser comprado separadamente.</p>
+		</description>
+		<setters>
+			<set name="category">Munição</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0.075">3/40 lb.</set>
+			<set name="type">Munição</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Projétil, Arma de Fogo" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BULLET_FIREARM">
+		<description>
+			<p>A munição é exigida por uma arma que possui a propriedade Munição. A descrição de uma arma especifica o tipo de munição usada pela arma. A tabela de Munições lista os diferentes tipos e a quantidade que você obtém ao comprá-las. A tabela também lista o item que normalmente é usado para armazenar cada tipo; o armazenamento deve ser comprado separadamente.</p>
+		</description>
+		<setters>
+			<set name="category">Munição</set>
+			<set name="cost" currency="sp">3</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="type">Munição</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Munição de Funda" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BULLET_SLING">
+		<description>
+			<p>A munição é exigida por uma arma que possui a propriedade Munição. A descrição de uma arma especifica o tipo de munição usada pela arma. A tabela de Munições lista os diferentes tipos e a quantidade que você obtém ao comprá-las. A tabela também lista o item que normalmente é usado para armazenar cada tipo; o armazenamento deve ser comprado separadamente.</p>
+			<p><b>Nota:</b> Pelo fato de que a menor quantidade de moeda que o aplicativo permite ser 1pc, os projéteis de funda só podem ser vendidos em pacotes de 5.</p>
+		</description>
+		<setters>
+			<set name="category">Munição</set>
+			<set name="cost" currency="cp">1</set>
+			<set name="weight" lb="0.375">15/40 lb.</set>
+			<set name="type">Munição</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Agulha" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_NEEDLE">
+		<description>
+			<p>A munição é exigida por uma arma que possui a propriedade Munição. A descrição de uma arma especifica o tipo de munição usada pela arma. A tabela de Munições lista os diferentes tipos e a quantidade que você obtém ao comprá-las. A tabela também lista o item que normalmente é usado para armazenar cada tipo; o armazenamento deve ser comprado separadamente.</p>
+		</description>
+		<setters>
+			<set name="category">Munição</set>
+			<set name="cost" currency="cp">2</set> 
+			<set name="weight" lb="0.02">1/50 lb.</set>
+			<set name="type">Munição</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Antitoxina" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ANTITOXIN">
+		<description>
+			<p>Como uma Ação Bônus, você pode beber um frasco de Antitoxina para ganhar Vantagem em testes de resistência para evitar ou acabar com a condição Envenenado por 1 hora.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Cristal" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ARCANE_FOCUS_CRYSTAL">
+		<description>
+			<p>Um Foco Arcano é adornado com joias ou esculpido para canalizar magia arcana. Um Feiticeiro, Bruxo ou Mago pode usar esse item como Foco de Conjuração.</p>
+		</description>
+		<setters>
+			<set name="category">Foco de Conjuração</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="container">Arcane Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+
+	<element name="Orbe" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ARCANE_FOCUS_ORB">
+		<description>
+			<p>Um Foco Arcano é adornado com joias ou esculpido para canalizar magia arcana. Um Feiticeiro, Bruxo ou Mago pode usar esse item como Foco de Conjuração.</p>
+		</description>
+		<setters>
+			<set name="category">Foco de Conjuração</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="container">Arcane Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+
+	<element name="Bastão" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ARCANE_FOCUS_ROD">
+		<description>
+			<p>Um Foco Arcano é adornado com joias ou esculpido para canalizar magia arcana. Um Feiticeiro, Bruxo ou Mago pode usar esse item como Foco de Conjuração.</p>
+		</description>
+		<setters>
+			<set name="category">Foco de Conjuração</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="container">Arcane Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+
+	<element name="Varinha" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ARCANE_FOCUS_WAND">
+		<description>
+			<p>Um Foco Arcano é adornado com joias ou esculpido para canalizar magia arcana. Um Feiticeiro, Bruxo ou Mago pode usar esse item como Foco de Conjuração.</p>
+		</description>
+		<setters>
+			<set name="category">Foco de Conjuração</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="container">Arcane Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+
+	<element name="Mochila" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BACKPACK">
+		<description>
+			<p>Uma Mochila comporta até 30 libras de peso em 1 pé cúbico. Ela também pode servir como um alforje.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="5">5 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Esferas de Metal" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BALL_BEARINGS">
+		<description>
+			<p>Como uma Ação de Utilizar, você pode derramar as Esferas de Metal de sua bolsa. Elas se espalham para cobrir uma área quadrada e plana de 10 pés a até 10 pés de você. Uma criatura que entra nesta área pela primeira vez num turno deve ser bem-sucedida em um teste de resistência de Destreza CD 10 ou recebe a condição Caído. Leva-se 10 minutos para recuperar as Esferas de Metal.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Barril" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BARREL">
+		<description>
+			<p>Um Barril comporta até 40 galões de líquido ou até 4 pés cúbicos de produtos secos.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="70">70 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Cesto" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BASKET">
+		<description>
+			<p>Um Cesto comporta até 40 libras em 2 pés cúbicos.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">4</set>
+			<set name="weight" lb="2">2 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Saco de Dormir" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BEDROLL">
+		<description>
+			<p>Um Saco de Dormir serve para uma criatura Pequena ou Média dormir. Enquanto estiver em um Saco de Dormir, você passa automaticamente nos testes de resistência contra frio extremo.</p>
+			</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="7">7 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Sino" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BELL">
+		<description>
+			<p>Quando tocado usando uma Ação de Utilizar, um Sino produz um som que pode ser ouvido a até 60 pés de distância.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Cobertor" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BLANKET">
+		<description>
+			<p>Enquanto estiver enrolado em um cobertor, você tem Vantagem em testes de resistência contra frio extremo.</p>
+			</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Cadernal" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BLOCK_AND_TACKLE">
+		<description>
+			<p>Um Cadernal permite que você ice até quatro vezes o peso que normalmente pode erguer.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Livro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BOOK">
+		<description>
+			<p>Um Livro contém ficção ou não ficção. Se você consultar um Livro de não ficção preciso sobre o tópico dele, você ganha um bônus de +5 em testes de Inteligência (Arcanismo, História, Natureza ou Religião) que você fizer sobre aquele tópico.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Garrafa, Vidro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BOTTLE_GLASS">
+		<description>
+			<p>Uma Garrafa de Vidro comporta até 1 pinta e meia (aprox. 700 ml).</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Balde" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_BUCKET">
+		<description>
+			<p>Um Balde comporta até meio pé cúbico de conteúdo.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Estrepes" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CALTROPS">
+		<description>
+			<p>Como uma Ação de Utilizar, você pode espalhar Estrepes de seu saco para cobrir uma área quadrada de 5 pés a até 5 pés de você. Uma criatura que entra nesta área pela primeira vez num turno deve ser bem-sucedida em um teste de resistência de Destreza CD 15 ou sofre 1 de dano Perfurante e tem seu Deslocamento reduzido a 0 até o início de seu próximo turno. Leva-se 10 minutos para recolher os Estrepes.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Vela" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CANDLE">
+		<description>
+			<p>Por 1 hora, uma Vela acesa emite Luz Plena em um raio de 5 pés e Penumbra por mais 5 pés adicionais.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="cp">1</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Estojo, Virotes de Besta" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CASE_CROSSBOW_BOLT">
+		<description>
+			<p>Um Estojo para Virotes de Besta comporta até 20 Virotes.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Estojo, Mapa ou Pergaminho" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CASE_MAP_OR_SCROLL">
+		<description>
+			<p>Um Estojo para Mapa ou Pergaminho comporta até 10 folhas de papel ou 5 folhas de pergaminho.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Corrente" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CHAIN">
+		<description>
+			<p>Como uma Ação de Utilizar, você pode enrolar uma Corrente ao redor de uma criatura involuntária a até 5 pés de você que possua a condição Agarrado, Incapacitado ou Impedido, desde que seja bem-sucedido num teste de Força (Atletismo) CD 13. Se as pernas da criatura estiverem amarradas, ela recebe a condição Impedido até que escape. Escapar da Corrente exige que a criatura faça um teste de Destreza (Acrobacia) CD 18 como uma ação com sucesso. Arrebentar a Corrente requer um teste de Força (Atletismo) CD 20 como uma ação com sucesso.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Baú" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CHEST">
+		<description>
+			<p>Um Baú comporta até 12 pés cúbicos de conteúdo.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="25">25 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Kit de Escalador" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLIMBERS_KIT">
+		<description>
+			<p>Um Kit de Escalador inclui pontas para botas, luvas, pítons e um arnês. Como uma Ação de Utilizar, você pode usar o Kit de Escalador para se ancorar; quando o faz, você não pode cair mais de 25 pés do ponto de ancoragem, e não pode se afastar mais de 25 pés de lá sem desfazer a âncora usando uma Ação Bônus.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="12">12 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Roupas, Finas" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLOTHES_FINE">
+		<description>
+			<p>Roupas Finas são feitas de tecidos caros e adornadas com detalhes habilmente confeccionados. Alguns eventos e locais só permitem a entrada de pessoas usando estas roupas.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="6">6 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Roupas, Viajante" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CLOTHES_TRAVELERS">
+		<description>
+			<p>Roupas de Viajante são vestimentas resistentes projetadas para viagens em vários ambientes.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="4">4 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Bolsa de Componentes" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_COMPONENT_POUCH">
+		<description>
+			<p>Uma Bolsa de Componentes é à prova d'água e dividida em compartimentos para guardar todos os componentes Materiais gratuitos das suas magias.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">2 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Fantasia" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_COSTUME">
+		<description>
+			<p>Enquanto veste uma Fantasia, você tem Vantagem em qualquer teste de habilidade que fizer para se passar pela pessoa ou tipo de pessoa que ela representa.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">4 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Pé de Cabra" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_CROWBAR">
+		<description>
+			<p>Usar um Pé de Cabra concede Vantagem em testes de Força onde a alavanca do Pé de Cabra pode ser aplicada.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Ramo de Visgo" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_DRUIDIC_FOCUS_SPRIG_OF_MISTLETOE">
+		<description>
+			<p>Um Foco Druídico é entalhado, amarrado com fita ou pintado para canalizar magia primordial. Um Druida ou Patrulheiro pode usar esse objeto como um Foco de Conjuração.</p>
+		</description>
+		<setters>
+			<set name="category">Foco de Conjuração</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="0">—</set>
+			<set name="container">Druidic Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	
+	<element name="Varinha de Teixo" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_DRUIDIC_FOCUS_YEW_WAND">
+		<description>
+			<p>Um Foco Druídico é entalhado, amarrado com fita ou pintado para canalizar magia primordial. Um Druida ou Patrulheiro pode usar esse objeto como um Foco de Conjuração.</p>
+		</description>
+		<setters>
+			<set name="category">Foco de Conjuração</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="container">Druidic Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+
+	<element name="Frasco" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_FLASK">
+		<description>
+			<p>Um Frasco comporta até 1 pinta (aprox. 500 ml).</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="cp">2</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Arpéu" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_GRAPPLING_HOOK">
+		<description>
+			<p>Como uma Ação de Utilizar, você pode lançar o Arpéu em um parapeito, uma saliência ou outra reentrância a até 50 pés de você, e o gancho se prenderá se você for bem-sucedido num teste de Destreza (Acrobacia) CD 13. Se você amarrou uma Corda ao gancho, pode usá-la para escalar.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Kit de Curandeiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_HEALERS_KIT">
+		<description>
+			<p>Um Kit de Curandeiro tem dez usos. Como uma Ação de Utilizar, você pode gastar um de seus usos para estabilizar uma criatura Inconsciente que tenha 0 Pontos de Vida sem precisar fazer um teste de Sabedoria (Medicina).</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Amuleto" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_HOLY_SYMBOL_AMULET">
+		<description>
+			<p>Um Símbolo Sagrado é adornado com joias ou pintado para canalizar magia divina. Um Clérigo ou Paladino pode usar um Símbolo Sagrado como Foco de Conjuração.</p>
+		</description>
+		<setters>
+			<set name="category">Foco de Conjuração</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="container">Holy Symbol</set>
+			<set name="slot">misc</set>
+		</setters>
+	</element>
+
+	<element name="Emblema" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_HOLY_SYMBOL_EMBLEM">
+		<description>
+			<p>Um Símbolo Sagrado é adornado com joias ou pintado para canalizar magia divina. Um Clérigo ou Paladino pode usar um Símbolo Sagrado como Foco de Conjuração.</p>
+		</description>
+		<setters>
+			<set name="category">Foco de Conjuração</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="0">—</set>
+			<set name="container">Holy Symbol</set>
+			<set name="slot">misc</set>
+		</setters>
+	</element>
+
+	<element name="Relicário" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_HOLY_SYMBOL_RELIQUARY">
+		<description>
+			<p>Um Símbolo Sagrado é adornado com joias ou pintado para canalizar magia divina. Um Clérigo ou Paladino pode usar um Símbolo Sagrado como Foco de Conjuração.</p>
+		</description>
+		<setters>
+			<set name="category">Foco de Conjuração</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="container">Holy Symbol</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+
+	<element name="Água Benta" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_HOLY_WATER">
+		<description>
+			<p>Quando você realiza a ação de Ataque, pode substituir um de seus ataques por arremessar um frasco de Água Benta. Escolha uma criatura que possa ver a até 20 pés de você. O alvo deve ser bem-sucedido em um teste de resistência de Destreza (CD 8 mais seu modificador de Destreza e Bônus de Proficiência) ou sofrerá 2d8 de dano Radiante caso seja um Corruptor ou Morto-Vivo.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Armadilha de Caça" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_HUNTING_TRAP">
+		<description>
+			<p>Como uma Ação de Utilizar, você pode armar uma Armadilha de Caça, que forma um anel de aço com dentes de serra que se fecha quando uma criatura pisa em uma placa de pressão no centro. A armadilha é afixada por uma corrente pesada a um objeto imóvel, como uma árvore ou uma estaca fincada no chão. Uma criatura que pisar na placa deve ser bem-sucedida num teste de resistência de Destreza CD 13 ou sofre 1d4 de dano Perfurante e tem seu Deslocamento reduzido a 0 até o início do seu próximo turno. Em seguida, até que a criatura se liberte da armadilha, seu movimento é limitado pelo comprimento da corrente (tipicamente 3 pés). Uma criatura pode usar sua ação para fazer um teste de Força (Atletismo) CD 13, libertando a si mesma ou a outra criatura ao seu alcance com um sucesso. Cada teste fracassado causa 1 de dano Perfurante à criatura presa.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="25">25 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Tinta" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_INK">
+		<description>
+			<p>A tinta vem em um frasco de 1 onça, fornecendo tinta suficiente para escrever em cerca de 500 páginas.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Caneta Tinteiro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_INK_PEN">
+		<description>
+			<p>Usando Tinta, uma Caneta Tinteiro é usada para escrever ou desenhar.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="cp">2</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Jarro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_JUG">
+		<description>
+			<p>Um Jarro comporta até 1 galão.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="cp">2</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Escada" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_LADDER">
+		<description>
+			<p>Uma Escada possui 10 pés de altura. Você deve escalar para subir ou descer por ela.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="25">25 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Lampião" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_LAMP">
+		<description>
+			<p>Um Lampião queima Óleo como combustível para emitir Luz Plena em um raio de 15 pés e Penumbra por mais 30 pés adicionais.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Lanterna, Furta-fogo" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_LANTERN_BULLSEYE">
+		<description>
+			<p>Uma Lanterna Furta-fogo queima Óleo como combustível para emitir Luz Plena em um Cone de 60 pés e Penumbra por mais 60 pés adicionais.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Lanterna, Coberta" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_LANTERN_HOODED">
+		<description>
+			<p>Uma Lanterna Coberta queima Óleo como combustível para emitir Luz Plena em um raio de 30 pés e Penumbra por mais 30 pés adicionais. Como uma Ação Bônus, você pode abaixar a cobertura, reduzindo a luz para Penumbra em um raio de 5 pés, ou levantá-la novamente.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Cadeado" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_LOCK">
+		<description>
+			<p>Um Cadeado vem acompanhado com uma chave. Sem a chave, uma criatura pode usar Ferramentas de Ladrão para arrombar o Cadeado sendo bem-sucedida num teste de Destreza (Prestidigitação) CD 15.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Lupa" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_MAGNIFYING_GLASS">
+		<description>
+			<p>Uma Lupa concede Vantagem em qualquer teste de habilidade feito para avaliar ou inspecionar um item altamente detalhado. Iniciar um fogo com a Lupa exige luz tão brilhante quanto a do sol para focar, isca para acender, e cerca de 5 minutos para que o fogo acenda.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Algemas" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_MANACLES">
+		<description>
+			<p>Como uma Ação de Utilizar, você pode usar Algemas para prender uma criatura Pequena ou Média involuntária a até 5 pés de você que possua a condição Agarrado, Incapacitado ou Impedido, desde que seja bem-sucedido num teste de Destreza (Prestidigitação) CD 13. Enquanto presa, uma criatura tem Desvantagem em rolagens de ataque, e recebe a condição Impedido se as Algemas estiverem presas a uma corrente ou gancho fixo. Escapar das Algemas requer um teste de Destreza (Prestidigitação) CD 20 como uma ação com sucesso. Arrebentá-las requer um teste de Força (Atletismo) CD 25 como uma ação com sucesso.</p>
+			<p class="indent">Cada conjunto de Algemas vem com uma chave. Sem a chave, uma criatura pode usar Ferramentas de Ladrão para arrombar o cadeado das algemas com um teste de Destreza (Prestidigitação) CD 15 bem-sucedido.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Mapa" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_MAP">
+		<description>
+			<p>Se você consultar um Mapa preciso, ganha um bônus de +5 em testes de Sabedoria (Sobrevivência) que fizer para encontrar seu caminho no local representado nele.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Espelho" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_MIRROR">
+		<description>
+			<p>Um Espelho de aço manual é útil para cosméticos pessoais, mas também para olhar em esquinas ou refletir luz como um sinal.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Rede" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_NET">
+		<description>
+			<p>Quando você realiza a ação de Ataque, pode substituir um de seus ataques por arremessar uma Rede. Escolha uma criatura que você possa ver a até 15 pés de você. O alvo deve ser bem-sucedido num teste de resistência de Destreza (CD 8 mais seu modificador de Destreza e Bônus de Proficiência) ou receber a condição Impedido até que escape. O alvo é bem-sucedido automaticamente se for Enorme ou maior.</p>
+			<p class="indent">Para escapar, o alvo ou uma criatura a 5 pés dele deve usar uma ação para fazer um teste de Força (Atletismo) CD 10, libertando a criatura Impedida num sucesso. Destruir a Rede (CA 10; 5 PV; Imunidade a dano de Concussão, Veneno e Psíquico) também liberta o alvo, encerrando o efeito.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Óleo" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_OIL">
+		<description>
+			<p>Você pode encharcar uma criatura, objeto ou espaço com Óleo ou usá-lo como combustível, conforme detalhado abaixo.</p>
+			<p class="indent"><b><i>Encharcando uma Criatura ou Objeto.</i></b> Quando você realiza a ação de Ataque, pode substituir um de seus ataques por arremessar um frasco de Óleo. Escolha uma criatura ou objeto a até 20 pés de você. O alvo deve ser bem-sucedido num teste de resistência de Destreza (CD 8 mais seu modificador de Destreza e Bônus de Proficiência) ou será coberto de óleo. Se o alvo sofrer dano de Fogo antes que o óleo seque (após 1 minuto), ele sofre 5 de dano de Fogo extra proveniente da queima do óleo.</p>
+			<p class="indent"><b><i>Encharcando um Espaço.</i></b> Você pode usar uma Ação de Utilizar para derramar um frasco de Óleo em um terreno nivelado, cobrindo uma área quadrada de 5 pés a até 5 pés de você. Se aceso, o óleo queima até o fim do turno correspondente a 2 rodadas desde o momento em que o óleo foi aceso (ou 12 segundos) e causa 5 de dano de Fogo a qualquer criatura que entrar na área ou terminar seu turno lá. Uma criatura só pode sofrer esse dano uma vez por turno.</p>
+			<p class="indent"><b><i>Combustível.</i></b> O óleo serve como combustível para Lampiões e Lanternas. Quando aceso, um frasco de Óleo queima por 6 horas num Lampião ou Lanterna. Essa duração não precisa ser consecutiva; você pode apagar o Óleo em chamas (como uma Ação de Utilizar) e reacendê-lo novamente até que tenha queimado num total de 6 horas.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Papel" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_PAPER">
+		<description>
+			<p>Uma folha de Papel pode comportar cerca de 250 palavras manuscritas.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">2</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Pergaminho" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_PARCHMENT">
+		<description>
+			<p>Uma folha de Pergaminho pode comportar cerca de 250 palavras manuscritas.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Perfume" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_PERFUME">
+		<description>
+			<p>O perfume vem em um frasco de 4 onças. Por 1 hora depois de aplicar o Perfume em si, você tem Vantagem em testes de Carisma (Persuasão) feitos para influenciar um Humanoide Indiferente a até 5 pés de você.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Veneno, Básico" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_POISON_BASIC">
+		<description>
+			<p>Como uma Ação Bônus, você pode usar um frasco de Veneno Básico para revestir uma arma ou até três unidades de munição. Uma criatura que receba dano Perfurante ou Cortante da arma ou munição envenenada sofre 1d4 de dano de Veneno extra. Uma vez aplicado, o veneno retém a sua potência por 1 minuto ou até que seu dano seja causado, o que ocorrer primeiro.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Vara" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_POLE">
+		<description>
+			<p>Uma Vara tem 10 pés de comprimento. Você pode usá-la para tocar em algo a até 10 pés de distância. Se precisar fazer um teste de Força (Atletismo) como parte de um Salto em Altura ou Salto em Distância, você pode usar a Vara para dar impulso, concedendo-lhe Vantagem no teste.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="7">7 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Panela, Ferro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_POT_IRON">
+		<description>
+			<p>Uma Panela de Ferro comporta até 1 galão.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Poção de Cura" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_POTION_OF_HEALING">
+		<description>
+			<p>Esta poção é um item mágico. Como uma Ação Bônus, você pode bebê-la ou administrá-la a outra criatura a até 5 pés de você. A criatura que bebe o fluido mágico vermelho deste frasco recupera 2d4 + 2 Pontos de Vida.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Algibeira" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_POUCH">
+		<description>
+			<p>Uma Algibeira comporta até 6 libras dentro de um quinto de pé cúbico.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Aljava" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_QUIVER">
+		<description>
+			<p>Uma Aljava comporta até 20 Flechas.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Aríete, Portátil" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_RAM_PORTABLE">
+		<description>
+			<p>Você pode usar um Aríete Portátil para arrombar portas. Ao fazer isso, você ganha um bônus de +4 no teste de Força. Um outro personagem pode ajudá-lo a usar o aríete, lhe garantindo Vantagem neste teste.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">4</set>
+			<set name="weight" lb="35">35 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Rações" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_RATIONS">
+		<description>
+			<p>Rações consistem de comida pronta para viagem, incluindo carne seca, frutas secas, biscoito duro e nozes. Se você não ingerir uma quantidade suficiente de comida, corre o risco de desnutrição.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_RULE_MALNUTRITION" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Túnica" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ROBE">
+		<description>
+			<p>Uma Túnica possui significado vocacional ou cerimonial. Alguns eventos e locais admitem apenas pessoas usando uma Túnica com certas cores ou símbolos nela estampados.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="4">4 lb.</set>
+		</setters>
+	</element>
+
+	<element name="Corda" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_ROPE">
+		<description>
+			<p>Como uma Ação de Utilizar, você pode dar um nó com uma Corda se for bem-sucedido num teste de Destreza (Prestidigitação) CD 10. A Corda pode ser arrebentada com um teste de Força (Atletismo) CD 20 bem-sucedido.</p>
+			<p class="indent">Você pode amarrar uma criatura involuntária com a Corda apenas se a criatura estiver com a condição Agarrado, Incapacitado ou Impedido. Se as pernas da criatura estiverem amarradas, a criatura recebe a condição Impedido até escapar. Escapar da Corda requer que a criatura faça um teste de Destreza (Acrobacia) CD 15 como uma ação com sucesso.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Saco" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SACK">
+		<description>
+			<p>Um Saco comporta até 30 libras de peso em 1 pé cúbico.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="cp">1</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+		</setters>
+	</element>
+
+	<element name="Pá" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SHOVEL">
+		<description>
+			<p>Trabalhando por 1 hora, você pode usar uma Pá para cavar um buraco de 5 pés em cada lado em terra firme ou em material similar.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Apito de Sinalização" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SIGNAL_WHISTLE">
+		<description>
+			<p>Quando soprado usando uma Ação de Utilizar, um Apito de Sinalização produz um som que pode ser ouvido a até 600 pés de distância.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Pergaminho de Magia, Truque" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SPELL_SCROLL_CANTRIP">
+		<description>
+			<p>Um <i>Pergaminho de Magia</i> é um item mágico que contém as palavras de um truque, respectivamente, determinadas pelo criador do pergaminho. Se a magia estiver na lista de magias da sua classe, você pode ler o pergaminho e conjurar a magia usando seu tempo de conjuração normal e sem fornecer nenhum componente Material.</p>
+			<p class="indent">Se a magia requer um teste de resistência ou uma rolagem de ataque, a CD da magia é 15 e o bônus de ataque é +5. O pergaminho se desintegra quando a conjuração for concluída.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">30</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Pergaminho de Magia, Nível 1" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SPELL_SCROLL_LEVEL1">
+		<description>
+			<p>Um <i>Pergaminho de Magia</i> é um item mágico que contém as palavras de uma magia de nível 1, respectivamente, determinadas pelo criador do pergaminho. Se a magia estiver na lista de magias da sua classe, você pode ler o pergaminho e conjurar a magia usando seu tempo de conjuração normal e sem fornecer nenhum componente Material.</p>
+			<p class="indent">Se a magia requer um teste de resistência ou uma rolagem de ataque, a CD da magia é 15 e o bônus de ataque é +5. O pergaminho se desintegra quando a conjuração for concluída.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Pítons, Ferro" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SPIKES_IRON">
+		<description>
+			<p>Pítons de Ferro vêm em feixes de dez. Como uma Ação de Utilizar, você pode usar um objeto rígido, como um Martelo Leve, para martelar um píton em madeira, terra ou material similar. Você pode fazer isso para prender uma porta trancada ou então para amarrar uma Corda ou Corrente no píton.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Luneta" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_SPYGLASS">
+		<description>
+			<p>Objetos vistos por uma Luneta são aumentados até o dobro do seu tamanho.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Barbante" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_STRING">
+		<description>
+			<p>O Barbante tem 10 pés de comprimento. Você pode dar um nó nele como uma Ação de Utilizar.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Tenda" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TENT">
+		<description>
+			<p>Uma Tenda acomoda até duas criaturas Pequenas ou Médias.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="20">20 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Caixa de Fogo" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TINDERBOX">
+		<description>
+			<p>Uma Caixa de Fogo é um pequeno recipiente contendo pederneira, isqueiro de aço e isca (geralmente tecido seco embebido em óleo leve) usado para acender o fogo. Usá-la para acender uma Vela, Lampião, Lanterna ou Tocha — ou qualquer outra coisa com combustível exposto — leva uma Ação Bônus. Acender qualquer outro fogo leva 1 minuto.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Tocha" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_TORCH">
+		<description>
+			<p>Uma Tocha queima por 1 hora, emitindo Luz Plena em um raio de 20 pés e Penumbra por mais 20 pés adicionais. Quando você realiza a ação de Ataque, pode atacar com a Tocha, usando-a como uma arma Corpo a Corpo Simples. Em um acerto, o alvo sofre 1 de dano de Fogo.</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="cp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Frasco (Vial)" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_VIAL">
+		<description>
+			<p>Um Frasco comporta até 4 onças (aprox. 120 ml).</p>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="1">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Odre" type="Item" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ITEM_WATERSKIN">
+		<description>
+			<p>Um Odre comporta até 4 pintas (aprox. 1,9 litro). Se você não beber uma quantidade suficiente de água, corre o risco de desidratação.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_RULE_DEHYDRATION" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Equipamento de Aventura</set>
+			<set name="cost" currency="sp">2</set>
+			<set name="weight" lb="5">5 lb. (cheio)</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+</elements>

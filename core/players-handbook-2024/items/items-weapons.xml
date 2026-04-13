@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Armas</name>
+		<description>Armas do Livro do Jogador 2024.</description>
+		<update version="0.0.1">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/items/items-weapons.xml" />
+		</update>
+	</info>
+	
+	<element name="Clava" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_CLUB">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_CLUBS, ID_WOTC_PHB24_WEAPON_PROPERTY_SLOW</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Lenta.</b> Se você atingir uma criatura com esta arma e causar dano a ela, pode reduzir o Deslocamento dela em 10 pés até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que tenham esta propriedade, a redução de Deslocamento não excede 10 pés.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="bludgeoning">1d4</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB</set>
+		</setters>
+	</element>
+
+	<element name="Adaga" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_DAGGER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_WOTC_PHB24_WEAPON_PROPERTY_NICK</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Talho.</b> Quando você realizar o ataque extra da propriedade Leve, você pode fazê-lo como parte da ação de Ataque em vez de como uma Ação Bônus. Você pode fazer este ataque extra apenas uma vez por turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="range">20/60</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
+
+	<element name="Clava Grande" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_GREATCLUB">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CLUBS, ID_WOTC_PHB24_WEAPON_PROPERTY_PUSH</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Empurrar.</b> Se você atingir uma criatura com esta arma, pode empurrá-la a até 10 pés em linha reta para longe de você se ela for Grande ou menor.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="bludgeoning">1d8</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="cost" currency="sp">2</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB</set>
+		</setters>
+	</element>
+
+	<element name="Machadinha" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_HANDAXE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES, ID_WOTC_PHB24_WEAPON_PROPERTY_VEX</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Afligir.</b> Se você atingir uma criatura com esta arma e causar dano a ela, você tem Vantagem na sua próxima rolagem de ataque contra essa criatura antes do final do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="range">20/60</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE</set>
+		</setters>
+	</element>
+
+	<element name="Azagaia" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_JAVELIN">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_WOTC_PHB24_WEAPON_PROPERTY_SLOW</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Lenta.</b> Se você atingir uma criatura com esta arma e causar dano a ela, pode reduzir o Deslocamento dela em 10 pés até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que tenham esta propriedade, a redução de Deslocamento não excede 10 pés.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="range">30/120</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN</set>
+		</setters>
+	</element>
+
+	<element name="Martelo Leve" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_LIGHTHAMMER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_HAMMERS, ID_WOTC_PHB24_WEAPON_PROPERTY_NICK</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Talho.</b> Quando você realizar o ataque extra da propriedade Leve, você pode fazê-lo como parte da ação de Ataque em vez de como uma Ação Bônus. Você pode fazer este ataque extra apenas uma vez por turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="bludgeoning">1d4</set>
+			<set name="range">20/60</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER</set>
+		</setters>
+	</element>
+
+	<element name="Maça" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_MACE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_GROUP_MACES, ID_WOTC_PHB24_WEAPON_PROPERTY_SAP</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Enfraquecer.</b> Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima rolagem de ataque antes do início do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="bludgeoning">1d6</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE</set>
+		</setters>
+	</element>
+
+	<element name="Bordão" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_QUARTERSTAFF">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_WOTC_PHB24_WEAPON_PROPERTY_TOPPLE, ID_WOTC_PHB24_WEAPON_GROUP_POLEARMS</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Derrubar.</b> Se você atingir uma criatura com esta arma, pode forçá-la a fazer um teste de resistência de Constituição (CD 8 mais o modificador da habilidade usada para fazer a rolagem de ataque e o seu Bônus de Proficiência). Numa falha, a criatura recebe a condição Caído.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="bludgeoning">1d6</set>
+			<set name="versatile">1d8</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="cost" currency="sp">2</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF</set>
+		</setters>
+	</element>
+
+	<element name="Foice Curta" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_SICKLE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT,ID_WOTC_PHB24_WEAPON_PROPERTY_NICK</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Talho.</b> Quando você realizar o ataque extra da propriedade Leve, você pode fazê-lo como parte da ação de Ataque em vez de como uma Ação Bônus. Você pode fazer este ataque extra apenas uma vez por turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="slashing">1d4</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE</set>
+		</setters>
+	</element>
+
+	<element name="Lança" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_SPEAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SPEARS, ID_WOTC_PHB24_WEAPON_PROPERTY_SAP, ID_WOTC_PHB24_WEAPON_GROUP_POLEARMS</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Enfraquecer.</b> Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima rolagem de ataque antes do início do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="range">20/60</set>
+			<set name="versatile">1d8</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR</set>
+		</setters>
+	</element>
+
+	<element name="Dardo" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_DART">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_WOTC_PHB24_WEAPON_PROPERTY_VEX</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Afligir.</b> Se você atingir uma criatura com esta arma e causar dano a ela, você tem Vantagem na sua próxima rolagem de ataque contra essa criatura antes do final do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="range">20/60</set>
+			<set name="weight" lb="0.25">1/4 lb.</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DART</set>
+		</setters>
+	</element>
+
+	<element name="Besta Leve" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_LIGHT_CROSSBOW">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS, ID_WOTC_PHB24_WEAPON_PROPERTY_SLOW</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Lenta.</b> Se você atingir uma criatura com esta arma e causar dano a ela, pode reduzir o Deslocamento dela em 10 pés até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que tenham esta propriedade, a redução de Deslocamento não excede 10 pés.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="range">80/320; Virote</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT</set>
+		</setters>
+	</element>
+
+	<element name="Arco Curto" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_SHORTBOW">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS, ID_WOTC_PHB24_WEAPON_PROPERTY_VEX</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Afligir.</b> Se você atingir uma criatura com esta arma e causar dano a ela, você tem Vantagem na sua próxima rolagem de ataque contra essa criatura antes do final do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="range">80/320; Flecha</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW</set>
+		</setters>
+	</element>
+
+	<element name="Funda" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_SLING">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_WOTC_PHB24_WEAPON_PROPERTY_SLOW</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Lenta.</b> Se você atingir uma criatura com esta arma e causar dano a ela, pode reduzir o Deslocamento dela em 10 pés até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que tenham esta propriedade, a redução de Deslocamento não excede 10 pés.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="bludgeoning">1d4</set>
+			<set name="range">30/120; Munição de Funda</set>
+			<set name="weight" lb="0">—</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING</set>
+		</setters>
+	</element>
+
+	<element name="Machado de Batalha" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_BATTLEAXE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES, ID_WOTC_PHB24_WEAPON_PROPERTY_TOPPLE</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Derrubar.</b> Se você atingir uma criatura com esta arma, pode forçá-la a fazer um teste de resistência de Constituição (CD 8 mais o modificador da habilidade usada para fazer a rolagem de ataque e o seu Bônus de Proficiência). Numa falha, a criatura recebe a condição Caído.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE</set>
+		</setters>
+	</element>
+
+	<element name="Mangual" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_FLAIL">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_WOTC_PHB24_WEAPON_PROPERTY_SAP</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Enfraquecer.</b> Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima rolagem de ataque antes do início do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="bludgeoning">1d8</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL</set>
+		</setters>
+	</element>
+
+	<element name="Glaive" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_GLAIVE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_WOTC_PHB24_WEAPON_PROPERTY_GRAZE, ID_WOTC_PHB24_WEAPON_GROUP_POLEARMS</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Roçar.</b> Se sua rolagem de ataque com esta arma errar uma criatura, você pode causar dano àquela criatura igual ao modificador de habilidade que você usou para fazer a rolagem de ataque. Este dano é do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="slashing">1d10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE</set>
+		</setters>
+	</element>
+
+	<element name="Machado Grande" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_GREATAXE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_AXES, ID_WOTC_PHB24_WEAPON_PROPERTY_CLEAVE</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Trespassar.</b> Se você atingir uma criatura com uma rolagem de ataque corpo a corpo usando esta arma, você pode fazer uma rolagem de ataque corpo a corpo com a arma contra uma segunda criatura a até 5 pés da primeira que também esteja dentro de seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas não adicione o seu modificador de habilidade a esse dano, a não ser que esse modificador seja negativo. Você pode realizar este ataque extra apenas uma vez por turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="slashing">1d12</set>
+			<set name="weight" lb="7">7 lb.</set>
+			<set name="cost" currency="gp">30</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE</set>
+		</setters>
+	</element>
+
+	<element name="Espada Grande" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_GREATSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_WOTC_PHB24_WEAPON_PROPERTY_GRAZE</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Roçar.</b> Se sua rolagem de ataque com esta arma errar uma criatura, você pode causar dano àquela criatura igual ao modificador de habilidade que você usou para fazer a rolagem de ataque. Este dano é do mesmo tipo causado pela arma, e o dano pode ser aumentado apenas aumentando o modificador de habilidade.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="slashing">2d6</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD</set>
+		</setters>
+	</element>
+
+	<element name="Alabarda" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_HALBERD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_WOTC_PHB24_WEAPON_PROPERTY_CLEAVE, ID_WOTC_PHB24_WEAPON_GROUP_POLEARMS</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Trespassar.</b> Se você atingir uma criatura com uma rolagem de ataque corpo a corpo usando esta arma, você pode fazer uma rolagem de ataque corpo a corpo com a arma contra uma segunda criatura a até 5 pés da primeira que também esteja dentro de seu alcance. Em um acerto, a segunda criatura sofre o dano da arma, mas não adicione o seu modificador de habilidade a esse dano, a não ser que esse modificador seja negativo. Você pode realizar este ataque extra apenas uma vez por turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="slashing">1d10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD</set>
+		</setters>
+	</element>
+
+	<element name="Lança de Montaria" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_LANCE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_LANCE, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_WOTC_PHB24_WEAPON_PROPERTY_TOPPLE, ID_WOTC_PHB24_WEAPON_GROUP_POLEARMS</supports>
+		<description>
+			<h5>DUAS MÃOS (A NÃO SER MONTADO)</h5>
+			<p>Enquanto montado, você pode usar esta arma em uma mão. <br />
+			<b>Nota:</b> Para equipar a Lança de Montaria como arma de duas mãos, use o botão "Equipar Versátil".</p>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Derrubar.</b> Se você atingir uma criatura com esta arma, pode forçá-la a fazer um teste de resistência de Constituição (CD 8 mais o modificador da habilidade usada para fazer a rolagem de ataque e o seu Bônus de Proficiência). Numa falha, a criatura recebe a condição Caído.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d10</set>
+			<set name="versatile">1d10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE</set>
+		</setters>
+	</element>
+
+	<element name="Espada Longa" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_LONGSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_WOTC_PHB24_WEAPON_PROPERTY_SAP</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Enfraquecer.</b> Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima rolagem de ataque antes do início do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
+		</setters>
+	</element>
+
+	<element name="Malho" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_MAUL">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_MAULS, ID_WOTC_PHB24_WEAPON_PROPERTY_TOPPLE</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Derrubar.</b> Se você atingir uma criatura com esta arma, pode forçá-la a fazer um teste de resistência de Constituição (CD 8 mais o modificador da habilidade usada para fazer a rolagem de ataque e o seu Bônus de Proficiência). Numa falha, a criatura recebe a condição Caído.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="bludgeoning">2d6</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL</set>
+		</setters>
+	</element>
+
+	<element name="Estrela da Manhã" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_MORNINGSTAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_PHB24_WEAPON_PROPERTY_SAP</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Enfraquecer.</b> Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima rolagem de ataque antes do início do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR</set>
+		</setters>
+	</element>
+
+	<element name="Pique" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PIKE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_WOTC_PHB24_WEAPON_PROPERTY_PUSH, ID_WOTC_PHB24_WEAPON_GROUP_POLEARMS</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Empurrar.</b> Se você atingir uma criatura com esta arma, pode empurrá-la a até 10 pés em linha reta para longe de você se ela for Grande ou menor.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d10</set>
+			<set name="weight" lb="18">18 lb.</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE</set>
+		</setters>
+	</element>
+
+	<element name="Rapieira" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_RAPIER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_WOTC_PHB24_WEAPON_PROPERTY_VEX</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Afligir.</b> Se você atingir uma criatura com esta arma e causar dano a ela, você tem Vantagem na sua próxima rolagem de ataque contra essa criatura antes do final do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+		</setters>
+	</element>
+
+	<element name="Cimitarra" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_SCIMITAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_WOTC_PHB24_WEAPON_PROPERTY_NICK</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Talho.</b> Quando você realizar o ataque extra da propriedade Leve, você pode fazê-lo como parte da ação de Ataque em vez de como uma Ação Bônus. Você pode fazer este ataque extra apenas uma vez por turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR</set>
+		</setters>
+	</element>
+
+	<element name="Espada Curta" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_SHORTSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_WOTC_PHB24_WEAPON_PROPERTY_VEX</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Afligir.</b> Se você atingir uma criatura com esta arma e causar dano a ela, você tem Vantagem na sua próxima rolagem de ataque contra essa criatura antes do final do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
+		</setters>
+	</element>
+
+	<element name="Tridente" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_TRIDENT">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_WOTC_PHB24_WEAPON_PROPERTY_TOPPLE</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Derrubar.</b> Se você atingir uma criatura com esta arma, pode forçá-la a fazer um teste de resistência de Constituição (CD 8 mais o modificador da habilidade usada para fazer a rolagem de ataque e o seu Bônus de Proficiência). Numa falha, a criatura recebe a condição Caído.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="range">20/60</set>
+			<set name="versatile">1d10</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT</set>
+		</setters>
+	</element>
+
+	<element name="Martelo de Guerra" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_WARHAMMER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS, ID_WOTC_PHB24_WEAPON_PROPERTY_PUSH</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Empurrar.</b> Se você atingir uma criatura com esta arma, pode empurrá-la a até 10 pés em linha reta para longe de você se ela for Grande ou menor.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="bludgeoning">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
+		</setters>
+	</element>
+
+	<element name="Picareta de Guerra" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_WAR_PICK">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING,ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_WOTC_PHB24_WEAPON_PROPERTY_SAP</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Enfraquecer.</b> Se você atingir uma criatura com esta arma, essa criatura tem Desvantagem na sua próxima rolagem de ataque antes do início do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK</set>
+		</setters>
+	</element>
+
+	<element name="Chicote" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_WHIP">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_WOTC_PHB24_WEAPON_PROPERTY_SLOW</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Lenta.</b> Se você atingir uma criatura com esta arma e causar dano a ela, pode reduzir o Deslocamento dela em 10 pés até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que tenham esta propriedade, a redução de Deslocamento não excede 10 pés.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="slashing">1d4</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP</set>
+		</setters>
+	</element>
+
+	<element name="Zarabatanha" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_BLOWGUN">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_WOTC_PHB24_WEAPON_PROPERTY_VEX</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Afligir.</b> Se você atingir uma criatura com esta arma e causar dano a ela, você tem Vantagem na sua próxima rolagem de ataque contra essa criatura antes do final do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1</set>
+			<set name="range">25/100; Agulha</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN</set>
+		</setters>
+	</element>
+
+	<element name="Besta de Mão" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_HAND_CROSSBOW">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_DAMAGE_TYPE_PIERCING,ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION,ID_INTERNAL_WEAPON_PROPERTY_LIGHT,ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS, ID_WOTC_PHB24_WEAPON_PROPERTY_VEX</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Afligir.</b> Se você atingir uma criatura com esta arma e causar dano a ela, você tem Vantagem na sua próxima rolagem de ataque contra essa criatura antes do final do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="range">30/120; Virote</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND</set>
+		</setters>
+	</element>
+
+	<element name="Besta Pesada" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_HEAVY_CROSSBOW">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS, ID_WOTC_PHB24_WEAPON_PROPERTY_PUSH</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Empurrar.</b> Se você atingir uma criatura com esta arma, pode empurrá-la a até 10 pés em linha reta para longe de você se ela for Grande ou menor.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d10</set>
+			<set name="range">100/400; Virote</set>
+			<set name="weight" lb="18">18 lb.</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY</set>
+		</setters>
+	</element>
+
+	<element name="Arco Longo" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_LONGBOW">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS, ID_WOTC_PHB24_WEAPON_PROPERTY_SLOW</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Lenta.</b> Se você atingir uma criatura com esta arma e causar dano a ela, pode reduzir o Deslocamento dela em 10 pés até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que tenham esta propriedade, a redução de Deslocamento não excede 10 pés.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="range">150/600; Flecha</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW</set>
+		</setters>
+	</element>
+
+	<element name="Mosquete" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_MUSKET">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_WOTC_PHB24_WEAPON_PROPERTY_SLOW</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Lenta.</b> Se você atingir uma criatura com esta arma e causar dano a ela, pode reduzir o Deslocamento dela em 10 pés até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que tenham esta propriedade, a redução de Deslocamento não excede 10 pés.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d12</set>
+			<set name="range">40/120; Projétil</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MUSKET</set>
+		</setters>
+	</element>
+
+	<element name="Pistola" type="Weapon" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_WEAPON_PISTOL">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_WOTC_PHB24_WEAPON_PROPERTY_VEX</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MAESTRIA</h5>
+				<p><b>Afligir.</b> Se você atingir uma criatura com esta arma e causar dano a ela, você tem Vantagem na sua próxima rolagem de ataque contra essa criatura antes do final do seu próximo turno.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Armas</set>
+			<set name="damage" type="piercing">1d10</set>
+			<set name="range">30/90; Projétil</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_PISTOL</set>
+		</setters>
+	</element>
+	
+</elements>

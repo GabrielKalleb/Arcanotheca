@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Cavaleiro Místico</name>
+		<description>A subclasse Cavaleiro Místico do Livro do Jogador 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="fighter-eldritch-knight.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/fighter-eldritch-knight.xml" />
+		</update>
+	</info>
+
+	<element name="Cavaleiro Místico" type="Archetype" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_ELDRITCH_KNIGHT">
+		<supports>Fighter Subclass</supports>
+		<description>
+			<p class="flavor">Apoie Habilidades de Combate com Magia Arcana</p>
+			<p>Os Cavaleiros Místicos combinam a maestria marcial comum a todos os Guerreiros com um estudo cuidadoso da magia. Suas magias complementam e estendem suas habilidades de combate, fornecendo proteção adicional para reforçar sua armadura e permitindo que enfrentem muitos inimigos ao mesmo tempo com magia explosiva.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING"/>
+			<h5>CONJURAÇÃO DO CAVALEIRO MÍSTICO</h5>
+			<table class="class-features">
+				<tr style="font-weight: bold">
+					<td rowspan="2">Nível de Guerreiro</td>
+					<td rowspan="2">Magias Preparadas</td>
+					<td colspan="4" style="vertical-align:bottom; border-bottom: 0px">Espaços de Magia por Nível de Magia</td>
+				</tr>
+				<tr style="font-weight: bold"><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+				<tr><td> 3</td><td> 3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7</td><td> 5</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td> 8</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td> 9</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10</td><td> 7</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>11</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13</td><td> 9</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>14</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>15</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>17</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>18</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>19</td><td>12</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>20</td><td>13</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+			</table>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_WAR_BOND"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_WAR_MAGIC"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_ELDRITCH_STRIKE"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_ARCANE_CHARGE"/>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_WAR_BOND" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_WAR_MAGIC" level="7"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_ELDRITCH_STRIKE" level="10"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_ARCANE_CHARGE" level="15"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC" level="18"/>
+		</rules>
+	</element>
+
+	<element name="Nível 3: Conjuração" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING</requirements>
+		<description>
+			<p>Você aprendeu a conjurar magias.</p>
+			<p class="indent"><strong><em>Truques.</em></strong> Você conhece dois truques de sua escolha da lista de magias de Mago. <i>Raio de Gelo</i> e <i>Toque Chocante</i> são recomendados. Sempre que você ganha um nível de Guerreiro, você pode substituir um desses truques por outro truque de sua escolha da lista de magias de Mago.</p>
+			<p class="indent">Quando você atinge o nível 10 de Guerreiro, você aprende outro truque de Mago de sua escolha.</p>
+			<p class="indent"><strong><em>Espaços de Magia.</em></strong> A tabela Conjuração do Cavaleiro Místico mostra quantos espaços de magia você tem para conjurar suas magias de nível 1+. Você recupera todos os espaços gastos quando termina um Descanso Longo.</p>
+			<p class="indent"><strong><em>Magias Preparadas de Nível 1+.</em></strong> Você prepara a lista de magias de nível 1+ que estão disponíveis para você conjurar com esta característica. Para começar, escolha três magias de nível 1 da lista de magias de Mago. <i>Mãos Flamejantes</i>, <i>Salto</i> e <i>Escudo Arcano</i> são recomendadas.</p>
+			<p class="indent">O número de magias em sua lista aumenta conforme você ganha níveis de Guerreiro, conforme mostrado na coluna Magias Preparadas da tabela Conjuração do Cavaleiro Místico. Sempre que esse número aumentar, escolha magias adicionais da lista de magias de Mago até que o número de magias em sua lista corresponda ao número na tabela. As magias escolhidas devem ser de um nível para o qual você tenha espaços de magia. Por exemplo, se você for um Guerreiro de nível 7, sua lista de magias preparadas pode incluir cinco magias de Mago de níveis 1 e 2 em qualquer combinação.</p>
+			<p class="indent"><strong><em>Alterando suas Magias Preparadas.</em></strong> Sempre que você ganha um nível de Guerreiro, você pode substituir uma magia em sua lista por outra magia de Mago para a qual você tenha espaços de magia.</p>
+			<p class="indent"><strong><em>Habilidade de Conjuração.</em></strong> Inteligência é a sua habilidade de conjuração para as suas magias de Mago.</p>
+			<p class="indent"><strong><em>Foco de Conjuração.</em></strong> Você pode usar um Foco Arcano como um Foco de Conjuração para as suas magias de Mago.</p>
+			<center>
+				<p><strong>CD de salvamento de Magia</strong> = 8 + seu bônus de proficiência + seu modificador de Inteligência</p>
+				<p><strong>Modificador de ataque de Magia</strong> = seu bônus de proficiência + seu modificador de Inteligência</p>
+			</center>
+		</description>
+		<sheet alt="Conjuração">
+			<description>Você pode substituir uma de suas magias e/ou truques sempre que ganhar um nível de Guerreiro.</description>
+		</sheet>
+		<spellcasting name="Eldritch Knight" ability="Intelligence" allowReplace="true">
+			<list>Wizard</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_THIRD" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+
+			<stat name="eldritch knight:spellcasting:slots:1" value="2" level="3" />
+			<stat name="eldritch knight:spellcasting:slots:1" value="1" level="4" />
+			<stat name="eldritch knight:spellcasting:slots:1" value="1" level="7" />
+			<stat name="eldritch knight:spellcasting:slots:2" value="2" level="7" />
+			<stat name="eldritch knight:spellcasting:slots:2" value="1" level="10" />
+			<stat name="eldritch knight:spellcasting:slots:3" value="2" level="13" />
+			<stat name="eldritch knight:spellcasting:slots:3" value="1" level="16" />
+			<stat name="eldritch knight:spellcasting:slots:4" value="1" level="19" />
+
+			<select type="Spell" name="Cantrip (Eldritch Knight)" supports="Wizard, 0" level="3" number="2" spellcasting="Eldritch Knight" />
+			<select type="Spell" name="Cantrip (Eldritch Knight)" supports="Wizard, 0" level="10" spellcasting="Eldritch Knight" />
+			<select type="Spell" name="Spell (Eldritch Knight)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="3" spellcasting="Eldritch Knight" />
+			<select type="Spell" name="Spell (Eldritch Knight)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" spellcasting="Eldritch Knight"/>
+			<select type="Spell" name="Spell (Eldritch Knight)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" spellcasting="Eldritch Knight"/>
+			<select type="Spell" name="Spell (Eldritch Knight)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" spellcasting="Eldritch Knight"/>
+			<select type="Spell" name="Spell (Eldritch Knight)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" spellcasting="Eldritch Knight"/>
+			<select type="Spell" name="Spell (Eldritch Knight)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" spellcasting="Eldritch Knight"/>
+			<select type="Spell" name="Spell (Eldritch Knight)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" spellcasting="Eldritch Knight"/>
+			<select type="Spell" name="Spell (Eldritch Knight)" supports="$(spellcasting:list), $(spellcasting:slots)" level="14" spellcasting="Eldritch Knight"/>
+			<select type="Spell" name="Spell (Eldritch Knight)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" spellcasting="Eldritch Knight"/>
+			<select type="Spell" name="Spell (Eldritch Knight)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" spellcasting="Eldritch Knight"/>
+			<select type="Spell" name="Spell (Eldritch Knight)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" spellcasting="Eldritch Knight"/>
+		</rules>
+	</element>
+
+	<element name="Nível 3: Vínculo de Guerra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_WAR_BOND">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_WAR_BOND</requirements>
+		<description>
+			<p>Você aprende um ritual que cria um vínculo mágico entre você e uma arma. Você realiza o ritual ao longo de 1 hora, o que pode ser feito durante um Descanso Curto. A arma deve estar ao seu alcance durante todo o ritual, no final do qual você toca a arma e forja o vínculo. O vínculo falha se outro Guerreiro estiver vinculado à arma ou se a arma for um item mágico ao qual outra pessoa já está sintonizada.</p>
+			<p class="indent">Depois de vincular uma arma a você, você não pode ser desarmado dessa arma a menos que tenha a condição Incapacitado. Se estiver no mesmo plano de existência, você pode invocar a arma como uma Ação Bônus, fazendo com que ela teletransporte instantaneamente para sua mão.</p>
+			<p class="indent">Você pode ter até duas armas vinculadas, mas só pode invocar uma de cada vez com uma Ação Bônus. Se tentar criar um vínculo com uma terceira arma, você deve quebrar o vínculo com uma das outras duas.</p>
+		</description>
+		<sheet alt="Vínculo de Guerra">
+			<description>Você pode passar 1 hora para se vincular a uma arma. A arma deve estar ao seu alcance durante todo o ritual. Você pode estar vinculado a apenas 2 armas de cada vez. O vínculo falha se outro Guerreiro estiver vinculado à arma ou se a arma for um item mágico sintonizado a outra pessoa. &#13;
+			Você pode invocar uma de suas armas vinculadas para sua mão com uma Ação Bônus. Enquanto estiver segurando uma arma vinculada, você não pode ser desarmado dessa arma, a menos que tenha a condição Incapacitado.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 7: Magia de Guerra" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_WAR_MAGIC">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_WAR_MAGIC</requirements>
+		<description>
+			<p>Quando você realiza a ação de Ataque no seu turno, você pode substituir um dos ataques pela conjuração de um de seus truques de Mago que tenha o tempo de conjuração de uma ação.</p>
+		</description>
+		<sheet alt="Magia de Guerra" action="Ataque">
+			<description>Você pode substituir um de seus ataques por um truque de Mago que tenha o tempo de conjuração de uma ação.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 10: Ataque Místico" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_ELDRITCH_STRIKE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_ELDRITCH_STRIKE</requirements>
+		<description>
+			<p>Você aprende a fazer com que seus golpes de arma enfraqueçam a capacidade de uma criatura de resistir às suas magias. Quando você atinge uma criatura com um ataque usando uma arma, essa criatura tem Desvantagem no próximo teste de resistência que ela fizer contra uma magia conjurada por você antes do fim do seu próximo turno.</p>
+		</description>
+		<sheet alt="Ataque Místico">
+			<description>Quando você atinge uma criatura com uma arma, essa criatura tem Desvantagem no próximo teste de resistência que ela fizer contra uma magia conjurada por você antes do fim do seu próximo turno.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 15: Investida Arcana" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_ARCANE_CHARGE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_ARCANE_CHARGE</requirements>
+		<description>
+			<p>Quando você usa seu Surto de Ação, você pode se teletransportar até 9 metros (30 pés) para um espaço desocupado que possa ver. Você pode se teletransportar antes ou depois da ação adicional.</p>
+		</description>
+		<sheet alt="Investida Arcana" action="Surto de Ação">
+			<description>Você pode se teletransportar até 9 metros para um espaço desocupado que possa ver. Você pode fazer isso antes ou depois da ação adicional.</description>
+		</sheet>
+	</element>
+
+	<element name="Nível 18: Magia de Guerra Aprimorada" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC</requirements>
+		<description>
+			<p>Quando você realiza a ação de Ataque no seu turno, você pode substituir dois dos ataques pela conjuração de uma de suas magias de Mago de nível 1 ou nível 2 que tenha o tempo de conjuração de uma ação.</p>
+		</description>
+		<sheet alt="Magia de Guerra Aprimorada" action="Ataque">
+			<description>Você pode substituir dois de seus ataques por uma magia de Mago de nível 1 ou 2 que tenha o tempo de conjuração de uma ação.</description>
+		</sheet>
+	</element>
+
+	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING" />
+	<element name="War Bond Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_WAR_BOND" />
+	<element name="War Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_WAR_MAGIC" />
+	<element name="Eldritch Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_ELDRITCH_STRIKE" />
+	<element name="Arcane Charge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_ARCANE_CHARGE" />
+	<element name="Improved War Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC" />
+</elements>
